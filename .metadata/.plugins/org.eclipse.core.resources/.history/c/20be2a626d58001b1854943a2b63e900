@@ -1,0 +1,76 @@
+package Seleniumhq;
+
+
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class FlipKartAbsolute {
+
+	public static void main(String[] args) {
+		
+      System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sangavi\\Downloads\\chromedriver_win32\\chromedriver.exe");
+	  WebDriver driver=new ChromeDriver();
+	  driver.get("http://www.google.com");
+	  
+	  driver.manage().window().maximize();
+	  driver.navigate().refresh();
+	  driver.navigate().to("http://www.FlipKart.com");
+
+	  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	  driver.navigate().refresh();
+	  driver.navigate().to("http://www.fb.com");
+		
+	  
+	    List<WebElement> d=driver.findElements(By.tagName("a"));
+		int s= d.size();
+		System.out.println(s);
+		for(int i=0;i<=s-1;i++)
+		{
+			String h= d.get(i).getText();
+			System.out.println(h);
+		}
+		for(WebElement aa :d)
+		{
+			//Collections.sort(d);
+			String j = aa.getAttribute("href");
+			System.out.println(j);
+			//Collections.sort(d);
+		}	 
+		
+//		List<String> ordered = new ArrayList<>(s);
+//		Collections.sort(ordered);
+//		boolean inOrder = ordered.equals(s);
+
+		
+//		WebElement element = driver.findElement(By.tagName("a"));
+//
+//		Select se = new Select(element);
+//
+//		List<String> originalList = new ArrayList();
+//		for (WebElement e : se.getOptions()) {
+//			originalList.add(e.getText());
+//
+//		}
+//		//----logic block starts
+//		List<String> tempList= originalList;
+//		Collections.sort(tempList);
+//		System.out.println(tempList);
+
+		//Assert.assertEquals(tempList, originalList);
+
+		
+		
+		
+	  
+	}
+
+}

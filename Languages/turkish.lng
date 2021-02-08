@@ -1,0 +1,1190 @@
+ProgramID=AceMoney
+Language=Turkish
+
+///////////////////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories_tur.dat
+BANKS=banks_tur.dat
+ACCOUNTTYPES=accounttypes_tur.dat
+
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+
+STATUS=Hazýr
+TRANSFER=Transfer
+DEPOSIT=Para Yatýr
+WITHDRAWAL=Para Çek
+TO=-
+FROM=-
+TOTAL=Toplam
+CLEAREDTOTAL=Net toplam
+RECONCILEDTOTAL=Kalan Toplam
+UNCLEAREDTOTAL=Karýþýk Toplam
+TODAYTEXT=Bugün
+PAGE=Sayfa
+UNASSIGNED=(Atanmamýþ)
+SAVEMODIFIED=Deðiþiklikler kaydedilsin mi?
+REPLACEMENTS=Yeri deðiþtirilmiþ
+INVALIDNUMBER=Hatalý sayý formatý!
+MSG_LOADSAMPLE=Örnek data yüklemek istiyormusunuz?
+IMPORTEDTOTAL=Eklenen Toplam
+MSG_SAMPLEFILEWARNING=Örnek data üzerine kaydedemezsiniz. \nFarklý kaydet'i kullanýn!
+
+[MENU]
+ID_FILE=Dosya
+ID_FILE_NEW=Yeni
+ID_FILE_OPEN=Aç
+ID_FILE_SAVE=Kaydet
+ID_FILE_SAVE_AS=Farklý Kaydet
+ID_FILE_IMPORT=Veri Al
+ID_FILE_EXPORT=Veri Ver
+ID_FILE_PRINT=Yazdýr
+ID_FILE_PRINT_PREVIEW=Baský Önizleme
+ID_APP_EXIT=Çýkýþ
+
+ID_EDIT=Düzen
+ID_EDIT_DELETE=Sil
+ID_EDIT_INSERT=Yeni
+ID_EDIT_SELECTALL=Tümünü Seç
+ID_EDIT_PROPERTIES=Özellikler
+
+ID_VIEW=Görünüm
+ID_VIEW_ACCOUNTS=Hesaplar
+ID_VIEW_BANKS=Bankalar
+ID_VIEW_PAYEES=Cariler
+ID_VIEW_CATEGORIES=Kategoriler ve Bütçe
+ID_VIEW_SCHEDULE=Ön Kayýt
+ID_VIEW_PORTFOLIO=Portföy
+ID_VIEW_REPORTS=Raporlar
+
+ID_ACCOUNTS=Hesaplar
+ID_ACCOUNTS_ADD=Hesap Ekle
+ID_ACCOUNTS_TYPE=Hesap Tipleri
+
+ID_REPORTS=Raporlar
+ID_REPORTS_ADD=Sýk Kullanýlanlar'a Ekle
+ID_REPORTS_ORGANIZE=Düzenle
+
+ID_TOOLS=Araçlar
+ID_TOOLS_CURRENCY=Pariteler
+ID_TOOLS_OPTIONS=Seçenekler
+ID_TOOLS_COLORS=Yazýtipleri ve Renkler
+ID_TOOLS_LANGUAGE=Dil
+ID_TOOLS_BACKUP=Yedekle
+ID_TOOLS_BUDGET=Bütçe
+
+ID_HELP=Yardým
+ID_HELP_TOPICS=Konular
+ID_HELP_HOMEPAGE=AceMoney web-sitesi
+ID_HELP_WHATSNEW=Neler Yeni
+ID_HELP_SUPPORT=Teknik Destek
+ID_HELP_FORUM=Forum
+ID_HELP_TUTORIAL=Online Eðitici
+ID_HELP_REGISTER=AceMoney'e Kaydol
+ID_HELP_ORDER=AceMoney'i Satýnal
+ID_HELP_ABOUT=Hakkýnda
+ID_EDIT_FIND=Bul
+ID_EDIT_COPY=Kopyala
+ID_EDIT_PASTE=Yapýþtýr
+ID_EDIT_ADDTOSCHEDULE=Ön Kayýt Ekle
+ID_TOOLS_RESTORE=Geri Yükle
+ID_TOOLS_INTERNATIONAL=Bölgesel Ayarlar
+ID_TOOLS_CALCULATOR=Hesap Makinasý
+ID_TOOLS_CALCULATOR_LOAN=Kredi Hesaplama
+ID_TOOLS_CALCULATOR_SAVINGS=Yatýrým Hesaplama
+ID_TOOLS_CALCULATOR_MORTGAGE=Mortgage Hesaplama
+ID_TOOLS_TRANSACTION_CATEGORY_LIST=Ýþlem Kategorileri
+
+[TOOLBAR]
+ID_FILE_NEW=Yeni
+ID_FILE_OPEN=Aç
+ID_FILE_SAVE=Kaydet
+ID_VIEW_BACK=Geri
+ID_VIEW_FORWARD=Ýleri
+ID_VIEW_HOME=Ana Sayfa
+ID_VIEW_ACCOUNTS=Hesaplar
+ID_VIEW_BANKS=Bankalar
+ID_VIEW_PAYEES=Cariler
+ID_VIEW_CATEGORIES=Kategoriler
+ID_VIEW_SCHEDULE=Ön Kayýt
+ID_VIEW_REPORTS=Raporlar
+ID_VIEW_PORTFOLIO=Portföy
+ID_HELP_HOMEPAGE=Web Sayfasý
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=Hesaplar
+IDC_ADD=Yeni Hesap
+IDC_BILLS=Ön Kayýt
+IDC_REPORTS=Raporlar
+IDC_CURRENCY=Döviz Kurlarý
+IDC_WEBUPDATE=Kurlarý Güncelle
+IDHELP=Yardým
+
+ID_ACCOUNT_OPEN=Aç
+ID_ACCOUNT_ADD=Yeni Hesap
+ID_ACCOUNT_DELETE=Sil
+ID_ACCOUNT_EDIT=Özellikler
+
+TOTAL=Toplam
+LASTUPDATE=Son Güncelleme
+
+DELETE_CONFIRMATION=%s hesabý ile birlikte tüm baðlý iþlemler silinecektir! \nDevam edilsin mi?
+
+UPDATE_SUCCESS=Döviz kurlarý baþarýyla güncellendi!
+UPDATE_FAILURE=Döviz kurlarý güncellenemedi!\nÝnternet baðlantýsýnda problem olabilir.
+UPDATE_NOTREQUIRED=Güncelleme gerekmiyor.
+ID_ACCOUNT_SHOWNUMBERS=Hesap Numaralarýný Göster
+ID_ACCOUNT_SHOWCLOSED=Kapanmýþ Hesaplarý Göster
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPORTFOLIO]
+TITLE=Portföy
+
+IDC_BUY=Satýnal
+IDC_SELL=Sat
+IDC_DIVIDEND=Karpayý
+IDC_REINVEST=Yatýrýlan Karpayý
+IDC_ADDSHARES=Hisse Ekle
+IDC_REMOVESHARES=Hisse Sil
+
+IDC_ADD=Yatýrým Ekle
+IDC_EDIT=Yatýrým Deðiþtir
+IDC_DELETE=Yatýrým Sil
+
+IDC_WEBUPDATE=Deðerleri Ýndir
+
+IDHELP=Yardým
+
+STOCKLIST=Hisseler
+STOCKTRANSACTIONLIST=Ýþlemler
+
+COLUMN0=Sembol
+COLUMN1=Adý
+COLUMN2=Son Deðeri
+COLUMN3=Miktarý
+COLUMN4=Toplam
+COLUMN5=Kazanç
+
+TRANSACTIONSCOLUMN0=Tarih
+TRANSACTIONSCOLUMN1=Hareket
+TRANSACTIONSCOLUMN2=Sembol
+TRANSACTIONSCOLUMN3=Hesap
+TRANSACTIONSCOLUMN4=Bölünmüþ
+TRANSACTIONSCOLUMN5=Deðeri
+TRANSACTIONSCOLUMN6=Miktarý
+TRANSACTIONSCOLUMN7=Komisyon
+TRANSACTIONSCOLUMN8=Toplam
+TRANSACTIONSCOLUMN9=Açýklama
+
+CANTBEDELETED=Bu hisse iþlem görmüþ!\nSilemezsiniz
+DELETECONFIRMATION=Bu hisse silinecek!\nEminmisiniz ?
+UPDATEISNOTREQUIRED=Güncelleme gerekmiyor.
+UPDATEISNOTCOMPLETE=Bazý yatýrýmlar güncellenemedi!
+INVESTMENTNOTCREATED=Önce bir yatýrým oluþturmalýsýnýz!
+
+ID_EDIT_OPEN=Yatýrýmý Deðiþtir
+ID_EDIT_INSERT=Yeni Yatýrým Ekle
+ID_EDIT_DELETE=Sil
+IDC_NEWTRANSACTION=Yeni Ýþlem
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=Hesap
+IDC_ADD=Yeni
+IDC_EDIT=Deðiþtir
+IDC_DELETE=Sil
+IDC_BALANCE=Hesap Bakiyesi
+IDC_WEBSITE=Hesap Web Sayfasý
+IDC_ACCOUNT=Hesap Bilgilerini Deðiþtir
+IDC_BANK=Banka Bilgilerini Deðiþtir
+IDC_MONTHREPORT=Aylýk Rapor
+IDC_REPORT=30 Günlük Rapor
+IDC_HIDERECONCILED=Kapatýlmýþ Ýþlemleri Gizle
+IDHELP=Yardým
+
+COLUMN0=Hesap Numarasý
+COLUMN1=Tarih
+COLUMN2=Cari
+COLUMN3=Kategori
+COLUMN4=Durumu
+COLUMN5=Gider
+COLUMN6=Gelir
+COLUMN7=Toplam
+COLUMN8=Açýklama
+
+BANKISNOTASSIGNED=Bu özellik, banka hesaplarýnda kullanýlýr.
+PAGEISNOTASSIGNED=Web adresi yok. Banka tanýmlarýndan ekleyebilirsiniz.
+STATUS=Bu ay %s kategorisinden %.2f harcama yapmýþsýnýz.
+STATUSINCOME=Bu ay %s kategorisinden %.2f gelir elde etmiþsiniz.
+
+ID_EDIT_OPEN=Deðiþtir
+ID_TRANSACTION_UNCLEARED=Netleþmemiþ
+ID_TRANSACTION_CLEARED=Netleþmiþ
+ID_TRANSACTION_RECONCILED=Kapatýlmýþ
+ID_EDIT_INSERT=Yeni Ýþlem
+ID_EDIT_INSERTBILL=Gerçek Kayýt
+ID_EDIT_DELETE=Sil
+
+BILLDELETECONFIRMATION=Bu komut kayýta baðlý tüm gelecek dönem iþlemlerini silecek!
+TRANSACTIONDELETECONFIRMATION=Eminmisiniz?
+RECONCILEDTRANSACTIONCONFIRMATION=Bu kapatýlmýþ bir iþlemdir, deðiþiklik önerilmez! Devam edilsin mi? 
+CLEAREDTRANSACTIONCONFIRMATION=Bu netleþmiþ bir iþlemdir, deðiþiklik önerilmez! Devam edilsin mi?
+CANNOTSORTBYTOTAL=Toplama göre sýralayamazsýnýz!
+ID_EDIT_COPY=Kopyala
+ID_EDIT_PASTE=Yapýþtýr
+ID_EDIT_ADDTOSCHEDULE=Ön Kayýt Oluþtur
+ID_EDIT_CATEGORY=Kategori Düzenle
+ID_EDIT_PAYEE=Cari Düzenle
+ID_REPORTS_CATEGORY=Kategori Raporu
+ID_REPORTS_PAYEE=Cari Raporu
+STATUSSUM=Seçilen Ýþlemelerin Toplamý
+ID_EDIT_CATEGORYCHANGE=Kategori Deðiþtir
+ID_EDIT_PAYEECHANGE=Cari Deðiþtir
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=Yeni
+IDC_EDIT=Deðiþtir
+IDC_DELETE=Sil
+IDC_DELETEUNUSED=Kullanýlmayanlarý Sil
+IDHELP=Yardým
+
+COLUMN0=Banka Adý
+COLUMN1=Adres
+COLUMN2=Web Sayfasý
+COLUMN3=Açýklama
+
+CANTBEDELETED=Banka iþlem görmüþ!\Silemezsiniz
+DELETECONFIRMATION=Eminmisiniz?
+DELETEUNUSED=Bu komut hesaplarýnýzla baðlanmayan tüm bankalarý silecek! Devam edilsin mi? 
+
+ID_EDIT_OPEN=Deðiþtir
+ID_EDIT_INSERT=Yeni Banka
+ID_EDIT_DELETE=Sil
+IDC_IMPORT=Veir Al
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=Yeni
+IDC_EDIT=Deðiþtir
+IDC_DELETE=Sil
+IDC_DELETEUNUSED=Kullanýlmayanlarý Sil
+IDC_REPORT=Kategori Raporu
+IDC_BUDGETREPORT=Bütçe Raporu
+IDC_BUDGET=Bütçe Ayarlarý
+IDC_IMPORT=Veri Al
+IDC_MERGE=Birleþtir
+IDHELP=Yardým
+
+COLUMN0=Kategori
+COLUMN0a=Kod
+COLUMN1=Bütçelenmiþ
+COLUMN1a=Gelir
+COLUMN2a=Gider
+COLUMN2=Açýklama
+COLUMN3=Açýklama
+
+CANTBEDELETED=Kategori iþlem görmüþ!\Silemezsiniz
+PARENTCANTBEDELETED=Bu kategorinin alt kategorisi var! Silmek için önce onun alt kategorisini silmelisiniz
+DELETECONFIRMATION=Eminmisiniz?
+DELETEUNUSED=Bu komut iþlemler tarafýndan kullanýlmayan tüm kategorileri silecek! Devam edilsin mi?
+ID_EDIT_OPEN=Deðiþtir
+ID_EDIT_INSERT=Yeni
+ID_EDIT_DELETE=Sil
+
+TOTALINCOME=Gelir:
+TOTALEXPENSE=Gider:
+COLUMN2c=Peryod
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=Yeni
+IDC_EDIT=Deðiþtir
+IDC_DELETE=Sil
+IDC_DELETEUNUSED=Kullanýlmayanlarý Sil
+IDC_REPORT=Cari Raporu
+IDC_MERGE=Birleþtir
+IDHELP=Yardým
+
+COLUMN0=Adý
+COLUMN1=Adres
+COLUMN2=Açýklama
+
+CANTBEDELETED=Bu cari iþlem görmüþ!\Silemezsiniz
+DELETECONFIRMATION=Eminmisiniz?
+DELETEUNUSED=Bu komut iþlemler tarafýndan kullanýlmayan tüm carileri silecek! Devam edilsin mi?
+
+ID_EDIT_OPEN=Deðiþtir
+ID_EDIT_INSERT=Yeni
+ID_EDIT_DELETE=Sil
+COLUMN3=Telefon
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=Tarihe Göre Filtre
+IDC_SETDATES=Tarih Aralýðý Seç
+IDC_USECATEGORYFILTER=Kategorilere Göre Filtre
+IDC_SETCATEGORIES=Kategorileri Seç
+IDC_USEPAYEEFILTER=Carilere Göre Filtre
+IDC_SETPAYEES=Carileri Seç
+IDC_USEACCOUNTFILTER=Hesaplara Göre Filtre
+IDC_SETACCOUNTS=Hesaplarý Seç
+IDC_TRANSACTIONS=Ýþlemler Raporu
+IDC_CATEGORY=Kategorilere Göre Harcama
+IDC_SUBCATEGORY=Alt kategorilere Göre Harcama
+IDC_PAYEE=Carilere Göre Harcama
+IDC_BUDGET=Mevcut Bütçe Peryodu
+IDC_CASHFLOW=Net Deðer Raporu
+IDC_LAST30DAYS=Son 30 Günlük Ýþlemler
+
+IDHELP=Yardým
+IDC_TABLE=Tablo Þeklinde
+IDC_CHART=Grafik
+IDC_INCOMECHART=Gelir Pasta Grafiði
+IDC_EXPENSECHART=Gider Pasta Gýrafiði
+IDC_PERIODCHART=Dönem Grafiði
+IDC_TOTALCHART=Toplamlar Grafiði
+
+CATEGORYCOLUMN0=Kategori
+CATEGORYCOLUMN1=Tutar
+CATEGORYCOLUMN2=Bütçelenmiþ
+CATEGORYCOLUMN3=Fark
+CATEGORYCOLUMN4=Kod
+CATEGORYCOLUMN5=Gelir
+CATEGORYCOLUMN6=Gider
+
+CASHFLOWCOLUMN0=Tarih
+CASHFLOWCOLUMN1=Dönem Toplamý
+CASHFLOWCOLUMN2=Toplam
+
+OTHERS=Diðerleri
+
+GENERALREPORTS=Genel Raporlar
+CATEGORYREPORTS=Kategori Raporlarý
+PAYEEREPORTS=Cari Raporlarý
+BUDGETREPORTS=Bütçe Raporlarý
+
+PAYEECOLUMN0=Cari
+PAYEECOLUMN1=Tutar
+PAYEECOLUMN2=Gelir
+PAYEECOLUMN3=Gider
+IDC_BUDGETCATEGORY=Kategorilere Göre Harcama
+IDC_BUDGETSUBCATEGORY=Alt Kategorilere Göre Harcama
+IDC_INCLUDETRANSFERS=Aktarýmlarý Ýçerir
+FAVORITEREPORTS=Sýk Kullanýlan Raporlar
+IDC_NETWORTH=Net Deðer Raporu
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Gerçek Kayýt
+IDC_ADD=Yeni
+IDC_EDIT=Deðiþtir
+IDC_DELETE=Sil
+IDHELP=Yardým
+
+COLUMN0=Tarih
+COLUMN1=Ýþlem
+COLUMN2=Cari
+COLUMN3=Tutar
+COLUMN4=Açýklama
+
+IDC_TABLE=Tablo
+IDC_CALENDAR=Takvim
+
+DELETECONFIRMATION=Eminmisiniz?
+
+ID_EDIT_OPEN=Gerçek Kayýt
+ID_EDIT_INSERT=Yeni
+ID_EDIT_DELETE=Sil
+ID_EDIT_PROPERTIES=Özellikler
+ID_EDIT_COPY=Kopyala
+ID_EDIT_PASTE=Yapýþtýr
+COLUMN5=Tekrar
+CHANGE_OF_ACCOUNT=Gelecek dönem iþlemleri için baþka bir hesap kullanmak istermisiniz?
+CHANGE_OF_AMOUNT=Gelecek dönem iþlemleri için baþka bir hesap kullanmak istermisiniz?
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=Hakkýnda
+
+[IDD_ACCOUNT]
+TITLE=Hesap
+IDC_NAMETEXT=Adý :
+IDC_TYPETEXT=Tipi :
+IDC_BANKTEXT=Banka :
+IDC_NUMBERTEXT=Hesap Numarasý :
+IDC_BALANCETEXT=Açýlýþ Bakiyesi :
+IDC_CURRENCYTEXT=Parabirimi :
+IDC_CLOSED=Bu Hesabý Kapat!.
+IDC_COMMENTTEXT=Açýklama
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+ERR_NOACCOUNTNAME=Hesabýn bir adý olmalý!
+ERR_NOACCOUNTTYPE=Hesabýn bir tipi olmalý!
+ERR_NOCURRENCY=Hesabýn bir para birimi olmalý!
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=Hesap Tipleri
+IDC_ADD=Ekle
+IDC_DELETE=Sil
+IDC_EDIT=Deðiþtir
+IDOK=Tamam
+IDCANCEL=Vazgeç
+
+ERR_CANTDELETE=Bu tip hesaplarýn birisiyle kullanýlmýþtýr!
+
+[IDD_ACCOUNTTYPE]
+TITLE=Hesap Tipi
+IDC_NAMETEXT=Adý
+IDOK=Tamam
+IDCANCEL=Vazgeç
+
+ERR_NOACCTYPENAME=Tipin bir adý olmalý!
+
+[IDD_BACKUP]
+TITLE=Yedekle
+IDC_LASTBACKUPTEXT=Geri Yükle
+IDC_FREQUENCYTEXT=Tekrar
+IDC_DIRECTORYTEXT=Klasör
+IDC_BACKUP=Þimdi Yedekle!
+IDC_AUTOMATIC=Otomatik yedekle
+
+IDC_EVERYDAY=Günlük
+IDC_EVERYWEEK=Haftalýk
+IDC_EVERYOTHERWEEK=Diðer Her Hafta
+
+IDC_BROWSE=Gözat
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+ERR_INVALIDDIR=Geçerli bir yol girmelisiniz!
+ERR_COPYFILE=Yedekleme sýrasýnda bir hata oluþtu!
+ERR_BACKUPTIME=Ayarlarýnýza göre yedekleme zamaný geldi! Devam edilsin mi?
+ERR_NEWFILE=Yedeklemeden önce dosyayý kaydedin!
+ERR_COPYFILE_RESTORE=Geri yükleme sýrasýnda bir hata oluþtu!
+SELECT_FILE_TO_RESTORE=Geri yükleme dosyasýný seçin
+SELECT_RESTORE_DIR=Dosyayý nereye kaydetmek istersiniz?
+OPEN_RESTORED_FILE=Geri yüklenen dosyayý açmak istermisiniz?
+IDC_ENABLEBACKUP=Yedekleme Aktif
+
+[IDD_BALANCE]
+TITLE=Hesap Bakiyesi
+IDC_CLEAREDDEPOSITS=Net Gelirler
+IDC_CLEAREDWITHDRAWALS=Net Giderler
+IDC_RECONCILEDTEXT=Önceki Bakiye
+IDC_CLEAREDTEXT=Þimdiki Bakiye
+IDC_UNCLEAREDTEXT=Kalan Bakiye
+IDC_SELECTALL=Tümünü Seç
+IDC_DESELECTALL=Temizle
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+IDC_NEWTRANSACTION=Yeni
+
+[IDD_BANK]
+TITLE=Banka
+IDC_NAMETEXT=Adý
+IDC_ADDRESSTEXT=Adres
+IDC_WEBSITETEXT=Web Sayfasý
+IDC_COMMENTTEXT=Açýklama
+IDC_BANKNUMBERTEXT=Hesap Numarasý
+IDC_SWIFTCODETEXT=Gönderim Kodu
+IDC_TRANSFERCODETEXT=Transfer Kodu
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+ERR_NOBANKNAME=Bankanýn bir adý olmalý!
+
+[IDD_BILL]
+TITLE=Ön Kayýt
+
+IDC_FREQUENCYGROUP=Tekrar
+IDC_ONCE=Birkez
+IDC_DAILY=Günlük
+IDC_WEEKLY=Haftalýk
+IDC_EVERYOTHERWEEK=Diðer Her Haftada
+IDC_TWICEAMONTH=Ayda 2 Kez
+IDC_EVERYFOURWEEKS=Her 4 Haftada
+IDC_MONTHLY=Aylýk
+IDC_EVERYOTHERMONTH=Diðer Her Ayda
+IDC_QUARTERLY=Üç Ayda
+IDC_EVERYSIXMONTHS=Her 6 Ayda
+IDC_ANNUALLY=Yýlda Bir
+IDC_STARTDATETEXT=Baþlangýç Tarihi
+
+IDC_TRANSACTIONGROUP=Ýþlem
+IDC_TYPETEXT=Tip
+IDC_DEPOSIT=Gelir
+IDC_WITHDRAWAL=Gider
+IDC_TRANSFER=Transfer
+IDC_ACCOUNTTEXT=Hesap
+IDC_PAYEETEXT=Cari
+IDC_CATEGORYTEXT=Kategori
+IDC_SPLIT=Parçalý
+IDC_AMOUNTTEXT=Tutar
+IDC_COMMENTTEXT=Açýklama
+
+IDC_ENTER=Hesaba Ekle
+IDC_AUTOMATIC=Otomatik Kaydet 
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+ERR_INVALIDACCOUNT=Geçersiz hesap adý!
+IDC_BILLTYPETEXT=Ýþlemin Tipi
+BILLTYPE_CONTINUOUS=Sürekli
+BILLTYPE_NUMBERED=Sayýlý
+IDC_NUMBERTEXT=Sayýsý
+ERR_INVALIDNUMBER=Ödemelerin sayýsý 1' den küçük olamaz
+IDC_EVERYFOURMONTHS=Her 4 Ayda
+
+[IDD_BUDGET]
+TITLE=Bütçe
+
+IDC_STARTDATETEXT=Dönem baþlangýcý:
+IDC_FREQUENCYTEXT=Bütçe dönemi:
+
+IDC_WEEKLY=Bir hafta
+IDC_EVERYOTHERWEEK=Ýki hafta
+IDC_TWICEAMONTH=Yarým ay
+IDC_EVERYFOURWEEKS=Her dört hafta
+IDC_MONTHLY=Bir ay
+IDC_EVERYOTHERMONTH=Ýki ay
+IDC_QUARTERLY=Üç ay
+IDC_ANNUALLY=Bir yýl
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+[IDD_CATEGORY]
+TITLE=Kategori
+
+IDC_NAMETEXT=Kategori
+IDC_SUBNAMETEXT=Alt Kategori
+IDC_COMMENTTEXT=Açýklama
+IDC_BUDGETTEXT=Bütçelenmiþ
+IDC_NUMBERTEXT=Hesap Numarasý
+
+IDC_INCOME=Gelir
+IDC_EXPENSE=Gider
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+ERR_NOCATNAME=Kategorinin bir adý olmalý!
+ERR_CATEXIST=Ayný isimli bir kategori var!
+IDC_BUDGETPERIODTEXT=Bütçe Peryodu
+PERIOD_ONE_WEEK=Bir Hafta
+PERIOD_TWO_WEEKS=Ýki Hafta
+PERIOD_HALF_MONTH=Çeðrek Ay
+PERIOD_ONE_MONTH=Bir Ay
+PERIOD_TWO_MONTHS=Ýki Ay
+PERIOD_THREE_MONTHS=Üç Ay
+PERIOD_FOUR_MONTHS=Dört Ay
+PERIOD_SIX_MONTHS=Altý Ay
+PERIOD_NINE_MONTHS=Dokuz Ay
+PERIOD_ONE_YEAR=Bir Yýl
+
+[IDD_CATEGORYMERGE]
+TITLE=Kategori Birleþtir
+
+IDC_CATEGORYTEXT=Kategori Birleþtir
+IDC_CATEGORYTEXT1=Birleþecek Kategori
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+ERR_NOCATEGORIES=Seçilen kategoriler birbirinden farklý olmalý!
+ERR_SOURCECATEGORY=Kaynak kategori alt kategori olamaz!
+ERR_TARGETCATEGORY=Hedef kategori kaynak kategorinin alt kategorisi olamaz!
+
+[IDD_COLORS]
+TITLE=Yazýtipleri ve Renkler
+
+IDC_ACCOUNTLISTTEXT=Hesaplar Listesi
+IDC_ACCOUNTTEXT=Hesap Kaydý
+IDC_BANKTEXT=Bankalar
+IDC_CATEGORYTEXT=Kategoriler
+IDC_PAYEETEXT=Cariler
+IDC_SCHEDULETEXT=Zaman Çizelgesi
+IDC_REPORTTEXT=Raporlar
+IDC_PORTFOLIOTEXT=Portföy
+
+IDC_LISTFONTTEXT=Font Listesi
+
+IDC_RESTORE=Varsayýlan
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDC_TABLEFONTCOLORTEXT=Tablo Metin Rengi
+IDC_TABLEBILLFONTCOLORTEXT=Gelecek Dönem Kayýtlarý Rengi
+IDC_TABLEBACKGROUNDTEXT1=Tablo Zemin Rengi 1
+IDC_TABLEBACKGROUNDTEXT2=Tablo Zemin Rengi 2
+
+[IDD_CURRENCY]
+TITLE=Döviz Kurlarý
+IDC_SHOWALL=Tüm Dövizleri Göster
+IDC_CURRENCYINFO=Varsayýlan Parabirimi: %s
+IDC_DOWNLOAD=Kurlarý Güncelle
+IDC_UPDATE=Güncel Kur
+
+IDOK=Kapat
+IDHELP=Yardým
+
+COLUMN0=Parabirimi
+COLUMN1=Parite:
+COLUMN2=Tarih
+
+ERR_WEBUPDATE=Güncelleme esnasýnda bir hata oluþtu!
+ERR_INVALIDRATE=Geçersiz kur alýndý
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=Parite
+IDOK=Tamam
+IDCANCEL=Vazgeç
+
+[IDD_SHEETREPORTFILTER]
+TITLE=Rapor Filtresi
+
+[IDD_DATESRANGE]
+TITLE=Dönem Seç
+
+IDC_BUDGETDATES=Bütçe Peryodu:
+IDC_CUSTOMDATES=Özel Tarih:
+IDC_FROMTEXT=Kaynak
+IDC_TOTEXT=Hedef
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+CURRENT=Þimdiki
+CUSTOM=Özel
+CURRENTWEEK=Þimdiki Hafta
+PREVIOUSWEEK=Geçen Hafta
+LAST30DAYS=Geçen 30 Gün
+CURRENTMONTH=Þimdiki Ay
+PREVIOUSMONTH=Geçen Ay
+CURRENTQUARTER=Þimdiði Çeyrek
+PREVIOUSQUARTER=Geçen Çeyrek
+CURRENTYEAR=Þimdiki Yýl
+PREVIOUSYEAR=Geçen Yýl
+IDC_PERIODSTEXT=Önceden Tanýmlanan Dönemler
+
+[IDD_FILTERACCOUNT]
+TITLE=Hesaplarý Seç
+
+IDC_SELECTALL=Tümünü Seç
+IDC_CLEARALL=Tümünü Temizle
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+[IDD_FILTERCATEGORY]
+TITLE=Kategorileri Seç
+
+IDC_SELECTALL=Tümünü Seç
+IDC_CLEARALL=Tümünü Temizle
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+[IDD_FILTERPAYEE]
+TITLE=Carileri Seç
+
+IDC_SELECTALL=Tümünü Seç
+IDC_CLEARALL=Tümünü Temizle
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+[IDD_IMPORT]
+TITLE=Veri Al
+EXPORTTITLE=Veri ver
+
+IMPORTTEXT=%d iþlem alýndý
+EXPORTTEXT=Veri ver'e hesap seç
+
+ERR_NOACCOUNT=Hesap Seçmelisin!
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+IDC_DATEFORMATTEXT=Tarih Formatý
+IDC_NEWACCOUNT=Yeni Hesap
+IDC_IMPORTTEXT=Eklenecek Ýþlemler Ýçin Bir Hesap Seçin
+
+[IDD_LANGUAGE]
+TITLE=Dil Seç
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+
+[IDD_OPTIONS]
+TITLE=Seçenekler
+
+IDC_GENERALGROUP=Genel
+IDC_DATETEXT=Tarih formatý
+IDC_DATESEPARATORTEXT=Tarih ayýrýcý
+IDC_SHOWCLOSEDACCOUNTS=Kapatýlmýþ Hesaplarý Göster
+IDC_SHOWGRID=Tablolarda Hücreleri Göster
+IDC_LOADLASTFILE=Açýlýþta Son Dosyayý Aç
+IDC_SHOWCOMMENT=Ýþlem Açýklamalarýný Göster
+IDC_CURRENCYTEXT=Varsayýlan para birimi
+IDC_AUTOSAVE=Otomatik Kaydet
+IDC_SHOWFUTUREBILLS=Gelecekteki planlý kayýtlarý göster
+IDC_SHOWSPLASHSCREEN=Açýlýþ Ekranýný Göster
+IDC_SHOWFILENAME=Baþlýkta Dosya Adýný Göster
+IDC_SHOWSOLDSTOCKS=Satýlmýþ Hisseleri Göster
+
+IDC_STARTPAGEGROUP=Açýlýþta Göster
+IDC_ACCOUNTLIST=Hesaplar Listesi
+IDC_FAVORITEACCOUNT=Ana Hesap
+
+IDC_PASSWORDGROUP=Þifre
+IDC_OLDPASSTEXT=Geçerli Þifre
+IDC_NEWPASSTEXT=Yeni Þifre
+IDC_RETYPETEXT=Tekrar Yeni Þifre
+
+IDC_DECIMALSEPARATORTEXT=Ondalýk ayýrýcý
+IDC_THOUSANDSEPARATORTEXT=Binlik ayýrýcý
+
+IDC_TRANSACTIONTYPETEXT=Yeni Ýþlem Tipi
+LASTUSEDTYPE=Son Kullanýlan Tip
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+ERR_THOUSANDDECIMAL=Ondalýk ayýrýcý ve binlik ayýrýcý ayný olamazlar! 
+ERR_THOUSAND=Geçersiz binlik ayýrýcý!
+ERR_INVALIDOLDPASSWORD=Eski Þifreniz Geçersiz!
+ERR_INVALIDNEWPASSWORD=Yeni Þifreniz Geçersiz!
+IDC_NUMBEROFDECIMALDIGITSTEXT=Ondalýk rakam sayýsý
+IDC_TRANSACTIONNUMBERTEXT=Yeni Ýþlem Sayýsý
+NUMBER_EMPTY=Boþ
+NUMBER_DEBIT=Borç
+NUMBER_AUTO=Son Sayý + 1
+IDC_SHOWDEPOSITSFIRST=Bir Günün Ýlk Ýþlemleri Gelirlerdir
+IDC_SHOWACCOUNTNUMBERS=Hesap Numaralarýný Göster
+IDC_NUMBEROFFUTUREBILLSMONTHSTEXT=Ön Kayýtlarý Göster
+0_MONTHS_AHEAD=Hiç Biri
+1_MONTHS_AHEAD=1 ay sonrasý
+2_MONTHS_AHEAD=2 ay sonrasý
+3_MONTHS_AHEAD=3 ay sonrasý
+4_MONTHS_AHEAD=4 ay sonrasý
+5_MONTHS_AHEAD=5 ay sonrasý
+6_MONTHS_AHEAD=6 ay sonrasý
+7_MONTHS_AHEAD=7 ay sonrasý
+8_MONTHS_AHEAD=8 ay sonrasý
+9_MONTHS_AHEAD=9 ay sonrasý
+10_MONTHS_AHEAD=10 ay sonrasý
+11_MONTHS_AHEAD=11 ay sonrasý
+12_MONTHS_AHEAD=12 ay sonrasý
+IDC_ADDINVESTMENTVALUE=Dengeleme Hesabýna Hisse Deðerlerini Ekle
+IDC_TRANSFERSTATUS=Her Ýki Hesabýn Transfer Durumunu Deðiþtir
+IDC_SHOWCATEGORYSTATUS=Durum Çubuðunda Kategori Analizini Göster
+
+[IDD_PASSWORD]
+TITLE=Þifrenizi Girin
+IDC_PASSTEXT=Þifre
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+
+ERR_INVALIDPASSWORD=Geçersiz þifre!
+
+[IDD_PAYEE]
+TITLE=Cari
+IDC_NAMETEXT=Adý
+IDC_ADDRESSTEXT=Adres
+IDC_COMMENTTEXT=Açýklama
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+ERR_NOPAYEENAME=Carinin bir adý olmalý!
+IDC_CITYTEXT=Ýl
+IDC_STATETEXT=Ýlçe
+IDC_ZIPTEXT=Posta Kodu
+IDC_COUNTRYTEXT=Ülke
+IDC_HOMEPHONETEXT=Ev Telefonu
+IDC_WORKPHONETEXT=Ýþ Telefonu
+IDC_MOBILEPHONETEXT=Cep Telefonu
+IDC_FAXTEXT=Faks
+IDC_PAGERTEXT=Çaðrý
+IDC_EMAILTEXT=e-mail
+IDC_WEBSITETEXT=Web sayfasý
+
+[IDD_PAYEEMERGE]
+TITLE=Carileri Birleþtir
+IDC_PAYEETEXT=Carisini
+IDC_PAYEETEXT1=Carisiyle
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+ERR_NOPAYEES=Seçilen cariler birbirinden farklý olmalý!
+
+[IDD_PRINTPREVIEW]
+TITLE=Baský Önizleme
+IDC_PAGETEXT=Sayfa
+IDC_PRINT=Yazdýr
+
+IDOK=Tamam
+IDHELP=Yardým
+IDC_CLOSE=Kapat
+IDC_PAGEPROPERTIES=Sayfa Ayarý
+IDC_PREVIOUSPAGE=<< Önceki
+IDC_NEXTPAGE=Sonraki >>
+IDC_ZOOMIN=Yakýnlaþ
+IDC_ZOOMOUT=Uzaklaþ
+IDC_PAGEOFTEXT=-
+
+[IDD_REGISTER]
+TITLE=Kayýt
+
+IDC_NAMETEXT=Adý:
+IDC_SERIALNUMBERTEXT=Seri Numarasý:
+
+IDC_ORDER=Satýnal...
+
+IDOK=Tamam
+
+[IDD_SPLIT]
+TITLE=Kategorilere Parçala
+
+IDC_CATEGORYTEXT=Kategori
+IDC_SUBCATEGORYTEXT=Alt Kategori
+IDC_AMOUNTTEXT=Tutar
+IDC_ADD=Ekle
+IDC_EDIT=Deðiþtir
+IDC_DELETE=Sil
+IDC_TOTALTEXT=Toplam:
+IDC_UNASSIGNEDTEXT=Atanmamýþ:
+IDC_COMMENTTEXT=Açýklama
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+COLUMN0=Kategori
+COLUMN1=Alt Kategori
+COLUMN2=Tutar
+COLUMN3=Açýklama
+
+ERR_BADTOTAL=Parçalanmýþ tutarlarýn toplamý, iþlemin tutarýna eþit deðildir. Ýþlemin tutarýný deðiþtirmek istermisiniz?
+
+[IDD_SPLITITEM]
+TITLE=Parçalama Kalemleri
+IDC_CATEGORYTEXT=Kategori
+IDC_SUBCATEGORYTEXT=Alt Kategori
+IDC_AMOUNTTEXT=Tutar
+IDC_COMMENTTEXT=Açýklama
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+[IDD_TRANSACTION]
+TITLE=Ýþlem
+
+IDC_TYPETEXT=Tip
+IDC_DEPOSIT=Gelir
+IDC_WITHDRAWAL=Gider
+IDC_TRANSFER=Transfer
+IDC_ACCOUNTTEXT=Hesap
+IDC_PAYEETEXT=Cari
+IDC_CATEGORYTEXT=Kategori
+IDC_SPLIT=Parçalý
+IDC_COMMENTTEXT=Açýklama
+IDC_DATETEXT=Tarih
+IDC_NUMBERTEXT=Hesap Numarasý
+IDC_AMOUNTTEXT=Tutar
+
+FROMTEXT=Kaynak
+TOTEXT=Hedef
+SPLIT=Parçalý
+DEBIT=Borç
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+ERR_SAMETRANFER=Ayný hesaba aktarma yapamazsýnýz!
+ERR_INVALIDACCOUNT=Geçersiz hesap ismi!
+ERR_SPLITAMOUNT=Ýþlemin tutarý parçalarýn tutarýna eþit olmalý!
+ERR_SPLIT_HAS_TRANSFERS=Seçilenler Arasýnda Bir iþlem Parçalanamýyor. \nÝþlemi Çýkartýp Tipini Deðiþtirip Yeniden Deneyin!
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Parite
+
+IDC_SOURCEAMOUNTTEXT=Kaynak Tutar
+IDC_TARGETAMOUNTTEXT=Hedef Tutar
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+
+[IDD_DAYBILLS]
+TITLE=Ön Kayýt
+
+COLUMN0=Tarih
+COLUMN1=Ýþlem
+COLUMN2=Cari
+COLUMN3=Tutar
+COLUMN4=Açýklama
+
+IDC_ENTER=Gerçek Kayýt
+IDC_EDIT=Deðiþtir
+
+IDOK=Tamam
+IDHELP=Yardým
+COLUMN5=Tekrar
+
+[IDD_LITEVERSION]
+TITLE=AceMoney Lite  
+
+IDC_TEXT=AceMoney Lite sadece bir hesap destekler. Daha fazla özellik için tam sürüm AceMoney kullanmalýsýnýz.
+IDC_WEBSITE=Güncelle
+IDOK=Kapat
+
+[IDD_STOCK]
+TITLE=Yatýrým
+
+IDC_SYMBOLTEXT=Sembol
+IDC_NAMETEXT=Adý
+IDC_COMMENTTEXT=Açýklama
+IDC_UPDATE=Güncelle
+IDC_WEBUPDATE=Ýndir
+IDC_PRICETEXT=Geçmiþ Deðerler
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+
+COLUMN0=Tarih
+COLUMN1=Deðeri
+IDC_CURRENCYTEXT=Parabirimi
+IDC_LOOKUP=Sembol Ara
+
+[IDD_STOCKPRICE]
+TITLE=Hisse Deðeri
+
+IDC_DATETEXT=Tarih
+IDC_PRICETEXT=Deðeri
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+
+[IDD_STOCKTRANSACTION]
+TITLE=Yatýrým Ýþlemleri
+
+IDC_DATETEXT=Tarih
+IDC_ACCOUNTTEXT=Hesap
+IDC_ACTIONTEXT=Hareket
+IDC_INVESTMENTTEXT=Yatýrým
+
+IDC_DIVIDENDTEXT=Bölünmüþ
+IDC_NUMBERTEXT=Hisse Sayýsý
+IDC_PRICETEXT=Deðeri
+IDC_COMMISSIONTEXT=Komisyon
+IDC_TOTALTEXT=Toplam
+
+BUY=Al
+SELL=Sat
+DIVIDEND=Bölünmüþ
+REINVEST=Kâr'ý Yeniden Yatýr
+ADD=Hisse Ekle
+REMOVE=Hisse Sil
+
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+ERR_NEGATIVEVALUES=Hisse Sayýsý, Beher Bedeli, Kar'ý, Komisyonu ve Toplamý Negatif (-) Olamaz!
+ERR_INVALIDACTIONTYPE=Geçersiz Hesap Tipi!
+ERR_INVALIDACCOUNT=Geçersiz Hesap!
+ERR_INVALIDINVESTMENT=Geçersiz Yatýrým
+
+[IDD_REPORTADD]
+TITLE=Sýk Kullanýlanlara Ekle
+IDC_NAMETEXT=Raporun Adý
+IDOK=Tamam
+IDCANCEL=Vazgeç
+
+[IDD_REPORTORGANIZE]
+TITLE=Raporlarý Düzenle
+IDC_DELETE=Sil
+IDOK=Oluþtur
+IDCANCEL=Kapat
+[IDD_SEARCH]
+IDC_TOTEXT=Hedef
+IDC_AMOUNTTOTEXT=Hedef
+IDC_FROMTEXT=Kaynak
+IDC_AMOUNTFROMTEXT=Kaynak
+IDC_DATETEXT=Tarih
+IDC_AMOUNTTEXT=Tutar
+IDC_CLOSE=Kapat
+IDC_SEARCH=Bul
+IDC_COMMENTTEXT=Metin
+TITLE=Ýþlemleri Bul
+[IDD_INTERNATIONALSETTINGS]
+TITLE=Bölgesel Ayarlar
+IDC_DATETEXT=Tarih Formatý
+IDC_DATESEPARATORTEXT=Tarih Ayýrýcý
+IDC_CURRENCYTEXT=Para Birimi
+IDC_DECIMALSEPARATORTEXT=Ondalýk Ayýrýcý
+IDC_THOUSANDSEPARATORTEXT=Binlik Ayýrýcý
+IDC_NUMBEROFDECIMALDIGITSTEXT=Ondalýk Hane Sayýsý
+ERR_THOUSANDDECIMAL=Ondalýk Hane ve Binlik Ayýrýcýsý ayný olamaz
+ERR_THOUSAND=Geçersiz Binlik Ayýrýcý
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDHELP=Yardým
+[IDD_CATEGORYCHANGE]
+TITLE=Kategori Deðiþtir
+IDOK=Tamam
+IDCANCEL=Vazgeç
+[IDD_EXPORT]
+TITLE=Veri Ver
+IDC_EXPORTTEXT=Veri Verecek Hesabý Seçin
+IDC_STARTDATETEXT=Baþlangýç Tarihi
+IDC_ENDDATETEXT=Bitiþ Tarihi
+ERR_NOACCOUNT=Lütfen Bir Hesap Seçin!
+IDOK=Tamam
+IDCANCEL=Vazgeç
+[IDD_PAYEECHANGE]
+TITLE=Cari Deðiþtir
+IDOK=Tamam
+IDCANCEL=Vazgeç
+[IDD_PAGESETUP]
+TITLE=Sayfa Ayarý
+IDOK=Tamam
+IDCANCEL=Vazgeç
+IDC_PAPERBOX=Kaðýt
+IDC_MARGINBOX_MM=Sayfa Sýnýrý (mm)
+IDC_MARGINBOX_INCH=Sayfa Sýnýrý (inch)
+IDC_TITLETEXT=Baþlýk:
+IDC_PAPERSIZETEXT=Boyut:
+IDC_PORTRAIT=Düþey
+IDC_LANDSCAPE=Yatay
+IDC_TMTEXT=Üst:
+IDC_BMTEXT=Alt:
+IDC_LMTEXT=Sol:
+IDC_RMTEXT=Sað:
+IDC_ORIENTATIONBOX=Yerleþim
+[IDD_TRANSACTIONCATEGORYLIST]
+TITLE=Ýþlem Kategorileri
+IDC_ADD=Yeni
+IDC_DELETE=Sil
+IDC_EDIT=Deðiþtir
+IDOK=Kapat
+IDHELP=Yardým
+[IDD_TRANSACTIONCATEGORY]
+TITLE=Ýþlem Kategorisi
+IDC_NAMETEXT=Adý
+IDOK=Tamam
+IDCANCEL=Vazgeç
+ERR_NONAME=Bir isim vermelisiniz!
+[IDD_STARTUP_CURRENCY]
+TITLE=Para Birimi Ayarlarý
+IDC_CURRENCYTEXT=Para Birimi
+IDC_NUMBEROFDECIMALSTEXT=Ondalýk Hane Sayýsý
+IDC_DECIMALSEPARATORTEXT=Ondalýk Ayýrýcý
+IDC_THOUSANDSEPARATORTEXT=Binlik Ayýrýcý
+IDC_EXAMPLETEXT=Örnek
+IDC_BACK=<< Geri
+IDC_NEXT=Ýleri >>
+SEPARATOR_SPACE=Boþluk
+SEPARATOR_NONE=Ayraç Yok
+ERR_THOUSANDDECIMAL=Ondalýk ve Binlik ayýrýcý ayný olamaz!
+[IDD_STARTUP_DATE]
+TITLE=Tarih Ayarlarý
+IDC_FORMATTEXT=Tarih Formatý
+IDC_SEPARATORTEXT=Ayraç
+IDC_EXAMPLETEXT=Örnek
+IDC_BACK=<< Geri
+IDC_FINISH=Tamam
+[IDD_ACEMONEYREMINDER]
+TITLE=Hatýrlatýcý
+STARTACEMONEY=AceMoney'i Baþlat
+OPTIONS=Tercihler
+VIEWBILLS=Ön Kayýtlarý Göster
+EXIT=Çýk
+CLOSE=Kapat
+COLUMN0=Tarih
+COLUMN1=Ýþlem
+COLUMN2=Cari
+COLUMN3=Tutar
+OPTIONSTITLE=Tercihler
+DATAFILE=AceMoney Data Dosyasý
+BROWSE=Gözat
+SELECTFILE=Data Dosyasý Seç
+AUTOSTART=Windows Ýle Birlikte Baþlat
+STARTMINIMIZED=Simge Durumunda Çalýþtýr
+OK=Tamam
+CANCEL=Vazgeç
+MSG_DUEBILLS=!!!  Günü Geçmiþ Ýþlem Var :(
+MSG_NODUEBILLS=Günü Geçmiþ Ýþlem Yok :)
+[IDD_CALC_LOAN]
+TITLE=Kredi Hesaplama
+IDC_AMOUNTTEXT=Miktar
+IDC_RATETEXT=Yýllýk Faiz Oraný, %
+IDC_PERIODTEXT=Peryod, Ay
+IDC_PAYMENTTEXT=Taksit
+IDC_TOTALINTERESTTEXT=Toplam Faiz
+COLUMN1=Taksit
+COLUMN2=Ana Para
+COLUMN3=Faiz
+COLUMN4=Kredi
+IDOK=Tamam
+[IDD_CALC_SAVINGS]
+TITLE=Tasarruf Hesaplama
+IDC_MONTHLYPAYMENTTEXT=Aylýk Taksit
+IDC_INITIALBALANCETEXT=Baþlangýç Bakiyesi
+IDC_RATETEXT=Yýllýk Faiz Oraný, %
+IDC_PERIODTEXT=Peryod, Ay
+IDC_STARTDATETEXT=Baþlangýç Tarihi
+IDC_TOTALINTERESTTEXT=Toplam Faiz
+IDC_TOTALTEXT=Toplam
+COLUMN1=Tarih
+COLUMN2=Taksit
+COLUMN3=Faiz
+COLUMN4=Toplam
+IDOK=Tamam
+[IDD_CALC_MORTGAGE]
+TITLE=Mortgage Hesaplama
+IDC_VALUETEXT=Deðeri
+IDC_AMOUNTTEXT=Kredi Miktarý
+IDC_TERMTEXT=Dönem (Yýl)
+IDC_DATETEXT=Kapatma Tarihi
+IDC_RATETEXT=Faiz Oraný, %
+IDC_TAXTEXT=Yýllýk Emlak Vergisi
+IDC_INSURANCETEXT=Yýllýk Zorunlu Sigortasý
+IDC_REQUIREDPAYMENTTEXT=Gerekli Taksit
+IDC_TOTALINTERESTTEXT=Toplam Faiz
+IDC_TOTALPMITEXT=Toplam Aylýk Faiz
+IDC_TOTALMONTHSTEXT=Ay Sayýsý
+COLUMN0=Tarih
+COLUMN1=Ana Para
+COLUMN2=Faiz
+COLUMN3=Vergi
+COLUMN4=Sigorta
+COLUMN6=Taksit
+COLUMN7=Toplam
+IDOK=Tamam
+IDHELP=Yardým
+COLUMN5=Aylýk Faiz

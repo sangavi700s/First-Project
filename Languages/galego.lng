@@ -1,0 +1,540 @@
+ProgramID=AceMoney
+Language=Spanish Galician
+
+///////////////////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories.dat
+BANKS=banks.dat
+ACCOUNTTYPES=accounttypes.dat
+
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+
+STATUS=Listo
+TRANSFER=Transferencia
+DEPOSIT=Depósito
+WITHDRAWAL=Extracción
+TO=A
+FROM=De
+TOTAL=Total
+CLEAREDTOTAL=Total conciliados
+
+[MENU]
+ID_FILE=Arquivo
+ID_FILE_NEW=Novo
+ID_FILE_OPEN=Abrir...
+ID_FILE_SAVE=Gardar
+ID_FILE_SAVE_AS=Gardar como...
+ID_FILE_IMPORT=Importar...
+ID_FILE_EXPORT=Exportar...
+ID_APP_EXIT=Saír
+
+ID_EDIT=Editar
+ID_EDIT_DELETE=Eliminar
+ID_EDIT_INSERT=Inserir
+ID_EDIT_SELECTALL=Seleccionar todo
+ID_EDIT_PROPERTIES=Propiedades...
+
+ID_VIEW=Ver
+ID_VIEW_ACCOUNTS=Contas
+ID_VIEW_BANKS=Bancos
+ID_VIEW_PAYEES=Beneficiarios
+ID_VIEW_CATEGORIES=Categorías
+ID_VIEW_SCHEDULE=Calendario
+ID_VIEW_REPORTS=Reportes
+
+ID_ACCOUNTS=Contas
+ID_ACCOUNTS_ADD=Agregar conta...
+ID_ACCOUNTS_TYPE=Tipos de contas...
+
+ID_TOOLS=Ferramentas
+ID_TOOLS_CURRENCY=Tasas de troco...
+ID_TOOLS_OPTIONS=Opcións...
+ID_TOOLS_LANGUAGE=Idioma...
+
+ID_HELP=Axuda
+ID_HELP_TOPICS=Temas
+ID_HELP_HOMEPAGE=Sitio Web AceMoney...
+ID_HELP_WHATSNEW=O novo...
+ID_HELP_SUPPORT=Soporte técnico...
+ID_HELP_TUTORIAL=Titorial en liña...
+ID_HELP_ABOUT=Acerca de...
+
+[TOOLBAR]
+ID_FILE_NEW=Novo
+ID_FILE_OPEN=Abrir
+ID_FILE_SAVE=Gardar
+ID_VIEW_ACCOUNTS=Contas
+ID_VIEW_BANKS=Bancos
+ID_VIEW_PAYEES=Beneficiarios
+ID_VIEW_CATEGORIES=Categorías
+ID_VIEW_SCHEDULE=Calendario
+ID_VIEW_REPORTS=Reportes
+ID_HELP_HOMEPAGE=Páxina Web
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=Contas
+IDC_TODAYTEXT=Hoxe
+IDC_ADD=Nova conta...
+IDC_BILLS=Pagar facturas
+IDC_REPORTS=Reportes
+IDC_CURRENCY=Tasas de troco
+IDHELP=Axuda
+
+ID_ACCOUNT_OPEN=Abrir
+ID_ACCOUNT_ADD=Nova conta...
+ID_ACCOUNT_DELETE=Eliminar
+ID_ACCOUNT_EDIT=Propiedades
+
+TOTAL=Total
+LASTUPDATE=Última actualización
+
+DELETE_CONFIRMATION=¡A conta %s será eliminada xunto con tódalas súas transaccións! ¿Proceder?
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=Conta
+IDC_TODAYTEXT=Hoxe
+IDC_ADD=Nova transacción
+IDC_EDIT=Editar transacción
+IDC_DELETE=Eliminar transacción
+IDC_WEBSITE=Sitio Web da conta
+IDC_ACCOUNT=Editar información da conta
+IDC_BANK=Editar información do banco
+IDC_MONTHREPORT=Reporte mensual
+IDC_REPORT=Reporte de 30 días
+IDC_HIDECLEARED=Ocultar conciliados
+IDHELP=Axuda
+
+COLUMN0=Número
+COLUMN1=Data
+COLUMN2=Beneficiario
+COLUMN3=Categoría
+COLUMN4=E
+COLUMN5=Extracción
+COLUMN6=Depósito
+COLUMN7=Total
+COLUMN8=Comentario
+
+BANKISNOTASSIGNED=Para usar esta característica, seleccione o banco de esta conta
+PAGEISNOTASSIGNED=Falta a dirección da páxina Web. Pode agregala na ficha de Propiedades do Banco.
+STATUS=Durante este mes gastou/recibiu %.2f na categoría %s
+
+ID_EDIT_OPEN=Editar
+ID_TRANSACTION_UNCLEARED=Sen reconciliar
+ID_TRANSACTION_CLEARED=Conciliado
+ID_TRANSACTION_RECONCILED=Reconciliada
+ID_EDIT_INSERT=Nova transacción...
+ID_EDIT_DELETE=Elimiar
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=Novo banco...
+IDC_EDIT=Editar información de banco
+IDC_DELETE=Eliminar Banco
+IDC_DELETEUNUSED=Eliminar sen uso
+IDHELP=Axuda
+
+COLUMN0=Nome banco
+
+CANTBEDELETED=Unha ou máis das súas contas está vinculada a este banco. Este banco non pode ser borrado.
+DELETECONFIRMATION=¿Está seguro?
+DELETEUNUSED=Este comando eliminará tódolos bancos non relacionados coas súas contas! ¿Proceder?
+
+ID_EDIT_OPEN=Editar
+ID_EDIT_INSERT=Novo banco...
+ID_EDIT_DELETE=Eliminar
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=Nova categoría...
+IDC_EDIT=Editar categoría
+IDC_DELETE=Eliminar categoría
+IDC_DELETEUNUSED=Eliminar sen uso...
+IDC_REPORT=Reporte de categoría
+IDC_IMPORT=Importar...
+IDHELP=Axuda
+
+COLUMN0=Nome de categoría
+
+CANTBEDELETED=Unha ou máis das súas transaccións está vinculada con esta categoría. Esta categoría non pode ser eliminada.
+DELETECONFIRMATION=¿Está seguro?
+DELETEUNUSED=Este comando eliminará tódalas categorías sen relación con transaccións. ¿Proceder?
+ID_EDIT_OPEN=Editar
+ID_EDIT_INSERT=Novo...
+ID_EDIT_DELETE=Eliminar
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=Novo beneficiario...
+IDC_EDIT=Editar beneficiario
+IDC_DELETE=Eliminar beneficiario
+IDC_DELETEUNUSED=Eliminar sen uso
+IDC_REPORT=Reporte de beneficiario
+IDHELP=Axuda
+
+COLUMN0=Nome
+
+CANTBEDELETED=Unha ou máis transaccións usan este beneficiario. O beneficiario non pode ser eliminado.
+DELETECONFIRMATION=¿Está seguro?
+DELETEUNUSED=Este comando eliminará tódolos beneficiarios sen transaccións. ¿Proceder?
+
+ID_EDIT_OPEN=Editar
+ID_EDIT_INSERT=Novo...
+ID_EDIT_DELETE=Eliminar
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=Filtrar por datas
+IDC_SETDATES=Seleccionar datas
+IDC_USECATEGORYFILTER=Filtrar por categorías
+IDC_SETCATEGORIES=Seleccionar categorías
+IDC_USEPAYEEFILTER=Filtrar por beneficiarios
+IDC_SETPAYEES=Seleccionar beneficiarios
+IDC_USEACCOUNTFILTER=Filtrar por contas
+IDC_SETACCOUNTS=Seleccionar contas
+IDC_TRANSACTIONS=Reporte por transaccións
+IDC_CATEGORY=Reporte por categorías
+IDC_PAYEE=Reporte por beneficiario
+IDHELP=Axuda
+IDC_TABLE=Ver como táboa
+IDC_INCOMECHART=Gráfico de torta de Ingresos
+IDC_EXPENSECHART=Gráfico de torta de Gastos
+
+CATEGORYCOLUMN0=Categoría
+CATEGORYCOLUMN1=Importe
+
+OTHERS=Outros
+
+PAYEECOLUMN0=Beneficiario
+PAYEECOLUMN1=Importe
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Ingresar ó rexistro
+IDC_ADD=Nova Factura...
+IDC_EDIT=Editar Factura
+IDC_DELETE=Eliminar Factura
+IDHELP=Axuda
+
+COLUMN0=Data
+COLUMN1=Transacción
+COLUMN2=Beneficiario
+COLUMN3=Importe
+
+DELETECONFIRMATION=¿Está seguro?
+
+ID_EDIT_OPEN=Ingresar
+ID_EDIT_INSERT=Agregar novo...
+ID_EDIT_DELETE=Eliminar
+ID_EDIT_PROPERTIES=Propiedades
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=Acerca de...
+
+[IDD_ACCOUNT]
+TITLE=Conta
+IDC_NAMETEXT=Nome
+IDC_TYPETEXT=Tipo
+IDC_BANKTEXT=Nome Banco
+IDC_NUMBERTEXT=Número
+IDC_BALANCETEXT=Saldo inicial
+IDC_CURRENCYTEXT=Moeda
+IDC_CLOSED=A conta está pechada
+IDC_COMMENTTEXT=Comentario
+IDOK=Aceptar
+IDCANCEL=Cancelar
+IDHELP=Axuda
+
+ERR_NOACCOUNTNAME=¡Unha conta debe ter un nome!
+ERR_NOACCOUNTTYPE=¡Unha conta debe ter un tipo!
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=Tipos de conta
+IDC_ADD=Agregar...
+IDC_DELETE=Eliminar
+IDC_EDIT=Actualizar...
+IDOK=Aceptar
+IDCANCEL=Cancelar
+
+ERR_CANTDELETE=¡Este tipo é usado por unha ou máis contas!
+
+[IDD_ACCOUNTTYPE]
+TITLE=Tipo de conta
+IDC_NAMETEXT=Nome
+IDOK=Aceptar
+IDCANCEL=Cancelar
+
+ERR_NOACCTYPENAME=¡Un tipo debe ter un nome!
+
+[IDD_BANK]
+TITLE=Banco
+IDC_NAMETEXT=Nome
+IDC_ADDRESSTEXT=Dirección
+IDC_WEBSITETEXT=Sitio Web
+IDC_COMMENTTEXT=Comentario
+IDOK=Aceptar
+IDCANCEL=Cancelar
+IDHELP=Axuda
+
+ERR_NOBANKNAME=¡Un banco debe ter un nome!
+
+[IDD_BILL]
+TITLE=Factura/Depósito
+
+IDC_FREQUENCYGROUP=Frecuencia
+IDC_ONCE=Unha vez
+IDC_DAILY=Diaria
+IDC_WEEKLY=Semanal
+IDC_EVERYOTHERWEEK=Semana por medio
+IDC_TWICEAMONTH=Quincenal
+IDC_MONTHLY=Mensual
+IDC_EVERYOTHERMONTH=Mes por medio
+IDC_QUARTERLY=Trimestral
+IDC_ANNUALLY=Anual
+IDC_STARTDATETEXT=Data de inicio
+
+IDC_TRANSACTIONGROUP=Transacción
+IDC_TYPETEXT=Tipo
+IDC_DEPOSIT=Depósito
+IDC_WITHDRAWAL=Extracción
+IDC_TRANSFER=Transferencia
+IDC_ACCOUNTTEXT=Conta
+IDC_PAYEETEXT=Beneficiario
+IDC_CATEGORYTEXT=Categoría
+IDC_SPLIT=Fraccionar
+IDC_AMOUNTTEXT=Conta
+IDC_COMMENTTEXT=Comentario
+
+IDOK=Aceptar
+IDCANCEL=Cancelar
+IDHELP=Axuda
+
+ERR_INVALIDACCOUNT=¡Nome de conta inválido!
+
+[IDD_CATEGORY]
+TITLE=Categoría
+
+IDC_NAMETEXT=Categoría
+IDC_SUBNAMETEXT=Subcategoría
+IDC_COMMENTTEXT=Comentario
+
+IDOK=Aceptar
+IDCANCEL=Cancelar
+IDHELP=Axuda
+
+ERR_NOCATNAME=¡Unha categoría debe ter un nome!
+
+[IDD_COLORS]
+TITLE=Cores
+
+IDC_ACCOUNTLISTTEXT=Contas
+IDC_ACCOUNTTEXT=Conta
+IDC_BANKTEXT=Bancos
+IDC_CATEGORYTEXT=Categorías
+IDC_PAYEETEXT=Beneficiarios
+IDC_SCHEDULETEXT=Calendario
+IDC_REPORTTEXT=Reportes
+
+IDOK=Aceptar
+IDCANCEL=Cancelar
+
+[IDD_CURRENCY]
+TITLE=Tasas de troco de moedas
+IDC_SHOWALL=Amosar tódalas moedas
+IDC_CURRENCYINFO=Moeda predeterminada: %s
+
+IDOK=Aceptar
+IDCANCEL=Cancelar
+IDHELP=Axuda
+
+COLUMN0=Moeda
+COLUMN1=Convertir a
+COLUMN2=Data
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=Tasa de troco
+IDOK=Aceptar
+IDCANCEL=Cancelar
+
+[IDD_SHEETREPORTFILTER]
+TITLE=Filtro de reporte
+
+[IDD_DATESRANGE]
+TITLE=Seleccionar período
+
+IDC_FROMTEXT=De
+IDC_TOTEXT=A
+
+IDOK=Aceptar
+IDCANCEL=Cancelar
+IDHELP=Axuda
+
+[IDD_FILTERACCOUNT]
+TITLE=Seleccionar contas
+
+IDC_SELECTALL=Seleccionar todo
+IDC_CLEARALL=Deseleccionar todo
+
+IDOK=Aceptar
+IDCANCEL=Cancelar
+IDHELP=Axuda
+
+[IDD_FILTERCATEGORY]
+TITLE=Seleccionar categoría
+
+IDC_SELECTALL=Seleccionar todo
+IDC_CLEARALL=Deseleccionar todo
+
+IDOK=Aceptar
+IDCANCEL=Cancelar
+IDHELP=Axuda
+
+[IDD_FILTERPAYEE]
+TITLE=Seleccionar beneficiario
+
+IDC_SELECTALL=Seleccionar todo
+IDC_CLEARALL=Deseleccionar todo
+
+IDOK=Aceptar
+IDCANCEL=Cancelar
+IDHELP=Axuda
+
+[IDD_IMPORT]
+TITLE=Importar
+EXPORTTITLE=Exportar
+
+IMPORTTEXT=%d transaccións importadas
+EXPORTTEXT=Seleccionar unha conta para exportar
+
+ERR_NOACCOUNT=¡Debe seleccionar unha conta!
+
+IDOK=Aceptar
+IDCANCEL=Cancelar
+IDHELP=Axuda
+
+[IDD_LANGUAGE]
+TITLE=Seleccione Idioma
+
+IDOK=Aceptar
+IDCANCEL=Cancelar
+
+[IDD_OPTIONS]
+TITLE=Opcións
+
+IDC_GENERALGROUP=Xeral
+IDC_DATETEXT=Formato de datas
+IDC_SHOWCLOSEDACCOUNTS=Amosar contas pechadas
+IDC_SHOWGRID=Amosar reixa en táboas
+IDC_LOADLASTFILE=Cargar o último arquivo usado ó iniciar
+IDC_SHOWCOMMENT=Amosar comentarios de transaccións
+IDC_CURRENCYTEXT=Moeda predeterminada
+
+IDC_STARTPAGEGROUP=Páxina de inicio
+IDC_ACCOUNTLIST=Lista de contas
+IDC_FAVORITEACCOUNT=Conta favorita
+
+IDC_PASSWORDGROUP=Contrasinal
+IDC_OLDPASSTEXT=Contrasinal actual
+IDC_NEWPASSTEXT=Novo contrasinal
+IDC_RETYPETEXT=Reingresar contrasinal
+
+IDOK=Aceptar
+IDCANCEL=Cancelar
+IDHELP=Axuda
+
+ERR_INVALIDOLDPASSWORD=¡Contrasinal antigo inválido!
+ERR_INVALIDNEWPASSWORD=¡Contrasinal novo inválido!
+
+[IDD_PASSWORD]
+TITLE=Ingrese contrasinal
+IDC_PASSTEXT=Contrasinal
+
+IDOK=Aceptar
+IDCANCEL=Cancelar
+
+ERR_INVALIDPASSWORD=¡Contrasinal non válido!
+
+[IDD_PAYEE]
+TITLE=Beneficiario
+IDC_NAMETEXT=Nome
+IDC_ADDRESSTEXT=Dirección
+IDC_COMMENTTEXT=Comentario
+
+IDOK=Aceptar
+IDCANCEL=Cancelar
+IDHELP=Axuda
+
+ERR_NOPAYEENAME=¡Un beneficiario debe ter un nome!
+
+[IDD_SPLIT]
+TITLE=Fraccionar por categoría
+
+IDC_CATEGORYTEXT=Categoría
+IDC_SUBCATEGORYTEXT=Subcategoría
+IDC_AMOUNTTEXT=Importe
+IDC_ADD=Agregar
+IDC_EDIT=Editar
+IDC_DELETE=Eliminar
+IDC_TOTALTEXT=Total:
+IDC_UNASSIGNEDTEXT=Sen asignar:
+
+IDOK=Aceptar
+IDCANCEL=Cancelar
+IDHELP=Axuda
+
+COLUMN0=Categoría
+COLUMN1=Subcategoría
+COLUMN2=Importe
+
+ERR_BADTOTAL=A suma das categorías divididas non é igual ó importe da transacción. ¿Quere trocar o importe da transacción?
+
+[IDD_SPLITITEM]
+TITLE=Fraccionar elemento
+IDC_CATEGORYTEXT=Categoría
+IDC_SUBCATEGORYTEXT=Subcategoría
+IDC_AMOUNTTEXT=Importe
+
+IDOK=Aceptar
+IDCANCEL=Cancelar
+IDHELP=Axuda
+
+[IDD_TRANSACTION]
+TITLE=Transacción
+
+IDC_TYPETEXT=Tipo
+IDC_DEPOSIT=Depósito
+IDC_WITHDRAWAL=Extracción
+IDC_TRANSFER=Transferencia
+IDC_ACCOUNTTEXT=Conta
+IDC_PAYEETEXT=Beneficiario
+IDC_CATEGORYTEXT=Categoría
+IDC_SPLIT=Fraccionar
+IDC_COMMENTTEXT=Comentario
+IDC_DATETEXT=Data
+IDC_NUMBERTEXT=Número
+IDC_AMOUNTTEXT=Importe
+
+FROMTEXT=De
+TOTEXT=A
+SPLIT=Fraccionar
+DEBIT=Débito
+
+IDOK=Aceptar
+IDCANCEL=Cancelar
+IDHELP=Axuda
+
+ERR_SAMETRANFER=¡Non pode transferir á mesma conta!
+ERR_INVALIDACCOUNT=Nombre de cuenta inválido!
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Tasa de troco
+
+IDC_SOURCEAMOUNTTEXT=Importe en
+IDC_TARGETAMOUNTTEXT=Importe en
+IDC_RATETEXT=Tasa
+
+IDOK=Aceptar
+IDCANCEL=Cancelar

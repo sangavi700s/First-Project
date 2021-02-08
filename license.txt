@@ -1,0 +1,33 @@
+MechCAD Software License Agreement 
+
+BEFORE YOU USE ACEMONEY, CAREFULLY READ THE TERMS AND CONDITIONS OF THIS AGREEMENT. BY CHECKING "I ACCEPT THE AGREEMENT", YOU ARE CONSENTING TO BE BOUND BY AND ARE BECOMING A PARTY TO THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, DO NOT USE THE SOFTWARE. 
+
+This is a legal Evaluation Agreement between you, as licensee, and MechCAD Software, the AUTHOR. Upon receipt of your application indicating that you have read, understood, and agree to be bound by the terms of this Evaluation Agreement and upon acceptance of such application by AUTHOR, AUTHOR shall license to you the AceMoney (the "Software").
+
+BY DOWNLOADING AND RUNNING THE SOFTWARE YOU ARE CONSENTING TO BE BOUND BY ALL OF THE TERMS AND CONDITIONS IN THIS EVALUATION AGREEMENT. YOU ASSUME ALL RISK WITH RESPECT TO THE SOFTWARE PROGRAM AND ACKNOWLEDGE THAT THE SOFTWARE MAY HAVE DEFECTS OR DEFICIENCIES, AND THAT CERTAIN FEATURES AND FUNCTIONS IN SUCH SOFTWARE MAY NOT BE IN SUBSEQUENT RELEASES.
+
+1. GRANT OF LICENSE.
+AUTHOR grants to you a non-exclusive, non-transferable license to use the Software for the term of this License Agreement.
+
+This Software is not a free software. You may use this software for evaluation purposes without charge for a period of 30 days. If you use this software after the 30 day evaluation period, a registration fee is required. See 'Order AceMoney' menu item in the application Help menu or MechCAD WebSite (http://www.mechcad.net) for detailed information about registration method and price list.
+
+DISTRIBUTION OF EVALUATION VERSION
+You may copy the evaluation version of this Software and documentation as you wish, and give exact copies of the original evaluation version to anyone, and distribute the evaluation version of the Software and documentation in its unmodified form via electronic means. You are not allowed to charge or request donations for any such copies made and from distributing the Software and/or documentation with other products without the author's written permission.
+
+REGISTERED VERSION
+One registered copy of the Software may either be used by a single person who uses the software personally on ONE computer, or installed on a SINGLE workstation used non-simultaneously by multiple people, but not both. You may access the registered version of the Software through a network, provided that you have obtained individual licenses for the software covering all workstations that will access the software through the network.
+
+AUTHOR, AT ITS SOLE OPTION, MAY RELEASE, CANCEL, AND/OR MODIFY THE SOFTWARE.
+
+2. MECHCAD SOFTWARE MAKES NO REPRESENTATIONS ABOUT THE SUITABILITY OF THIS SOFTWARE OR ABOUT ANY CONTENT OR INFORMATION MADE ACCESSIBLE BY THE SOFTWARE, FOR ANY PURPOSE. THE SOFTWARE IS PROVIDED 'AS IS' WITHOUT EXPRESS OR IMPLIED WARRANTIES, INCLUDING WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT. MECHCAD SOFTWARE SHALL NOT BE LIABLE FOR ANY LOSSES SUFFERED BY YOU OR ANY OTHER USER AS A RESULT OF USING THE SOFTWARE OR INABILITY TO USE THE SOFTWARE. QUOTES AND OTHER INFORMATION ARE PROVIDED FOR INFORMATIONAL PURPOSES ONLY, AND ARE NOT INTENDED FOR TRADING PURPOSES. NEITHER MECHCAD SOFTWARE NOR ANY OF ITS DATA OR CONTENT PROVIDERS SHALL BE LIABLE FOR ANY ERRORS OR DELAYS IN THE CONTENT, OR FOR ANY ACTIONS TAKEN IN RELIANCE THEREON.
+
+3. All content accessed through the Software is the property of the applicable content owner and may be protected by applicable copyright law. This License gives you no rights to such content. 
+
+4. While MechCAD Software may intend to distribute a new commercial release of the Software, MechCAD Software reserves the right at any time not to release a new commercial release of the Software or, if released, to alter prices, features, specifications, capabilities, functions, licensing terms, release dates, general availability or other characteristics of the commercial release. 
+
+5. Title, ownership rights, and intellectual property rights in and to the Software shall remain in MechCAD Software and/or its suppliers. You acknowledge that the Software in source code form remains a confidential trade secret of MechCAD Software and/or its suppliers and therefore you agree not to modify the Software or attempt to decipher, decompile, disassemble or reverse engineer the Software, except to the extent applicable laws specifically prohibit such restriction. 
+
+6. MECHCAD SOFTWARE OR ITS SUPPLIERS SHALL NOT BE LIABLE FOR (a) INCIDENTAL, CONSEQUENTIAL, SPECIAL OR INDIRECT DAMAGES OF ANY SORT, WHETHER ARISING IN TORT, CONTRACT OR OTHERWISE, EVEN IF MECHCAD SOFTWARE HAS BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES, OR (b) FOR ANY CLAIM BY ANY OTHER PARTY.
+
+Copyright (c) 2002 - 2012 MechCAD Software
+All rights reserved.

@@ -1,0 +1,1732 @@
+ProgramID=AceMoney
+Language=Magyar
+
+///////////////////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories.dat
+BANKS=banks.dat
+ACCOUNTTYPES=accounttypes.dat
+IMPORTRULES=importrules.dat
+
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+
+CURRENCY=HUF
+DECIMALS=2
+DECIMALSEPARATOR=.
+THOUSANDSEPARATOR=,
+DATEFORMAT=YYYYMMDD
+DATESEPARATOR=/
+
+STATUS=Kész
+TRANSFER=Átutalás
+DEPOSIT=Bevétel
+WITHDRAWAL=Kiadás
+TO=eddig
+FROM=ettõl
+TOTAL=Összesen
+SUBTOTAL=Részösszeg
+RECONCILEDTOTAL=Egyeztetett összesen
+CLEAREDTOTAL=Rendezett összesen
+IMPORTEDTOTAL=Importált összesen
+UNCLEAREDTOTAL=Rendezetlen összesen
+TODAYTEXT=Ma
+PAGE=Oldal
+UNASSIGNED=(Nem hozzárendelt)
+SAVEMODIFIED=Menti a módosításokat?
+REPLACEMENTS=csere történt
+INVALIDNUMBER=Érvénytelen számformátum!
+AVERAGE=Átlag
+AUTODETECT=Automatikus észlelés
+BALANCE=Egyenleg
+AVAILABLE_BALANCE=Elérhetõ egyenleg
+
+YES=Igen
+NO=Nem
+
+MSG_LOADSAMPLE=Szeretne betölteni egy mintafájlt?
+MSG_SAMPLEFILEWARNING=A mintafájl nem menthetõ! Kérem használja a Fájl->Mentés másként lehetõséget, a saját adatainak egy másik fájlba történõ mentéséhez.
+
+ONE_COLUMN_MUST_BE_DISPLAYED=Legalább egy oszlopot meg kell jelenítenie!
+
+NEW_VERSION_DETECTED=Az AceMoney új verziója érhetõ el, és az letölthetõ az oldalunkról. Szeretné a frissítést elvégezni most?
+NO_NEW_VERSION_IS_AVAILABLE=Nincsen újabb verzió.
+NEW_VERSION_CHECK_FAILED=Az AceMoney új verziójának ellenõrzése nem sikerült, mert nem lehetett kapcsolódni a kiszolgálóhoz. Kérem ellenõrizze a hálózati beállításait és próbálja meg késõbb.
+MSG_CONVERTFILEWARNING=Az AceMoney most átalakítja a fájlt AMJ formátumba. Az eredeti fájl elmentésre kerül .BAK kiterjesztéssel.
+MSG_CONVERTNOTEHOSTNAME=Jegyezze meg a számítógépe nevét, mert azt a késõbbiekben felhasználhatja az adatai visszaállításához. A számítógép neve: 
+MSG_LICENSEMISMATCH=Ez a fájl magas biztonsági szinttel, egy másik számítógépen került létrehozásra. A fájl másokkal történõ megosztásához, azt újra el kell mentenie az eredeti gépen úgy, hogy ott engedélyeznie kell a "Többfelhasználós hozzáférés engedélyezése" opciót, a jelszóbeállításoknál.
+MSG_CORRUPTAMJFILE=Ez az AMJ fájl sérült, és nem olvasható be
+
+[DIRECTCONNECT]
+CONNECTING=Kapcsolódás
+REQUESTING=Információk összegyûjtése
+RECEIVING=Adatok fogadása
+IMPORTING=Tranzakciók importálása
+DOWNLOADED=%d tranzakció letöltve
+
+[MENU]
+MENU=Menü
+ADD=Hozzáad
+
+ID_FILE=Fájl
+ID_FILE_NEW=Új
+ID_FILE_OPEN=Megnyitás...
+ID_FILE_SAVE=Mentés
+ID_FILE_SAVE_AS=Mentés másként...
+ID_FILE_ARCHIVE=Archíválás...
+ID_FILE_IMPORT=Importálás...
+ID_FILE_EXPORT=Exportálás...
+ID_FILE_PRINT=Nyomtatás...
+ID_FILE_PRINT_PREVIEW=Nyomtatási kép...
+ID_APP_EXIT=Kilépés
+
+ID_EDIT=Szerkeszt
+ID_EDIT_DELETE=Törlés
+ID_EDIT_INSERT=Beszúrás
+ID_EDIT_SELECTALL=Mind kijelöl
+ID_EDIT_FIND=Keresés...
+ID_EDIT_PROPERTIES=Tulajdonságok...
+ID_EDIT_COPY=Másolás
+ID_EDIT_PASTE=Beillesztés
+ID_EDIT_ADDTOSCHEDULE=Hozzáad az ütemezéshez...
+
+ID_VIEW=Nézet
+ID_VIEW_ACCOUNTS=Számlák
+ID_VIEW_BANKS=Bankok
+ID_VIEW_PAYEES=Kapcsolatok
+ID_VIEW_CATEGORIES=Kategóriák és költségvetés
+ID_VIEW_SCHEDULE=Ütemterv
+ID_VIEW_PORTFOLIO=Portfólió
+ID_VIEW_REPORTS=Jelentések
+
+ID_ACCOUNTS=Számlák
+ID_ACCOUNTS_ADD=Számla hozzáadása...
+ID_ACCOUNTS_TYPE=Számlacsoportok...
+
+ID_REPORTS=Jelentések
+ID_REPORTS_ADD=Hozzáad a kedvencekhez...
+ID_REPORTS_ORGANIZE=Rendezés...
+
+ID_TOOLS=Eszközök
+ID_TOOLS_CURRENCY=Valutaárfolyamok...
+ID_TOOLS_TRANSACTION_CATEGORY_LIST=Tranzakció elnevezések...
+ID_TOOLS_TRANSACTION_TAG_LIST=Tranzakció címkék...
+ID_TOOLS_BACKUP=Biztonsági mentés...
+ID_TOOLS_RESTORE=Visszaállítás...
+ID_TOOLS_CALCULATOR=Számológép...
+ID_TOOLS_CALCULATOR_LOAN=Kölcsön kalkulátor...
+ID_TOOLS_CALCULATOR_SAVINGS=Megtakarítás kalkulátor...
+ID_TOOLS_CALCULATOR_MORTGAGE=Jelzálog kalkulátor...
+ID_TOOLS_IMPORT_RULES=Importálási szabályok...
+ID_TOOLS_LANGUAGE=Nyelv...
+ID_TOOLS_COLORS=Betûtípusok és színek...
+ID_TOOLS_INTERNATIONAL=Nemzetközi beállítások...
+ID_TOOLS_OPTIONS=Beállítások...
+
+ID_HELP=Súgó
+ID_HELP_TOPICS=Témakörök
+ID_HELP_HOMEPAGE=Az AceMoney webhelye...
+ID_HELP_WHATSNEW=Újdonságok...
+ID_HELP_SUPPORT=Technikai támogatás...
+ID_HELP_FORUM=Webes fórum...
+ID_HELP_TUTORIAL=Online bemutató...
+ID_HELP_REGISTER=Az AceMoney regisztrálása...
+ID_HELP_ORDER=Az AceMoney megvásárlása...
+ID_HELP_CHECK_FOR_UPDATES=Frissítések ellenõrzése...
+ID_HELP_ABOUT=Névjegy...
+
+[TOOLBAR]
+ID_FILE_NEW=Új
+ID_FILE_OPEN=Megnyitás
+ID_FILE_SAVE=Mentés
+ID_VIEW_BACK=Vissza
+ID_VIEW_FORWARD=Tovább
+ID_VIEW_HOME=Kezdõlap
+ID_VIEW_ACCOUNTS=Számlák
+ID_VIEW_BANKS=Bankok
+ID_VIEW_PAYEES=Kapcsolatok
+ID_VIEW_CATEGORIES=Kategóriák
+ID_VIEW_SCHEDULE=Ütemterv
+ID_VIEW_REPORTS=Jelentések
+ID_VIEW_PORTFOLIO=Portfólió
+ID_HELP_HOMEPAGE=Honlap
+
+[TAGS]
+IMPORTANT=Fontos
+WORK=Munka
+PERSONAL=Személyes
+TODO=Tennivaló
+LATER=Késõbb
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=Számlák
+IDC_ADD=Új számla...
+IDC_BILLS=Számlák kiegyenlítése
+IDC_REPORTS=Jelentések
+IDC_CURRENCY=Valutaváltó
+IDC_WEBUPDATE=Frissítés
+IDHELP=Súgó
+
+ID_ACCOUNT_OPEN=Tranzakciók
+ID_ACCOUNT_ADD=Új számla...
+ID_ACCOUNT_DELETE=Törlés
+ID_ACCOUNT_EDIT=Tulajdonságok
+ID_ACCOUNT_SHOWNUMBERS=Számlaszámok megjelenítése
+ID_ACCOUNT_SHOWCLOSED=Lezárt számlák mutatása
+ID_ACCOUNT_SHOW_AVAILABLE_BALANCE=Elérhetõ egyenleg mutatása
+ID_ACCOUNT_CLOSE=Számla lezárása
+ID_ACCOUNT_REOPEN=Számla újbóli megnyitása
+ID_ACCOUNT_ACCEPT_IMPORTED=Importált tranzakciók elfogadása
+
+TOTAL=Összesen
+LASTUPDATE=Legutóbbi frissítés
+
+DELETE_CONFIRMATION=A(z) %s számla törlésével az össes kapcsolódó tranzakció is törlésre kerül! Folytatja?
+
+UPDATE_SUCCESS=A valutaárfolyamok sikeresen frissítésre kerültek!
+UPDATE_FAILURE=Frissítési hiba! Az internetcsatlakozás nem volt azonosítható, vagy néhány pénznem nem került frissítésre!
+UPDATE_NOTREQUIRED=A webes frissítés nem szükséges!
+
+NEW_CURRENCY_DETECTED=Ez a számla az alapbeállításoktól eltérõ pénznemet használ. A pénznem átváltási árfolyamának megállapításához, szükséges annak a frissítése. Azt letöltheti az Internetrõl, vagy használja az Eszközök->Árfolyamok letöltése lehetõséget. Letölti az aktuális árfolyamokat?
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPORTFOLIO]
+TITLE=Portfólió
+
+ALLACCOUNTS=Minden számla
+
+IDC_NEWTRANSACTION=Új tranzakció...
+
+IDC_ADD=Befektetés hozzáadása...
+IDC_EDIT=Befektetés szerkesztése...
+IDC_DELETE=Befektetés törlése...
+
+IDC_IMPORT=Importálás...
+
+IDC_WEBUPDATE=Árfolyamok letöltése
+
+IDHELP=Súgó
+
+STOCKLIST=Befektetések
+STOCKTRANSACTIONLIST=Befektetési tranzakciók
+ALLOCATION_BY_INVESTMENTS=Befektetések szerinti eloszlás
+ALLOCATION_BY_ACCOUNTS=Számlák szerinti eloszlás
+ALLOCATION_BY_TYPES=Típusok szerinti eloszlás
+
+COLUMN0=Szimbólum
+COLUMN1=Név
+COLUMN2=Végsõ ár
+COLUMN3=Mennyiség
+COLUMN4=Összesen
+COLUMN5=Nyereség
+COLUMN6=Átváltás
+COLUMN7=Megnyitás
+COLUMN8=Volumen
+COLUMN9=P/E
+COLUMN10=EPS
+COLUMN11=Felosztott hozam
+COLUMN12=52 heti minimum
+COLUMN13=52 heti csúcs
+COLUMN14=Nyereség, %
+COLUMN15=Típus
+
+TRANSACTIONSCOLUMN0=Dátum
+TRANSACTIONSCOLUMN1=Mûvelet
+TRANSACTIONSCOLUMN2=Szimbólum
+TRANSACTIONSCOLUMN3=Számla
+TRANSACTIONSCOLUMN4=Osztalék
+TRANSACTIONSCOLUMN5=Árfolyam
+TRANSACTIONSCOLUMN6=Mennyiség
+TRANSACTIONSCOLUMN7=Jutalék
+TRANSACTIONSCOLUMN8=Összesen
+TRANSACTIONSCOLUMN9=Megjegyzés
+
+CANTBEDELETED=Ezt a kötvényt egy tranzakció, vagy egy számla használja, ezért ez nem törölhetõ!
+DELETECONFIRMATION=A kötvény törlésre kerül. Biztos benne?
+UPDATEISNOTREQUIRED=A frissítés nem szükséges!
+UPDATEISNOTCOMPLETE=Néhány befektetés nem volt frissíthetõ!
+INVESTMENTNOTCREATED=Egy befektetéshez, elõször azt létre kell hoznia!
+
+ID_EDIT_OPEN=Szerkesztés
+ID_EDIT_INSERT=Új hozzáadása
+ID_EDIT_DELETE=Törlés
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=Számla
+IDC_ADD=Új tranzakció
+IDC_ADD_INVESTMENT_TRANSACTION=Befektetési tranzakció
+IDC_EDIT=Tranzakció szerkesztése
+IDC_DELETE=Tranzakció törlése
+IDC_BALANCE=Számlaegyenleg
+IDC_DOWNLOAD=Tranzakciók letöltése
+IDC_WEBSITE=Számla webhely
+IDC_ACCOUNT=Számlainfó szerkesztése
+IDC_BANK=Bankinfó szerkesztése
+IDC_MONTHREPORT=Havi jelentés
+IDC_REPORT=30 napos jelentés
+IDC_HIDERECONCILED=Kiegyenlített elrejtése
+IDHELP=Súgó
+
+COLUMN0=Szám
+COLUMN1=Dátum
+COLUMN2=Kapcsolat
+COLUMN3=Kategória
+COLUMN4=S
+COLUMN5=Kiadás
+COLUMN6=Bevétel
+COLUMN7=Összesen
+COLUMN8=Megjegyzés
+COLUMN9=Számla
+
+BANKISNOTASSIGNED=A lehetõség használatához válasszon ki egy bankot, amelyet fenntart ehhez a számlához
+PAGEISNOTASSIGNED=A webhely címe hiányzik. Kérem adja meg azt a bank-tulajdonságok ablakban.
+STATUS=Ebben a hónapban a(z) %s kategóriában, %.2f összeget adott ki.
+STATUSINCOME=Ebben a hónapban a(z) %s kategóriához, %.2f összeget adott hozzá.
+STATUSSUM=Kijelölt tranzakciók végösszege
+
+ID_TRANSACTION_UNCLEARED=Rendezetlen
+ID_TRANSACTION_CLEARED=Kiegyenlített
+ID_TRANSACTION_RECONCILED=Egyeztetett
+
+ID_EDIT_OPEN=Szerkeszt
+ID_EDIT_INSERT=Új tranzakció...
+ID_EDIT_DELETE=Törlés
+ID_EDIT_COPY=Másolás
+ID_EDIT_PASTE=Beillesztés
+ID_EDIT_CATEGORY=Kategória szerkesztése...
+ID_EDIT_CATEGORYCHANGE=Kategória módosítása...
+ID_EDIT_MOVE_TO_ACCOUNT=Áthelyezés egy számlába
+ID_EDIT_PAYEE=Kapcsolat szerkesztése...
+ID_EDIT_PAYEECHANGE=Kapcsolat módosítása...
+ID_EDIT_ADDTOSCHEDULE=Hozzáad az ütemezéshez...
+ID_EDIT_GOTO_TRANSACTION=Ugrás a tranzakcióhoz
+
+ID_VIEW_DISPLAYSIDEPANEL=Oldalpanel megjelenítése
+
+ID_EDIT_INSERTBILL=Kifizetés bejegyzése...
+ID_EDIT_SKIPBILL=Kifizetés kihagyása
+
+IDC_CREATE_IMPORT_RULE=Importálási szabály létrehozása...
+IDC_APPLY_IMPORT_RULES=Importálási szabály alkalmazása
+
+ID_REPORTS_CATEGORY=Kategória jelentés...
+ID_REPORTS_PAYEE=Kapcsolati jelentés...
+
+ID_EDIT_TAG=Címke
+ID_EDIT_TAG_REMOVE_ALL=&0 Minden címke eltávolítása
+ID_EDIT_TAG_IMPORTANT=&1 Fontos
+ID_EDIT_TAG_WORK=&2 Munka
+ID_EDIT_TAG_PERSONAL=&3 Személyes
+ID_EDIT_TAG_TODO=&4 Tennivaló
+ID_EDIT_TAG_LATER=&5 Késõbb
+
+ID_EDIT_ATTACHMENTS=Mellékletek
+ID_EDIT_ATTACHMENT_ADD=Csatolás...
+ID_EDIT_ATTACHMENT_DELETE=Törlés
+
+BILLDELETECONFIRMATION=Ezzel törlésre kerül az összes jövõbeli tranzakcióhoz kapcsolódó ütemezett bevétel/kiadás! Biztos benne?
+TRANSACTIONDELETECONFIRMATION=Egy, vagy több tranzakció véglegesen törlésre kerül. Biztos benne?
+RECONCILEDTRANSACTIONCONFIRMATION=Ez a tranzakció "Egyeztetettként" van megjelölve, a módosítása nem ajánlott! Folytatni szeretné?
+CLEAREDTRANSACTIONCONFIRMATION=Ez a tranzakció "Kiegyenlítettként" van megjelölve, a módosítása nem ajánlott! Folytatni szeretné?
+CANNOTSORTBYTOTAL=Ön nem rendezheti a végösszeg szerint!
+MOVE_PARTIALLY_FAILED=Néhány tranzakciót nem sikerült áthelyezni a kiválasztott számlába!
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=Új bank...
+IDC_EDIT=Bankinfó szerkesztése
+IDC_DELETE=Bank törlése
+IDC_DELETEUNUSED=Nem használt törlése
+IDC_IMPORT=Importálás...
+IDHELP=Súgó
+
+COLUMN0=Bank neve
+COLUMN1=Cím
+COLUMN2=Webhely
+COLUMN3=Megjegyzés
+COLUMN4=Telefon
+
+CANTBEDELETED=A számlái közül az egyik használja ezt a bankot. Ezért a bank nem törölhetõ.
+DELETECONFIRMATION=Biztos benne?
+DELETEUNUSED=Ezzel a parancssal törli az összes olyan bankot, amnelyhez nem tartozik számla! Folytatni szeretné?
+
+ID_EDIT_OPEN=Szerkeszt
+ID_EDIT_INSERT=Új bank...
+ID_EDIT_DELETE=Törlés
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=Új kategória...
+IDC_EDIT=Kategória szerkesztése
+IDC_DELETE=Kategória törlése
+IDC_DELETEUNUSED=Nem használt törlése...
+IDC_REPORT=Kategória jelentés
+IDC_BUDGETREPORT=Költségvetés jelentés
+IDC_IMPORT=Importálás...
+IDC_MERGE=Egyesítés...
+IDHELP=Súgó
+
+COLUMN0=Kategória
+COLUMN0a=Kód
+COLUMN1a=Bevétel
+COLUMN2a=Kiadás
+COLUMN2c=Idõszak
+COLUMN3=Megjegyzés
+COLUMN4=Havi költségvetés
+
+CANTBEDELETED=Ez a kategória egy tranzakcióban, egy számlában, vagy egy importálási szabályban van használatban. A kategória nem törölhetõ!
+PARENTCANTBEDELETED=Ez egy szülõkategóriája egy, vagy több másik kategóriának. Ha törölni szeretné, elõször az alkategóriákat kell törölnie.
+DELETECONFIRMATION=Biztos benne?
+DELETEUNUSED=Ezzel a parancssal törli az összes olyan kategóriát, amelyhez nem tartozik tranzakció. Folytatni szeretné?
+ID_EDIT_OPEN=Szerkeszt
+ID_EDIT_INSERT=Új...
+ID_EDIT_DELETE=Törlés
+
+TOTALINCOME=Éves bevétel:
+TOTALEXPENSE=Éves kiadás:
+
+MONTHLY_INCOME=Havi bevétel:
+MONTHLY_EXPENSE=Havi kiadás:
+
+MONTHLY_TOTAL=Havi összes
+ANNUAL_TOTAL=Éves összes
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=Új kapcsolat...
+IDC_EDIT=Kapcsolat szerkesztése
+IDC_DELETE=Kapcsolat törlése
+IDC_DELETEUNUSED=Nem használt törlése
+IDC_REPORT=Kapcsolatok szerinti jelentés
+IDC_MERGE=Egyesítés...
+IDHELP=Súgó
+
+IDC_HIDE_INACTIVE=Inaktív kapcsolatok elrejtése
+
+COLUMN0=Név
+COLUMN1=Cím
+COLUMN2=Megjegyzés
+COLUMN3=Telefon
+
+CANTBEDELETED=Ez a kapcsolat használatban van egy tranzakcióban, egy számlában, vagy egy importálási szabályban. A kapcsolat nem törölhetõ!
+DELETECONFIRMATION=Biztos benne?
+DELETEUNUSED=Ezzel a parancssal törlésre kerül az összes olyan kapcsolat, amely nem tartozik tranzakcióhoz, számlához, és importálási szabályhoz. Folytatni szeretné?
+
+ID_EDIT_OPEN=Szerkeszt
+ID_EDIT_INSERT=Új...
+ID_EDIT_DELETE=Törlés
+
+ID_PAYEE_ACTIVATE=Aktiválás
+ID_PAYEE_DEACTIVATE=Inaktiválás
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=Szûrés dátum alapján
+IDC_SETDATES=Intervallum kiválasztása...
+
+IDC_USECATEGORYFILTER=Szûrés kategóriák alapján
+IDC_SETCATEGORIES=Kategóriák kijelölése...
+
+IDC_USEPAYEEFILTER=Szûrés a kapcsolatok alapján
+IDC_SETPAYEES=Kapcsolatok kijelölése...
+
+IDC_USEACCOUNTFILTER=Szûrés számlák alapján
+IDC_SETACCOUNTS=Számla kiválasztása...
+
+IDC_USEINVESTMENTFILTER=Szûrés a befektetések alapján
+IDC_SETINVESTMENTS=Befektetések kiválasztása...
+
+IDC_USETAGFILTER=Szûrés címkék alapján
+IDC_SETTAGS=Címke kiválasztása...
+
+IDC_USETEXTFILTER=Szûrés szöveg alapján
+IDC_SETTEXT=Szöveg kijelölése...
+
+IDC_INCLUDETRANSFERS=Átutalásokkal együtt
+IDC_SHOW_SUBTOTALS=Részösszegek mutatása
+IDC_HIDE_ZERO_ROWS=Nulla tartlamú sorok elrejtése
+
+IDHELP=Súgó
+
+IDC_TRANSACTIONS=Tranzakciók jelentés
+IDC_CATEGORY=Kiadások kategóriák alapján
+IDC_SUBCATEGORY=Kiadások alkategóriák alapján
+IDC_CATEGORYBYMONTH=Havi kiadások kategóriák alapján
+IDC_SUBCATEGORYBYMONTH=Havi kiadások alkategóriák alapján
+IDC_PAYEE=Kiadások kapcsolatok alapján
+IDC_PAYEEBYMONTH=Havi kiadások kapcsolatok alapján
+IDC_BUDGETCATEGORY=Kategóriák szerinti költségvetés
+IDC_BUDGETSUBCATEGORY=Alkategóriák szerinti költségvetés
+IDC_CASHFLOW=Pénzforgalmi jelentés
+IDC_LAST30DAYS=Utolsó 30 nap tranzakciói
+IDC_ACCOUNT=Számlák szerinti kiadások
+IDC_INVESTMENT=Befektetések szerinti teljesítmény
+
+IDC_TABLE=Megjelenítés táblázatként
+IDC_CHART=Diagram
+IDC_INCOMECHART=Bevételek torta diagram
+IDC_EXPENSECHART=Kiadások torta diagram
+IDC_PERIODCHART=Periódus diagram
+IDC_TOTALCHART=Teljes diagram
+
+CATEGORYCOLUMN0=Kategória
+CATEGORYCOLUMN1=Jelenlegi
+CATEGORYCOLUMN2=Tervezett
+CATEGORYCOLUMN3=Eltérés
+CATEGORYCOLUMN4=Kód
+CATEGORYCOLUMN5=Bevétel
+CATEGORYCOLUMN6=Kiadás
+CATEGORYCOLUMN7=Költségvetés, %
+
+CASHFLOWCOLUMN0=Dátum
+CASHFLOWCOLUMN1=Teljes periódus
+CASHFLOWCOLUMN2=Összesen
+
+OTHERS=Egyebek
+
+GENERALREPORTS=Általános jelentések
+CATEGORYREPORTS=Kategória jelentések
+PAYEEREPORTS=Kapcsolati jelentések
+BUDGETREPORTS=Költségvetési jelentések
+INVESTMENTREPORTS=Befektetési jelentések
+FAVORITEREPORTS=Kedvencek jelentései
+
+PAYEECOLUMN0=Kapcsolat
+PAYEECOLUMN1=Összesen
+PAYEECOLUMN2=Bevétel
+PAYEECOLUMN3=Kiadás
+
+ACCOUNTCOLUMN0=Számla
+ACCOUNTCOLUMN1=Csoport
+ACCOUNTCOLUMN2=Bank
+ACCOUNTCOLUMN3=Egyenleg
+
+INVESTMENTCOLUMN0=Befektetés
+INVESTMENTCOLUMN1=Szimbólum
+INVESTMENTCOLUMN2=Szám
+INVESTMENTCOLUMN3=Ár
+INVESTMENTCOLUMN4=Jutalék
+INVESTMENTCOLUMN5=Részvényenkénti ár
+INVESTMENTCOLUMN6=Osztalék
+INVESTMENTCOLUMN7=Érték
+INVESTMENTCOLUMN8=Nyereség
+INVESTMENTCOLUMN9=Nyereség, %
+INVESTMENTCOLUMN10=Vásárlási érték
+INVESTMENTCOLUMN11=Vásárlási jutalék
+INVESTMENTCOLUMN12=Forgalmi érték
+INVESTMENTCOLUMN13=Eladási jutalék
+INVESTMENTCOLUMN14=Bevétel
+INVESTMENTCOLUMN15=Rövid távú tõkenyereség
+INVESTMENTCOLUMN16=Hosszú távú tõkenyereség
+INVESTMENTCOLUMN17=Aktuális árfolyam
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Bejegyzés az adatbázisba
+IDC_ADD=Új Be/Kifizetés...
+IDC_EDIT=Be/Kifizetések szerkesztése...
+IDC_DELETE=Be/Kifizetés törlése
+IDC_SKIP=Kihagyás
+IDHELP=Súgó
+
+COLUMN0=Dátum
+COLUMN1=Tranzakció
+COLUMN2=Kapcsolat
+COLUMN3=Összeg
+COLUMN4=Megjegyzés
+COLUMN5=Gyakoriság
+COLUMN6=Kategória
+COLUMN7=Automatikus
+
+IDC_TABLE=Táblázat
+IDC_CALENDAR=Naptár
+
+DELETECONFIRMATION=Biztos benne, hogy törli ezt a számlát?
+
+ID_EDIT_OPEN=Megadás
+ID_EDIT_INSERT=Új hozzáadása...
+ID_EDIT_DELETE=Törlés
+ID_EDIT_PROPERTIES=Tulajdonságok
+ID_EDIT_COPY=Másolás
+ID_EDIT_PASTE=Beillesztés
+
+CHANGE_OF_ACCOUNT=Szeretne egy másik számlát használni, ennek a tranzakciónak az összes jövõbeli elõfordulásához?
+CHANGE_OF_AMOUNT=Szeretne egy másik összeget használni, ennek a tranzakciónak az összes jövõbeli elõfordulásához?
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=Névjegy
+IDOK=OK
+IDCANCEL=Mégse
+
+[IDD_ACCOUNT]
+TITLE=Számla
+IDC_NAMETEXT=Név
+IDC_TYPETEXT=Csoport
+
+IDC_BANKTEXT=Bank
+IDC_EDITBANK=Szerkeszt...
+
+IDC_NUMBERTEXT=Szám
+IDC_BALANCETEXT=Kezdõ egyenleg
+IDC_CURRENCYTEXT=Pénznem
+IDC_LIMIT_TEXT=Egyenleg korlát
+IDC_APR_TEXT=Éves százalékarány
+IDC_CLOSED=Ez a számla le van zárva
+IDC_COMMENTTEXT=Megjegyzés
+
+IDC_ONLINE_SETUP=Online telepítés...
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+ERR_NOACCOUNTNAME=Kérem adja meg a számla nevét!
+ERR_NOACCOUNTTYPE=A számlának egy csoporthoz kell tartoznia!
+ERR_NOCURRENCY=Kérem adja meg a számlához tartozó pénznemet!
+ERR_EMPTYBANKNAME=Kérem elõször adjon meg, vagy válasszon ki egy bankot!
+ERR_DUPLICATENAME=Itt ezzel a névvel már létezik egy számla. Ugyanazok a nevek nem engedélyezettek!
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=Számlacsoportok
+IDC_ADD=Hozzáad...
+IDC_DELETE=Törlés
+IDC_EDIT=Frissítés...
+IDOK=OK
+IDCANCEL=Mégse
+
+ERR_CANTDELETE=Ezt a csoportot már használja a számlák egyike!
+
+[IDD_ACCOUNTTYPE]
+TITLE=Számlák csoportosítása
+IDC_NAMETEXT=Név
+IDOK=OK
+IDCANCEL=Mégse
+
+ERR_NOACCTYPENAME=Kérem adjon meg egy nevet a csoport részére!
+
+[IDD_ARCHIVE]
+TITLE=Archívum létrehozása
+IDC_DATE_TEXT=Összes tranzakció archíválása eddig
+IDC_DELETE=Elmentett (archivált) tranzakciók törlése az aktív dokumentumból
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+ERR_CREATE_ARCHIVE=Az archívum létrehozása nem sikerült!
+ERR_WRITE_ARCHIVE=Az archív fájl mentése nem sikerült!
+
+[IDD_BACKUP]
+TITLE=Biztonsági mentés
+
+IDC_ENABLEBACKUP=Mentés engedélyezése
+
+IDC_LASTBACKUPTEXT=Utolsó mentés
+IDC_FREQUENCYTEXT=Gyakoriság
+IDC_DIRECTORYTEXT=Mappa
+IDC_BACKUP=Mentés most!
+IDC_AUTOMATIC=Automatikus mentés
+IDC_ADD_DATE_TO_BACKUP_FILE=Dátum hozzáadása a fájlnévhez
+
+IDC_EVERYDAY=Naponta
+IDC_EVERYWEEK=Hetente
+IDC_EVERYOTHERWEEK=Két hetente
+
+IDC_BROWSE=Tallózás...
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+ERR_INVALIDDIR=Kérem adjon meg egy érvényes útvonalat!
+ERR_COPYFILE=Hiba történt a mentés elkészítése közben! Lehet, hogy nincs lemez a meghajtóban.
+ERR_BACKUPTIME=Mentés létrehozása az Ön beállításai alapján. Folytatja?
+ERR_NEWFILE=Ezt a fájlt el kell mentenie, a biztonsági másolat létrehozása elõtt!
+ERR_COPYFILE_RESTORE=Hiba történt a visszaállítás közben! Lehet, hogy nincs a lemez a meghajtóban.
+SELECT_FILE_TO_RESTORE=Visszaállítandó fájl kiválasztása
+SELECT_RESTORE_DIR=Hova szeretné a fájlt elmenteni?
+OPEN_RESTORED_FILE=Szeretné megnyitni a helyreállított fájlt?
+
+[IDD_BALANCE]
+TITLE=Számlaegyenleg
+
+IDC_CLEAREDDEPOSITS=Törölt bevételek
+IDC_CLEAREDWITHDRAWALS=Törölt kiadások
+
+IDC_RECONCILEDTEXT=Elõzõ számlaegyenleg
+IDC_CLEAREDTEXT=Aktuális számlaegyenleg
+IDC_UNCLEAREDTEXT=Kinnlevõség
+
+IDC_NEWTRANSACTION=Új...
+IDC_SELECTALL=Mind kijelöl
+IDC_DESELECTALL=Egyiket sem
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+[IDD_BANK]
+TITLE=Bank
+
+IDC_NAMETEXT=Név
+IDC_ADDRESSTEXT=Cím
+IDC_PHONETEXT=Telefon
+IDC_WEBSITETEXT=Webhely
+IDC_OPEN=Megnyitás
+IDC_COMMENTTEXT=Megjegyzés
+IDC_BANKNUMBERTEXT=Bank szám
+IDC_SWIFTCODETEXT=Átirányítási kód
+IDC_TRANSFERCODETEXT=Átutalási kód
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+ERR_NOBANKNAME=Kérem adja meg a bank nevét!
+
+[IDD_BILL]
+TITLE=Kiadások/Bevételek
+
+IDC_FREQUENCYGROUP=Gyakoriság
+
+IDC_ONCE=Egyszer
+IDC_DAILY=Naponta
+IDC_WEEKLY=Hetente
+IDC_EVERYOTHERWEEK=Két hetente
+IDC_TWICEAMONTH=Havonta létszer
+IDC_EVERYFOURWEEKS=Négyhetente
+IDC_MONTHLY=Havonta
+IDC_EVERYOTHERMONTH=Kéthavonta
+IDC_QUARTERLY=Negyedévente
+IDC_EVERYFOURMONTHS=Minden negyedik hónapban
+IDC_EVERYSIXMONTHS=Félévente
+IDC_ANNUALLY=Évente
+IDC_EVERYTWOYEARS=Két évente
+
+IDC_STARTDATETEXT=Kezdõ dátum
+
+IDC_BILLTYPETEXT=Számlatípus
+BILLTYPE_CONTINUOUS=Folyamatos
+BILLTYPE_NUMBERED=Számozott
+
+IDC_NUMBERTEXT=Kifizetések száma
+
+IDC_TRANSACTIONGROUP=Tranzakció
+IDC_TYPETEXT=Típus
+IDC_DEPOSIT=Bevétel
+IDC_WITHDRAWAL=Kiadás
+IDC_TRANSFER=Átutalás
+IDC_CHECK_NUMBER_TEXT=Szám
+IDC_ACCOUNTTEXT=Számla
+IDC_PAYEETEXT=Kapcsolat
+IDC_CATEGORYTEXT=Kategória
+IDC_SPLIT=Felosztás
+IDC_AMOUNTTEXT=Összeg
+IDC_COMMENTTEXT=Megjegyzés
+
+IDC_ENTER=Hozzáad a számlához
+IDC_AUTOMATIC=Számla automatikus megadása 
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+ERR_INVALIDACCOUNT=Érvénytelen számlanév!
+ERR_INVALIDNUMBER=A kapcsolati szám nem lehet kisebb mint 1!
+
+[IDD_BUDGET_LIMIT]
+TITLE=Költségvetés korlátozás
+
+IDC_CATEGORY_TEXT=Kategória
+IDC_MONTH_TEXT=Hónap
+IDC_INCOME_LIMIT_TEXT=Bevételi limit
+IDC_EXPENSE_LIMIT_TEXT=Kiadási limit
+
+IDC_FROM=Hónaptól
+IDC_TO=Hónapig
+
+IDOK=OK
+IDCANCEL=Mégse
+
+[IDD_CALC_LOAN]
+TITLE=Kölcsönkalkulátor
+
+IDC_AMOUNTTEXT=Összeg
+IDC_RATETEXT=Éves kamatláb, %
+IDC_PERIODTEXT=Idõtartam (hónap)
+IDC_PAYMENTTEXT=Kifizetés
+IDC_TOTALINTERESTTEXT=Teljes kamat
+
+COLUMN0=#
+COLUMN1=Kifizetés
+COLUMN2=Kölcsöntõke
+COLUMN3=Kamatláb
+COLUMN4=Fennmaradó összeg
+
+IDOK=OK
+
+[IDD_CALC_SAVINGS]
+TITLE=Megtakarítás kalkulátor
+
+IDC_MONTHLYPAYMENTTEXT=Havonkénti kifizetés
+IDC_INITIALBALANCETEXT=Kezdõ egyenleg
+IDC_RATETEXT=Éves kamatláb, %
+IDC_PERIODTEXT=Idõtartam (hónap)
+IDC_STARTDATETEXT=Kezdõ dátum
+IDC_TOTALINTERESTTEXT=Teljes kamat
+IDC_TOTALTEXT=Összesen
+
+COLUMN0=#
+COLUMN1=Dátum
+COLUMN2=Kifizetés
+COLUMN3=Kamatláb
+COLUMN4=Összesen
+
+IDOK=OK
+
+[IDD_CALC_MORTGAGE]
+TITLE=Jelzálog kalkulátor
+
+IDC_VALUETEXT=Becsült érték
+IDC_AMOUNTTEXT=Jelzálog összeg
+IDC_TERMTEXT=Idõtartam (év)
+IDC_DATETEXT=Határidõ
+IDC_RATETEXT=Kamatláb, %
+IDC_TAXTEXT=Éves vagyonadó
+IDC_INSURANCETEXT=Éves vagynbiztosítás
+
+IDC_REQUIREDPAYMENTTEXT=Igényelt összeg
+IDC_TOTALINTERESTTEXT=Teljes kamat
+IDC_TOTALPMITEXT=Teljes PMI
+IDC_TOTALMONTHSTEXT=Hónapok száma
+
+COLUMN0=Dátum
+COLUMN1=Kölcsöntõke
+COLUMN2=Kamatláb
+COLUMN3=Adó
+COLUMN4=Biztosítás
+COLUMN5=PMI
+COLUMN6=Kifizetés
+COLUMN7=Összesen
+
+IDOK=OK
+IDHELP=Súgó
+
+[IDD_CATEGORY]
+TITLE=Kategória
+
+TAB_GENERAL=Általános
+TAB_SIMPLE_BUDGET=Egyszerû költségvetés
+TAB_MONTHLY_BUDGET=Havi költségvetés
+
+IDC_NAMETEXT=Kategória
+IDC_SUBNAMETEXT=Alcsoport
+IDC_COMMENTTEXT=Megjegyzés
+IDC_NUMBERTEXT=Szám
+
+PERIOD_ONE_WEEK=Egy hét
+PERIOD_TWO_WEEKS=Kettõ hét
+PERIOD_HALF_MONTH=Félhónap
+PERIOD_ONE_MONTH=Egy hónap
+PERIOD_TWO_MONTHS=Kettõ hónap
+PERIOD_THREE_MONTHS=Három hónap
+PERIOD_FOUR_MONTHS=Négy hónap
+PERIOD_SIX_MONTHS=Hat hónap
+PERIOD_NINE_MONTHS=Kilenc hónap
+PERIOD_ONE_YEAR=Egy év
+
+IDC_BUDGETPERIODTEXT=Költségvetési idõszak
+IDC_INCOME_LIMIT_TEXT=Bevételi limit
+IDC_EXPENSE_LIMIT_TEXT=Kiadási limit
+
+IDC_ADD=Hozzáad...
+IDC_ADD_MANY=Idõszak hozzáadása...
+IDC_UPDATE=Frissítés...
+IDC_DELETE=Törlés
+
+MONTH_COLUMN=Hónap
+LIMIT_COLUMN=Limit
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+ERR_NOCATNAME=Kérem adjon meg egy nevet a kategória részére!
+ERR_CATEXIST=Ezen a néven már létezik egy kategória!
+
+[IDD_CATEGORYCHANGE]
+TITLE=Kategória módosítása
+
+IDOK=OK
+IDCANCEL=Mégse
+
+[IDD_CATEGORYMERGE]
+TITLE=Kategória egyesítés
+
+IDC_CATEGORYTEXT=Kategória egyesítése
+IDC_CATEGORYTEXT1=ezzel a kategóriával
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+ERR_NOCATEGORIES=Mindkét kategóriát ki kell jelölnie, és azoknak különbözõknek kell lennie!
+ERR_SOURCECATEGORY=A kiinduló kategória nem tartalmazhat alkategóriákat!
+ERR_TARGETCATEGORY=A célkategória nem lehet alcsoportja a kiinduló kategóriának!
+
+[IDD_COLORS]
+TITLE=Betûtípusok és színek
+
+IDC_ACCOUNTLISTTEXT=Számlák listája
+IDC_ACCOUNTTEXT=Számlabejegyzések
+IDC_BANKTEXT=Bankok
+IDC_CATEGORYTEXT=Kategóriák
+IDC_PAYEETEXT=Kapcsolatok
+IDC_SCHEDULETEXT=Ütemterv
+IDC_REPORTTEXT=Jelentések
+IDC_PORTFOLIOTEXT=Portfólió
+
+IDC_LISTFONTTEXT=Táblázat betûtípusa
+
+IDC_TABLEFONTCOLORTEXT=Táblázat szövegszín
+IDC_TABLEBILLFONTCOLORTEXT=Jövõbeli kiadások színe
+IDC_TABLEBACKGROUNDTEXT1=Táblázat háttérszín 1
+IDC_TABLEBACKGROUNDTEXT2=Táblázat háttérszín 2
+
+IDC_RESTORE=Alapértékek
+IDOK=OK
+IDCANCEL=Mégse
+
+[IDD_CURRENCY]
+TITLE=Valutaárfolyamok
+IDC_SHOWALL=Összes pénznem megjelenítése
+IDC_CURRENCYINFO=Alapértelmezett pénznem: %s
+IDC_DOWNLOAD=Letöltés...
+IDC_UPDATE=Frissítés
+
+IDOK=Bezárás
+IDHELP=Súgó
+
+COLUMN0=Pénznem
+COLUMN1=1
+COLUMN2=Dátum
+COLUMN3=Erre
+
+ERR_WEBUPDATE=A valutaárfolyamok frissítése nem sikerült! Kérem ellenõrizze az Internetkapcsolatát!
+ERR_INVALIDRATE=Érvénytelen átváltási arány került fogadásra!
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=Valutaárfolyam
+IDOK=OK
+IDCANCEL=Mégse
+
+[IDD_SHEETREPORTFILTER]
+TITLE=Jelentések szûrõ
+
+[IDD_DATESRANGE]
+TITLE=Idõszak kiválasztása
+
+CURRENTWEEK=Aktuális hét
+PREVIOUSWEEK=Elõzõ hét
+LAST30DAYS=Utolsó 30 nap
+LAST12MONTHS=Utolsó 12 hónap
+CURRENTMONTH=Aktuális hónap
+PREVIOUSMONTH=Elõzõ hónap
+CURRENTQUARTER=Aktuális negyedév
+PREVIOUSQUARTER=Elõzõ negyedév
+CURRENTYEAR=Aktuális év
+PREVIOUSYEAR=Elõzõ év
+CURRENT_FISCAL_YEAR=Aktuális költségvetési év
+PREVIOUS_FISCAL_YEAR=Elõzõ költségvetési év
+MONTH_TO_DATE=A hónapban a mai napig
+QUARTER_TO_DATE=A negyedévben a mai napig
+YEAR_TO_DATE=Az évben a mai napig
+ALL_TO_DATE=Összes a mai napig
+ALL_DATES=Minden dátum
+
+IDC_PERIODSTEXT=Elõre definiált idõszakok
+IDC_CUSTOMDATES=Egyéni dátumok
+IDC_FROMTEXT=Ettõl
+IDC_TOTEXT=Eddig
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+CURRENT=Jelenlegi
+CUSTOM=Egyéni
+
+[IDD_DOWNLOADPROGRESS]
+TITLE=Letöltési folyamat
+
+IDOK=Bezárás
+
+PROGRESS_TEXT=%1 kész, a(z) %2 feladatból
+
+IDC_AUTO_CLOSE=Ablak automatikus bezárása a letöltés befejezõdése után
+
+TASK_TRANSACTIONS=Tranzakció 
+TASK_INVESTMENT=Jegyzett árfolyam
+TASK_EXCHANGERATE=Valutaárfolyam
+
+STATUS_FAILED=Nem sikerült
+STATUS_SUCCESS=%d tranzakció
+
+STATUS_CONNECTING=Kapcsolódás
+STATUS_REQUESTING=Lekérdezés
+STATUS_RECEIVING=Fogadás
+STATUS_IMPORTING=Importálás
+
+[IDD_DOWNLOADTRANSACTIONS]
+TITLE=Tranzakciók letöltése
+
+IDC_DETECT_DUPLICATES=Másolatok azonosítása
+IDC_ENABLE_LOGGING=Naplózás engedélyezése
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+ERROR_INVALID_ACCOUNT=Érvénytelen számla!
+ERROR_MISSING_CONFIG=A közvetlen kapcsolódás beállításai hiányosak: hiányzó kiszolgáló, felhasználói azonosító, jelszó vagy számlaszám! Adja meg a szükséges információkat a számlatulajdonságok ablakban.
+ERROR_INVALID_CONFIG=Érvénytelen kiszolgáló beállítások. Kérem módosítsa a számla és a bank tulajdonságait.
+ERROR_CONNECT=Nem sikerült csatlakozni a bank szerveréhez. A kiszolgáló lehet, hogy foglalt próbálja meg késõbb.
+ERROR_SEND=Nem lehetett elküldeni a letöltött számlakivonatot a bank felé!
+ERROR_INVALID_RESPONSE=Érvénytelen kiszolgáló válasz!
+ERROR_AUTHENTICATION=Érvénytelen felhasználói azonosító/jelszó!
+ERROR_STATEMENT=Hiba történt a számlakivonat letöltése közben!
+ERROR_ACCOUNTINFO=Hiba történt a számla információinak összegyûjtése közben!
+ERROR_IMPORT=Hiba történt a letöltött tranzakciók importálása közben!
+ERROR_UNKNOWN=Ismeretlen hiba!
+
+ERROR_INVESTMENT_DOWNLOAD=Egy árfolyamot nem lehetett letölteni: érvénytelen részvény szimbólum, a kijelölt adatforrás nem tartalmaz semmilyen adatot sem, vagy internetcsatlakozási probléma lépett fel!
+
+[IDD_DUPLICATECHECKWARNING]
+TITLE=Másolati figyelmeztetés
+
+IDC_WARNING=A(z) ### számlaszámot már használja egy tranzakció ebben a számlában. Valóban újra szeretné azt használni?
+IDC_DONOTSHOW=Ne mutassa a figyelmeztetést újra
+
+IDYES=Igen
+IDNO=Nem
+
+[IDD_ERROR]
+TITLE=Hiba
+ERROR=Hiba
+DESCRIPTION=Leírás
+CLOSE=Bezárás
+
+[IDD_FILTERACCOUNT]
+TITLE=Számlák kijelölése
+
+IDC_SELECTALL=Mind kijelöl
+IDC_SELECT_OPEN=Kijelölt megnyitása
+IDC_CLEARALL=Mindet töröl
+IDC_SHOWCLOSEDACCOUNTS=Lezárt számlák mutatása
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+[IDD_FILTERCATEGORY]
+TITLE=Kategóriák kijelölése
+
+IDC_SELECTALL=Mind kijelöl
+IDC_CLEARALL=Mindet töröl
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+[IDD_FILTERPAYEE]
+TITLE=Kapcsolatok kijelölése
+
+IDC_SELECTALL=Mind kijelöl
+IDC_CLEARALL=Mindet töröl
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+[IDD_FILTERINVESTMENT]
+TITLE=Befektetések kiválasztása
+
+IDC_SELECTALL=Mind kijelöl
+IDC_CLEARALL=Mindet töröl
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+[IDD_FILTERTAG]
+TITLE=Címkék kiválasztása
+
+IDC_SELECTALL=Mind kijelöl
+IDC_CLEARALL=Mindet töröl
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+[IDD_FILTERTEXT]
+TITLE=Szöveg megadása
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+[IDD_IMPORT]
+TITLE=Importálás
+
+IDC_IMPORTTEXT=Számla kiválasztása az importálandó tranzakciók részére
+IDC_DATEFORMATTEXT=Dátumformátum
+IDC_DECIMALSEPARATORTEXT=Tizedes elválasztó
+IDC_DETECT_DUPLICATES=Másolatok azonosítása
+IDC_APPLY_IMPORT_RULES=Importálási szabályok alkalmazása
+IDC_IMPORT_RULES=Importálási szabályok...
+
+IDC_NEWACCOUNT=Új számla...
+
+IDOK=OK
+IDCANCEL=Mégse
+
+ERR_NOACCOUNT=Kérem válasszon ki egy számlát!
+ERR_PARSING=A fájl nem importálható mert az sérült, vagy nem szabványos.
+ERR_NO_TRANSACTIONS=Ez a fájl nem tartalmaz tranzakciókat.
+ERR_TRANSACTIONS_FOR_MANY_ACCOUNTS=A fájl egynél több számla tranzakcióit tartalmazza, és ezért nem importálható.
+
+INFO_AUTOMATICALLY_CREATED_ACCOUNTS=Az AceMoney nem képes összevetni a következõ összegeket és számlá(ka)t:
+
+STATUS_READING_FILE=Fájl beolvasása...
+STATUS_PARSING_FILE=Fájl elemzése...
+STATUS_IMPORTING_TRANSACTIONS=Tranzakciók importálása...
+STATUS_IMPORTING_BILLS=Kiadások és bevételek importálása...
+STATUS_IMPORTING_ACCOUNTS=Számlák importálása...
+STATUS_IMPORTING_CATEGORIES=Kategóriák importálása...
+STATUS_IMPORTING_INVESTMENTS=Befektetések importálása...
+STATUS_IMPORTING_HISTORICAL_PRICES=Részvényárfolyam elõzmények importálása...
+                                  
+[IDD_IMPORTRULE]
+TITLE=Importálási szabály
+
+IDC_SEARCHSTRINGTEXT=Ha az importált tranzakciók tartalmaznak leírást
+IDC_PAYEETEXT=Cserélje le ezzel a kapcsolattal
+IDC_CATEGORYTEXT=És ezt a kategóriát használja
+
+IDOK=OK
+IDCANCEL=Mégse
+
+[IDD_IMPORTRULES]
+TITLE=Importálási szabályok
+
+COLUMN1=Keresendõ szöveg
+COLUMN2=Kapcsolat
+COLUMN3=Kategória
+
+IDC_FILTER_TEXT=Szûrõ
+IDC_CLEAR=Kiürítés
+
+IDC_ADD=Hozzáad
+IDC_EDIT=Szerkeszt
+IDC_DELETE=Törlés
+IDC_IMPORT=Importálás
+IDC_EXPORT=Exportálás
+
+IDOK=Bezárás
+IDHELP=Súgó
+
+ERROR_IMPORT=A(z) %s szabályainak importálása nem sikerült!
+ERROR_EXPORT=Az importálási szabályok exportálása ebbe - %s - nem sikerült!
+
+[IDD_EXPORT]
+TITLE=Exportálás
+
+IDC_EXPORTTEXT=Exportálandó számla kiválasztása
+IDC_STARTDATETEXT=Kezdõ dátum
+IDC_ENDDATETEXT=Befejezõ dátum
+
+ERR_NOACCOUNT=Kérem válasszon ki egy számlát!
+
+IDOK=OK
+IDCANCEL=Mégse
+
+[IDD_HOSTNAME]
+TITLE=Számítógép nevének megadása
+IDC_HOSTINFO=Ez a fájl egy másik számítógép néven került létrehozásra. A zárolás feloldásához, kérem adja meg ennek a másik gépnek a nevét.
+IDC_HOSTTEXT=Eredeti számítógép&név megadása (nagybetûérzékeny)
+
+IDOK=OK
+IDCANCEL=Mégse
+
+ERR_INVALIDHOSTNAME=A számítógépnév nem egyezik!
+
+[IDD_LANGUAGE]
+TITLE=Nyelv kiválasztása
+
+IDOK=OK
+IDCANCEL=Mégse
+
+[IDD_INTERNATIONALSETTINGS]
+TITLE=Nemzetközi beállítások
+
+IDC_DATETEXT=Dátumformátum
+IDC_DATESEPARATORTEXT=Dátum elválasztó
+IDC_CURRENCYTEXT=Alapértelmezett pénznem
+IDC_DECIMALSEPARATORTEXT=Tizedesvesszõ
+IDC_THOUSANDSEPARATORTEXT=Ezres elválasztó
+IDC_NUMBEROFDECIMALDIGITSTEXT=Tizedesjegyek száma
+IDC_FISCAL_YEAR_TEXT=Költségvetési év elsõ napja
+
+ERR_THOUSANDDECIMAL=A tizedesvesszõ, és az ezres elválasztó nem lehet azonos!
+ERR_THOUSAND=Érvénytelen ezres elválasztójel!
+ERR_FISCAL_YEAR=Érvénytelen összetétel a költségvetési hónap és nap kijelölése során!
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+[IDD_NETWORK]
+TITLE=Hálózati beállítások
+
+IDC_DIRECTCONNECTION=Közvetlenül kapcsolódom az Internethez
+IDC_MANUALPROXYCONFIG=Kézi proxy beállítás
+
+IDC_PROXYSERVERTEXT=HTTP proxy
+IDC_PROXYSERVERPORTTEXT=Port
+
+IDOK=OK
+IDCANCEL=Mégse
+
+ERR_INVALID_PORT_NUMBER=A portok számának 0 és 65535 közé kell esnie!
+
+[IDD_ONLINESERVICE]
+TITLE=Hálózati szolgáltatás
+
+IDC_ENABLE=A számlához tartozó tranzakciók letöltése
+IDC_PROVIDERTYPETEXT=Hálózati szolgáltatás típusa
+IDC_PROVIDERTEXT=Hálózati szolgáltató
+IDC_USERIDTEXT=Felhasználónév
+IDC_PASSWORDTEXT=Jelszó
+IDC_CONNECTASTEXT=Kapcsolódás
+
+PROVIDER_TYPE_CREDITCARD=Hitelkártya
+PROVIDER_TYPE_BANK=Bank
+PROVIDER_TYPE_BROKERAGE=Brókercég
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+[IDD_OPTIONS]
+TITLE=Beállítások
+
+IDC_GENERALGROUP=Általános
+IDC_SHOWCLOSEDACCOUNTS=Lezárt számlák mutatása
+IDC_SHOWACCOUNTNUMBERS=Számlaszámok megjelenítése
+IDC_SHOW_AVAILABLE_BALANCE=Elérhetõ egyenleg mutatása
+IDC_SHOWGRID=Rácsvonalak mutatása a táblázatokban
+IDC_LOADLASTFILE=Legutóbbi fájl betöltése indításkor
+IDC_SHOWCOMMENT=Tranzakciós megjegyzések mutatása
+IDC_AUTOSAVE=Dokumentum automatikus mentése
+IDC_SHOWSPLASHSCREEN=Indítóképernyõ mutatása
+IDC_SHOWFILENAME=Fájlnevek mutatása a címsorban
+IDC_SHOWSOLDSTOCKS=Eladott részvények mutatása
+IDC_ADDINVESTMENTVALUE=Megosztott költségek hozzáadása a számlaegyenleghez
+IDC_SHOWDEPOSITSFIRST=Kiadások legyenek elõl a napi tranzakciók között
+IDC_TRANSFERSTATUS=Átutalási státusz módosítása mindkét számla között
+IDC_SHOWCATEGORYSTATUS=Kategória elemzés mutatása az állapotsorban
+IDC_SHOWDUPLICATECHECKWARNING=Másolati figyelmeztetések megjelenítése
+IDC_CHECKFORUPDATES=Programfrissítések ellenõrzése
+IDC_AUTOFILLTRANSACTIONCOMMENTS=Tranzakció-megjegyzések automatikus kitöltése
+IDC_SORTSAMEDAYTRANSACTIONSBYNUMBER=Azonos napi tranzakciók szám szerinti rendezése
+IDC_CONFIRM_EDIT_RECONCILED_TRANSACTION=Törölt/kiegyenlített tranzakciók módosításának megerõsítése
+IDC_CONFIRM_DELETE_TRANSACTION=Tranzakció törlésének megerõsítése
+IDC_CONFIRM_DELETE_BILL=Számla törlésének megerõsítése
+IDC_CONFIRM_BILL_AMOUNT_CHANGE=Számlaösszeg-módosítás megerõsítése
+IDC_CONFIRM_BILL_ACCOUNT_CHANGE=Számlamódosítás megerõsítése
+
+IDC_STARTPAGEGROUP=Indítás a Kezdõlappal
+IDC_ACCOUNTLIST=Számlák listája
+IDC_FAVORITEACCOUNT=Kedvenc számla
+
+IDC_DUPDETECTRANGE=Másolat észlelési tartomány
+IDC_DUPDETECTCHECKLABEL=nap a számlákhnál
+IDC_DUPDETECTOTHERLABEL=nap az egyebeknél
+
+IDC_PASSWORDGROUP=Jelszó...
+IDC_OLDPASSTEXT=Jelenlegi jelszó
+IDC_NEWPASSTEXT=Új jelszó
+IDC_RETYPETEXT=Új jelszó megerõsítése
+IDC_PERMITMULTIUSER=Többfelhasználós hozzáférés engedélyezése
+
+IDC_NETWORK=Hálózat...
+
+IDC_TRANSACTIONTYPETEXT=Új tranzakció típusa
+LASTUSEDTYPE=Utoljára használt típus
+
+IDC_TRANSACTIONNUMBERTEXT=Új tranzakció szám
+NUMBER_EMPTY=Üres
+NUMBER_DEBIT=Tartozás
+NUMBER_AUTO=Legutóbbi többlet ellenõrzése
+
+IDC_NUMBEROFFUTUREBILLSMONTHSTEXT=Jövõbeni kifizetések megjelenítése
+0_MONTHS_AHEAD=Nincs
+1_MONTHS_AHEAD=1 hónappal elõre
+2_MONTHS_AHEAD=2 hónappal elõre
+3_MONTHS_AHEAD=3 hónappal elõre
+4_MONTHS_AHEAD=4 hónappal elõre
+5_MONTHS_AHEAD=5 hónappal elõre
+6_MONTHS_AHEAD=6 hónappal elõre
+7_MONTHS_AHEAD=7 hónappal elõre
+8_MONTHS_AHEAD=8 hónappal elõre
+9_MONTHS_AHEAD=9 hónappal elõre
+10_MONTHS_AHEAD=10 hónappal elõre
+11_MONTHS_AHEAD=11 hónappal elõre
+12_MONTHS_AHEAD=1 évvel elõre
+18_MONTHS_AHEAD=18 hónappal elõre
+24_MONTHS_AHEAD=2 évvel elõre
+36_MONTHS_AHEAD=3 évvel elõre
+48_MONTHS_AHEAD=4 évvel elõre
+60_MONTHS_AHEAD=5 évvel elõre
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+ERR_INVALIDOLDPASSWORD=Hibás régi jelszó!
+ERR_INVALIDNEWPASSWORD=Hibás új jelszó!
+
+[IDD_PASSWORD]
+TITLE=Jelszó megadása
+IDC_PASSTEXT=Jelszó
+
+IDOK=OK
+IDCANCEL=Mégse
+
+ERR_INVALIDPASSWORD=Hibás jelszó!
+
+[IDD_PAYEE]
+TITLE=Kapcsolat
+
+IDC_NAMETEXT=Név
+IDC_ACTIVEPAYEE=Aktív kapcsolat
+
+IDC_ADDRESSTEXT=Cím
+IDC_CITYTEXT=Város
+IDC_STATETEXT=Megye
+IDC_ZIPTEXT=Irányítószám
+IDC_COUNTRYTEXT=Ország
+
+IDC_HOMEPHONETEXT=Otthoni telefon
+IDC_WORKPHONETEXT=Munkahelyi telefon
+IDC_MOBILEPHONETEXT=Mobiltelefon
+IDC_FAXTEXT=Fax
+IDC_PAGERTEXT=Személyhívó
+
+IDC_EMAILTEXT=E-mail
+IDC_WEBSITETEXT=Webhely
+IDC_GO=Ugrás
+
+IDC_COMMENTTEXT=Megjegyzés
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+ERR_NOPAYEENAME=Kérem adja meg a kapcsolat nevét!
+
+[IDD_PAYEECHANGE]
+TITLE=Kapcsolat módosítása
+
+IDOK=OK
+IDCANCEL=Mégse
+
+[IDD_PAYEEMERGE]
+TITLE=Kapcsolatok egyesítése
+IDC_PAYEETEXT=Kapcsolat egyesítése
+IDC_PAYEETEXT1=ezzel a kapcsolattal
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+SELECTED_PAYEES=Kijelölt kapcsolatok
+
+ERR_NOPAYEES=Mindkét kapcsolatot ki kell jelölnie, és azoknak egymástól különbözõnek kell lennie!
+
+[IDD_PRINTPREVIEW]
+TITLE=Nyomtatási kép
+IDC_PAGETEXT=Oldal
+IDC_PAGEOFTEXT=/
+IDC_PRINT=Nyomtatás...
+IDC_CLOSE=Bezárás
+IDC_PAGEPROPERTIES=Oldalbeállítás...
+IDC_PREVIOUSPAGE=<< Vissza
+IDC_NEXTPAGE=Tovább >>
+IDC_ZOOMIN=Nagyítás
+IDC_ZOOMOUT=Kicsinyítés
+
+IDOK=OK
+IDHELP=Súgó
+
+[IDD_PAGESETUP]
+TITLE=OLdalbeállítás
+IDC_ORIENTATIONBOX=Tájolás:
+IDC_TITLETEXT=Cím:
+IDC_PAPERSIZETEXT=Méret:
+IDC_PORTRAIT=Álló
+IDC_LANDSCAPE=Fekvõ
+IDC_TMTEXT=Fent:
+IDC_BMTEXT=Alul:
+IDC_LMTEXT=Bal:
+IDC_RMTEXT=Jobb:
+IDC_UNITTEXT=Mértékegység:
+
+UNIT0=Milliméter
+UNIT1=Hüvelyk
+
+IDOK=OK
+IDCANCEL=Mégse
+
+[IDD_QUESTION]
+TITLE=Megerõsítés
+DO_NOT_ASK_AGAIN=Ne kérdezze meg újra
+OK=Igen
+CANCEL=Nem
+
+[IDD_REGISTER]
+TITLE=Regisztrálás
+
+IDC_NAMETEXT=Név:
+IDC_SERIALNUMBERTEXT=Sorozatszám:
+
+IDC_ORDER=Vásárlás...
+
+IDOK=OK
+IDCANCEL=Mégse
+
+[IDD_SEARCH]
+TITLE=Tranzakciók keresése
+
+IDC_ACCOUNTTEXT=Számla
+IDC_DATETEXT=Dátum
+IDC_FROMTEXT=ettõl
+IDC_TOTEXT=eddig
+IDC_AMOUNTTEXT=Összeg
+IDC_AMOUNTFROMTEXT=ettõl
+IDC_AMOUNTTOTEXT=eddig
+IDC_COMMENTTEXT=Szöveg
+IDC_SEARCH=Keresés
+IDC_CLOSE=Bezárás
+
+ALLACCOUNTS=Minden számla
+
+[IDD_SPLIT]
+TITLE=Felosztás kategóriák szerint
+
+IDC_CATEGORYTEXT=Kategória
+IDC_SUBCATEGORYTEXT=Alcsoport
+IDC_AMOUNTTEXT=Összeg
+IDC_ADD=Hozzáad
+IDC_EDIT=Szerkeszt
+IDC_DELETE=Törlés
+IDC_TOTALTEXT=Összesen:
+IDC_UNASSIGNEDTEXT=Nem hozzárendelt:
+IDC_COMMENTTEXT=Megjegyzés
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+COLUMN0=Kategória
+COLUMN1=Alcsoport
+COLUMN2=Összeg
+COLUMN3=Megjegyzés
+
+ERR_BADTOTAL=A felosztott részek összege nem egyezik meg a tranzakció összegével. Szeretné módosítani a tranzakció összegét?
+
+[IDD_SPLITITEM]
+TITLE=Elem felosztás
+IDC_CATEGORYTEXT=Kategória
+IDC_SUBCATEGORYTEXT=Alcsoport
+IDC_AMOUNTTEXT=Összeg
+IDC_COMMENTTEXT=Megjegyzés
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+[IDD_TRANSACTION]
+TITLE=Tranzakció
+
+IDC_TYPETEXT=Típus
+IDC_DEPOSIT=Bevétel
+IDC_WITHDRAWAL=Kiadás
+IDC_TRANSFER=Átutalás
+IDC_ACCOUNTTEXT=Számla
+IDC_PAYEETEXT=Kapcsolat
+IDC_CATEGORYTEXT=Kategória
+IDC_SPLIT=Felosztás
+IDC_COMMENTTEXT=Megjegyzés
+IDC_DATETEXT=Dátum
+IDC_NUMBERTEXT=Szám
+IDC_AMOUNTTEXT=Összeg
+
+FROMTEXT=Ettõl
+TOTEXT=Eddig
+SPLIT=Felosztás
+DEBIT=Tartozás
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+ERR_SAMETRANFER=Nem utalhat át ugyanarra a számlára!
+ERR_INVALIDACCOUNT=Érvénytelen számlanév!
+ERR_SPLITAMOUNT=A tranzakció összegének meg kell egyeznie a felosztott részek összegével!
+ERR_SPLIT_HAS_TRANSFERS=Az átutalás nem tartalmazhat egymásba ágyazott felosztott tranzakciókat! Távolítsa el a megosztott tranzakciókat, vagy módosítsa a tranzakció típusát.
+ERR_TRANSFER_FROM_SPLIT_NOT_ALLOWED=A megosztott tranzakciók átutalása a kiválasztott típus esetén nem engedélyezett!
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Valutaárfolyam
+
+IDC_SOURCEAMOUNTTEXT=Átváltandó összeg
+IDC_TARGETAMOUNTTEXT=Átváltott összeg
+
+IDOK=OK
+IDCANCEL=Mégse
+
+[IDD_TRANSACTIONCATEGORYLIST]
+TITLE=Tranzakció kategóriák
+IDC_ADD=Hozzáad...
+IDC_DELETE=Törlés
+IDC_EDIT=Frissítés...
+IDOK=Bezárás
+IDHELP=Súgó
+
+UPDATE_TRANSACTIONS=Szeretné frissíteni a meglevõ tranzakcióit, egy új névvel?
+DELETE_TRANSACTIONS=Szeretné kiüríteni a törölt kategóriát a meglevõ tranzakciók közül?
+
+[IDD_TRANSACTIONCATEGORY]
+TITLE=Tranzakció kategória
+IDC_NAMETEXT=Név
+IDOK=OK
+IDCANCEL=Mégse
+
+ERR_NONAME=Kérem adjon meg egy nevet a kategória részére!
+
+[IDD_TAGLIST]
+TITLE=Tranzakció címkék
+IDC_ADD=Hozzáad...
+IDC_DELETE=Törlés
+IDC_EDIT=Frissítés...
+IDOK=Bezárás
+IDHELP=Súgó
+
+DELETE_WARNING=A kijelölt címkék törlésre kerülnek az összes tranzakcióból. Folytatja?
+
+[IDD_TAG]
+TITLE=Tranzakció címke
+IDC_NAMETEXT=Név
+IDC_COLORTEXT=Szín
+IDOK=OK
+IDCANCEL=Mégse
+
+ERR_NONAME=A tranzakciós címke neve nem lehet üres!
+ERR_EXISTS=A megadott néven már létezik egy címke. Kérem adjon meg egy másik nevet.
+
+[IDD_DAYBILLS]
+TITLE=Kiadások/Bevételek
+
+COLUMN0=Dátum
+COLUMN1=Tranzakció
+COLUMN2=Kapcsolat
+COLUMN3=Összeg
+COLUMN4=Megjegyzés
+COLUMN5=Gyakoriság
+
+IDC_ENTER=Beírás...
+IDC_EDIT=Szerkeszt...
+IDC_DELETE=Törlés...
+
+IDOK=OK
+IDHELP=Súgó
+
+[IDD_LITEVERSION]
+TITLE=AceMoney Lite
+
+IDC_TWO_ACCOUNTS_LIMIT=Az AceMoney Lite csak kettõ felhasználói számlát képes kezelni. Harmadik számla nem hozható létre és a kettõnél több számlát tartalmazó fájlok nem nyithatók meg. Ha kettõnél több számlát szeretne kezelni, frissítsen a teljes verziós AceMoney programra.
+
+IDC_WEBSITE=Frissítés...
+IDOK=Bezárás
+IDCANCEL=Mégse
+
+[IDD_STOCK]
+TITLE=Befektetés
+
+STOCK=Részvény
+MUTUALFUND=Befektetési alap
+BOND=Kötvény
+INDEX=Index
+COMMODITY=Árucikk
+CURRENCY=Pénznem
+REALESTATE=Ingatlan
+TRUST=Vagyon
+OPTIONS=Beállítások
+FUTURES=Határidõs ügyletek
+INTERNATIONAL_STOCK=Nemzetközi részvény
+INTERNATIONAL_BOND=Nemzetközi kötvény
+OTHER=Egyebek
+
+IDC_SYMBOLTEXT=Szimbólum
+IDC_LOOKUP=Szimbólum keresés...
+IDC_NAMETEXT=Név
+IDC_TYPETEXT=Típus
+IDC_CURRENCYTEXT=Pénznem
+IDC_DATASOURCETEXT=Adatforrás
+IDC_COMMENTTEXT=Megjegyzés
+IDC_DIVIDEBY100TEXT=Letöltött árajánlatok felosztása százasával
+IDC_AUTO_DOWNLOAD_ENABLED=Árajánlatok automatikus letöltése
+
+IDC_PRICETEXT=Árfolyam elõzmények
+IDC_UPDATE=Frissítés...
+IDC_WEBUPDATE=Letöltés...
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+COLUMN0=Dátum
+COLUMN1=Árfolyam
+
+ERR_EMPTYSYMBOL=A részvény szimbólum nem lehet üres!
+ERR_EMPTYNAME=A befektetés neve nem lehet üres!
+ERR_INVALIDDATASOURCE=Kérem jelöljön ki egy érvényes adatforrást!
+ERR_CONNECTIONORSYMBOL=Internetcsatlakozási hiba, vagy a részvény szimbólum hibás!
+
+[IDD_STOCKPRICE]
+TITLE=Részvény árfolyam
+
+IDC_DATETEXT=Dátum
+IDC_PRICETEXT=Árfolyam
+
+IDOK=OK
+IDCANCEL=Mégse
+
+[IDD_STOCKTRANSACTION]
+TITLE=Befektetési tranzakció
+
+IDC_DATETEXT=Dátum
+IDC_ACCOUNTTEXT=Számla
+IDC_ACTIONTEXT=Mûvelet
+IDC_INVESTMENTTEXT=Befektetés
+
+IDC_DIVIDENDTEXT=Osztalék
+IDC_NUMBERTEXT=Részvények száma
+IDC_PRICETEXT=Árfolyam
+IDC_COMMISSIONTEXT=Jutalék
+IDC_TOTALTEXT=Összesen
+
+IDC_COMMENTTEXT=Megjegyzés
+
+BUY=Vétel
+SELL=Eladás
+DIVIDEND=Osztalék
+REINVEST=Osztalék újbóli befektetése
+ADD=Részvény hozzáadása
+REMOVE=Részvény törlése
+LONG_TERM_CAPITAL_GAIN=Hosszú távú nyereség
+SHORT_TERM_CAPITAL_GAIN=Rövid távú nyereség
+REINVEST_SHORT_TERM_CAPITAL_GAIN=Rövid távú nyereség újbóli befektetése
+REINVEST_LONG_TERM_CAPITAL_GAIN=Hosszú távú nyereség újbóli befektetése
+
+IDOK=OK
+IDCANCEL=Mégse
+IDHELP=Súgó
+
+ERR_NEGATIVEVALUES=A részesedésnek, az árfolyamnak, az osztaléknak, a jutaléknak és a teljes összegnek pozitívnak kell lennie!
+ERR_INVALIDACTIONTYPE=Érvénytelen mûvelettípus!
+ERR_INVALIDACCOUNT=Érvénytelen számla!
+ERR_INVALIDINVESTMENT=Érvénytelen befektetés!
+ERR_INCONSISTENTCURRENCY=A kiválasztott számla pénznemének meg kell egyeznie a befektetés pénznemével!
+
+[IDD_REPORTADD]
+TITLE=Hozzáadás a kedvencekhez
+IDC_NAMETEXT=A jelentés neve
+IDOK=OK
+IDCANCEL=Mégse
+
+[IDD_REPORTNAME]
+TITLE=Jelentés neve
+IDC_NAMETEXT=Jelentés neve
+IDOK=OK
+IDCANCEL=Mégse
+
+ERROR_EMPTY=A név mezõ nem lehet üres!
+ERROR_EXIST=Ezen a néven már létezik egy jelentés. Felülírja azt?
+
+[IDD_REPORTORGANIZE]
+TITLE=Jelentések rendezése
+IDC_EDIT=Szerkeszt
+IDC_DELETE=Törlés
+IDOK=Létrehozás
+IDCANCEL=Bezárás
+
+[IDD_STARTUP_CURRENCY]
+TITLE=Pénznem beállítások
+IDC_CURRENCYTEXT=Alapértelmezett pénznem
+IDC_NUMBEROFDECIMALSTEXT=Tizedesjegyek száma
+IDC_DECIMALSEPARATORTEXT=Tizedes elválasztó
+IDC_THOUSANDSEPARATORTEXT=Ezres elválasztó
+IDC_EXAMPLETEXT=Példa
+
+IDC_BACK=<< Vissza
+IDC_NEXT=Tovább >>
+
+SEPARATOR_SPACE=Szóköz
+SEPARATOR_NONE=Nincs elválasztó
+
+ERR_THOUSANDDECIMAL=A tizedesvesszõ, és az ezres elválasztó nem lehet azonos!
+
+IDOK=OK
+IDCANCEL=Mégse
+
+[IDD_STARTUP_DATE]
+TITLE=Dátumbeállítások
+IDC_FORMATTEXT=Dátumformátum
+IDC_SEPARATORTEXT=Elválasztó
+IDC_EXAMPLETEXT=Példa
+
+IDC_BACK=<< Vissza
+IDC_FINISH=Kész
+
+IDOK=OK
+IDCANCEL=Mégse
+
+[IDD_ACEMONEYREMINDER]
+TITLE=AceMoney számla emlékeztetõ
+
+STARTACEMONEY=AceMoney elindítása...
+OPTIONS=Beállítások...
+VIEWBILLS=Számlák megjelenítése...
+EXIT=Kilépés
+CLOSE=Bezárás
+
+COLUMN0=Dátum
+COLUMN1=Tranzakció
+COLUMN2=Kapcsolat
+COLUMN3=Összeg
+
+OPTIONSTITLE=Beállítások
+DATAFILE=AceMoney adatfájl
+BROWSE=Tallózás...
+SELECTFILE=Adatfájl kiválasztása
+AUTOSTART=Elindítás a Windows-al együtt
+STARTMINIMIZED=Indítás lekicsinyítve
+OK=OK
+CANCEL=Mégse
+
+MSG_DUEBILLS=Ez egy kifizetendõ számla!
+MSG_NODUEBILLS=Nincsen kifizetendõ számla

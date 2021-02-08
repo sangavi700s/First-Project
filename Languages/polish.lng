@@ -1,0 +1,1736 @@
+ProgramID=AceMoney
+Language=Polish
+
+///////////////////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories.dat
+BANKS=banks.dat
+ACCOUNTTYPES=accounttypes.dat
+IMPORTRULES=importrules.dat
+
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+
+CURRENCY=USD
+DECIMALS=2
+DECIMALSEPARATOR=.
+THOUSANDSEPARATOR=,
+DATEFORMAT=MMDDRR
+DATESEPARATOR=/
+
+STATUS=Gotowe	
+TRANSFER=Transfer
+DEPOSIT=Wp³ata	
+WITHDRAWAL=Wyp³ata
+TO=na
+FROM=z
+TOTAL=Saldo
+SUBTOTAL=Saldo czêœciowe
+RECONCILEDTOTAL=Saldo transakcji uzgodnionych
+CLEAREDTOTAL=Saldo transakcji rozliczonych
+IMPORTEDTOTAL=Saldo transakcji importowanych
+UNCLEAREDTOTAL=Saldo transakcji nierozliczonych
+TODAYTEXT=Dzisiaj
+PAGE=Strona
+UNASSIGNED=(Nieprzypisane)
+SAVEMODIFIED=Zapisaæ zmiany ?
+REPLACEMENTS=Zast¹pienia zosta³y wykonane
+INVALIDNUMBER=B³êdny format liczby!
+AVERAGE=Œrednio 
+AUTODETECT= Automatyczne wykrywanie
+BALANCE=Saldo bie¿¹ce
+AVAILABLE_BALANCE=Saldo dostêpne
+
+YES=Tak
+NO=Nie
+
+MSG_LOADSAMPLE=Czy chcesz otworzyæ plik z przyk³adem ?
+MSG_SAMPLEFILEWARNING=Plik przyk³adowy nie mo¿e byæ zapisany! U¿yj Pliku-&gt;Zastosuj opcjê "Zapisz jako" by zapisaæ dane do innego pliku.
+
+ONE_COLUMN_MUST_BE_DISPLAYED=Przynajmniej jedna kolumna musi byæ wstawiona!
+
+NEW_VERSION_DETECTED=Zosta³a udostêpniona nowa wersja AceMoney i jest mo¿liwe jej pobranie.Czy chcesz zaktualizowac swoj¹ wersjê teraz?
+NO_NEW_VERSION_IS_AVAILABLE=Nie ma nowej wersji  programu AceMoney.
+NEW_VERSION_CHECK_FAILED=Nie mo¿na sprwdziæ czy jest dostêpna nowa wersja programu poniewa¿ nie ma mo¿liwoœci po³¹czenia siê z serwerem.SprawdŸ czy masz po³¹czenie z internetem lub spróbuj póŸniej.
+
+[DIRECTCONNECT]
+CONNECTING=£¹czenie
+REQUESTING=Zapytanie o informacje
+RECEIVING=Otrzymywanie danych
+IMPORTING=Importowanie transakcji
+DOWNLOADED=Przes³ane %d transakcje
+
+[MENU]
+MENU=Menu
+ADD=Dodaj
+
+ID_FILE=Plik
+ID_FILE_NEW=Nowy
+ID_FILE_OPEN=Otwórz...
+ID_FILE_SAVE=Zapisz
+ID_FILE_SAVE_AS=Zapisz jako...
+ID_FILE_ARCHIVE=Archiwizacja
+ID_FILE_IMPORT=Importuj...
+ID_FILE_EXPORT=Exportuj...
+ID_FILE_PRINT=Drukuj...
+ID_FILE_PRINT_PREVIEW=Podgl¹d wydruku...
+ID_APP_EXIT=Zakoñcz
+
+ID_EDIT=Edytuj
+ID_EDIT_DELETE=Usuñ
+ID_EDIT_INSERT=Wstaw
+ID_EDIT_SELECTALL=Zaznacz wszystko
+ID_EDIT_FIND=Wyszukaj...
+ID_EDIT_PROPERTIES=W³aœciwoœci...
+ID_EDIT_COPY=Kopiuj
+ID_EDIT_PASTE=Wklej
+ID_EDIT_ADDTOSCHEDULE=Dodaj do " P³atnoœci "...
+
+ID_VIEW=Widok
+ID_VIEW_ACCOUNTS=Konta
+ID_VIEW_BANKS=Banki
+ID_VIEW_PAYEES=Beneficjenci
+ID_VIEW_CATEGORIES=Kategorie i bud¿et
+ID_VIEW_SCHEDULE=P³atnoœci
+ID_VIEW_PORTFOLIO=Inwestycje portfelowe
+ID_VIEW_REPORTS=Raporty
+
+ID_ACCOUNTS=Konta
+ID_ACCOUNTS_ADD=Dodaj konto...
+ID_ACCOUNTS_TYPE=Typy kont...
+
+ID_REPORTS=Raporty
+ID_REPORTS_ADD=Dodaj do ulubionych...
+ID_REPORTS_ORGANIZE=Organizuj...
+
+ID_TOOLS=Narzêdzia
+ID_TOOLS_CURRENCY=Kursy walut...
+ID_TOOLS_TRANSACTION_CATEGORY_LIST=Formy zap³aty
+ID_TOOLS_TRANSACTION_TAG_LIST=Etykiety transakcji...
+ID_TOOLS_BACKUP=Kopia bezpieczeñstwa...
+ID_TOOLS_RESTORE=Przywróæ...
+ID_TOOLS_CALCULATOR=Kalkulator...
+ID_TOOLS_CALCULATOR_LOAN=Kalkulator po¿yczki...
+ID_TOOLS_CALCULATOR_SAVINGS=Kalkulator oszczêdnoœci...
+ID_TOOLS_CALCULATOR_MORTGAGE=Kalkulator kredytu...
+ID_TOOLS_IMPORT_RULES=Importuj regu³y
+ID_TOOLS_LANGUAGE=Jêzyk...
+ID_TOOLS_COLORS=Kolory i czcionki..
+ID_TOOLS_INTERNATIONAL=Ustawienia miêdzynarodowe...
+ID_TOOLS_OPTIONS=Opcje...
+
+ID_HELP=Pomoc
+ID_HELP_TOPICS=Tematy
+ID_HELP_HOMEPAGE=AceMoney strona-web...
+ID_HELP_WHATSNEW=Co nowego...
+ID_HELP_SUPPORT=Pomoc techniczna... 
+ID_HELP_FORUM=Grupa dyskusyjna...
+ID_HELP_TUTORIAL=Samouczek Online...
+ID_HELP_REGISTER=Rejestracja AceMoney...
+ID_HELP_ORDER=Zamówienie AceMoney...
+ID_HELP_CHECK_FOR_UPDATES=SprawdŸ dostepnoœæ aktualizacji...
+ID_HELP_ABOUT=AceMoney-informacje...
+
+[TOOLBAR]
+ID_FILE_NEW=Nowy
+ID_FILE_OPEN=Otwórz
+ID_FILE_SAVE=Zapisz
+ID_VIEW_BACK=Wstecz
+ID_VIEW_FORWARD=Wprzód
+ID_VIEW_HOME=Start
+ID_VIEW_ACCOUNTS=Konta
+ID_VIEW_BANKS=Banki
+ID_VIEW_PAYEES=Beneficjenci
+ID_VIEW_CATEGORIES=Kategorie
+ID_VIEW_SCHEDULE=P³atnoœci
+ID_VIEW_REPORTS=Raporty
+ID_VIEW_PORTFOLIO=Inwestycje
+ID_HELP_HOMEPAGE=MechCAD
+
+[TAGS]
+IMPORTANT=Wa¿ne
+WORK=Praca
+PERSONAL=Osobiste
+TODO=Do zrobienia
+LATER=PóŸniej
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=Konta
+IDC_ADD=Nowe konto...
+IDC_BILLS=P³atnoœci
+IDC_REPORTS=Raporty
+IDC_CURRENCY=Kursy walut
+IDC_WEBUPDATE=Œci¹gnij kursy
+IDHELP=Pomoc
+
+ID_ACCOUNT_OPEN=Otwórz 
+ID_ACCOUNT_ADD=Nowe konto...
+ID_ACCOUNT_DELETE=Usuñ
+ID_ACCOUNT_EDIT=W³aœciwoœci
+ID_ACCOUNT_SHOWNUMBERS=Pokazuj numery kont
+ID_ACCOUNT_SHOWCLOSED=Pokazuj zamkniête konta
+ID_ACCOUNT_SHOW_AVAILABLE_BALANCE=Pokazuj saldo dostêpne
+ID_ACCOUNT_CLOSE=Zamknij konto
+ID_ACCOUNT_REOPEN=Otwórz ponownie konto
+ID_ACCOUNT_ACCEPT_IMPORTED=Akceptuj zaimportowane transakcje
+
+TOTAL=Suma
+LASTUPDATE=Ostatnia aktualizacja
+
+DELETE_CONFIRMATION=Konto %s zostanie usuniête wraz z wszystkimi transakcjami !Kontynuowaæ?
+
+UPDATE_SUCCESS=Ceny walut zosta³y zaktualizowane !
+UPDATE_FAILURE=B³¹d! Brak po³¹czenia z internetem lub kursy walut nie by³y zmieniane !
+UPDATE_NOTREQUIRED=Strona niedostêpna.Spróbuj póŸniej ! Czy jesteœ w internecie ?
+
+
+NEW_CURRENCY_DETECTED=W tym koncie u¿ywana jest waluta inna ni¿ domyœlna.Musisz zaktualizowaæ kurs przeliczeniowy b¹dŸ przez internet lub poprzez rêczne wprowadzenie w opcji "Kursy walut".Czy chcesz by AceMoney sci¹gn¹³ aktualny kurs walutowy?
+
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPORTFOLIO]
+TITLE=Inwestycje finansowe
+
+ALLACCOUNTS=Wszystkie konta
+
+IDC_NEWTRANSACTION=Nowa transakcja...
+
+IDC_ADD=Dodaj inwestycjê...
+IDC_EDIT=Edytuj inwestycjê...
+IDC_DELETE=Usuñ inwestycjê...
+
+IDC_IMPORT=Importuj...
+
+IDC_WEBUPDATE=Œci¹gnij ceny
+
+IDHELP=Pomoc
+
+STOCKLIST=Lista inwestycji
+STOCKTRANSACTIONLIST=Transakcje
+ALLOCATION_BY_INVESTMENTS=Podzia³ wg inwestycji
+ALLOCATION_BY_ACCOUNTS=Podzia³ wg kont
+ALLOCATION_BY_TYPES=Podzia³ wg typów
+
+COLUMN0=Symbol
+COLUMN1=Nazwa
+COLUMN2=Ostatnia cena
+COLUMN3=Liczba
+COLUMN4=Suma
+COLUMN5=Zysk
+COLUMN6=Zmiana
+COLUMN7=Otwarcie
+COLUMN8=Wolumen
+COLUMN9=WskaŸnik cena/zysk
+COLUMN10=Zysk na jedn¹ akcjê
+COLUMN11=Rentownoœæ rocznej dywidendy
+COLUMN12=Nani¿sza cena  w ostatnich 52 tygodniach
+COLUMN13=Najwy¿sza cena w ostatnich 52 tygodniach
+COLUMN14=Zysk, %
+COLUMN15=Typ
+
+TRANSACTIONSCOLUMN0=Data
+TRANSACTIONSCOLUMN1=Kupno/sprzeda¿
+TRANSACTIONSCOLUMN2=Symbol
+TRANSACTIONSCOLUMN3=Konto
+TRANSACTIONSCOLUMN4=Dywidenda
+TRANSACTIONSCOLUMN5=Cena
+TRANSACTIONSCOLUMN6=Liczba
+TRANSACTIONSCOLUMN7=Prowizja
+TRANSACTIONSCOLUMN8=Razem
+TRANSACTIONSCOLUMN9=Komentarz
+
+CANTBEDELETED=Ta akcja jest u¿ywana w jednej lub wiêcej transakcjach. Nie mo¿e byæ skasowana!
+DELETECONFIRMATION=Operacja zostanie skasowana. Czy jesteœ pewien ?
+UPDATEISNOTREQUIRED=Aktualizacja nie jest wymagana!
+UPDATEISNOTCOMPLETE=Kilka inwestycji nie zosta³o zaktualizowanych!
+INVESTMENTNOTCREATED=Najpierw stwórz inwestycjê!
+
+ID_EDIT_OPEN=Edytuj inwestycjê
+ID_EDIT_INSERT=Dodaj now¹ inwestycjê
+ID_EDIT_DELETE=Usuñ
+
+//////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=Konto
+IDC_ADD=Nowa transakcja
+IDC_ADD_INVESTMENT_TRANSACTION= Transakcja inwestycyjna
+IDC_EDIT=Edytuj transakcjê
+IDC_DELETE=Usuñ transakcjê
+IDC_BALANCE=Saldo konta
+IDC_DOWNLOAD=Przeœlij transakcje
+IDC_WEBSITE=Konto przez internet
+IDC_ACCOUNT=Edytuj inf.o koncie
+IDC_BANK=Edytuj inf.o banku
+IDC_MONTHREPORT=Raport miesiêczny
+IDC_REPORT=Raport 30-dniowy
+IDC_HIDERECONCILED=Ukryj uzgodnione
+IDHELP=Pomoc
+
+COLUMN0=Forma zap³aty
+COLUMN1=Data
+COLUMN2=Beneficjent
+COLUMN3=Kategoria
+COLUMN4=S
+COLUMN5=Wyp³ata
+COLUMN6=Wp³ata
+COLUMN7=Saldo
+COLUMN8=Uwagi
+COLUMN9=Konto
+
+BANKISNOTASSIGNED=Aby u¿yæ tej opcji, zaznacz bank w którym znajduje siê konto.
+PAGEISNOTASSIGNED=Brak adresu strony Web. Musisz wpisaæ adres w opcji "Edytuj inf.o banku".
+STATUS=W tym miesi¹cu wyda³eœ %.2f w kategorii %s
+STATUSINCOME=W tym miesi¹cu otrzyma³eœ %.2f w kategorii %s
+STATUSSUM=Suma zaznaczonych transakcji wynosi
+
+ID_TRANSACTION_UNCLEARED=Nierozliczona
+ID_TRANSACTION_CLEARED=Rozliczona
+ID_TRANSACTION_RECONCILED=Uzgodniona
+
+ID_EDIT_OPEN=Edytuj
+ID_EDIT_INSERT=Nowa transakcja...
+ID_EDIT_DELETE=Usuñ 
+ID_EDIT_COPY=Kopiuj
+ID_EDIT_PASTE=Wklej
+ID_EDIT_CATEGORY=Edytuj kategoriê...
+ID_EDIT_CATEGORYCHANGE=Zmieñ kategoriê...
+ID_EDIT_MOVE_TO_ACCOUNT=Przenieœ na konto
+ID_EDIT_PAYEE=Edytuj beneficjenta...
+ID_EDIT_PAYEECHANGE=Zmieñ beneficjenta...
+ID_EDIT_ADDTOSCHEDULE=Dodaj do "P³atnoœci"
+ID_EDIT_GOTO_TRANSACTION=IdŸ do transakcji
+
+ID_VIEW_DISPLAYSIDEPANEL=Pokazuj boczny panel
+
+ID_EDIT_INSERTBILL=Zapisz p³atnoœæ..
+ID_EDIT_SKIPBILL=Pomiñ p³atnoœæ
+
+IDC_CREATE_IMPORT_RULE=Utwórz importowan¹ regu³ê...
+IDC_APPLY_IMPORT_RULES=Zastosuj zaimportowane regu³y
+
+ID_REPORTS_CATEGORY=Raport wg kategorii...
+ID_REPORTS_PAYEE=Raport wg beneficjenta...
+
+ID_EDIT_TAG=Etykieta transakcji
+ID_EDIT_TAG_REMOVE_ALL=&0 Usuñ wszystkie etykiety
+ID_EDIT_TAG_IMPORTANT=&1 Wa¿ne
+ID_EDIT_TAG_WORK=&2 Praca
+ID_EDIT_TAG_PERSONAL=&3 Osobisty
+ID_EDIT_TAG_TODO=&4 Do zrobienia
+ID_EDIT_TAG_LATER=&5 PóŸniej
+
+ID_EDIT_ATTACHMENTS=Przypisania
+ID_EDIT_ATTACHMENT_ADD=Przypisa...
+ID_EDIT_ATTACHMENT_DELETE=Usuñ
+
+BILLDELETECONFIRMATION=Spowodujesz usuniêcie wszystkich przysz³ych transakcji skojarzonych z p³atnoœciami(wp³at¹/wyp³at¹) !
+TRANSACTIONDELETECONFIRMATION=Czy jesteœ pewien ?
+RECONCILEDTRANSACTIONCONFIRMATION=Ta transakcja jest oznaczona jako uzgodniona, zmiany nie s¹ zalecane !   Kontynuowaæ ?
+CLEAREDTRANSACTIONCONFIRMATION=Ta transakcja jest oznaczona jako rozliczona , zmiany nie s¹ zalecane ! Kontynuowaæ ?
+CANNOTSORTBYTOTAL=Nie mo¿na sortowaæ wg rubryki : "Razem" !
+MOVE_PARTIALLY_FAILED=Kilka transakcji nie mo¿e byæ przeniesionych do zaznaczonego konta !
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=Nowy bank...
+IDC_EDIT=Edytuj inf.o banku 
+IDC_DELETE=Usuñ bank
+IDC_DELETEUNUSED=Usuñ nieu¿ywane
+IDC_IMPORT=Importuj...
+IDHELP=Pomoc
+
+COLUMN0=Nazwa banku
+COLUMN1=Adres
+COLUMN2=Strona web
+COLUMN3=Uwagi
+COLUMN4=Telefon
+
+CANTBEDELETED=Jedno z Twoich kont jest w tym banku. Ten bank nie mo¿e byæ usuniêty !
+DELETECONFIRMATION=Czy jesteœ pewien ?
+DELETEUNUSED=To polecenie usunie wszystkie banki w których nie masz konta ! Kontynuowaæ ?
+
+ID_EDIT_OPEN=Edytuj
+ID_EDIT_INSERT=Nowy bank...
+ID_EDIT_DELETE=Usuñ
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=Nowa kategoria...
+IDC_EDIT=Edytuj kategoriê
+IDC_DELETE=Usuñ kategoriê
+IDC_DELETEUNUSED=Usuñ nieu¿ywane...
+IDC_REPORT=Raport o kategoriach
+IDC_BUDGETREPORT=Raport o bud¿ecie
+IDC_IMPORT=Importuj...
+IDC_MERGE=£¹cz kategorie...
+IDHELP=Pomoc
+
+COLUMN0=Kategoria
+COLUMN0a=Kod
+COLUMN1a=Dochód
+COLUMN2a=Wydatek
+COLUMN2c=Okres
+COLUMN3=Uwagi
+COLUMN4=Bud¿et miesiêczny
+
+CANTBEDELETED=Jedna z transakcji jest zaliczona do tej kategorii. Kategoria nie mo¿e byæ usuniêta.
+PARENTCANTBEDELETED=To jest kategoria zawieraj¹ca podkategorie. Jeœli chcesz j¹ usun¹æ powinieneœ najpierw usun¹æ podkategorie.
+DELETECONFIRMATION=Czy jesteœ pewien ?
+DELETEUNUSED=To polecenie usunie wzystkie kategorie , które nie s¹ zwi¹zane z transakcjami. Kontynuowaæ ?
+ID_EDIT_OPEN=Edytuj
+ID_EDIT_INSERT=Nowy...
+ID_EDIT_DELETE=Usuñ
+
+TOTALINCOME=Dochód:
+TOTALEXPENSE=Wydatek:
+
+MONTHLY_INCOME= Miesiêczne dochody
+MONTHLY_EXPENSE=Miesiêczne wydatki
+
+MONTHLY_TOTAL=Suma miesiêczna
+ANNUAL_TOTAL=Suma roczna
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=Nowy beneficjent...
+IDC_EDIT=Edytuj dane beneficjenta
+IDC_DELETE=Usuñ beneficjenta
+IDC_DELETEUNUSED=Usuñ nieu¿ywane
+IDC_REPORT=Raport wg beneficjentów
+IDC_MERGE=£¹cz beneficjentów
+IDHELP=Pomoc
+
+IDC_HIDE_INACTIVE=Ukryj beneficjentów maj¹cych status : nieaktywny
+
+COLUMN0=Nazwa
+COLUMN1=Adres
+COLUMN2=Uwagi
+COLUMN3=Telefon
+
+CANTBEDELETED=Jedna z transakcji dotyczy tego beneficjenta. Nie mo¿e on byæ usuniêty.
+DELETECONFIRMATION= Czy jesteœ pewien ?
+DELETEUNUSED=To polecenie usunie wszystkich beneficjentów , którzy nie s¹ zwi¹zani z transakcjami. Kontynuowaæ ?
+
+ID_EDIT_OPEN=Edytuj
+ID_EDIT_INSERT=Nowy
+ID_EDIT_DELETE=Usuñ
+
+ID_PAYEE_ACTIVATE=Status: czynny
+ID_PAYEE_DEACTIVATE=Status: nieaktywny
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=Filtr wg daty
+IDC_SETDATES=Wybierz daty
+
+IDC_USECATEGORYFILTER=Filtr wg kategorii
+IDC_SETCATEGORIES=Wybierz kategorie...
+
+IDC_USEPAYEEFILTER=Filtr wg beneficjentów
+IDC_SETPAYEES=Wybierz beneficjentów..
+
+IDC_USEACCOUNTFILTER=Filtr wg kont
+IDC_SETACCOUNTS=Wybierz konto...
+
+IDC_USEINVESTMENTFILTER=Filtr wg inwestycji
+IDC_SETINVESTMENTS=Wybierz inwestycje...
+
+IDC_USETAGFILTER=Filtr wg etykiet
+IDC_SETTAGS=Wybierz etykietê...
+
+IDC_USETEXTFILTER=Filtr wg tekstu
+IDC_SETTEXT=Wpisz tekst
+
+IDC_INCLUDETRANSFERS=Ujmij transfery
+IDC_SHOW_SUBTOTALS=Pokazuj salda czêœciowe
+IDC_HIDE_ZERO_ROWS=Ukryj wiersze bez zdarzeñ
+
+IDHELP=Pomoc
+
+IDC_TRANSACTIONS=Raport o transakcjach
+IDC_CATEGORY=Wp³ywy i wydatki wg kategorii
+IDC_SUBCATEGORY=Wp³ywy i wydatki wg podkategorii
+IDC_CATEGORYBYMONTH=Miesiêczne wp³ywy i wydatki wg kategorii
+IDC_SUBCATEGORYBYMONTH=Miesiêczne wp³ywy i wydatki wg podkategorii
+IDC_PAYEE=Wp³ywy i wydatki wg beneficjentów
+IDC_PAYEEBYMONTH=Miesiêczne wp³ywy i wydatki wg beneficjentów
+IDC_BUDGETCATEGORY=Bud¿et wg kategorii
+IDC_BUDGETSUBCATEGORY=Bud¿et wg podkategorii
+IDC_CASHFLOW=Raport przep³ywu gotówki
+IDC_LAST30DAYS=Transakcje ostatnich 30 dni
+IDC_ACCOUNT=Wp³ywy i wydatki wed³ug kont
+IDC_INVESTMENT=Wyniki wg inwestycji
+
+IDC_TABLE=Tabela
+IDC_CHART=Wykres
+IDC_INCOMECHART=Dochód-wykres
+IDC_EXPENSECHART=Wydatki-wykres
+IDC_PERIODCHART=Wykres wg okresów
+IDC_TOTALCHART=Wykres sumaryczny
+
+CATEGORYCOLUMN0=Kategoria
+CATEGORYCOLUMN1=Zrealizowane	
+CATEGORYCOLUMN2=Zapreliminowane
+CATEGORYCOLUMN3=Ró¿nica
+CATEGORYCOLUMN4=Kod
+CATEGORYCOLUMN5=Dochód(+)
+CATEGORYCOLUMN6=Wydatek(-)
+CATEGORYCOLUMN7= Realizacja bud¿etu (%)
+
+CASHFLOWCOLUMN0=Okres
+CASHFLOWCOLUMN1=Saldo na koniec okresu
+CASHFLOWCOLUMN2=Razem(w postêpie)
+
+OTHERS=Inne
+
+GENERALREPORTS=Raporty ogólne
+CATEGORYREPORTS=Raporty wg kategorii
+PAYEEREPORTS=Raporty wg beneficjenta
+BUDGETREPORTS=Raporty wg bud¿etu
+INVESTMENTREPORTS=Raporty wg inwestycji
+FAVORITEREPORTS=Ulubione raporty
+
+PAYEECOLUMN0=Beneficjent
+PAYEECOLUMN1=Suma
+PAYEECOLUMN2=Dochód(+)
+PAYEECOLUMN3=Wydatek(-)
+
+ACCOUNTCOLUMN0=Konto
+ACCOUNTCOLUMN1=Typ konta
+ACCOUNTCOLUMN2=Bank
+ACCOUNTCOLUMN3=Saldo
+
+INVESTMENTCOLUMN0=Inwestycja
+INVESTMENTCOLUMN1=Symbol
+INVESTMENTCOLUMN2=Liczba
+INVESTMENTCOLUMN3=Koszt
+INVESTMENTCOLUMN4=Prowizja
+INVESTMENTCOLUMN5=Koszt na walor
+INVESTMENTCOLUMN6=Dywidenda
+INVESTMENTCOLUMN7=Wartoœæ
+INVESTMENTCOLUMN8=Zysk
+INVESTMENTCOLUMN9=Zysk, %
+INVESTMENTCOLUMN10=Wartoœæ nabycia
+INVESTMENTCOLUMN11=Prowizje nabycia
+INVESTMENTCOLUMN12=Wartoœæ sprzeda¿y
+INVESTMENTCOLUMN13=Prowizje sprzedazy
+INVESTMENTCOLUMN14=Dochód
+INVESTMENTCOLUMN15=Krótkoterminowy zysk kapita³owy
+INVESTMENTCOLUMN16=D³ugoterminowy zysk kapita³owy
+INVESTMENTCOLUMN17=Aktualna cena
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Zapisz na koncie
+IDC_ADD=Nowy przelew...
+IDC_EDIT=Edytuj przelew
+IDC_DELETE=Usuñ przelew
+IDC_SKIP=Pomiñ przelew
+IDHELP=Pomoc 
+
+COLUMN0=Data
+COLUMN1=Transakcja
+COLUMN2=Beneficjent
+COLUMN3=Kwota
+COLUMN4=Uwagi
+COLUMN5=Czêstotliwoœæ
+COLUMN6=Kategoria
+COLUMN7=Automatycznie
+
+IDC_TABLE=Tabelarycznie
+IDC_CALENDAR=Wed³ug kalendarza
+
+DELETECONFIRMATION=Czy jesteœ pewien ?
+
+ID_EDIT_OPEN=WejdŸ
+ID_EDIT_INSERT=Dodaj nowy...
+ID_EDIT_DELETE=Usuñ
+ID_EDIT_PROPERTIES=W³aœciwoœci
+ID_EDIT_COPY=Kopiuj
+ID_EDIT_PASTE=Wklej
+
+CHANGE_OF_ACCOUNT=Czy chcesz u¿yæ innego konta dla wszystkich przysz³ych przelewów tego typu?
+CHANGE_OF_AMOUNT=Czy chcesz u¿yæ innej kwoty dla wszystkich przysz³ych przelewów tego typu?
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=Informacje
+IDOK=OK
+IDCANCEL=Anuluj
+
+[IDD_ACCOUNT]
+TITLE=Konto
+IDC_NAMETEXT=Nazwa
+IDC_TYPETEXT=Typ
+
+IDC_BANKTEXT=Nazwa Banku
+IDC_EDITBANK=Edytuj...
+
+IDC_NUMBERTEXT=Numer konta
+IDC_BALANCETEXT=Saldo pocz¹tkowe
+IDC_CURRENCYTEXT=Waluta
+IDC_LIMIT_TEXT=Saldo dostêpne
+IDC_APR_TEXT=Oprocentowanie roczne konta
+IDC_CLOSED=To konto jest zamkniête
+IDC_COMMENTTEXT=Uwagi
+
+IDC_ONLINE_SETUP=Ustawienia sieciowe...
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+ERR_NOACCOUNTNAME=Konto musi mieæ nazwê !
+ERR_NOACCOUNTTYPE=Musisz podaæ typ konta !
+ERR_NOCURRENCY=Konto musi mieæ okreœlon¹ walutê w jakiej bêdzie prowadzone!
+ERR_EMPTYBANKNAME=Najpierw wprowadŸ lub wybierz nazwê banku !
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=Typ konta
+IDC_ADD=Dodaj...
+IDC_DELETE=Usuñ
+IDC_EDIT=Uaktualnij
+IDOK=OK
+IDCANCEL=Anuluj
+
+ERR_CANTDELETE=Ten typ jest u¿ywany przez jedno z kont !
+
+[IDD_ACCOUNTTYPE]
+TITLE=Typ konta
+IDC_NAMETEXT=Nazwa
+IDOK=OK
+IDCANCEL=Anuluj
+
+ERR_NOACCTYPENAME=Typ musi mieæ nazwê !
+
+[IDD_ARCHIVE]
+TITLE=Utwórz archiwum
+IDC_DATE_TEXT=Zarchiwizuj transakcje do :
+IDC_DELETE=Usuñ zarchiwizowane transakcje z otwartego pliku 
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+ERR_CREATE_ARCHIVE=B³¹d w tworzeniu archiwum!
+ERR_WRITE_ARCHIVE=B³¹d w zapisie pliku archiwum
+
+[IDD_BACKUP]
+TITLE=Kopia bezpieczeñstwa
+
+IDC_ENABLEBACKUP=Pozwól wykonaæ kopiê
+
+IDC_LASTBACKUPTEXT=Ostatnia kopia
+IDC_FREQUENCYTEXT=Czêstotliwoœæ
+IDC_DIRECTORYTEXT=Katalog
+IDC_BACKUP=Zrób kopiê teraz !
+IDC_AUTOMATIC=Kopiuj automatycznie
+IDC_ADD_DATE_TO_BACKUP_FILE=Dodawaj datê w nazwie pliku kopii
+
+IDC_EVERYDAY=Codziennie
+IDC_EVERYWEEK=Co tydzieñ
+IDC_EVERYOTHERWEEK=Co drugi tydzieñ
+
+IDC_BROWSE=Przegl¹daj...
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+ERR_INVALIDDIR=Musi byæ podana prawid³owa œcie¿ka !
+ERR_COPYFILE=B³¹d przy tworzeniu kopii bezpieczeñstwa ! SprawdŸ czy dyskietka jest w stacji dysków.
+ERR_BACKUPTIME=Najwy¿szy czas zrobiæ kopiê bezpieczeñstwa ! Kontynuowaæ?
+ERR_NEWFILE=Plik musi byæ zapisany przed sporz¹dzaniem kopii bezpieczeñstwa !
+ERR_COPYFILE_RESTORE=B³¹d przy wczytywaniu kopii zapasowej ! SprawdŸ czy dyskietka jest w stacji dysków.
+SELECT_FILE_TO_RESTORE= Wybierz plik  zawieraj¹cy kopiê zapasow¹
+SELECT_RESTORE_DIR=Gdzie chcesz zapisaæ kopiê zapasow¹?
+OPEN_RESTORED_FILE=Czy chcesz otworzyæ kopiê zapasow¹?
+
+[IDD_BALANCE]
+TITLE=Saldo konta
+
+IDC_CLEAREDDEPOSITS=Rozliczone wp³aty
+IDC_CLEAREDWITHDRAWALS=Rozliczone wyp³aty
+
+IDC_RECONCILEDTEXT=Poprzednie saldo konta
+IDC_CLEAREDTEXT=Bie¿¹ce saldo konta
+IDC_UNCLEAREDTEXT=Saldo transakcji nierozliczonych
+
+IDC_NEWTRANSACTION=Nowa...
+IDC_SELECTALL=Zaznacz  
+IDC_DESELECTALL=Odznacz 
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+[IDD_BANK]
+TITLE=Bank
+
+IDC_NAMETEXT=Nazwa
+IDC_ADDRESSTEXT=Adres
+IDC_PHONETEXT=Telefon
+IDC_WEBSITETEXT=Strona Web
+IDC_OPEN=Otwórz
+IDC_COMMENTTEXT=Uwagi
+IDC_BANKNUMBERTEXT=Numer banku
+IDC_SWIFTCODETEXT=Kod SWIFT
+IDC_TRANSFERCODETEXT=Kod kraju
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+ERR_NOBANKNAME=Bank musi mieæ nazwê !
+
+[IDD_BILL]
+TITLE=Przelew
+
+IDC_FREQUENCYGROUP=Czêstotliwoœæ
+
+IDC_ONCE=Jednorazowo
+IDC_DAILY=Dziennie
+IDC_WEEKLY=Co tydzieñ
+IDC_EVERYOTHERWEEK=Co drugi tydzieñ
+IDC_TWICEAMONTH=Dwa razy w m-cu
+IDC_EVERYFOURWEEKS=Co 4 tygodnie
+IDC_MONTHLY=Co miesi¹c 
+IDC_EVERYOTHERMONTH=Co drugi miesi¹c
+IDC_QUARTERLY=Kwartalnie 
+IDC_EVERYFOURMONTHS=Co cztery miesi¹ce
+IDC_EVERYSIXMONTHS=Co szeœæ miesiêcy
+IDC_ANNUALLY=Co rok
+IDC_EVERYTWOYEARS=Co dwa lata
+
+IDC_STARTDATETEXT=Data pocz¹tkowa
+
+IDC_BILLTYPETEXT=Rodzaj p³atnoœci
+BILLTYPE_CONTINUOUS=Nielimitowana
+BILLTYPE_NUMBERED=Limitowana
+
+IDC_NUMBERTEXT=Liczba p³atnoœci
+
+IDC_TRANSACTIONGROUP=Transakcja
+IDC_TYPETEXT=Typ
+IDC_DEPOSIT=Wp³ata
+IDC_WITHDRAWAL=Wyp³ata
+IDC_TRANSFER=Transfer
+IDC_CHECK_NUMBER_TEXT=Forma zap³aty
+IDC_ACCOUNTTEXT=Konto
+IDC_PAYEETEXT=Beneficjent
+IDC_CATEGORYTEXT=Kategoria
+IDC_SPLIT=Podziel
+IDC_AMOUNTTEXT=Kwota
+IDC_COMMENTTEXT=Uwagi
+
+IDC_ENTER=Dodaj do konta
+IDC_AUTOMATIC=Wprowadzaj p³atnoœæ automatycznie
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+ERR_INVALIDACCOUNT=B³êdna nazwa konta !
+ERR_INVALIDNUMBER=Liczba p³atnoœci nie mo¿e byæ mniejsza ni¿ 1!
+
+
+[IDD_BUDGET_LIMIT]
+TITLE=Za³o¿enia Bud¿etu
+
+IDC_CATEGORY_TEXT=Kategoria
+IDC_MONTH_TEXT=Miesi¹c
+IDC_INCOME_LIMIT_TEXT=Planowane dochody
+IDC_EXPENSE_LIMIT_TEXT=Planowane wydatki
+
+IDC_FROM=Od miesi¹ca
+IDC_TO=Do miesi¹ca
+
+IDOK=OK
+IDCANCEL=Anuluj
+
+[IDD_CALC_LOAN]
+TITLE=Kalkulator po¿yczki
+
+IDC_AMOUNTTEXT=Kwota po¿yczki
+IDC_RATETEXT=Roczna stopa , %
+IDC_PERIODTEXT=Okres (miesi¹ce)
+IDC_PAYMENTTEXT=Rata
+IDC_TOTALINTERESTTEXT=Suma odsetek
+
+COLUMN0=L.p.
+COLUMN1=Rata miesiêczna
+COLUMN2=Rata kapita³owa
+COLUMN3=Odsetki
+COLUMN4=Pozosta³o do sp³aty
+
+IDOK=OK
+
+[IDD_CALC_SAVINGS]
+TITLE=Kalkulator oszczêdnoœci
+
+IDC_MONTHLYPAYMENTTEXT=Miesiêczna wp³ata
+IDC_INITIALBALANCETEXT=Kwota pocz¹tkowa
+IDC_RATETEXT=Roczna stopa (%)
+IDC_PERIODTEXT=Okres (miesi¹ce)
+IDC_STARTDATETEXT=Data pocz¹tkowa
+IDC_TOTALINTERESTTEXT=Suma odsetek
+IDC_TOTALTEXT=Razem
+
+COLUMN0=Lp.
+COLUMN1=Data
+COLUMN2=Wp³ata
+COLUMN3=Odsetki
+COLUMN4=Razem
+
+IDOK=OK
+
+[IDD_CALC_MORTGAGE]
+TITLE=Kalkulator kredytu
+
+IDC_VALUETEXT=Wartoœæ nieruchomoœci
+IDC_AMOUNTTEXT=Kwota kredytu
+IDC_TERMTEXT=Okres (lata)
+IDC_DATETEXT=Data udzielenia kredytu
+IDC_RATETEXT=Roczna stopa ( % )
+IDC_TAXTEXT=Podatek od nieruchom. (rok) 
+IDC_INSURANCETEXT=Ubezp. nieruchomoœci (rok)
+
+IDC_REQUIREDPAYMENTTEXT=Wymagana rata
+IDC_TOTALINTERESTTEXT=Suma odsetek
+IDC_TOTALPMITEXT=Suma ubezp. kredytu
+IDC_TOTALMONTHSTEXT=Liczba miesiêcy
+
+COLUMN0=Data
+COLUMN1=Rata kapita³owa
+COLUMN2=Odsetki
+COLUMN3=Podatek
+COLUMN4=Ubezp. nieruchomoœci
+COLUMN5=Ubezp. kredytu
+COLUMN6=P³atnoœæ miesiêczna
+COLUMN7=Do sp³aty
+
+IDOK=OK
+IDHELP=Pomoc
+
+[IDD_CATEGORY]
+TITLE=Kategoria
+
+TAB_GENERAL=Ogólne
+TAB_SIMPLE_BUDGET=Bud¿et zwyk³y
+TAB_MONTHLY_BUDGET=Bud¿et miesiêczny
+
+IDC_NAMETEXT=Kategoria
+IDC_SUBNAMETEXT=Podkategoria
+IDC_COMMENTTEXT=Uwagi
+IDC_NUMBERTEXT=Kod
+
+PERIOD_ONE_WEEK=Jeden tydzieñ
+PERIOD_TWO_WEEKS=Dwa tygodnie
+PERIOD_HALF_MONTH=Pó³ miesi¹ca
+PERIOD_ONE_MONTH=Jeden miesi¹c
+PERIOD_TWO_MONTHS=Dwa miesi¹ce
+PERIOD_THREE_MONTHS=Trzy miesi¹ce
+PERIOD_FOUR_MONTHS=Cztery miesi¹ce
+PERIOD_SIX_MONTHS=Szeœæ miesiêcy
+PERIOD_NINE_MONTHS=Dziewiêæ miesiêcy
+PERIOD_ONE_YEAR=Jeden rok
+
+IDC_BUDGETPERIODTEXT=Okres bud¿etu
+IDC_INCOME_LIMIT_TEXT=Planowane dochody
+IDC_EXPENSE_LIMIT_TEXT=Planowane wydatki
+
+IDC_ADD=Dodaj...
+IDC_ADD_MANY=Dodaj okres...
+IDC_UPDATE=Uaktualnij...
+IDC_DELETE=Usuñ
+
+MONTH_COLUMN=Miesi¹c
+LIMIT_COLUMN=Limit
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+ERR_NOCATNAME=Kategoria musi mieæ nazwê !
+ERR_CATEXIST=Kategoria o tej nazwie ju¿ istnieje !
+
+[IDD_CATEGORYCHANGE]
+TITLE=Zmieñ kategoriê
+
+IDOK=OK
+IDCANCEL=Anuluj
+
+[IDD_CATEGORYMERGE]
+TITLE=£¹czenie kategorii
+
+IDC_CATEGORYTEXT=£¹cz kategoriê
+IDC_CATEGORYTEXT1=z kategori¹
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+ERR_NOCATEGORIES=Obie istniej¹ce kategorie powinny byæ zaznaczone i ró¿ne !
+ERR_SOURCECATEGORY=Kategoria Ÿród³owa nie mo¿e mieæ podkategorii !
+ERR_TARGETCATEGORY=Kategoria docelowa nie mo¿e byæ podkategori¹ kategorii Ÿród³owej !
+
+[IDD_COLORS]
+TITLE=Czcionki i kolory
+ 
+IDC_ACCOUNTLISTTEXT=Lista Kont
+IDC_ACCOUNTTEXT=Konto
+IDC_BANKTEXT=Banki
+IDC_CATEGORYTEXT=Kategorie
+IDC_PAYEETEXT=Beneficjenci
+IDC_SCHEDULETEXT=P³atnoœci
+IDC_REPORTTEXT=Raporty
+IDC_PORTFOLIOTEXT=Inwestycje finansowe
+
+IDC_LISTFONTTEXT=Czcionka
+
+IDC_TABLEFONTCOLORTEXT=Kolor czcionki w tabelach
+IDC_TABLEBILLFONTCOLORTEXT=Kolor przysz³ych p³atnoœci
+IDC_TABLEBACKGROUNDTEXT1=Kolor t³a tabel
+IDC_TABLEBACKGROUNDTEXT2=Kolor wierszy w tabelach
+
+IDC_RESTORE=Standardowe
+IDOK=OK
+IDCANCEL=Anuluj
+
+[IDD_CURRENCY]
+TITLE=Kursy walut
+IDC_SHOWALL=Poka¿ wszystkie waluty
+IDC_CURRENCYINFO=Waluta domyœlna: %s
+IDC_DOWNLOAD=Œci¹gnij...
+IDC_UPDATE=Uaktualnij kursy
+
+IDOK=Zamknij
+IDHELP=Pomoc
+
+COLUMN0=Waluta
+COLUMN1=1
+COLUMN2=Data
+COLUMN3=Cena w
+
+ERR_WEBUPDATE=B³¹d przy uaktualnianiu kursów ! Czy jesteœ w internecie ?
+ERR_INVALIDRATE=Otrzymano b³êdn¹ wysokoœæ kursu !
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=Kursy walut
+IDOK=OK
+IDCANCEL=Anuluj
+
+[IDD_SHEETREPORTFILTER]
+TITLE=Filtr raportu
+
+[IDD_DATESRANGE]
+TITLE=Wybierz okres
+
+CURRENTWEEK=Bie¿¹cy tydzieñ
+PREVIOUSWEEK=Poprzedni tydzieñ
+LAST30DAYS=Ostatnie 30 dni
+LAST12MONTHS=ostatnie 12 miesiêcy
+CURRENTMONTH=Bie¿¹cy miesi¹c
+PREVIOUSMONTH=Poprzedni miesi¹c
+CURRENTQUARTER=Bie¿¹cy kwarta³
+PREVIOUSQUARTER=Poprzedni kwarta³
+CURRENTYEAR=Bie¿¹cy rok
+PREVIOUSYEAR=Poprzedni rok
+CURRENT_FISCAL_YEAR=Bie¿¹cy rok podatkowy
+PREVIOUS_FISCAL_YEAR=Poprzedni rok podatkowy
+MONTH_TO_DATE=Od pocz¹tku bie¿¹cego miesi¹ca do dzisiaj
+QUARTER_TO_DATE=Od pocz¹tku bie¿¹cego kwarta³u do dzisiaj
+YEAR_TO_DATE=Od pocz¹tku bie¿¹cego roku do dzisiaj
+ALL_TO_DATE=Od pocz¹tku rejestracji do dzisiaj
+ALL_DATES=Ca³y okres rejestracji
+
+IDC_PERIODSTEXT=Wybierz okres
+IDC_CUSTOMDATES=Okreœl daty:
+IDC_FROMTEXT=Od
+IDC_TOTEXT=Do
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+CURRENT=Bie¿¹cy
+CUSTOM=Okreœl
+
+[IDD_DOWNLOADPROGRESS]
+TITLE=Postêp zapisywania
+
+IDOK=Zamknij
+
+PROGRESS_TEXT=Zakoñczono %1 z %2 zadañ
+
+IDC_AUTO_CLOSE=Zamknij okno automatycznie po zakoñczeniu pobierania
+
+TASK_TRANSACTIONS=Dla transakcji
+TASK_INVESTMENT=Dla wyceny
+TASK_EXCHANGERATE=Dla kursu dewizowego
+
+STATUS_FAILED=Niepowodzenie
+STATUS_SUCCESS=%d transakcji
+
+STATUS_CONNECTING=£¹czenie
+STATUS_REQUESTING=Zapytanie
+STATUS_RECEIVING=Odbieranie
+STATUS_IMPORTING=Importowanie
+
+[IDD_DOWNLOADTRANSACTIONS]
+TITLE=Zapisywanie transakcji
+
+IDC_DETECT_DUPLICATES=Wykryj duplikaty
+IDC_ENABLE_LOGGING=Umo¿liwiaj zapis w dzienniku
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+ERROR_INVALID_ACCOUNT=B³êdne konto !
+ERROR_MISSING_CONFIG=Konfiguracja po³¹czenia jest niekompletna: b³êdny dostawca, ID u¿ytkownika, has³o lub numer konta! Te informacje mog¹ byæ wprowadzone w formatce: edytuj informacje o koncie.
+ERROR_INVALID_CONFIG=B³êdne ustawienia dostawcy, zmieñ je w w³asciwoœciach konta i banku.
+ERROR_CONNECT=B³¹d po³¹czenia z serwerem banku. Mo¿liwa awaria serwera, spróbuj póŸniej.
+ERROR_SEND=Nie mo¿na przes³aæ wyci¹gu do banku!
+ERROR_INVALID_RESPONSE=B³êdna odpowiedŸ serwera banku!
+ERROR_AUTHENTICATION=B³edne ID u¿ytkownika/has³o !
+ERROR_STATEMENT=B³¹d przy zapisywaniu wyci¹gu z konta!
+ERROR_ACCOUNTINFO=B³¹d przy uzyskiwaniu  informacji z konta!
+ERROR_IMPORT=B³¹d importowania zapisywanych transakcji na koncie!
+ERROR_UNKNOWN=Nieznany b³¹d!
+
+
+ERROR_INVESTMENT_DOWNLOAD=Brak mo¿liwoœci pobrania wyceny: b³êdny symbol akcji  lub wyst¹pi³ problem z po³¹czeniem internetowym!
+
+
+
+[IDD_DUPLICATECHECKWARNING]
+TITLE=Kopiuj sprawdzone ostrze¿enie
+
+IDC_WARNING=Sprawdzony numer ### by³ ju¿ u¿yty w jednej z transakcji na tym koncie.Czy chcesz na pewno u¿yc go ponownie?
+IDC_DONOTSHOW=Nie pokazuj tego ostrze¿enia ponownie
+
+IDYES=Tak
+IDNO=Nie
+
+[IDD_ERROR]
+TITLE=B³¹d
+ERROR=B³¹d
+DESCRIPTION=Opis
+CLOSE=Zamknij
+
+[IDD_FILTERACCOUNT]
+TITLE=Wybierz konta
+
+IDC_SELECTALL=Zaznacz wszystko
+IDC_SELECT_OPEN=Zaznacz otwarte
+IDC_CLEARALL=Wyczyœæ  wszystko
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+[IDD_FILTERCATEGORY]
+TITLE=Wybierz kategorie
+
+IDC_SELECTALL=Zaznacz wszystko
+IDC_CLEARALL=Wyczyœæ wszystko
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+[IDD_FILTERPAYEE]
+TITLE=Wybierz beneficjentów
+
+IDC_SELECTALL=Zaznacz wszystko
+IDC_CLEARALL=Wyczyœæ wszystko
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+[IDD_FILTERINVESTMENT]
+TITLE=Wybierz inwestycje
+
+IDC_SELECTALL=Zaznacz wszystko
+IDC_CLEARALL=Wyczyœæ wszystko
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+[IDD_FILTERTAG]
+TITLE=Wybierz identyfikatory
+
+IDC_SELECTALL=Zaznacz wszystko
+IDC_CLEARALL=Wyczyœæ wszystko
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+[IDD_FILTERTEXT]
+TITLE=Wpisz tekst
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+[IDD_IMPORT]
+TITLE=Importuj
+
+IDC_IMPORTTEXT=Wybierz konto dla importowanych transakcji
+IDC_DATEFORMATTEXT=Forma daty
+IDC_DECIMALSEPARATORTEXT=Separator dziesiêtny
+IDC_DETECT_DUPLICATES=Wykryj kopie
+IDC_APPLY_IMPORT_RULES=Zastosuj zaimportowane regu³y
+IDC_IMPORT_RULES=Utwórz regu³y...
+
+IDC_NEWACCOUNT=Nowe konto...
+
+IDOK=OK
+IDCANCEL=Anuluj
+
+ERR_NOACCOUNT=Musisz wybraæ konto!
+ERR_PARSING=Plik nie mo¿e zostac zaimportowany,jest uszkodzony lub nie w tym standardzie.
+ERR_NO_TRANSACTIONS=Plik nie zawiera transakcji.
+ERR_TRANSACTIONS_FOR_MANY_ACCOUNTS=Plik zawiera transakcje dla wiêcej ni¿ jednego rachunku i nie mo¿e byæ zaimportowany.
+
+INFO_AUTOMATICALLY_CREATED_ACCOUNTS=AceMoney nie móg³ dopasowaæ wszystkich kont wed³ug ich numerów i utworzy³ nastepuj¹ce konto(a):
+
+STATUS_READING_FILE=Wczytywanie pliku...
+STATUS_PARSING_FILE=Analizowanie pliku...
+STATUS_IMPORTING_TRANSACTIONS=Importowanie transakcji...
+STATUS_IMPORTING_BILLS=Importowanie p³atnoœci i depozytów...
+STATUS_IMPORTING_ACCOUNTS=Importowanie kont...
+STATUS_IMPORTING_CATEGORIES=Importowanie kategorii...
+STATUS_IMPORTING_INVESTMENTS=Importowanie inwestycji...
+STATUS_IMPORTING_HISTORICAL_PRICES=Importowanie poprzednich cen akcji...
+
+[IDD_IMPORTRULE]
+TITLE=Utwórz regu³ê
+
+IDC_SEARCHSTRINGTEXT=Jeœli opis importowanej transakcji zawiera frazê(s³owo)
+IDC_PAYEETEXT=Wska¿ jako beneficjenta
+IDC_CATEGORYTEXT=I u¿yj tej kategorii
+
+IDOK=OK
+IDCANCEL=Anuluj
+
+[IDD_IMPORTRULES]
+TITLE=Utwórz regu³y
+
+COLUMN1=Szukaj frazy ( s³owa)
+COLUMN2=Beneficjent
+COLUMN3=Kategoria
+
+IDC_FILTER_TEXT=Filtruj
+IDC_CLEAR=Wyczyœæ
+
+IDC_ADD=Dodaj...
+IDC_EDIT=Edytuj...
+IDC_DELETE=Usuñ...
+IDC_IMPORT=Importuj
+IDC_EXPORT=Eksportuj
+
+IDOK=Zamknij
+IDHELP=Pomoc
+
+ERROR_IMPORT=Importowane regu³y, import z %s niepowodzenie !
+ERROR_EXPORT=Importowane regu³y, eksport do %s niepowodzenie !
+
+[IDD_EXPORT]
+TITLE=Eksportuj
+
+IDC_EXPORTTEXT=Wybierz konto do eksportu
+IDC_STARTDATETEXT=Data rozpoczêcia
+IDC_ENDDATETEXT=Data zakoñczenia
+
+ERR_NOACCOUNT=Proszê, wybierz konto!
+
+IDOK=OK
+IDCANCEL=Anuluj
+
+[IDD_LANGUAGE]
+TITLE=Wybierz jêzyk
+
+IDOK=OK
+IDCANCEL=Anuluj
+
+[IDD_INTERNATIONALSETTINGS]
+TITLE=Ustawienia miêdzynarodowe
+
+IDC_DATETEXT=Format daty
+IDC_DATESEPARATORTEXT=Separator daty
+IDC_CURRENCYTEXT=Waluta domyœlna
+IDC_DECIMALSEPARATORTEXT=Symbol dziesiêtny
+IDC_THOUSANDSEPARATORTEXT=Separator 1000 ()
+IDC_NUMBEROFDECIMALDIGITSTEXT=Liczba miejsc po przecinku
+IDC_FISCAL_YEAR_TEXT=Pierwszy dzieñ roku podatkowego
+
+ERR_THOUSENDDECIMAL=Symbol dziesiêtny i separator 1000() nie mog¹ byæ takie same !
+ERR_THOUSAND=B³êdny separator 1000()!
+ERR_FISCAL_YEAR=Wybrano b³êdn¹ kombinacjê miesi¹ca i dnia podatkowego !
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+[IDD_NETWORK]
+TITLE=Ustawienia sieciowe
+
+IDC_DIRECTCONNECTION=Bezpoœredni dostêp do internetu
+IDC_MANUALPROXYCONFIG=Rêczna konfiguracja serwera proxy
+
+IDC_PROXYSERVERTEXT=HTTP Proxy
+IDC_PROXYSERVERPORTTEXT=Port Proxy
+
+IDOK=OK
+IDCANCEL=Anuluj
+
+ERR_INVALID_PORT_NUMBER=Numer portu powinien byæ wiêkszy ni¿ 0 i mniejszy ni¿ 65535!
+
+[IDD_ONLINESERVICE]
+TITLE=Serwis sieciowy
+
+IDC_ENABLE=Pobierz transakcje dla tego konta
+IDC_PROVIDERTYPETEXT=Typ serwisu online
+IDC_PROVIDERTEXT=Dostawca serwisu online
+IDC_USERIDTEXT=ID U¿ytkownika
+IDC_PASSWORDTEXT=Has³o
+IDC_CONNECTASTEXT=Po³¹cz jako
+
+PROVIDER_TYPE_CREDITCARD=Karta Kredytowa
+PROVIDER_TYPE_BANK=Bank
+PROVIDER_TYPE_BROKERAGE=Op³ata za us³ugi maklerskie
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+[IDD_OPTIONS]
+TITLE=Opcje
+
+IDC_GENERALGROUP=Ogólne
+IDC_SHOWCLOSEDACCOUNTS=Pokazuj zamkniête konta
+IDC_SHOWACCOUNTNUMBERS=Pokazuj numery kont
+IDC_SHOW_AVAILABLE_BALANCE=Pokazuj saldo dostêpne
+IDC_SHOWGRID=Pokazuj linie siatki w tabeli
+IDC_LOADLASTFILE=Wczytuj ostatnio otwierany plik
+IDC_SHOWCOMMENT=Poka¿ rubrykê:Uwagi
+IDC_AUTOSAVE=Stosuj autozapis dokumentu
+IDC_SHOWSPLASHSCREEN=Wyœwietlaj czo³ówkê programu "AceMoney"
+IDC_SHOWFILENAME=Pokazuj nazwê pliku w tytule
+IDC_SHOWSOLDSTOCKS=Pokazuj sprzedane papiery wartoœciowe
+IDC_ADDINVESTMENTVALUE=Dodaj sumê inwestycji do salda konta
+IDC_SHOWDEPOSITSFIRST= Poka¿ wp³aty jako pierwsze transakcje dnia
+IDC_TRANSFERSTATUS=Zmieniaj status transferu na obu kontach
+IDC_SHOWCATEGORYSTATUS=Pokazuj analizê kategorii na pasku stanu
+IDC_SHOWDUPLICATECHECKWARNING=Pokazuj kopiê potwierdzonego ostrze¿enia
+IDC_CHECKFORUPDATES=SprawdŸ czy jest udostêpniona nowa wersja programu
+IDC_AUTOFILLTRANSACTIONCOMMENTS=Automatycznie wype³nij opisy transakcji 
+IDC_SORTSAMEDAYTRANSACTIONSBYNUMBER=Sortuj transakcje z tego samego dnia wg formy zap³aty 
+IDC_CONFIRM_EDIT_RECONCILED_TRANSACTION=Potwierdzaj zmiany w transakcjach rozliczonych i uzgodnionych
+IDC_CONFIRM_DELETE_TRANSACTION=Potwierdzaj kasowanie transakcji
+IDC_CONFIRM_DELETE_BILL=Potwierdzaj kasowanie p³atnoœci
+IDC_CONFIRM_BILL_AMOUNT_CHANGE=Potwierdzaj zmianê kwoty p³atnoœci
+IDC_CONFIRM_BILL_ACCOUNT_CHANGE=Potwierdzaj zmianê stanu konta
+
+IDC_STARTPAGEGROUP=Strona startowa
+IDC_ACCOUNTLIST=Wykaz kont
+IDC_FAVORITEACCOUNT=Preferowane konto
+
+IDC_PASSWORDGROUP=Has³o
+IDC_OLDPASSTEXT=Bie¿¹ce has³o
+IDC_NEWPASSTEXT=Nowe has³o
+IDC_RETYPETEXT=Powtórz nowe has³o
+
+IDC_NETWORK=Sieæ...
+
+IDC_TRANSACTIONTYPETEXT=Nowy typ transakcji
+LASTUSEDTYPE=Ostatnio u¿ywany typ
+
+IDC_TRANSACTIONNUMBERTEXT=Nowy numer transakcji
+NUMBER_EMPTY=Pusty
+NUMBER_DEBIT=Debet
+NUMBER_AUTO=Kolejny
+
+IDC_NUMBEROFFUTUREBILLSMONTHSTEXT=Pokazuj przysz³e p³atnoœci:
+0_MONTHS_AHEAD=Nie pokazuj
+1_MONTHS_AHEAD=Z wyprzedzeniem 1 m-ca
+2_MONTHS_AHEAD=Z wyprzedzeniem 2 m-cy
+3_MONTHS_AHEAD=Z wyprzedzeniem 3 m-cy
+4_MONTHS_AHEAD=Z wyprzedzeniem 4 m-cy
+5_MONTHS_AHEAD=Z wyprzedzeniem 5 m-cy
+6_MONTHS_AHEAD=Z wyprzedzeniem 6 m-cy
+7_MONTHS_AHEAD=Z wyprzedzeniem 7 m-cy
+8_MONTHS_AHEAD=Z wyprzedzeniem 8 m-cy
+9_MONTHS_AHEAD=Z wyprzedzeniem 9 m-cy
+10_MONTHS_AHEAD=Z wyprzedzeniem 10 m-cy
+11_MONTHS_AHEAD=Z wyprzedzeniem 11 m-cy
+12_MONTHS_AHEAD=Z wyprzedzeniem 12 m-cy
+18_MONTHS_AHEAD=Z wyprzedzeniem 18 m-cy
+24_MONTHS_AHEAD=Z wyprzedzeniem  2 lat
+36_MONTHS_AHEAD=Z wyprzedzeniem  3 lat
+48_MONTHS_AHEAD=Z wyprzedzeniem  4 lat
+60_MONTHS_AHEAD=Z wyprzedzeniem  5 lat
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+ERR_INVALIDOLDPASSWORD=B³êdne stare has³o !
+ERR_INVALIDNEWPASSWORD=B³êdne nowe has³o !
+
+[IDD_PASSWORD]
+TITLE=WprowadŸ has³o
+IDC_PASSTEXT=Has³o
+
+IDOK=OK
+IDCANCEL=Anuluj
+
+ERR_INVALIDPASSWORD=Nieprawid³owe has³o !
+
+[IDD_PAYEE]
+TITLE=Beneficjent
+
+IDC_NAMETEXT=Nazwa
+IDC_ACTIVEPAYEE=Status: czynny 
+
+IDC_ADDRESSTEXT=Adres
+IDC_CITYTEXT=Miejscowoœæ
+IDC_STATETEXT=Województwo
+IDC_ZIPTEXT=Kod pocztowy
+IDC_COUNTRYTEXT=Kraj
+
+IDC_HOMEPHONETEXT=Tel.domowy
+IDC_WORKPHONETEXT=Tel.s³u¿bowy
+IDC_MOBILEPHONETEXT=Tel.komórkowy
+IDC_FAXTEXT=Numer faksu
+IDC_PAGERTEXT=Numer pager'a
+
+IDC_EMAILTEXT=E-mail
+IDC_WEBSITETEXT=Internet
+IDC_GO=Otwórz stronê
+
+IDC_COMMENTTEXT=Uwagi
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+ERR_NOPAYEENAME=Musisz nadaæ nazwê beneficjentowi !
+
+[IDD_PAYEECHANGE]
+TITLE=Zmieñ benficjenta
+
+IDOK=OK
+IDCANCEL=Anuluj
+
+[IDD_PAYEEMERGE]
+TITLE=£¹cz beneficjentów
+IDC_PAYEETEXT=£¹cz beneficjenta
+IDC_PAYEETEXT1=z beneficjentem
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+SELECTED_PAYEES=Wybrani beneficjenci
+
+ERR_NOPAYEES=Obaj beneficjenci powinni byæ zaznaczeni i ró¿ni !
+
+[IDD_PRINTPREVIEW]
+TITLE=Podgl¹d wydruku
+IDC_PAGETEXT=Strona
+IDC_PAGEOFTEXT= z
+IDC_PRINT=Drukuj...
+IDC_CLOSE=Zamknij
+IDC_PAGEPROPERTIES=Ustawienia strony...
+IDC_PREVIOUSPAGE=<<Poprzednia
+IDC_NEXTPAGE=Nastêpna>>
+IDC_ZOOMIN=Powiêksz
+IDC_ZOOMOUT=Zmniejsz
+
+IDOK=OK
+IDHELP=Pomoc
+
+[IDD_PAGESETUP]
+TITLE=Ustawienia strony
+IDC_ORIENTATIONBOX=Orientacja:
+IDC_TITLETEXT=Tytu³:
+IDC_PAPERSIZETEXT=Rozmiar:
+IDC_PORTRAIT=Pionowa
+IDC_LANDSCAPE=Pozioma
+IDC_TMTEXT=Górny:
+IDC_BMTEXT=Dolny:
+IDC_LMTEXT=Lewy:
+IDC_RMTEXT=Prawy:
+IDC_UNITTEXT=Jednostki:
+
+UNIT0=Milimetry
+UNIT1=Cale
+
+IDOK=OK
+IDCANCEL=Usuñ
+
+[IDD_QUESTION]
+TITLE=Zastanów siê !!!
+DO_NOT_ASK_AGAIN=Nie pytaj mnie ponownie
+OK=Tak
+CANCEL=Nie
+
+[IDD_REGISTER]
+TITLE=Rejestracja
+
+IDC_NAMETEXT=Nazwa:
+IDC_SERIALNUMBERTEXT=Numer seryjny:
+
+IDC_ORDER=Kupno...
+
+IDOK=OK
+IDCANCEL=Anuluj
+
+[IDD_SEARCH]
+TITLE=Wyszukaj transakcje
+
+IDC_ACCOUNTTEXT=Konto
+IDC_DATETEXT=Okres
+IDC_FROMTEXT=od
+IDC_TOTEXT=do
+IDC_AMOUNTTEXT=Kwota
+IDC_AMOUNTFROMTEXT=od
+IDC_AMOUNTTOTEXT=do
+IDC_COMMENTTEXT=Opis
+IDC_SEARCH=Szukaj
+IDC_CLOSE=Zamknij
+
+ALLACCOUNTS=Wszystkie konta
+
+[IDD_SPLIT]
+TITLE=Podziel wg kategorii
+
+IDC_CATEGORYTEXT=Kategoria
+IDC_SUBCATEGORYTEXT=Podkategoria
+IDC_AMOUNTTEXT=Kwota
+IDC_ADD=Dodaj
+IDC_EDIT=Edytuj
+IDC_DELETE=Usuñ
+IDC_TOTALTEXT=Suma
+IDC_UNASSIGNEDTEXT=Niezgodne o :
+IDC_COMMENTTEXT=Uwagi
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+COLUMN0=Kategoria
+COLUMN1=Podkategoria
+COLUMN2=Kwota
+COLUMN3=Uwagi
+
+ERR_BADTOTAL=Suma poszczególnych kwot nie jest równa kwocie transakcji. Czy chcesz zmieniæ kwotê transakcji ?
+
+[IDD_SPLITITEM]
+TITLE=Podziel pozycje
+IDC_CATEGORYTEXT=Kategoria
+IDC_SUBCATEGORYTEXT=Podkategoria
+IDC_AMOUNTTEXT=Kwota
+IDC_COMMENTTEXT=Uwagi
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+[IDD_TRANSACTION]
+TITLE=Transakcja
+
+IDC_TYPETEXT=Typ
+IDC_DEPOSIT=Wp³ata
+IDC_WITHDRAWAL=Wyp³ata
+IDC_TRANSFER=Transfer
+IDC_ACCOUNTTEXT=Konto
+IDC_PAYEETEXT=Beneficjent
+IDC_CATEGORYTEXT=Kategoria
+IDC_SPLIT=Podziel
+IDC_COMMENTTEXT=Uwagi
+IDC_DATETEXT=Data
+IDC_NUMBERTEXT=Forma zap³aty
+IDC_AMOUNTTEXT=Kwota
+
+FROMTEXT=Z
+TOTEXT=Do
+SPLIT=Podziel
+DEBIT=Debet
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+ERR_SAMETRANFER=Nie mo¿na transferowaæ na to samo konto !
+ERR_INVALIDACCOUNT=B³êdna nazwa konta !
+ERR_SPLITAMOUNT=Kwota transakcji powinna byæ równa sumie poszczczególnych jej sk³adników !
+ERR_SPLIT_HAS_TRANSFERS=Transfer nie mo¿e mieæ zagnie¿d¿onych transferów w podziale transakcji . Usuñ transfery z podzia³u , a nastepnie zmieñ rodzaj transakcji.
+
+
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Kurs walut
+
+IDC_SOURCEAMOUNTTEXT=Kwota w
+IDC_TARGETAMOUNTTEXT=Kwota w
+
+IDOK=OK
+IDCANCEL=Anuluj
+
+[IDD_TRANSACTIONCATEGORYLIST]
+TITLE=Formy zap³aty
+IDC_ADD=Dodaj...
+IDC_DELETE=Usuñ
+IDC_EDIT=Uaktualniaj...
+IDOK=Zamknij
+IDHELP=Pomoc
+
+UPDATE_TRANSACTIONS=Czy chcesz zaktualizowac istniej¹c¹ transakcje nadaj¹c jej now¹ nazwê ?
+DELETE_TRANSACTIONS=Czy chcesz wyczyœciæ usuniêt¹ kategoriê w istniej¹cych transakcjach ?
+
+[IDD_TRANSACTIONCATEGORY]
+TITLE=Forma zap³aty
+IDC_NAMETEXT=Nazwa
+IDOK=OK
+IDCANCEL=Anuluj
+
+ERR_NONAME=Musisz podaæ nazwê sposobu op³acania transakcji !
+
+[IDD_TAGLIST]
+TITLE=Etykiety transakcji
+IDC_ADD=Dodaj...
+IDC_DELETE=Usuñ
+IDC_EDIT=Zaktualizuj...
+IDOK=Zamknij
+IDHELP=Pomoc
+
+DELETE_WARNING=Zaznaczone etykiety zostan¹ usuniête z wszystkich transakcji, które nimi oznaczy³eœ. Kontynuowaæ ?
+
+[IDD_TAG]
+TITLE=Etykieta transakcji
+IDC_NAMETEXT=Nazwa
+IDC_COLORTEXT=Kolor
+IDOK=OK
+IDCANCEL=Anuluj
+
+ERR_NONAME=Nazwa etykiety transakcji nie mo¿e byæ niewpisana !
+ERR_EXISTS=Etykieta transakcji o tej nazwie ju¿ istnieje. Wpisz inn¹ nazwê.
+
+
+[IDD_DAYBILLS]
+TITLE=P³atnoœci
+
+COLUMN0=Data
+COLUMN1=Transakcja
+COLUMN2=Beneficjent
+COLUMN3=Kwota
+COLUMN4=Uwagi
+COLUMN5=Czêstotlowoœæ
+
+IDC_ENTER=WprowadŸ..
+IDC_EDIT=Edytuj..
+IDC_DELETE=Usuñ...
+
+IDOK=OK
+IDHELP=Pomoc
+
+[IDD_LITEVERSION]
+TITLE=AceMoney Lite
+
+IDC_TWO_ACCOUNTS_LIMIT=AceMoney Lite dzia³a tylko z dwoma kontami. Trzecie konto nie mo¿e byæ utworzone. Jeœli potrzebujesz u¿ywaæ wielu kont zaktualizuj program do pe³nej wersji.
+
+
+IDC_WEBSITE=Zaktualizuj ..
+IDOK=Zamknij
+IDCANCEL=Anuluj
+
+[IDD_STOCK]
+TITLE=Inwestycja
+
+STOCK=Akcja
+MUTUALFUND=Jednostka uczestnictwa funduszu
+BOND=Obligacja
+INDEX=Indeks
+COMMODITY=Towar
+CURRENCY=Waluta
+REALESTATE=Nieruchomoœæ
+TRUST=Powiernictwo
+OPTIONS=Opcje
+FUTURES=Kontrakty terminowe
+INTERNATIONAL_STOCK=Miêdzynarodowe papiery wartoœciowe
+INTERNATIONAL_BOND=Miêdzynarodowe obligacje
+OTHER=Inne
+
+IDC_SYMBOLTEXT=Symbol
+IDC_LOOKUP=Aktualne notowania
+IDC_NAMETEXT=Nazwa
+IDC_TYPETEXT=Typ
+IDC_CURRENCYTEXT=Waluta
+IDC_DATASOURCETEXT=¯ród³o danych
+IDC_COMMENTTEXT=Komentarz
+IDC_DIVIDEBY100TEXT=Podziel otrzyman¹ kwotê przez 100
+IDC_AUTO_DOWNLOAD_ENABLED=Œci¹gaj automatycznie kwoty
+
+IDC_PRICETEXT=Historia cen
+IDC_UPDATE=Aktualizuj...
+IDC_WEBUPDATE=Œci¹gnij...
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+COLUMN0=Data
+COLUMN1=Cena
+
+ERR_EMPTYSYMBOL=Symbol akcji musi byc wpisany !
+ERR_EMPTYNAME=Nazwa inwestycji musi byæ wpisana !
+ERR_INVALIDDATASOURCE=Musi byæ wybrane ¿ród³o danych !
+ERR_CONNECTIONORSYMBOL=B³¹d po³¹czenia internetowego lub niewa¿ny symbol akcji !
+
+[IDD_STOCKPRICE]
+TITLE=Cena papierów wartoœciowych
+
+IDC_DATETEXT=Data
+IDC_PRICETEXT=Cena
+
+IDOK=OK
+IDCANCEL=Anuluj
+
+[IDD_STOCKTRANSACTION]
+TITLE=Transakcja inwestycyjna
+
+IDC_DATETEXT=Data
+IDC_ACCOUNTTEXT=Konto
+IDC_ACTIONTEXT=Typ transakcji
+IDC_INVESTMENTTEXT=Inwestycja
+
+IDC_DIVIDENDTEXT=Dywidenda
+IDC_NUMBERTEXT=Liczba walorów
+IDC_PRICETEXT=Cena waloru
+IDC_COMMISSIONTEXT=Prowizja
+IDC_TOTALTEXT=Razem
+
+IDC_COMMENTTEXT=Uwagi
+
+BUY=Kupno
+SELL=Sprzeda¿
+DIVIDEND=Dywidenda
+REINVEST=Reinwestycja dywidendy
+ADD=Dodaj akcje
+REMOVE=Usuñ akcje
+LONG_TERM_CAPITAL_GAIN=D³ugoterminowy zysk kapita³owy
+SHORT_TERM_CAPITAL_GAIN=Krótkoterminowy zysk kapita³owy
+REINVEST_SHORT_TERM_CAPITAL_GAIN=Reinwestycja krótkotermin. zysku kapita³owego
+REINVEST_LONG_TERM_CAPITAL_GAIN=Reinwestycja d³ugotermin. zysku kapita³owego
+
+IDOK=OK
+IDCANCEL=Anuluj
+IDHELP=Pomoc
+
+ERR_NEGATIVEVALUES= Liczba akcji(udzia³ów) , cena za za nie , dywidenda, prowizja i suma musz¹ byæ liczbami dodatnimi !
+ERR_INVALIDACTIONTYPE=B³êdna transakcja !
+ERR_INVALIDACCOUNT=B³êdne konto !
+ERR_INVALIDINVESTMENT=B³êdna inwestycja !
+ERR_INCONSISTENTCURRENCY=Waluta wybranego konta musi powinna taka sama jak waluta inwestycji!
+
+[IDD_REPORTADD]
+TITLE=Dodaj do ulubionych
+IDC_NAMETEXT=Nazwa raportu
+IDOK=OK
+IDCANCEL=Anuluj
+
+[IDD_REPORTNAME]
+TITLE=Nazwa raportu
+IDC_NAMETEXT=Nazwa raportu
+IDOK=OK
+IDCANCEL=Anuluj
+
+ERROR_EMPTY=Raportowi musisz nadaæ jak¹œ nazwê !
+ERROR_EXIST=Raport o takiej nazwie ju¿ istnieje. Skasowaæ go przez wpisanie nowych danych?
+
+[IDD_REPORTORGANIZE]
+TITLE=Organizuj raporty
+IDC_EDIT=Zmieñ nazwê
+IDC_DELETE=Usuñ
+IDOK=Utwórz
+IDCANCEL=Zamknij
+
+[IDD_STARTUP_CURRENCY]
+TITLE=Waluta - ustawienia
+IDC_CURRENCYTEXT=Waluta domyœlna
+IDC_NUMBRROFDECIMALSTEXT=Miejsca dziesiêtne 
+IDC_DECIMALSEPARATORTEXT=Symbol dziesiêtny
+IDC_THOUSANDSEPARATORTEXT=Separator 1000 ()
+IDC_EXAMPLETEXT=Przyk³ad
+
+IDC_BACK=<< Wstecz
+IDC_NEXT=Dalej >>
+
+SEPARATOR_SPACE=Odstêp
+SEPARATOR_NONE=Brak separatora
+
+ERR_THOUSANDDECIMAL=Symbol dziesiêtny i separator 1000 () nie mog¹ byæ takie same !
+
+IDOK=OK
+IDCANCEL=Anuluj
+
+[IDD_STARTUP_DATE]
+TITLE=Ustawienia daty
+IDC_FORMATTEXT=Format daty
+IDC_SEPARATORTEXT=Separator
+IDC_EXAMPLETEXT=Przyk³ad
+
+IDC_BACK=<< Wstecz
+IDC_FINISH=Zakoñcz
+
+IDOK=OK
+IDCANCEL=Anuluj
+
+[IDD_ACEMONEYREMINDER]
+TITLE=P³atnoœci do zrealizowania
+
+STARTACEMONEY=Uruchom AceMoney
+OPTIONS=Opcje...
+VIEWBILLS=Poka¿ p³atnoœci...
+EXIT=Zamknij
+CLOSE=Zamknij
+
+COLUMN0=Data
+COLUMN1=Transakcja
+COLUMN2=Beneficjent
+COLUMN3=Kwota
+
+OPTIONSTITLE=Opcje
+DATAFILE=Plik AceMoney
+BROWSE=Przegl¹daj...
+SELECTFILE=Wybierz twój plik z danymi
+AUTOSTART=Uruchamiaj automatycznie z Windows
+STARTMINIMIZED=Uruchamiaj jako ikonê na pasku zadañ
+OK=OK
+CANCEL=Anuluj
+
+MSG_DUEBILLS=S¹ p³atnoœci do realizacji!
+MSG_NODUEBILLS=Nie ma p³atnoœci do realizacji
+
+
+
+
+
+
+
+
+
+
+
+
+
+

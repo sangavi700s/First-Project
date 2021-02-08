@@ -1,0 +1,906 @@
+ProgramID=AceMoney
+Language=Arabic
+
+///////////////////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories_ar.dat
+BANKS=Banks_ar.dat
+ACCOUNTTYPES=accounttypes_ar.dat
+
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+
+STATUS=йзяМх / ЦмЦо ЕАгА гАнгАоМ  -  гАъФМй   2006  bodalal@hotmail.com - еЕога еАЛ гАЦсйноЦ гАзяхМ
+TRANSFER=ймФМА
+DEPOSIT=еМогз
+WITHDRAWAL=смх
+TO=еАЛ
+FROM=ЦД
+TOTAL=гАЦлЦФз
+CLEAREDTOTAL=Цсм гАЦлЦФз
+RECONCILEDTOTAL=езгои мсгх гАЦлЦФз
+UNCLEAREDTOTAL=йяглз Цсм гАЦлЦФз
+TODAYTEXT=гАМФЦ
+PAGE=гАгДйяДй
+UNASSIGNED=(шМя ЦзяЬщ)
+SAVEMODIFIED=мщы гАйшММя ©
+REPLACEMENTS=йЦ езйЦго гАйшММя
+INVALIDNUMBER=йДсМч ячЦ шМя ЦзяФщ !
+
+[MENU]
+ID_FILE=ЦАщ
+ID_FILE_NEW=лоМо
+ID_FILE_OPEN=щйм ...
+ID_FILE_SAVE=мщы
+ID_FILE_SAVE_AS=мщы хгсЦ ...
+ID_FILE_IMPORT=гсйМяго ...
+ID_FILE_EXPORT=йуоМя ...
+ID_FILE_PRINT=ьхгзи ...
+ID_FILE_PRINT_PREVIEW=зяж ьхгзи ...
+ID_APP_EXIT=няФл
+
+ID_EDIT=йзоМА
+ID_EDIT_DELETE=мпщ
+ID_EDIT_INSERT=еоягл
+ID_EDIT_SELECTALL=гнйМгя гАъА
+ID_EDIT_PROPERTIES=нугфу ...
+
+ID_VIEW=зяж
+ID_VIEW_ACCOUNTS=гАмсгхгй
+ID_VIEW_BANKS=гАхДФъ
+ID_VIEW_PAYEES=гАогщзМД
+ID_VIEW_CATEGORIES=гАЦМргДМи ФгАщфгй
+ID_VIEW_SCHEDULE=лоФАи
+ID_VIEW_PORTFOLIO=цсЕЦ
+ID_VIEW_REPORTS=гАйчгяМя
+
+ID_ACCOUNTS=гАмсгхгй
+ID_ACCOUNTS_ADD=ежгщи мсгх ...
+ID_ACCOUNTS_TYPE=ДФз гАмсгх ...
+
+ID_REPORTS=гАйчгяМя
+ID_REPORTS_ADD=ежгщи еАЛ гАЦщжАи ...
+ID_REPORTS_ORGANIZE=йДыМЦ ...
+
+ID_TOOLS=цоФгй
+ID_TOOLS_CURRENCY=цсзгя гАзЦАгй ...
+ID_TOOLS_OPTIONS=нМгягй ...
+ID_TOOLS_COLORS=ньФь ФцАФгД ...
+ID_TOOLS_LANGUAGE=гААши ...
+ID_TOOLS_BACKUP=Дсн емйМгьМ ...
+ID_TOOLS_BUDGET=гАЦМргДМи ...
+
+ID_HELP=Цсгзои
+ID_HELP_TOPICS=Цсгзои
+ID_HELP_HOMEPAGE=AceMoney ущми
+ID_HELP_WHATSNEW=Цг гАлоМо ©
+ID_HELP_SUPPORT=гАозЦ гАщДМ ...
+ID_HELP_FORUM=Цсгзои зД хзо ...
+ID_HELP_TUTORIAL=йояМх хгАгДйяДй ...
+ID_HELP_REGISTER=йслМА гАхяДгЦл ...
+ID_HELP_ORDER=ьАх тяга гАхяДгЦл ...
+ID_HELP_ABOUT=мФА гАхяДгЦл ...
+
+[TOOLBAR]
+ID_FILE_NEW=лоМо
+ID_FILE_OPEN=щйм
+ID_FILE_SAVE=мщы
+ID_VIEW_BACK=ААнАщ
+ID_VIEW_FORWARD=ААцЦгЦ
+ID_VIEW_HOME=гАяфМсМи
+ID_VIEW_ACCOUNTS=гАмсгхгй
+ID_VIEW_BANKS=гАхДФъ
+ID_VIEW_PAYEES=гАогщзМД
+ID_VIEW_CATEGORIES=гАщфгй
+ID_VIEW_SCHEDULE=лоФАи
+ID_VIEW_REPORTS=гАйчгяМя
+ID_VIEW_PORTFOLIO=цсЕЦ
+ID_HELP_HOMEPAGE=AceMoney ущми
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=мсгхгй
+IDC_ADD=мсгх лоМо ...
+IDC_BILLS=ощз гАщФгйМя
+IDC_REPORTS=йчгяМя
+IDC_CURRENCY=цсзгя гАзЦАгй
+IDC_WEBUPDATE=ймоМк гАзЦАгй
+IDHELP=Цсгзои
+
+ID_ACCOUNT_OPEN=щйм
+ID_ACCOUNT_ADD=мсгх лоМо ..
+ID_ACCOUNT_DELETE=мпщ
+ID_ACCOUNT_EDIT=нугфу
+
+TOTAL=гАЦлЦФз
+LASTUPDATE=гАймоМк гАцнМя
+
+DELETE_CONFIRMATION=сФщ МйЦ мпщ гАмсгх %s ФлЦМз гАзЦАМгй гАЦяйхьи хЕ ! йцъММо ©
+
+UPDATE_SUCCESS=йЦ ймоМк цсзгя гАзЦАгй хДлгм !
+UPDATE_FAILURE=ньц щМ гАймоМк ! йцъо ЦД гйугАъ хгАгДйяДй 
+UPDATE_NOTREQUIRED=гАймоМк шМя ЦьАФх
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPORTFOLIO]
+TITLE=цсЕЦ
+
+IDC_BUY=тяга ...
+IDC_SELL=хМз ...
+IDC_DIVIDEND=муи ...
+IDC_REINVEST=езгои йФрМз гАмуи ...
+IDC_ADDSHARES=ежгщи тяМъ ...
+IDC_REMOVESHARES=мпщ тяМъ ...
+
+IDC_ADD=ежгщи гсйкЦгя ...
+IDC_EDIT=йзоМА гсйкЦгя ...
+IDC_DELETE=мпщ гсйкЦгя ...
+
+IDC_WEBUPDATE=ймЦМА гАцсзгя
+
+IDHELP=Цсгзои
+
+STOCKLIST=цсЕЦ
+STOCKTRANSACTIONLIST=ймФМА
+
+COLUMN0=яЦр
+COLUMN1=гАгсЦ
+COLUMN2=гАсзя гАцнМя
+COLUMN3=гАъЦМи
+COLUMN4=гАЦлЦФз
+COLUMN5=гАяхм
+
+TRANSACTIONSCOLUMN0=гАйгяМн
+TRANSACTIONSCOLUMN1=гАзЦАМи
+TRANSACTIONSCOLUMN2=гАяЦр
+TRANSACTIONSCOLUMN3=гАмсгх
+TRANSACTIONSCOLUMN4=гАмуи
+TRANSACTIONSCOLUMN5=гАсзя
+TRANSACTIONSCOLUMN6=гАъЦМи
+TRANSACTIONSCOLUMN7=гАзЦФАи
+TRANSACTIONSCOLUMN8=гАЦлЦФз
+
+CANTBEDELETED=Епг гАсЕЦ ЦсйноЦ ЦД чхА Фгмо цФ цъкя ЦД гАмсгхгй ║ Аг МЦъД мпщЕ !
+DELETECONFIRMATION=сФщ МйЦ мпщ Епг гАсЕЦ ║ ЕА цДй Цйцъо ©
+UPDATEISNOTREQUIRED=гАймоМк шМя ЦьАФх !
+UPDATEISNOTCOMPLETE=АЦ МйЦ ймоМк хзж гАгсйкЦгягй ! 
+INVESTMENTNOTCREATED=Млх еДтга мсгх гсйкЦгяМ цФАгП !
+
+ID_EDIT_OPEN=йзоМА мсгх гсйкЦгяМ
+ID_EDIT_INSERT=ежгщи гсйкЦгя лоМо
+ID_EDIT_DELETE=мпщ
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=мсгх
+IDC_ADD=зЦАМи лоМои
+IDC_EDIT=йзоМА зЦАМи
+IDC_DELETE=мпщ зЦАМи
+IDC_BALANCE=ЦФгрДи гАмсгх
+IDC_WEBSITE=зДФгД гАмсгх хгАгДйяДй
+IDC_ACCOUNT=йзоМА хМгДгй гАмсгх
+IDC_BANK=йзоМА хМгДгй гАхДъ
+IDC_MONTHREPORT=йчяМя тЕяМ
+IDC_REPORT=йчяМя 30 МФЦ
+IDC_HIDERECONCILED=енщга гАйсФМи
+IDHELP=Цсгзои
+
+COLUMN0=ячЦ
+COLUMN1=гАйгяМн
+COLUMN2=ощз ЦД чхА
+COLUMN3=гАщфи
+COLUMN4=S
+COLUMN5=смх
+COLUMN6=еМогз
+COLUMN7=гАЦлЦФз
+COLUMN8=йзАМч
+
+BANKISNOTASSIGNED=гнйя гсЦ гАхДъ гАпМ МйхзЕ Епг гАмсгх АъМ ййЦъД ЦД ейЦгЦ Епг гАеляга
+PAGEISNOTASSIGNED=зДФгД гАгДйяДй гАнгу хгАхДъ ЦщчФо ║ МЦъДъ ежгщйЕ ЦД нАгА хМгДгй гАхДъ .
+STATUS=Ачо уящй Епг гАтЕя   %.2f жЦД гАщфи  %s
+STATUSINCOME=Ачо гсйАЦй Епг гАтЕя   %.2f жЦД гАщфи  %s
+
+ID_EDIT_OPEN=йзоМА
+ID_TRANSACTION_UNCLEARED=шМя ЦАшМ
+ID_TRANSACTION_CLEARED=ЦАшМ
+ID_TRANSACTION_RECONCILED=йЦ йсФМйЕ
+ID_EDIT_INSERT=зЦАМи лоМои ...
+ID_EDIT_INSERTBILL=слА ощз гАщгйФяи ...
+ID_EDIT_DELETE=мпщ
+
+BILLDELETECONFIRMATION=МдоМ Епг гАеляга еАЛ мпщ лЦМз гАзЦАМгй гАЦсйчхАМи гАЦяйхьи хЕпЕ гАщФгйМя / гАеМогз !
+TRANSACTIONDELETECONFIRMATION=ЕА цДй Цйцъо ©
+RECONCILEDTRANSACTIONCONFIRMATION=ЕпЕ гАзЦАМи ЦзяЬщи ъзЦАМи йЦй йсФМйЕг ║ Аг МщжА ЦФгуАи Епг гАеляга ! йцъМо ©
+CLEAREDTRANSACTIONCONFIRMATION=ЕпЕ гАзЦАМи ЦзяЬщи ъзЦАМи йЦ еАшгдЕг ║ Аг МщжА ЦФгуАи Епг гАеляга ! йцъМо ©
+CANNOTSORTBYTOTAL=Аг МЦъД гАщяр зД ьяМч гАЦлЦФз !
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=хДъ лоМо ...
+IDC_EDIT=йзоМА хМгДгй гАхДъ
+IDC_DELETE=мпщ гАхДъ
+IDC_DELETEUNUSED=мпщ шМя гАЦсйноЦ
+IDHELP=Цсгзои
+
+COLUMN0=гсЦ гАхДъ
+COLUMN1=гАзДФгД
+COLUMN2=ущми гАгДйяДй
+COLUMN3=йзАМч
+
+CANTBEDELETED=цмо мсгхгйъ Цяйхь хЕпг гАхДъ ║ Аг МЦъД гАмпщ гАбД !
+DELETECONFIRMATION=ЕА цДй Цйцъо ©
+DELETEUNUSED=сФщ МйЦ мпщ Епг гАхДъ ФЕФ шМя Цяйхь хцМи мсгхгй ! йцъМо ©
+
+ID_EDIT_OPEN=йзоМА
+ID_EDIT_INSERT=хДъ лоМо ...
+ID_EDIT_DELETE=мпщ
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=щфи лоМои ...
+IDC_EDIT=йзоМА щфи
+IDC_DELETE=мпщ щфи
+IDC_DELETEUNUSED=мпщ шМя гАЦсйноЦ
+IDC_REPORT=йчяМя гАщфгй
+IDC_BUDGETREPORT=йчяМя гАЦМргДМи
+IDC_BUDGET=езогогй гАЦМргДМи ...
+IDC_IMPORT=есйМяго ...
+IDC_MERGE=оЦл ...
+IDHELP=Цсгзои
+
+COLUMN0=гАщфи
+COLUMN0a=гАяЦр
+COLUMN1=ЦФгрДи
+COLUMN1a=гАонА
+COLUMN2a=гАЦугяМщ
+COLUMN2=йзАМч
+COLUMN3=йзАМч
+
+CANTBEDELETED=цмо гАЦМргДМгй МсйноЦ ЕпЕ гАщфи ║ Аг МЦъД мпщЕг гАбД !
+PARENTCANTBEDELETED=ЕпЕ щфи цсгсМи ║ Млх мпщ гАщфгй гАЦйщязи зДЕг цФАгП !
+DELETECONFIRMATION=ЕА цДй Цйцъо ©
+DELETEUNUSED=Епг гАеляга сФщ Ммпщ лЦМз гАщфгй шМя гАЦсйноЦи щМ гАЦМргДМгй ! йцъМо ©
+ID_EDIT_OPEN=йзоМА
+ID_EDIT_INSERT=лоМо ...
+ID_EDIT_DELETE=мпщ
+
+TOTALINCOME=онА :
+TOTALEXPENSE=ЦуяФщгй :
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=огщз лоМо ...
+IDC_EDIT=йзоМА гАогщз
+IDC_DELETE=мпщ гАогщз
+IDC_DELETEUNUSED=мпщ шМя гАЦсйноЦ
+IDC_REPORT=йчяМя гАогщзМД
+IDC_MERGE=оЦл ...
+IDHELP=Цсгзои
+
+COLUMN0=гАгсЦ
+COLUMN1=гАзДФгД
+COLUMN2=йзАМч
+
+CANTBEDELETED=цмо гАзЦАМгй йсйноЦ Епг гАогщз ║ Аг МЦъД мпщЕ гАбД !
+DELETECONFIRMATION=ЕА цДй Цйцъо ©
+DELETEUNUSED=сФщ МйЦ мпщ лЦМз гАогщзМД шМя гАЦяйхьМД хцМи зЦАМгй ! йцъМо ©
+
+ID_EDIT_OPEN=йзоМА
+ID_EDIT_INSERT=лоМо ...
+ID_EDIT_DELETE=мпщ
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=йущМи хгАйгяМн
+IDC_SETDATES=гнйя Дьгч гАйгяМн ...
+IDC_USECATEGORYFILTER=йущМи хгАщфгй
+IDC_SETCATEGORIES=гнйя гАщфи
+IDC_USEPAYEEFILTER=йущМи хгАогщзМД
+IDC_SETPAYEES=гнйя гАогщзМД
+IDC_USEACCOUNTFILTER=йущМи хгАмсгхгй
+IDC_SETACCOUNTS=гнйя гАмсгх
+IDC_TRANSACTIONS=йчяМя гАзЦАМгй
+IDC_CATEGORY=ЦугяМщ зАЛ мсх гАщфгй
+IDC_SUBCATEGORY=ЦугяМщ зАЛ мсх гАщфгй гАщязМи
+IDC_PAYEE=ЦугяМщ зАЛ мсх гАогщзМД
+IDC_BUDGET=гАЦМргДМи гАмгАМи
+IDC_CASHFLOW=йчяМя гАцяхгм гАлоМо
+IDC_LAST30DAYS=гАзЦАМгй нАгА 30 МФЦ гАсгхчи
+
+IDHELP=Цсгзои
+IDC_TABLE=зяж лоФА
+IDC_CHART=ясЦ хМгДМ
+IDC_INCOMECHART=Цньь гАонА
+IDC_EXPENSECHART=Цньь гАЦугяМщ
+IDC_PERIODCHART=ясЦ хМгДМ ААДчьи
+IDC_TOTALCHART=ясЦ хМгДМ ААЦлгЦМз
+
+CATEGORYCOLUMN0=гАщфи
+CATEGORYCOLUMN1=гАЦхАш
+CATEGORYCOLUMN2=йЦй ЦФгрДйЕ
+CATEGORYCOLUMN3=ЦнйАщ
+CATEGORYCOLUMN4=яЦр
+CATEGORYCOLUMN5=гАонА
+CATEGORYCOLUMN6=гАЦуяФщ
+
+CASHFLOWCOLUMN0=гАйгяМн
+CASHFLOWCOLUMN1=ЦлЦФз гАДчгь
+CASHFLOWCOLUMN2=гАЦлЦФз
+
+OTHERS=цняЛ
+
+GENERALREPORTS=йчгяМя згЦи
+CATEGORYREPORTS=йчгяМя гАщфи
+PAYEEREPORTS=йчгяМя гАогщзМД
+BUDGETREPORTS=йчгяМя гАЦМргДМи
+
+PAYEECOLUMN0=гАогщз
+PAYEECOLUMN1=гАЦхАш
+PAYEECOLUMN2=гАонА
+PAYEECOLUMN3=гАЦуяФщ
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMSCHEDULE]
+IDC_ENTER=еоягл щМ гАслА
+IDC_ADD=щгйФяи лоМои ...
+IDC_EDIT=йзоМА гАщгйФяи
+IDC_DELETE=мпщ гАщгйФяи
+IDHELP=Цсгзои
+
+COLUMN0=гАйгяМн
+COLUMN1=гАзЦАМи
+COLUMN2=гАогщз
+COLUMN3=гАЦхАш
+COLUMN4=йзАМч
+
+IDC_TABLE=лоФА
+IDC_CALENDAR=йчФМЦ
+
+DELETECONFIRMATION=ЕА цДй Цйцъо ©
+
+ID_EDIT_OPEN=гонгА
+ID_EDIT_INSERT=ежгщи лоМо ...
+ID_EDIT_DELETE=мпщ
+ID_EDIT_PROPERTIES=нугфу
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=мФА
+
+[IDD_ACCOUNT]
+TITLE=гАмсгх
+IDC_NAMETEXT=гАгсЦ
+IDC_TYPETEXT=гАДФз
+IDC_BANKTEXT=гсЦ гАхДъ
+IDC_NUMBERTEXT=гАячЦ
+IDC_BALANCETEXT=ЦМргДМи цФАМи
+IDC_CURRENCYTEXT=гАзЦАи
+IDC_CLOSED=Епг гАмсгх ЦшАч
+IDC_COMMENTTEXT=йзАМч
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+ERR_NOACCOUNTNAME=Млх ъйгхи гсЦ ААмсгх !
+ERR_NOACCOUNTTYPE=Млх гнйМгя ДФз ААмсгх !
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=цДФгз гАмсгхгй
+IDC_ADD=лоМо ...
+IDC_DELETE=мпщ
+IDC_EDIT=ймоМк ...
+IDOK=ДзЦ
+IDCANCEL=еАшга
+
+ERR_CANTDELETE=Епг гАДФз ЦсйноЦ ЦД чхА цмо гАмсгхгй !
+
+[IDD_ACCOUNTTYPE]
+TITLE=ДФз гАмсгх
+IDC_NAMETEXT=гАгсЦ
+IDOK=ДзЦ
+IDCANCEL=еАшга
+
+ERR_NOACCTYPENAME=Млх ъйгхи гсЦ АДФз гАмсгх !
+
+[IDD_BACKUP]
+TITLE=Дсн гмйМгьМ
+IDC_LASTBACKUPTEXT=гАДсн гАсгхч
+IDC_FREQUENCYTEXT=зоо гАЦягй
+IDC_DIRECTORYTEXT=гАЦсгя
+IDC_BACKUP=гДсн гАбД
+IDC_AUTOMATIC=Дсн гмйМгьМ йАчгфМ 
+
+IDC_EVERYDAY=ъА МФЦ
+IDC_EVERYWEEK=ъА гсхФз
+IDC_EVERYOTHERWEEK=ъА гсхФзМД
+
+IDC_BROWSE=гсйзягж ...
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+ERR_INVALIDDIR=Млх гонгА Цсгя умМм !
+ERR_COPYFILE=мок ньц нАгА зЦАМи гАДсн гАгмйМгьМ ║ яхЦг гАчяу шМя лгЕр !
+ERR_BACKUPTIME=мгД гАФчй АйДщМп зЦАМи гАДсн гАгмйМгьМ хмсх езогогйъ !
+ERR_NEWFILE=Млх мщы гАЦАщ чхА гАхоа хзЦАМи гАДсн гАгмйМгьМ !
+
+[IDD_BALANCE]
+TITLE=ЦМргДМи гАмсгх
+IDC_CLEAREDDEPOSITS=еМогзгй ЦАшМи
+IDC_CLEAREDWITHDRAWALS=смФхгй ЦАшМи
+IDC_RECONCILEDTEXT=ътщ мсгх ЦМргДМи сгхчи
+IDC_CLEAREDTEXT=ътщ мсгх мгАМ
+IDC_UNCLEAREDTEXT=ЦМргДМи шМя ЦощФзи
+IDC_SELECTALL=гнйМгя гАъА
+IDC_DESELECTALL=еАшга гнМгя гАъА
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+[IDD_BANK]
+TITLE=гАхДъ
+IDC_NAMETEXT=гАгсЦ
+IDC_ADDRESSTEXT=гАзДФгД
+IDC_WEBSITETEXT=ущми гАгДйяДй
+IDC_COMMENTTEXT=йзАМч
+IDC_BANKNUMBERTEXT=ячЦ гАхДъ
+IDC_SWIFTCODETEXT=яЦр гАътщ
+IDC_TRANSFERCODETEXT=яЦр гАймФМА
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+ERR_NOBANKNAME=Млх ъйгхи гсЦ гАхДъ !
+
+[IDD_BILL]
+TITLE=еМогз / щФгйМя
+
+IDC_FREQUENCYGROUP=йъягя
+IDC_ONCE=Цяи Фгмои
+IDC_DAILY=МФЦМгП
+IDC_WEEKLY=гсхФзМгП
+IDC_EVERYOTHERWEEK=ъА гсхФзМД
+IDC_TWICEAMONTH=ЦяйМД щМ гАтЕя
+IDC_EVERYFOURWEEKS=ъА 4 цсгхМз
+IDC_MONTHLY=тЕяМгП
+IDC_EVERYOTHERMONTH=ъА тЕяМД
+IDC_QUARTERLY=ъА яхз сДи
+IDC_EVERYSIXMONTHS=ъА сйи цтЕя
+IDC_ANNUALLY=сДФМгП
+IDC_STARTDATETEXT=йгяМн гАхоа
+
+IDC_TRANSACTIONGROUP=гАзЦАМи
+IDC_TYPETEXT=гАДФз
+IDC_DEPOSIT=еМогз
+IDC_WITHDRAWAL=смх
+IDC_TRANSFER=ймФМА
+IDC_ACCOUNTTEXT=гАмсгх
+IDC_PAYEETEXT=гАогщз
+IDC_CATEGORYTEXT=гАщфи
+IDC_SPLIT=гДчсгЦ
+IDC_AMOUNTTEXT=гАЦхАш
+IDC_COMMENTTEXT=йзАМч
+
+IDC_ENTER=ежгщи еАЛ гАмсгх
+IDC_AUTOMATIC=гонгА гАщгйФяи йАчгфМгП 
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+ERR_INVALIDACCOUNT=гсЦ гАмсгх ньц !
+
+[IDD_BUDGET]
+TITLE=ЦМргДМи
+
+IDC_STARTDATETEXT=Дчьи гАхогМи ЦД : 
+IDC_FREQUENCYTEXT=Дчьи гАЦМргДМи :
+IDC_WEEKLY=гсхФз Фгмо
+IDC_EVERYOTHERWEEK=гсхФзгД
+IDC_TWICEAMONTH=Дущ тЕя
+IDC_EVERYFOURWEEKS=ъА 4 цсгхМз
+IDC_MONTHLY=тЕя Фгмо
+IDC_EVERYOTHERMONTH=тЕягД
+IDC_QUARTERLY=ъА 3 цтЕя
+IDC_ANNUALLY=сДи Фгмои
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+[IDD_CATEGORY]
+TITLE=гАщфи
+
+IDC_NAMETEXT=гАщфи
+IDC_SUBNAMETEXT=щфи щязМи
+IDC_COMMENTTEXT=йзАМч
+IDC_BUDGETTEXT=йЦй ЦФгрДйЕ
+IDC_NUMBERTEXT=ячЦ
+
+IDC_INCOME=гАонА
+IDC_EXPENSE=гАЦуяФщ
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+ERR_NOCATNAME=Млх ъйгхи гсЦ ААщфи !
+ERR_CATEXIST=Епг гАгсЦ ЦФлФо ║ Млх ъйгхи гсЦ бня !
+
+[IDD_CATEGORYMERGE]
+TITLE=оЦл гАщфгй
+
+IDC_CATEGORYTEXT=оЦл гАщфи
+IDC_CATEGORYTEXT1=Цз гАщфи
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+ERR_NOCATEGORIES=Млх цнйМгя щфйМД ЦнйАщйМД !
+ERR_SOURCECATEGORY=Млх цД Аг МъФД ААщфи гАЦуоя цМи щфгй щязМи !
+ERR_TARGETCATEGORY=гАщфи гАЕощ Аг МЦъД цД йъФД щфи щязМи ААЦуоя !
+
+[IDD_COLORS]
+TITLE=ньФь ФцАФгД
+
+IDC_ACCOUNTLISTTEXT=чгфЦи гАмсгхгй
+IDC_ACCOUNTTEXT=слА гАмсгхгй
+IDC_BANKTEXT=гАхДФъ
+IDC_CATEGORYTEXT=гАщфгй
+IDC_PAYEETEXT=гАогщзМД
+IDC_SCHEDULETEXT=лоФА
+IDC_REPORTTEXT=йчгяМя
+IDC_PORTFOLIOTEXT=цсЕЦ
+
+IDC_LISTFONTTEXT=чгфЦи гАньФь
+
+IDC_RESTORE=гщйягжМ
+IDOK=ДзЦ
+IDCANCEL=еАшга
+
+[IDD_CURRENCY]
+TITLE=цсзгя гАзЦАгй гАмгАМи
+
+IDC_SHOWALL=зяж лЦМз гАзЦАгй
+IDC_CURRENCYINFO=гАзЦАи гАгщйягжМи : %s
+IDC_DOWNLOAD=ймЦМА ...
+IDC_UPDATE=ймоМк гАцсзгя
+
+IDOK=ешАгч
+IDHELP=Цсгзои
+
+COLUMN0=гАзЦАи
+COLUMN1=ймФМА еАЛ
+COLUMN2=гАйгяМн
+
+ERR_WEBUPDATE=ньц щМ ймоМк цсзгя гАзЦАгй ║ йцъо ЦД гйугАъ хгАгДйяДй !
+ERR_INVALIDRATE=йЦ гсйАгЦ йДсМч цсзгя шМя умМми !
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=цсзгя гАзЦАгй
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+
+[IDD_SHEETREPORTFILTER]
+TITLE=йущМи гАйчгяМя
+
+[IDD_DATESRANGE]
+TITLE=гнйя Дчьи
+
+IDC_BUDGETDATES=Дчгь гАЦМргДМи :
+IDC_CUSTOMDATES=йФгяМн Цнууи :
+IDC_FROMTEXT=ЦД
+IDC_TOTEXT=еАЛ
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+CURRENT=гАмгАМ
+CUSTOM=Цнуу
+
+[IDD_FILTERACCOUNT]
+TITLE=гнйя гАмсгхгй
+
+IDC_SELECTALL=гнйя гАъА
+IDC_CLEARALL=еАшга гнйМгя гАъА
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+[IDD_FILTERCATEGORY]
+TITLE=гнйя гАщфгй
+
+IDC_SELECTALL=гнйя гАъА
+IDC_CLEARALL=еАшга гнйМгя гАъА
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+[IDD_FILTERPAYEE]
+TITLE=гнйМгя гАогщзМД
+
+IDC_SELECTALL=гнйМгя гАъА
+IDC_CLEARALL=еАшга гнйМгя гАъА
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+[IDD_IMPORT]
+TITLE=есйМяго
+
+EXPORTTITLE=йуоМя
+
+IMPORTTEXT=%d йЦ гсйМяго 
+EXPORTTEXT=гнйя мсгх ААйуоМя еАМЕ
+
+ERR_NOACCOUNT=Млх гнйМгя мсгх !
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+[IDD_LANGUAGE]
+TITLE=гнйя гААши
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+
+[IDD_OPTIONS]
+TITLE=нМгягй
+
+IDC_GENERALGROUP=згЦ
+IDC_DATETEXT=йДсМч гАйгяМн
+IDC_DATESEPARATORTEXT=щгуА гАйгяМн
+IDC_SHOWCLOSEDACCOUNTS=зяж гАмсгхгй гАЦшАчи
+IDC_SHOWGRID=зяж ньФь гАтхъи
+IDC_LOADLASTFILE=ймЦМА гАЦщ гАцнМя зДо хоа гАйтшМА
+IDC_SHOWCOMMENT=зяж йзАМчгй гАзЦАМгй
+IDC_CURRENCYTEXT=гАзЦАи гАгщйягжМи
+IDC_AUTOSAVE=мщы йАчгфМ ААЦАщ
+IDC_SHOWFUTUREBILLS=зяж гАщФгйМя гАЦсйчхАМи
+IDC_SHOWSPLASHSCREEN=зяж тгти гАйямМх
+IDC_SHOWFILENAME=зяж гсЦ гАЦАщ щМ тяМь гАзДФгД
+IDC_SHOWSOLDSTOCKS=зяж гАцсЕЦ гАЦхгзи
+
+IDC_STARTPAGEGROUP=ущми гАхогМи
+IDC_ACCOUNTLIST=чгфЦи гАмсгхгй
+IDC_FAVORITEACCOUNT=гАмсгх гАЦщжА
+
+IDC_PASSWORDGROUP=ячЦ сяМ
+IDC_OLDPASSTEXT=гАячЦ гАмгАМ
+IDC_NEWPASSTEXT=гАячЦ гАлоМо
+IDC_RETYPETEXT=йцъМо гАячЦ гАлоМо
+
+IDC_DECIMALSEPARATORTEXT=щгуА гАцячгЦ
+IDC_THOUSANDSEPARATORTEXT=щгуА гАбАгщ
+
+IDC_TRANSACTIONTYPETEXT=ДФз зЦАМи лоМо
+LASTUSEDTYPE=гАДФз гАцнМя гАЦсйноЦ
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+ERR_THOUSANDDECIMAL=Млх цД Аг МъФД щгуА гАцячгЦ ФщгуА гАбАгщ ЦйтгхЕ !
+ERR_THOUSAND=щгуА бАгщ шМя умМм !
+ERR_INVALIDOLDPASSWORD=гАячЦ гАсяМ гАчоМЦ шМя умМм !
+ERR_INVALIDNEWPASSWORD=гАячЦ гАсяМ гАлоМо шМя умМм !
+
+[IDD_PASSWORD]
+TITLE=гонА гАячЦ гАсяМ
+
+IDC_PASSTEXT=гАячЦ гАсяМ
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+
+ERR_INVALIDPASSWORD=гАячЦ гАсяМ шМя умМм !
+
+[IDD_PAYEE]
+TITLE=гАогщз
+
+IDC_NAMETEXT=гАгсЦ
+IDC_ADDRESSTEXT=гАзДФгД
+IDC_COMMENTTEXT=йзАМч
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+ERR_NOPAYEENAME=Млх ъйгхи гсЦ гАогщз !
+
+[IDD_PAYEEMERGE]
+TITLE=оЦл гАогщзМД
+
+IDC_PAYEETEXT=оЦл гАогщз
+IDC_PAYEETEXT1=Цз гАогщз
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+ERR_NOPAYEES=Млх цД МъФД ъАг гАогщзМД ЦнйАщгП !
+
+[IDD_PRINTPREVIEW]
+TITLE=зяж гАьхгзи
+
+IDC_PAGETEXT=гАущми
+IDC_PRINT=ьхгзи
+
+IDOK=ДзЦ
+IDHELP=Цсгзои
+
+[IDD_REGISTER]
+TITLE=йслМА
+
+IDC_NAMETEXT=гАгсЦ :
+IDC_SERIALNUMBERTEXT=ячЦ гАхяДгЦл :
+
+IDC_ORDER=тяга...
+
+IDOK=ДзЦ
+
+[IDD_SPLIT]
+TITLE=гДчсгЦ  хФгсьи гАщфгй
+
+IDC_CATEGORYTEXT=гАщфи
+IDC_SUBCATEGORYTEXT=щфи щязМи
+IDC_AMOUNTTEXT=гАЦхАш
+IDC_ADD=лоМо
+IDC_EDIT=йзоМА
+IDC_DELETE=мпщ
+IDC_TOTALTEXT=гАЦлЦФз :
+IDC_UNASSIGNEDTEXT=шМя ЦзяЬщ :
+IDC_COMMENTTEXT=йзАМч
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+COLUMN0=гАщфи
+COLUMN1=щфи щязМи
+COLUMN2=гАЦАхш
+COLUMN3=йзАМч
+
+ERR_BADTOTAL=ЦлЦФз гАЦхгАш гАЦщуФАи Аг МсгФМ ЦхАш гАзЦАМи ║ ЕА йяшх хйшММя ЦхАш гАзЦАМи ©
+
+[IDD_SPLITITEM]
+TITLE=гДчсгЦ гАЦчьз
+
+IDC_CATEGORYTEXT=гАщфи
+IDC_SUBCATEGORYTEXT=щфи щязМи
+IDC_AMOUNTTEXT=гАЦхАш
+IDC_COMMENTTEXT=йзАМч
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+[IDD_TRANSACTION]
+TITLE=гАзЦАМгй
+
+IDC_TYPETEXT=гАДФз
+IDC_DEPOSIT=еМогз
+IDC_WITHDRAWAL=смх
+IDC_TRANSFER=ймФМА
+IDC_ACCOUNTTEXT=гАмсгх
+IDC_PAYEETEXT=гАогщз
+IDC_CATEGORYTEXT=гАщфи
+IDC_SPLIT=гДчсгЦ
+IDC_COMMENTTEXT=йзАМч
+IDC_DATETEXT=гАйгяМн
+IDC_NUMBERTEXT=гАячЦ
+IDC_AMOUNTTEXT=гАЦхАш
+
+FROMTEXT=ЦД
+TOTEXT=еАЛ
+SPLIT=гДчсгЦ
+DEBIT=гАЦьАФх ЦДЕ
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+ERR_SAMETRANFER=Аг МЦъД гАймФМА еАЛ Дщс гАмсгх !
+ERR_INVALIDACCOUNT=гсЦ гАмсгх шМя угАм !
+ERR_SPLITAMOUNT=ЦхАш гАзЦАМи Млх цД МъФД ЦсгФМ АДгйл гАгДчсгЦ !
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=цсзгя гАзЦАгй
+
+IDC_SOURCEAMOUNTTEXT=гАЦхАш гАЦуоя
+IDC_TARGETAMOUNTTEXT=гАЦхАш гАЕощ
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+
+[IDD_DAYBILLS]
+TITLE=еМогзгй / щФгйМя
+
+COLUMN0=гАйгяМн
+COLUMN1=гАзЦАМгй
+COLUMN2=гАогщз
+COLUMN3=гАЦхАш
+COLUMN4=йзАМч
+
+IDC_ENTER=гонгА ...
+IDC_EDIT=йзоМА...
+
+IDOK=ДзЦ
+IDHELP=Цсгзои
+
+[IDD_LITEVERSION]
+TITLE=AceMoney Lite
+
+IDC_TEXT=AceMoney Lite  МЦъД цД МзЦА Цз ЦАщ мсгх Фгмо щчь ║ Аг  МЦъД еДтга ЦАщ ЦсйноЦ бня ║ ъЦг Аг МЦъД щйм мсгхгй Цйзоои ФАг МЦъД щймЕг . епг яшхй щМ гАзЦА Цз ЦАщ мсгхгй Цйзоои щзАМъ цД йьФя гАхяДгЦл еАЛ гАДсни гАъгЦАи ЦД гАхяДгЦл .
+IDC_WEBSITE=йьФМя гАхяДгЦл ...
+IDOK=ешАгч
+
+[IDD_STOCK]
+TITLE=гсйкЦгя
+
+IDC_SYMBOLTEXT=гАяЦр
+IDC_NAMETEXT=гАгсЦ
+IDC_COMMENTTEXT=йзАМч
+IDC_UPDATE=ймоМк ...
+IDC_WEBUPDATE=ймЦМА ...
+IDC_PRICETEXT=йгяМн гАцсзгя
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+COLUMN0=гАйгяМн
+COLUMN1=гАсзя
+
+[IDD_STOCKPRICE]
+TITLE=сзя гАсЕЦ
+
+IDC_DATETEXT=гАйгяМн
+IDC_PRICETEXT=гАсзя
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+
+[IDD_STOCKTRANSACTION]
+TITLE=зЦАМи гАгсйкЦгя
+
+IDC_DATETEXT=гАйгяМн
+IDC_ACCOUNTTEXT=гАмсгх
+IDC_ACTIONTEXT=гАзЦАМи
+IDC_INVESTMENTTEXT=гАгсйкЦгя
+
+IDC_DIVIDENDTEXT=муи гАяхм
+IDC_NUMBERTEXT=зоо гАцсЕЦ
+IDC_PRICETEXT=гАсзя
+IDC_COMMISSIONTEXT=гАзЦФАи
+IDC_TOTALTEXT=гАЦлЦФз
+
+BUY=тяга
+SELL=хМз
+DIVIDEND=гАмуи
+REINVEST=езгои гсйкЦгя муи гАяхм
+ADD=ежгщи цсЕЦ
+REMOVE=мпщ цсЕЦ
+
+IDOK=ДзЦ
+IDCANCEL=еАшга
+IDHELP=Цсгзои
+
+[IDD_REPORTADD]
+TITLE=ежгщи еАЛ гАЦщжАи
+IDC_NAMETEXT=гсЦ гАйчяМя
+IDOK=ДзЦ
+IDCANCEL=еАшга
+
+[IDD_REPORTORGANIZE]
+TITLE=йДыМЦ гАйчгяМя
+IDC_DELETE=мпщ
+IDOK=еДтга
+IDCANCEL=ешАгч

@@ -1,0 +1,35 @@
+package com.amazon.com;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.amazon.pages.Loginpage;
+
+public class Validatelogin extends Testbase {
+	
+   Loginpage login;
+	
+	@BeforeTest
+	public void setUp()
+	{
+		OpenBrowser();
+		login=new Loginpage();
+	}
+	
+	@Test(priority = 1)
+	public void validateTitle()
+	{
+		String actualTitle=login.verifyTitle();
+		Assert.assertEquals(actualTitle, "Amazon");
+	}
+	
+	@AfterTest
+	public void teardown()
+	{
+		driver.close();
+	}
+	
+
+}

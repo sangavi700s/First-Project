@@ -1,0 +1,1172 @@
+ProgramID=AceMoney
+Language=Slovak
+
+///////////////////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories_svk.dat
+BANKS=banks_svk.dat
+ACCOUNTTYPES=accounttypes_svk.dat
+
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+
+CURRENCY=Sk
+DECIMALS=2
+DECIMALSEPARATOR=.
+THOUSANDSEPARATOR=,
+DATEFORMAT=MMDDYY
+DATESEPARATOR=/
+
+STATUS=Hotovo
+TRANSFER=Prevod
+DEPOSIT=Príjem
+WITHDRAWAL=Vıdaj
+TO=na
+FROM=z
+TOTAL=Celkom
+CLEAREDTOTAL=Celkom transakcie zúètované
+RECONCILEDTOTAL=Celkom transakcie odsúhlasené
+UNCLEAREDTOTAL=Celkom transakcie nezúètované
+TODAYTEXT=Dnes
+PAGE=Strana
+UNASSIGNED=(Neurèené)
+SAVEMODIFIED=Uloi zmeny?
+REPLACEMENTS=uloenie bolo vykonané
+INVALIDNUMBER=Chybnı formát èísla!
+
+MSG_LOADSAMPLE=Chcete nahra ukákovı súbor?
+MSG_SAMPLEFILEWARNING=Ukákovı súbor nemôe by uloenı! prosím pouite v menu Súbor->Uloi ako - pre uloenie do iného súboru.
+
+[MENU]
+ID_FILE=Súbor
+ID_FILE_NEW=Novı
+ID_FILE_OPEN=Otvori...
+ID_FILE_SAVE=Uloi
+ID_FILE_SAVE_AS=Uloi ako...
+ID_FILE_IMPORT=Import...
+ID_FILE_EXPORT=Export...
+ID_FILE_PRINT=Tlaèi...
+ID_FILE_PRINT_PREVIEW=Náh¾ad pred tlaèou...
+ID_APP_EXIT=Koniec
+
+ID_EDIT=Upravi
+ID_EDIT_DELETE=Vymaza
+ID_EDIT_INSERT=Nová transakcia
+ID_EDIT_SELECTALL=Vybra všetko
+ID_EDIT_FIND=Nájs...
+ID_EDIT_PROPERTIES=Vlastnosti...
+ID_EDIT_COPY=Kopírova
+ID_EDIT_PASTE=Vloi
+ID_EDIT_ADDTOSCHEDULE=Prida do plánovania...
+
+ID_VIEW=Zobrazi
+ID_VIEW_ACCOUNTS=Úèty
+ID_VIEW_BANKS=Banky
+ID_VIEW_PAYEES=Príjemcovia
+ID_VIEW_CATEGORIES=Kategórie a Rozpoèet
+ID_VIEW_SCHEDULE=Plánovanie
+ID_VIEW_PORTFOLIO=Portfólio
+ID_VIEW_REPORTS=Preh¾ady
+
+ID_ACCOUNTS=Úèty
+ID_ACCOUNTS_ADD=Prida úèet...
+ID_ACCOUNTS_TYPE=Typy úètov...
+
+ID_REPORTS=Preh¾ady
+ID_REPORTS_ADD=Prida k ob¾úbenım...
+ID_REPORTS_ORGANIZE=Organizova...
+
+ID_TOOLS=Nástroje
+ID_TOOLS_CURRENCY=Vımenné kurzy...
+ID_TOOLS_OPTIONS=Monosti...
+ID_TOOLS_COLORS=Fonty a Farby...
+ID_TOOLS_LANGUAGE=Jazyk...
+ID_TOOLS_BACKUP=Záloha...
+ID_TOOLS_RESTORE=Obnova...
+ID_TOOLS_BUDGET=Rozpoèet...
+ID_TOOLS_CALCULATOR=Kalkulaèka...
+ID_TOOLS_CALCULATOR_LOAN=Úverová kalkulaèka...
+ID_TOOLS_CALCULATOR_SAVINGS=Kalkulaèka sporenia...
+ID_TOOLS_CALCULATOR_MORTGAGE=Hypotekárna kalkulaèka...
+ID_TOOLS_TRANSACTION_CATEGORY_LIST=Kategórie transakcie...
+
+ID_HELP=Pomoc
+ID_HELP_TOPICS=Témy (Angl.)
+ID_HELP_HOMEPAGE=Web stránka AceMoney...
+ID_HELP_WHATSNEW=Èo je nové...
+ID_HELP_SUPPORT=Technická podpora (Angl.)...
+ID_HELP_FORUM=Web fórum...
+ID_HELP_TUTORIAL=Online návod(Angl.)...
+ID_HELP_REGISTER=Registrácia AceMoney...
+ID_HELP_ORDER=Objedna AceMoney...
+ID_HELP_ABOUT=O produkte...
+
+[TOOLBAR]
+ID_FILE_NEW=Novı
+ID_FILE_OPEN=Otvori
+ID_FILE_SAVE=Uloi
+ID_VIEW_BACK=Spä
+ID_VIEW_FORWARD=Dopredu
+ID_VIEW_HOME=Domov
+ID_VIEW_ACCOUNTS=Úèty
+ID_VIEW_BANKS=Banky
+ID_VIEW_PAYEES=Príjemcovia
+ID_VIEW_CATEGORIES=Kategórie
+ID_VIEW_SCHEDULE=Plánovanie
+ID_VIEW_REPORTS=Preh¾ady
+ID_VIEW_PORTFOLIO=Portfólio
+ID_HELP_HOMEPAGE=AceMoney
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=Úèty
+IDC_ADD=Novı úèet...
+IDC_BILLS=Plati úèty
+IDC_REPORTS=Preh¾ady
+IDC_CURRENCY=Vımena meny
+IDC_WEBUPDATE=Stiahnu kurzy
+IDHELP=Pomoc
+
+ID_ACCOUNT_OPEN=Otvori
+ID_ACCOUNT_ADD=Novı úèet...
+ID_ACCOUNT_DELETE=Vymaza
+ID_ACCOUNT_EDIT=Vlastnosti
+
+TOTAL=Celkom
+LASTUPDATE=Posledná aktualizácia
+
+DELETE_CONFIRMATION=Úèet %s bude odstránenı so všetkımi jeho transakciami! Vykona?
+
+UPDATE_SUCCESS=Vımenné kurzy boli úspešne aktualizované!
+UPDATE_FAILURE=Chyba Web aktualizácie! Internetové pripojenie nie je detekované, alebo niektoré meny neboli aktualizované!
+UPDATE_NOTREQUIRED=Web aktualizácia nie je potrebná!
+
+////////////////////////////////////////////////////////////
+[IDD_FORMPORTFOLIO]
+TITLE=Portfólio
+
+IDC_NEWTRANSACTION=Nová Transakcia...
+
+IDC_ADD=Prida investíciu...
+IDC_EDIT=Upravi investíciu...
+IDC_DELETE=Odstráni investíciu...
+
+IDC_WEBUPDATE=Stiahnu ceny
+
+IDHELP=Pomoc
+
+STOCKLIST=Akcie
+STOCKTRANSACTIONLIST=Transakcie
+
+COLUMN0=Symbol
+COLUMN1=Názov
+COLUMN2=Posledná cena
+COLUMN3=Mnostvo
+COLUMN4=Celkom
+COLUMN5=Vınos
+
+TRANSACTIONSCOLUMN0=Dátum
+TRANSACTIONSCOLUMN1=Typ transakcie
+TRANSACTIONSCOLUMN2=Symbol
+TRANSACTIONSCOLUMN3=Úèet
+TRANSACTIONSCOLUMN4=Dividenda
+TRANSACTIONSCOLUMN5=Cena
+TRANSACTIONSCOLUMN6=Mnostvo
+TRANSACTIONSCOLUMN7=Poplatky
+TRANSACTIONSCOLUMN8=Celkom
+TRANSACTIONSCOLUMN9=Poznámka
+
+CANTBEDELETED=Táto AKCIA je pouitá jednou, alebo viacerımi transakciami. Nie je moné ju vymaza!
+DELETECONFIRMATION=Táto akcia bude vymazaná. Ste si istı?
+UPDATEISNOTREQUIRED=Aktualizácia nie je potrebná!
+UPDATEISNOTCOMPLETE=Niektoré investície neboli aktualizované!
+INVESTMENTNOTCREATED=Najskôr musí by vytvorená investícia!
+
+ID_EDIT_OPEN=Upravi investíciu
+ID_EDIT_INSERT=Prida novú investíciu
+ID_EDIT_DELETE=Vymaza
+
+///////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=Úèet
+IDC_ADD=Nová transakcia
+IDC_EDIT=Upravi transakciu
+IDC_DELETE=Odstráni transakciu
+IDC_BALANCE=Zúètovanie
+IDC_WEBSITE=Web-stránka Úètu
+IDC_ACCOUNT=Upravi informácie o úète
+IDC_BANK=Upravi informácie o banke
+IDC_MONTHREPORT=Mesaèná správa
+IDC_REPORT=30 dòová správa
+IDC_HIDERECONCILED=Skry odsúhlasené
+IDHELP=Pomoc
+
+COLUMN0=Èíslo
+COLUMN1=Dátum
+COLUMN2=Príjemca
+COLUMN3=Kategória
+COLUMN4=S
+COLUMN5=Vıdaj
+COLUMN6=Príjem
+COLUMN7=Celkom
+COLUMN8=Poznámka
+
+BANKISNOTASSIGNED=Pre pouitie funkcie vyberte banku v ktorej je vedenı úèet
+PAGEISNOTASSIGNED=Chıba Web adresa. Môete ju prida v dialógu Vlastnosti banky.
+STATUS=Tento mesiac ste vydali %.2f v kategórii %s
+STATUSINCOME=Tento mesiac ste prijali %.2f v kategórii %s
+
+ID_TRANSACTION_UNCLEARED=Nezúètované
+ID_TRANSACTION_CLEARED=Zúètované
+ID_TRANSACTION_RECONCILED=Odsúhlasené
+
+ID_EDIT_OPEN=Upravi
+ID_EDIT_INSERT=Nová transakcia...
+ID_EDIT_INSERTBILL=Nahra úèet platby...
+ID_EDIT_DELETE=Vymaza
+ID_EDIT_COPY=Kopírova
+ID_EDIT_PASTE=Vloi
+ID_EDIT_CATEGORY=Upravi kategóriu...
+ID_EDIT_CATEGORYCHANGE=Zmeni kategóriu...
+ID_EDIT_PAYEE=Upravi príjemcu...
+ID_EDIT_ADDTOSCHEDULE=Prida do plánovania...
+
+ID_REPORTS_CATEGORY=Preh¾ad kategórii...
+ID_REPORTS_PAYEE=Preh¾ad príjemcov...
+
+BILLDELETECONFIRMATION=Toto odstráni všetky budúce transakcie spojené s príjmom/vıdajom!
+TRANSACTIONDELETECONFIRMATION=Ste si istı?
+RECONCILEDTRANSACTIONCONFIRMATION=Táto transakcia je oznaèená ako Odsúhlasená, úpravy nie sú doporuèené! Vykona?
+CLEAREDTRANSACTIONCONFIRMATION=Táto transakcia je oznaèená ako Zúètovaná, úpravy nie sú doporuèené! Vykona?
+CANNOTSORTBYTOTAL=Nemôte triedi pod¾a "celkom"!
+
+///////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=Nová banka...
+IDC_EDIT=Upravi info o banke
+IDC_DELETE=Odstráni banku
+IDC_DELETEUNUSED=Odstráni nepouívané
+IDC_IMPORT=Import...
+IDHELP=Pomoc
+
+COLUMN0=Názov banky
+COLUMN1=Adresa
+COLUMN2=Web stránka
+COLUMN3=Poznámka
+
+CANTBEDELETED=Jeden z vašich úètov je viazanı na túto banku. Banka nemôe by odstránená.
+DELETECONFIRMATION=Ste si istı?
+DELETEUNUSED=Tento príkaz vymae všetky banky, ktoré nie sú previazané z vašími úètami! Vykona?
+
+ID_EDIT_OPEN=Upravi
+ID_EDIT_INSERT=Nová banka...
+ID_EDIT_DELETE=Vymaza
+
+///////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=Nová kategória...
+IDC_EDIT=Upravi kategóriu
+IDC_DELETE=Odstráni kategóriu
+IDC_DELETEUNUSED=Odstráni nepouívané...
+IDC_REPORT=Správa kategórii
+IDC_BUDGETREPORT=Rozpoètová správa
+IDC_BUDGET=Nastavenie Rozpoètu...
+IDC_IMPORT=Import...
+IDC_MERGE=Zlúèi...
+IDHELP=Pomoc
+
+COLUMN0=Kategória
+COLUMN0a=Kód
+COLUMN1=Rozpoètová
+COLUMN1a=Príjem
+COLUMN2a=Vıdaj
+COLUMN2=Poznámka
+COLUMN3=Poznámka
+
+CANTBEDELETED=Jedna z transakcii pouíva túto kategóriu. Kategória nemôe by odstránená!
+PARENTCANTBEDELETED=Toto je hlavná (rodièovská) kategória pre jednu, alebo viac inıch kategórii. Ak ju chcete odstráni, mali by ste odstráni jej podkategórie.
+DELETECONFIRMATION=Ste si istı?
+DELETEUNUSED=Tento príkaz odstráni všetky kategórie, ktoré nie sú viazané na transakcie. Vykona?
+ID_EDIT_OPEN=Upravi
+ID_EDIT_INSERT=Novı...
+ID_EDIT_DELETE=Vymaza
+
+TOTALINCOME=Príjem:
+TOTALEXPENSE=Vıdaj:
+
+////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=Novı príjemca...
+IDC_EDIT=Upravi príjemcu
+IDC_DELETE=Odstráni príjemcu
+IDC_DELETEUNUSED=Vymaza nepouívanıch
+IDC_REPORT=Správa pod¾a príjemcu
+IDC_MERGE=Zlúèi...
+IDHELP=Pomoc
+
+COLUMN0=Názov
+COLUMN1=Adresa
+COLUMN2=Poznámka
+COLUMN3=Telefón
+
+CANTBEDELETED=Jedna z transakcii pouíva tohto príjemcu. Príjemca nemôe by odstránenı.
+DELETECONFIRMATION=Ste si istı?
+DELETEUNUSED=Tento príkaz odstráni všetkıch príjemcov, ktorı nie sú viazanı na transakcie. Vykona?
+
+ID_EDIT_OPEN=Upravi
+ID_EDIT_INSERT=Novı...
+ID_EDIT_DELETE=Vymaza
+
+//////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=Filter pod¾a dátumu
+IDC_SETDATES=Vybra dátumy
+IDC_USECATEGORYFILTER=Filter pod¾a kategórii
+IDC_SETCATEGORIES=Vybra kategórie
+IDC_USEPAYEEFILTER=Filter pod¾a príjemcov
+IDC_SETPAYEES=Vybra príjemcov
+IDC_USEACCOUNTFILTER=Filter pod¾a úètov
+IDC_SETACCOUNTS=Vybra úèet
+IDC_TRANSACTIONS=Preh¾ad transakcii pod¾a kritérií
+IDC_CATEGORY=Preh¾ad pod¾a kategórii
+IDC_SUBCATEGORY=Preh¾ad pod¾a podkategórii
+IDC_PAYEE=Preh¾ad pod¾a príjemcov
+IDC_BUDGETCATEGORY=Rozpoèet pod¾a kategórii
+IDC_BUDGETSUBCATEGORY=Rozpoèet pod¾a podkategórii
+IDC_CASHFLOW=Preh¾ad cash flow
+IDC_NETWORTH=Preh¾ad èistıch zostatkov
+IDC_LAST30DAYS=Transakcie za poslednıch 30 dní
+IDC_INCLUDETRANSFERS=Vrátane prevodov
+
+IDHELP=Pomoc
+IDC_TABLE=Poh¾ad ako tabu¾ka
+IDC_CHART=Graf
+IDC_INCOMECHART=Príjmovı kruhovı graf
+IDC_EXPENSECHART=Vıdavkovı kruhovı graf
+IDC_PERIODCHART=Graf pod¾a období
+IDC_TOTALCHART=Celkovı kumulovanı graf
+
+CATEGORYCOLUMN0=Kategória
+CATEGORYCOLUMN1=Èiastka
+CATEGORYCOLUMN2=Rozpoèet
+CATEGORYCOLUMN3=Rozdiel
+CATEGORYCOLUMN4=Kód
+CATEGORYCOLUMN5=Príjem
+CATEGORYCOLUMN6=Vıdaj
+
+CASHFLOWCOLUMN0=Dátum
+CASHFLOWCOLUMN1=Obdobie celkom
+CASHFLOWCOLUMN2=Celkom
+
+OTHERS=Ostatné
+
+GENERALREPORTS=Hlavné preh¾ady
+CATEGORYREPORTS=Preh¾ady kategórii
+PAYEEREPORTS=Preh¾ady príjemcov
+BUDGETREPORTS=Preh¾ady rozpoètov
+
+PAYEECOLUMN0=Príjemca
+PAYEECOLUMN1=Èiastka
+PAYEECOLUMN2=Príjem
+PAYEECOLUMN3=Vıdaj
+
+///////////////////////////////////////////////////////
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Vloi do denníku
+IDC_ADD=Nová platba/príjem
+IDC_EDIT=Upravi platbu/príjem
+IDC_DELETE=Odstráni platbu/príjem
+IDHELP=Pomoc
+
+COLUMN0=Dátum
+COLUMN1=Transakcia
+COLUMN2=Príjemca
+COLUMN3=Èiastka
+COLUMN4=Poznámka
+COLUMN5=Frekvencia
+
+IDC_TABLE=Tabu¾ka
+IDC_CALENDAR=Kalendár
+
+DELETECONFIRMATION=Ste si istı?
+
+ID_EDIT_OPEN=Potvrdi
+ID_EDIT_INSERT=Prida novú...
+ID_EDIT_DELETE=Vymaza
+ID_EDIT_PROPERTIES=Vlastnosti
+ID_EDIT_COPY=Kopírova
+ID_EDIT_PASTE=Vloi
+
+//////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=Info
+
+[IDD_ACCOUNT]
+TITLE=Úèet
+IDC_NAMETEXT=Názov
+IDC_TYPETEXT=Typ
+IDC_BANKTEXT=Meno banky
+IDC_NUMBERTEXT=Èíslo
+IDC_BALANCETEXT=Poèiat. zostatok
+IDC_CURRENCYTEXT=Mena
+IDC_CLOSED=Tento úèet je uzavretı
+IDC_COMMENTTEXT=Poznámka
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+ERR_NOACCOUNTNAME=Úèet musí ma názov!
+ERR_NOACCOUNTTYPE=Úèet musí ma typ úètu!
+ERR_NOCURRENCY=Úèet musí ma menu!
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=Typy úètov
+IDC_ADD=Prida...
+IDC_DELETE=Vymaza
+IDC_EDIT=Aktualizova...
+IDOK=OK
+IDCANCEL=Zruši
+
+ERR_CANTDELETE=Tento typ je pouitı jednım z úètov!
+
+[IDD_ACCOUNTTYPE]
+TITLE=Typ úètu
+IDC_NAMETEXT=Názov
+IDOK=OK
+IDCANCEL=Zruši
+
+ERR_NOACCTYPENAME=Typ úètu musí ma názov!
+
+[IDD_BACKUP]
+TITLE=Záloha
+
+IDC_ENABLEBACKUP=Zapnú zálohovanie
+
+IDC_LASTBACKUPTEXT=Posledná záloha
+IDC_FREQUENCYTEXT=Frekvencia
+IDC_DIRECTORYTEXT=Adresár
+IDC_BACKUP=Zálohova teraz!
+IDC_AUTOMATIC=Zálohova automaticky
+
+IDC_EVERYDAY=Kadı deò
+IDC_EVERYWEEK=Kadı tıdeò
+IDC_EVERYOTHERWEEK=Kadé dva tıdne
+
+IDC_BROWSE=Preh¾adaj...
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+ERR_INVALIDDIR=Musí by zadaná správna cesta!
+ERR_COPYFILE=Vyskytla sa chyba poèas zálohovania! Mono nie je disk v mechanike.
+ERR_BACKUPTIME=Pod¾a vášho nastavenia je èas na zálohovanie. Vykona?
+ERR_NEWFILE=Súbor musí by uloenı pred zálohovaním!
+ERR_COPYFILE_RESTORE=Objavila sa chyba poèas obnovovania! Mono nie je disk v mechanike.
+SELECT_FILE_TO_RESTORE=Vyberte súbor pre obnovenie.
+SELECT_RESTORE_DIR=Kde chcete uloi súbor?
+OPEN_RESTORED_FILE=Chcete otvori obnovenı súbor?
+
+[IDD_BALANCE]
+TITLE=Zúètovania
+
+IDC_CLEAREDDEPOSITS=Zúètované prijmi
+IDC_CLEAREDWITHDRAWALS=Zúètované vıdaje
+
+IDC_RECONCILEDTEXT=Predchádzajúci zostatok
+IDC_CLEAREDTEXT=Súèasnı zostatok
+IDC_UNCLEAREDTEXT=Zostatok nezúètovanıch transakcii 
+
+IDC_NEWTRANSACTION=Nová...
+IDC_SELECTALL=Vybra všetko
+IDC_DESELECTALL=Odznaèi všetko
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+[IDD_BANK]
+TITLE=Banka
+IDC_NAMETEXT=Názov
+IDC_ADDRESSTEXT=Adresa
+IDC_WEBSITETEXT=Web-stránka
+IDC_COMMENTTEXT=Poznámka
+IDC_BANKNUMBERTEXT=Èíslo banky
+IDC_SWIFTCODETEXT=Smerovı kód
+IDC_TRANSFERCODETEXT=Kód prevodu
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+ERR_NOBANKNAME=Banka musí ma názov.
+
+[IDD_BILL]
+TITLE=Platby/Príjem
+
+IDC_FREQUENCYGROUP=Frekvencia
+
+IDC_ONCE=Raz
+IDC_DAILY=Denne
+IDC_WEEKLY=Tıdenne
+IDC_EVERYOTHERWEEK=Kadé dva tıdne
+IDC_TWICEAMONTH=Dvakrát mesaène
+IDC_EVERYFOURWEEKS=Kadé 4 tıdne
+IDC_MONTHLY=Mesaène
+IDC_EVERYOTHERMONTH=Kadı druhı mesiac
+IDC_QUARTERLY=Štvrroène
+IDC_EVERYFOURMONTHS=Kadé 4 mesiace
+IDC_EVERYSIXMONTHS=Kadıch 6 mesiacov
+IDC_ANNUALLY=Roène
+
+IDC_STARTDATETEXT=Poèiatoènı dátum
+
+IDC_BILLTYPETEXT=Typ platby
+BILLTYPE_CONTINUOUS=Priebenı
+BILLTYPE_NUMBERED=Èíslovanı
+
+IDC_NUMBERTEXT=Poèet platieb
+
+IDC_TRANSACTIONGROUP=Transakcia
+IDC_TYPETEXT=Typ
+IDC_DEPOSIT=Príjem
+IDC_WITHDRAWAL=Vıdaj
+IDC_TRANSFER=Prevod
+IDC_ACCOUNTTEXT=Úèet
+IDC_PAYEETEXT=Príjemca
+IDC_CATEGORYTEXT=Kategória
+IDC_SPLIT=Rozdeli
+IDC_AMOUNTTEXT=Èiastka
+IDC_COMMENTTEXT=Poznámka
+
+IDC_ENTER=Prida na úèet
+IDC_AUTOMATIC=Vloi platbu automaticky
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+ERR_INVALIDACCOUNT=Chybnı názov úètu!
+ERR_INVALIDNUMBER=Poèet platieb nemôe by menší ako 1!
+
+[IDD_BUDGET]
+TITLE=Rozpoèet
+
+IDC_STARTDATETEXT=Zaèiatok prvého obdobia:
+IDC_FREQUENCYTEXT=Obdobie Rozpoètu:
+
+IDC_WEEKLY=Jeden tıdeò
+IDC_EVERYOTHERWEEK=Dva tıdne
+IDC_TWICEAMONTH=Polovica mesiaca
+IDC_EVERYFOURWEEKS=Kadé 4 tıdne
+IDC_MONTHLY=Jeden mesiac
+IDC_EVERYOTHERMONTH=Dva mesiace
+IDC_QUARTERLY=Štvrrok (tri mesiace)
+IDC_ANNUALLY=Jeden rok
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+[IDD_CALC_LOAN]
+TITLE=Úverová kalkulaèka
+
+IDC_AMOUNTTEXT=Èiastka
+IDC_RATETEXT=Roèná úroková sadzba, %
+IDC_PERIODTEXT=Obdobie, mesiace
+IDC_PAYMENTTEXT=Splátka
+IDC_TOTALINTERESTTEXT=Celkovı úrok
+
+COLUMN0=#
+COLUMN1=Splátka
+COLUMN2=Základ
+COLUMN3=Úrok
+COLUMN4=Úver
+
+IDOK=OK
+
+[IDD_CALC_SAVINGS]
+TITLE=Kalkulaèka sporenia
+
+IDC_MONTHLYPAYMENTTEXT=Mesaèné vklady
+IDC_RATETEXT=Roèná úroková sadzba, %
+IDC_PERIODTEXT=Obdobie, mesiace
+IDC_STARTDATETEXT=Poèiatoènı dátum
+IDC_TOTALINTERESTTEXT=Vınosy celkom
+IDC_TOTALTEXT=Celkom
+
+COLUMN0=#
+COLUMN1=Dátum
+COLUMN2=Vklad
+COLUMN3=Vınos
+COLUMN4=Celkom
+
+IDOK=OK
+
+[IDD_CALC_MORTGAGE]
+TITLE=Hypotekárna kalkulaèka
+
+IDC_VALUETEXT=Hodnota nehnute¾nosti
+IDC_AMOUNTTEXT=Vıška úveru
+IDC_TERMTEXT=Doba úveru (roky)
+IDC_DATETEXT=Dátum uzatvorenia zml.
+IDC_RATETEXT=Úroková sadzba, %
+IDC_TAXTEXT=Roèná daò z nehnute¾nosti
+IDC_INSURANCETEXT=Roèná poistka nehnutel.
+
+IDC_REQUIREDPAYMENTTEXT=Poadovaná splátka
+IDC_TOTALINTERESTTEXT=Úroky celkom
+IDC_TOTALPMITEXT=Celkom poist. úveru
+IDC_TOTALMONTHSTEXT=Poèet mesiacov
+
+COLUMN0=Dátum
+COLUMN1=Základ
+COLUMN2=Úrok
+COLUMN3=Daò
+COLUMN4=Poistenie
+COLUMN5=Poist. úveru
+COLUMN6=Splátka
+COLUMN7=Celkom
+
+IDOK=OK
+IDHELP=Pomoc
+
+[IDD_CATEGORY]
+TITLE=Kategória
+
+IDC_NAMETEXT=Kategória
+IDC_SUBNAMETEXT=Podkategória
+IDC_COMMENTTEXT=Poznámka
+IDC_BUDGETTEXT=Rozpoèet
+IDC_NUMBERTEXT=Poèet
+
+IDC_INCOME=Príjem
+IDC_EXPENSE=Vıdaj
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+ERR_NOCATNAME=Kategória musí ma názov!
+ERR_CATEXIST=Kategória s takım názvom u existuje!
+
+[IDD_CATEGORYCHANGE]
+TITLE=Zmeni Kategóriu
+
+IDOK=OK
+IDCANCEL=Zruši
+
+[IDD_CATEGORYMERGE]
+TITLE=Zlúèenie kategórii
+
+IDC_CATEGORYTEXT=Zlúèi kategóriu
+IDC_CATEGORYTEXT1=s kategóriou
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+ERR_NOCATEGORIES=Obe existujúce kategórie musia by oznaèené a rozdielne!
+ERR_SOURCECATEGORY=Zdrojová kategória nesmie ma podkategórie!
+ERR_TARGETCATEGORY=Cie¾ová kategória nemôe by podkategóriou zdrojovej kategórie.
+
+[IDD_COLORS]
+TITLE=Fonty a Farby
+
+IDC_ACCOUNTLISTTEXT=Úèty
+IDC_ACCOUNTTEXT=Úètovnı denník
+IDC_BANKTEXT=Banky
+IDC_CATEGORYTEXT=Kategórie
+IDC_PAYEETEXT=Príjemcovia
+IDC_SCHEDULETEXT=Plánovanie
+IDC_REPORTTEXT=Preh¾ady
+IDC_PORTFOLIOTEXT=Portfólio
+
+IDC_LISTFONTTEXT=Font tabu¾ky
+
+IDC_TABLEFONTCOLORTEXT=Farba textu v tabu¾ke
+IDC_TABLEBILLFONTCOLORTEXT=Farba budúcich platieb
+IDC_TABLEBACKGROUNDTEXT1=Farba 1 pozadia tabu¾ky
+IDC_TABLEBACKGROUNDTEXT2=Farba 2 pozadia tabu¾ky
+
+IDC_RESTORE=Štandardné
+IDOK=OK
+IDCANCEL=Zruši
+
+[IDD_CURRENCY]
+TITLE=Vımenné kurzy mien
+IDC_SHOWALL=Zobrazi všetky meny
+IDC_CURRENCYINFO=Štandardná mena: %s
+IDC_DOWNLOAD=Stiahnu.
+IDC_UPDATE=Aktualizova kurzy
+
+IDOK=Zavrie
+IDHELP=Pomoc
+
+COLUMN0=Mena
+COLUMN1=Previes na
+COLUMN2=Dátum
+
+ERR_WEBUPDATE=Chyba Web aktualizácie kurzov!
+ERR_INVALIDRATE=Bol prijatı chybnı kurz!
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=Vımennı kurz
+IDOK=OK
+IDCANCEL=Zruši
+
+[IDD_SHEETREPORTFILTER]
+TITLE=Filter preh¾adu
+
+[IDD_DATESRANGE]
+TITLE=Vybra obdobie
+
+CURRENTWEEK=Aktuálny tıdeò
+PREVIOUSWEEK=Predchádzajúci tıdeò
+LAST30DAYS=Poslednıch 30 dní
+CURRENTMONTH=Aktuálny mesiac
+PREVIOUSMONTH=Predchádzajúci mesiac
+CURRENTQUARTER=Aktuálny štvrrok
+PREVIOUSQUARTER=Predchádzajúci štvrrok
+CURRENTYEAR=Aktuálny rok
+PREVIOUSYEAR=Predchádzajúci rok
+
+IDC_PERIODSTEXT=Preddefinované obdobia
+IDC_CUSTOMDATES=Vlastnı dátum:
+IDC_FROMTEXT=Od
+IDC_TOTEXT=Do
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+CURRENT=Súèasnı
+CUSTOM=Vlastnı
+
+[IDD_FILTERACCOUNT]
+TITLE=Vybra úèty
+
+IDC_SELECTALL=Vybra všetko
+IDC_CLEARALL=Odznaèi všetko
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+[IDD_FILTERCATEGORY]
+TITLE=Vybra kategórie
+
+IDC_SELECTALL=Vybra všetko
+IDC_CLEARALL=Odznaèi všetko
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+[IDD_FILTERPAYEE]
+TITLE=Vybra príjemcov
+
+IDC_SELECTALL=Vybra všetko
+IDC_CLEARALL=Odznaèi všetko
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+[IDD_IMPORT]
+TITLE=Import
+
+IDC_IMPORTTEXT=Vybra úèet pre importované transakcie
+IDC_DATEFORMATTEXT=Formát dátumu
+
+IDC_NEWACCOUNT=Novı úèet...
+
+IDOK=OK
+IDCANCEL=Zruši
+
+ERR_NOACCOUNT=Musíte vybra úèet!
+
+[IDD_EXPORT]
+TITLE=Export
+
+IDC_EXPORTTEXT=Vybra úèet na vyexportovanie
+IDC_STARTDATETEXT=Poèiatoènı dátum
+IDC_ENDDATETEXT=Koneènı dátum
+
+ERR_NOACCOUNT=Prosím, vyberte úèet!
+
+IDOK=OK
+IDCANCEL=Zruši
+
+[IDD_LANGUAGE]
+TITLE=Vybra jazyk
+
+IDOK=OK
+IDCANCEL=Zruši
+
+[IDD_OPTIONS]
+TITLE=Monosti
+
+IDC_GENERALGROUP=Hlavné
+IDC_DATETEXT=Formát dátumu
+IDC_DATESEPARATORTEXT=Odde¾ovaè dátumu
+IDC_SHOWCLOSEDACCOUNTS=Zobrazi zatvorené úèty
+IDC_SHOWGRID=Zobrazi mrieky v tabu¾kách
+IDC_LOADLASTFILE=Nahra poslednı súbor poèas štartu
+IDC_SHOWCOMMENT=Zobrazi poznámky transakcii
+IDC_CURRENCYTEXT=Štandardná mena
+IDC_AUTOSAVE=Automatické uloenie dokumentu
+IDC_SHOWFUTUREBILLS=Zobrazi budúce platby
+IDC_SHOWSPLASHSCREEN=Ukáza úvodnú obrazovku
+IDC_SHOWFILENAME=Zobrazi názov súboru na lište
+IDC_SHOWSOLDSTOCKS=Zobrazi predané akcie
+IDC_ADDINVESTMENTVALUE=Prida hodnotu akcií k zostatku úètu
+IDC_SHOWDEPOSITSFIRST=Príjmy sú prvé transakcie dòa
+
+IDC_STARTPAGEGROUP=Štartovacia strana
+IDC_ACCOUNTLIST=Zoznam úètov
+IDC_FAVORITEACCOUNT=Ob¾úbenı úèet
+
+IDC_PASSWORDGROUP=Heslo
+IDC_OLDPASSTEXT=Súèasné heslo
+IDC_NEWPASSTEXT=Nové heslo
+IDC_RETYPETEXT=Zopakova zadanie nového hesla
+
+IDC_DECIMALSEPARATORTEXT=Desatinná èiarka
+IDC_THOUSANDSEPARATORTEXT=Odde¾ovaè tisícov
+IDC_NUMBEROFDECIMALDIGITSTEXT=Poèet desatinnıch miest
+
+IDC_TRANSACTIONTYPETEXT=Druh novej transakcie
+LASTUSEDTYPE=Naposledy pouité
+
+IDC_TRANSACTIONNUMBERTEXT=Èíslo novej transakcie
+NUMBER_EMPTY=Prázdne
+NUMBER_DEBIT=Debet
+NUMBER_AUTO=Posledné plus 1
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+ERR_THOUSANDDECIMAL=Desatinná èiarka a odde¾ovaè tisícov nemôu by rovnaké.
+ERR_THOUSAND=Chybnı odde¾ovaè tisícov.
+ERR_INVALIDOLDPASSWORD=Nesprávne staré heslo!
+ERR_INVALIDNEWPASSWORD=Nesprávne nové heslo!
+
+[IDD_PASSWORD]
+TITLE=Vloi heslo
+IDC_PASSTEXT=Heslo
+
+IDOK=OK
+IDCANCEL=Zruši
+
+ERR_INVALIDPASSWORD=Nesprávne heslo!
+
+[IDD_PAYEE]
+TITLE=Príjemca
+
+IDC_NAMETEXT=Názov
+
+IDC_ADDRESSTEXT=Adresa
+IDC_CITYTEXT=Mesto
+IDC_STATETEXT=Štát
+IDC_ZIPTEXT=PSÈ
+IDC_COUNTRYTEXT=Krajina
+
+IDC_HOMEPHONETEXT=Domáci Telefón 
+IDC_WORKPHONETEXT=Pracovnı Telefón
+IDC_MOBILEPHONETEXT=Mobilnı Telefón
+IDC_FAXTEXT=Fax
+IDC_PAGERTEXT=Pager
+
+IDC_EMAILTEXT=E-mail
+IDC_WEBSITETEXT=Web stránka
+
+IDC_COMMENTTEXT=Poznámka
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+ERR_NOPAYEENAME=Príjemca musí ma názov!
+
+[IDD_PAYEECHANGE]
+TITLE=Zmeni príjemcu
+
+IDOK=OK
+IDCANCEL=Zruši
+
+[IDD_PAYEEMERGE]
+TITLE=Zlúèenie príjemcov
+IDC_PAYEETEXT=Zlúèi príjemcu
+IDC_PAYEETEXT1=s príjemcom
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+ERR_NOPAYEES=Obaja príjemci musia by oznaèenı a rozdielny!
+
+[IDD_PRINTPREVIEW]
+TITLE=Náh¾ad pred tlaèou
+IDC_PAGETEXT=Strana
+IDC_PRINT=Tlaè
+
+IDOK=OK
+IDHELP=Pomoc
+
+[IDD_REGISTER]
+TITLE=Registrácia
+
+IDC_NAMETEXT=Meno:
+IDC_SERIALNUMBERTEXT=Sériové èíslo:
+
+IDC_ORDER=Nákup... 
+
+IDOK=OK
+
+[IDD_SEARCH]
+TITLE=Vyh¾ada transakcie
+
+IDC_DATETEXT=Dátum
+IDC_FROMTEXT=od
+IDC_TOTEXT=do
+IDC_AMOUNTTEXT=Èiastka
+IDC_AMOUNTFROMTEXT=od
+IDC_AMOUNTTOTEXT=do
+IDC_COMMENTTEXT=Text
+IDC_SEARCH=H¾ada
+IDC_CLOSE=Zatvori
+
+[IDD_SPLIT]
+TITLE=Rozdeli do kategórii
+
+IDC_CATEGORYTEXT=Kategória
+IDC_SUBCATEGORYTEXT=Podkategória
+IDC_AMOUNTTEXT=Èiastka
+IDC_ADD=Prida
+IDC_EDIT=Upravi
+IDC_DELETE=Vymaza
+IDC_TOTALTEXT=Celkom:
+IDC_UNASSIGNEDTEXT=Nezaúètované:
+IDC_COMMENTTEXT=Poznámka
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+COLUMN0=Kategória
+COLUMN1=Podkategória
+COLUMN2=Èiastka
+COLUMN3=Poznámka
+
+ERR_BADTOTAL=Suma rozdelenıch èiastok sa nerovná èiastke transakcie. Chcete zmeni èiastku transakcie?
+
+[IDD_SPLITITEM]
+TITLE=Rozdelenie poloiek
+IDC_CATEGORYTEXT=Kategória
+IDC_SUBCATEGORYTEXT=Podkategória
+IDC_AMOUNTTEXT=Èiastka
+IDC_COMMENTTEXT=Poznámka
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+[IDD_TRANSACTION]
+TITLE=Transakcia
+
+IDC_TYPETEXT=Typ
+IDC_DEPOSIT=Príjem
+IDC_WITHDRAWAL=Vıdaj
+IDC_TRANSFER=Prevod
+IDC_ACCOUNTTEXT=Úèet
+IDC_PAYEETEXT=Príjemca
+IDC_CATEGORYTEXT=Kategória
+IDC_SPLIT=Rozdeli
+IDC_COMMENTTEXT=Poznámka
+IDC_DATETEXT=Dátum
+IDC_NUMBERTEXT=Èíslo
+IDC_AMOUNTTEXT=Èiastka
+
+FROMTEXT=Z
+TOTEXT=Na
+SPLIT=Rozdeli
+DEBIT=Debet
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+ERR_SAMETRANFER=Nemôete robi prevod na ten istı úèet!
+ERR_INVALIDACCOUNT=Nesprávny názov úètu!
+ERR_SPLITAMOUNT=Èiastka transakcie by sa mala rovna sume rozdelení!
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Vımennı kurz
+
+IDC_SOURCEAMOUNTTEXT=Zdrojová èiastka
+IDC_TARGETAMOUNTTEXT=Cie¾ová èiastka
+
+IDOK=OK
+IDCANCEL=Zruši
+
+[IDD_TRANSACTIONCATEGORYLIST]
+TITLE=Kategórie transakcie
+IDC_ADD=Prida...
+IDC_DELETE=Odstráni
+IDC_EDIT=Upravi...
+IDOK=Zatvori
+IDHELP=Pomoc
+
+[IDD_TRANSACTIONCATEGORY]
+TITLE=Kategórie transakcie
+IDC_NAMETEXT=Názov
+IDOK=OK
+IDCANCEL=Zruši
+
+ERR_NONAME=Kategória transakcie musí ma názov!
+
+[IDD_DAYBILLS]
+TITLE=Platby/Príjmy
+
+COLUMN0=Dátum
+COLUMN1=Transakcia
+COLUMN2=Príjemca
+COLUMN3=Èiastka
+COLUMN4=Poznámka
+COLUMN5=Frekvencia
+
+IDC_ENTER=Vloi..
+IDC_EDIT=Upravi..
+
+IDOK=OK
+IDHELP=Pomoc
+
+[IDD_LITEVERSION]
+TITLE=AceMoney Lite
+
+IDC_TEXT=AceMoney Lite pracuje iba s jednım úètom. Ïalšie úèty nemôu by vytvorené. Ak potrebujete ïalšie úèty urobte si aktualizáciu na plnú verziu. 
+IDC_WEBSITE=Aktualizova ...
+IDOK=Zavrie
+
+[IDD_STOCK]
+TITLE=Investícia
+
+IDC_SYMBOLTEXT=Symbol
+IDC_LOOKUP=Vyh¾ada Symbol ...
+IDC_NAMETEXT=Názov
+IDC_CURRENCYTEXT=Mena
+IDC_COMMENTTEXT=Poznámka
+IDC_UPDATE=Aktualizova..
+IDC_WEBUPDATE=Stiahnu...
+IDC_PRICETEXT=História cien
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+COLUMN0=Dátum
+COLUMN1=Cena
+
+[IDD_STOCKPRICE]
+TITLE=Cena akcie
+
+IDC_DATETEXT=Dátum
+IDC_PRICETEXT=Cena
+
+IDOK=OK
+IDCANCEL=Zruši
+
+[IDD_STOCKTRANSACTION]
+TITLE=Investièná Transakcia
+
+IDC_DATETEXT=Dátum
+IDC_ACCOUNTTEXT=Úèet
+IDC_ACTIONTEXT=Typ transakcie
+IDC_INVESTMENTTEXT=Investícia
+
+IDC_DIVIDENDTEXT=Dividenda
+IDC_NUMBERTEXT=Poèet akcií
+IDC_PRICETEXT=Cena
+IDC_COMMISSIONTEXT=Poplatky
+IDC_TOTALTEXT=Celkom
+
+BUY=Nákup
+SELL=Predaj
+DIVIDEND=Dividenda
+REINVEST=Preinvestovanie dividendy
+ADD=Prida akcie
+REMOVE=Odstráni akcie
+
+IDOK=OK
+IDCANCEL=Zruši
+IDHELP=Pomoc
+
+ERR_NEGATIVEVALUES=Poèet akcií, cena za akciu, dividenda, poplatky a suma musia by kladné!
+ERR_INVALIDACTIONTYPE=Chybnı typ transakcie!
+ERR_INVALIDACCOUNT=Chybnı úèet!
+ERR_INVALIDINVESTMENT=Chybná investícia!
+
+[IDD_REPORTADD]
+TITLE=Prida k ob¾úbenım
+IDC_NAMETEXT=Názov preh¾adu
+IDOK=OK
+IDCANCEL=Zruši
+
+[IDD_REPORTORGANIZE]
+TITLE=Organizova preh¾ady
+IDC_DELETE=Vymaza
+IDOK=Generova
+IDCANCEL=Zavrie
+
+[IDD_STARTUP_CURRENCY]
+TITLE=Nastavenie meny
+IDC_CURRENCYTEXT=Štandardná mena
+IDC_NUMBEROFDECIMALSTEXT=Poèet desatinnıch miest
+IDC_DECIMALSEPARATORTEXT=Desatinná èiarka
+IDC_THOUSANDSEPARATORTEXT=Odde¾ovaè tisícov
+IDC_EXAMPLETEXT=Príklad
+
+IDC_BACK=<< Spä
+IDC_NEXT=Dopredu >>
+
+SEPARATOR_SPACE=Medzera
+SEPARATOR_NONE=Bez odde¾ovaèa
+
+ERR_THOUSANDDECIMAL=Desatinná èiarka a odde¾ovaè tisícov nemôu by rovnaké!
+
+[IDD_STARTUP_DATE]
+TITLE=Nastavenia dátumu
+IDC_FORMATTEXT=Formát dátumu
+IDC_SEPARATORTEXT=Odde¾ovaè
+IDC_EXAMPLETEXT=Príklad
+
+IDC_BACK=<< Spä
+IDC_FINISH=Koniec
+
+[IDD_ACEMONEYREMINDER]
+TITLE=AceMoney Pripomienkovaè platieb/príjmov
+
+STARTACEMONEY=Spusti AceMoney...
+OPTIONS=Monosti...
+VIEWBILLS=Zobrazi platby/príjmy...
+EXIT=Koniec
+CLOSE=Zatvori
+
+COLUMN0=Dátum
+COLUMN1=Transakcia
+COLUMN2=Príjemca
+COLUMN3=Èiastka
+
+OPTIONSTITLE=Monosti
+DATAFILE=Súbor s údajmi AceMoney
+BROWSE=Preh¾ada...
+SELECTFILE=Vyberte váš súbor s údajmi
+AUTOSTART=Spúša automaticky s Windows
+STARTMINIMIZED=Spusti minimalizované
+OK=OK
+CANCEL=Zruši
+
+MSG_DUEBILLS=Je splatnos platby/príjmu!
+MSG_NODUEBILLS=iadne splatné platby/príjmy.
+

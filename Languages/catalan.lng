@@ -1,0 +1,1009 @@
+ProgramID=AceMoney
+Language=Catalan
+
+[MAIN]
+CATEGORIES=categories_cat.dat
+BANKS=banks_cat.dat
+ACCOUNTTYPES=accounttypes_cat.dat
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+HELPFILE=Languages/catalan.chm
+STATUS=Llest
+TRANSFER=Transferència
+DEPOSIT=Dipòsit
+WITHDRAWAL=Extracció
+TO=a
+FROM=de
+TOTAL=Total
+CLEAREDTOTAL=Total conciliat
+RECONCILEDTOTAL=Total conciliat
+UNCLEAREDTOTAL=Total pendent
+TODAYTEXT=Data
+PAGE=Pàgina
+UNASSIGNED=(Sense assignar)
+SAVEMODIFIED=Guardar el canvis?
+REPLACEMENTS=Canvis efectuats
+INVALIDNUMBER=Fomat de número erroni!
+MSG_LOADSAMPLE=Desitja carregar l'arxiu d'exemple?
+MSG_SAMPLEFILEWARNING=L'arxiu d'exemple no es pot grabar! Utilitzi File->l'opció "Guardar com..." per enregistrar les seves dades en un arxiu diferent.
+
+[MENU]
+ID_FILE=Arxiu
+ID_FILE_NEW=Nou
+ID_FILE_OPEN=Obrir...
+ID_FILE_SAVE=Guardar
+ID_FILE_SAVE_AS=Guardar com...
+ID_FILE_IMPORT=Importar...
+ID_FILE_EXPORT=Exportar...
+ID_FILE_PRINT=Imprimir...                      Ctrl+P
+ID_FILE_PRINT_PREVIEW=Vista prèvia...          Ctrl+Shift+P
+ID_APP_EXIT=Sortir
+ID_EDIT=Editar
+ID_EDIT_DELETE=Eliminar
+ID_EDIT_INSERT=Insertar
+ID_EDIT_ADDTOSCHEDULE=Agregar previsió
+ID_EDIT_COPY=Copiar
+ID_EDIT_PASTE=Enganxar
+ID_EDIT_SELECTALL=Seleccionar tot
+ID_EDIT_FIND=Cercar
+ID_EDIT_PROPERTIES=Propietats...
+ID_VIEW=Veure
+ID_VIEW_ACCOUNTS=Comptes
+ID_VIEW_BANKS=Bancs                 F3
+ID_VIEW_PAYEES=Beneficiaris        F4
+ID_VIEW_CATEGORIES=Categories         F5
+ID_VIEW_SCHEDULE=Calendari           F6
+ID_VIEW_REPORTS=Informes            F7
+ID_VIEW_PORTFOLIO=Cartera              F8
+ID_ACCOUNTS=Comptes
+ID_ACCOUNTS_ADD=Agregar compte...
+ID_ACCOUNTS_TYPE=Tipus de comptes
+ID_REPORTS=Informes
+ID_REPORTS_ADD=Afegir a favorits...
+ID_REPORTS_ORGANIZE=Organitzar...
+ID_TOOLS=Eines
+ID_TOOLS_CURRENCY=Taxes de canvi...
+ID_TOOLS_OPTIONS=Opcions...
+ID_TOOLS_COLORS=Fonts i colors...
+ID_TOOLS_LANGUAGE=Idioma...
+ID_TOOLS_BACKUP=Còpia de seguretat
+ID_TOOLS_RESTORE=Restaurar còpia
+ID_TOOLS_CALCULATOR=Calculadora
+ID_TOOLS_CALCULATOR_LOAN=Calcular préstec
+ID_TOOLS_CALCULATOR_SAVINGS=Calcular estalvis
+ID_TOOLS_CALCULATOR_MORTGAGE=Calcular hipoteca
+ID_TOOLS_BUDGET=Pressupost...
+ID_TOOLS_TRANSACTION_CATEGORY_LIST=Categories d'Apunts
+ID_HELP=Ajuda
+ID_HELP_TOPICS=Temes
+ID_HELP_HOMEPAGE=Web d'AceMoney...
+ID_HELP_WHATSNEW=Novetats...
+ID_HELP_SUPPORT=Suport tècnic
+ID_HELP_FORUM=Web forum
+ID_HELP_TUTORIAL=Tutorial en línia...
+ID_HELP_REGISTER=Enregistra AceMoney...
+ID_HELP_ORDER=Compra  AceMoney...
+ID_HELP_ABOUT=Informació producte...
+ID_TOOLS_INTERNATIONAL=Configuració internacional
+[TOOLBAR]
+ID_FILE_NEW=Nou
+ID_FILE_OPEN=Obrir
+ID_FILE_SAVE=Guardar
+ID_VIEW_BACK=Endarrere
+ID_VIEW_FORWARD=Endavant
+ID_VIEW_HOME=Inici
+ID_VIEW_ACCOUNTS=Comptes
+ID_VIEW_BANKS=Bancs
+ID_VIEW_PAYEES=Beneficiaris
+ID_VIEW_CATEGORIES=Categories
+ID_VIEW_SCHEDULE=Calendari
+ID_VIEW_REPORTS=Informes
+ID_VIEW_PORTFOLIO=Cartera
+ID_HELP_HOMEPAGE=Plana Web
+
+[IDD_FORMACCOUNTLIST]
+Title=Comptes
+IDC_ADD=Nou compte...
+IDC_BILLS=Pagar factures
+IDC_REPORTS=Informes
+IDC_CURRENCY=Taxes de canvi
+IDC_WEBUPDATE=Baixar preus
+IDHELP=Ajuda
+ID_ACCOUNT_OPEN=Obrir
+ID_ACCOUNT_ADD=Nou compte...
+ID_ACCOUNT_DELETE=Eliminar
+ID_ACCOUNT_SHOWNUMBERS=Mostrar número de compte
+ID_ACCOUNT_SHOWCLOSED=Mostrar comptes liquidats
+ID_ACCOUNT_EDIT=Propietats
+TOTAL=Total
+LASTUPDATE=Darrera actualització
+DELETE_CONFIRMATION=El compte %s s'esborrarà amb tots els apunts! Vol continuar?
+UPDATE_SUCCESS=Els tipus de Canvi s'han actualitzat correctament!
+UPDATE_FAILURE=Actualització errònia! No s'ha detectat conexió d'Internet o algun valor no s'ha actualitzat!
+UPDATE_NOTREQUIRED=No cal actualitzar per Intenet!
+
+[IDD_FORMPORTFOLIO]
+TITLE=Cartera
+IDC_BUY=Comprar...
+IDC_SELL=Vendre...
+IDC_DIVIDEND=Dividend...
+IDC_REINVEST=Reinversió dividend...
+IDC_ADDSHARES=Afegir accions
+IDC_REMOVESHARES=Esborrar accions...
+IDC_ADD=Afegir inversió...
+IDC_EDIT=Editar inversió...
+IDC_DELETE=Esborrar inversió...
+IDC_WEBUPDATE=Baixar preus
+IDHELP=Ajuda
+STOCKLIST=Accions
+STOCKTRANSACTIONLIST=Transaccions
+COLUMN0=Símbol
+COLUMN1=Nom
+COLUMN2=Darrer preu
+COLUMN3=Quantitat
+COLUMN4=Total
+COLUMN5=Guany
+TRANSACTIONSCOLUMN0=Data
+TRANSACTIONSCOLUMN1=Acció
+TRANSACTIONSCOLUMN2=Símbol
+TRANSACTIONSCOLUMN3=Compte
+TRANSACTIONSCOLUMN4=Dividend
+TRANSACTIONSCOLUMN5=Preu
+TRANSACTIONSCOLUMN6=Quantitat
+TRANSACTIONSCOLUMN7=Comissió
+TRANSACTIONSCOLUMN8=Total
+CANTBEDELETED=Aquest valor s'utilitza en una o més transaccions. No esborrar!
+DELETECONFIRMATION=S'esborrarà el valor. Continuar?
+UPDATEISNOTREQUIRED=No es necessària l'actualització!
+UPDATEISNOTCOMPLETE=Alguna inversió no s'ha actualitzat encara!
+INVESTMENTNOTCREATED=S'ha de crear una inversió primer!
+ID_EDIT_OPEN=Editar inversió
+ID_EDIT_INSERT=Afegir nova inversió
+ID_EDIT_DELETE=Esborrar
+IDC_NEWTRANSACTION=Nova Transacció...
+
+[IDD_FORMACCOUNT]
+Title=Compte
+IDC_ADD=Nova transacció
+IDC_EDIT=Editar transacció
+IDC_DELETE=Esborrar transacció
+IDC_BALANCE=Balanç
+IDC_WEBSITE=Web del compte
+IDC_ACCOUNT=Editar informació del compte
+IDC_BANK=Editar informació del banc
+IDC_MONTHREPORT=Informe mensual
+IDC_REPORT=Informe 30 dies
+IDC_HIDERECONCILED=Amagar apunts conciliats
+IDHELP=Ajuda
+COLUMN0=Número
+COLUMN1=Data
+COLUMN2=Beneficiari
+COLUMN3=Categoria
+COLUMN4=E
+COLUMN5=Extracció
+COLUMN6=Dipòsit
+COLUMN7=Total
+COLUMN8=Comentari
+BANKISNOTASSIGNED=Per utilitzar aquesta característica, seleccioni el banc d'aquest compte
+PAGEISNOTASSIGNED=Falta l'adreça de la pàgina Web. Es pot agregar en la fitxa de Propietats del Banc.
+STATUS=Aquest mes ha gastat %.2f en la categoria %s
+STATUSINCOME=Aquest mes ha ingressat %.2f en la categoria %s
+ID_EDIT_OPEN=Editar
+ID_EDIT_CATEGORYCHANGE=Canviar de categoria
+ID_EDIT_PAYEECHANGE=Canviar de beneficiari
+ID_EDIT_CATEGORY=Editar categoria
+ID_EDIT_PAYEE=Editar beneficiari
+ID_TRANSACTION_UNCLEARED=No conciliar
+ID_TRANSACTION_CLEARED=Enregistrar
+ID_TRANSACTION_RECONCILED=Conciliar
+ID_EDIT_INSERT=Nova transacció
+ID_EDIT_INSERTBILL=Grabar pagament de factura
+ID_EDIT_COPY=Copiar
+ID_EDIT_DELETE=Esborrar
+BILLDELETECONFIRMATION=S'esborraran futures transaccions associades amb la factura!
+TRANSACTIONDELETECONFIRMATION=Continuar?
+RECONCILEDTRANSACTIONCONFIRMATION=Aquest apunt s'ha conciliat. No es recomana de fer modificacions! Continuar?
+CLEAREDTRANSACTIONCONFIRMATION=Aquest apunt ha sigut enregistrat. No es recomana de fer modificacions! Continuar?
+CANNOTSORTBYTOTAL=No es pot classificar per totals!
+ID_REPORTS_CATEGORY=Informe de categoria...
+ID_REPORTS_PAYEE=Informe de beneficiari...
+IDC_TODAYTEXT=Avui
+ID_EDIT_PASTE=Enganxar
+ID_EDIT_ADDTOSCHEDULE=Afegir a Programats...
+
+[IDD_FORMBANKLIST]
+IDC_ADD=Nova entitat bancària...
+IDC_EDIT=Editar informació del banc
+IDC_DELETE=Eliminar banc
+IDC_DELETEUNUSED=Eliminar sense ús
+IDHELP=Ajuda
+COLUMN0=Nom del banc
+COLUMN1=Adreça
+COLUMN2=Adreça Internet
+COLUMN3=Comentaris
+CANTBEDELETED=Un o més dels comptes estan vinculats a aquest banc. No es pot esborrar.
+DELETECONFIRMATION=Segur?
+DELETEUNUSED=Aquesta ordre eliminará tots els bancs no relacionats amb les seves comptes ! Continuar ?
+ID_EDIT_OPEN=Editar
+ID_EDIT_INSERT=Nou banc...
+ID_EDIT_DELETE=Eliminar
+
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=Nova categoria...
+IDC_EDIT=Editar categoria
+IDC_DELETE=Eliminar categoria
+IDC_DELETEUNUSED=Eliminar sense ús...
+IDC_REPORT=Informe de categories
+IDC_BUDGETREPORT=Informe pressupostari
+IDC_BUDGET=Fixar pressupost
+IDC_IMPORT=Importar...
+IDC_MERGE=Fusionar...
+IDHELP=Ajuda
+COLUMN0=Nom de la categoria
+COLUMN0a=Codi
+COLUMN1=Pressupostat
+COLUMN1a=Ingrés
+COLUMN2a=Despesa
+COLUMN2=Comentari
+COLUMN3=Comentari
+CANTBEDELETED=Una o més transaccions estan vinculades a la categoria. No es pot eliminar.
+PARENTCANTBEDELETED=Aquesta és una categoria de referència per altres categories. Si vol esborrar-la, esborri primer les subcategories.
+DELETECONFIRMATION=Segur?
+DELETEUNUSED=Aquest ordre eliminarà totes les categories sense relació amb transaccions. Continua ?
+ID_EDIT_OPEN=Editar
+ID_EDIT_INSERT=Nou...
+ID_EDIT_DELETE=Esborrar
+TOTALINCOME=Ingressos:
+TOTALEXPENSE=Despeses:
+TOTAL=Total:
+
+[IDD_FORMPAYEELIST]
+IDC_ADD=Nou beneficiari...
+IDC_EDIT=Editar beneficiari
+IDC_DELETE=Eliminar beneficiari
+IDC_DELETEUNUSED=Eliminar sense ús
+IDC_REPORT=Informe de beneficiari
+IDC_MERGE=Fusionar...
+IDHELP=Ajuda
+COLUMN0=Nom
+COLUMN1=Adreça
+COLUMN2=Comentari
+CANTBEDELETED=Una o més transaccions utilitzen aquest beneficiari. No es pot eliminar.
+DELETECONFIRMATION=Segur?
+DELETEUNUSED=Aquesta ordre eliminará tots els beneficiaris sense transaccions. Continuar?
+ID_EDIT_OPEN=Editar
+ID_EDIT_INSERT=Nou...
+ID_EDIT_DELETE=Esborrar
+COLUMN3=Telèfon
+
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=Filtrar per dates
+IDC_SETDATES=Seleccionar per dates
+IDC_USECATEGORYFILTER=Filtrar per categories
+IDC_SETCATEGORIES=Seleccionar categories
+IDC_USEPAYEEFILTER=Filtrar per beneficiaris
+IDC_SETPAYEES=Seleccionar beneficiaris
+IDC_USEACCOUNTFILTER=Filtrar per comptes
+IDC_SETACCOUNTS=Seleccionar comptes
+IDC_TRANSACTIONS=Informe per categories
+IDC_CATEGORY=Informe per categories
+IDC_SUBCATEGORY=Despeses per subcategories
+IDC_PAYEE=Informe per beneficiari
+IDC_BUDGETCATEGORY=Pressupost per categories
+IDC_BUDGETSUBCATEGORY=Pressupost per subcategories
+IDC_NETWORTH=Informe a Valor Net
+IDC_INCLUDETRANSFERS=Incloure transferències
+IDC_BUDGET=Període pressupostari actual
+IDC_CASHFLOW=Informe per resultat net mensual
+IDC_LAST30DAYS=Darreres 30 transaccions
+IDHELP=Ajuda
+IDC_TABLE=Veure taula resum
+IDC_CHART=Gràfic
+IDC_INCOMECHART=Pastís d'Ingressos
+IDC_EXPENSECHART=Pastís de Despeses
+IDC_PERIODCHART=Període del gràfic
+IDC_TOTALCHART=Gràfic Total
+CATEGORYCOLUMN0=Categoria
+CATEGORYCOLUMN1=Import
+CATEGORYCOLUMN2=Pressupostat
+CATEGORYCOLUMN3=Diferència
+CATEGORYCOLUMN4=Codi
+CATEGORYCOLUMN5=Ingrés
+CATEGORYCOLUMN6=Despesa
+CASHFLOWCOLUMN0=Data
+CASHFLOWCOLUMN1=Període Total
+CASHFLOWCOLUMN2=Total
+OTHERS=Altres
+FAVORITEREPORTS=Els meus informes
+GENERALREPORTS=Crear informes
+CATEGORYREPORTS=Categoria d'informes
+PAYEEREPORTS=Informe beneficiari
+BUDGETREPORTS=Informe pressupostari
+PAYEECOLUMN0=Beneficiari
+PAYEECOLUMN1=Import
+PAYEECOLUMN2=Ingrés
+PAYEECOLUMN3=Despesa
+
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Grabar en registre
+IDC_ADD=Nova Factura...
+IDC_EDIT=Editar Factura
+IDC_DELETE=Eliminar Factura
+IDHELP=Ajuda
+COLUMN0=Data
+COLUMN1=Transacció
+COLUMN2=Beneficiari
+COLUMN3=Import
+COLUMN4=Comentari
+IDC_TABLE=Taula
+IDC_CALENDAR=Calendari
+DELETECONFIRMATION=Segur?
+ID_EDIT_OPEN=Ingressar
+ID_EDIT_COPY=Copiar
+ID_EDIT_INSERT=Agregar nou...
+ID_EDIT_DELETE=Esborrar
+ID_ID_ACCOUNT_SHOWNUMBERS=Mostrar número de compte
+ID_ACCOUNT_SHOWCLOSED=Mostrar comptes liquidats
+ID_EDIT_PROPERTIES=Propietats
+COLUMN5=Freqüència
+ID_EDIT_PASTE=Enganxar
+
+[IDD_ABOUT]
+TITLE=Versió
+
+[IDD_ACCOUNT]
+TITLE=Compte
+IDC_NAMETEXT=Nom
+IDC_TYPETEXT=Tipus
+IDC_BANKTEXT=Nom Entitat
+IDC_NUMBERTEXT=Número
+IDC_BALANCETEXT=Saldo inicial
+IDC_CURRENCYTEXT=Moneda
+IDC_CLOSED=Compte liquidat
+IDC_COMMENTTEXT=Comentaris
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+ERR_NOACCOUNTNAME=Falta el nom del compte!
+ERR_NOACCOUNTTYPE=Falta el tipus de compte!
+ERR_NOCURRENCY=El Compte ha de tenir una moneda assignada!
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=Tipus de compte
+IDC_ADD=Agregar...
+IDC_DELETE=Esborrar
+IDC_EDIT=Actualitzar...
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+ERR_CANTDELETE=Aquest tipus és utilitzat per un o més comptes!
+
+[IDD_ACCOUNTTYPE]
+TITLE=Tipus de compte
+IDC_NAMETEXT=Nom
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+ERR_NOACCTYPENAME=Falta el nom del tipus!
+
+[IDD_BACKUP]
+TITLE=Còpia de seguretat
+IDC_LASTBACKUPTEXT=Darrera còpia de seguretat
+IDC_FREQUENCYTEXT=Freqüència
+IDC_DIRECTORYTEXT=Directori
+IDC_BACKUP=Fer còpia ara!
+IDC_AUTOMATIC=Còpia de seguretat automàtica
+IDC_EVERYDAY=Cada dia
+IDC_EVERYWEEK=Cada setmana
+IDC_EVERYOTHERWEEK=Cada mitja setmana
+IDC_BROWSE=Buscar...
+IDOK=D'acord
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+ERR_INVALIDDIR=Entrar una adreça correcte!
+ERR_COPYFILE=Error durant la còpia! Potser falta discket/CD.
+ERR_BACKUPTIME=Segons l'establert toca còpia de seguretat. Procedir?
+ERR_NEWFILE=S'ha de grabar dades abans de fer la còpia de seguretat!
+IDC_ENABLEBACKUP=Autorizar la Còpia
+ERR_COPYFILE_RESTORE=S'ha produit un error durant el procés de Restauració de la Còpia de Seguretat! Verificar si hi ha discket a la Unitat.
+SELECT_FILE_TO_RESTORE=Seleccioni un Arxiu per Restaurar!
+SELECT_RESTORE_DIR=A on vol guardar l'Arxiu?
+OPEN_RESTORED_FILE=Vol obrir l'Arxiu per Restaurar?
+
+[IDD_BALANCE]
+TITLE=Major
+IDC_CLEAREDDEPOSITS=Mostrar comptes liquidats
+IDC_CLEAREDWITHDRAWALS=Extracció liquidada
+IDC_RECONCILEDTEXT=Balanç anterior
+IDC_CLEAREDTEXT=Balanç actual
+IDC_UNCLEAREDTEXT=Balanç pendent
+IDC_SELECTALL=Seleccionar tot
+IDC_DESELECTALL=Esborrar tot
+IDOK=D'acord
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+IDC_NEWTRANSACTION=Nou...
+
+[IDD_BANK]
+TITLE=Banc
+IDC_NAMETEXT=Nom
+IDC_ADDRESSTEXT=Adreça
+IDC_WEBSITETEXT=Adreça Internet
+IDC_COMMENTTEXT=Comentari
+IDC_BANKNUMBERTEXT=Número d'entitat
+IDC_SWIFTCODETEXT=IBAN
+IDC_TRANSFERCODETEXT=Codi transferència
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+ERR_NOBANKNAME=Falta el nom del banc!
+
+[IDD_BILL]
+TITLE=Factura/Dipòsit
+IDC_FREQUENCYGROUP=Frequència
+IDC_ONCE=Un cop
+IDC_DAILY=Diari
+IDC_WEEKLY=Semanal
+IDC_EVERYOTHERWEEK=Mitja setmana
+IDC_TWICEAMONTH=Quinzenal
+IDC_EVERYFOURWEEKS=Cada 4 setmanaes
+IDC_MONTHLY=Mensual
+IDC_EVERYOTHERMONTH=Bimensual
+IDC_QUARTERLY=Trimestral
+IDC_EVERYSIXMONTHS=Cada sis mesos
+IDC_ANNUALLY=Anual
+IDC_STARTDATETEXT=Data d'inici
+IDC_TRANSACTIONGROUP=Transacció
+IDC_TYPETEXT=Opció
+IDC_DEPOSIT=Dipòsit
+IDC_WITHDRAWAL=Extracció
+IDC_TRANSFER=Transferència
+IDC_ACCOUNTTEXT=Compte
+IDC_PAYEETEXT=Beneficiari
+IDC_CATEGORYTEXT=Categoria
+IDC_SPLIT=Fraccionar
+IDC_AMOUNTTEXT=Quantitat
+IDC_COMMENTTEXT=Comentari
+IDC_ENTER=Afegir al compte
+IDC_AUTOMATIC=Entrar factura automàticament
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+ERR_INVALIDACCOUNT=Nom de compte erroni!
+IDC_BILLTYPETEXT=Tipus Factura
+BILLTYPE_CONTINUOUS=Continu
+BILLTYPE_NUMBERED=Numerat
+IDC_NUMBERTEXT=Número de pagaments
+IDC_EVERYFOURMONTHS=Cada 4 mesos
+ERR_INVALIDNUMBER=No pot haver-hi un nombre de pagaments inferior a l'unitat!
+
+[IDD_BUDGET]
+TITLE=Pressupost
+IDC_STARTDATETEXT=Començament del primer període:
+IDC_FREQUENCYTEXT=Pressupost període:
+IDC_WEEKLY=Cada setmana
+IDC_EVERYOTHERWEEK=Cada dues setmanes
+IDC_TWICEAMONTH=Cada mig mes
+IDC_EVERYFOURWEEKS=Cada 4 setmanes
+IDC_MONTHLY=Cada mes
+IDC_EVERYOTHERMONTH=Cada dos messos
+IDC_QUARTERLY=Cada tres messos
+IDC_ANNUALLY=Cada any
+IDOK=D'acord
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+
+[IDD_CALC_LOAN]
+TITLE=Calculadora de Préstecs
+
+IDC_AMOUNTTEXT=Import
+IDC_RATETEXT=Interés anual: %
+IDC_PERIODTEXT=Període: mesos
+IDC_PAYMENTTEXT=Quota
+IDC_TOTALINTERESTTEXT=Total interessos
+
+COLUMN0=#
+COLUMN1=Quota
+COLUMN2=Capital
+COLUMN3=Interés
+COLUMN4=Préstec
+
+IDOK=Acceptar
+
+[IDD_CALC_SAVINGS]
+TITLE=Calculadora d'estalvis
+
+IDC_MONTHLYPAYMENTTEXT=Estalvi mensual
+IDC_RATETEXT=Interés anual: %
+IDC_PERIODTEXT=Període: mesos
+IDC_STARTDATETEXT=Data d'inici
+IDC_TOTALINTERESTTEXT=Total interessos
+IDC_TOTALTEXT=Total
+
+COLUMN0=#
+COLUMN1=Data
+COLUMN2=Estalvi
+COLUMN3=Interessos
+COLUMN4=Total
+
+IDOK=Acceptar
+
+[IDD_CALC_MORTGAGE]
+TITLE=Calculadora d'Hipoteques
+
+IDC_VALUETEXT=Valor de Taxació
+IDC_AMOUNTTEXT=Import del Préstec
+IDC_TERMTEXT=Període (anys)
+IDC_DATETEXT=Data de formalització
+IDC_RATETEXT=Interés: %
+IDC_TAXTEXT=IBI anual
+IDC_INSURANCETEXT=Assegurança anual
+
+IDC_REQUIREDPAYMENTTEXT=Quota
+IDC_TOTALINTERESTTEXT=Total interessos
+IDC_TOTALPMITEXT=PMI
+IDC_TOTALMONTHSTEXT=Total mesos amortització
+
+COLUMN0=Data
+COLUMN1=Capital
+COLUMN2=Interés
+COLUMN3=Impost
+COLUMN4=Assegurança
+COLUMN5=PMI
+COLUMN6=Quota
+COLUMN7=Total
+
+IDOK=Acceptar
+IDHELP=Ajuda
+
+[IDD_CATEGORY]
+TITLE=Categoria
+IDC_NAMETEXT=Categoria
+IDC_SUBNAMETEXT=Subcategoria
+IDC_COMMENTTEXT=Comentari
+IDC_BUDGETTEXT=Pressupostat
+IDC_NUMBERTEXT=Número
+IDC_INCOME=Ingrés
+IDC_EXPENSE=Despesa
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+ERR_NOCATNAME=Falta el nom de la categoria!
+ERR_CATEXIST=Aquesta categoria ja existeix!
+
+[IDD_CATEGORYMERGE]
+TITLE=Fusió de categories
+IDC_CATEGORYTEXT=Fusionar categoria
+IDC_CATEGORYTEXT1=amb categoria
+IDOK=D'acord
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+ERR_NOCATEGORIES=S'han de seleccionar dues categories que siguin diferents!
+ERR_SOURCECATEGORY=Les categories d'origen no poden tenir subcategories
+ERR_TARGETCATEGORY=La categoria de destí no pot ser una subcategoria de la categoria d'origen!
+
+[IDD_COLORS]
+TITLE=Fonts i Colors
+IDC_ACCOUNTLISTTEXT=Llistat de Comptes
+IDC_ACCOUNTTEXT=Compte
+IDC_BANKTEXT=Bancs
+IDC_CATEGORYTEXT=Categories
+IDC_PAYEETEXT=Beneficiaris
+IDC_SCHEDULETEXT=Calendari
+IDC_REPORTTEXT=Informes
+IDC_PORTFOLIOTEXT=Cartera
+IDC_LISTFONTTEXT=Llista de fonts
+IDC_RESTORE=Per defecte
+IDOK=D'acord
+IDCANCEL=Cancel·lar
+IDC_TABLEFONTCOLORTEXT=Color del texte
+IDC_TABLEBILLFONTCOLORTEXT=Color dels Apunts Programats
+IDC_TABLEBACKGROUNDTEXT1=Color de fons 1
+IDC_TABLEBACKGROUNDTEXT2=Color de fons 2
+
+[IDD_CURRENCY]
+TITLE=Taxes de canvi de divises
+IDC_SHOWALL=Mostrar totes les divises
+IDC_CURRENCYINFO=Divisa predeterminada: %s
+IDC_DOWNLOAD=Descarregar...
+IDC_UPDATE=Actualitzar taxa
+IDOK=Acceptar
+IDHELP=Ajuda
+COLUMN0=Moneda
+COLUMN1=Convertir a
+COLUMN2=Data
+ERR_WEBUPDATE=Error en actualització de la taxa de canvi! Comproba la conexió a Internet!
+ERR_INVALIDRATE=Taxa rebuda invàlida !
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=Taxa de canvi
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+
+[IDD_SHEETREPORTFILTER]
+TITLE=Filtre d'Informe
+
+[IDD_DATESRANGE]
+TITLE=Seleccionar període
+IDC_BUDGETDATES=Períodes pressupostaris:
+IDC_CUSTOMDATES=Dades de l'usuari:
+IDC_FROMTEXT=De
+IDC_TOTEXT=A
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+CURRENT=Actual
+CUSTOM=Habitual
+CURRENTWEEK=Aquesta setmana
+PREVIOUSWEEK=Setmana anterior
+LAST30DAYS=Darrers 30 dies
+CURRENTMONTH=Aquest mes
+PREVIOUSMONTH=Mes anterior
+CURRENTQUARTER=Aquest Trimestre
+PREVIOUSQUARTER=Trimestre anterior
+CURRENTYEAR=Aquest any
+PREVIOUSYEAR=Any anterior
+IDC_PERIODSTEXT=Períodes predefinits
+
+[IDD_FILTERACCOUNT]
+TITLE=Seleccionar compte
+IDC_SELECTALL=Seleccionar tot
+IDC_CLEARALL=Rebutjar  tot
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+
+[IDD_FILTERCATEGORY]
+TITLE=Seleccionar categoria
+IDC_SELECTALL=Seleccionar tot
+IDC_CLEARALL=Rebutjar tot
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+
+[IDD_FILTERPAYEE]
+TITLE=Seleccionar beneficiari
+IDC_SELECTALL=Seleccionar tot
+IDC_CLEARALL=Rebutjar tot
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+
+[IDD_IMPORT]
+TITLE=Importar
+EXPORTTITLE=Exportar
+IMPORTTEXT=%d transaccions importades
+EXPORTTEXT=Seleccionar el compte a exportar
+ERR_NOACCOUNT=Seleccioni un compte !
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+IDC_IMPORTTEXT=Seleccionar un compte per importar Apunts
+IDC_DATEFORMATTEXT=Format de data
+IDC_NEWACCOUNT=Nou Compte...
+
+[IDD_LANGUAGE]
+TITLE=Seleccioni Idioma
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+
+[IDD_INTERNATIONALSETTINGS]
+TITLE=Configuració internacional
+IDC_DATETEXT=Format de Data
+IDC_DATESEPARATORTEXT=Separador de Data
+IDC_CURRENCYTEXT=Divisa predefinida
+IDC_DECIMALSEPARATORTEXT=Separador de decimals
+IDC_THOUSANDSEPARATORTEXT=Separador de miliers
+IDC_NUMBEROFDECIMALDIGITSTEXT=Nombre de decimals
+ERR_THOUSANDDECIMAL=El separador de decimals i de miliers, han de ser diferents!
+ERR_THOUSAND=Separador de miliers invàlid!
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+
+[IDD_OPTIONS]
+TITLE=Opcions
+IDC_GENERALGROUP=General
+IDC_DATETEXT=Format de dates
+IDC_DATESEPARATORTEXT=Separador de data
+IDC_SHOWCLOSEDACCOUNTS=Comptes liquidats
+IDC_SHOWGRID=Mostrar separadors verticals
+IDC_LOADLASTFILE=Carrega darrer arxiu utilitzat
+IDC_SHOWCOMMENT=Mostrar comentaris de transaccions
+IDC_CURRENCYTEXT=Moneda predeterminada
+IDC_AUTOSAVE=Auto-grabació de documents
+IDC_SHOWFUTUREBILLS=Mostrar apunts futurs
+0_MONTHS_AHEAD=Cap
+IDC_NUMBEROFFUTUREBILLSMONTHSTEXT=Mostrar apunts futurs per
+1_MONTHS_AHEAD=Proper mes
+2_MONTHS_AHEAD=Propers 2 mesos
+3_MONTHS_AHEAD=Propers 3 mesos
+4_MONTHS_AHEAD=Propers 4 mesos
+5_MONTHS_AHEAD=Propers 5 mesos
+6_MONTHS_AHEAD=Propers 6 mesos
+7_MONTHS_AHEAD=Propers 7 mesos
+8_MONTHS_AHEAD=Propers 8 mesos
+9_MONTHS_AHEAD=Propers 9 mesos
+10_MONTHS_AHEAD=Propers 10 mesos
+11_MONTHS_AHEAD=Propers 11 mesos
+12_MONTHS_AHEAD=Propers 12 mesos
+IDC_SHOWCATEGORYSTATUS=Mostrar l'anàlisi per categories en la barra d'estat
+IDC_SHOWSPLASHSCREEN=Mostrar pantalla resum
+IDC_SHOWFILENAME=Mosta nom d'arxiu en el títol
+IDC_SHOWSOLDSTOCKS=Mostrar accions venudes
+IDC_STARTPAGEGROUP=Pàgina d'inici
+IDC_ACCOUNTLIST=Llista de comptes
+IDC_FAVORITEACCOUNT=Compte preferit
+IDC_PASSWORDGROUP=Contrasenya
+IDC_OLDPASSTEXT=Contrasenya actual
+IDC_NEWPASSTEXT=Nova contrasenya
+IDC_RETYPETEXT=Re-ingressa contrasenya
+IDC_DECIMALSEPARATORTEXT=Punt decimal
+IDC_THOUSANDSEPARATORTEXT=Punt milers
+IDC_TRANSACTIONTYPETEXT=Nou tipus de transacció
+IDC_TRANSFERSTATUS=Canvia l'estat de transacció en ambdues comptes
+IDC_SHOWACCOUNTNUMBERS=Mostrar el número de compte
+LASTUSEDTYPE=Darrer tipus utilitzat
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+ERR_THOUSANDDECIMAL=Punt de decimals i de milers no poden coincidir
+ERR_THOUSAND=Separador de milers invàlid!
+ERR_INVALIDOLDPASSWORD=Contrasenya antiga invàlida!
+ERR_INVALIDNEWPASSWORD=Contrasenya nova invàlida!
+IDC_TRANSACTIONNUMBERTEXT=Nou número de transacció
+NUMBER_EMPTY=Buit
+NUMBER_DEBIT=Dèbit
+NUMBER_AUTO=Darrer check més un
+IDC_ADDINVESTMENTVALUE=Afegir l'import de les accions al Balanç
+IDC_SHOWDEPOSITSFIRST=Els primers apunts del dia són abonaments
+IDC_NUMBEROFDECIMALDIGITSTEXT=Nombre de decimals
+
+[IDD_PASSWORD]
+TITLE=Entri contrasenya
+IDC_PASSTEXT=Contrasenya
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+ERR_INVALIDPASSWORD=Contrasenya errònia!
+
+[IDD_PAYEE]
+TITLE=Beneficiari
+IDC_NAMETEXT=Nom
+IDC_ADDRESSTEXT=Adreça
+IDC_COMMENTTEXT=Comentari
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+ERR_NOPAYEENAME=Falta el nom del beneficiari!
+IDC_CITYTEXT=Ciutat
+IDC_STATETEXT=Comunitat
+IDC_ZIPTEXT=Codi Postal
+IDC_COUNTRYTEXT=Pais
+IDC_PAGERTEXT=Busca
+IDC_WEBSITETEXT=Pàgina Web
+
+[IDD_PAYEEMERGE]
+TITLE=Fusionar beneficiaris
+IDC_PAYEETEXT=Fusionar beneficiari
+IDC_PAYEETEXT1=amb beneficiari
+IDOK=D'acord
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+ERR_NOPAYEES=Els beneficiaris seleccionats han de ser diferents!
+
+[IDD_PRINTPREVIEW]
+TITLE=Imprimir vista prèvia
+IDC_PAGETEXT=Pàgina
+IDC_PRINT=Imprimir
+IDOK=D'acord
+IDHELP=Ajuda
+
+[IDD_REGISTER]
+TITLE=Enregistrar
+IDC_NAMETEXT=Nom:
+IDC_SERIALNUMBERTEXT=Número de sèrie:
+IDC_ORDER=Comprar...
+IDOK=D'acord
+
+[IDD_SEARCH]
+TITLE=Cercar apunts
+
+IDC_DATETEXT=Data
+IDC_FROMTEXT=des de
+IDC_TOTEXT=fins a
+IDC_AMOUNTTEXT=Import
+IDC_AMOUNTFROMTEXT=entre
+IDC_AMOUNTTOTEXT=i
+IDC_COMMENTTEXT=Text
+IDC_SEARCH=Cercar
+IDC_CLOSE=Sortir
+[IDD_SPLIT]
+TITLE=Fraccionar per categories
+IDC_CATEGORYTEXT=Categories
+IDC_SUBCATEGORYTEXT=Subcategories
+IDC_AMOUNTTEXT=Import
+IDC_ADD=Agregar
+IDC_EDIT=Editar
+IDC_DELETE=Eliminar
+IDC_TOTALTEXT=Total:
+IDC_UNASSIGNEDTEXT=Sense assignar:
+IDC_COMMENTTEXT=Comentari
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+COLUMN0=Categoria
+COLUMN1=Subcategoria
+COLUMN2=Import
+COLUMN3=Comentari
+ERR_BADTOTAL=La suma de fraccions no és igual a l'import total de la transacció. Vol actualitzar l'import?
+
+[IDD_SPLITITEM]
+TITLE=Fraccionar element
+IDC_CATEGORYTEXT=Categoria
+IDC_SUBCATEGORYTEXT=Subcategoria
+IDC_AMOUNTTEXT=Import
+IDC_COMMENTTEXT=Comentari
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+
+[IDD_TRANSACTION]
+TITLE=Transacció
+IDC_TYPETEXT=Opció
+IDC_DEPOSIT=Ingrés
+IDC_WITHDRAWAL=Càrrec
+IDC_TRANSFER=Transferència
+IDC_ACCOUNTTEXT=Compte
+IDC_PAYEETEXT=Beneficiari
+IDC_CATEGORYTEXT=Categoria
+IDC_SPLIT=Fraccionar
+IDC_COMMENTTEXT=Comentari
+IDC_DATETEXT=Data
+IDC_NUMBERTEXT=Número
+IDC_AMOUNTTEXT=Import
+FROMTEXT=De
+TOTEXT=A
+SPLIT=Fraccionar
+DEBIT=Dèbit
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+ERR_SAMETRANFER=No pot transferir al mateix compte!
+ERR_INVALIDACCOUNT=Nom de compte erroni !
+ERR_SPLITAMOUNT=El total de transacció ha de ser el total de les seves parts!
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Taxa de canvi
+IDC_SOURCEAMOUNTTEXT=Import en
+IDC_TARGETAMOUNTTEXT=Import en
+IDOK=Acceptar
+IDCANCEL=Cancel·lar
+
+[IDD_DAYBILLS]
+TITLE=Factures
+COLUMN0=Data
+COLUMN1=Opció
+COLUMN2=Beneficiari
+COLUMN3=Import
+COLUMN4=Comentari
+IDC_ENTER=Entrar...
+IDC_EDIT=Editar...
+IDOK=D'acord
+IDHELP=Ajuda
+COLUMN5=Freqüència
+
+[IDD_LITEVERSION]
+TITLE=AceMoney Lite
+IDC_TEXT=AceMoney Lite treballa amb un sol usuari. El segon compte no es pot crear i els arxius amb múltiples comptes no es poden obrir. Si has d'utilitzar comptes múltiples, hauries d'actualitzar a la versió íntegra de AceMoney.
+IDC_WEBSITE=Actualitzar...
+IDOK=Tancar
+
+[IDD_STOCK]
+TITLE=Inversió
+IDC_SYMBOLTEXT=Símbol
+IDC_NAMETEXT=Nom
+IDC_COMMENTTEXT=Comentari
+IDC_UPDATE=Actualitzar...
+IDC_WEBUPDATE=Descarregar...
+IDC_PRICETEXT=Històric del preu
+IDOK=D'acord
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+COLUMN0=Data
+COLUMN1=Preu
+IDC_CURRENCYTEXT=Moneda
+
+[IDD_STOCKPRICE]
+TITLE=Preu acció
+IDC_DATETEXT=Data
+IDC_PRICETEXT=Preu
+IDOK=D'acord
+IDCANCEL=Cancel·lar
+
+[IDD_STOCKTRANSACTION]
+TITLE=Transacció de cartera
+IDC_DATETEXT=Data
+IDC_ACCOUNTTEXT=Compte
+IDC_ACTIONTEXT=Operació
+IDC_INVESTMENTTEXT=Valor cotitzat
+IDC_DIVIDENDTEXT=Dividends
+IDC_NUMBERTEXT=Quantitat d'accions
+IDC_PRICETEXT=Preu
+IDC_COMMISSIONTEXT=Comissió
+IDC_TOTALTEXT=Total
+BUY=Compra
+SELL=Vendre
+DIVIDEND=Dividend
+REINVEST=Reinversió
+ADD=Afegir
+REMOVE=Treure
+IDOK=D'acord
+IDCANCEL=Cancel·lar
+IDHELP=Ajuda
+ERR_NEGATIVEVALUES=El número de Valors, preu per valor, dividend, comissió i total han de ser positius!
+ERR_INVALIDACTIONTYPE=Acció no vàlida!
+ERR_INVALIDACCOUNT=Compte erroni!
+ERR_INVALIDINVESTMENT=Inversió no vàlida?
+
+[IDD_REPORTADD]
+TITLE=Afegir a favorits
+IDC_NAMETEXT=Títol informe
+IDOK=D'acord
+IDCANCEL=Cancel·lar
+
+[IDD_REPORTORGANIZE]
+TITLE=Organitzar Informes
+IDC_DELETE=Esborrar
+IDOK=Generar
+IDCANCEL=Cancel·lar
+[IDD_TRANSACTIONCATEGORYLIST]
+TITLE=Categories d'Apunts
+IDC_ADD=Afegir
+IDC_DELETE=Eliminar
+IDOK=Tancar
+IDHELP=Ajuda
+[IDD_TRANSACTIONCATEGORY]
+TITLE=Categoría d'Apunt
+IDC_NAMETEXT=Nom
+IDOK=Acceptar
+ERR_NONAME=¡Una Categoría debe tener un nombre!
+[IDD_STARTUP_CURRENCY]
+IDC_NUMBEROFDECIMALSTEXT=Número de decimales
+IDC_THOUSANDSEPARATORTEXT=Separador de milers
+IDC_EXAMPLETEXT=Exemple
+IDC_BACK=<< Enrera
+SEPARATOR_SPACE=Espai
+SEPARATOR_NONE=Sense separado
+ERR_THOUSANDDECIMAL=Els separadors de decimals i de milers han de ser diferents!
+IDC_CURRENCYTEXT=Moneda Predefinida
+[IDD_STARTUP_DATE]
+TITLE=Selecció de Data
+IDC_FORMATTEXT=Format de Data
+IDC_EXAMPLETEXT=Exemple
+IDC_BACK=&lt;&lt; Enrera
+IDC_FINISH=Finalitzar
+[IDD_ACEMONEYREMINDER]
+TITLE=Avisador de Rebuts
+STARTACEMONEY=Obrir AceMoney...
+OPTIONS=Opcions...
+VIEWBILLS=Veure Rebuts...
+EXIT=Sortir
+CLOSE=Tancar
+COLUMN0=Data
+COLUMN1=Operació
+COLUMN2=Beneficiari
+COLUMN3=Import
+OPTIONSTITLE=Opcions
+DATAFILE=Arxiu de dades
+SELECTFILE=Seleccioni l'Arxiu de dades
+AUTOSTART=Carregar automàticament a l'inici
+STARTMINIMIZED=Iniciar minimitzat
+OK=Acceptar
+CANCEL=Cancel·lar
+MSG_DUEBILLS=Fora de termini!
+MSG_NODUEBILLS=No n'hi cap de caducat!
+[IDD_EXPORT]
+IDC_EXPORTTEXT=Seleccioni un Compte a exportar
+IDC_STARTDATETEXT=Data d'inici
+IDC_ENDDATETEXT=Data final
+ERR_NOACCOUNT=Seleccioni un compte!
+IDOK=Acceptar
+IDCANCEL=Cancel·lar

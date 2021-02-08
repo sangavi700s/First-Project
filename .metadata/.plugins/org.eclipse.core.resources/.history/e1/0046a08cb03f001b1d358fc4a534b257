@@ -1,0 +1,23 @@
+package Test;
+
+public class ReverseOrder {
+
+	public static void main(String[] args) {
+
+
+		String str[]=new String[5];
+		
+		str[0]="Java";
+		str[1]="Phyton";
+		str[2]="Selenium";
+		str[3]="Abstraction";
+		str[4]="Maven";
+		for(int i=4;i<=str.length;i--)
+		{
+			System.out.println(str[i]);
+		}
+
+		
+	}
+
+}

@@ -1,0 +1,1258 @@
+ProgramID=AceMoney
+Language=Danish
+
+/////////////////////////////////////////////////////////////////////////////
+[MAIN]
+STATUS=Klar
+TO=til
+FROM=fra
+TOTAL=I alt
+CLEAREDTOTAL=Godkendt i alt
+TODAYTEXT=I dag
+PAGE=Side
+SAVEMODIFIED=Gem ændringer?
+REPLACEMENTS=ændringer er sket
+INVALIDNUMBER=Fejlagtig nummer format!
+WITHDRAWAL=Udbetalt
+DEPOSIT=Indsætte
+TRANSFER=Overfør
+UNASSIGNED=(Ikke tildelt)
+UNCLEAREDTOTAL=Ufortoldet i alt
+RECONCILEDTOTAL=Afstemt i alt
+CATEGORIES=categories_dk.dat
+BANKS=banks_dk.dat
+ACCOUNTTYPES=accounttypes.dat
+MSG_LOADSAMPLE=Ønsker du at indlæse eksempelfil?
+MSG_SAMPLEFILEWARNING=Eksempel-filen kan ikke gemmes. Gem via Fil > Gem som ... i menuen for at gemme med et andet fil-navn.
+NEW_VERSION_DETECTED=En ny version af AceMoney er udgivet og er tilgængelig for download. Ønsker du at opgradere?
+NO_NEW_VERSION_IS_AVAILABLE=Ingen ny version er tilgængelig.
+NEW_VERSION_CHECK_FAILED=AceMoney kunne ikke kontrollere, om ny version er tilgængelig, fordi forbindelsen til serveren ikke kan etableres. Tjek venligst dine netværksindstillinger eller prøv igen senere.
+IMPORTEDTOTAL=Importeret i alt
+YES=Ja
+NO=Nej
+AVERAGE=Gennemsnit
+ONE_COLUMN_MUST_BE_DISPLAYED=Mindst én kolonne skal vises!
+
+[IDD_FORMACCOUNTLIST]
+TOTAL=I alt
+ID_ACCOUNT_DELETE=Slet
+Title=Konti
+IDC_REPORTS=Rapporter
+IDHELP=Hjælp
+ID_ACCOUNT_OPEN=Åben
+IDC_ADD=Ny Konto...
+IDC_BILLS=Betal regninger
+IDC_CURRENCY=Valutakurser
+IDC_WEBUPDATE=Hente kurser
+ID_ACCOUNT_ADD=Ny Konto...
+ID_ACCOUNT_EDIT=Egenskaber
+LASTUPDATE=Sidste opdatering
+DELETE_CONFIRMATION=Konto %s vil blive slettet med alle dens transaktioner! Fortsæt?
+UPDATE_SUCCESS=Valutakurser blev opdateret med succes
+UPDATE_FAILURE=Opdateringsfejl! Internetforbindelsen kunne ikke findes eller nogle af valutaerne blev ikke opdateret!
+UPDATE_NOTREQUIRED=Opdatering er ikke nødvendig!
+ID_ACCOUNT_SHOWNUMBERS=Vis kontonumre
+ID_ACCOUNT_SHOWCLOSED=Vis lukkede konti
+ID_ACCOUNT_CLOSE=Luk konto
+ID_ACCOUNT_REOPEN=Genåbn konto
+ID_ACCOUNT_ACCEPT_IMPORTED=Acceptér importerede transaktioner
+NEW_CURRENCY_DETECTED=Denne konto benytter en anden valuta en den valgte standard. Det er nødvendigt at opdatere valutakurserne ved at downloade den fra internettet eller ved at skrive dem manuelt i Værktøj -> Valutakurser. Ønsker du at AceMoney downloader valutakurser nu?
+
+[IDD_FORMPORTFOLIO]
+COLUMN4=I alt
+TRANSACTIONSCOLUMN8=I alt
+ID_EDIT_DELETE=Slet
+IDHELP=Hjælp
+TRANSACTIONSCOLUMN3=Konto
+TRANSACTIONSCOLUMN0=Dato
+COLUMN1=Navn
+TRANSACTIONSCOLUMN5=Pris
+TRANSACTIONSCOLUMN4=Udbytte
+TRANSACTIONSCOLUMN1=Aktion
+TITLE=Portefølje
+IDC_BUY=Køb...
+IDC_SELL=Salg...
+IDC_DIVIDEND=Udbytte...
+IDC_REINVEST=Invester udbyttet...
+IDC_ADDSHARES=Nye Aktier...
+IDC_REMOVESHARES=Slet aktier...
+IDC_ADD=Ny investering...
+IDC_EDIT=Ret investering...
+IDC_DELETE=Slet investering...
+IDC_WEBUPDATE=Hente priser
+STOCKTRANSACTIONLIST=Transaktioner
+COLUMN2=Sidste Pris
+COLUMN3=Antal
+TRANSACTIONSCOLUMN6=Antal
+COLUMN5=Profit
+TRANSACTIONSCOLUMN7=Kommission
+TRANSACTIONSCOLUMN9=Kommentar
+UPDATEISNOTREQUIRED=Opdatering er ikke nødvendig!
+UPDATEISNOTCOMPLETE=Nogle af investeringerne blev ikke opdateret!
+INVESTMENTNOTCREATED=En investering skal først tilføjes!
+ID_EDIT_OPEN=Ret investering
+ID_EDIT_INSERT=Ny investering
+STOCKLIST=Aktier
+CANTBEDELETED=Denne aktie bliver brugt i en eller flere transaktioner. Den kan ikke slettes!
+DELETECONFIRMATION=Denne aktie vil blive slettet. Er du sikker?
+ALLACCOUNTS=Alle konti
+IDC_NEWTRANSACTION=Ny transaktion...
+COLUMN0=Symbol (ticker)
+TRANSACTIONSCOLUMN2=Symbol (ticker)
+IDC_IMPORT=Import...
+ALLOCATION_BY_INVESTMENTS=Fordeling efter investeringer
+ALLOCATION_BY_ACCOUNTS=Fordeling efter konti
+ALLOCATION_BY_TYPES=Fordeling efter typer
+
+[IDD_FORMACCOUNT]
+COLUMN7=i alt
+ID_EDIT_OPEN=Ret
+ID_EDIT_DELETE=Slet
+IDHELP=Hjælp
+COLUMN6=Indsat
+Title=Konto
+COLUMN2=Modtager
+COLUMN3=Kategori
+COLUMN1=Dato
+COLUMN8=Kommentar
+IDC_ADD=Ny transaktion
+IDC_EDIT=Ret transaktion
+IDC_DELETE=Slet transaktion
+IDC_WEBSITE=Konto hjemmeside
+IDC_ACCOUNT=Ret Konto information
+IDC_BANK=Ret bank info
+IDC_MONTHREPORT=Månedlig rapport
+IDC_REPORT=30 dages rapport
+COLUMN0=Nummer
+ID_EDIT_INSERT=Ny transaktion...
+ID_EDIT_INSERTBILL=Tilføj ny betaling...
+COLUMN5=Udbetalt
+TRANSACTIONDELETECONFIRMATION=Er du sikker?
+IDC_BALANCE=Balancering af konto
+STATUSINCOME=I denne måned har du modtaget %.2f i kategori %s
+STATUS=I denne måned har du brugt %.2f på kategori %s
+PAGEISNOTASSIGNED=Webadressen mangler. Du kan tilføje den i Egenskaber for banken.
+BANKISNOTASSIGNED=For at bruge dette må du først vælge en bank der har denne konto
+BILLDELETECONFIRMATION=Dette vil slette alle fremtidige transaktioner tilhørende denne regning/indbetaling!
+CANNOTSORTBYTOTAL=Du kan ikke sortere efter total!
+ID_TRANSACTION_UNCLEARED=Ufortoldet
+ID_TRANSACTION_CLEARED=Godkendt
+ID_TRANSACTION_RECONCILED=Afstemte
+IDC_HIDERECONCILED=Gem afstemte
+CLEAREDTRANSACTIONCONFIRMATION=Denne transaktion er markeret som Godkendt. Det anbefales ikke at foretage ændringer! Fortsæt?
+RECONCILEDTRANSACTIONCONFIRMATION=Denne transaktion er markeret som Afstemt. Det anbefales ikke at foretage ændringer! Forsæt?
+COLUMN9=Konto
+STATUSSUM=Summen af de valgte transaktioner er
+ID_EDIT_COPY=Kopier
+ID_EDIT_PASTE=Indsæt
+ID_EDIT_CATEGORY=Rediger kategori...
+ID_EDIT_CATEGORYCHANGE=Ændre kategori...
+ID_EDIT_ADDTOSCHEDULE=Tilføj til fast betaling...
+ID_VIEW_DISPLAYSIDEPANEL=Vis sidepanelet
+IDC_APPLY_IMPORT_RULES=Anvend importregler
+ID_REPORTS_CATEGORY=Kategorirapport...
+ID_EDIT_ATTACHMENT_DELETE=Slet
+ID_EDIT_TAG_LATER=&5 Senere
+ID_EDIT_TAG_WORK=&2 Arbejde
+ID_EDIT_TAG=Tag
+ID_EDIT_TAG_TODO=&4 Huskeliste
+ID_EDIT_PAYEE=Rediger modtager...
+ID_REPORTS_PAYEE=Modtagerrapport...
+ID_EDIT_TAG_IMPORTANT=&1 Vigtigt
+ID_EDIT_TAG_PERSONAL=&3 Personligt
+ID_EDIT_ATTACHMENTS=Vedhæftninger
+ID_EDIT_ATTACHMENT_ADD=Vedhæft...
+ID_EDIT_PAYEECHANGE=Ændre modtager...
+IDC_DOWNLOAD=Download transaktioner
+ID_EDIT_MOVE_TO_ACCOUNT=Flyt til konto
+ID_EDIT_TAG_REMOVE_ALL=&0 Fjern alle Tags
+MOVE_PARTIALLY_FAILED=Nogle transaktioner kan ikke flyttes til den valgte konto!
+ID_EDIT_GOTO_TRANSACTION=Gå til transaktion
+IDC_CREATE_IMPORT_RULE=Opret importregel...
+IDC_ADD_INVESTMENT_TRANSACTION=Investeringstransaktion
+ID_EDIT_SKIPBILL=Fortryd betaling af regning
+
+[IDD_FORMREPORT]
+CASHFLOWCOLUMN2=I alt
+IDHELP=Hjælp
+PAYEECOLUMN0=Modtager
+CATEGORYCOLUMN0=Kategori
+CASHFLOWCOLUMN0=Dato
+CATEGORYCOLUMN1=Beløb
+PAYEECOLUMN1=Beløb
+CATEGORYCOLUMN4=Kode
+CATEGORYCOLUMN2=Budgetteret
+CATEGORYCOLUMN5=Indkomst
+PAYEECOLUMN2=Indtægt
+CATEGORYCOLUMN6=Udgift
+PAYEECOLUMN3=Udgift
+IDC_USEDATEFILTER=Filtre efter dato
+IDC_SETDATES=Vælg fra/til dato...
+IDC_USECATEGORYFILTER=Filtre efter kategorier
+IDC_SETCATEGORIES=Vælg kategorier
+IDC_USEPAYEEFILTER=Filtre efter modtagere
+IDC_SETPAYEES=Vælg modtagere
+IDC_USEACCOUNTFILTER=Filtre efter konti
+IDC_SETACCOUNTS=Vælg Konto
+IDC_TRANSACTIONS=Transaktionsrapport
+IDC_CATEGORY=Udgifter efter kategorier
+IDC_SUBCATEGORY=Udgifter efter underkategorier
+IDC_PAYEE=Udgifter efter modtagere
+IDC_LAST30DAYS=Sidste 30 dages transaktioner
+IDC_TABLE=Vis som tabel
+IDC_INCOMECHART=Indkomst cirkeldiagram
+IDC_EXPENSECHART=Udgift cirkeldiagram
+CATEGORYCOLUMN3=Forskel
+CASHFLOWCOLUMN1=Perioden i alt
+OTHERS=Andre
+GENERALREPORTS=Generelle rapporter
+CATEGORYREPORTS=Kategorirapporter
+PAYEEREPORTS=Modtagerrapporter
+BUDGETREPORTS=Budgetrapporter
+IDC_CHART=Diagram
+IDC_PERIODCHART=Periode diagram
+IDC_TOTALCHART=Summeringsdiagram
+IDC_BUDGET=Nuværende budget periode
+IDC_CASHFLOW=Pengestrømsrapport
+ACCOUNTCOLUMN0=Konto
+ACCOUNTCOLUMN1=Gruppe
+INVESTMENTCOLUMN0=Investering
+IDC_PAYEEBYMONTH=Månedlige udgifter efter modtagere
+IDC_SETINVESTMENTS=vælg investeringer...
+IDC_CATEGORYBYMONTH=Månedlige udgifter efter kategorier
+IDC_SUBCATEGORYBYMONTH=Månedlige udgifter efter underkategorier
+IDC_BUDGETCATEGORY=Budget efter kategorier
+IDC_BUDGETSUBCATEGORY=Budget efter underkategorier
+IDC_ACCOUNT=Udgifter efter konti
+INVESTMENTREPORTS=Investeringsrapport
+INVESTMENTCOLUMN6=Dividende
+INVESTMENTCOLUMN7=Værdi
+INVESTMENTCOLUMN8=Kursstigning
+INVESTMENTCOLUMN9=Kursstigning, %
+FAVORITEREPORTS=Favorit rapporter
+INVESTMENTCOLUMN1=Symbol (ticker)
+IDC_SETTAGS=Vælg tag...
+IDC_INCLUDETRANSFERS=Inkludér overførsler
+IDC_USEINVESTMENTFILTER=Filtre efter investeringer
+IDC_USETAGFILTER=Filtre efter tag
+IDC_USETEXTFILTER=Filtre efter tekst
+INVESTMENTCOLUMN2=Antal
+INVESTMENTCOLUMN12=Salgsværdi
+INVESTMENTCOLUMN14=Indtægt
+INVESTMENTCOLUMN17=Nuværende pris
+INVESTMENTCOLUMN10=Anskaffelsesværdi
+INVESTMENTCOLUMN4=Provision
+INVESTMENTCOLUMN5=Omkostning pr. aktie
+INVESTMENTCOLUMN3=Omkostning
+INVESTMENTCOLUMN11=Anskaffelsesprovision
+INVESTMENTCOLUMN13=Salgsprovision
+INVESTMENTCOLUMN15=Kortsigtede kapitalforøgelse
+INVESTMENTCOLUMN16=Langsigtede kapitalforøgelse
+
+[IDD_STOCKTRANSACTION]
+IDC_TOTALTEXT=Total
+IDHELP=Hjælp
+IDC_ACCOUNTTEXT=Konto
+IDC_DATETEXT=Dato
+IDCANCEL=Fortryd
+IDC_INVESTMENTTEXT=Investering
+IDC_PRICETEXT=Pris
+ADD=Nye aktier
+REMOVE=Slet aktier
+DIVIDEND=Udbytte
+IDC_DIVIDENDTEXT=Udbytte
+SELL=Sælge
+BUY=Købe
+IDC_NUMBERTEXT=Antal Aktier
+IDC_ACTIONTEXT=Aktion
+TITLE=Investerings Transaktion
+IDC_COMMISSIONTEXT=Kommission
+REINVEST=Geninvestering af udbytte
+ERR_INVALIDINVESTMENT=Ugyldig investering!
+ERR_INVALIDACCOUNT=Ugyldig konto!
+IDC_COMMENTTEXT=Kommentar
+ERR_NEGATIVEVALUES=Antal aktier, pris per aktie, udbytte, provisioner og i alt skal være positivt!
+ERR_INCONSISTENTCURRENCY=Valuta til den valgte konto skal matche investeringens valuta!
+
+[IDD_PRINTPREVIEW]
+IDC_PAGETEXT=Side
+IDHELP=Hjælp
+TITLE=Vis udskrift
+IDC_PRINT=Udskrift
+IDC_CLOSE=Luk
+IDC_PAGEPROPERTIES=Sideopsætning...
+IDC_PREVIOUSPAGE=<< Forrige
+IDC_NEXTPAGE=Næste >>
+IDC_ZOOMIN=Zoom ind
+IDC_ZOOMOUT=Zoom ud
+IDC_PAGEOFTEXT=af
+
+[MENU]
+ID_FILE=Fil
+ID_FILE_NEW=Ny
+ID_FILE_SAVE=Gem
+ID_FILE_SAVE_AS=Gem som...
+ID_FILE_IMPORT=Importer...
+ID_FILE_EXPORT=Exporter...
+ID_FILE_PRINT=Udskriv...
+ID_FILE_PRINT_PREVIEW=Vis udskrift...
+ID_EDIT=Ret
+ID_EDIT_DELETE=Slet
+ID_EDIT_INSERT=Tilføj
+ID_EDIT_SELECTALL=Vælg alle
+ID_EDIT_PROPERTIES=Egenskaber...
+ID_VIEW=Vis
+ID_VIEW_ACCOUNTS=Konti
+ID_ACCOUNTS=Konti
+ID_VIEW_BANKS=Banker
+ID_VIEW_PAYEES=Modtagere
+ID_VIEW_CATEGORIES=Kategorier og Budget
+ID_VIEW_SCHEDULE=Tidsplan
+ID_VIEW_REPORTS=Rapporter
+ID_REPORTS=Rapporter
+ID_ACCOUNTS_ADD=Ny Konto...
+ID_ACCOUNTS_TYPE=Konto typer...
+ID_REPORTS_ORGANIZE=Organiser...
+ID_TOOLS=Værktøj
+ID_TOOLS_CURRENCY=Valutakurser...
+ID_TOOLS_OPTIONS=Valg...
+ID_TOOLS_COLORS=Skrifttype og Farver...
+ID_TOOLS_LANGUAGE=Sprog...
+ID_HELP=Hjælp
+ID_HELP_TOPICS=Emner
+ID_HELP_HOMEPAGE=AceMoney's hjemmeside...
+ID_HELP_WHATSNEW=Nyheder...
+ID_HELP_REGISTER=Registrere AceMoney...
+ID_HELP_ORDER=Bestil AceMoney...
+ID_HELP_ABOUT=Om...
+ID_FILE_OPEN=Åben...
+ID_REPORTS_ADD=Tilføj til favoritterme
+ID_VIEW_PORTFOLIO=Portefølje
+ID_HELP_SUPPORT=Teknisk support...
+ID_EDIT_COPY=Kopier
+ID_EDIT_ADDTOSCHEDULE=Tilføj til fast betaling...
+ID_TOOLS_RESTORE=Gendan...
+ID_TOOLS_CALCULATOR=Lommeregner...
+ID_TOOLS_CALCULATOR_LOAN=Låne-beregner...
+ID_TOOLS_CALCULATOR_SAVINGS=Opsparings-beregner...
+ID_TOOLS_INTERNATIONAL=Internationale indstillinger...
+ID_HELP_CHECK_FOR_UPDATES=Check for opdateringer...
+ID_EDIT_PASTE=Indsæt
+ID_TOOLS_BACKUP=Backup...
+ID_TOOLS_IMPORT_RULES=Importregler...
+ID_APP_EXIT=Afslut
+ID_TOOLS_CALCULATOR_MORTGAGE=Pant-beregner...
+ID_FILE_ARCHIVE=Arkivér ...
+ADD=Tilføj
+ID_TOOLS_TRANSACTION_CATEGORY_LIST=Transaktionsmærkater...
+
+[TOOLBAR]
+ID_FILE_NEW=Ny
+ID_FILE_SAVE=Gem
+ID_VIEW_ACCOUNTS=Konti
+ID_VIEW_BANKS=Banker
+ID_VIEW_PAYEES=Modtagere
+ID_VIEW_REPORTS=Rapporter
+ID_FILE_OPEN=Åben
+ID_VIEW_BACK=Forrige
+ID_VIEW_FORWARD=Næste
+ID_VIEW_HOME=Første
+ID_VIEW_CATEGORIES=Kategorier
+ID_VIEW_SCHEDULE=Tidsplan
+ID_HELP_HOMEPAGE=Hjemmeside
+ID_VIEW_PORTFOLIO=Portefølje
+
+[IDD_FORMCATEGORYLIST]
+IDC_IMPORT=Importer...
+ID_EDIT_OPEN=Ret
+ID_EDIT_DELETE=Slet
+IDHELP=Hjælp
+COLUMN0=Kategori
+COLUMN2=Kommentar
+COLUMN3=Kommentar
+DELETECONFIRMATION=Er du sikker?
+IDC_ADD=Ny kategori...
+IDC_EDIT=Ret kategori
+IDC_DELETE=Slet kategori
+IDC_DELETEUNUSED=Slet ubrugte...
+IDC_REPORT=Kategori rapport
+IDC_MERGE=Sammenlægge...
+COLUMN0a=Kode
+COLUMN1=Budgetteret
+COLUMN1a=Indkomst
+COLUMN2a=Udgift
+ID_EDIT_INSERT=Ny...
+TOTALINCOME=Årlig indtægt:
+TOTALEXPENSE=Årlig udgift:
+CANTBEDELETED=En af transaktionerne bruger denne kategori. Kategorien kan ikke slettes.
+PARENTCANTBEDELETED=Dette er hovedkategorien for en eller flere andre kategorier. Hvis du vil slette den må du først slette dens underkategorier.
+DELETEUNUSED=Denne kommando vil slette alle kategori, der ikke er henvist til ved transaktioner. Fortsæt alligevel?
+IDC_BUDGETREPORT=Budget Rapport
+IDC_BUDGET=Budget Tilstand...
+COLUMN2c=Periode
+MONTHLY_INCOME=Månedlig indtægt:
+MONTHLY_TOTAL=I alt pr. måned
+ANNUAL_TOTAL=I alt - årligt
+MONTHLY_EXPENSE=Månedlig udgift:
+COLUMN4=Månedligt budget
+
+[IDD_FORMBANKLIST]
+ID_EDIT_OPEN=Ret
+ID_EDIT_DELETE=Slet
+IDHELP=Hjælp
+COLUMN3=Kommentar
+IDC_ADD=Ny bank...
+IDC_EDIT=Ret bank info
+IDC_DELETE=Slet bank
+IDC_DELETEUNUSED=Slet ubrugte
+COLUMN0=Bankens navn
+COLUMN1=Adresse
+COLUMN2=Hjemmeside
+DELETECONFIRMATION=Er du sikker?
+ID_EDIT_INSERT=Ny bank...
+CANTBEDELETED=En af dine konti tilhører denne bank. Denne bank kan ikke slettes.
+DELETEUNUSED=Dette vil slette alle banker der ikke er tilhører dine konti! Forsæt?
+IDC_IMPORT=Import...
+COLUMN4=Telefon
+
+[IDD_FORMPAYEELIST]
+ID_EDIT_OPEN=Ret
+ID_EDIT_DELETE=Slet
+IDHELP=Hjælp
+COLUMN2=Kommentar
+COLUMN0=Navn
+DELETECONFIRMATION=Er du sikker?
+IDC_DELETEUNUSED=Slet ubrugt
+COLUMN1=Adresse
+IDC_ADD=Ny Modtager...
+IDC_EDIT=Ret modtager
+IDC_DELETE=Slet modtager
+IDC_REPORT=Rapportere efter modtager
+IDC_MERGE=Sammensæt...
+ID_EDIT_INSERT=Ny...
+DELETEUNUSED=Dette vil slette all modtagere, der ikke er henvist til ved en transaktion. Fortsæt alligevel?
+CANTBEDELETED=En af transaktionerne bruger denne modtager. Modtageren kan ikke slettes.
+COLUMN3=Telefon
+ID_PAYEE_ACTIVATE=Aktivér
+ID_PAYEE_DEACTIVATE=Deaktivér
+IDC_HIDE_INACTIVE=Skjul inaktive modtagere
+
+[IDD_SPLIT]
+IDC_EDIT=Ret
+IDC_DELETE=Slet
+IDHELP=Hjælp
+IDC_CATEGORYTEXT=Kategori
+COLUMN0=Kategori
+IDC_AMOUNTTEXT=Beløb
+COLUMN2=Beløb
+IDC_COMMENTTEXT=Kommentar
+COLUMN3=Kommentar
+IDCANCEL=Fortryd
+IDC_TOTALTEXT=I alt:
+IDC_ADD=Ny
+IDC_UNASSIGNEDTEXT=Ikke tildelt:
+ERR_BADTOTAL=Sum af opdelte beløb er ikke lig med transaktions beløbet. Vil du have transaktionsbeløbet ændret?
+IDC_SUBCATEGORYTEXT=Underkategori
+COLUMN1=Underkategori
+TITLE=Opdelt efter kategorier
+
+[IDD_FORMSCHEDULE]
+ID_EDIT_DELETE=Slet
+IDHELP=Hjælp
+COLUMN2=Modtager
+COLUMN0=Dato
+COLUMN1=Transaktion
+COLUMN3=Beløb
+COLUMN4=Kommentar
+ID_EDIT_PROPERTIES=Egenskaber
+DELETECONFIRMATION=Er du sikker?
+IDC_ADD=Ny Regning...
+IDC_EDIT=Ret Regning
+IDC_DELETE=Slet Regning
+IDC_TABLE=Tabel
+IDC_ENTER=Retur for at registrere
+IDC_CALENDAR=Kalender
+ID_EDIT_OPEN=Retur
+ID_EDIT_INSERT=Ny...
+ID_EDIT_COPY=Kopiér
+ID_EDIT_PASTE=Indsæt
+COLUMN5=Hyppighed
+COLUMN6=Kategori
+COLUMN7=Automatisk
+IDC_SKIP=Spring regning over
+CHANGE_OF_ACCOUNT=Ønsker du at bruge en anden konto for alle fremtidige forekomster af denne regning?
+CHANGE_OF_AMOUNT=Ønsker du at bruge et andet beløb for alle fremtidige forekomster af denne regning?
+
+[IDD_ACCOUNTTYPELIST]
+IDC_DELETE=Slet
+IDCANCEL=Fortryd
+IDC_EDIT=Opdatér...
+TITLE=Kontogrupper
+IDC_ADD=Ny...
+ERR_CANTDELETE=Denne gruppe er benyttet af en af kontiene!
+
+[IDD_REPORTORGANIZE]
+IDC_DELETE=Slet
+TITLE=Organiser rapporterne
+IDCANCEL=Luk
+IDOK=Tilføj
+
+[IDD_COLORS]
+IDC_BANKTEXT=Banker
+IDC_PAYEETEXT=Modtagere
+IDC_REPORTTEXT=Rapporter
+IDCANCEL=Fortryd
+IDC_SCHEDULETEXT=Tidsplan
+IDC_CATEGORYTEXT=Kategorier
+IDC_PORTFOLIOTEXT=Portefølje
+TITLE=Skrifttype og Farver
+IDC_ACCOUNTLISTTEXT=Liste af konti
+IDC_ACCOUNTTEXT=Kontoregisteret
+IDC_LISTFONTTEXT=Vis skrifttype
+IDC_RESTORE=Standard
+IDC_TABLEFONTCOLORTEXT=Tabellernes tekstfarve
+IDC_TABLEBILLFONTCOLORTEXT=Fremtidige regningers farve
+IDC_TABLEBACKGROUNDTEXT1=Tabellernes baggrundsfarve 1
+IDC_TABLEBACKGROUNDTEXT2=Tabellernes baggrundsfarve 2
+
+[IDD_ACCOUNT]
+IDHELP=Hjælp
+TITLE=Konto
+IDC_COMMENTTEXT=Kommentar
+IDCANCEL=Fortryd
+IDC_NAMETEXT=Navn
+IDC_NUMBERTEXT=Nummer
+IDC_BANKTEXT=Bank Navn
+IDC_BALANCETEXT=Start balance
+IDC_CURRENCYTEXT=Valuta
+IDC_CLOSED=Denne konto er lukket
+ERR_NOACCOUNTNAME=En konto må have et navn!
+ERR_NOACCOUNTTYPE=En konto må have en type!
+IDC_TYPETEXT=Gruppe
+ERR_NOCURRENCY=En konto skal have en valuta!
+IDC_EDITBANK=Rediger...
+ERR_EMPTYBANKNAME=Indtast venligst eller vælg navnet på banken først!
+
+[IDD_BACKUP]
+IDHELP=Hjælp
+IDCANCEL=Fortryd
+IDC_LASTBACKUPTEXT=Sidste backup
+IDC_FREQUENCYTEXT=Interval
+IDC_BACKUP=Backup nu!
+IDC_AUTOMATIC=Backup automatisk
+IDC_EVERYDAY=Hver dag
+IDC_EVERYWEEK=Hver uge
+IDC_EVERYOTHERWEEK=Hveranden uge
+IDC_DIRECTORYTEXT=Mappe
+ERR_COPYFILE=En fejl opstod under backup! Måske er disketten ikke i drevet.
+ERR_BACKUPTIME=Det er tid til at lave en backup. Fortsæt?
+ERR_NEWFILE=Filen må gemmes før en backup tages!
+ERR_INVALIDDIR=En gyldig sti skal indtastes!
+ERR_COPYFILE_RESTORE=Der opstod en fejl under gendannelsen! Muligvis er disken ikke i drevet.
+IDC_ENABLEBACKUP=Aktivér backup
+SELECT_FILE_TO_RESTORE=Vælg en fil at gendanne
+SELECT_RESTORE_DIR=Hvor ønsker du at gemme filen?
+OPEN_RESTORED_FILE=Ønsker du at åbne den gendannede fil?
+IDC_ADD_DATE_TO_BACKUP_FILE=Tilføj en dato til backup-filens navn
+
+[IDD_BALANCE]
+IDHELP=Hjælp
+IDCANCEL=Fortryd
+IDC_SELECTALL=Vælg alle
+TITLE=Balance Account
+IDC_CLEAREDDEPOSITS=Godkendte indbetalinger
+IDC_CLEAREDWITHDRAWALS=Godkendte udbetalinger
+IDC_RECONCILEDTEXT=Forrige opgørelsesbalance
+IDC_CLEAREDTEXT=Nuværende opgørelsesbalance
+IDC_UNCLEAREDTEXT=Udestående balance
+IDC_DESELECTALL=Fravælge alle
+IDC_NEWTRANSACTION=Ny...
+
+[IDD_BANK]
+IDHELP=Hjælp
+IDC_COMMENTTEXT=Kommentar
+IDCANCEL=Fortryd
+IDC_NAMETEXT=Navn
+IDC_ADDRESSTEXT=Adresse
+IDC_WEBSITETEXT=Hjemmeside
+IDC_BANKNUMBERTEXT=Bank nummer
+ERR_NOBANKNAME=Banken skal have et navn!
+IDC_TRANSFERCODETEXT=Transfer code
+IDC_PHONETEXT=Telefon
+IDC_OPEN=Åbn
+
+[IDD_BILL]
+IDHELP=Hjælp
+TITLE=Regning/Indbetaling
+IDC_DEPOSIT=Indbetalt
+IDC_ACCOUNTTEXT=Konto
+IDC_PAYEETEXT=Modtager
+IDC_CATEGORYTEXT=Kategori
+IDC_SPLIT=Opdele
+IDC_AMOUNTTEXT=Beløb
+IDC_COMMENTTEXT=Kommentar
+IDC_TRANSACTIONGROUP=Transaktion
+IDCANCEL=Fortryd
+IDC_TRANSFER=Overføre
+IDC_ENTER=Tilføje til konto
+IDC_ONCE=En gang
+IDC_DAILY=Daglig
+IDC_WEEKLY=Ugelig
+IDC_EVERYOTHERWEEK=Hveranden uge
+IDC_TWICEAMONTH=To gange om måneden
+IDC_EVERYFOURWEEKS=Hver 4. uge
+IDC_MONTHLY=Månedlig
+IDC_EVERYOTHERMONTH=Hveranden måned
+IDC_QUARTERLY=Hvert kvartal
+IDC_EVERYSIXMONTHS=Hver 6. måned
+IDC_ANNUALLY=Hvert år
+IDC_STARTDATETEXT=Start dato
+IDC_AUTOMATIC=Tilføj regning automatisk
+ERR_INVALIDACCOUNT=Fejlagtig konto navn!
+IDC_WITHDRAWAL=Udbetalt
+IDC_FREQUENCYGROUP=Frekvens
+IDC_EVERYFOURMONTHS=Hver 4. måned
+IDC_NUMBERTEXT=Antal betalinger
+BILLTYPE_CONTINUOUS=Fortløbende
+BILLTYPE_NUMBERED=Nummererede
+IDC_CHECK_NUMBER_TEXT=Nummer
+ERR_INVALIDNUMBER=Antallet af betalinger kan ikke være mindre end 1!
+IDC_BILLTYPETEXT=Regningstype
+
+[IDD_BUDGET]
+IDHELP=Hjælp
+IDCANCEL=Fortryd
+IDC_EVERYFOURWEEKS=Hver 4. uge
+IDC_STARTDATETEXT=Start på den første periode:
+IDC_FREQUENCYTEXT=Budget periode:
+IDC_WEEKLY=En uge
+IDC_EVERYOTHERWEEK=To uger
+IDC_TWICEAMONTH=Halv måned
+IDC_MONTHLY=En måned
+IDC_EVERYOTHERMONTH=To måneder
+IDC_QUARTERLY=Kvartal (tre måneder)
+IDC_ANNUALLY=Et år
+
+[IDD_CATEGORY]
+IDHELP=Hjælp
+TITLE=Kategori
+IDC_NAMETEXT=Kategori
+IDC_COMMENTTEXT=Kommentar
+IDCANCEL=Fortryd
+IDC_NUMBERTEXT=Nummer
+IDC_BUDGETTEXT=Budgetteret
+IDC_INCOME=Indtægter
+IDC_EXPENSE=Udgift
+IDC_SUBNAMETEXT=Underkategori
+ERR_NOCATNAME=Kategorier skal have et navn!
+ERR_CATEXIST=Eksisterende kategori med det samme navn er allerede brugt!
+IDC_BUDGETPERIODTEXT=Budgetperiode
+PERIOD_ONE_WEEK=En uge
+PERIOD_TWO_WEEKS=To uger
+PERIOD_HALF_MONTH=Halv måned
+PERIOD_ONE_MONTH=En måned
+PERIOD_TWO_MONTHS=To måneder
+PERIOD_THREE_MONTHS=Tre måneder
+PERIOD_FOUR_MONTHS=Fire måneder
+PERIOD_SIX_MONTHS=Seks måneder
+PERIOD_NINE_MONTHS=Ni måneder
+PERIOD_ONE_YEAR=Et år
+TAB_MONTHLY_BUDGET=Månedligt budget
+IDC_INCOME_LIMIT_TEXT=Indkomstgrænse
+IDC_EXPENSE_LIMIT_TEXT=Udgiftsgrænse
+IDC_ADD=Tilføj...
+IDC_UPDATE=Opdatér...
+IDC_DELETE=Slet
+MONTH_COLUMN=Måned
+LIMIT_COLUMN=Grænse
+
+[IDD_CATEGORYMERGE]
+IDHELP=Hjælp
+IDCANCEL=Fortryd
+TITLE=Kategori Sammensætning
+IDC_CATEGORYTEXT=Sammensæt kategori
+IDC_CATEGORYTEXT1=med kategori
+ERR_SOURCECATEGORY=Kilde kategori må have underkategorier!
+ERR_NOCATEGORIES=Begge eksisterende kategorier må vælges og være forskellige!
+ERR_TARGETCATEGORY=Den tilsigtet kategori kan ikke være en underkategori af hovedkategorien!
+
+[IDD_CURRENCY]
+IDHELP=Hjælp
+COLUMN2=Dato
+IDOK=Luk
+TITLE=Valutakurser
+IDC_SHOWALL=Vis alle valutaerne
+IDC_CURRENCYINFO=Standard valuta: %s
+IDC_UPDATE=Opdatér kursen
+COLUMN0=Valuta
+COLUMN1=Kurs til
+IDC_DOWNLOAD=Download...
+ERR_WEBUPDATE=Valutakurs web opdateringsfejl! Check din Internet forbindelse!
+ERR_INVALIDRATE=Fejlagtig kurs var modtaget!
+COLUMN3=i
+
+[IDD_DATESRANGE]
+IDHELP=Hjælp
+IDCANCEL=Fortryd
+CURRENT=Nuværende
+IDC_FROMTEXT=Fra
+IDC_TOTEXT=Til
+TITLE=Vælg periode
+IDC_BUDGETDATES=Budget perioder:
+IDC_CUSTOMDATES=Valgte datoer:
+CUSTOM=Specielt
+PREVIOUSWEEK=Forrige uge
+LAST30DAYS=Sidste 30 dage
+CURRENTMONTH=Aktuelle måned
+PREVIOUSMONTH=Forrige måned
+CURRENTQUARTER=Aktuelle kvartal
+PREVIOUSQUARTER=Forrige kvartal
+CURRENTYEAR=Aktuelle år
+PREVIOUSYEAR=Forrige år
+CURRENTWEEK=Aktuelle uge
+IDC_PERIODSTEXT=Foruddefinerede perioder
+LAST12MONTHS=Sidste 12 måneder
+MONTH_TO_DATE=Måned til dato
+QUARTER_TO_DATE=Kvartal til dato
+YEAR_TO_DATE=År til dato
+ALL_DATES=Alle datoer
+ALL_TO_DATE=Alle til dato
+
+[IDD_FILTERACCOUNT]
+IDHELP=Hjælp
+IDCANCEL=Fortryd
+TITLE=Vælg konto
+IDC_SELECTALL=Vælg alle
+IDC_CLEARALL=Slet alle
+IDC_SELECT_OPEN=Vælg åbn
+
+[IDD_FILTERCATEGORY]
+IDHELP=Hjælp
+IDCANCEL=Fortryd
+TITLE=Vælg kategorier
+IDC_SELECTALL=Vælg alle
+IDC_CLEARALL=Slet alle
+
+[IDD_FILTERPAYEE]
+IDHELP=Hjælp
+IDCANCEL=Fortryd
+IDC_SELECTALL=Vælg alle
+IDC_CLEARALL=Slet alle
+TITLE=Vælg modtagere
+
+[IDD_IMPORT]
+IDHELP=Hjælp
+IDCANCEL=Fortryd
+TITLE=Import
+EXPORTTITLE=Exporter
+IMPORTTEXT=%d transaktioner importeret
+EXPORTTEXT=Vælg en konto til at eksportere
+ERR_NOACCOUNT=Du skal vælge en konto!
+IDC_DATEFORMATTEXT=Datoformat
+IDC_IMPORT_RULES=Importregler
+IDC_NEWACCOUNT=Ny konto...
+ERR_NO_TRANSACTIONS=Filen indeholder ingen transaktioner.
+IDC_IMPORTTEXT=Vælg en konto til de importerede transaktioner
+IDC_DETECT_DUPLICATES=Slet dubletter
+ERR_PARSING=Filen kan ikke importeres. Den er misdannet eller overholder ikke standarderne.
+ERR_TRANSACTIONS_FOR_MANY_ACCOUNTS=Filen indeholder transaktioner for mere end en konto og kan ikke importeres.
+STATUS_IMPORTING_TRANSACTIONS=Importerer transaktioner...
+STATUS_IMPORTING_BILLS=Importerer regninger og indlån...
+STATUS_IMPORTING_ACCOUNTS=Importerer konto...
+STATUS_IMPORTING_CATEGORIES=Importerer kategorier...
+STATUS_IMPORTING_INVESTMENTS=Importerer investeringer...
+STATUS_IMPORTING_HISTORICAL_PRICES=Importerer historiske aktiekurser...
+STATUS_READING_FILE=Læser filen...
+IDC_DECIMALSEPARATORTEXT=Decimaladskiller
+IDC_APPLY_IMPORT_RULES=Anvend importregler
+INFO_AUTOMATICALLY_CREATED_ACCOUNTS=AceMoney kunne ikke matche alle konti efter deres numre og oprettede følgende konto/konti:
+STATUS_PARSING_FILE=Analyserer filen...
+
+[IDD_OPTIONS]
+IDHELP=Hjælp
+IDCANCEL=Fortryd
+IDC_GENERALGROUP=Generelt
+IDC_DATETEXT=Dato format
+IDC_DATESEPARATORTEXT=Dato tegn
+IDC_SHOWCLOSEDACCOUNTS=Vis lukkede konti
+IDC_SHOWGRID=Vis tabel
+IDC_ACCOUNTLIST=Liste af konti
+IDC_FAVORITEACCOUNT=Favoritkonto
+IDC_OLDPASSTEXT=Nuværende password
+IDC_NEWPASSTEXT=Nyt adgangskode
+IDC_RETYPETEXT=Genskriv ny adgangskode
+IDC_DECIMALSEPARATORTEXT=Decimal tegn
+IDC_THOUSANDSEPARATORTEXT=Tusind tegn
+IDC_STARTPAGEGROUP=Første side
+IDC_SHOWFUTUREBILLS=Vis fremtidige regninger
+IDC_AUTOSAVE=Auto gem fil
+IDC_SHOWSPLASHSCREEN=Vis splash billede
+IDC_SHOWFILENAME=Vis fil navn i titlen
+IDC_CURRENCYTEXT=Standard valuta
+IDC_SHOWCOMMENT=Vis transaktionskommentarer
+IDC_LOADLASTFILE=Indlæs sidste fil ved start
+IDC_TRANSACTIONTYPETEXT=Ny transaktionstype
+LASTUSEDTYPE=Sidst brugte type
+ERR_INVALIDOLDPASSWORD=Forkert gammel adgangskode!
+ERR_INVALIDNEWPASSWORD=Forkert ny adgangskode!
+TITLE=Valg
+ERR_THOUSANDDECIMAL=Decimal tegn og tusind separator kan ikke være det samme!
+ERR_THOUSAND=Forkert tusind separator!
+IDC_SHOWSOLDSTOCKS=Vis solgte aktier
+IDC_NETWORK=Netværk...
+IDC_SHOWACCOUNTNUMBERS=Vis kontonumre
+NUMBER_EMPTY=Tom
+IDC_TRANSACTIONNUMBERTEXT=Nyt transaktionsnummer
+0_MONTHS_AHEAD=Ingen
+1_MONTHS_AHEAD=1 måned frem
+2_MONTHS_AHEAD=2 måneder frem
+3_MONTHS_AHEAD=3 måneder frem
+4_MONTHS_AHEAD=4 måneder frem
+5_MONTHS_AHEAD=5 måneder frem
+6_MONTHS_AHEAD=6 måneder frem
+7_MONTHS_AHEAD=7 måneder frem
+8_MONTHS_AHEAD=8 måneder frem 
+9_MONTHS_AHEAD=9 måneder frem
+10_MONTHS_AHEAD=10 måneder frem
+11_MONTHS_AHEAD=11 måneder frem
+12_MONTHS_AHEAD=12 måneder frem
+IDC_NUMBEROFFUTUREBILLSMONTHSTEXT=Vis fremtidige regninger 
+IDC_CONFIRM_DELETE_TRANSACTION=Bekræft sletning af transaktion
+18_MONTHS_AHEAD=18 måneder frem
+24_MONTHS_AHEAD=To år frem
+IDC_SORTSAMEDAYTRANSACTIONSBYNUMBER=Sorter transaktioner fra samme dag efter nummer
+IDC_CHECKFORUPDATES=Tjek programopdateringer
+IDC_CONFIRM_DELETE_BILL=Bekræft sletning af regning
+IDC_PASSWORDGROUP=Adgangskode...
+IDC_AUTOFILLTRANSACTIONCOMMENTS=Udfyld transaktionskommenterer automatisk
+IDC_CONFIRM_BILL_AMOUNT_CHANGE=Bekræft ændring af beløb på regning
+IDC_CONFIRM_BILL_ACCOUNT_CHANGE=Bekræft ændring af konto på regning
+IDC_SHOWDUPLICATECHECKWARNING=Vis advarsel ved tjek af duplet
+IDC_TRANSFERSTATUS=Skift overførselsstatus på begge konti
+IDC_SHOWCATEGORYSTATUS=Vis analyse af kategori på statuslinjen
+IDC_SHOWDEPOSITSFIRST=Indskud/-lån er de første transaktioner på dagen
+NUMBER_AUTO=Sidste kontrol plus en
+NUMBER_DEBIT=Debet
+
+[IDD_PAYEE]
+IDHELP=Hjælp
+TITLE=Modtager
+IDC_COMMENTTEXT=Kommentar
+IDCANCEL=Fortryd
+IDC_NAMETEXT=Navn
+IDC_ADDRESSTEXT=Adresse
+ERR_NOPAYEENAME=Modtagere skal have et navn!
+IDC_CITYTEXT=By
+IDC_STATETEXT=Stat
+IDC_ZIPTEXT=Postnummer
+IDC_COUNTRYTEXT=Land
+IDC_HOMEPHONETEXT=Hjemmetelefon
+IDC_WORKPHONETEXT=Arbejdstelefon
+IDC_WEBSITETEXT=Hjemmeside
+IDC_ACTIVEPAYEE=Aktiv modtager
+IDC_MOBILEPHONETEXT=Mobiltelefon
+IDC_PAGERTEXT=Personsøger
+
+[IDD_PAYEEMERGE]
+IDHELP=Hjælp
+IDCANCEL=Fortryd
+TITLE=Sammensæt modtagere
+IDC_PAYEETEXT=Sammensæt modtager
+IDC_PAYEETEXT1=med modtager
+ERR_NOPAYEES=Begge modtagere må vælges og være forskellige!
+SELECTED_PAYEES=Valgte modtagere
+
+[IDD_SPLITITEM]
+IDHELP=Hjælp
+IDC_CATEGORYTEXT=Kategori
+IDC_AMOUNTTEXT=Beløb
+IDC_COMMENTTEXT=Kommentar
+IDCANCEL=Fortryd
+TITLE=Splitte
+IDC_SUBCATEGORYTEXT=Underkategori
+
+[IDD_TRANSACTION]
+IDHELP=Hjælp
+IDC_ACCOUNTTEXT=Konto
+IDC_PAYEETEXT=Modtager
+IDC_CATEGORYTEXT=Kategori
+IDC_DEPOSIT=Indbetalt
+IDC_DATETEXT=Dato
+TITLE=Transaktion
+IDC_AMOUNTTEXT=Beløb
+IDC_COMMENTTEXT=Kommentar
+IDCANCEL=Fortryd
+IDC_TRANSFER=Overføre
+IDC_NUMBERTEXT=Nummer
+FROMTEXT=Fra
+TOTEXT=Til
+IDC_WITHDRAWAL=Udbetalt
+IDC_SPLIT=Opdelelse
+ERR_SAMETRANFER=Du kan ikke overføre til den samme konto!
+ERR_INVALIDACCOUNT=Forkert kontonavn!
+ERR_SPLITAMOUNT=Transaktionsbeløbet skal være lig med summen af de opdelte beløb!
+SPLIT=Opdel
+DEBIT=Debet
+
+[IDD_DAYBILLS]
+IDHELP=Hjælp
+COLUMN2=Modtager
+TITLE=Regninger/Indbetalinger
+COLUMN0=Dato
+COLUMN1=Transaktion
+COLUMN3=Beløb
+COLUMN4=Kommentar
+IDC_EDIT=Ret...
+IDC_ENTER=Retur...
+IDC_DELETE=Slet...
+
+[IDD_STOCK]
+IDHELP=Hjælp
+COLUMN0=Dato
+IDC_COMMENTTEXT=Kommentar
+IDCANCEL=Fortryd
+IDC_NAMETEXT=Navn
+TITLE=Investering
+IDC_WEBUPDATE=Hente...
+IDC_UPDATE=Opdatér...
+IDC_PRICETEXT=Pris historie
+COLUMN1=Pris
+IDC_CURRENCYTEXT=Valuta
+ERR_EMPTYNAME=Investeringsnavnet må ikke være tomt!
+IDC_SYMBOLTEXT=Symbol (ticker)
+CURRENCY=Valuta
+INDEX=Indeks
+STOCK=Lager
+REALESTATE=Fast ejendom
+IDC_DIVIDEBY100TEXT=Divider hentet pris/papir med 100
+BOND=Obligation
+MUTUALFUND=Investeringsforening
+TRUST=Formue
+OPTIONS=Optioner
+OTHER=Andre
+IDC_DATASOURCETEXT=Datakilde
+IDC_LOOKUP=Symbol opslag...
+COMMODITY=Varer/råvarer
+
+[IDD_STOCKPRICE]
+IDC_DATETEXT=Dato
+IDCANCEL=Fortryd
+IDC_PRICETEXT=Pris
+TITLE=Aktie Pris
+
+[IDD_ACCOUNTTYPE]
+IDCANCEL=Fortryd
+IDC_NAMETEXT=Navn
+TITLE=Kontotype
+ERR_NOACCTYPENAME=En type må have et navn!
+
+[IDD_CURRENCYEXCHANGE]
+IDCANCEL=Fortryd
+TITLE=Valutakurs
+
+[IDD_LANGUAGE]
+IDCANCEL=Fortryd
+TITLE=Vælg sprog
+
+[IDD_PASSWORD]
+IDCANCEL=Fortryd
+TITLE=Indtast adgangskode
+ERR_INVALIDPASSWORD=Forkert adgangskode!
+IDC_PASSTEXT=Adgangskode
+
+[IDD_TRANSACTIONCURRENCY]
+IDCANCEL=Fortryd
+TITLE=Vaultakurs
+IDC_SOURCEAMOUNTTEXT=Kilde beløb
+IDC_TARGETAMOUNTTEXT=Tilsigtet beløb
+
+[IDD_REPORTADD]
+IDCANCEL=Fortryd
+IDC_NAMETEXT=Navn på rapporten
+TITLE=Tilføj til favorit
+
+[IDD_LITEVERSION]
+IDOK=Luk
+IDC_TEXT=AceMoney Lite virker kun med en bruger konto. En konto nummer to can ikke oprettes og filer med flere konti kan ikke åbnes. Hvis du vil have flere konti skal du opgradere til den normale version af AceMoney.
+IDC_WEBSITE=Opgradér...
+IDCANCEL=Fortryd
+IDC_TWO_ACCOUNTS_LIMIT=AceMoney Lite fungerer kun med to brugerkonti. Den tredje konto kan ikke oprettes og filer med mere end to konto kan ikke åbnes. Hvis du har brug for at håndterer mere end to konto skal du opgradere til den regulære version af AceMoney.
+
+[IDD_ABOUT]
+TITLE=Om
+IDCANCEL=Fortryd
+
+[IDD_REGISTER]
+TITLE=Registrering
+IDC_NAMETEXT=Navn:
+IDC_SERIALNUMBERTEXT=Serienummer:
+IDC_ORDER=Køb...
+IDCANCEL=Fortryd
+
+[IDD_SHEETREPORTFILTER]
+TITLE=Rapport filter
+[IDD_ARCHIVE]
+IDCANCEL=Fortryd
+IDHELP=Hjælp
+TITLE=Opret arkiv
+IDC_DATE_TEXT=Arkivér alle transaktioner indtil
+IDC_DELETE=Slet arkiverede transaktioner fra det aktive dokument
+ERR_CREATE_ARCHIVE=Kunne ikke at oprette et arkiv!
+ERR_WRITE_ARCHIVE=Kunne ikke gemme arkivfilen!
+[IDD_CALC_LOAN]
+IDC_RATETEXT=Årlig rentesats, %
+IDC_PAYMENTTEXT=Betaling
+COLUMN1=Betaling
+COLUMN4=Lån
+IDC_AMOUNTTEXT=Beløb
+COLUMN2=Afdrag
+COLUMN3=Rente
+IDC_TOTALINTERESTTEXT=Renter i alt
+IDC_PERIODTEXT=Periode, måneder
+TITLE=Låne-beregner
+[IDD_CALC_MORTGAGE]
+COLUMN3=Skat
+IDHELP=Hjælp
+COLUMN2=Rente
+IDC_TERMTEXT=Terminer (år)
+IDC_RATETEXT=Rentesats, %
+IDC_TOTALINTERESTTEXT=Renter i alt
+IDC_TOTALMONTHSTEXT=Antal måneder
+COLUMN0=Dato
+COLUMN1=Afdrag
+COLUMN4=Forsikring
+IDC_INSURANCETEXT=Årlig ejendomsforsikring
+IDC_TAXTEXT=Årlig ejendomsskat
+IDC_VALUETEXT=Anslåede værdi
+IDC_AMOUNTTEXT=Lånebeløb
+IDC_DATETEXT=Closing date
+COLUMN6=Betaling
+COLUMN7=I alt
+IDC_REQUIREDPAYMENTTEXT=Nødvendig betaling
+TITLE=Mortgage (pant) calculator
+[IDD_CATEGORYCHANGE]
+TITLE=Ændre kategori
+IDCANCEL=Fortryd
+[IDD_DUPLICATECHECKWARNING]
+IDC_DONOTSHOW=Vis ikke denne advarsel igen
+IDYES=Ja
+IDNO=Nej
+IDC_WARNING=Checknummeret ### er allerede blevet brugt til en transaktion på denne konto. Ønsker du alligevel at bruge nummeret igen?
+[IDD_FILTERINVESTMENT]
+TITLE=Vælg investeringer
+IDC_SELECTALL=Vælg alle
+IDC_CLEARALL=Nulstil alle
+IDCANCEL=Fortryd
+IDHELP=Hjælp
+[IDD_FILTERTAG]
+IDC_SELECTALL=Vælg alle
+IDC_CLEARALL=Nulstil alle
+IDCANCEL=Fortryd
+IDHELP=Hjælp
+TITLE=Vælg tags
+[IDD_FILTERTEXT]
+TITLE=Skriv tekst
+IDCANCEL=Fortryd
+IDHELP=Hjælp
+[IDD_IMPORTRULE]
+IDCANCEL=Fortryd
+IDC_SEARCHSTRINGTEXT=Hvis beskrivelsen af importerede transaktioner indeholder
+IDC_CATEGORYTEXT=Og brug denne kategori
+IDC_PAYEETEXT=Udskift den med denne modtager
+TITLE=Importregel
+[IDD_IMPORTRULES]
+TITLE=Importregler
+COLUMN3=Kategori
+IDC_ADD=Tilføj...
+IDC_EDIT=Rediger...
+IDC_DELETE=Slet...
+IDCANCEL=Fortryd
+IDHELP=Hjælp
+COLUMN2=Modtager
+COLUMN1=Søgeord
+IDC_EXPORT=Eksport
+IDOK=Luk
+ERROR_IMPORT=Importregler import fra %s mislykkedes!
+ERROR_EXPORT=Importregler eksport til %s mislykkedes!
+[IDD_EXPORT]
+TITLE=Eksport
+IDC_EXPORTTEXT=Vælg konto som skal eksporteres
+IDC_STARTDATETEXT=Startdato
+IDC_ENDDATETEXT=Slutdato
+ERR_NOACCOUNT=Vælg venligst en konto!
+IDCANCEL=Fortryd
+[IDD_INTERNATIONALSETTINGS]
+TITLE=International indstillinger
+IDC_DATETEXT=Datoformat
+IDC_DATESEPARATORTEXT=Datoadskiller
+IDC_CURRENCYTEXT=Standard valuta
+IDC_DECIMALSEPARATORTEXT=Decimaltegn
+IDC_THOUSANDSEPARATORTEXT=Tusindadskiller
+IDC_NUMBEROFDECIMALDIGITSTEXT=Antal decimaler
+ERR_THOUSANDDECIMAL=Decimaltegn og tusindadskiller kan ikke være det samme!
+ERR_THOUSAND=Ugyldig tusindadskiller
+IDCANCEL=Fortryd
+IDHELP=Hjælp
+[IDD_NETWORK]
+TITLE=Netværksopsætning
+IDC_DIRECTCONNECTION=Direkte forbindelse til internettet
+IDC_MANUALPROXYCONFIG=Manual proxy opsætning
+IDCANCEL=Fortryd
+ERR_INVALID_PORT_NUMBER=Portnummeret skal være større end 0 og mindre end 65535!
+[IDD_PAGESETUP]
+TITLE=Sideopsætning
+IDC_ORIENTATIONBOX=Orientering:
+IDC_TITLETEXT=Titel:
+IDC_PAPERSIZETEXT=Størrelse:
+IDC_TMTEXT=Top:
+IDC_LANDSCAPE=Liggende
+IDC_BMTEXT=Bund:
+IDC_RMTEXT=Højre:
+IDC_UNITTEXT=Enheder:
+UNIT0=Millimeter
+UNIT1=Tommer
+IDCANCEL=Fortryd
+IDC_PORTRAIT=Stående
+IDC_LMTEXT=Venstre:
+[IDD_SEARCH]
+TITLE=Find transaktioner
+IDC_ACCOUNTTEXT=Konto
+IDC_DATETEXT=Dato
+IDC_TOTEXT=til
+IDC_AMOUNTTEXT=Beløb
+IDC_AMOUNTFROMTEXT=fra
+IDC_AMOUNTTOTEXT=til
+IDC_COMMENTTEXT=Tekst
+IDC_SEARCH=Søg
+IDC_CLOSE=Luk
+ALLACCOUNTS=Alle konti
+IDC_FROMTEXT=fra
+[IDD_TRANSACTIONCATEGORYLIST]
+IDC_ADD=Tilføj...
+IDC_DELETE=Slet
+IDC_EDIT=Opdatér...
+IDOK=Luk
+IDHELP=Hjælp
+UPDATE_TRANSACTIONS=Ønsker du at opdatére den eksisterende transaktion med det nye navn?
+DELETE_TRANSACTIONS=Ønsker du at rydde den slettede kategori i den eksisterende transaktion?
+TITLE=Transaktionskategorier
+[IDD_TRANSACTIONCATEGORY]
+IDC_NAMETEXT=Navn
+IDCANCEL=Fortryd
+ERR_NONAME=En transaktionskategori skal have et navn!
+TITLE=Transaktionskategori
+[IDD_STARTUP_CURRENCY]
+IDC_NEXT=Næste >>
+SEPARATOR_SPACE=Mellemrum
+IDC_EXAMPLETEXT=Eksempel
+IDC_DECIMALSEPARATORTEXT=Decimaladskiller
+IDC_THOUSANDSEPARATORTEXT=Tusindadskiller
+IDC_CURRENCYTEXT=Stanardvaluta
+IDC_NUMBEROFDECIMALSTEXT=Antal decimaler
+IDC_BACK=<< Tilbage
+SEPARATOR_NONE=Ingen adskiller
+ERR_THOUSANDDECIMAL=Decimaltegn og tusindadskiller kan ikke være det samme!
+TITLE=Valutaindstillinger
+IDCANCEL=Fortryd
+[IDD_STARTUP_DATE]
+IDC_EXAMPLETEXT=Eksempel
+IDC_BACK=<< Tilbage
+TITLE=Datoindstillinger
+IDC_SEPARATORTEXT=Adskiller
+IDC_FORMATTEXT=Datoformat
+IDCANCEL=Fortryd
+IDC_FINISH=Afslut
+[IDD_ACEMONEYREMINDER]
+CLOSE=Luk
+EXIT=Afslut
+COLUMN1=Transaktion
+SELECTFILE=Vælg din fil
+OK=OK
+CANCEL=Fortryd
+COLUMN3=Beløb
+COLUMN2=Modtager
+OPTIONS=Options...
+STARTMINIMIZED=Start minimeret
+AUTOSTART=Start automatisk med Windows
+COLUMN0=Dato
+TITLE=Påmindelse om AceMoney-regning
+MSG_NODUEBILLS=Ingen regning er forfalden til betaling / skyldige
+MSG_DUEBILLS=Regningen er skyldig / forfalden til betaling!
+[IDD_PAYEECHANGE]
+TITLE=Ændre modtager
+IDCANCEL=Fortryd
+[IDD_CALC_SAVINGS]
+COLUMN3=Rente
+IDC_TOTALINTERESTTEXT=Renter i alt
+COLUMN1=Dato
+COLUMN2=Betaling
+COLUMN4=I alt
+IDC_MONTHLYPAYMENTTEXT=Månedlig betaling
+IDC_STARTDATETEXT=Startdato
+IDC_TOTALTEXT=I alt
+IDC_PERIODTEXT=Periode, måneder
+IDC_RATETEXT=Årlig rentesats, %
+TITLE=Opsparings-beregner
+[IDD_QUESTION]
+OK=Ja
+CANCEL=Nej
+DO_NOT_ASK_AGAIN=Spørg mig ikke igen
+TITLE=Bekræftelse
+[IDD_DOWNLOADPROGRESS]
+STATUS_CONNECTING=Forbinder
+STATUS_REQUESTING=Forespørger
+STATUS_RECEIVING=Modtager
+STATUS_IMPORTING=Importerer
+IDOK=Luk
+TASK_EXCHANGERATE=Valutakurser for 
+TASK_TRANSACTIONS=Transaktioner for
+IDC_AUTO_CLOSE=Luk denne dialogboks automatisk, når download er færdig
+PROGRESS_TEXT=Færdiggjorde %1 af %2 opgaver
+STATUS_SUCCESS=%d transaktioner
+STATUS_FAILED=Mislykkedes
+TITLE=Forløb af download 
+[IDD_BUDGET_LIMIT]
+IDCANCEL=Fortryd
+IDC_MONTH_TEXT=Måned
+IDC_CATEGORY_TEXT=Kategori
+TITLE=Budgetgrænse
+IDC_INCOME_LIMIT_TEXT=Indkomstgrænse
+IDC_EXPENSE_LIMIT_TEXT=Udgiftsgrænse
+[IDD_DOWNLOADTRANSACTIONS]
+IDCANCEL=Fortryd
+IDC_DETECT_DUPLICATES=Find dupletter
+IDHELP=Hjælp
+ERROR_INVALID_ACCOUNT=Ugyldig konto!
+TITLE=Download transaktioner
+ERROR_UNKNOWN=Ukendt fejl!
+IDC_ENABLE_LOGGING=Aktivér logging
+ERROR_CONNECT=Ingen forbindelse til bankens server. Serveren er evt. nede. Prøv igen senere.
+ERROR_STATEMENT=Fejl ved download af kontoudtog
+ERROR_ACCOUNTINFO=Fejl ved hentning af kontooplysninger!
+ERROR_AUTHENTICATION=Ugyldig Bruger ID / adgangskode!
+ERROR_INVALID_RESPONSE=Ugyldigt svar fra bankserver!
+ERROR_SEND=Kan ikke sende anmodning om download til banken!
+ERROR_INVALID_CONFIG=Ugyldige udbyderindstillinger. Du skal ændre dem i konto- og bankoplysninger..
+ERROR_MISSING_CONFIG=Konfigurationen af den direkte forbindelse ufuldstændig: Mangler udbyder, Bruger ID, kodeord eller kontonummer! Disse oplysninger kan skrives under Egenskaber for kontoen.
+ERROR_IMPORT=Fejl ved import af downloadede transaktioner til kontoen!
+[IDD_ONLINESERVICE]
+IDCANCEL=Fortryd
+IDHELP=Hjælp
+PROVIDER_TYPE_CREDITCARD=Kreditkort
+IDC_ENABLE=Download transaktioner for denne konto
+IDC_CONNECTASTEXT=Forbind som 
+PROVIDER_TYPE_BROKERAGE=Kurtage
+IDC_PROVIDERTEXT=Online service udbyder
+IDC_PASSWORDTEXT=Adgangskode
+IDC_USERIDTEXT=Bruger ID
+[DIRECTCONNECT]
+CONNECTING=Forbinder
+RECEIVING=Modtager data
+REQUESTING=Forespørger information
+IMPORTING=Importerer transaktioner
+DOWNLOADED=Downloadede %d transaktioner
+[IDD_ERROR]
+TITLE=Fejl
+ERROR=Fejl
+CLOSE=Luk
+DESCRIPTION=Beskrivelse

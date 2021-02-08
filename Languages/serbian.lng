@@ -1,0 +1,874 @@
+ProgramID=AceMoney
+Language=Serbian
+
+[MAIN]
+CATEGORIES=categories_ser.dat
+ACCOUNTTYPES=accounttypes_ser.dat
+BANKS=banks_ser.dat
+
+CURRENCY=RSD
+DECIMALS=2
+DECIMALSEPARATOR=,
+THOUSANDSEPARATOR=.
+DATEFORMAT=DDMMYYYY
+DATESEPARATOR=.
+
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+
+STATUS=Status
+TRANSFER=Trasfer
+DEPOSIT=Prihod
+WITHDRAWAL=Rashod
+TO=Prema
+FROM=Od
+TOTAL=Ukupno
+CLEAREDTOTAL=Ukupno obraèunato
+TODAYTEXT=Danas je...
+PAGE=Strana
+UNASSIGNED=(nije pridruženo)
+SAVEMODIFIED=Snimiti promene?
+REPLACEMENTS=Izmene
+RECONCILEDTOTAL=Ukupno izmireno
+UNCLEAREDTOTAL=Ukupno neobraèunato
+INVALIDNUMBER=Pogrešan format broja!
+
+[MENU]
+ID_FILE=Datoteka
+ID_FILE_NEW=Novo
+ID_FILE_OPEN=Otvori
+ID_FILE_SAVE=Snimi
+ID_FILE_SAVE_AS=Snimi kao...
+ID_FILE_IMPORT=Uvezi (qif,qfx...)
+ID_FILE_EXPORT=Izvezi (html,txt...)
+ID_FILE_PRINT=Štampaj...
+ID_FILE_ARCHIVE=Arhiviraj...
+ID_FILE_PRINTPREVIEW=Pregled pre štampe...
+ID_APP_EXIT=Izlaz
+ID_REPORTS=Izveštaji
+ID_REPORTS_ADD=Dodaj izveštaj...
+ID_REPORTS_ORGANIZE=Organizuj...
+ID_EDIT=Uredi
+ID_EDIT_DELETE=Briši
+ID_EDIT_COPY=Kopiraj
+ID_EDIT_PASTE=Nalepi
+ID_EDIT_ADDTOSCHEDULE=Dodaj u zakazano...
+ID_EDIT_FIND=Pronadji...
+ID_EDIT_INSERT=Insertuj
+ID_EDIT_SELECTALL=Selektuj sve
+ID_EDIT_PROPERTIES=Svojstva
+ID_VIEW=Pregled
+ID_VIEW_ACCOUNTS=Raèuni
+ID_VIEW_BANKS=Banke
+ID_VIEW_PAYEES=Korisnici
+ID_VIEW_CATEGORIES=Kategorije
+ID_VIEW_SCHEDULE=Zakazano
+ID_VIEW_REPORTS=Izveštaji
+ID_VIEW_PORTFOLIO=Investicije
+ID_ACCOUNTS=Racuni
+ID_ACCOUNTS_ADD=Dodaj raèun
+ID_ACCOUNTS_TYPE=Tip raèuna
+ID_TOOLS=Alati
+ID_TOOLS_CURRENCY=Odaberi valutu...
+ID_TOOLS_INTERNATIONAL=Regionalna podešavanja
+ID_TOOLS_OPTIONS=Opcije...
+ID_TOOLS_LANGUAGE=Odaberi jezik...
+ID_TOOLS_CALCULATOR=Kalkulator...
+ID_TOOLS_CALCULATOR_LOAN=Kalkulator zajmova...
+ID_TOOLS_CALCULATOR_SAVINGS=Kalkulator štednje...
+ID_TOOLS_CALCULATOR_MORTGAGE=Kalkulator hipoteka...
+ID_TOOLS_TRANSACTION_CATEGORY_LIST=Transakcione šifre...
+ID_TOOLS_IMPORT_RULES=Uvezi pravilo...
+ID_TOOLS_RESTORE=Obnovi...
+ID_TOOLS_BACKUP=Rezervna kopija...
+ID_TOOLS_BUDGET=Budžet...
+ID_HELP=Pomoæ
+ID_HELP_TOPICS=Teme
+ID_HELP_HOMEPAGE=Web stranica...
+ID_HELP_WHATSNEW=Šta je novo...
+ID_HELP_SUPPORT=Podrška
+ID_HELP_TUTORIAL=Online uputstva
+ID_HELP_REGISTER=Registruj AceMoney...
+ID_HELP_ORDER=Naruèi AceMoney...
+ID_HELP_ABOUT=O Programu...
+ID_FILE_PRINT_PREVIEW=Pregled pre štampe...
+ID_TOOLS_COLORS=Boje i font...
+
+[TOOLBAR]
+ID_FILE_NEW=Nova datoteka
+ID_FILE_OPEN=Otvori datoteku
+ID_FILE_SAVE=Snimi datoteku
+ID_VIEW_ACCOUNTS=Raèuni
+ID_VIEW_BANKS=Banke
+ID_VIEW_PAYEES=Partneri
+ID_VIEW_CATEGORIES=Kategorije
+ID_VIEW_SCHEDULE=Zakazano
+ID_VIEW_REPORTS=Izveštaji
+ID_HELP_HOMEPAGE=Web stranica
+ID_VIEW_BACK=Nazad
+ID_VIEW_FORWARD=Napred
+ID_VIEW_HOME=Poèetak
+ID_VIEW_PORTFOLIO=Investicije
+
+[IDD_FORMACCOUNTLIST]
+Title=Raèuni
+IDC_ADD=Dodaj raèun
+IDC_BILLS=Plati raèun
+IDC_REPORTS=Analiziraj izveštaj
+IDC_CURRENCY=Valuta
+IDC_WEBUPDATE=WEB ažuriranje valuta
+IDHELP=Pomoæ
+ID_ACCOUNT_OPEN=Otvori
+ID_ACCOUNT_ADD=Dodaj
+ID_ACCOUNT_DELETE=Briši
+ID_ACCOUNT_EDIT=Uredi
+TOTAL=Ukupno
+LASTUPDATE=Poslednje ažuriranje
+DELETE_CONFIRMATION=Zaista želite obrisati?
+UPDATE_SUCCESS=Ažuriranje uspešno!
+UPDATE_FAILURE=Ažuriranje nije bio upešno!
+UPDATE_NOTREQUIRED=Ažuriranje nepotrebno
+
+[IDD_FORMPORTFOLIO]
+TITLE=Investicije
+IDC_BUY=Kupi...
+IDC_SELL=Prodaj...
+IDC_DIVIDEND=Dividenda...
+IDC_REINVEST=Reinvesticija dividendi...
+IDC_ADDSHARES=Dodaj...
+IDC_REMOVESHARES=Ukloni...
+IDC_NEWTRANSACTION=Nova transakcija...
+IDC_ADD=Dodaj investicije...
+IDC_EDIT=Uredi investicije...
+IDC_DELETE=Briši investicije...
+IDC_WEBUPDATE=Preuzmi cene
+IDHELP=Pomoæ
+STOCKLIST=Lista
+STOCKTRANSACTIONLIST=Transakcije
+COLUMN0=Simbol
+COLUMN1=Naziv
+COLUMN2=Poslednja cena
+COLUMN3=Kolièina
+COLUMN4=Suma
+COLUMN5=Dobitak
+TRANSACTIONSCOLUMN0=Datum
+TRANSACTIONSCOLUMN1=Kupovina/prodaja
+TRANSACTIONSCOLUMN2=Simbol
+TRANSACTIONSCOLUMN3=Raèun
+TRANSACTIONSCOLUMN4=Dividenda
+TRANSACTIONSCOLUMN5=Cena
+TRANSACTIONSCOLUMN6=Kolièina
+TRANSACTIONSCOLUMN7=Provizija
+TRANSACTIONSCOLUMN8=Ukupno
+CANTBEDELETED=Ne može se obrisati
+DELETECONFIRMATION=Potvrdite brisanje
+UPDATEISNOTREQUIRED=Ažuriranje nije potrebano
+UPDATEISNOTCOMPLETE=Ažuriranje nije kompletno
+INVESTMENTNOTCREATED=Nije investirano
+ID_EDIT_OPEN=Uredi
+ID_EDIT_INSERT=Dodaj
+ID_EDIT_DELETE=Briši
+
+[IDD_FORMACCOUNT]
+Title=Raèun
+IDC_ADD=Dodaj
+IDC_EDIT=Uredi
+IDC_DELETE=Briši
+IDC_WEBSITE=Web stranica banke
+IDC_ACCOUNT=Raèun
+IDC_BANK=Banka
+IDC_MONTHREPORT=Meseèni izveštaj
+IDC_REPORT=30-todnevni izveštaj
+IDC_HIDECLEARED=Primeni filter
+IDHELP=Pomoæ
+COLUMN0=Broj
+COLUMN1=Datum
+COLUMN2=Partner
+COLUMN3=Kategorija
+COLUMN4=St.
+COLUMN5=Rashod
+COLUMN6=Prihod
+COLUMN7=Ukupno
+COLUMN8=Napomena
+BANKISNOTASSIGNED=Nije unesena banka
+PAGEISNOTASSIGNED=Nije unesena web stranica
+STATUS=Ovoga meseca imate potrošeno %.2f u kategoriji %s
+STATUSINCOME=Ovoga meseca imate primljeno %.2f u kategoriji %s
+ID_EDIT_OPEN=Uredi
+ID_GO_TO_ACCOUNT=Idi na raèun
+ID_TRANSACTION_UNCLEARED=Neobraèunate transakcije
+ID_TRANSACTION_CLEARED=Obraèunate transakcije
+ID_TRANSACTION_RECONCILED=Izmiren raèun
+ID_EDIT_INSERT=Ubaci
+ID_EDIT_DELETE=Briši
+BILLDELETECONFIRMATION=Potvrdite bisanje
+TRANSACTIONDELETECONFIRMATION=Potvrdite brisanje
+RECONCILEDTRANSACTIONCONFIRMATION=Želite li da menjate raèun koji je veæ izmiren?
+CLEAREDTRANSACTIONCONFIRMATION=Potvrdite obraèun
+CANNOTSORTBYTOTAL=Ne možete sortirati zbir!
+STATUSINCOME=Status prihoda
+IDC_HIDERECONCILED=Sakrij izmireno
+ID_EDIT_INSERTBILL=Unesi raèun...
+IDC_BALANCE=Bilans
+
+[IDD_FORMBANKLIST]
+IDC_ADD=Dodaj
+IDC_EDIT=Uredi
+IDC_DELETE=Briši
+IDC_IMPORT=Uvezi...
+IDC_DELETEUNUSED=Briši nekorištene
+IDHELP=Pomoæ
+COLUMN0=Pun naziv banke
+COLUMN1=Adresa
+COLUMN2=Web stranica
+COLUMN3=Matièni broj i telefoni
+CANTBEDELETED=Ne može se brisati
+DELETECONFIRMATION=Potvrdite brisanje
+DELETEUNUSED=Brisanje nekorištenih
+ID_EDIT_OPEN=Uredi
+ID_EDIT_INSERT=Ubaci
+ID_EDIT_DELETE=Briši
+
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=Dodaj kategoriju
+IDC_EDIT=Uredi
+IDC_DELETE=Briši
+IDC_DELETEUNUSED=Briši nekorištene
+IDC_REPORT=Izveštaj po kategorijama
+IDC_BUDGETREPORT=Izveštaj o budžetu
+IDC_BUDGET=Podešavanje budžeta...
+IDC_IMPORT=Uvezi (*.dat)...
+IDHELP=Pomoæ
+COLUMN0=Ime kategorije
+COLUMN0a=Šifra
+COLUMN1=Budžet
+COLUMN1a=Prihod
+COLUMN2a=Rashod
+COLUMN3=Napomena
+CANTBEDELETED=Ne može se obrisati
+DELETECONFIRMATION=Potvrdite brisanje
+DELETEUNUSED=Brisanje nekorištenih
+ID_EDIT_OPEN=Uredi
+ID_EDIT_INSERT=Ubaci
+ID_EDIT_DELETE=Briši
+TOTALINCOME=Uk.prihoda:
+TOTALEXPENSE=Uk.rashoda:
+PARENTCANTBEDELETED=Morate prvo obrisati podkategorije
+IDC_MERGE=Spoji...
+
+[IDD_FORMPAYEELIST]
+IDC_ADD=Dodaj
+IDC_EDIT=Uredi
+IDC_DELETE=Briši
+IDC_DELETEUNUSED=Briši nekorišteno
+IDC_REPORT=Izveštaj
+IDHELP=Pomoæ
+COLUMN0=Ime partnera
+COLUMN1=Adresa
+COLUMN2=Ostali podaci
+COLUMN3=Telefoni
+CANTBEDELETED=Ne može se obrisati
+DELETECONFIRMATION=Potvrdite brisanje
+DELETEUNUSED=Brisanje nekorištenog
+ID_EDIT_OPEN=Uredi
+ID_EDIT_INSERT=Ubaci
+ID_EDIT_DELETE=Briši
+IDC_MERGE=Spoji...
+
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=Filtriraj po datumu
+IDC_SETDATES=Interval....
+IDC_USECATEGORYFILTER=Filtriraj po kategorijama
+IDC_SETCATEGORIES=Odaberi kategorije...
+IDC_USEPAYEEFILTER=Filtriraj po partnerima
+IDC_SETPAYEES=Odaberi Partnera...
+IDC_USEACCOUNTFILTER=Filtriraj po raèunu
+IDC_SETACCOUNTS=Odaberi raèun...
+IDC_TRANSACTIONS=Transakcije
+IDC_CATEGORY=Kategorije
+IDC_SUBCATEGORY=Izveštaj po kategorijama
+IDC_PAYEE=Izveštaj o partnerima
+IDC_BUDGET=Izveštaj o budžetu
+IDHELP=Pomoæ
+IDC_CASHFLOW=Dinamika potrošnje
+IDC_LAST30DAYS=Poslednjih 30 dana sa transakcijama
+IDC_BUDGETCATEGORY=Budžet po kategorijama
+IDC_BUDGETSUBCATEGORY=Budžet po subkategorijama
+IDC_TABLE=Tabela
+IDC_INCOMECHART=Grafik prihoda
+IDC_EXPENSECHART=Grafik rashoda
+CATEGORYCOLUMN0=Kategorija
+CATEGORYCOLUMN1=Iznos
+CATEGORYCOLUMN2=Izlaz
+CATEGORYCOLUMN3=Razlika
+CATEGORYCOLUMN4=Šifra
+CATEGORYCOLUMN5=Prihod
+CATEGORYCOLUMN6=Rashod
+CASHFLOWCOLUMN0=Datum
+CASHFLOWCOLUMN1=Iznos
+CASHFLOWCOLUMN2=Ukupno
+IDC_INCOMECHART=Grafik prihoda
+IDC_EXPENSECHART=Grafik rashoda
+IDC_PERIODCHART=Vremenski grafik
+IDC_TOTALCHART=Sumarni grafik
+GENERALREPORTS=Opšti izveštaji
+CATEGORYREPORTS=Izveštaji po kategorijama
+PAYEEREPORTS=Izveštaji po partnerima
+FAVORITEREPORTS=Odabrani izveštaji
+BUDGETREPORTS=Izveštaji o budžetu
+OTHERS=Ostalo
+PAYEECOLUMN0=Partner
+PAYEECOLUMN1=Iznos
+PAYEECOLUMN2=Prihod
+PAYEECOLUMN3=Rashod
+
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Potvrdi transakciju
+IDC_ADD=Dodaj
+IDC_EDIT=Uredi
+IDC_DELETE=Briši
+IDHELP=Pomoæ
+COLUMN0=Datum
+COLUMN1=Transakcija
+COLUMN2=Partner
+COLUMN3=Iznos
+COLUMN4=Napomena
+DELETECONFIRMATION=Potvrdite brisanje
+ID_EDIT_OPEN=Otvori
+ID_EDIT_INSERT=Ubaci
+ID_EDIT_DELETE=Briši
+ID_EDIT_PROPERTIES=Uredi
+IDC_TABLE=Tabela
+IDC_CALENDAR=Kalendar
+
+[IDD_ABOUT]
+TITLE=O programu
+
+[IDD_ACCOUNT]
+TITLE=Raèun
+IDC_NAMETEXT=Ime
+IDC_TYPETEXT=Tip
+IDC_BANKTEXT=Banka
+
+IDC_NUMBERTEXT=Broj
+IDC_BALANCETEXT=Bilans
+IDC_CURRENCYTEXT=Valuta
+IDC_CLOSED=Zatvoreno
+IDC_COMMENTTEXT=Napomena
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+ERR_NOACCOUNTNAME=Nije uneseno ime raèuna
+ERR_NOACCOUNTTYPE=Nije unesen tip raèuna
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=Tip raèuna
+IDC_ADD=Dodaj
+IDC_DELETE=Briši
+IDC_EDIT=Uredi
+IDOK=U redu
+IDCANCEL=Otkaži
+ERR_CANTDELETE=Ne može se obrisati
+
+[IDD_ACCOUNTTYPE]
+TITLE=Tip raèuna
+IDC_NAMETEXT=Ime
+IDOK=U redu
+IDCANCEL=Otkaži
+ERR_NOACCTYPENAME=Morate uneti tip i ime raèuna
+
+[IDD_BACKUP]
+TITLE=Backup
+IDC_LASTBACKUPTEXT=Poslednja rezervna kopija
+IDC_FREQUENCYTEXT=Uèestalost
+IDC_DIRECTORYTEXT=Direktorijum
+IDC_BACKUP=Rezervno kopiranje!
+IDC_AUTOMATIC=Automatsko kopiranje
+IDC_EVERYDAY=Svaki dan
+IDC_EVERYWEEK=Svake sedmice
+IDC_EVERYOTHERWEEK=Svake druge sedmice
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoc
+ERR_INVALIDDIR=Direktorijum ne postoji
+ERR_COPYFILE=Kopiranje neuspešno. Da li je disk zaštiæen od kopiranja?
+ERR_BACKUPTIME=Vreme je za kreiranje rezervne kopije!
+ERR_NEWFILE=Kreiranje nove datoteke neuspešno!
+IDC_BROWSE=Pronadji...
+
+[IDD_BALANCE]
+TITLE=Saldo raèuna
+IDC_CLEAREDDEPOSITS=Obrisan ulog
+IDC_CLEAREDWITHDRAWALS=Obrisano povlaèenje
+IDC_RECONCILEDTEXT=Prethodni obraèunati saldo
+IDC_CLEAREDTEXT=Tekuæi obraèunati saldo
+IDC_UNCLEAREDTEXT=Neizmiren saldo
+IDC_SELECTALL=Oznaèi sve
+IDC_DESELECTALL=Deselektuj sve
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+
+[IDD_BANK]
+TITLE=Banka
+IDC_NAMETEXT=Pun naziv
+IDC_ADDRESSTEXT=Adresa
+IDC_WEBSITETEXT=Web stranica
+IDC_COMMENTTEXT=Mat.br.i telefon
+IDC_BANKNUMBERTEXT=RTGS kod
+IDC_SWIFTCODETEXT=SWIFT kod
+IDC_TRANSFERCODETEXT=Žiro raèun
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoc
+ERR_NOBANKNAME=Ne postoji banka sa tim imenom
+
+[IDD_BILL]
+TITLE=Raèun
+IDC_FREQUENCYGROUP=Uèestalost
+IDC_ONCE=Jednom
+IDC_DAILY=Dnevno
+IDC_WEEKLY=Sedmièno
+IDC_EVERYOTHERWEEK=Svake druge sedmice
+IDC_EVERYFOURWEEKS=Svake èetvrte sedmice
+IDC_TWICEAMONTH=Dva puta meseèno
+IDC_MONTHLY=Meseèno
+IDC_EVERYOTHERMONTH=Dvomeseèno
+IDC_QUATERLY=Tromeseèno
+IDC_ANNUALLY=Godišnje
+IDC_STARTDATETEXT=Datum poèetka
+IDC_TRANSACTIONGROUP=Transakcija
+IDC_TYPETEXT=Tip
+IDC_DEPOSIT=Prihod
+IDC_WITHDRAWAL=Rashod
+IDC_TRANSFER=Transfer
+IDC_ACCOUNTTEXT=Raèun
+IDC_PAYEETEXT=Partner
+IDC_CATEGORYTEXT=Kategorija
+IDC_SPLIT=Podela
+IDC_AMOUNTTEXT=Iznos
+IDC_COMMENTTEXT=Napomena
+IDC_ENTER=Automatski unesi raèun
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+ERR_INVALIDACCOUNT=Raèun nije validan
+IDC_QUARTERLY=Tromeseèno
+IDC_EVERYSIXMONTHS=Polugodišnje
+IDC_AUTOMATIC=Automatski unesi raèun
+
+[IDD_BUDGET]
+TITLE=Budzet
+IDC_STARTDATETEXT=Datum poèetka
+IDC_FREQUENCYTEXT=Uèestalost:
+IDC_WEEKLY=Sedmièno
+IDC_EVERYOTHERWEEK=Svake druge sedmice
+IDC_TWICEAMONTH=Dva puta meseèno
+IDC_MONTHLY=Meseèno
+IDC_EVERYOTHERMONTH=Dvomeseèno
+IDC_QUATERLY=Tromeseèno
+IDC_ANNUALLY=Godišnje
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+IDC_QUARTERLY=Tromeseèno
+
+[IDD_CATEGORY]
+TITLE=Kategorije
+IDC_NAMETEXT=Kategorija
+IDC_SUBNAMETEXT=Podkategorija
+IDC_COMMENTTEXT=Napomena
+IDC_BUDGETTEXT=Budžet
+IDC_BUDGETPERIODTEXT=Budžetni period
+IDC_INCOME=Prihodi
+IDC_EXPENSE=Rashodi
+PERIOD_ONE_WEEK=Jedna nedelja
+PERIOD_TWO_WEEKS=Dve nedelje
+PERIOD_HALF_MONTH=Pola meseca
+PERIOD_ONE_MONTH=Jedan mesec
+PERIOD_TWO_MONTHS=Dva meseca
+PERIOD_THREE_MONTHS=Tri meseca
+PERIOD_FOUR_MONTHS=Èetiri meseca
+PERIOD_SIX_MONTHS=Šest meseci
+PERIOD_NINE_MONTHS=Devet meseci
+PERIOD_ONE_YEAR=Jedna godina
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+ERR_NOCATNAME=Dajte ime kategoriji
+ERR_CATEXIST=Postoji kategorija sa unesenim imenom
+
+[IDD_CURRENCY]
+TITLE=Odnosi valuta
+IDC_SHOWALL=Prikaži sve
+IDC_CURRENCYINFO=Valuta u kojoj se izražava vrednost: %s
+IDC_DOWNLOAD=Preuzmi...
+IDC_UPDATE=Ažuriraj...
+IDOK=U redu
+IDHELP=Pomoæ
+COLUMN0=Valuta
+COLUMN1=Faktor
+COLUMN2=Datum ažuriranja
+ERR_WEBUPDATE=Neuspešno ažuriranje, proverite konekciju!
+ERR_INVALIDRATE=Postojeæi faktor nije validan!
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=Odnos valuta
+IDOK=U redu
+IDCANCEL=Otkaži
+
+[IDD_SHEETREPORTFILTER]
+TITLE=Filter izveštaja
+
+[IDD_DATESRANGE]
+TITLE=Period
+IDC_BUDGETDATES=Period budžeta:
+IDC_CUSTOMDATES=Posebni period:
+IDC_FROMTEXT=Od
+IDC_TOTEXT=Prema
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+CURRENT=Trenutno
+CUSTOM=Posebno
+
+[IDD_FILTERACCOUNT]
+TITLE=Odabir raèuna
+IDC_SELECTALL=Selektuj sve
+IDC_CLEARALL=Deselektuj sve
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+
+[IDD_FILTERCATEGORY]
+TITLE=Odabir kategorije
+IDC_SELECTALL=Selektuj sve
+IDC_CLEARALL=Deselektuj sve
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+
+[IDD_FILTERPAYEE]
+TITLE=Odabir Partnera
+IDC_SELECTALL=Selektuj sve
+IDC_CLEARALL=Deselektuj sve
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+
+[IDD_IMPORT]
+TITLE=Uvezi
+EXPORTTITLE=Izvezi
+IMPORTTEXT=Uvezi transakcije
+EXPORTTEXT=Odaberite raèun za izvoz
+ERR_NOACCOUNT=Morate odabrati raèun!
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+
+[IDD_LANGUAGE]
+TITLE=Odaberi jezik
+IDOK=U redu
+IDCANCEL=Otkaži
+
+[IDD_OPTIONS]
+TITLE=Opcije
+IDC_GENERALGROUP=Opšte
+IDC_DATETEXT=Datum
+IDC_SHOWCLOSEDACCOUNTS=Prikaži zatvorene raèune
+IDC_SHOWGRID=Prikazi mrežu
+IDC_LOADLASTFILE=Uèitaj zadnju korištenu datoteku
+IDC_SHOWCOMMENT=Prikazuj komentare
+IDC_CURRENCYTEXT=Moja valuta
+IDC_AUTOSAVE=Automatsko snimanje
+IDC_STARTPAGEGROUP=Poèetna strana
+IDC_ACCOUNTLIST=Lista raèuna
+IDC_FAVORITEACCOUNT=Moj raèun
+IDC_PASSWORDGROUP=Lozinka
+IDC_OLDPASSTEXT=Stara loznka
+IDC_NEWPASSTEXT=Nova lozinka
+IDC_RETYPETEXT=Nova lozinka (kontrola)
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+ERR_INVALIDOLDPASSWORD=Stara lozinka nije ispravna!
+ERR_INVALIDNEWPASSWORD=Nova lozinka nije ispravna!
+IDC_SHOWFUTUREBILLS=Prikaži buduæe raèune
+
+[IDD_PASSWORD]
+TITLE=Unesi lozinku
+IDC_PASSTEXT=Lozinka
+IDOK=U redu
+IDCANCEL=Otkaži
+ERR_INVALIDPASSWORD=Lozinka nije ispravna!
+
+[IDD_PAYEE]
+TITLE=Partner
+IDC_NAMETEXT=Naziv
+IDC_ADDRESSTEXT=Adresa
+IDC_CITYTEXT=Grad
+IDC_STATETEXT=Region
+IDC_ZIPTEXT=Poštanski br.
+IDC_COUNTRYTEXT=Država
+IDC_HOMEPHONETEXT=Kuæni tel.
+IDC_WORKPHONETEXT=Poslovni tel.
+IDC_MOBILEPHONETEXT=Mobilni tel.
+IDC_FAXTEXT=Tel/fax
+IDC_PAGERTEXT=Drugi tel.
+IDC_EMAILTEXT=E-mail
+IDC_WEBSITETEXT=WEB stranica
+IDC_COMMENTTEXT=Ostali podaci
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+ERR_NOPAYEENAME=Nedostaje ime Partnera!
+
+[IDD_PRINTPREVIEW]
+TITLE=Pregled pre štampe
+IDC_PAGETEXT=Strana
+IDC_PRINT=Štampa...
+IDOK=U redu
+IDHELP=Pomoæ
+
+[IDD_REGISTER]
+TITLE=Registracija
+IDC_NAMETEXT=Ime:
+IDC_SERIALNUMBERTEXT=Serijski broj
+IDC_ORDER=Kupi...
+IDOK=U redu
+
+[IDD_SPLIT]
+TITLE=Podela transakcija
+IDC_CATEGORYTEXT=Kategorija
+IDC_SUBCATEGORYTEXT=Podkategorija
+IDC_AMOUNTTEXT=Iznos
+IDC_ADD=Dodaj
+IDC_EDIT=Uredi
+IDC_DELETE=Briši
+IDC_TOTALTEXT=Ukupno:
+IDC_UNASSIGNEDTEXT=Ostatak:
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoc
+COLUMN0=Kategorija
+COLUMN1=Podkategorija
+COLUMN2=Iznos
+ERR_BADTOTAL=Greška u raèunanju ukupnog rezultata
+
+[IDD_SPLITITEM]
+TITLE=Elementi podele
+IDC_CATEGORYTEXT=Kategorija
+IDC_SUBCATEGORYTEXT=Podkategorija
+IDC_AMOUNTTEXT=Iznos
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+
+[IDD_TRANSACTION]
+TITLE=Transakcija
+IDC_TYPETEXT=Tip
+IDC_DEPOSIT=Prihod
+IDC_WITHDRAWAL=Rashod
+IDC_TRANSFER=Transfer
+IDC_ACCOUNTTEXT=Raèun
+IDC_PAYEETEXT=Partner
+IDC_CATEGORYTEXT=Kategorija
+IDC_SPLIT=Podela
+IDC_COMMENTTEXT=Napomena
+IDC_DATETEXT=Datum
+IDC_NUMBERTEXT=Broj
+IDC_AMOUNTTEXT=Iznos
+FROMTEXT=Od
+TOTEXT=Prema
+SPLIT=Podela
+DEBIT=Iznos
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+ERR_SAMETRANFER=Nije moguæe imati dva ista transfera!
+ERR_INVALIDACCOUNT=Raèun nije validan!
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Odnosi valuta
+IDC_SOURCEAMOUNTTEXT=Iznos
+IDC_TARGETAMOUNTTEXT=Iznos
+IDC_RATETEXT=Odnos
+IDOK=U redu
+IDCANCEL=Otkaži
+
+[IDD_PAYEEMERGE]
+IDHELP=Pomoæ
+IDCANCEL=Otkaži
+TITLE=Spajanje partnera
+IDC_PAYEETEXT=Spoji partnera...
+IDC_PAYEETEXT1=...sa
+ERR_NOPAYEES=Odaberite partnera!
+
+[IDD_COLORS]
+IDCANCEL=Otkaži
+TITLE=Boje i font
+IDC_ACCOUNTLISTTEXT=Lista raèuna
+IDC_BANKTEXT=Banka
+IDC_CATEGORYTEXT=Kategorije
+IDC_RESTORE=Predefinisano
+IDC_ACCOUNTTEXT=Raèun
+IDC_PORTFOLIOTEXT=Investicije
+IDC_PAYEETEXT=Partner
+IDC_SCHEDULETEXT=Zakazano
+IDC_REPORTTEXT=Izveštaji
+
+[IDD_CATEGORYMERGE]
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+TITLE=Spoji kategorije
+IDC_CATEGORYTEXT=Spoji kategoriju...
+IDC_CATEGORYTEXT1=...sa
+ERR_NOCATEGORIES=Odaberite dve razlièite ktegorije!
+ERR_SOURCECATEGORY=Prva kategorija nije validna
+ERR_TARGETCATEGORY=Druga kategorija nije validna
+
+[IDD_DAYBILLS]
+TITLE=Raèuni
+COLUMN0=Datum
+COLUMN1=Transakcija
+COLUMN2=Partner
+COLUMN3=Iznos
+COLUMN4=Napomena
+IDC_ENTER=Unesi..
+IDC_EDIT=Uredi...
+IDOK=U redu
+IDHELP=Pomoæ
+
+[IDD_LITEVERSION]
+IDC_TEXT=AceMoney Lite nije u moguænosti da radi sa više racuna. Nadogradite ovu besplatnu verziju i koristite AceMoney!
+IDOK=U redu
+IDC_WEBSITE=Nadogradi...
+
+[IDD_STOCK]
+TITLE=Investicije
+IDC_SYMBOLTEXT=Simbol
+IDC_LOOKUP=Pregled simbola
+IDC_NAMETEXT=Naziv
+IDC_COMMENTTEXT=Komentar
+IDC_UPDATE=Update...
+IDC_CURRENCYTEXT=Valuta
+IDC_DATASOURCETEXT=Izvor podataka
+IDC_UPDATE=Ažuriranje...
+IDC_WEBUPDATE=WEB ažuriranje...
+IDC_PRICETEXT=Istorija cena
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+COLUMN0=Datum
+COLUMN1=Cena
+
+[IDD_STOCKPRICE]
+TITLE=Cena
+IDC_DATETEXT=Datum
+IDC_PRICETEXT=Cena
+IDOK=U redu
+IDCANCEL=Otkaži
+
+[IDD_STOCKTRANSACTION]
+TITLE=Investicione transakcije
+
+IDC_DATETEXT=Datum
+IDC_ACCOUNTTEXT=Raèun
+IDC_ACTIONTEXT=Tip transakcije
+IDC_INVESTMENTTEXT=Investicija
+
+IDC_DIVIDENDTEXT=Dividenda
+IDC_NUMBERTEXT=Kolièina
+IDC_PRICETEXT=Cena
+IDC_COMMISSIONTEXT=Provizija
+IDC_TOTALTEXT=Suma
+
+BUY=Kupi
+SELL=Prodaj
+DIVIDEND=Dividenda
+REINVEST=Reinvesticija dividendi
+ADD=Dodaj
+REMOVE=Briši
+
+IDOK=U redu
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+
+[IDD_REPORTADD]
+TITLE=Dodaj izvjestaj
+IDC_NAMETEXT=Ime izveštaja
+IDOK=U redu
+IDCANCEL=Otkaži
+
+[IDD_REPORTORGANIZE]
+TITLE=Organizuj izveštaje
+IDC_DELETE=Briši
+IDOK=U redu
+IDCANCEL=Otkaži
+
+[IDD_CALC_LOAN]
+TITLE=Kalkulator zajmova
+IDC_AMOUNTTEXT=Iznos zajma
+IDC_RATETEXT=Godišnja kamatna stopa, %
+IDC_PERIODTEXT=Period (meseci)
+IDC_PAYMENTTEXT=Iznos rate
+IDC_TOTALINTERESTTEXT=Ukupna kamata
+COLUMN0=Rb.
+COLUMN1=Iznos rate
+COLUMN2=Otpl.glavnice
+COLUMN3=Otpl.kamate
+COLUMN4=Stanje zajma
+IDOK=OK
+
+
+[IDD_CALC_SAVINGS]
+TITLE=Kalkulator štednje
+IDC_MONTHLYPAYMENTTEXT=Meseène uštede
+IDC_INITIALBALANCETEXT=Inicijalna štednja
+IDC_RATETEXT=Godišnja kamatna stopa, %
+IDC_PERIODTEXT=Period (meseci)
+IDC_STARTDATETEXT=Poèetni datum
+IDC_TOTALINTERESTTEXT=Ukupna kamata
+IDC_TOTALTEXT=Ukupno
+COLUMN0=Rb.
+COLUMN1=Datum
+COLUMN2=Isplate
+COLUMN3=Kamata
+COLUMN4=Ukupno
+IDOK=OK
+
+[IDD_CALC_MORTGAGE]
+TITLE=Kalkulator hipoteka
+IDC_VALUETEXT=Procenjena vrednost
+IDC_AMOUNTTEXT=Iznos zajma
+IDC_TERMTEXT=Vreme (godine)
+IDC_DATETEXT=Datum zatvaranja
+IDC_RATETEXT=Kamatna stopa, %
+IDC_TAXTEXT=Godišnji porez
+IDC_INSURANCETEXT=Godišnje osiguranje
+IDC_REQUIREDPAYMENTTEXT=Predvidjene isplate
+IDC_TOTALINTERESTTEXT=Ukupna kamata
+IDC_TOTALPMITEXT=Ukupan PMI
+IDC_TOTALMONTHSTEXT=Ukupne meseène isplate
+COLUMN0=Rb.
+COLUMN1=Glavnica
+COLUMN2=Kamata
+COLUMN3=Porez
+COLUMN4=Osiguranje
+COLUMN5=PMI
+COLUMN6=Isplata
+COLUMN7=Zajam
+IDOK=OK
+IDHELP=Pomoæ
+
+[IDD_BALANCE]
+TITLE=Bilans raèuna
+IDCANCEL=Otkaži
+IDHELP=Pomoæ
+IDC_SELECTALL=Selektuj sve
+IDC_DESELECTALL=Deselektuj sve
+IDC_RECONCILEDTEXT=Prethodni bilans
+IDC_CLEAREDTEXT=Trenutni bilans
+IDC_UNCLEAREDTEXT=Neobraèunato
+IDC_CLEAREDDEPOSITS=Obraèunati prihodi
+IDC_CLEAREDWITHDRAWALS=Obraèunati rashodi

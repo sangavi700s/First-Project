@@ -1,0 +1,1105 @@
+ProgramID=AceMoney
+Language=Romanian
+
+///////////////////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories.dat
+BANKS=banks.dat
+ACCOUNTTYPES=accounttypes.dat
+
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+
+CURRENCY=ROL
+DECIMALS=2
+DECIMALSEPARATOR=,
+THOUSANDSEPARATOR=.
+DATEFORMAT=DDMMYY
+DATESEPARATOR=/
+STATUS=Pregãtit
+TRANSFER=Transfer
+DEPOSIT=Depunere
+WITHDRAWAL=Retragere
+TO=la
+FROM=de la
+TOTAL=Total
+CLEAREDTOTAL=Plãtit
+RECONCILEDTOTAL=Confirmat
+UNCLEAREDTOTAL=Neplãtit
+TODAYTEXT=Azi
+PAGE=Pagina
+UNASSIGNED=(Neatribuiti)
+SAVEMODIFIED=Salvaþi schimbãrile?
+REPLACEMENTS=aþi fãcut înlocuiri
+INVALIDNUMBER=Formatul numãrului e invalid!
+
+MSG_LOADSAMPLE=Doriþi sã încarcaþi un fiºier exemplu?
+MSG_SAMPLEFILEWARNING=Fiºierul exemplu nu poate fi modificat! Ca sã salvaþi datele într-un alt fiºier, folositi Fiºier->Salveazã cu alt nume.
+[MENU]
+ID_FILE=Fiºier
+ID_FILE_NEW=Nou
+ID_FILE_OPEN=Deschide...
+ID_FILE_SAVE=Salveazã
+ID_FILE_SAVE_AS=Salveazã cu alt nume...
+ID_FILE_IMPORT=Importã...
+ID_FILE_EXPORT=Exportã...
+ID_FILE_PRINT=Tipareºte...
+ID_FILE_PRINT_PREVIEW=Previzualizare tiparire...
+ID_APP_EXIT=Ieºire
+
+ID_EDIT=Editare
+ID_EDIT_DELETE=ªterge
+ID_EDIT_INSERT=Insereazã
+ID_EDIT_SELECTALL=Selecteazã tot
+ID_EDIT_FIND=Cautã în fiºier...
+ID_EDIT_PROPERTIES=Proprietãþi...
+ID_EDIT_COPY=Copiazã
+ID_EDIT_PASTE=Insereazã
+ID_EDIT_ADDTOSCHEDULE=Adaugã la planificare...
+
+ID_VIEW=Vizualizare
+ID_VIEW_ACCOUNTS=Conturi
+ID_VIEW_BANKS=Bãnci
+ID_VIEW_PAYEES=Beneficiari
+ID_VIEW_CATEGORIES=Categorii ºi Buget
+ID_VIEW_SCHEDULE=Programeazã
+ID_VIEW_PORTFOLIO=Portfoliu de acþiuni
+ID_VIEW_REPORTS=Rapoarte
+
+ID_ACCOUNTS=Conturi
+ID_ACCOUNTS_ADD=Adaugã cont...
+ID_ACCOUNTS_TYPE=Grupuri de conturi...
+
+ID_REPORTS=Rapoarte
+ID_REPORTS_ADD=Adaugã la favorite...
+ID_REPORTS_ORGANIZE=Organizeazã...
+
+ID_TOOLS=Unelte
+ID_TOOLS_CURRENCY=Rate de schimb...
+ID_TOOLS_OPTIONS=Opþiuni...
+ID_TOOLS_COLORS=Fonturi ºi Culori...
+ID_TOOLS_LANGUAGE=Limba...
+ID_TOOLS_BACKUP=Copie de siguranþã...
+ID_TOOLS_RESTORE=Restaureazã...
+ID_TOOLS_BUDGET=Buget...
+ID_TOOLS_CALCULATOR=Calculator...
+ID_TOOLS_CALCULATOR_LOAN=Calculator împrumuturi...
+ID_TOOLS_CALCULATOR_MORTGAGE=Calculator ipotecã...
+ID_TOOLS_TRANSACTION_CATEGORY_LIST=Categoriile tranzacþiilor...
+
+ID_HELP=Ajutor
+ID_HELP_TOPICS=Cuprins
+ID_HELP_HOMEPAGE=Site-ul web pentru AceMoney...
+ID_HELP_WHATSNEW=Ce e nou...
+ID_HELP_SUPPORT=Suport tehnic...
+ID_HELP_FORUM=Lista de discuþii de pe net...
+ID_HELP_TUTORIAL=Curs on-line...
+ID_HELP_REGISTER=Înregistraþi AceMoney...
+ID_HELP_ORDER=Comandaþi AceMoney...
+ID_HELP_ABOUT=Despre...
+
+[TOOLBAR]
+ID_FILE_NEW=Nou
+ID_FILE_OPEN=Deschide
+ID_FILE_SAVE=Salveazã
+ID_VIEW_BACK=Înapoi
+ID_VIEW_FORWARD=Înainte
+ID_VIEW_HOME=Acasã
+ID_VIEW_ACCOUNTS=Conturi
+ID_VIEW_BANKS=Bãnci
+ID_VIEW_PAYEES=Beneficiari
+ID_VIEW_CATEGORIES=Categorii
+ID_VIEW_SCHEDULE=Planificare
+ID_VIEW_REPORTS=Rapoarte
+ID_VIEW_PORTFOLIO=Portfoliu de acþiuni
+ID_HELP_HOMEPAGE=Pagina noastra de net
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=Conturi
+IDC_ADD=Cont nou...
+IDC_BILLS=Plateºte facturi
+IDC_REPORTS=Rapoarte
+IDC_CURRENCY=Schimb de monedã
+IDC_WEBUPDATE=Download ratele de schimb
+IDHELP=Ajutor
+
+ID_ACCOUNT_OPEN=Deschide
+ID_ACCOUNT_ADD=Cont nou...
+ID_ACCOUNT_DELETE=ªterge
+ID_ACCOUNT_EDIT=Proprietãþi
+
+TOTAL=Total
+LASTUPDATE=Ultima actualizare
+
+DELETE_CONFIRMATION=Contul %s va fi ºters împreunã cu toate tranzacþiile care-i aparþin! În regulã?
+
+UPDATE_SUCCESS=Ratele de schimb au fost actualizate cu succes!
+UPDATE_FAILURE=Actualizarea a esuat! Nu a fost detectatã conexiunea la internet, sau ratele de schimb nu s-au modificat!
+UPDATE_NOTREQUIRED=Nu este necesarã actualizarea!
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPORTFOLIO]
+TITLE=Portfoliu de acþiuni
+
+IDC_NEWTRANSACTION=New Tranzacþie...
+
+IDC_ADD=Adaugã investiþie...
+IDC_EDIT=Modificã investiþie...
+IDC_DELETE=ªterge investiþie...
+
+IDC_WEBUPDATE=Download-eaza preþuri
+
+IDHELP=Ajutor
+
+STOCKLIST=Acþiuni
+STOCKTRANSACTIONLIST=Tranzacþii
+
+COLUMN0=Simbol
+COLUMN1=Nume
+COLUMN2=Ultimul preþ
+COLUMN3=Cantitate
+COLUMN4=Total
+COLUMN5=Castig
+
+TRANSACTIONSCOLUMN0=Data
+TRANSACTIONSCOLUMN1=Acþiune
+TRANSACTIONSCOLUMN2=Simbol
+TRANSACTIONSCOLUMN3=Cont
+TRANSACTIONSCOLUMN4=Dividende
+TRANSACTIONSCOLUMN5=Preþ
+TRANSACTIONSCOLUMN6=Cantitate
+TRANSACTIONSCOLUMN7=Commision
+TRANSACTIONSCOLUMN8=Total
+TRANSACTIONSCOLUMN9=Comentariu
+
+CANTBEDELETED=Acþiunile sunt folosite în una sau mai multe tranzacþii. Nu pot fi sterse!
+DELETECONFIRMATION=Acþiunile vor fi sterse. Sunteþi sigur(ã)?
+UPDATEISNOTREQUIRED=Actualizarea nu este necasarã!
+UPDATEISNOTCOMPLETE=Unele investiþii nu au fost actualizate!
+INVESTMENTNOTCREATED=Mai întai trebuie creata o investiþie!
+
+ID_EDIT_OPEN=Modificã investiþie
+ID_EDIT_INSERT=Adaugã o noua investiþie
+ID_EDIT_DELETE=ªterge investiþie
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=Cont
+IDC_ADD=Tranzacþie nouã
+IDC_EDIT=Modificã tranzacþie
+IDC_DELETE=ªterge tranzacþie
+IDC_BALANCE=Bilant cont
+IDC_WEBSITE=Pagina de net pentru cont
+IDC_ACCOUNT=Modificã proprietãþi cont
+IDC_BANK=Modificã proprietãþi bancã
+IDC_MONTHREPORT=Raport lunar
+IDC_REPORT=Raport la 30 de zile
+IDC_HIDERECONCILED=Hide reconciled
+IDHELP=Ajutor
+
+COLUMN0=Numãr
+COLUMN1=Data
+COLUMN2=Beneficiar
+COLUMN3=Categorie
+COLUMN4=S
+COLUMN5=Retragere
+COLUMN6=Depozit
+COLUMN7=Total
+COLUMN8=Comentariu
+
+BANKISNOTASSIGNED=Acest cont nu are asociatã nici o bancã
+PAGEISNOTASSIGNED=Adresa web lipseste. O puteþi adaugã în fereastra pentru proprietãþile bancii.
+STATUS=În aceastã luna ati cheltuit %.2f pe categoria %s
+STATUSINCOME=În aceastã luna ati primit %.2f pentru categoria %s
+
+ID_TRANSACTION_UNCLEARED=Neplãtitã
+ID_TRANSACTION_CLEARED=Plãtitã
+ID_TRANSACTION_RECONCILED=Confirmatã
+ID_EDIT_OPEN=Editeaza 
+ID_EDIT_INSERT=Tranzacþie nouã...
+ID_EDIT_INSERTBILL=Introdu plata recurentã...
+ID_EDIT_DELETE=ªterge
+ID_EDIT_COPY=Copiazã
+ID_EDIT_PASTE=Insereaza
+ID_EDIT_CATEGORY=Editare categorii...
+ID_EDIT_PAYEE=Editeaza beneficiari...
+ID_EDIT_ADDTOSCHEDULE=Adaugã la programari...
+
+ID_REPORTS_CATEGORY=Raport pe categorii...
+ID_REPORTS_PAYEE=Raport cu beneficiarii...
+
+BILLDELETECONFIRMATION=Se vor ºterge toate tranzacþiile viitoare asociate cu aceastã platã recurentã!
+TRANSACTIONDELETECONFIRMATION=Sunteti sigur(a)?
+RECONCILEDTRANSACTIONCONFIRMATION=Aceastã tranzacþie este marcata ca Reconciled, nu sunt recomandate modificãri! Continuati?
+CLEAREDTRANSACTIONCONFIRMATION=Aceastã tranzacþie este marcata ca ºi Cleared, nu sunt recomandate modificãri! Continuati?
+CANNOTSORTBYTOTAL=Nu se poate sorta dupa total!
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=Bancã nouã...
+IDC_EDIT=Modificã info. bancã
+IDC_DELETE=ªterge bancã
+IDC_DELETEUNUSED=ªterge-le pe cele nefolosite
+IDC_IMPORT=Importã...
+IDHELP=Ajutor
+
+COLUMN0=Nume bancã
+COLUMN1=Adresa
+COLUMN2=Web site
+COLUMN3=Comentariu
+
+CANTBEDELETED=Aveþi cel puþin un cont la aceastã bancã, de aceea nu poate fi stearsa.
+DELETECONFIRMATION=Sunteti sigur(a)?
+DELETEUNUSED=Aceastã comanda va ºterge toate bancile la care nu aveþi conturi! Continuati?
+
+ID_EDIT_OPEN=Editare
+ID_EDIT_INSERT=bancã noua...
+ID_EDIT_DELETE=ªterge
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=Categorie nouã...
+IDC_EDIT=Modificã categorie
+IDC_DELETE=ªterge categorie
+IDC_DELETEUNUSED=ªterge-le pe cele nefolosite...
+IDC_REPORT=Raport cu categoriile
+IDC_BUDGETREPORT=Raport cu bugetul
+IDC_BUDGET=Setãri buget...
+IDC_IMPORT=Import...
+IDC_MERGE=Uneºte...
+IDHELP=Help
+
+COLUMN0=Categorie
+COLUMN0a=Cod
+COLUMN1=Din buget
+COLUMN1a=Venituri
+COLUMN2a=Cheltuieli
+COLUMN2=Comentariu
+COLUMN3=Comentariu
+
+CANTBEDELETED=Mãcar una dintre tranzacþii este din aceastã categorie, deci nu poate fi ºtearsã.
+PARENTCANTBEDELETED=Aceastã este o categorie-parinte, de care depind alte categorii. Daca vreti sã o ºtergeþi, ar trebui sã-i ºtergeþi întâi sub-categoriile.
+DELETECONFIRMATION=Sunteti sigur(ã)?
+DELETEUNUSED=Aceastã comanda va ºterge toate categoriile pe care nu le folositi. Continuati?
+ID_EDIT_OPEN=Modificã
+ID_EDIT_INSERT=Categorie nouã...
+ID_EDIT_DELETE=ªterge
+
+TOTALINCOME=Venituri:
+TOTALEXPENSE=Cheltuieli:
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=Beneficiar nou...
+IDC_EDIT=Modificã beneficiar
+IDC_DELETE=ªterge beneficiar
+IDC_DELETEUNUSED=ªterge-i pe cei nefolositi
+IDC_REPORT=Raport cu beneficiarii
+IDC_MERGE=Uneste beneficiari...
+IDHELP=Ajutor
+
+COLUMN0=Nume
+COLUMN1=Adresa
+COLUMN2=Comentariu
+COLUMN3=Telefon
+
+CANTBEDELETED=Acest beneficiar este folosit intr-una din tranzacþii, deci nu poate fi sters.
+DELETECONFIRMATION=Sunteti sigur(a)?
+DELETEUNUSED=Aceastã comanda va ºterge toti beneficiarii care nu sunt folositi în tranzacþii. Continuati?
+
+ID_EDIT_OPEN=Modificã
+ID_EDIT_INSERT=Beneficiar nou...
+ID_EDIT_DELETE=ªterge
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=Filtreaza dupa datã
+IDC_SETDATES=Introduceti o perioada...
+IDC_USECATEGORYFILTER=Filtreaza dupa categorie
+IDC_SETCATEGORIES=Selecteazã categorie
+IDC_USEPAYEEFILTER=Filtreaza dupa beneficiar
+IDC_SETPAYEES=Selecetaza beneficiar
+IDC_USEACCOUNTFILTER=Filtreaza dupa cont
+IDC_SETACCOUNTS=Selecteazã cont
+IDC_TRANSACTIONS=Raport cu tranzacþiile
+IDC_CATEGORY=Cheltuieli dupa categorii
+IDC_SUBCATEGORY=Cheltuieli dupa sub-categorii
+IDC_PAYEE=Cheltuieli dupa beneficiari
+IDC_BUDGET=Perioada curenta a bugetului
+IDC_BUDGETSUBCATEGORY=Budgetul pe subcategorii
+IDC_CASHFLOW=Raport cu valoare netã
+IDC_LAST30DAYS=Tranzacþiile din ultimele 30 de zile
+IDC_INCLUDETRANSFERS=Include transferurile
+
+IDHELP=Ajutor
+IDC_TABLE=Sub formã de tabel
+IDC_CHART=Grafic
+IDC_INCOMECHART=Diagrama placintã cu veniturile
+IDC_EXPENSECHART=Diagrama placintã cu cheltuielile
+IDC_PERIODCHART=Grafic pe perioade
+IDC_TOTALCHART=Grafic cu totalul
+
+CATEGORYCOLUMN0=Categoria
+CATEGORYCOLUMN1=Suma
+CATEGORYCOLUMN2=Budget
+CATEGORYCOLUMN3=Diferenþa
+CATEGORYCOLUMN4=Cod
+CATEGORYCOLUMN5=Venituri
+CATEGORYCOLUMN6=Cheltuieli
+
+CASHFLOWCOLUMN0=Data
+CASHFLOWCOLUMN1=Totalul pe perioada
+CASHFLOWCOLUMN2=Total
+
+OTHERS=Altele
+
+GENERALREPORTS=Raport general
+CATEGORYREPORTS=Raport cu categorii
+PAYEEREPORTS=Raport cu beneficiarii
+BUDGETREPORTS=Raport cu bugetul
+
+PAYEECOLUMN0=Beneficiar
+PAYEECOLUMN1=Suma
+PAYEECOLUMN2=Venituri
+PAYEECOLUMN3=Cheltuieli
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Adaugã la registru
+IDC_ADD=Platã recurentã noua...
+IDC_EDIT=Modificã platã recurentã
+IDC_DELETE=ªterge platã recurentã
+IDHELP=Ajutor
+
+COLUMN0=Data
+COLUMN1=Tranzacþia
+COLUMN2=Beneficiar
+COLUMN3=Suma
+COLUMN4=Comentariu
+COLUMN5=Frecventa
+
+IDC_TABLE=Tabel
+IDC_CALENDAR=Calendar
+
+DELETECONFIRMATION=Sunteti sigur(ã)?
+
+ID_EDIT_OPEN=Confirmã plata
+ID_EDIT_INSERT=Adaugã o noua planificare...
+ID_EDIT_DELETE=ªterge
+ID_EDIT_PROPERTIES=Proprietãþi
+ID_EDIT_COPY=Copiazã
+ID_EDIT_PASTE=Insereazã
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=Despre
+
+[IDD_ACCOUNT]
+TITLE=Cont
+IDC_NAMETEXT=Nume
+IDC_TYPETEXT=Tip
+IDC_BANKTEXT=Numele bancii
+IDC_NUMBERTEXT=Numãr
+IDC_BALANCETEXT=Suma de deschidere
+IDC_CURRENCYTEXT=Moneda
+IDC_CLOSED=Acest cont este închis
+IDC_COMMENTTEXT=Comentariu
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+ERR_NOACCOUNTNAME=Contul trebuie sã aibã un nume!
+ERR_NOACCOUNTTYPE=Contul trebuie sã aibã un tip!
+ERR_NOCURRENCY=Trebuie sã alegeþi o monedã pentru acest cont!
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=Grupuri de conturi
+IDC_ADD=Adaugã...
+IDC_DELETE=ªterge
+IDC_EDIT=Actualizeaza...
+IDOK=OK
+IDCANCEL=Renunþã
+
+ERR_CANTDELETE=Acest tip este folosit de unul din conturi!
+
+[IDD_ACCOUNTTYPE]
+TITLE=Grup de conturi
+IDC_NAMETEXT=Nume
+IDOK=OK
+IDCANCEL=Renunþã
+
+ERR_NOACCTYPENAME=Grupul trebuie sã aibã un nume!
+
+[IDD_BACKUP]
+TITLE=Backup
+IDC_ENABLEBACKUP=Vreau copie de siguranþã
+IDC_LASTBACKUPTEXT=Ultima copie de siguranþã
+IDC_FREQUENCYTEXT=Frecventa
+IDC_DIRECTORYTEXT=Director
+IDC_BACKUP=Copiazã acum!
+IDC_AUTOMATIC=Copie de siguranþã automatã.
+
+IDC_EVERYDAY=În fiecare zi
+IDC_EVERYWEEK=În fiecare sãptãmânã
+IDC_EVERYOTHERWEEK=La douã sãptãmâni
+
+IDC_BROWSE=Rasfoieºte...
+
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+ERR_INVALIDDIR=Trebuie sã introduceþi o cale corectã!
+ERR_COPYFILE=A aparut o eroare! Poate nu aveþi disc în unitate.
+ERR_BACKUPTIME=Este timpul pentru copia de siguranþã. Continuaþi?
+ERR_NEWFILE=Trebuie sã salvati fiºierul înainte de a face copie de siguranþã!
+ERR_COPYFILE_RESTORE=A aparut o eroare la restaurare! Poate nu este disc în unitate.
+SELECT_FILE_TO_RESTORE=Selectaþi un fiºier pentru a-l restaura
+SELECT_RESTORE_DIR=Unde doriti sã salvati fiºierul?
+OPEN_RESTORED_FILE=Doriþi sã deschideþi fiºierul restaurat?
+
+[IDD_BALANCE]
+TITLE=Balanþa de cont
+IDC_CLEAREDDEPOSITS=Depunere efectuatã
+IDC_CLEAREDWITHDRAWALS=Retragere efectuatã
+IDC_RECONCILEDTEXT=Sold anterior
+IDC_CLEAREDTEXT=Sold curent
+IDC_UNCLEAREDTEXT=Diferenþa de sold
+IDC_NEWTRANSACTION=Tranz. nouã...
+IDC_SELECTALL=Select. tot
+IDC_DESELECTALL=Deselect. tot
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+[IDD_BANK]
+TITLE=Banca
+IDC_NAMETEXT=Nume
+IDC_ADDRESSTEXT=Adresa
+IDC_WEBSITETEXT=Web-site
+IDC_COMMENTTEXT=Comentariu
+IDC_BANKNUMBERTEXT=Numãrul bãncii
+IDC_SWIFTCODETEXT=Cod de rutare
+IDC_TRANSFERCODETEXT=Cod de transfer
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+ERR_NOBANKNAME=Banca trebuie sã aibã un nume!
+
+[IDD_BILL]
+TITLE=Plaþi recurente (venituri sau cheltuieli) 
+
+IDC_FREQUENCYGROUP=Frecvenþa
+IDC_ONCE=O datã
+IDC_DAILY=Zilnic
+IDC_WEEKLY=Sãptãmânal
+IDC_EVERYOTHERWEEK=La 2 sãptãmâni
+IDC_TWICEAMONTH=Bi-lunar
+IDC_EVERYFOURWEEKS=La fiecare 4 sãptãmâni
+IDC_MONTHLY=Lunar
+IDC_EVERYOTHERMONTH=La 2 luni
+IDC_QUARTERLY=La fiecare 3 luni
+IDC_EVERYFOURMONTHS=La fiecare 4 luni
+IDC_EVERYSIXMONTHS=La fiecare 6 luni
+IDC_ANNUALLY=Anual
+IDC_STARTDATETEXT=Data de început
+
+IDC_BILLTYPETEXT=Tipul plaþii recurente
+BILLTYPE_CONTINUOUS=Continuã
+BILLTYPE_NUMBERED=Numerotatã
+IDC_NUMBERTEXT=Numãrul de plãþi
+IDC_TRANSACTIONGROUP=Tranzacþia
+IDC_TYPETEXT=Tipul
+IDC_DEPOSIT=Depunere
+IDC_WITHDRAWAL=Retragere
+IDC_TRANSFER=Transfer
+IDC_ACCOUNTTEXT=Cont
+IDC_PAYEETEXT=Beneficiar
+IDC_CATEGORYTEXT=Categorie
+IDC_SPLIT=Împarte
+IDC_AMOUNTTEXT=Suma
+IDC_COMMENTTEXT=Comentariu
+
+IDC_ENTER=Adaugã la cont
+IDC_AUTOMATIC=Introdu plata recurentã automat 
+
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+ERR_INVALIDACCOUNT=Numele contului este ilegal!
+ERR_INVALIDNUMBER=Numãrul plãþilor nu poate fi mai mic decat 1!
+
+[IDD_BUDGET]
+TITLE=Buget
+
+IDC_STARTDATETEXT=Inceputul primei perioade:
+IDC_FREQUENCYTEXT=Perioada pentru buget:
+
+IDC_WEEKLY=O sãptãmâna
+IDC_EVERYOTHERWEEK=Doua sãptãmâni
+IDC_TWICEAMONTH=O jumatate de luna
+IDC_EVERYFOURWEEKS=4 sãptãmâni
+IDC_MONTHLY=O luna
+IDC_EVERYOTHERMONTH=Doua luni
+IDC_QUARTERLY=3 luni
+IDC_ANNUALLY=Un an
+
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+[IDD_CALC_LOAN]
+TITLE=Calculator de imprumuturi
+IDC_AMOUNTTEXT=Suma
+IDC_RATETEXT=Dobanda anuala, %
+IDC_PERIODTEXT=Perioada, în luni
+IDC_PAYMENTTEXT=Plata
+IDC_TOTALINTERESTTEXT=Dobanda totala
+COLUMN0=#
+COLUMN1=Payment
+COLUMN2=Principal
+COLUMN3=Interest
+COLUMN4=Loan
+IDOK=OK
+[IDD_CALC_MORTGAGE]
+TITLE=Calculator ipoteca
+IDC_VALUETEXT=Valoarea apreciata
+IDC_AMOUNTTEXT=Suma imprumutului
+IDC_TERMTEXT=Termenul (ani)
+IDC_DATETEXT=Data închiderii
+IDC_RATETEXT=Dobanda, %
+IDC_TAXTEXT=Taxa anuala pe proprietate
+IDC_INSURANCETEXT=Asigurarea anuala pe proprietate
+IDC_REQUIREDPAYMENTTEXT=Plata ceruta
+IDC_TOTALINTERESTTEXT=Dobanda totala
+IDC_TOTALPMITEXT=Total PMI
+IDC_TOTALMONTHSTEXT=Numãrul de luni
+COLUMN0=Data
+COLUMN1=Valoare initiala
+COLUMN2=Dobanda
+COLUMN3=Taxa
+COLUMN4=Asigurarea
+COLUMN5=PMI
+COLUMN6=Plata
+COLUMN7=Total
+
+IDOK=OK
+IDHELP=Ajutor
+[IDD_CATEGORY]
+TITLE=Categoria
+
+IDC_NAMETEXT=Categoria
+IDC_SUBNAMETEXT=Sub-categoria
+IDC_COMMENTTEXT=Comentariu
+IDC_BUDGETTEXT=Pe buget
+IDC_NUMBERTEXT=Numãr
+
+IDC_INCOME=Venituri
+IDC_EXPENSE=Cheltuieli
+
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+ERR_NOCATNAME=Daþi un nume pentru categorie!
+ERR_CATEXIST=Existã deja o categorie numita asa!
+
+[IDD_CATEGORYMERGE]
+TITLE=Combina categorii
+
+IDC_CATEGORYTEXT=Combina categoria
+IDC_CATEGORYTEXT1=cu categoria
+
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+ERR_NOCATEGORIES=Ambele categorii existente ar trebui sã fie diferite!
+ERR_SOURCECATEGORY=Categoriile sursa nu pot avea subcategorii!
+ERR_TARGETCATEGORY=Categoria þintã nu poate fi o subcategorie a categoriei sursa!
+
+[IDD_COLORS]
+TITLE=Fonturi ºi culori
+
+IDC_ACCOUNTLISTTEXT=Lista de conturi
+IDC_ACCOUNTTEXT=Registrul de conturi
+IDC_BANKTEXT=Banci
+IDC_CATEGORYTEXT=Categoriile
+IDC_PAYEETEXT=Beneficiarii
+IDC_SCHEDULETEXT=Planificare
+IDC_REPORTTEXT=Rapoarte
+IDC_PORTFOLIOTEXT=Portofoliul
+
+IDC_LISTFONTTEXT=Listeaza fonturi
+
+IDC_TABLEFONTCOLORTEXT=Culoarea textului din tabel
+IDC_TABLEBILLFONTCOLORTEXT=Culoarea plãþilor recurente
+IDC_TABLEBACKGROUNDTEXT1=Culoarea nr.1 de fundal din tabel
+IDC_TABLEBACKGROUNDTEXT2=Culoarea nr.2 de fundal din tabel
+IDC_RESTORE=Setãri implicite
+IDOK=OK
+IDCANCEL=Renunþã
+
+[IDD_CURRENCY]
+TITLE=Rate de schimb valutar
+IDC_SHOWALL=Aratã toate monedele
+IDC_CURRENCYINFO=Moneda implicita: %s
+IDC_DOWNLOAD=Download...
+IDC_UPDATE=Actualizare rata
+
+IDOK=Închide
+IDHELP=Ajutor
+
+COLUMN0=Moneda
+COLUMN1=La rata
+COLUMN2=Data
+
+ERR_WEBUPDATE=Rata de schimb nu poate fi actualizata! Verificati conexiunea la Internet!
+ERR_INVALIDRATE=Rata de schimb e invalida!
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=Rata de schimb
+IDOK=OK
+IDCANCEL=Renunþã
+
+[IDD_SHEETREPORTFILTER]
+TITLE=Filtru de raport
+
+[IDD_DATESRANGE]
+TITLE=Selectaþi perioada
+
+CURRENTWEEK=Sãptãmâna curenta
+PREVIOUSWEEK=Cu o sãptãmâna în urma
+LAST30DAYS=Ultimele 30 de zile
+CURRENTMONTH=Luna curentã
+PREVIOUSMONTH=Luna trecuta
+CURRENTQUARTER=Sfertul acesta de an
+PREVIOUSQUARTER=Sfertul trecut de an
+CURRENTYEAR=Anul curent
+PREVIOUSYEAR=Anul trecut
+IDC_BUDGETDATES=Perioadele pentru buget:
+IDC_CUSTOMDATES=Custom dates:
+IDC_FROMTEXT=De la
+IDC_TOTEXT=La
+
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+CURRENT=Curent
+CUSTOM=Custom
+
+[IDD_FILTERACCOUNT]
+TITLE=Selectaþi conturile
+
+IDC_SELECTALL=Selecteazã tot
+IDC_CLEARALL=Deselecteazã tot
+
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+[IDD_FILTERCATEGORY]
+TITLE=Selectaþi categoriile
+
+IDC_SELECTALL=Selecteazã tot
+IDC_CLEARALL=Deselecteazã tot
+
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+[IDD_FILTERPAYEE]
+TITLE=Selectaþi beneficiari
+
+IDC_SELECTALL=Selecteazã tot
+IDC_CLEARALL=Deselecteazã tot
+
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+[IDD_IMPORT]
+TITLE=Import
+IDC_IMPORTTEXT=Selectaþi un cont pentru tranzacþiile importate
+IDC_DATEFORMATTEXT=Formatul datei
+
+IDC_NEWACCOUNT=Cont nou...
+
+IDOK=OK
+IDCANCEL=Renunþã
+
+ERR_NOACCOUNT=Trebuie sã selectaþi un cont!
+
+[IDD_EXPORT]
+TITLE=Export
+
+IDC_EXPORTTEXT=Selectaþi un cont pentru exportare
+IDC_STARTDATETEXT=Data de început
+IDC_ENDDATETEXT=Data de sfârºit
+
+ERR_NOACCOUNT=Trebuie sã selectaþi un cont!
+
+IDOK=OK
+IDCANCEL=Renunþã
+
+[IDD_LANGUAGE]
+TITLE=Selectaþi limba
+
+IDOK=OK
+IDCANCEL=Renunþã
+
+[IDD_OPTIONS]
+TITLE=Opþiuni
+
+IDC_GENERALGROUP=Generale
+IDC_DATETEXT=Formatul datei
+IDC_DATESEPARATORTEXT=Separator pentru datã
+IDC_SHOWCLOSEDACCOUNTS=Aratã conturile închise
+IDC_SHOWGRID=Separã randurile ºi coloanele
+IDC_LOADLASTFILE=Încarcã ultimul fiºier folosit
+IDC_SHOWCOMMENT=Aratã comentarii pentru tranzacþii
+IDC_CURRENCYTEXT=Moneda implicita
+IDC_AUTOSAVE=Salveazã automat documentul
+IDC_SHOWFUTUREBILLS=Aratã plãþile recurente planificate
+IDC_SHOWSPLASHSCREEN=Aratã fereastra cu informatii la început
+IDC_SHOWFILENAME=Aratã numele fiºierului în bara de titlu
+IDC_SHOWSOLDSTOCKS=Aratã acþiunile vandute
+IDC_SHOWDEPOSITSFIRST=Depozitele sunt primele tranzacþii din zi
+
+IDC_STARTPAGEGROUP=Pagina de start
+IDC_ACCOUNTLIST=Lista de conturi
+IDC_FAVORITEACCOUNT=Cont preferat
+
+IDC_PASSWORDGROUP=Parola
+IDC_OLDPASSTEXT=Parola curenta
+IDC_NEWPASSTEXT=Parola noua
+IDC_RETYPETEXT=Reintroduceþi parola
+
+IDC_DECIMALSEPARATORTEXT=Punct zecimal
+IDC_THOUSANDSEPARATORTEXT=Separator de mii
+IDC_NUMBEROFDECIMALDIGITSTEXT=Numãrul de zecimale
+
+IDC_TRANSACTIONTYPETEXT=Tipul noii tranzacþii
+LASTUSEDTYPE=Cel folosit ultima datã
+
+IDC_TRANSACTIONNUMBERTEXT=Numãrul noii tranzacþii
+NUMBER_EMPTY=Fara numãr
+NUMBER_DEBIT=Debit
+NUMBER_AUTO=Numãrul vechii tranzacþii, plus 1
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+ERR_THOUSANDDECIMAL=Punctul zecimal ºi separatorul de mii nu pot fi la fel!
+ERR_THOUSAND=Separator de mii nepotrivit!
+ERR_INVALIDOLDPASSWORD=Nu ati introdus corect parola veche!
+ERR_INVALIDNEWPASSWORD=Nu ati introdus corect parola noua!
+
+[IDD_PASSWORD]
+TITLE=Introduceti parola
+IDC_PASSTEXT=Parola
+
+IDOK=OK
+IDCANCEL=Renunþã
+
+ERR_INVALIDPASSWORD=Parola incorectã!
+
+[IDD_PAYEE]
+TITLE=Beneficiar
+IDC_NAMETEXT=Nume
+IDC_ADDRESSTEXT=Adresa
+IDC_CITYTEXT=Oraºul
+IDC_STATETEXT=Judeþul
+IDC_ZIPTEXT=Cod poºtal
+IDC_COUNTRYTEXT=Þara
+
+IDC_HOMEPHONETEXT=Telefon acasa
+IDC_WORKPHONETEXT=Telefon serviciu
+IDC_MOBILEPHONETEXT=Telefon mobil
+IDC_FAXTEXT=Fax
+IDC_PAGERTEXT=Pager
+
+IDC_EMAILTEXT=Email
+IDC_WEBSITETEXT=Web site
+IDC_COMMENTTEXT=Comentariu
+
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+ERR_NOPAYEENAME=Beneficiarul trebuie sã aibã un nume!
+
+[IDD_PAYEEMERGE]
+TITLE=Amesteca beneficiari
+IDC_PAYEETEXT=Amestecã beneficiarul
+IDC_PAYEETEXT1=cu beneficiarul
+
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+ERR_NOPAYEES=Beneficiarii ar trebui sã fie diferiti!
+
+[IDD_PRINTPREVIEW]
+TITLE=Previzualizare tiparire
+IDC_PAGETEXT=Pagina
+IDC_PRINT=Tipareºte
+
+IDOK=OK
+IDHELP=Ajutor
+
+[IDD_REGISTER]
+TITLE=Înregistrare
+
+IDC_NAMETEXT=Nume:
+IDC_SERIALNUMBERTEXT=Numãr de serie:
+
+IDC_ORDER=Cumparã...
+
+IDOK=OK
+
+[IDD_SEARCH]
+TITLE=Cautã tranzacþii
+
+IDC_DATETEXT=Data
+IDC_FROMTEXT=de la
+IDC_TOTEXT=la
+IDC_AMOUNTTEXT=Cantitatea
+IDC_AMOUNTFROMTEXT=de la
+IDC_AMOUNTTOTEXT=la
+IDC_COMMENTTEXT=Text
+IDC_SEARCH=Cautã
+IDC_CLOSE=Închide
+[IDD_SPLIT]
+TITLE=îmaprte dupã categorii
+
+IDC_CATEGORYTEXT=Categoria
+IDC_SUBCATEGORYTEXT=Subcategoria
+IDC_AMOUNTTEXT=Cantitatea
+IDC_ADD=Adaugã
+IDC_EDIT=Modificã
+IDC_DELETE=ªterge
+IDC_TOTALTEXT=Total:
+IDC_UNASSIGNEDTEXT=Neatribuiþi:
+IDC_COMMENTTEXT=Comentariu
+
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+COLUMN0=Categoria
+COLUMN1=Subcategoria
+COLUMN2=Cantitatea
+COLUMN3=Comentariu
+
+ERR_BADTOTAL=Suma tuturor plãþilor nu este egalã cu valoarea tranzacþiei. Doriþi sã modificaþi valoarea tranzacþiei?
+
+[IDD_SPLITITEM]
+TITLE=Modificãre subtranzacþie
+IDC_CATEGORYTEXT=Categoria
+IDC_SUBCATEGORYTEXT=Subcategoria
+IDC_AMOUNTTEXT=Cantitatea
+IDC_COMMENTTEXT=Comentariu
+
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+[IDD_TRANSACTION]
+TITLE=tranzacþie
+
+IDC_TYPETEXT=Tip
+IDC_DEPOSIT=Depunere
+IDC_WITHDRAWAL=Retragere
+IDC_TRANSFER=Transfer
+IDC_ACCOUNTTEXT=Contul
+IDC_PAYEETEXT=Beneficiar
+IDC_CATEGORYTEXT=Categoria
+IDC_SPLIT=Imparte
+IDC_COMMENTTEXT=Comentariu
+IDC_DATETEXT=Data
+IDC_NUMBERTEXT=Numãrul
+IDC_AMOUNTTEXT=Suma
+
+FROMTEXT=De la
+TOTEXT=la
+SPLIT=Împarte
+DEBIT=Debit
+
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+ERR_SAMETRANFER=Nu puteþi transfera în acelasi cont!
+ERR_INVALIDACCOUNT=Numele contului este impropriu!
+ERR_SPLITAMOUNT=Valoarea tranzacþiei ar trebui sã fie egala cu suma subtranzacþiilor!
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Rata de schimb
+
+IDC_SOURCEAMOUNTTEXT=Suma iniþialã
+IDC_TARGETAMOUNTTEXT=Suma destinaþie
+
+IDOK=OK
+IDCANCEL=Renunþã
+
+[IDD_TRANSACTIONCATEGORYLIST]
+TITLE=Categoriile de tranzacþii
+IDC_ADD=Adaugã...
+IDC_DELETE=ªterge
+IDC_EDIT=Actualizeaza...
+IDOK=Închide
+IDHELP=Ajutor
+
+[IDD_TRANSACTIONCATEGORY]
+TITLE=Categoria tranzacþiei
+IDC_NAMETEXT=Nume
+IDOK=OK
+IDCANCEL=Renunþã
+
+ERR_NONAME=Categoria tranzacþiei nu are nume!
+[IDD_DAYBILLS]
+TITLE=Plãþi recurente
+
+COLUMN0=Data
+COLUMN1=Tranzacþia
+COLUMN2=Beneficiar
+COLUMN3=Suma
+COLUMN4=Comentariu
+COLUMN5=Frecventa
+
+IDC_ENTER=Intrã...
+IDC_EDIT=Modificã...
+
+IDOK=OK
+IDHELP=Ajutor
+
+[IDD_LITEVERSION]
+TITLE=AceMoney Lite
+
+IDC_TEXT=Programul AceMoney versiunea Lite poate gestiona un singur cont de utilizator. Alt cont nu poate fi creat ºi nici nu se pot deschide fiºiere cu mai multe conturi. Daca trebuie sã gestionati mai multe conturi, ar trebui sã comandati versiunea nelimitata a programului.
+IDC_WEBSITE=Upgrade...
+IDOK=Închide
+
+[IDD_STOCK]
+TITLE=Investiþii
+
+IDC_SYMBOLTEXT=Simbol
+IDC_NAMETEXT=Nume
+IDC_CURRENCYTEXT=Moneda
+IDC_COMMENTTEXT=Commentariu
+IDC_UPDATE=Update...
+IDC_WEBUPDATE=Download...
+IDC_PRICETEXT=Preþuri din trecut
+
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+COLUMN0=Data
+COLUMN1=Preþ
+
+[IDD_STOCKPRICE]
+TITLE=Preþul acþiunilor
+
+IDC_DATETEXT=Data
+IDC_PRICETEXT=Preþ
+
+IDOK=OK
+IDCANCEL=Renunþã
+
+[IDD_STOCKTRANSACTION]
+TITLE=Investment Transaction
+
+IDC_DATETEXT=Data
+IDC_ACCOUNTTEXT=Cont
+IDC_ACTIONTEXT=Acþiune
+IDC_INVESTMENTTEXT=Investiþie
+
+IDC_DIVIDENDTEXT=Dividende
+IDC_NUMBERTEXT=Numãr de acþiuni
+IDC_PRICETEXT=Preþ
+IDC_COMMISSIONTEXT=Comision
+IDC_TOTALTEXT=Total
+
+BUY=Cumparã
+SELL=Vinde
+DIVIDEND=Dividende
+REINVEST=Reinvesteºte dividende
+ADD=Adaugã acþiuni
+REMOVE=Renunþã la acþiuni
+
+IDOK=OK
+IDCANCEL=Renunþã
+IDHELP=Ajutor
+
+ERR_NEGATIVEVALUES=Numãrul de acþiuni, preþul unei acþiuni, dividendele, commisionul ºi totalul trebuie sã fie pozitive!
+ERR_INVALIDACTIONTYPE=Tipul acþiunii este nepotrivit!
+ERR_INVALIDACCOUNT=Cont ilegal!
+ERR_INVALIDINVESTMENT=Investiþie ilegalã!
+[IDD_REPORTADD]
+TITLE=Adaugã la favorite
+IDC_NAMETEXT=Numele raportului
+IDOK=OK
+IDCANCEL=Renunþã
+
+[IDD_REPORTORGANIZE]
+TITLE=Gestioneazã rapoartele
+IDC_DELETE=ªterge
+IDOK=Genereazã
+IDCANCEL=Închide
+
+[IDD_STARTUP_CURRENCY]
+TITLE=Setãri monedã
+IDC_CURRENCYTEXT=Moneda implicita
+IDC_NUMBEROFDECIMALSTEXT=Numãrul de cifre zecimale
+IDC_DECIMALSEPARATORTEXT=Separator zecimale
+IDC_THOUSANDSEPARATORTEXT=Separator de mii
+IDC_EXAMPLETEXT=Exemplu
+
+IDC_BACK=<< Înapoi
+IDC_NEXT=Înainte >>
+
+SEPARATOR_SPACE=Spaþiu
+SEPARATOR_NONE=Fãrã separator
+
+ERR_THOUSANDDECIMAL=Punctul zecimal ºi separatorul de mii nu pot fi la fel!
+
+[IDD_STARTUP_DATE]
+TITLE=Setãri datã
+IDC_FORMATTEXT=Formatul datei
+IDC_SEPARATORTEXT=Separator
+IDC_EXAMPLETEXT=Exemplu
+
+IDC_BACK=<< Înapoi
+IDC_FINISH=Sfârºit
+
+[IDD_ACEMONEYREMINDER]
+TITLE=Înstiinþare platã recurentã din AceMoney
+
+STARTACEMONEY=Start AceMoney...
+OPTIONS=Opþiuni...
+VIEWBILLS=Vizualizare plãþi recurente...
+EXIT=Exit
+CLOSE=Închide
+
+COLUMN0=Data
+COLUMN1=Tranzacþia
+COLUMN2=Beneficiar
+COLUMN3=Suma
+
+OPTIONSTITLE=Opþiuni
+DATAFILE=Fiºierul de date al AceMoney
+BROWSE=Rãsfoieºte...
+SELECTFILE=Selectaþi fiºierul de date
+AUTOSTART=Porneºte împreunã cu Windows
+STARTMINIMIZED=Porneºte minimizat
+OK=OK
+CANCEL=Renunþã
+
+MSG_DUEBILLS=Aveþi o platã recurentã scadenta!
+MSG_NODUEBILLS=Nu existã plãþi recurente scadente

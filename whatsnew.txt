@@ -1,0 +1,1643 @@
+History of changes
+==================
+
+4.33 (Dec 28, 2012)
+
+- Reduced bandwidth requirement for online sync with AceMoney Receipts
+- Matched default reporting periods in AceMoney and Receipts
+- Fix: international characters did not always sync between devices
+
+4.32 (Dec 20, 2012)
+
+- Fix: fixed online access for BofA customers
+- Fix: fixed rendering of online help in the MacOS version
+- Added "Credit Union 1" online support
+- Localized for Italian and Swedish languages
+
+4.31 (Dec 18, 2012)
+
+- NEW: Receipt snapshots are saved, visible in the register
+- Faster Android device synchronization
+- Localization fixes
+
+4.30 (Nov 30, 2012)
+
+- NEW FEATURE: integration with AceMoney Receipts for Adroid
+- (UI) updates to improve readability on low-resolution screens
+- Fixed network connection issue (present only on Windows 8)
+- Bug fix roll-up
+
+4.20.7 (Apr 10, 2012)
+
+- Single-click install and upgrades for MacOS users
+- (UI) Updated product graphics with new look
+
+4.20.6 (Mar 26, 2012)
+
+- Fixed multi-threaded cause of duplicate transfers with online imports
+- Corrected "new account created" message for OFX and QFX imports
+- Fixed date issue with reports that use fiscal year
+- (UI) Enabled [Backup Now] feature even if scheduled backup is not enabled
+- (UI) Added "Duplicate Detection Range" setting in the options dialog
+- (UI) Password-protected files are shareable by default
+- (UI) Increased number of retries for entering a password
+- (UI) AceLiteOnly: allow unlocking file after a computer crash
+- (UI) More informative error messages if the file is locked or corrupted
+
+4.20.5 (Mar 8, 2012)
+
+- Fixed backup process for improperly named files
+- Fixed File->Archive file extension naming
+- Enabled AMJ conversion for files other than MMW
+- Appropriate error message when opening a badly corrupted file
+
+4.20.4 (Mar 1, 2012)
+
+- Bloomberg stocks tweak
+- Smarter transaction import logic for cross-account transfers
+- Support for MMW files protected by legacy passwords (pre-2005)
+
+4.20.3 (Feb 23, 2012)
+
+- Fixes for Bloomberg and AMFIndia exchanges
+- Fixes for Yahoo finance zero-padded option names (e.g. YHOO120317C00015000)
+- Added Northstar Bank of Texas and Denton Area Teachers CU
+
+4.20.2 (Feb 17, 2012)
+
+- Fixed MMW file compatibility issue
+- Suppressed unneded pasword prompts from AceMoney Reminder
+- Improved import logic to better match against existing transactions
+
+4.20 (Feb 16, 2012)
+
+- Implemented strong encryption for the AceMoney file format
+- Added support for dynamically downloading online bank updates
+- Added Ctrl-Shift-S keyboard shortcut for File->SaveAs..
+- Fixed Bloomberg and Yahoo stock quotes
+- Added Amegy Bank of Texas, Velocity CU and Independent Bank
+
+
+4.19.1 (Oct 13, 2011)
+
+- Fixed a crash when printing from MacOS version
+- Fixed online quotes for precious metals (Gold)
+- Improved handling of password-protected files
+- Added "every three weeks" option for recurring bills (customer request)
+- Added "Go to Other Account" option for transfer transactions (right click)
+- Fixed QIF importing for stock buys/sells smaller than 0.001 shares
+- Improved recognition of nameless accounts in QIF files
+- Added online support for Desert Schools Federal Credit Union
+- Added online support for Jack Henry Bank
+- Added support for Discover Bank
+
+
+4.19
+
+- Added Hide zero rows checkbox to the Report page
+- Fixed account filtering issue in Spendings by accounts report
+- Improved transaction import from CSV files
+- Improved new investment transaction entry
+- Improved investment transactions import from OFX files
+- Renamed Difference, % to Budget, % column in the budget reports
+- Fixed window title filename update bug
+- Added support for First Tech Credit Union
+- Added support for First Tech Federal Credit Union
+- Added support for Commerce Bank, NA
+
+4.18.1
+
+- Updated Bloomberg data source
+- Fixed CashFlow report date filtering error
+- Fixed calculation of custom fiscal year end date
+- APR value is no longer dependent on currency format
+- Fixed minor bugs
+
+4.18
+
+- Added support for inline functions
+- Added new periods for account balance forecast
+- Improved error handling for stock quote downloads
+- Fixed autosave prompt after online updates
+- Added difference percent column to the budget reports
+- Added support for Wells Fargo Advisor
+- Added support for Silver State Schools Credit Union
+- Added support for Suncoast Schools Federal Credit Union
+- Updated address of PNC bank
+
+4.17
+
+- Fixed Spendings by accounts report bug when filter by categories is applied
+- Improved investment transaction import from QIF files
+- Added support for Mission Federal Credit Union
+- Added support for New England Federal Credit Union
+- Added support for Affinity Plus Federal Credit Union
+- Added support for direct downloads from Yandex.Money
+
+4.16.1
+
+- Updated Campus USA CU server
+- Improved recognition of accounts reported by the banks
+- Fixed a cosmetic bug on the category page
+- Added support for OptionsXpress
+- Added support for Los Angeles Fireman’s Credit Union
+- Added support for Franklin Templeton Investments
+
+4.16
+
+- Improved stock quotes import from QIF files
+- Investment transactions now can be imported from OFX files
+- Portfolio and Payee page items can be copy/pasted to spreadsheets
+- Downloaded change, open, 52 week low and high values now also
+  take into account Divide by 100 investment attribute
+- Fixed new category dialog error
+- Added support for Campus USA Credit Union
+- Added support for Hewitt Associates
+- Added support for Santa Barbara Bank & Trust
+- Added new server for Bank of America
+- Updated direct connect info for Wells Fargo
+- Updated support for American Century Investments
+
+4.15.1
+
+- Fixed Gain Percent column visibility bug
+- Investments now can be sorted by type
+- Fixed order of 52 wk min/max when downloaded from Bloomberg
+
+4.15
+
+- Added Type Change, Open, P/E, Div Yield, 52 week low and 
+  high columns to the Portfolio page
+- A set of visible columns on the Portfolio page now can be customized
+- Double click on the investment now opens a page on the datasource site
+- Added Financial Times data source
+- Added support for Kinecta Federal Credit Union
+- Added subtotals by average values in the monthly reports
+- Fixed subcategory grouping problem
+- Totals in the Investment Performance report now takes into account
+  investment currencies
+- MS Money classification applied to the scheduled bills now also 
+  are automatically created as AceMoney tags
+- Improved duplicate detection logic for transaction import
+- Added support for ING Direct
+- Added support for VyStar Credit Union
+
+4.14
+
+- Added support for the user defined fiscal year
+- Account dialog has two new fields: balance limit and APR
+- Available balance now optionally can be displayed on the main page
+- Monthly budget limits dialog now supports multiple selection
+  and allows to add limits for multiple months
+- Category, subcategory, account and and transaction reports now 
+  can display subtotals according to the current sort column
+- Added show subtotals checkbox to the reports page
+- Added show closed accounts checkbox to Filter by accounts dialog
+- Sort colimn is now remembered when switching between the reports
+- Quicken classes and MS Money classifications are now converted into
+  AceMoney tags during import
+- Improved filtering logic in the Spendings by categories report
+- Added International Stock and International Bond investment types
+- Added support for Serbian Dinar (RSD)
+- Added new server for zWachovia direct connections
+- Fixed Wine compatibility issue causing failed downloads
+- Fixed an error in budget totals calculation on the Categories page
+- Improved precision of budget limit extrapolation for the reports
+- Fixed an error in reconciliation warning check when dealing with 
+  partially reconciled transfers
+
+4.13
+
+- Fixed filtering bug in the Spendings by accounts report
+- Improved move transaction behavior
+- Improved import of Mortgage/Loan accounts from MS Money XML files
+- Updated records for M&T Bank
+- Fixed minor errors
+
+4.12
+
+- Improved transaction coloring when more than one tag 
+  is applied to the same transaction
+- Added a filter to the Import Rules dialog
+- Import rules now can be sorted by payee and category
+- Added Rename button to the Organize Reports dialog
+- Budget reports now show unassigned transactions
+- Tags now can be applied to the recurring bills
+- Sum of reinvested dividends no longer affects gain figure
+- Updated Money Central data source
+- Added Cuban Convertible Peso (CUC)
+- Added support for ING Direct (Canada)
+- Added support for Huntington National Bank
+- Added support for Mountain America Credit Union
+- Added support for First Citizens Bank
+- Added support for Citizens Bank
+- Added support for Delta Community Credit Union
+- Added support for State Employees Credit Union (NC)
+- Added support for Arizona State Credit Union
+- Added support for M&T Bank
+
+4.11
+
+- Added support for user defined tags
+- Added Every two years bill frequency
+- Improved recognition of dividend transactions in QIF files
+- Fixed balance update bug after a new transaction was entered
+- SaveSettings/RestoreSettings batch files now backup config.ini
+- Fixed occasional download problem from TD Bank
+- Added support for First Republic Bank, First Community FCU, 
+  First Community Bank (IA) and Community First Credit Union
+
+4.10
+
+- Improved investment transaction import from OFX files
+- Improved recognition of check numbers on import
+- Improved handling of multicurrency transfers
+- Improved account matching logic on import
+- Now the transaction dialog accepts amounts in foreign currency
+- Added support for Washington State Employee's Credit Union
+- Added support for Edward Jones
+- Added support for Apple FCU
+- Added support for the new T Rowe Price servers
+
+4.9
+
+- Added support for the month specific budget limits
+- Added do not ask again setting to the bill amount update 
+  and bill account update warnings.
+- Added support for FORTS futures to the Finam data source
+- Removed Total and Average values from the monthly spending charts
+- Fixed tooltip flashing in the bar charts
+- Improved sorting of recurring bills and deposits
+- Fixed OFC import
+- Bank provided payees are no longer created when import rule is applied
+- Now transactions for the several accounts can be imported 
+  from the same OFX file
+
+4.8
+
+- Updated Bloomberg data source
+- Added Move to account option to the context menu
+- Improved investment transaction import from OFX
+- Fixed order of columns in the calendar bills dialog
+- Added support for Charles Schwab
+- Added total line to the investment performance report
+- Improved autonumbering logic for the automatic bills
+- Added support for Regions Bank
+- Added support for Fidelity Investments
+- Added another online provider for Bank of America
+
+4.7
+
+- Added Last 12 months period
+- Updated India Times data source
+- Fixed minor bugs
+- Cleaned up a list of deprecated bank servers
+- Improved direct connect account number matching logic
+
+4.6
+
+- Added a possibility to show future bills/deposits 
+  for the next 18 and 24 months
+- Added Current Price column to the Investment Performance 
+  report
+- Added Go to transaction context menu item to 
+  the transaction report
+- Updated Bloomberg data source
+- Fixed sorting bug on the schedule page
+- Improved import rule creation
+- Fixed autonumbering problem when recording the scheduled 
+  transactions
+- Updated direct connect info for BB&T, Wachovia 
+  and Wells Fargo
+
+4.5
+
+- Added Category and Automatic columns to the Schedule page
+- Added support for KeyBank, Bank of the West
+- Improved detection of duplicate transfers
+- Added import of the scheduled bills from MS Money
+- Added import of multiple accounts from Quicken
+- Added Select Open button to the account filter dialog
+- Added totals of selected withdrawals and deposits 
+  to the balance dialog
+- Improved import of directly downloaded investment 
+  transactions 
+- Fixed a minor problem with the line ends in the 
+  configuration file
+- Added Accept Imported Transactions, Close and Reopen 
+  menu items to the Accounts page context menu
+- Miscellaneous import improvements
+
+4.4
+
+- Added new date periods: year to date, month to date,
+  quarter to date, all dates to date and all dates
+- Added Reinvest short and long term capital gain 
+  investment transaction types
+- Added an option to add a date to the backup file name
+- Updated IndiaTimes data source
+
+4.3.1
+
+- Added gain distribution actions to the transaction list
+  on the portfolio page
+- Fixed a bug in Sell shares transaction processing
+
+4.3
+
+- Added Average column to Monthly spendings by categories,
+  Monthly spendings by subcategories and Monthly spendings
+  by payees reports
+- Added Skip bill button to the schedule screen
+- Added support for short and long term capital gains
+- Added transaction import from CSV files
+- Added investment import from CSV files
+- AceMoney Reminder now will launch even if the data file 
+  is not found
+- Improved import from Microsoft Money
+- Import rules now preserve the original information 
+  in transaction comments
+- Improved direct connect compatibility with some banks
+- Fixed sorting problem on the Categories page
+- Fixed minor bugs in direct connect service
+
+4.2.1
+
+- Updated Bloomberg data source
+
+4.2
+
+- Added German help file
+- Updated QIF parser
+- Fixed window update problem when repositioned with Windows 7 
+  Windows key shortcuts
+- Fixed text file export end of line character
+
+4.1.2
+
+- Updated Euro icon and added yet another pound icon
+- Updated Bloomberg data source
+- Updated IndiaTimes data source
+- Improved account number matching logic for direct connections
+
+4.1.1
+
+- Added Apply import rules to the import dialog
+- Disabled application of the import rules when importing 
+  from Microsoft Money
+- Multiple transactions are now correctly deleted from 
+  the transaction report
+
+4.1
+
+- Added support for Moscow Stock Exchange (MICEX/MMVB)
+- Updated Bloomberg data source
+- Added British Pound icon to AceMoney.exe
+- Imported transaction state is now correctly applied to
+  the transfers
+- Half cleared transfers are not correctly processed by
+  the Balance Account dialog
+- Fixed case conversion error in the import rules logic
+
+4.0.2
+
+- Added a checkbox to automatically close download dialog
+  when all tasks are done
+- Split comments are now included to the transaction tooltip
+- Fixed a bug causing two buttons show up on the account page
+  when the side panel is hidden
+- Transfer import rules now are correctly applied to the 
+  manually imported files too
+- Fixed minor spelling errors
+
+4.0.1
+
+- Fixed balance calculation bug ignoring initial balance
+
+4.0
+
+- Added direct connect to download transactions straight to AceMoney
+- Added more than one thousand predefined import rules
+- Import rules now can be imported and exported to CSV files
+- Import rules now can convert deposits and withdrawals to transfers
+- Improved performance of the main page refresh
+- Added Investment transaction button to the account page
+- Improved import of investment transactions from Microsoft Money 
+  xml files
+- Added new columns to the Investment Performance report
+- Added Bloomberg data source
+- Updated Zagreb Stock Exchange data source
+- Transaction delete confirmation now can be disabled
+- Scheduled Bill delete confirmation now can be disabled
+- Cleared/Reconciled transaction change confirmation now can be 
+  disabled
+- Fixed a bug in saving favorite report period type
+- Fixed a bug in displaying transfers in the search results
+- Changed filter by text evaluation logic to exclude transactions 
+  without any comment from the reports
+- Search dialog now defaults to the current account if search 
+  is called from the account page
+- Investments page totals now get properly updated when a new 
+  transaction is entered and the investments are filtered by 
+  account
+
+3.20
+
+- Added new investment types
+- Fixed multicurrency issue in the investment charts
+- Improved budget limit extrapolation logic
+- Report name is now displayed in the main window title
+- Added export of categories to the text files
+- Updated IndiaTimes data source
+- Added support for mouse back/forward buttons and keyboard
+  application buttons (Back, Forward and Home)
+- Load last file flag is no longer reset when file is not present
+- Added support for Unidad de Fomento (UF)
+- Improved investment performance analysis
+
+3.19
+
+- Added account filter to the Portfolio page
+- Added three new charts to the Portfolio page
+- Added investment report to the Reports page
+- Fixed transaction search function to look in split comments too
+
+3.18
+
+- Find transaction dialog now also searches in tags and investments
+- Added new report filters by investments, tags and text
+- Transaction report now fully describes investment transactions
+- Added type-and-find support to the Payees page
+- Minor improvements to the Import dialog
+- Removed flash of account data on invalid password entry
+- Updated RTS data source
+
+3.17.3
+
+- Fixed total calculation bug in the Investment Transaction dialog
+- A combination of the Find dialog fields now is treated 
+  as logical AND (instead of logical OR).
+
+3.17.2
+
+- Improved OFX import
+- Improved QIF import
+- Added grid lines to the Balance dialog
+- Improved user input processing in the Search dialog
+- Added support for Windows Menu button and Shift+F10 to call 
+  context menus
+- Added an option to sort transactions of the same day by number
+- Fixed rounding issue in reinvest dividend calculations
+- Added converter from Microsoft Money to AceMoney
+
+3.17.1
+
+- Added per category and per payee totals to the monthly reports
+- Fixed Hebrew translation problems
+- Fixed a bug preventing Spending by accounts report be produced 
+  from Favorites menu
+- Fixed behavior of account menu shortcuts
+- Transaction categories dialog now supports multiple selection
+- Fixed minor transaction number related autocomplete bug
+- Fixed Encountered an improper argument message in Calendar
+- Fixed error in period total calculation of CashFlow report
+- Updated Yahoo Finance data source
+
+3.17
+
+- AceMoney Lite now supports two accounts
+- Added Monthly Category and Monthly Subcategory spendings reports
+- Added Monthly Payee spendings report
+- Added Spendings by Accounts report
+- Updated Google Finance data source
+- Added a flag to disable automatic quote downloads 
+  for individual investments
+- Updated QIF parser to support non-standard files produced by Chase
+  
+3.16.3
+
+- Set default period for many reports to the current month
+
+3.16.2
+
+- Added Number field to the bill dialog
+- Fixed split bill editing issue
+- Fixed minor currency exchange rate download problems
+- Improved Google Finance data source to handle Chinese stocks
+- Fixed detection of duplicate check numbers in transfers
+- Fixed import of transactions from QIF files with categories 
+  ending with colon
+- Fixed a minor bug in account list export to CSV file
+
+3.16.1
+
+- Updated AMFI India data source
+- Improved support of QIF files produced by Lloyds TSB bank
+- Fixed currency exchange rate download error when initiated
+  from the currency exchange dialog
+- Fixed minor issues with modifications of transactions 
+  in the search dialog
+
+3.16
+
+- Added printing of portfolio and investment Transactions
+- Added printing of banks
+- Added printing of payees
+- Added printing of categories
+- Added printing of schedule
+- Updated PayPal order parser
+- Transactions within the same day are now ordered by numbers
+- Extended reconciled balance tooltip deactivation period
+- Fixed currency exchange rate download via proxy server
+
+3.15
+
+- Amount, category and comment are now automatically filled-in 
+  for any new transfer based on the most recent transfer
+  between the same accounts
+- Fixed check for updates in AceMoney Lite
+- Copy operation is now supported in Transaction Search dialog
+- Added an option to disable transaction comment autofill feature
+- Updated PayPal order parser to support new notification format
+- Total budget limits now can be displayed both on annual 
+  and monthly basis
+- Added pre-Euro European currencies for historical records
+- Fixed minor toolbar and column headers painting problems
+- Improved compatibility with large fonts and high DPI modes
+- New transaction becomes selected now in Balance Account dialog
+
+3.14
+
+- Added support of multiple selection to the list of payees
+- Added Inactive payee state and Hide inactive payees checkbox
+- Added navigation between accounts by Ctrl+1 - Ctrl+0
+- Fixed persistence of Check for updates flag
+- Added MSN Money UK data source for UK investments
+
+3.13
+
+- Added check for a newer version at startup
+- Improved processing of opening balance records in QIF files
+- Improved detection of some rarely used investment transactions 
+  types in QIF files
+- Fixed sudden amount updates when viewing split transaction 
+  with zero totals
+- Fixed error in cash value calculation of the partial reinvest
+  dividend investment transactions
+- Fixed budget limit adjustment logic for the custom dates
+- Added support for Azerbaijan New Manat (AZN)
+- Window title is now updated after File->Save As
+- Fixed column size reset in the transaction list
+- Improved management of the main window position
+- Improved transaction list printout
+- Improved keyboard navigation between reports
+- Added Backspace/Shift+Backspace as Back and Forward keyboard
+  shortcuts
+
+3.12.3
+
+- Fixed currency exchange rate download problem
+- Fixed bill update error in the transaction list
+- Fixed open attachment issue when default action was not used
+- Fixed text file export bug when exporting a list of accounts
+- Fixed maximum number of characters problem in split tooltip
+  causing "encountered an improper argument" error message
+
+3.12.2
+
+- Added clip icon to mark transactions with attachments
+- Fixed problem with tags and attachments in Windows 95/98
+- Fixed check sorting error in transaction list
+- Improved handling of investment dialog
+- Fixed sorting issues in the list of investment transactions
+- Fixed line ends in the exported text files
+- Fixed minor selection problems in the transaction list
+- Added Ctrl+B shortcut to call Balance Account dialog
+- Added Alt+H shortcut to hide/show the side panel
+- Added support for keyboard shortcuts to transaction and bill dialogs
+- Renamed transaction categories to transaction labels
+- Added optional transaction update when label is renamed or deleted
+
+3.12.1
+
+- Fixed missing split tooltip when one of the columns is hidden
+- Fixed incorrect display of the future bill with transfer from split
+- Fixed selection of the most recent transaction depending on sort mode
+- Split tooltips now correctly show categories with amperands
+- Disabled sorting of transactions by amounts within the same day when 
+  deposits are selected as the first transactions of the day
+- Fixed account page switch causing a crash in Windows NT/2000
+- Fixed minor bugs in transaction list update logic
+- Fixed black vertical lines problem when resizing columns
+
+3.12
+
+- Added five predefined transaction tags
+- Added support of transaction attachments
+- Added ability to hide columns in transaction list
+- Added accounts drop down list to transaction search dialog
+- Added drop down list with account name to the Account page
+- Added a column with account name to transaction report
+- Fixed split and total tooltips blinking on the Account page
+- Optimized initialization of account page
+- Optimized initialization time of Payees page
+- Updated IndiaTimes data source
+- Updated Yahoo Finance UK data source
+- Fixed minor bugs in porfolio value calculation algorithm
+
+3.11
+
+- Added option to hide side panel on the account page
+- Balance account dialog now remembers widths of columns
+- Implemented FIFO-based computation of investment gains
+- Fixed case insensitive string comparison for non latin characters 
+  causing creation of duplicate payees
+- Fixed error preserving transaction status when existing transaction 
+  is added as a recurring bill/deposit to the schedule
+- Add button in the Split dialog is now the default button handling 
+  Enter key
+- Fixed import problem caused by read only attributes assigned 
+  by Firefox 3 to temporary files
+- Added possibility to change duplicate detection limits in config file.
+- Improved support of PayPal order e-mails
+- Added support for Angolan Kwanza (AOA)
+- Improved help subsystem
+- Now Portfolio page shows investments that were not updated 
+  from the Internet
+- Fixed error causing empty category list when unsplitting split 
+  transactions
+- Added Norwegian help file
+
+3.10.3
+
+- Added "Divide downloaded quote by 100" checkbox to investment 
+  properties dialog to handle downloads in cents and pennies.
+- Fixed QIF import when non standard lines are present in a file.
+- Fixed account list export error to CSV and TXT formats.
+
+3.10.2
+
+- Fixed stock quotes download errors
+- Import rules now can be applied to the existing transactions
+- Added support of importing QIF files with investment transactions
+- Added support for different transaction numbers for the transfers
+- Duplicate check warning is not displayed anymore when editing 
+  an existing transaction with already assigned and unchanged number
+- Added optional comment column to the table of investment transactions
+- Added support of Zagreb Stock Exchange
+- Fixed minor errors related to bill updates from the calendar screen
+- Added delete button to Bills of a day dialog 
+  (available from the Calendar page)
+- Fixed export problem of individual account data
+- Improved detection of duplicate transfers during import
+- Transfer from split comment now is displayed on the destination account
+
+3.10.1
+
+- Fixed errors in date format configuration logic
+- Fixed errors in detection of unused payees
+- Fixed bugs in archiving algorithm
+- Fixed behavior of decimal separator
+- Added comment field to Investment Transaction dialog
+- Added support for Second Sudanese Pound (SDG)
+
+3.10
+
+- Added archiving
+- Added duplicate check number warning
+- Added mouse wheel support in a list of accounts and reports
+- Added support for simple arithmetic expressions to all dialogs
+- Added support to download quotes and exchange rates through 
+  proxy server
+- Added support to download quotes from Money Central
+- Added support to download quotes from Google Finance
+- Added support to download quotes from Yahoo Finance UK
+- Added Belarussian language
+- Added tooltip for split transactions
+- Budget by categories favorite report no longer opens as Budget 
+  by subcategories
+- Moved the most of configurable settings from the registry 
+  to configuration file
+- Improved calculation of total gain for negative number of shares
+- Fixed XML export and import errors
+
+3.9.4
+
+- Added high resolution full color icons
+- Added new data source for Indian mutual funds (AMFI)
+- Fixed error of changing transfer from split state
+- Improved parsing of amounts in OFX files
+- Improved detection of duplicates for checks
+- Fixed manual currency exchange rate update bug
+- Fixed error of balance computation account list print 
+  and print preview dialogs
+
+3.9.3
+
+- Fixed currency exchange rate download error
+- Fixed sorting of banks
+- Fixed error causing display of duplicate category names
+- Fixed error in processing of split transfers in cash flow reports
+- Improve startup data integrity check to process split transfers
+
+3.9.2
+
+- Fixed error causing creation of duplicate payees if they contain 
+  non-English characters
+- Added a notification asking a user to update currency exchange rates 
+  when currency is seen for the first time
+- Added support of Surinamese Dollar (SRD)
+- Import rules now process split items too
+- Fixed transaction sorting bug by transaction numbers if numbers 
+  contain text
+- Fixed bug causing autoentered numbered bills stay in the file even 
+  after the last payment
+- Changed file format to preserve transaction dates when system 
+  timezone is changed
+- Reports now automatically scroll down to the total line
+- Backup error message is more informative now
+- QIF import supports amounts with dollar sign
+- Improved QIF import/export to properly support split comments
+- Investment transaction dialog now remembers last used date and type
+- Removed 11 characters limit from transaction number
+- Fixed problem of not processing special characters in OFX files
+- Added user selected investment price data source for Russian 
+  and Indian markets
+- Added Serbian Language
+
+3.9.1
+
+- Fixed transaction currency conversion problem
+- Fixed bug which did not allow to delete unused payees and categories
+- Detect duplicates flag is now enabled by default
+- Software does not throw exception on account deletion
+- Improved handling of category and payee changes from the account screen
+- Improved parsing of check numbers in OFC files
+- Improved parsing of RegNow email orders
+
+3.9
+
+- Added import rules
+- Improved detection of PayPal notifications for copy/paste
+- Added support of Belgium Francs (BEF)
+- Fixed zero exchange rate bug causing invalid balances
+- Added an option to disable detection of duplicates during import
+
+3.8.3
+
+- Minor printing bugs fixed
+- Fixed sorting by total in the transaction reports
+- Fixed date import issue in OFX parser
+- Fixed missing account name when transaction belongs to closed account
+- Fixed incorrect computation of adjusted budget limit for 
+  the parent categories
+- Fixed initialization of decimal separator for the numeric pad
+- Fixed download of currency exchange rates for only selected currencies
+- Fixed length limit of category and subcategory fields in 
+  the split dialog
+- Added Finnish language
+- Added support of Iranian Rial (IRR)
+- Added support of Serbian Dinar (CSD)
+
+3.8.2
+
+- Fixed OFX import error for comma separated amount fractions
+- Added startup check for .mmw file extension ownership
+- Added support for New Romanian Leu (RON)
+- Fixed sorting in transaction reports
+
+3.8.1
+
+- Added Norwegian language
+- Added Albanian language
+- Fixed a problem in quote download of 4 digit values
+- Fixed missing Edit Payee menu item in context menu for split 
+  transactions
+- Fixed category report layout problem
+- Fixed minor portfolio related presentation problems
+- Fixed minor exchange rates dialog problem
+
+3.8
+
+- Improved print preview window
+- Improved report generator
+- Added Persian language
+- Added Netherlands version of Dutch language
+- Fixed error in hiding reconciled transfers from split
+- Decimal separator key at the numeric keypad types the configured 
+  character 
+- Added apostrophe as a valid thousand separator
+- Improved behavior of bill reminder if data file was not selected
+- Fixed QIF parsing error adding a 0.0 transaction to any import
+
+3.7.3
+
+- Added Spanish help file
+- Added Galician help file
+- Fixed a bug in OFX import causing AceMoney to crash
+- Added a possibility to update of bill amount and account when 
+  the user records a bill payment and changes one of them
+
+3.7.2
+
+- Fixed an error calendar showing wrong due dates at the end of December
+- Accounts printout now includes value of investements
+- Added support for New Turkish Lira (TRY)
+- Added support for Azerbaijan Manat (AZM)
+- Fixed a rounding error in the Exchange Rates dialog
+- Fixed a problem in OFC files processor
+- Improved import of check numbers in the OFX files
+- Improved behavior of Merge Categories dialog
+- Improved budget reports for partial budget periods
+- Improved precision of budget limit calculations
+- Added half month budget limit
+
+3.7.1
+
+- Added initial balance field into the Savings Calculator dialog
+- The values of the Savings Calculator are now persistent
+- Improved selection logic in the list of transactions
+- Fixed changing status of transfers from splits
+- Fixed hiding reconciled transfers from splits
+- Fixed change of password
+- Minor bug fixes
+
+3.7
+
+- Added transfers from splits
+- Added budget periods per category
+- Removed old budget dialog
+- Added new currency - Armenian Dram (AMD)
+- Increased number of decimals in investment price history
+- Increased number of decimals in the percent part of pie diagrams
+- Fixed a bug of saving the state of showing the account numbers
+- Changed Add bill/deposit from Alt+A to Alt+L
+- Added change of focus to the category combo when user presses Add
+  (or Alt+A) in the Split dialog
+- Fixed a split/category related bug in Payee report generator
+- Improved password encoding in the data file
+- Added keyboard shortcuts for navigation: Alt+Left Arrow for Back, 
+  Alt+Right Arrow for Forward and Alt+Home for Home.
+- Improved parsing of PayPal email notifications
+- Minor bugs fixes
+
+3.6.2
+
+- Improved behavior of transaction list
+- Fixed Enter a bill feature, when a bill is entered from 
+  the account screen
+- Fixed sorting problem causing transactions to jump within the same date
+- Added possibility to export schedule to HTML, TXT and CSV formats
+
+3.6.1
+
+- Fixed a font selection problem appearing in Win95/98/Me
+- Removed a limit of 80 accounts shown in the Accounts menu
+- Fixed a bug of displaying the bills with specified number
+  of payments in the account form
+- Minor investment management fixes
+
+3.6
+
+- Added list of favorite reports at the Reports screen
+- Added hicolor toolbar buttons
+- Added a flag to disable category analysis in the status bar
+- Added an option to display future bills for a specified period 
+  of time ahead
+- Refactored Options dialog
+- All date, amount and currency related settings are moved
+  to International Settings dialog
+- Fixed tab order at the Accounts screen
+- Fixed bug in calculation of sum feature
+- Fixed multilanguage problems at the Account and Reports screens
+- Fixed numerous drawing problems at the Account and Reports screens
+- Improved export to CSV format
+- Improved font selection
+
+3.5.8
+
+- Added calculation of sum total of selected transactions
+- Added Imported state of transaction
+- Fixed RegNow ecommerce order parser
+- Improved QIF/OFX import logic
+- Minor bug fixes
+
+3.5.7
+
+- Fixed incorrect handling of half reconciled transfers
+- Closed accounts now are displayed in grey color
+- Added Hebrew language
+
+3.5.6
+
+- Added possibility to reconcile transfers on each individual account
+- Added a parser of RegNow affiliate sales notifications
+- Added UK specific sample file
+- Minor bug fixes
+
+3.5.5
+
+- Added possibility to change a category in one or more transactions
+- Added possibility to change a payee in one or more transactions
+- Added persistence of values last entered in Mortgage 
+  and Loan calculators
+- Added import of OFC files into AceMoney using File->Import menu
+- Added Czech language
+- Fixed a problem of reporting transfers by categories
+- Fixed a problem of searching text in split comments
+
+3.5.4
+
+- Added Symbol Lookup button to the Stock properties dialog
+- Fixed a problem of the last payment in Savings Calculator
+- Renamed Net Worth report to Cash Flow report
+- Improved handling of transfers by Transactions report
+- Improved handling of negative amounts in split transfers
+- Fixed behavior of custom dates range
+
+3.5.3
+
+- Significantly increased speed of report generation
+- Added Savings calculator
+- Added Uzbekistan Sum (UZS) currency
+- Added an option to exclude cost of shares from account balance
+
+3.5.2
+
+- Transaction Categories (entered in the Number field)
+  now are saved in the data file
+- Improved handling of not downloadable currency exchange rates
+- Bill Reminder uses the same date and amount format settings
+  as AceMoney
+- Fixed a problem of launching AceMoney from Bill Reminder
+- Added XP Look and Feel to Bill Reminder
+
+3.5.1
+
+- Added runtime synchronization between AceMoney 
+  and AceMoney Bill Reminder when a user saves a file
+- Fixed Transaction dialog bug
+- Improved handling of Split items
+- Updated several languages
+
+3.5
+
+- Added a button to create new transaction in the Balance dialog 
+- Added a button to create new account in the QIF import dialog
+- Added minus sign to the scheduled withdrawals
+- Added recognition of RegSoft e-commerce V2V transfers
+- Added sorting of split list items
+- Added new QIF export dialog with date range specification
+- Improved date and amount parsing of QIF files
+- Fixed minor calculation error in Mortgage Calculator
+- Fixed minor bugs in transaction search procedure
+- Fixed currency download problem
+
+3.4.4
+
+- Added Loan calculator
+- Added Mortgage calculator
+- Added a menu item to call Windows calculator
+- Added Every four months frequency to the bill properties
+- Added mapping between the language and date/currency settings
+  for fresh setup
+- Added a checkbox to disable backup
+
+3.4.3
+
+- Removed limitation of 30 accounts in the Accounts menu
+- Added support of ShareIt e-commerce provider orders
+- Improved Account and Date selection in the Stock Transaction dialog
+- Localized missing error messages for the Stock Transaction dialog
+- Improved performance of balance calculation algorithm
+- Added a configuration wizard for fresh setup
+
+3.4.2
+
+- Added configurable number of decimal digits for some currencies
+- Fixed a problem in status bar category amount
+
+3.4.1
+
+- Added color customization of the future transactions
+- Fixed a bug in sorting of the same day transactions
+
+3.4.0
+
+- Added predefined periods of time to Filter by dates
+- Paste operation now supports exchange with Word/Excel
+- Added used-defined table font and background colors
+- Fixed transfer related bug in the transaction reports
+- Added a new option to show deposits first for the same day transactions
+- Improved logic of multicurrency transfer dialog when the user edits
+  a previously entered transaction
+- Added information about multicurrency transfer (rate and target amount)
+  into the transaction dialog
+- Added support of parsing and pasting the email orders coming from 
+  the following e-commerce systems: PayPal, RegNow, RegSoft, 
+  SWReg, Plimus
+
+3.3.8
+
+- Added Copy/Paste into the Schedule screen
+- Added Copy/Paste menu items to the context menus 
+  in the Account and Schedule screens
+- Search now checks out the split comments
+- Added possibility to add a transaction to the schedule 
+  as a bill/deposit in account context menu
+
+3.3.7
+
+- Added a restore procedure
+- Added ability to copy/paste transactions
+- Fixed a bug of showing the recurrent bills at the calendar screen
+- Improved handling of recurrent bills
+
+3.3.6
+
+- Added an option to exclude transfers from the reports
+- Fixed password protection bug
+
+3.3.5
+
+- Added import of check numbers to OFX parser
+- Added new payee attributes
+- Fixed search criteria problem
+- Fixed stock price downloading routine
+
+3.3.4
+
+- Added Search function
+- Added Budget report by categories
+- Fixed a problem of filtering by category in Budget report
+
+3.3.3
+
+- Enabled date filter in Budget report
+- Fixed calculation of budget periods
+- Fixed calculation of reconciled balances when stock is 
+  associated with the account
+- Added Welsh language
+
+3.3.2
+
+- Fixed occasional hangups in the Net Worth report
+- Fixed invalid payee recognition in OFX files
+- Added four digits precision for stock transactions
+- Fixed font internationalization problems
+
+3.3.1
+
+- Fixed date related problem which was causing crashes during 
+  the application startup and in the transaction dialog
+- Fixed translation of word 'Amount' in the Options dialog
+- Several languages were updated
+
+3.3
+
+- Added selection of the startup (home) screen
+- Added ATM and ACH values for transaction number
+- Added Arabic language
+- Added German language
+- Added Bulgarian language
+- Fixed columns in the daily bills dialog
+- Fixed CSV export of comma separated numbers
+- Minor date related fixes
+- Refactored report generator, several problems fixed
+- Enabled filtering by dates in Net Worth report
+- Added context menu item to run Payee report for the selected 
+  transaction
+- Added context menu item to run Category report for the selected 
+  transaction
+
+3.2.9
+
+- Added option to disable generation of the transaction number
+  and to use Debit as default value
+- Added frequency column to the schedule
+- Changed design of the Bill dialog
+- Added potential number of payments to the bill
+- Improved transactions sorting by number
+- Added alphabetical sorting by account type at the accounts screen
+- Added alphabetical sorting by account name in the accounts printout
+- Fixed split transfers reporting in the Transaction report
+- Added import of banks from .dat file
+- Added Catalan language
+
+3.2.8
+
+- Fixed another problem in split transfer reporting
+- Fixed pound/penny stock download conversion for the London Market
+- Minor optimization in different areas
+- Language files now have their own directory
+- Added Spanish version of tutorial
+
+3.2.7
+
+- Improved detection of duplicate transactions for QIF import
+- Improved stock price download routine
+- Fixed reporting of split-transfers
+
+3.2.6
+
+- Changed layout of Portofolio screen for 800x600 screens
+- Fixed deletion of payees in transaction
+- Net worth report now adds initial account balance to total
+- Changed algorithm of stock gain calculation
+- Fixed a problem with hyperlinks when user selects large fonts
+- Added export of portfolio to XML, CSV, TXT and HTML
+- Fixed a problem of reporting negative values in splits
+
+3.2.5
+
+- Added edit category to the transaction context menu
+- Added edit payee to the transaction context menu
+- Added currency of investments
+- Added calculation of total value and total gain for portfolio
+- Value of stocks is now reflected on the account balance
+- Changed dialog font to achieve NT4 compatibility
+- Improved reporting of categorized transfers
+- Updated stock prices download procedure
+- Added Danish language
+- Added English UK language
+- Fixed bill date modification when bill is entered
+  from account form
+
+3.2.4
+
+- Fixed sorting by code in report by category/subcategory
+- Added Last 30 days transactions report
+- Added Chinese language
+- Added previously missed languages
+- Fixed language names
+
+3.2.3
+
+- Updated stock download procedure
+- Added new columns to Spendings by payees report
+- Added new columns to Spendings by categories report
+- Added new columns to Spendings by subcategories report
+- Added Bosnian language
+- Added Greek language
+- Added backup automatically option
+
+3.2.2
+
+- Fixed sum of split amounts problem
+- Fixed behavior of the Balance account dialog
+- Added U keyboard shortcut to mark transaction as uncleared
+- Rearranged Options dialog
+- Added date separator configuration
+- Updated stock downloading procedure
+
+3.2.1
+
+- Added number field to QIF export
+- Fixed manual currency update problem
+- Fixed bill/deposit transaction type change
+- Fixed category screen totals calculations
+
+3.2
+
+- Added check for existing transactions during QIF/OFX import
+- Added support of comments in splits
+- Added favorite reports
+- Added sorting in the schedule
+- Fixed problem of reporting totals for splits
+- Fixed problem of multicurrency transfers
+- Fixed duplicate file names problem in the window title
+- Bill is not affected by the entered date anymore
+
+3.1.2
+
+- Fixed sorting problems in category and subcategory reports
+- Added Show file name in the title bar flag
+- Added Show sold stocks flag
+- Added default transaction type selection
+- Added total line in the Net Worth report
+- Changed logic of current totals calculation for different sort modes
+
+3.1.1
+
+- Fixed QIF date parsing problem
+- Fixed scheduled transfer persistence issue
+- Fixed portfolio related localization problems
+- Fixed default currency reset to USD problem
+- Now columns with zero width (hidden) can be saved
+
+3.1
+
+- Added investment transaction list to portfolio
+- Fixed minor problems with OFX parser
+- Fixed minor currency exchange and configuration issues
+- Now all date controls are consistent with the chosen date format
+- Now the font face gets changed at the Accounts and Reports pages
+  based on the user list font selection
+- Added Show splash screen options flag
+
+3.0.1
+
+- Fixed investment transaction dialog bug
+- Added new investment action Add shares
+- Added new investment action Remove shares
+- Minor fixes in the transaction report
+
+3.0.0
+
+- Added investment management: Portfolio screen, investment 
+  transactions
+- Added support for Every four weeks frequency
+- Added New report index page
+- Added Date field into every report printout
+- Added Net Worth report with Bar Chart
+- Added SubCategory report
+- Added user defined category code
+- Added New Bank properties
+- Added list font selection
+- Added Turkish language
+- Added Slovak language
+- Added splash screen
+- Fixed QIF/OFX/QFX parsing problem
+
+2.15.1
+
+- Fixed report generation problems
+- Improved CSV format processor to support comma separated numbers
+
+2.15
+
+- Added user specific amount format options
+- Added auto complete for the Number field in the Transaction dialog
+- The Reports screen looks and behaves better
+- Added calculation of number of transactions per payee 
+  and category in payee, category and budget reports
+
+2.14.3
+
+- Added Hungarian language
+- Added support for default transaction type: every new transaction 
+  has a type of the previously entered one
+
+2.14.2
+
+- Fixed distortion of Balance Account check list
+- Added Browse directory button to the Backup dialog
+
+2.14.1
+
+- Textual sorting direction pointers were replaced with graphical ones
+- Several improvements of the Balance Account dialog
+- Fixed several bugs in date related calculations
+- Minor improvement at calendar screen
+
+2.14
+
+- Added Balance Account dialog for reconciliation
+- Overall performance enhancements
+
+2.12.4
+
+- Improved QIF parser for comma separated amounts
+
+2.12.3
+
+- Added tooltip showing multiple balances at the account form
+
+2.12.2
+
+- Added Galician Spanish language
+- Fixed minor bugs in the Lite version
+- Fixed automatic multicurrency bills issues
+
+2.12.1
+
+- Updated Italian language
+- Updated Polish language
+- Updated Portuguese Standard language
+- Minor fixes in the Lite version
+
+2.12
+
+- Added Calendar screen for the schedule
+- Added Automatic mode for the bills
+- Added Lithuanian language
+- Added support for Bulgarian Lev
+
+2.11.2
+
+- Updated Italian version
+- Added batch files to save and restore settings
+- Added Euro icons
+- Fixed resource leaking in Reports
+- Fixed several Windows95/98/Me specific issues
+
+2.11.1
+
+- Now the list of Accounts in the Accounts menu is sorted
+- Fixed a problem of switching forms
+
+2.11
+
+- Added resizable print preview
+- New Ukrainian translation
+- Added Ukrainian categories and account types
+- Fixed the print preview multicurrency totals
+
+2.10.6
+
+- Improved update logic for the forms
+- Updated Swedish translation
+- Added Swedish categories, banks and account types
+
+2.10.5
+
+- Fixed a bug related to deletion of default account
+
+2.10.4
+
+- Fixed a bug in subcategory report generation
+
+2.10.3
+
+- Fixed 'add split transaction' behavior
+
+2.10.2
+
+- Updated Portuguese translation
+- Fixed bug in the transaction deletion procedure
+- Improved pie chart diagram for 800x600 screen resolution
+
+2.10.1
+
+- Updated Polish translation
+- Added advanced currency exchange dialog
+- Fixed unused categories deletion bug
+
+2.10
+
+- Added merging of categories and payees
+- Added setup of background colors
+- Several minor UI adjustments
+- Fixed a problem of adding accounts to the Accounts menu
+- Fixed reports help
+- Improved the data consistency check during the program startup
+
+2.9
+
+- Added support of Polish language
+- Some internal mechanisms were refactored
+- overall performance improvement
+- Internet connection has been reimplemented.
+  Now AceMoney supports updates through proxy servers.
+
+2.8
+
+- Added export to XML format
+- Fixed a bug in the 'setup budget limit' procedure
+
+2.7.4
+
+- Fixed a problem with automatic loading of the file with default account
+- Fixed a bug in the 'change transaction status' routine
+- Fixed a bug in editing the six-months bill
+
+2.7.3
+
+- Fixed negative amount in the Bill dialog
+- Fixed loss of focus in the Password dialog
+- Fixed sorting bug of recorded bills
+- Fixed a bug with the first back command
+
+2.7.2
+
+- Fixed bugs related to 'Hide reconciled mode'
+
+2.7.1
+
+- Fixed problem with large amounts
+- Fixed negative deposits in reports problem
+
+2.7
+
+- Added support of OFC format
+- Added alphabetical sorting of accounts on the main screen
+- Fixed a bug of reporting and storing the split transactions
+
+2.6
+
+- Added Ukrainian language support
+- Improved logic for storing width of columns
+- Added 'Every six months' bill option
+- Identified and fixed several minor bugs
+
+2.5
+
+- Fixed insert-key problem
+- Improved next check number feature
+- Updated Dutch translation
+- Fixed show/hide closed accounts feature
+- What's New menu item now opens local file
+- Help subsystem is now HTML based
+- Improved logic of loading the last file
+
+2.4
+
+- Added sample file
+- Added French categories and account types
+- Added Portuguese language
+- Improved addition of new categories
+- Added possibility to record bill payment from the account screen
+- Fixed minor sorting problems for bills and deposits
+- Current month report now shows entered future transactions too
+- Fixed printing problem for subcategories report
+- Fixed a problem with backup to the same directory
+- .bak extension is added to the backup file
+
+2.3
+
+- Added Back and Forward navigation buttons
+- Implemented new 'two steps' reports for categories/subcategories
+- A new name for flag Hide Cleared from now on is Hide Reconciled and
+  the program saves it's setting in data file for every account.
+  Now it hides only Reconciled transactions
+- Improved automatic selection of last amount
+- Improved automatic selection of subcategories
+
+2.2.3
+
+- Added updated Dutch translation
+- Added updated Swedish translation
+- Minor improvements in Categories
+- Activated F2 - F7 keys for switching between screens
+- Added keyboard shortcuts section to the help subsystem
+- Sorting in Account Registry
+- Sorting in Reports
+- Sorting in Payees
+- Sorting in Categories
+- Sorting in Banks
+
+2.2.2
+
+- Fixed a bug with double total included to pie charts
+- Added new version of Italian
+
+2.2.1
+
+- Improved Categories screen (added separate columns for income 
+  and expense)
+- Improved Budget reporting
+- Double click in Schedule now means Edit Bill, not record transaction
+- Added Unassigned line calculation for categories and payees reports
+- Improved algorithm of transfering amounts between accounts with
+  different currencies
+
+2.2
+
+- Enhanced import support (now AceMoney starts directly from the browser
+  when user selects to open QIF/OFX/QFX file)
+- OFX file format support (import of OFX and QFX files)
+- Budget analysis (a whole set of new features)
+- If payee or category was selected in filter and there are no
+  transactions for them, zero values will be shown in the report
+  (before they were not shown at all)
+- Added preview of future transactions in account registry
+- Missed bills and deposits in schedule are marked with red color
+- Added automatic selection of subcategories if a category is selected 
+  in Filter by categories dialog
+- Fixed a bug in dates range validation for reports
+- Improved speed of report generation
+- Added French language
+- Autoinsert of last amount for selected payee in new transaction dialog
+- Printing of tables (Account list, Account and Reports)
+- New columns in Banks Form: address, web-site and comment
+- New columns in Payees Form: address, comment
+- Comment column in Schedule Form
+- New look for tables, better background and red negative numbers
+- Pie chart now also shows percentage
+- Total for table reports is calculated
+- Changed default transaction type for bills (now it is withdrawal)
+
+2.1.9
+
+- Improved the sequence of opening last files (no screen flickering)
+- Added export of account balances to TXT and CSV
+- Now user doesn't have to reenter password when
+  she changes options for password protected files
+- Category and payee reports now convert results into default currency
+- Fixed a bug in Transaction dialog (empty split - empty category)
+- Fixed a bug with Bills and Deposits referencing to deleted accounts
+- Fixed a bug in Transaction Currency exchange dialog
+
+2.1.8
+
+- Added automatic save operation every time the user changes the document
+- Added a check for Internet connection
+
+2.1.7
+
+- Added export to ascii text format
+- Added total field calculation for graphical reports
+- Fixed a problem with total balance account text 
+  in low resolutions
+- Fixed a resource leakage in reports (for Win95/98/Me users)
+- If data file is password protected the main window will be
+  minimized during password dialog.
+
+2.1.6.1
+
+- Fixed a bug in data storing procedure
+
+2.1.6
+
+- Added Export of accounts and reports to HTML format
+- Added .mmw file format registration with AceMoney which
+  allowes file open command from Explorer
+- Added import and export of transaction comments
+  from/to QIF files (the M field)
+- Fixed deletion of unuses categories that didn't check
+  splitted transactions
+
+2.1.5
+
+- Added several new currencies
+- Added "one click" currency exchange rates download from the main page
+- Added automatic backup function
+- Fixed multiple currencies issues in reporting
+- Fixed several font related NT 4 specific problems
+- Fixed multiline input problem for Banks
+- Fixed Closed accounts flag error
+
+2.1.4
+
+- Exchange rates automatic update from the Net
+- QIF parser is now default date format sensitive
+- Minor changes in User Interface
+- New installation package
+- Added Spanish language
+- Added Swedish language
+- New version of Italian translation
+
+2.1.3
+
+- Fixed several Windows 95/98/NT compatibility issues
+- Fixed a problem with missing DLLs in certain environments
+- Fixed several minor bugs in pie chart reports
+
+2.1.2
+
+- Filtering of cleared transactions
+- Little changes in design of AccountList and Account forms
+- Fixed a problem with entering bills without account
+- File whatsnew.txt from now on is a part of installation
+
+2.1.1
+
+- Added bill type that comes every other month
+- Added export to CSV (for Excel) of account registry and reports
+- Fixed a problem with persistence of currencies
+
+2.1
+
+- Multicurrency accounting
+- Minor bugs fixed
+- Italian language
+
+2.0.5
+
+- Fixed a bug in report generation for splits
+- Tooltips now appear on the report pie
+
+2.0.4
+
+- New design of Accounts screen
+- Added graphic reports
+- Support of transactions with debit flag
+- Fixed a problem with automatic generation of check numbers
+
+2.0.3
+
+- Added export to QIF format
+- Added multilanguage tutorial
+- Added status display with current month category spending
+- Transaction comment now can be displayed in account registry
+
+2.0.2
+
+- Added change of title when switching between accounts
+- Added much better localization support
+- Added possibility to add new bill that will arrive only once
+- The program remembers the width of columns
+
+2.0.1
+
+- Added start page selection
+- Now the program remembers the category for payee
+
+2.0 - Real world release
+
+Version 1.0 was redesigned and released as new application
+with a lot of new features
+
+1.0 - Initial internal release
+
+- No history for version 1.0

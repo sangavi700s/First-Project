@@ -1,0 +1,1510 @@
+ProgramID=AceMoney
+Language=German
+
+///////////////////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories_ger.dat
+BANKS=banks_ger.dat
+ACCOUNTTYPES=accounttypes_ger.dat
+HELPFILE=Languages/german.chm
+
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+
+CURRENCY=EUR
+DECIMALS=2
+DECIMALSEPARATOR=.
+THOUSANDSEPARATOR=
+DATEFORMAT=DDMMYY
+DATESEPARATOR=.
+
+STATUS=Erledigt
+TRANSFER=Umbuchung
+DEPOSIT=Eingang
+WITHDRAWAL=Abbuchung
+TO=an
+FROM=von
+TOTAL=Summe
+RECONCILEDTOTAL=Summe (abgeglichen)
+CLEAREDTOTAL=Summe (verrechnet)
+IMPORTEDTOTAL=Summe (importiert)
+UNCLEAREDTOTAL=Summe (offen)
+TODAYTEXT=Aktuelles Datum
+PAGE=Seite
+UNASSIGNED=(nicht zugeordnet)
+SAVEMODIFIED=Änderungen speichern?
+REPLACEMENTS=Änderungen wurden durchgeführt
+INVALIDNUMBER=Ungültiges Zahlenformat!
+
+MSG_LOADSAMPLE=Möchten Sie Beispieldaten laden?
+MSG_SAMPLEFILEWARNING=Die Beispieldaten können nicht direkt gespeichert werden! Bitte im Menü über "Datei->Speichern unter" die Datei unter anderen Namen speichern..
+ONE_COLUMN_MUST_BE_DISPLAYED=Es muss mind. eine Spalte angezeigt werden!
+NEW_VERSION_DETECTED=Eine neuere Version von AceMoney ist verfügbar! Soll diese heruntergeladen werden?
+NO_NEW_VERSION_IS_AVAILABLE=Keine neuere Version verfügbar!
+NEW_VERSION_CHECK_FAILED=Die Überprüfung auf eine neuere Version ist fehlgeschlagen! Bitte Internetverbindung überprüfen!
+
+[MENU]
+ID_FILE=Datei
+ID_FILE_NEW=Neu
+ID_FILE_OPEN=Datei öffnen...
+ID_FILE_SAVE=Speichern
+ID_FILE_SAVE_AS=Speichern unter...
+ID_FILE_ARCHIVE=Archivieren...
+ID_FILE_IMPORT=Importieren...
+ID_FILE_EXPORT=Exportieren...
+ID_FILE_PRINT=Drucken...
+ID_FILE_PRINT_PREVIEW=Druckvorschau...
+ID_APP_EXIT=Beenden
+
+ID_EDIT=Bearbeiten
+ID_EDIT_DELETE=Löschen
+ID_EDIT_INSERT=Einfügen
+ID_EDIT_SELECTALL=Alle auswählen
+ID_EDIT_FIND=Suchen...
+ID_EDIT_PROPERTIES=Eigenschaften...
+ID_EDIT_COPY=Kopieren
+ID_EDIT_PASTE=Einfügen
+ID_EDIT_ADDTOSCHEDULE=Der Planung hinzufügen...
+
+ID_VIEW=Ansicht
+ID_VIEW_ACCOUNTS=Konten
+ID_VIEW_BANKS=Banken
+ID_VIEW_PAYEES=Empfänger
+ID_VIEW_CATEGORIES=Kategorien und Budget
+ID_VIEW_SCHEDULE=Planung
+ID_VIEW_PORTFOLIO=Portfolio
+ID_VIEW_REPORTS=Berichte
+
+ID_ACCOUNTS=Konten
+ID_ACCOUNTS_ADD=Neues Konto erstellen...
+ID_ACCOUNTS_TYPE=Kontoarten...
+
+ID_REPORTS=Berichte
+ID_REPORTS_ADD=Zu Favoriten hinzufügen
+ID_REPORTS_ORGANIZE=Berichte verwalten
+
+ID_TOOLS=Extras
+ID_TOOLS_CURRENCY=Wechselkurse
+ID_TOOLS_INTERNATIONAL=Ländereinstellungen
+ID_TOOLS_OPTIONS=Optionen
+ID_TOOLS_COLORS=Schriftart und Farben
+ID_TOOLS_LANGUAGE=Sprachauswahl
+ID_TOOLS_BACKUP=Datensicherung
+ID_TOOLS_RESTORE=Wiederherstellen...
+ID_TOOLS_CALCULATOR=Taschenrechner
+ID_TOOLS_CALCULATOR_LOAN=Kreditrechner
+ID_TOOLS_CALCULATOR_SAVINGS=Zinsrechner
+ID_TOOLS_CALCULATOR_MORTGAGE=Hypothekenrechner
+ID_TOOLS_TRANSACTION_CATEGORY_LIST=Buchungskürzel
+ID_TOOLS_IMPORT_RULES=Importregeln
+
+ID_HELP=Hilfe
+ID_HELP_TOPICS=Hilfethemen
+ID_HELP_HOMEPAGE=AceMoney Internetseite
+ID_HELP_WHATSNEW=Versionshinweise
+ID_HELP_SUPPORT=Technischer Support
+ID_HELP_FORUM=Internetforum
+ID_HELP_TUTORIAL=Onlinehilfe
+ID_HELP_REGISTER=AceMoney registrieren
+ID_HELP_ORDER=AceMoney bestellen
+ID_HELP_ABOUT=Über AceMoney...
+ADD=Hinzufügen
+ID_HELP_CHECK_FOR_UPDATES=Auf Updates überprüfen
+MENU=Menü
+
+[TOOLBAR]
+ID_FILE_NEW=Neu
+ID_FILE_OPEN=Öffnen
+ID_FILE_SAVE=Speichern
+ID_VIEW_BACK=Zurück
+ID_VIEW_FORWARD=Vorwärts
+ID_VIEW_HOME=Startseite
+ID_VIEW_ACCOUNTS=Konten
+ID_VIEW_BANKS=Banken
+ID_VIEW_PAYEES=Empfänger
+ID_VIEW_CATEGORIES=Kategorien
+ID_VIEW_SCHEDULE=Planung
+ID_VIEW_REPORTS=Berichte
+ID_VIEW_PORTFOLIO=Portfolio
+ID_HELP_HOMEPAGE=AceMoney
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=Konten
+IDC_ADD=Neues Konto erstellen
+IDC_BILLS=Rechnungen begleichen
+IDC_REPORTS=Berichte
+IDC_CURRENCY=Wechselkurse
+IDC_WEBUPDATE=Kurse herunterladen
+IDHELP=Hilfe
+
+ID_ACCOUNT_OPEN=Öffnen
+ID_ACCOUNT_ADD=Neues Konto erstellen
+ID_ACCOUNT_DELETE=Löschen
+ID_ACCOUNT_EDIT=Kontoeigenschaften
+ID_ACCOUNT_SHOWNUMBERS=Kontonummer anzeigen
+ID_ACCOUNT_SHOWCLOSED=Geschlossene Konten anzeigen
+
+TOTAL=Summe
+LASTUPDATE=Letzte Aktualisierung
+
+DELETE_CONFIRMATION=Soll Konto %s und alle dazugehörigen Buchungen gelöscht werden?
+
+UPDATE_SUCCESS=Die Wechselkurse wurden aktualisiert!
+UPDATE_FAILURE=Fehler: Internetverbindung nicht aktiv oder einige Kurse wurden nicht aktualisiert!
+UPDATE_NOTREQUIRED=Aktualisierung nicht nötig!
+
+NEW_CURRENCY_DETECTED=Dieses Konto benutzt nicht die Standardwährung. Sie können den Wechslekurs zu dieser Währung über Extras->Wechselkurse manuell ändern oder AceMoney den Wechselkurs aus dem Internet laden lassen. Soll der Wechselkurs geladen werden?
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPORTFOLIO]
+TITLE=Portfolio
+
+IDC_NEWTRANSACTION=Neue Transaktion...
+
+IDC_ADD=Wertpapier hinzufügen...
+IDC_EDIT=Wertpapier bearbeiten...
+IDC_DELETE=Wertpapier löschen...
+
+IDC_WEBUPDATE=Kurse herunterladen
+
+IDHELP=Hilfe
+
+STOCKLIST=Wertpapiere
+STOCKTRANSACTIONLIST=Transaktionen
+
+COLUMN0=Symbol
+COLUMN1=Name
+COLUMN2=Letzter Kurs
+COLUMN3=Menge
+COLUMN4=Summe
+COLUMN5=Kursgewinn /-verlust
+
+TRANSACTIONSCOLUMN0=Datum
+TRANSACTIONSCOLUMN1=Aktion
+TRANSACTIONSCOLUMN2=Symbol
+TRANSACTIONSCOLUMN3=Konto
+TRANSACTIONSCOLUMN4=Gewinnanteil
+TRANSACTIONSCOLUMN5=Kurs
+TRANSACTIONSCOLUMN6=Menge
+TRANSACTIONSCOLUMN7=Gebühren
+TRANSACTIONSCOLUMN8=Summe
+TRANSACTIONSCOLUMN9=Kommentar
+
+CANTBEDELETED=Dieses Wertpapier wird in einer Transaktion bzw. Rechnung verwendet. Es kann nicht gelöscht werden!
+DELETECONFIRMATION=Dieses Wertpapier wird gelöscht. Dennoch fortfahren?
+UPDATEISNOTREQUIRED=Aktualisierung nicht nötig.
+UPDATEISNOTCOMPLETE=Aktualisierung nicht vollständig.
+INVESTMENTNOTCREATED=Es muss zunächst ein Wertpapier hinzugefügt werden.
+
+ID_EDIT_OPEN=Wertpapier bearbeiten
+ID_EDIT_INSERT=Wertpapier hinzufügen
+ID_EDIT_DELETE=Löschen
+ALLACCOUNTS=Alle Konten
+ALLOCATION_BY_INVESTMENTS=Zuordnung nach Investment
+ALLOCATION_BY_ACCOUNTS=Zuordnung nach Konten 
+ALLOCATION_BY_TYPES=Zuordnung nach Investmentart
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=Konto
+IDC_ADD=Neue Buchung
+IDC_EDIT=Buchung bearbeiten
+IDC_DELETE=Buchung löschen
+IDC_BALANCE=Konto abgleichen
+IDC_WEBSITE=Internetseite zum Konto
+IDC_ACCOUNT=Kontodaten
+IDC_BANK=Zugehörige Bankdaten
+IDC_MONTHREPORT=Monatsbericht
+IDC_REPORT=30-Tage-Bericht
+IDC_HIDERECONCILED=Abgeglichene ausblenden
+IDHELP=Hilfe
+
+COLUMN0=Buchungskürzel
+COLUMN1=Datum
+COLUMN2=Empfänger
+COLUMN3=Kategorie
+COLUMN4=Status
+COLUMN6=Eingang
+COLUMN7=Summe
+COLUMN8=Kommentar
+
+BANKISNOTASSIGNED=Bitte eine Bank auswählen, der dieses Konto zugeordnet ist.
+PAGEISNOTASSIGNED=Internetadresse nicht vorhanden. Sie kann über "Zugehörige Bankdaten" aktualisiert werden.
+STATUS=%.2f wurden diesen Monat von Ihnen für die Kategorie %s aufgewendet 
+STATUSINCOME=Ihre Einnahmen in der Kategorie %s betrugen diesen Monat %.2f
+STATUSSUM=Die Summe der markierten Buchungen beträgt
+
+ID_TRANSACTION_UNCLEARED=offen
+ID_TRANSACTION_CLEARED=verrechnet
+ID_TRANSACTION_RECONCILED=abgeglichen
+
+ID_EDIT_OPEN=Bearbeiten
+ID_EDIT_INSERT=Buchung erstellen...
+ID_EDIT_INSERTBILL=Rechnung buchen...
+ID_EDIT_DELETE=Löschen
+ID_EDIT_COPY=Kopieren
+ID_EDIT_PASTE=Einfügen
+ID_EDIT_CATEGORY=Kategorie bearbeiten
+ID_EDIT_CATEGORYCHANGE=Kategorie wechseln
+ID_EDIT_PAYEE=Empfänger bearbeiten
+ID_EDIT_PAYEECHANGE=Empfänger wechseln
+ID_EDIT_ADDTOSCHEDULE=Der Planung hinzufügen...
+
+IDC_APPLY_IMPORT_RULES=Importregeln anwenden
+
+ID_REPORTS_CATEGORY=Bericht nach Kategorien
+ID_REPORTS_PAYEE=Bericht nach Empfängern
+
+BILLDELETECONFIRMATION=Alle zukünftig geplanten Buchungen dieser Rechnung werden ebenfalls gelöscht! Sind Sie sicher?
+TRANSACTIONDELETECONFIRMATION=Eine oder mehrere Überweisungen werden vollständig gelöscht! Sind Sie sicher?
+RECONCILEDTRANSACTIONCONFIRMATION=Diese Buchung ist als "abgeglichen" markiert, Änderungen werden nicht empfohlen. Dennoch fortfahren?
+CLEAREDTRANSACTIONCONFIRMATION=Diese Buchung ist als "verrechnet" markiert, Änderungen werden nicht empfohlen. Dennoch fortfahren?
+CANNOTSORTBYTOTAL=Eine Sortierung über Summe ist nicht möglich.
+COLUMN5=Abbuchung
+ID_EDIT_ATTACHMENT_DELETE=Löschen
+COLUMN9=Konto
+IDC_ADD_INVESTMENT_TRANSACTION=Wertpapierbuchung
+IDC_DOWNLOAD=Buchungen herunterladen
+ID_VIEW_DISPLAYSIDEPANEL=Seitenfenster anzeigen
+IDC_CREATE_IMPORT_RULE=Importregel erstellen
+ID_EDIT_TAG=Schlagwort
+ID_EDIT_TAG_REMOVE_ALL=&0 alle Schlagworte entfernen
+ID_EDIT_TAG_IMPORTANT=&1 Wichtig
+ID_EDIT_TAG_WORK=&2 Büro
+ID_EDIT_TAG_TODO=&4 To Do
+ID_EDIT_TAG_PERSONAL=&3 Privat
+ID_EDIT_TAG_LATER=&5 Später
+ID_EDIT_ATTACHMENTS=Anhänge
+ID_EDIT_ATTACHMENT_ADD=Anhänge einfügen
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=Bank hinzufügen...
+IDC_EDIT=Bankdaten bearbeiten
+IDC_DELETE=Bank löschen
+IDC_DELETEUNUSED=Ungenutzte löschen
+IDC_IMPORT=Importieren...
+IDHELP=Hilfe
+
+COLUMN0=Name der Bank
+COLUMN1=Adresse
+COLUMN2=Internetseite
+COLUMN3=Kommentar
+
+CANTBEDELETED=Der Bank ist noch min. eines ihrer Konten zugeordnet. Löschen der Bank nicht möglich.
+DELETECONFIRMATION=Sind Sie sicher?
+DELETEUNUSED=Alle Banken denen keines ihrer Konten zugeordent ist, werden gelöscht! Dennoch fortfahren?
+
+ID_EDIT_OPEN=Bearbeiten
+ID_EDIT_INSERT=Bank hinzufügen...
+ID_EDIT_DELETE=Löschen
+COLUMN4=Telefon
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=Kategorie hinzufügen...
+IDC_EDIT=Kategorie bearbeiten
+IDC_DELETE=Kategorie löschen
+IDC_DELETEUNUSED=Ungenutze löschen...
+IDC_REPORT=Bericht nach Kategorien
+IDC_BUDGETREPORT=Haushaltsplan
+IDC_IMPORT=Importieren...
+IDC_MERGE=Zusammenführen...
+IDHELP=Hilfe
+
+COLUMN0=Kategorie
+COLUMN0a=Kürzel
+COLUMN1a=Einnahmen
+COLUMN2a=Ausgaben
+COLUMN2c=Zeitraum
+COLUMN3=Kommentar
+
+CANTBEDELETED=Die Kategorie wird noch verwendet. Löschen nicht möglich!
+PARENTCANTBEDELETED=Dies ist eine übergeordente Kategorie. Um sie zu löschen, müssen erst alle Unterkategorien entfernt werden.
+DELETECONFIRMATION=Sind Sie sicher?
+DELETEUNUSED=Alle zurzeit ungenutzten Kategorien werden gelöscht. Dennoch fortfahren?
+ID_EDIT_OPEN=Bearbeiten
+ID_EDIT_INSERT=Neu
+ID_EDIT_DELETE=Löschen
+
+TOTALINCOME=jährliche Einnahmen
+TOTALEXPENSE=jährliche Ausgaben
+MONTHLY_INCOME=monatliche Einnahmen
+MONTHLY_EXPENSE=monatliche Ausgaben
+MONTHLY_TOTAL=Monat gesamt
+ANNUAL_TOTAL=Jahr gesamt
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=Empfänger hinzufügen...
+IDC_EDIT=Empfänger bearbeiten
+IDC_DELETE=Empfänger löschen
+IDC_DELETEUNUSED=Ungenutzte löschen
+IDC_REPORT=Bericht nach Empfängern
+IDC_MERGE=Zusammenführen...
+IDHELP=Hilfe
+
+COLUMN0=Name
+COLUMN1=Adresse
+COLUMN2=Kommentar
+COLUMN3=Telefon
+
+CANTBEDELETED=Dieser Empfänger wird noch von einer Buchung verwendet. Er kann nicht gelöscht werden.
+DELETECONFIRMATION=Sind Sie sicher?
+DELETEUNUSED=Alle zurzeit nicht zugeordenten Empfänger werden gelöscht. Dennoch fortfahren?
+
+ID_EDIT_OPEN=Bearbeiten
+ID_EDIT_INSERT=Neu
+ID_EDIT_DELETE=Löschen
+IDC_HIDE_INACTIVE=inaktive Empfänger ausblenden
+ID_PAYEE_ACTIVATE=aktivieren
+ID_PAYEE_DEACTIVATE=deaktivieren
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=nach Datum filtern
+IDC_SETDATES=Zeitraum auswählen...
+IDC_USECATEGORYFILTER=nach Kategorien filtern 
+IDC_SETCATEGORIES=Kategorien auswählen
+IDC_USEPAYEEFILTER=nach Empfänger filtern
+IDC_SETPAYEES=Empfänger auswählen
+IDC_USEACCOUNTFILTER=nach Konten filtern
+IDC_SETACCOUNTS=Konten auswählen
+IDC_TRANSACTIONS=Bericht nach Buchungen
+IDC_CATEGORY=Ausgaben nach Kategorie
+IDC_SUBCATEGORY=Ausgaben nach Unterkategorie
+IDC_CATEGORYBYMONTH=Monatliche Ausgaben nach Kategorie
+IDC_SUBCATEGORYBYMONTH=Monatliche Ausgaben nach Unterkategorie
+IDC_PAYEE=Ausgaben nach Empfänger
+IDC_BUDGETCATEGORY=Budget nach Kategorie
+IDC_BUDGETSUBCATEGORY=Budget nach Unterkategorie
+IDC_CASHFLOW=Berechnung der verfügbaren Mittel
+IDC_NETWORTH=Berechnung des Reinvermögens
+IDC_LAST30DAYS=Buchungen der letzten 30 Tage
+IDC_INCLUDETRANSFERS=Umbuchungen einbeziehen
+
+IDHELP=Hilfe
+IDC_TABLE=Tabellenansicht
+IDC_CHART=Diagramm
+IDC_INCOMECHART=Einnahmen Kuchendiagramm
+IDC_EXPENSECHART=Ausgaben Kuchendiagramm
+IDC_PERIODCHART=Periodendiagramm
+IDC_TOTALCHART=Summendiagramm
+
+CATEGORYCOLUMN0=Kategorie
+CATEGORYCOLUMN1=Betrag
+CATEGORYCOLUMN2=Veranschlagt
+CATEGORYCOLUMN3=Differenz
+CATEGORYCOLUMN4=Kürzel
+CATEGORYCOLUMN5=Einnahmen
+CATEGORYCOLUMN6=Ausgaben
+
+CASHFLOWCOLUMN0=Datum
+CASHFLOWCOLUMN1=Zeitraum gesamt
+CASHFLOWCOLUMN2=Summe
+
+OTHERS=Weitere
+
+GENERALREPORTS=Allgemeine Berichte
+CATEGORYREPORTS=Berichte nach Kategorien
+PAYEEREPORTS=Berichte nach Empfänger
+BUDGETREPORTS=Berichte nach Budget
+FAVORITEREPORTS=Berichte nach Favoriten
+
+PAYEECOLUMN0=Empfänger
+PAYEECOLUMN1=Betrag
+PAYEECOLUMN2=Einnahmen
+PAYEECOLUMN3=Ausgaben
+INVESTMENTCOLUMN1=Symbol
+ACCOUNTCOLUMN0=Konto
+INVESTMENTCOLUMN4=Gebühren
+INVESTMENTCOLUMN14=Einnahmen
+IDC_USEINVESTMENTFILTER=nach Investments filtern
+IDC_SETINVESTMENTS=Investments auswählen
+IDC_USETAGFILTER=nach Schlagworten filtern
+IDC_SETTAGS=Schlagwort auswählen
+IDC_USETEXTFILTER=nach Text filtern
+IDC_SETTEXT=Text eingeben
+IDC_PAYEEBYMONTH=Monatliche Ausgaben nach Empfänger
+IDC_ACCOUNT=Ausgaben nach Konten
+IDC_INVESTMENT=Performance der Investments
+INVESTMENTREPORTS=Berichte nach Investments
+ACCOUNTCOLUMN1=Gruppe
+ACCOUNTCOLUMN2=Bank
+ACCOUNTCOLUMN3=Kontoausgleich
+INVESTMENTCOLUMN0=Investment
+INVESTMENTCOLUMN2=Anzahl
+INVESTMENTCOLUMN3=Preis
+INVESTMENTCOLUMN5=Preis / Aktie
+INVESTMENTCOLUMN6=Dividende
+INVESTMENTCOLUMN7=Wert
+INVESTMENTCOLUMN8=Gewinn / Verlust
+INVESTMENTCOLUMN9=Gewinn / Verlust in %
+INVESTMENTCOLUMN10=Ankaufspreis
+INVESTMENTCOLUMN11=Gebühren bei Ankauf
+INVESTMENTCOLUMN12=Verkaufspreis
+INVESTMENTCOLUMN13=Gebühren bei Verkauf
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Rechnung buchen
+IDC_ADD=Buchung erstellen...
+IDC_EDIT=Buchung bearbeiten
+IDC_DELETE=Buchung löschen
+IDHELP=Hilfe
+
+COLUMN0=Datum
+COLUMN1=Überweisung
+COLUMN2=Empfänger
+COLUMN3=Betrag
+COLUMN4=Kommentar
+COLUMN5=Häufigkeit
+
+IDC_TABLE=Tabellenansicht
+IDC_CALENDAR=Kalender
+
+DELETECONFIRMATION=Wollen Sie diese Rechnung wirklich löschen?
+
+ID_EDIT_OPEN=eingeben
+ID_EDIT_INSERT=Rechnung erstellen...
+ID_EDIT_DELETE=Löschen
+ID_EDIT_PROPERTIES=Kontoeigenschaften
+ID_EDIT_COPY=Kopieren
+ID_EDIT_PASTE=Einfügen
+
+CHANGE_OF_ACCOUNT=Möchten Sie ein anderes Konto für alle zukünftigen Buchungen dieser Rechnung wählen?
+CHANGE_OF_AMOUNT=Möchten Sie den Betrag für alle zukünftigen Buchungen dieser Rechnung ändern?
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=Über AceMoney
+IDOK=OK
+IDCANCEL=Abbrechen
+
+[IDD_ACCOUNT]
+TITLE=Konto
+IDC_NAMETEXT=Name
+IDC_TYPETEXT=Kontoart
+IDC_BANKTEXT=Bank
+IDC_NUMBERTEXT=Buchungskürzel
+IDC_BALANCETEXT=Anfangssaldo
+IDC_CURRENCYTEXT=Währung
+IDC_CLOSED=Konto geschlossen
+IDC_COMMENTTEXT=Kommentar
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+ERR_NOACCOUNTNAME=Bitte einen Namen für das Konto vergeben!
+ERR_NOACCOUNTTYPE=Bitte dem Konto eine Kontoart zuordnen!
+ERR_NOCURRENCY=Bitte eine Währung für das Konto auswählen!
+IDC_EDITBANK=Bearbeiten
+ERR_EMPTYBANKNAME=Bitte zuerst den Banknamen auswählen!
+IDC_ONLINE_SETUP=Online Service...
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=Kontoarten
+IDC_ADD=Hinzufügen
+IDC_DELETE=Löschen
+IDC_EDIT=Bearbeiten
+IDOK=OK
+IDCANCEL=Abbrechen
+
+ERR_CANTDELETE=Diese Kontoart wird zurzeit von einem oder mehreren Konten genutzt. Löschen nicht möglich.
+
+[IDD_ACCOUNTTYPE]
+TITLE=Kontoart
+IDC_NAMETEXT=Name
+IDOK=OK
+IDCANCEL=Abbrechen
+
+ERR_NOACCTYPENAME=Bitte einen Namen für die Kontoart vergeben!
+
+[IDD_ARCHIVE]
+TITLE=Buchungen archivieren
+IDC_DATE_TEXT=Archivierung aller Buchungen bis zum
+IDC_DELETE=Archivierte Buchungen aus dem aktiven Datensatz entfernen
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+ERR_CREATE_ARCHIVE=Archivierung fehlgeschlagen!
+ERR_WRITE_ARCHIVE=Datei konnte nicht gespeichert werden!
+
+[IDD_BACKUP]
+TITLE=Datensicherung
+
+IDC_ENABLEBACKUP=Datensicherung aktivieren
+
+IDC_LASTBACKUPTEXT=Letzte Sicherung
+IDC_FREQUENCYTEXT=Häufigkeit
+IDC_DIRECTORYTEXT=Ablageverzeichnis
+IDC_BACKUP=Jetzt sichern!
+IDC_AUTOMATIC=Automatisch sichern
+
+IDC_EVERYDAY=täglich
+IDC_EVERYWEEK=wöchentlich
+IDC_EVERYOTHERWEEK=vierzehntägig
+
+IDC_BROWSE=Durchsuchen...
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+ERR_INVALIDDIR=Bitte gültigen Verzeichnispfad angeben!
+ERR_COPYFILE=Fehler beim Schreiben der Sicherungskopie. Datenträger eingelegt?
+ERR_BACKUPTIME=Nach Ihren Vorgaben soll heute eine Sicherungskopie ihrer Daten angelget werden. Jetzt durchführen?
+ERR_NEWFILE=Der Datensatz muss vor der Sicherungskopie zunächst gespeichert werden!
+ERR_COPYFILE_RESTORE=Fehler beim Lesen der Sicherungskopie! Datenträger eingelegt?
+SELECT_FILE_TO_RESTORE=Datei zur Wiederherstellung wählen
+SELECT_RESTORE_DIR=Zielverzeichnis der wiederhergestellten Datei auswählen
+OPEN_RESTORED_FILE=Soll die wiederhergestellte Datei geöffnet werden?
+
+[IDD_BALANCE]
+TITLE=Konto abgleichen
+
+IDC_CLEAREDDEPOSITS=Eingänge (verrechnet)
+IDC_CLEAREDWITHDRAWALS=Abbuchungen (verrechnet)
+
+IDC_RECONCILEDTEXT=Kontostand alt
+IDC_CLEAREDTEXT=Kontostand neu
+IDC_UNCLEAREDTEXT=Summe (offen)
+
+IDC_NEWTRANSACTION=Buchen...
+IDC_SELECTALL=Alle auswählen
+IDC_DESELECTALL=Alle abwählen
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+[IDD_BANK]
+TITLE=Bankdaten bearbeiten
+IDC_NAMETEXT=Name
+IDC_ADDRESSTEXT=Adresse
+IDC_WEBSITETEXT=Internetseite
+IDC_COMMENTTEXT=Kommentar
+IDC_BANKNUMBERTEXT=Bankleitzahl
+IDC_SWIFTCODETEXT=BIC (SWIFT)
+IDC_TRANSFERCODETEXT=IBAN
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+ERR_NOBANKNAME=Bitte Namen der Bank eingeben!
+IDC_OPEN=Öffnen
+IDC_PHONETEXT=Telefon
+
+[IDD_BILL]
+TITLE=Buchung erstellen
+
+IDC_FREQUENCYGROUP=Häufigkeit
+
+IDC_ONCE=einmalig
+IDC_DAILY=täglich
+IDC_WEEKLY=wöchentlich
+IDC_EVERYOTHERWEEK=vierzehntägig
+IDC_TWICEAMONTH=zweimal im Monat
+IDC_EVERYFOURWEEKS=alle vier Wochen
+IDC_MONTHLY=monatlich
+IDC_EVERYOTHERMONTH=alle zwei Monate
+IDC_QUARTERLY=quartalsweise
+IDC_EVERYFOURMONTHS=alle vier Monate
+IDC_EVERYSIXMONTHS=halbjährlich
+IDC_ANNUALLY=jährlich
+
+IDC_STARTDATETEXT=Beginn
+
+IDC_BILLTYPETEXT=Rechnungsart
+BILLTYPE_CONTINUOUS=fortlaufend
+BILLTYPE_NUMBERED=einzeln nummeriert
+
+IDC_NUMBERTEXT=Anzahl Zahlungen
+
+IDC_TRANSACTIONGROUP=Überweisung
+IDC_TYPETEXT=Buchungsart
+IDC_DEPOSIT=Eingang
+IDC_WITHDRAWAL=Abbuchung
+IDC_TRANSFER=Umbuchung
+IDC_ACCOUNTTEXT=Konto
+IDC_PAYEETEXT=Empfänger
+IDC_CATEGORYTEXT=Kategorie
+IDC_SPLIT=Aufteilen
+IDC_AMOUNTTEXT=Betrag
+IDC_COMMENTTEXT=Kommentar
+
+IDC_ENTER=Dem Konto hinzufügen
+IDC_AUTOMATIC=Rechnung automatisch buchen 
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+ERR_INVALIDACCOUNT=Ungültiger Kontoname!
+ERR_INVALIDNUMBER=DIe Anzahl der Buchungen muss mindestens 1 sein!
+IDC_CHECK_NUMBER_TEXT=Buchungskürzel
+
+[IDD_CALC_LOAN]
+TITLE=Kreditrechner
+
+IDC_AMOUNTTEXT=Betrag
+IDC_RATETEXT=Jahreszins, %
+IDC_PERIODTEXT=Laufzeit (Monate)
+IDC_PAYMENTTEXT=Rate
+IDC_TOTALINTERESTTEXT=Gezahlte Zinsen
+
+COLUMN0=Monat
+COLUMN1=Rate
+COLUMN2=Tilgung
+COLUMN3=Zinsen
+COLUMN4=Restschuld
+
+IDOK=OK
+
+[IDD_CALC_SAVINGS]
+TITLE=Zinsrechner
+
+IDC_MONTHLYPAYMENTTEXT=monatliche Sparrate
+IDC_INITIALBALANCETEXT=Anfangskapital
+IDC_RATETEXT=Jahreszins, %
+IDC_PERIODTEXT=Laufzeit (Monate)
+IDC_STARTDATETEXT=Beginn
+IDC_TOTALINTERESTTEXT=Gezahlte Zinsen
+IDC_TOTALTEXT=Summe
+
+COLUMN0=Monat
+COLUMN1=Datum
+COLUMN2=Rate
+COLUMN3=Zinsen
+COLUMN4=Summe
+
+IDOK=OK
+
+[IDD_CALC_MORTGAGE]
+TITLE=Hypothekenrechner
+
+IDC_VALUETEXT=Schätzwert
+IDC_AMOUNTTEXT=Darlehensbetrag
+IDC_TERMTEXT=Laufzeit (Jahre)
+IDC_DATETEXT=Abschlussdatum
+IDC_RATETEXT=Jahreszins, %
+IDC_TAXTEXT=Jährliche Grundsteuer
+IDC_INSURANCETEXT=Jährl. Gebäudeversicherung
+
+IDC_REQUIREDPAYMENTTEXT=Erforderliche Rate
+IDC_TOTALINTERESTTEXT=Gezahlte Zinsen
+IDC_TOTALPMITEXT=Hypothekenversicherung
+IDC_TOTALMONTHSTEXT=Anzahl der Monate
+
+COLUMN0=Datum 
+COLUMN1=Tilgung
+COLUMN2=Zinsen
+COLUMN3=Steuer
+COLUMN4=Versicherung
+COLUMN5=Hypothekenversicherung
+COLUMN6=Rate
+COLUMN7=Summe
+
+IDOK=OK
+IDHELP=Hilfe
+
+[IDD_CATEGORY]
+TITLE=Kategorie
+
+IDC_NAMETEXT=Kategorie
+IDC_SUBNAMETEXT=Unterkategorie
+IDC_COMMENTTEXT=Kommentar
+IDC_NUMBERTEXT=Buchungskürzel
+
+IDC_BUDGETTEXT=budgetiertes Limit
+IDC_BUDGETPERIODTEXT=Budget Zeitraum
+
+PERIOD_ONE_WEEK=eine Woche
+PERIOD_TWO_WEEKS=vierzehn Tage
+PERIOD_HALF_MONTH=halbes Monat
+PERIOD_ONE_MONTH=ein Monat
+PERIOD_TWO_MONTHS=zwei Monate
+PERIOD_THREE_MONTHS=drei Monate
+PERIOD_FOUR_MONTHS=vier Monate
+PERIOD_SIX_MONTHS=halbes Jahr
+PERIOD_NINE_MONTHS=neun Monate
+PERIOD_ONE_YEAR=ein Jahr
+
+IDC_INCOME=Einnahmen
+IDC_EXPENSE=Ausgaben
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+ERR_NOCATNAME=Bitte Namen für die Kategorie eingeben!
+ERR_CATEXIST=Eine Kategorie mit diesem Namen existiert bereits!
+
+[IDD_CATEGORYCHANGE]
+TITLE=Kategorie wechseln
+
+IDOK=OK
+IDCANCEL=Abbrechen
+
+[IDD_CATEGORYMERGE]
+TITLE=Kategorien zusammenlegen
+
+IDC_CATEGORYTEXT=Kategorie / Unterkategorie zusammenlegen
+IDC_CATEGORYTEXT1=mit der Kategorie / Unterkategorie
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+ERR_NOCATEGORIES=Bitte zwei unterschiedliche Kategorien / Unterkategorien auswählen.
+ERR_SOURCECATEGORY=Quellkategorie darf keine Unterkategorie besitzen!
+ERR_TARGETCATEGORY=Die Zielkategorie kann keine Unterkategorie der Quellkategorie sein!
+
+[IDD_COLORS]
+TITLE=Schriftart und Farben
+
+IDC_ACCOUNTLISTTEXT=Kontenübersicht
+IDC_ACCOUNTTEXT=Kontodetailansicht
+IDC_BANKTEXT=Banken
+IDC_CATEGORYTEXT=Kategorien
+IDC_PAYEETEXT=Empfänger
+IDC_SCHEDULETEXT=Planung
+IDC_REPORTTEXT=Berichte
+IDC_PORTFOLIOTEXT=Portfolio
+
+IDC_LISTFONTTEXT=Tabellenschriftart
+
+IDC_TABLEFONTCOLORTEXT=Schriftfarbe (Tabellen)
+IDC_TABLEBILLFONTCOLORTEXT=Schriftfarbe (Rechnungen)
+IDC_TABLEBACKGROUNDTEXT1=Tabellenhintergrund 1
+IDC_TABLEBACKGROUNDTEXT2=Tabellenhintergrund 2
+
+IDC_RESTORE=Standard
+IDOK=OK
+IDCANCEL=Abbrechen
+
+[IDD_CURRENCY]
+TITLE=Wechselkurse
+IDC_SHOWALL=alle Währungen anzeigen
+IDC_CURRENCYINFO=Standardwährung: %s
+IDC_DOWNLOAD=Kurs online
+IDC_UPDATE=Kurs manuell
+
+IDOK=Schließen
+IDHELP=Hilfe
+
+COLUMN0=Währung
+COLUMN1=1
+COLUMN2=Datum
+COLUMN3=in
+
+ERR_WEBUPDATE=Verbindungsfehler: Überprüfen Sie bitte Ihre Internetverbindung!
+ERR_INVALIDRATE=Ungültigen Kurs erhalten!
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=Wechselkurs
+IDOK=OK
+IDCANCEL=Abbrechen
+
+[IDD_SHEETREPORTFILTER]
+TITLE=Berichtsfilter
+
+[IDD_DATESRANGE]
+TITLE=Zeitraum auswählen
+
+CURRENTWEEK=aktuelle Woche
+PREVIOUSWEEK=letzte Woche
+LAST30DAYS=letzte 30 Tage
+CURRENTMONTH=aktueller Monat
+PREVIOUSMONTH=letzter Monat
+CURRENTQUARTER=aktuelles Quartal
+PREVIOUSQUARTER=letztes Quartal
+CURRENTYEAR=aktuelles Jahr
+PREVIOUSYEAR=letztes Jahr
+
+IDC_PERIODSTEXT=vordefinierte Zeiträume
+IDC_CUSTOMDATES=individueller Zeitraum
+IDC_FROMTEXT=von
+IDC_TOTEXT=bis
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+CURRENT=aktuell
+CUSTOM=individuell
+
+[IDD_DUPLICATECHECKWARNING]
+TITLE=Duplikatswarnung
+
+IDC_WARNING=Buchungsnummer ### wurde bereits in einer Buchung dieses Kontos verwendet. Möchten Sie trotzdem diese Nummer nochmals verwenden?
+IDC_DONOTSHOW=Diese Warnung künftig nicht mehr anzeigen!
+
+IDYES=Ja
+IDNO=Nein
+
+[IDD_FILTERACCOUNT]
+TITLE=Konten auswählen
+
+IDC_SELECTALL=Alle auswählen
+IDC_CLEARALL=Alle entfernen
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+[IDD_FILTERCATEGORY]
+TITLE=Kategorien auswählen
+
+IDC_SELECTALL=Alle auswählen
+IDC_CLEARALL=Alle entfernen
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+[IDD_FILTERPAYEE]
+TITLE=Empfänger auswählen
+
+IDC_SELECTALL=Alle auswählen
+IDC_CLEARALL=Alle entfernen
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+[IDD_IMPORT]
+TITLE=Importieren
+
+IDC_IMPORTTEXT=Wählen Sie ein Konto für die importierten Buchungen
+IDC_DATEFORMATTEXT=Datumsformat
+IDC_DETECT_DUPLICATES=Dublikate erkennen
+IDC_IMPORT_RULES=Importregeln
+
+IDC_NEWACCOUNT=Neues Konto erstellen
+
+IDOK=OK
+IDCANCEL=Abbrechen
+
+ERR_NOACCOUNT=Bitte Konto auswählen!
+ERR_PARSING=Die Datei kann nicht importiert werden, sie ist entweder beschädigt oder entspricht nicht dem Standard.
+ERR_NO_TRANSACTIONS=Keine Buchungen enthalten.
+ERR_TRANSACTIONS_FOR_MANY_ACCOUNTS=Buchungen für unterschiedliche Konten enthalten. Kein Import möglich.
+
+STATUS_READING_FILE=Lese Datei...
+STATUS_PARSING_FILE=Analysiere Datei...
+STATUS_IMPORTING_TRANSACTIONS=Importiere Buchungen...
+STATUS_IMPORTING_BILLS=Importiere Rechnungen...
+STATUS_IMPORTING_ACCOUNTS=Importiere Konten...
+STATUS_IMPORTING_CATEGORIES=Importiere Kategorien...
+STATUS_IMPORTING_INVESTMENTS=Importiere Anlagen...
+STATUS_IMPORTING_HISTORICAL_PRICES=Importiere alte Aktienkurse...
+IDC_APPLY_IMPORT_RULES=Importregeln übernehmen
+                                  
+[IDD_IMPORTRULE]
+TITLE=Importregeln
+
+IDC_SEARCHSTRINGTEXT=Wenn die Buchung folgenden Text beinhaltet
+IDC_PAYEETEXT=wird ihr folgender Empfänger
+IDC_CATEGORYTEXT=und folgende Kategorie zugeordnet
+
+IDOK=OK
+IDCANCEL=Abbrechen
+
+[IDD_IMPORTRULES]
+TITLE=Importregeln
+
+COLUMN1=Suchtext
+COLUMN2=Empfänger
+COLUMN3=Kategorie
+
+IDC_ADD=Hinzufügen
+IDC_EDIT=Bearbeiten
+IDC_DELETE=Löschen
+
+IDOK=Schließen
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+IDC_IMPORT=Importieren
+IDC_EXPORT=Exportieren
+ERROR_IMPORT=Importieren von %s nach den Importregeln fehlgeschlagen!
+ERROR_EXPORT=Exportieren von %s nach den Importregeln fehlgeschlagen!
+
+[IDD_EXPORT]
+TITLE=exportieren
+
+IDC_EXPORTTEXT=Konto zum exportieren wählen
+IDC_STARTDATETEXT=Beginn
+IDC_ENDDATETEXT=Enddatum
+
+ERR_NOACCOUNT=Bitte Konto auswählen!
+
+IDOK=OK
+IDCANCEL=Abbrechen
+
+[IDD_LANGUAGE]
+TITLE=Sprachauswahl
+
+IDOK=OK
+IDCANCEL=Abbrechen
+
+[IDD_INTERNATIONALSETTINGS]
+TITLE=Ländereinstellungen
+
+IDC_DATETEXT=Datumsformat
+IDC_DATESEPARATORTEXT=Datumstrennzeichen
+IDC_CURRENCYTEXT=Standardwährung
+IDC_DECIMALSEPARATORTEXT=Dezimalzeichen
+IDC_THOUSANDSEPARATORTEXT=Tausendertrennzeichen
+IDC_NUMBEROFDECIMALDIGITSTEXT=Dezimalstellen
+
+ERR_THOUSANDDECIMAL=Bitte unterschiedliches Dezimalzeichen und Tausendertrennzeichen wählen!
+ERR_THOUSAND=Ungültiges Tausendertrennzeichen!
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+[IDD_NETWORK]
+TITLE=Netzwerkeinstellungen
+
+IDC_DIRECTCONNECTION=Direkte Verbindung zum Internet
+IDC_MANUALPROXYCONFIG=Manuelle Proxy Konfiguration
+
+IDC_PROXYSERVERTEXT=HTTP Proxy
+IDC_PROXYSERVERPORTTEXT=Port
+
+IDOK=OK
+IDCANCEL=Abbrechen
+
+ERR_INVALID_PORT_NUMBER=Bitte eine Portnummer zwischen 0 und 65535 wählen.
+
+[IDD_OPTIONS]
+TITLE=Optionen
+
+IDC_GENERALGROUP=allgemein
+IDC_SHOWCLOSEDACCOUNTS=Geschlossene Konten anzeigen
+IDC_SHOWACCOUNTNUMBERS=Kontonummer anzeigen
+IDC_SHOWGRID=Raster in Tabellen anzeigen
+IDC_LOADLASTFILE=Zuletzt genutzte Datei beim Programmstart laden
+IDC_SHOWCOMMENT=Buchungskommentare anzeigen
+IDC_AUTOSAVE=Automatisches Speichern aktivieren
+IDC_SHOWSPLASHSCREEN=Startbild anzeigen
+IDC_SHOWFILENAME=Dateinamen im Fenstertitel anzeigen
+IDC_SHOWSOLDSTOCKS=Verkaufte Wertpapiere anzeigen
+IDC_ADDINVESTMENTVALUE=Aktueller Aktienwert dem Konto hinzufügen
+IDC_SHOWDEPOSITSFIRST=Eingänge sind die ersten Buchungen des Tages
+IDC_TRANSFERSTATUS=Statusänderung bei Übertrag für beide Konten
+IDC_SHOWCATEGORYSTATUS=Ausgaben der letzten 30 Tage für Kategorien anzeigen
+IDC_SHOWDUPLICATECHECKWARNING=Duplikatswarnung anzeigen
+
+IDC_STARTPAGEGROUP=Startseite
+IDC_ACCOUNTLIST=Kontoliste
+IDC_FAVORITEACCOUNT=Standardkonto
+
+IDC_PASSWORDGROUP=Passwort
+IDC_OLDPASSTEXT=Aktuelles Passwort
+IDC_NEWPASSTEXT=Neues Passwort
+IDC_RETYPETEXT=Neues Passwort wiederholen
+
+IDC_NETWORK=Netzwerk
+
+IDC_TRANSACTIONTYPETEXT= Neue Buchungsart
+LASTUSEDTYPE=Zuletzt verwendete
+
+IDC_TRANSACTIONNUMBERTEXT=Neue Buchungsnummer
+NUMBER_EMPTY=leer
+NUMBER_DEBIT=Abbuchung
+NUMBER_AUTO=aufsteigend nummerieren
+
+IDC_NUMBEROFFUTUREBILLSMONTHSTEXT=zukünftige Rechnungen anzeigen für
+0_MONTHS_AHEAD=nicht anzeigen
+1_MONTHS_AHEAD=1 Monat
+2_MONTHS_AHEAD=2 Monate
+3_MONTHS_AHEAD=3 Monate
+4_MONTHS_AHEAD=4 Monate
+5_MONTHS_AHEAD=5 Monate
+6_MONTHS_AHEAD=6 Monate
+7_MONTHS_AHEAD=7 Monate
+8_MONTHS_AHEAD=8 Monate
+9_MONTHS_AHEAD=9 Monate
+10_MONTHS_AHEAD=10 Monate
+11_MONTHS_AHEAD=11 Monate
+12_MONTHS_AHEAD=12 Monate
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+ERR_INVALIDOLDPASSWORD=altes Passwort ungültig!
+ERR_INVALIDNEWPASSWORD=neues Passwort ungültig!
+IDC_CHECKFORUPDATES=Auf Updates überprüfen
+IDC_AUTOFILLTRANSACTIONCOMMENTS=Überweisungskommentare automatisch ausfüllen
+IDC_SORTSAMEDAYTRANSACTIONSBYNUMBER=Überweisungen eines Tages durchnummerieren
+IDC_CONFIRM_EDIT_RECONCILED_TRANSACTION=Abgeglichene Überweisungen bestätigen
+IDC_CONFIRM_DELETE_TRANSACTION=Löschen einer Überweisung bestätigen
+IDC_CONFIRM_DELETE_BILL=Löschen einer Rechnung bestätigen
+
+[IDD_PASSWORD]
+TITLE=Passwort eingeben
+IDC_PASSTEXT=Passwort
+
+IDOK=OK
+IDCANCEL=Abbrechen
+
+ERR_INVALIDPASSWORD=ungültiges Passwort!
+
+[IDD_PAYEE]
+TITLE=Empfänger
+
+IDC_NAMETEXT=Name
+
+IDC_ADDRESSTEXT=Adresse
+IDC_CITYTEXT=Stadt
+IDC_STATETEXT=Bundesland
+IDC_ZIPTEXT=PLZ
+IDC_COUNTRYTEXT=Land
+
+IDC_HOMEPHONETEXT=Telefon (privat)
+IDC_WORKPHONETEXT=Telefon (Büro)
+IDC_MOBILEPHONETEXT=Telefon (mobil)
+IDC_FAXTEXT=Faxnummer
+IDC_PAGERTEXT=Pager
+
+IDC_EMAILTEXT=Email
+IDC_WEBSITETEXT=Internetseite
+
+IDC_COMMENTTEXT=Kommentar
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+ERR_NOPAYEENAME=Bitte Namen für den Empfänger eingeben.
+IDC_ACTIVEPAYEE=aktiver Empfänger
+
+[IDD_PAYEECHANGE]
+TITLE=Empfänger ändern
+
+IDOK=OK
+IDCANCEL=Abbrechen
+
+[IDD_PAYEEMERGE]
+TITLE=Empfänger zusammenlegen
+IDC_PAYEETEXT=Empfänger
+IDC_PAYEETEXT1=mit Empfänger zusammenlegen.
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+ERR_NOPAYEES=Bitte zwei unterschiedliche Empfänger auswählen.
+SELECTED_PAYEES=ausgewählte Empfänger
+
+[IDD_PRINTPREVIEW]
+TITLE=Druckvorschau
+IDC_PAGETEXT=Seite
+IDC_PAGEOFTEXT=von
+IDC_PRINT=Drucken...
+IDC_CLOSE=Schließen
+IDC_PAGEPROPERTIES=Seite einrichten...
+IDC_PREVIOUSPAGE=<< Zurück
+IDC_NEXTPAGE=Vor >>
+IDC_ZOOMIN=Vergrößern
+IDC_ZOOMOUT=Verkleinern
+
+IDOK=OK
+IDHELP=Hilfe
+
+[IDD_PAGESETUP]
+TITLE=Seite einrichten
+IDOK=OK
+IDCANCEL=Abbrechen
+IDC_PAPERBOX=Papierformat
+IDC_ORIENTATIONBOX=Ausrichtung
+IDC_MARGINBOX_MM=Seitenabstände (mm)
+IDC_MARGINBOX_=Seitenabstände (Zoll)
+IDC_TITLETEXT=Titel:
+IDC_PAPERSIZETEXT=Größe:
+IDC_PORTRAIT=Hochformat
+IDC_LANDSCAPE=Querformat
+IDC_TMTEXT=Oben:
+IDC_BMTEXT=Unten:
+IDC_LMTEXT=Links:
+IDC_RMTEXT=Rechts:
+IDC_UNITTEXT=Einheiten:
+UNIT0=Millimeter
+UNIT1=Zoll
+
+[IDD_REGISTER]
+TITLE=Registrierung
+
+IDC_NAMETEXT=Name:
+IDC_SERIALNUMBERTEXT=Seriennummer:
+
+IDC_ORDER=Kaufen...
+
+IDOK=OK
+IDCANCEL=Abbrechen
+
+[IDD_SEARCH]
+TITLE=Buchungen finden
+
+IDC_DATETEXT=Datum
+IDC_FROMTEXT=von
+IDC_TOTEXT=bis
+IDC_AMOUNTTEXT=Betrag
+IDC_AMOUNTFROMTEXT=von
+IDC_AMOUNTTOTEXT=bis
+IDC_COMMENTTEXT=Text
+IDC_SEARCH=Suchen
+IDC_CLOSE=Schließen
+ALLACCOUNTS=Alle Konten
+IDC_ACCOUNTTEXT=Konto
+
+[IDD_SPLIT]
+TITLE=Auf Kategorien aufteilen
+
+IDC_CATEGORYTEXT=Kategorie
+IDC_SUBCATEGORYTEXT=Unterkategorie
+IDC_AMOUNTTEXT=Betrag
+IDC_ADD=Hinzufügen
+IDC_EDIT=Bearbeiten
+IDC_DELETE=Löschen
+IDC_TOTALTEXT=Gesamt:
+IDC_UNASSIGNEDTEXT=Nicht zugeordnet:
+IDC_COMMENTTEXT=Kommentar
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+COLUMN0=Kategorie
+COLUMN1=Unterkategorie
+COLUMN2=Betrag
+COLUMN3=Kommentar
+
+ERR_BADTOTAL=Die Summe der aufgeteilten Beträge entspricht nicht dem Ursprungsbetrag der Buchung. Soll die ursprüngliche Buchung angepasst werden?
+
+[IDD_SPLITITEM]
+TITLE=Teilungselement
+IDC_CATEGORYTEXT=Kategorie
+IDC_SUBCATEGORYTEXT=Unterkategorie
+IDC_AMOUNTTEXT=Betrag
+IDC_COMMENTTEXT=Kommentar
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+[IDD_TRANSACTION]
+TITLE=Überweisung
+
+IDC_TYPETEXT=Buchungsart
+IDC_DEPOSIT=Eingang
+IDC_WITHDRAWAL=Abbuchung
+IDC_TRANSFER=Umbuchung
+IDC_ACCOUNTTEXT=Konto
+IDC_PAYEETEXT=Empfänger
+IDC_CATEGORYTEXT=Kategorie
+IDC_SPLIT=Aufteilen
+IDC_COMMENTTEXT=Kommentar
+IDC_DATETEXT=Datum
+IDC_NUMBERTEXT=Buchungskürzel
+IDC_AMOUNTTEXT=Betrag
+
+FROMTEXT=von
+TOTEXT=nach
+SPLIT=Aufteilen
+DEBIT=Abbuchung
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+ERR_SAMETRANFER=Quell- und Zielkonto müsenn unterschiedlich sein.
+ERR_INVALIDACCOUNT=Ungültiger Kontoname!
+ERR_SPLITAMOUNT=Der Buchungsbetrag muß gleich der Summe der Teilbeträge sein!
+ERR_SPLIT_HAS_TRANSFERS=Eine Umbuchung kann keine untergeordneten Teilbuchungen beinhalten. Teilbuchungen entfernen und dann die Buchungsart wechseln.
+ERR_TRANSFER_FROM_SPLIT_NOT_ALLOWED=Überweisung einer Teilbuchung ist nicht möglich!
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Wechselkurs
+
+IDC_SOURCEAMOUNTTEXT=Quellbetrag
+IDC_TARGETAMOUNTTEXT=Zielbetrag
+
+IDOK=OK
+IDCANCEL=Abbrechen
+
+[IDD_TRANSACTIONCATEGORYLIST]
+TITLE=Buchungskürzel
+IDC_ADD=Hinzufügen
+IDC_DELETE=Löschen
+IDC_EDIT=Bearbeiten
+IDOK=Schließen
+IDHELP=Hilfe
+UPDATE_TRANSACTIONS=Wollen Sie den Namen der Überweisung ändern?
+DELETE_TRANSACTIONS=Wollen Sie die gelöschte Kategorie in den bestehenden Überweisungen endgültig entfernen?
+
+[IDD_TRANSACTIONCATEGORY]
+TITLE=Buchungskategorie
+IDC_NAMETEXT=Name
+IDOK=OK
+IDCANCEL=Abbrechen
+
+ERR_NONAME=Bitte Namen der Kategorie eingeben!
+
+[IDD_DAYBILLS]
+TITLE=Einnahmen / Ausgaben
+
+COLUMN0=Datum
+COLUMN1=Überweisung
+COLUMN2=Empfänger
+COLUMN3=Betrag
+COLUMN4=Kommentar
+COLUMN5=Häufigkeit
+
+IDC_ENTER=Erstellen...
+IDC_EDIT=Bearbeiten
+IDC_DELETE=Löschen...
+
+IDOK=OK
+IDHELP=Hilfe
+
+[IDD_LITEVERSION]
+TITLE=AceMoney Lite
+
+IDC_TEXT=AceMoney Lite bietet die Möglichkeit ein Konto zu verwalten. Für die Verwaltung mehrer Konten können Sie auf AceMoney umsteigen.
+IDC_WEBSITE=Upgrade...
+IDOK=Schließen
+IDCANCEL=Abbrechen
+IDC_TWO_ACCOUNTS_LIMIT=Mit AceMoney Lite können nur 2 Konten bearbeitet werden. Ein drittes Konto kann nicht erstellt werden, und AceMoney Lite Files mit mehr als 2 Konten können nicht geöffnet werden. Wenn SIe mehr als 2 Konten bearbeiten möchten sollten Sie die Vollversion von AceMoney verwenden.
+
+[IDD_STOCK]
+TITLE=Investment
+
+IDC_SYMBOLTEXT=Symbol
+IDC_LOOKUP=Symbol finden...
+IDC_NAMETEXT=Name
+IDC_CURRENCYTEXT=Währung
+IDC_DATASOURCETEXT=Datenquelle
+IDC_COMMENTTEXT=Kommentar
+IDC_DIVIDEBY100TEXT=heruntergeladenen Kurs durch 100 teilen
+IDC_PRICETEXT=Preisentwicklung
+IDC_UPDATE=aktualisieren
+IDC_WEBUPDATE=Onlinekurse
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+COLUMN0=Datum
+COLUMN1=Kurs
+ERR_EMPTYSYMBOL=Bitte Symbol eingeben!
+ERR_EMPTYNAME=Bitte Name für Investment eingeben!
+ERR_INVALIDDATASOURCE=Bitte Datenquelle auswählen!
+ERR_CONNECTIONORSYMBOL=Verbindungsfehler oder ungültiges Symbol!
+CURRENCY=Währung
+OPTIONS=Optionen
+STOCK=Aktie
+MUTUALFUND=Investmentfond
+BOND=Pfandbrief
+COMMODITY=Rohstoffe
+REALESTATE=Immobilien
+TRUST=Firmenaktien
+OTHER=andere
+IDC_TYPETEXT=Art
+IDC_AUTO_DOWNLOAD_ENABLED=Kurse automatisch herunterladen
+
+[IDD_STOCKPRICE]
+TITLE=Kursabfrage
+
+IDC_DATETEXT=Datum
+IDC_PRICETEXT=Kurs
+
+ERR_EMPTYSYMBOL=Bitte ein Symbol angeben.
+ERR_EMPTYNAME=Bitte einen Namen für das Wertpapier angeben.
+ERR_INVALIDDATASOURCE=Bitte eine gültige Datenquelle angeben.
+ERR_CONNECTIONORSYMBOL=Verbindungsfehler oder ungültiges Symbol angegeben.
+
+IDOK=OK
+IDCANCEL=Abbrechen
+
+[IDD_STOCKTRANSACTION]
+TITLE=Wertpapiertransaktion
+
+IDC_DATETEXT=Datum
+IDC_ACCOUNTTEXT=Konto
+IDC_ACTIONTEXT=Aktion
+IDC_INVESTMENTTEXT=Investment
+
+IDC_DIVIDENDTEXT=Gewinnanteil
+IDC_NUMBERTEXT=Anzahl
+IDC_PRICETEXT=Kurs
+IDC_COMMISSIONTEXT=Gebühren
+IDC_TOTALTEXT=Summe
+
+IDC_COMMENTTEXT=Kommentar
+
+BUY=Kaufen
+SELL=Verkaufen
+DIVIDEND=Gewinnanteil
+REINVEST=Dividende reinvestieren
+ADD=Anteile erhöhen
+REMOVE=Anteile verringern
+
+IDOK=OK
+IDCANCEL=Abbrechen
+IDHELP=Hilfe
+
+ERR_NEGATIVEVALUES=Anzahl, Kurs, Dividende, Gebühr und Summe müssen positiv sein.
+ERR_INVALIDACTIONTYPE=Ungültige Aktion!
+ERR_INVALIDACCOUNT=Ungültiges Konto!
+ERR_INVALIDINVESTMENT=Ungültiges Wertpapier!
+ERR_INCONSISTENTCURRENCY=Währung des Investments und des Kontos müssen übereinstimmen!
+
+[IDD_REPORTADD]
+TITLE=zu Favoriten hinzufügen
+IDC_NAMETEXT=Name des Berichts
+IDOK=OK
+IDCANCEL=Abbrechen
+
+[IDD_REPORTORGANIZE]
+TITLE=Berichte verwalten
+IDC_DELETE=Löschen
+IDOK=Erzeugen
+IDCANCEL=Schließen
+
+[IDD_STARTUP_CURRENCY]
+TITLE=Währungseinstellungen
+IDC_CURRENCYTEXT=Standardwährung
+IDC_NUMBEROFDECIMALSTEXT=Dezimalstellen
+IDC_DECIMALSEPARATORTEXT=Dezimalzeichen
+IDC_THOUSANDSEPARATORTEXT=Tausendertrennzeichen
+IDC_EXAMPLETEXT=Beispiel
+
+IDC_BACK=<< Zurück
+IDC_NEXT=Vor >>
+
+SEPARATOR_SPACE=Leerzeichen
+SEPARATOR_NONE=kein Trennzeichen
+
+ERR_THOUSANDDECIMAL=Bitte unterschiedliches Dezimalzeichen und Tausendertrennzeichen wählen.
+IDOK=OK
+IDCANCEL=Abbrechen
+
+[IDD_STARTUP_DATE]
+TITLE=Datumseinstellung
+IDC_FORMATTEXT=Datumsformat
+IDC_SEPARATORTEXT=Trennzeichen
+IDC_EXAMPLETEXT=Beispiel
+
+IDC_BACK=<< Zurück
+IDC_FINISH=Beenden
+IDOK=OK
+IDCANCEL=Abbrechen
+
+[IDD_ACEMONEYREMINDER]
+TITLE=AceMoney Rechnungserinnerung
+
+STARTACEMONEY=Starte AceMoney...
+OPTIONS=Optionen
+VIEWBILLS=Rechnungen ansehen
+EXIT=Beenden
+CLOSE=Schließen
+
+COLUMN0=Datum
+COLUMN1=Überweisung
+COLUMN2=Empfänger
+COLUMN3=Betrag
+
+OPTIONSTITLE=Optionen
+DATAFILE=AceMoney-Datei
+BROWSE=Durchsuchen...
+SELECTFILE=Datei auswählen
+AUTOSTART=Mit Windows starten
+STARTMINIMIZED=Minimiert starten
+OK=OK
+CANCEL=Abbrechen
+
+MSG_DUEBILLS=Rechnung fällig!
+MSG_NODUEBILLS=Keine Rechnung fällig.
+
+[DIRECTCONNECT]
+CONNECTING=Verbindung
+REQUESTING=Informationen werden abgefragt
+RECEIVING=Empfange Daten
+IMPORTING=Importiere Überweisungen
+DOWNLOADED=%d heruntergeladene Überweisungen
+[IDD_DOWNLOADPROGRESS]
+STATUS_CONNECTING=Verbindung
+IDOK=Schließen
+TITLE=Download Fortschritt
+PROGRESS_TEXT=%1 von %2 Aufgaben abgeschlossen
+IDC_AUTO_CLOSE=Wenn Download beendet, Fenster automatisch schließen
+TASK_TRANSACTIONS=Überweisungen für
+TASK_INVESTMENT=Kursnotierung für
+TASK_EXCHANGERATE=Wechselkurs für
+STATUS_FAILED=Fehlgeschlagen!
+STATUS_SUCCESS=%d Überweisungen
+STATUS_REQUESTING=Datenanfrage
+STATUS_RECEIVING=empfange Daten
+STATUS_IMPORTING=Importiere
+[IDD_FILTERINVESTMENT]
+IDC_SELECTALL=Alle auswählen
+IDHELP=Hilfe
+IDOK=OK
+IDCANCEL=Abbrechen
+IDC_CLEARALL=Alle entfernen
+TITLE=Investments auswählen
+[IDD_FILTERTAG]
+IDC_SELECTALL=Alle auswählen
+IDHELP=Hilfe
+IDOK=OK
+IDCANCEL=Abbrechen
+IDC_CLEARALL=Alle entfernen
+TITLE=Schlagworte auswählen
+[IDD_DOWNLOADTRANSACTIONS]
+IDHELP=Hilfe
+IDOK=OK
+IDCANCEL=Abbrechen
+TITLE=lade Überweisungen herunter
+IDC_DETECT_DUPLICATES=auf Duplikate überprüfen
+ERROR_INVALID_ACCOUNT=ungültiges Konto!
+ERROR_MISSING_CONFIG=Konfiguration unvollständig! Bitte in Kontoeigenschaften fehlenden Provider, UserID oder Kontonummer eintragen!
+ERROR_INVALID_CONFIG=Ungültige Providerangaben! Bitte in den Kontoeigenschaften bzw. bei Bankdaten ändern!
+ERROR_CONNECT=Verbindung zum Bankserver fehlgeschlagen! Bitte später nochmals versuchen!
+ERROR_SEND=Anfrage zum Download des Kontostandes fehlgeschlagen!
+ERROR_INVALID_RESPONSE=Ungültige Rückmeldung des Bankservers!
+ERROR_AUTHENTICATION=Ungültige UserID / Passwort
+ERROR_STATEMENT=Fehler beim Download des Kontostandes!
+ERROR_ACCOUNTINFO=Fehler beim Abrufen von Kontodaten! 
+ERROR_IMPORT=Fehler beim Importieren heruntergeladener Überweisungen!
+ERROR_UNKNOWN=Unbekannter Fehler!
+[IDD_FILTERTEXT]
+IDHELP=Hilfe
+IDOK=OK
+IDCANCEL=Abbrechen
+TITLE=Text eingeben
+[IDD_ONLINESERVICE]
+IDHELP=Hilfe
+PROVIDER_TYPE_BANK=Bank
+IDOK=OK
+IDCANCEL=Abbrechen
+IDC_ENABLE=Überweisungen für dieses Konto herunterladen
+IDC_PASSWORDTEXT=Passwort
+PROVIDER_TYPE_CREDITCARD=Kreditkarte
+PROVIDER_TYPE_BROKERAGE=Brokerfirma
+[IDD_ERROR]
+CLOSE=Schließen
+TITLE=Fehler
+ERROR=Fehler
+DESCRIPTION=Beschreibung
+[IDD_QUESTION]
+OK=Ja
+CANCEL=Nein
+TITLE=bestätigen
+DO_NOT_ASK_AGAIN=Nicht mehr nachfragen

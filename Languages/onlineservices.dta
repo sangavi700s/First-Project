@@ -1,0 +1,113 @@
+Name	Type	ProviderURL	FID	ORG	FIPID	BankCode	APPID	APPVER
+"Bank of America, CA"	BANK	https://ofx.bankofamerica.com/cgi-forte/ofx?servicename=ofx_2-3&pagename=bofa	6805	HAN	""	121000358	QWIN	1800
+"Bank of America, CA"	CREDITCARD	https://ofx.bankofamerica.com/cgi-forte/ofx?servicename=ofx_2-3&pagename=bofa	6805	HAN	""	121000358	QWIN	1800
+"Bank of America, NY"	BANK	https://ofx.bankofamerica.com/cgi-forte/ofx?servicename=ofx_2-3&pagename=bofa	6805	HAN	""	51000017	QWIN	1800
+"Bank of America, NY"	CREDITCARD	https://ofx.bankofamerica.com/cgi-forte/ofx?servicename=ofx_2-3&pagename=bofa	6805	HAN	""	51000017	QWIN	1800
+"Bank of America (All except CA, WA, & ID)"	BANK	https://ofx.bankofamerica.com/cgi-forte/ofx?servicename=ofx_2-3&pagename=bofa	6805	HAN	""	121000358	QWIN	1800
+"Bank of America (All except CA, WA, & ID)"	CREDITCARD	https://ofx.bankofamerica.com/cgi-forte/ofx?servicename=ofx_2-3&pagename=bofa	6805	HAN	""	121000358	QWIN	1800
+"Bank of America - 1"	BANK	https://ofx.bankofamerica.com/cgi-forte/fortecgi?servicename=ofx_2-3&pagename=ofx	5959	HAN	""	011000138	QWIN	2000
+CapitalOne	BANK	https://onlinebanking.capitalone.com/ofx/process.ofx 	1001	Hibernia 		65002030		
+Charles Schwab Bank	BANK	https://ofx.schwab.com/bankcgi_dev/ofx_server 	101	ISC 	7263	121202211		
+Charles Schwab	BROKERAGE	https://ofx.schwab.com/cgi_dev/ofx_server	5104	ISC
+Chase - Credit Cards	CREDITCARD	https://ofx.chase.com 	10898	B1				
+Chase - Banking	BANK	https://ofx.chase.com 	10898	B1				
+Citi Bank - Credit Cards	CREDITCARD	https://secureofx2.bankhost.com/citi/cgi-forte/ofx_rt?servicename=ofx_rt&pagename=ofx 	24909	Citigroup 				
+Citi Bank - Business Credit Cards	CREDITCARD	https://secureofx2.bankhost.com/citi/cgi-forte/ofx_rt?servicename=ofx_rt&pagename=ofx 	26389	Citigroup 				
+Discover Card	CREDITCARD	https://ofx.discovercard.com/ 	7101	Discover Financial Services 		31100649		
+Discover Platinum	CREDITCARD	https://ofx.discovercard.com 	7102	Discover Financial Services
+Discover Bank	BANK	https://ofx.discovercard.com	12610	Discover Bank
+E*Trade Bank 	BROKERAGE	https://ofx.etrade.com/cgi-ofx/etradeofx 	9989	ETRADE BANK 		256072691		
+First IB	BANK	https://ofxdi.diginsite.com/cmr/cmr.ofx 	74014187	DI 		74014187		
+First Tech CU	CREDITCARD	https://ofx.firsttechcu.com/ 	2243	First Tech Credit Union 		323274160		
+Golden1 Credit Union 	BANK	https://homebanking.golden1.com/scripts/serverext.dll 	1001	Golden1 		321175261		
+International Bank of Commerce	BANK	https://ibcbankonline2.ibc.com/scripts/serverext.dll 	1001	IBC 	6127	114902528		
+LaSalle Bank 	BANK	https://www.oasis.cfree.com/1101.ofxgp 	1101	LaSalleBankMidwest 		71004239		
+North Carolina State Employees' Credit Union 	BANK	https://onlineaccess.ncsecu.org/secuofx/secu.ofx 	1001	SECU 	102	253177049		
+"OptionsXpress, Inc "	BANK	https://ofx.optionsxpress.com/cgi-bin/ox.exe 	10876	10876				
+Patelco Credit Union 	BANK	https://ofx.patelco.org 	2000	Patelco Credit Union 	5412	321076470		
+PNC Bank	BANK	https://www.oasis.cfree.com/4501.ofxgp 	4501	ISC
+TDAmeritrade	BROKERAGE	https://ofxs.ameritrade.com/cgi-bin/apps/OFX 	5024	Ameritrade 				
+Scottrade	BROKERAGE	https://ofxstl.scottsave.com 	777	Scottrade 				
+USAA	BANK	https://service2.usaa.com/ofx/OFXServlet 	24591	USAA 	5874			
+Vanguard	BROKERAGE	https://vesnc.vanguard.com/us/OfxDirectConnectServlet 	1358	The Vanguard Group 				
+L. A. Police Federal Credit Union	BANK	https://ofxdi.diginsite.com/cmr/cmr.ofx	322078493	DI	322078493			
+TD Bank - Online Banking	BANK	https://onlinebanking.tdbank.com/scripts/serverext.dll	1001	CommerceBank
+Metro Bank	BANK	https://ofx.mymetrobank.com/ofx/ofx.ofx	9970	MTRO
+ING DIRECT - Bank	BANK
+Bank Fund Staff FCU	BANK	https://secure.bfsfcu.org/ofx/ofx.dll	54325	Bank-Fund Staff FCU
+KeyBank	BANK	https://www.oasis.cfree.com/KeyBank.ofxgp	5901	KeyBank
+Bank of the West	BANK	https://olbp.bankofthewest.com/ofx0002/ofx_isapi.dll	5809	BankWest Corp	""	121100782
+BB&T - Credit Card	CREDITCARD
+BB&T	BANK	https://eftx.bbt.com/eftxweb/access.ofx	BB&T	BB&T	5608	""	QWIN	1800
+BB&T	CREDITCARD	https://eftx.bbt.com/eftxweb/access.ofx	BB&T	BB&T	5608	""	QWIN	1800
+xWachovia	BANK
+zWachovia	BANK	https://www.oasis.cfree.com/4301.ofxgp	4301	Wachovia
+Wachovia Bank	BANK
+Wachovia	BANK	https://pfmpw.wachovia.com/cgi-forte/fortecgi?servicename=ofx&pagename=PFM 	4309	Wachovia	""	053000219	QWIN	1800
+Wachovia	CREDITCARD	https://pfmpw.wachovia.com/cgi-forte/fortecgi?servicename=ofx&pagename=PFM 	4309	Wachovia	""	053000219	QWIN	1800
+Wells Fargo	BANK
+Wells Fargo	CREDITCARD
+Wells Fargo Bank	BANK
+Wells Fargo Credit Card	CREDITCARD
+Wells Fargo - Small Business	BANK
+Wells Fargo	BANK	https://ofxdc.wellsfargo.com/ofx/process.ofx	3000	WF	""	""	QWIN	1900
+Wells Fargo	CREDITCARD	https://ofxdc.wellsfargo.com/ofx/process.ofx	3000	WF	""	""	QWIN	1900
+Wells Fargo	BROKERAGE	https://invmnt.wellsfargo.com/inv/directConnect	10762	wellsfargo.com	""	""	QWIN	1800
+Citibank	BANK	https://www.oasis.cfree.com/2101.ofxgp	2101	ISC
+SunTrust Credit Cards	CREDITCARD
+SunTrust	BANK	https://www.oasis.cfree.com/2801.ofxgp	2801	SunTrust PC Banking
+SunTrust	CREDITCARD	https://www.oasis.cfree.com/2801.ofxgp	2801	SunTrust PC Banking
+Compass Bank	BANK	https://www2.compassweb.com/ofxsecurity/ofx_security_server.dll	2201	Intelidata	""	""	QWIN	1800
+US Bank	BANK	https://www.oasis.cfree.com/1401.ofxgp	1401	US Bank
+Bank of America (Formerly Fleet)	BANK	https://www.oasis.cfree.com/fip/genesis/prod/01803.ofx	1803	ISC	""	""	QWIN	1700
+Bank of America (Formerly Fleet)	CREDITCARD	https://www.oasis.cfree.com/fip/genesis/prod/01803.ofx	1803	ISC	""	""	QWIN	1700
+Regions Bank	BANK	https://securebank.regions.com/OfxPipeline/ofx.ofx	1001	Amsouth
+Fidelity Investments	BROKERAGE	https://ofx.fidelity.com/ftgw/OFX/clients/download	7776	fidelity.com
+Washington State Employee's Credit Union	BANK	https://ssl3.wsecu.org/ofxserver/ofxsrvr.dll	325181028	WSECU
+Apple FCU	BANK	https://ofxdi.diginsite.com/cmr/cmr.ofx	256078514	DI
+Edward Jones	BROKERAGE	https://ofx.edwardjones.com	823	Edward Jones
+"T. Rowe Price"	BROKERAGE	https://www3.troweprice.com/ffs/ffsweb/OFXServlet		Intuit
+"T. Rowe Price Brokerage"	BROKERAGE	https://ofx.netxclient.com/cgi/OFXNetx	TRP	Intuit
+First Republic Bank	BANK	https://ofxdi.diginsite.com/cmr/cmr.ofx	321081669	DI
+First Community FCU	BANK	https://pcu.1stcomm.org/scripts/isaofx.dll	272483633	FirstCommunityFCU
+First Community Bank (IA)	BANK	https://ofxdi.diginsite.com/cmr/cmr.ofx	273970446	DI
+Community First Credit Union	BANK	https://pcu.communityfirstcu.org/scripts/isaofx.dll	275982801	Community First Credit Union
+ING Direct	BANK	https://ofx.ingdirect.com/OFX/ofx.html	031176110	ING DIRECT
+ING Direct (Canada)	BANK	https://ofx.ingdirect.ca	061400152	INGDirectCanada
+Huntington National Bank	BANK	https://onlinebanking.huntington.com/scripts/serverext.dll	3701	Huntington
+First Hawaiian Bank	BANK	https://olbp.fhb.com/ofx0001/ofx_isapi.dll	3501	BancWest Corp
+Mountain America Credit Union	BANK	https://ofx.macu.org/OFXServer/ofxsrvr.dll	324079555	MACU
+First Citizens Bank	BANK	https://www.oasis.cfree.com/5013.ofxgp	5013	"First Citizens Bank NC, VA, WV"
+Citizens Bank - Mid Atl - Consumer	BANK	https://www.oasis.cfree.com/fip/genesis/prod/0CTZBK.ofx	CTZBK	Citizens Bank
+Citizens Bank – New England – Business	BANK	https://www.oasis.cfree.com/fip/genesis/prod/04639.ofx	4639	Citizens Bank
+Citizens Bank – New England – Consumer	BANK	https://www.oasis.cfree.com/fip/genesis/prod/0CTZBK.ofx	CTZBK	Citizens Bank
+Arizona State Credit Union	BANK	https://ofxdi.diginsite.com/cmr/cmr.ofx	322172496	DI
+M&T Bank	BANK	https://www.oasis.cfree.com/2601.ofxgp	2601	M & T Bank
+Delta Community Credit Union	BANK	https://appweb.deltacommunitycu.com/ofxroot/directtocore.asp	3328	decu.org
+State Employees Credit Union (NC)	BANK	https://onlineaccess.ncsecu.org/secuofx/secu.ofx	1001	SECU
+Kinecta Federal Credit Union	BANK	https://ofx.kinecta.org/ofxserver/ofxsrvr.dll	322278073	KINECTA
+Vystar Credit Union	BANK	https://ofxdi.diginsite.com/cmr/cmr.ofx	263079276	DI	""	""	QWIN	1900
+Campus USA Credit Union	BANK	https://que.campuscu.com/scripts/isaofx.dll	263178478	USERS
+Hewitt Associates	BROKERAGE	https://seven.was.hewitt.com/eftxweb/access.ofx	242	hewitt.com
+Santa Barbara Bank & Trust	BANK	https://pfm.metavante.com/ofx/OFXServlet	5524	pfm-l3g
+OptionsXpress, Inc	BROKERAGE	https://ofx.optionsxpress.com/cgi-bin/ox.exe	10876	10876
+Los Angeles Fireman’s Credit Union	BANK	https://ofxdi.diginsite.com/cmr/cmr.ofx	322078341	DI	""	""	QWIN	1900
+Franklin Templeton Investments	BROKERAGE	https://ofx.franklintempleton.com/eftxweb/access.ofx	9444	franklintempleton.com
+Mission Federal Credit Union	BANK	https://missionlink.missionfcu.org/scripts/serverext.dll	1001	MISSION
+New England Federal Credit Union	BANK	https://pcaccess.nefcu.com/ofx/ofx.dll	2104	"New England Federal Credit Union"
+Affinity Plus Federal Credit Union	BANK	https://hb.affinityplus.org/ofx/ofx.dll	75	"Affinity Plus FCU"
+Yandex.Money	BANK	https://money.yandex.ru	YANDEX	YANDEX
+Wells Fargo Advisor	BROKERAGE	https://ofx.wellsfargoadvantagefunds.com/eftxWeb/Access.ofx	1030	strong.com
+Silver State Schools Credit Union	BANK	https://www.silverstatecu.com/OFXServer/ofxsrvr.dll	322484265	SSSCU
+Suncoast Schools Federal Credit Union	BANK	https://ofx.suncoastfcu.org	1001	SunCoast
+First Tech Credit Union	BANK	https://ofx.firsttechcu.com	2243	"First Tech Credit Union"
+First Tech Federal Credit Union	BANK	https://ofx.firsttechfed.com	3169	"First Tech Federal Credit Union"
+Commerce Bank, NA	BANK	https://www.oasis.cfree.com/4001.ofxgp	4001	"Commerce Bank NA"
+Desert Schools Federal Credit Union	BANK	https://epal.desertschools.org/scripts/serverext.dll	1001	DSFCU	""	""	QWIN	1900
+Jack Henry	BANK	https://directline.netteller.com	12840	JackHenry	""	""		
+Independent Bank	BANK	https://ofxdi.diginsite.com/cmr/cmr.ofx	084008426	"Independent Bank"	""	""	QWIN	1900
+Velocity Credit Union	BANK	https://rbserver.velocitycu.com/ofx/ofx.dll	1	"Velocity Credit Union"	""	""	QWIN	1900
+Amegy Bank of Texas	BANK	https://quicken.metavante.com/ofx/OFXServlet	1165	"Amegy Bank of Texas"	""	""	QWIN	1800
+Northstar Bank of Texas	BANK	https://ofx1.evault.ws/OFXServer/ofxsrvr.dll	111904817	"MEightZeroFive"	""	""	QWIN	1900
+Denton Area Teachers Credit Union	BANK	https://online.datcu.coop/ofxserver/ofxsrvr.dll	311980725	"DATCU"	""	""	QWIN	1900
+Credit Union 1	BANK	https://pcu.creditunion1.org/scripts/isaofx.dll	271188081	"Credit Union 1"	""	""	QWIN	1900

@@ -1,0 +1,1568 @@
+ProgramID=AceMoney
+Language=Dutch (BE)
+
+///////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories_dut.dat
+BANKS=banks_dut.dat
+ACCOUNTTYPES=accounttypes_dut.dat
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+CURRENCY=EUR
+DECIMALS=2
+DECIMALSEPARATOR=,
+THOUSANDSEPARATOR=.
+DATEFORMAT=DDMMJJ
+DATESEPARATOR=-
+STATUS=Gereed
+TRANSFER=Overboeken
+DEPOSIT=Inkomsten
+WITHDRAWAL=Uitgaven
+TO=naar
+FROM=van
+TOTAL=Totaal
+RECONCILEDTOTAL=Gecontroleerd totaal
+CLEAREDTOTAL=Totaal vrijgegeven
+IMPORTEDTOTAL=Totaal geimporteerd
+UNCLEAREDTOTAL=Niet vrijgegeven totaal
+TODAYTEXT=Vandaag
+PAGE=Pagina
+UNASSIGNED=(Niet toegewezen)
+SAVEMODIFIED=Wijzigingen opslaan
+REPLACEMENTS=Vervangingen zijn gemaakt
+INVALIDNUMBER=Verkeerd nummer formaat!
+MSG_LOADSAMPLE=Wilt u een voorbeeld  bestand laden ?
+MSG_SAMPLEFILEWARNING=Voorbeeld bestand kan niet worden bewaard! Gebruik "Bestand->opslaan als..." om gegevens te bewaren in een ander bestand.
+ONE_COLUMN_MUST_BE_DISPLAYED=Er moet altijd één kolom zichtbaar zijn!
+NEW_VERSION_DETECTED=Er is een nieuwe versie van AceMoney beschikbaar, wilt u upgraden naar de nieuwe versie?
+NO_NEW_VERSION_IS_AVAILABLE=Er is geen nieuwe versie beschikbaar.
+NEW_VERSION_CHECK_FAILED=AceMoney kon niet controleren of er een nieuwe versie beschikbaar is, de verbinding met de server is mislukt. Controleer uw netwerkinstellingen of probeer het later nog eens.
+AVERAGE=Gemiddelde
+AUTODETECT=Automatisch dedecteren
+YES=Ja
+NO=Nee
+SUBTOTAL=Subtotaal
+AVAILABLE_BALANCE=Beschikbaar saldo
+BALANCE=Saldo
+
+[MENU]
+ID_FILE=Bestand
+ID_FILE_NEW=Nieuw
+ID_FILE_OPEN=Openen...
+ID_FILE_SAVE=Opslaan
+ID_FILE_SAVE_AS=Opslaan als...
+ID_FILE_IMPORT=Importeren...
+ID_FILE_EXPORT=Exporteren...
+ID_FILE_PRINT=Afdrukken...
+ID_FILE_PRINT_PREVIEW=Afdrukvoorbeeld...
+ID_APP_EXIT=Afsluiten
+
+ID_EDIT=Bewerken
+ID_EDIT_DELETE=Verwijderen
+ID_EDIT_INSERT=Invoegen
+ID_EDIT_SELECTALL=Alles selecteren
+ID_EDIT_FIND=Zoeken...
+ID_EDIT_PROPERTIES=Eigenschappen...
+ID_EDIT_COPY=Kopieëren
+ID_EDIT_PASTE=Plakken
+ID_EDIT_ADDTOSCHEDULE=Opnemen in planning...
+
+ID_VIEW=Weergave
+ID_VIEW_ACCOUNTS=Rekeningen
+ID_VIEW_BANKS=Banken
+ID_VIEW_PAYEES=Crediteuren
+ID_VIEW_CATEGORIES=Categoriën en Budget
+ID_VIEW_SCHEDULE=Planning
+ID_VIEW_PORTFOLIO=Portofolio
+ID_VIEW_REPORTS=Rapporten
+
+ID_ACCOUNTS=Rekeningen
+ID_ACCOUNTS_ADD=Voeg rekening toe...
+ID_ACCOUNTS_TYPE=Rekeningsoorten...
+
+ID_REPORTS=Rapporten
+ID_REPORTS_ADD=Voeg toe aan favorieten...
+ID_REPORTS_ORGANIZE=Organiseer...
+
+ID_TOOLS=Extra
+ID_TOOLS_CURRENCY=Wisselkoersen...
+ID_TOOLS_INTERNATIONAL=Internationale instellingen...
+ID_TOOLS_OPTIONS=Opties...
+ID_TOOLS_COLORS=Lettertype en kleuren...
+ID_TOOLS_LANGUAGE=Taal...
+ID_TOOLS_BACKUP=Back-up instellingen...
+ID_TOOLS_RESTORE=Herstellen...
+ID_TOOLS_CALCULATOR=Rekenmachine...
+ID_TOOLS_CALCULATOR_LOAN=Lening Calculator...
+ID_TOOLS_CALCULATOR_SAVINGS=Spaar Calculator...
+ID_TOOLS_CALCULATOR_MORTGAGE=Hypotheek berekening...
+ID_TOOLS_TRANSACTION_CATEGORY_LIST=Transactie categoriën...
+
+ID_HELP=Help
+ID_HELP_TOPICS=Inhoud
+ID_HELP_HOMEPAGE=AceMoney website...
+ID_HELP_WHATSNEW=Wat is er nieuw...
+ID_HELP_SUPPORT=Technische ondersteuning...
+ID_HELP_FORUM=Webforum...
+ID_HELP_TUTORIAL=Online kennismaking...
+ID_HELP_REGISTER=Registratie AceMoney...
+ID_HELP_ORDER=AceMoney bestellen...
+ID_HELP_ABOUT=Over...
+ID_FILE_ARCHIVE=Archief...
+ID_TOOLS_IMPORT_RULES=Importeer regels...
+ID_HELP_CHECK_FOR_UPDATES=Controleer op updates...
+ADD=Toevoegen
+ID_TOOLS_TRANSACTION_TAG_LIST=Transactie markeringen...
+
+[TOOLBAR]
+ID_FILE_NEW=Nieuw
+ID_FILE_OPEN=Openen
+ID_FILE_SAVE=Opslaan
+ID_VIEW_BACK=Vorige
+ID_VIEW_FORWARD=Volgende
+ID_VIEW_HOME=Home
+ID_VIEW_ACCOUNTS=Rekeningen
+ID_VIEW_BANKS=Banken
+ID_VIEW_PAYEES=Crediteuren
+ID_VIEW_CATEGORIES=Categoriën
+ID_VIEW_SCHEDULE=Planning
+ID_VIEW_REPORTS=Rapporten
+ID_VIEW_PORTFOLIO=Portofolio
+ID_HELP_HOMEPAGE=Homepagina
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=Rekeningen
+IDC_ADD=Nieuwe rekening...
+IDC_BILLS=Betaal de rekeningen
+IDC_REPORTS=Rapporten
+IDC_CURRENCY=Wisselkoersen
+IDC_WEBUPDATE=Actualiseer koersen online
+IDHELP=Help
+
+ID_ACCOUNT_OPEN=Openen
+ID_ACCOUNT_ADD=Nieuwe rekening...
+ID_ACCOUNT_DELETE=Verwijderen
+ID_ACCOUNT_EDIT=Eigenschappen
+ID_ACCOUNT_SHOWNUMBERS=Bekijk rekeningnummers
+ID_ACCOUNT_SHOWCLOSED=Bekijk afgesloten rekeningen
+
+TOTAL=Totaal
+LASTUPDATE=Laatste wijziging
+
+DELETE_CONFIRMATION=De rekening %s zal worden verwijderd inclusief alle transacties!  Doorgaan?
+
+UPDATE_SUCCESS=Alle koersen zijn met succes bijgewerkt!
+UPDATE_FAILURE=Fout tijdens het bijwerken van de koersen. Niet alle koersen konden worden bijgewerkt!
+UPDATE_NOTREQUIRED=Bijwerken is niet nodig!
+NEW_CURRENCY_DETECTED=Deze rekening gebruikt een ander valutasoort dan de Euro. U moet de wisselkoers bijwerken door het te downloaden van het internet of ze handmatig inbrengen via Extra->Wisselkoersen. Wilt u dat AceMoney ze nu download?
+ID_ACCOUNT_CLOSE=Rekening sluiten
+ID_ACCOUNT_REOPEN=Rekening heropenen
+ID_ACCOUNT_ACCEPT_IMPORTED=Aanvaard geimporteerde transacties
+ID_ACCOUNT_SHOW_AVAILABLE_BALANCE=Toon beschikbaar saldo
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPORTFOLIO]
+TITLE=Portofolio
+
+IDC_NEWTRANSACTION=Nieuwe Transactie..
+
+IDC_ADD=Voeg investering toe...
+IDC_EDIT=Bewerk investering...
+IDC_DELETE=Verwijder investering...
+
+IDC_WEBUPDATE=Ophalen koersen
+
+IDHELP=Help
+
+STOCKLIST=Beleggingen
+STOCKTRANSACTIONLIST=Transacties
+
+COLUMN0=Ticker
+COLUMN1=Naam
+COLUMN2=Laatste Prijs
+COLUMN3=Hoeveelheid
+COLUMN4=Totaal
+COLUMN5=Winst
+
+TRANSACTIONSCOLUMN0=Datum
+TRANSACTIONSCOLUMN1=Actie
+TRANSACTIONSCOLUMN2=Ticker
+TRANSACTIONSCOLUMN3=Rekening
+TRANSACTIONSCOLUMN4=Dividend
+TRANSACTIONSCOLUMN5=Prijs
+TRANSACTIONSCOLUMN6=Hoeveelheid
+TRANSACTIONSCOLUMN7=Commissie
+TRANSACTIONSCOLUMN8=Totaal
+
+CANTBEDELETED=De belegging wordt minimaal in 1 transactie gebruikt. En kan dus niet verwijderd worden!
+DELETECONFIRMATION=De belegging wordt verwijderd.  Doorgaan ?
+UPDATEISNOTREQUIRED=Update is niet nodig!
+UPDATEISNOTCOMPLETE=Sommige investeringen zijn niet geactualiseerd!
+INVESTMENTNOTCREATED=Een investering moet eerst gecreëerd worden!
+
+ID_EDIT_OPEN=Bewerk investering
+ID_EDIT_INSERT=Voeg investering toe
+ID_EDIT_DELETE=Verwijderen
+TRANSACTIONSCOLUMN9=Commentaar
+ALLACCOUNTS=Alle accounts
+ALLOCATION_BY_INVESTMENTS=Toewijzing per investering
+ALLOCATION_BY_ACCOUNTS=Toewijzing per rekening
+ALLOCATION_BY_TYPES=Toewijzing per type
+IDC_IMPORT=Importeer...
+COLUMN6=Verschil
+COLUMN7=Openingskoers
+COLUMN12=52 wk laag
+COLUMN13=52 wk hoog
+COLUMN14=Winst, %
+COLUMN11=Div Opbrengst
+COLUMN10=Winst per aandeel
+COLUMN9=Koers/Winst
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=Rekening
+IDC_ADD=Nieuwe transactie
+IDC_EDIT=Bewerk transactie
+IDC_DELETE=Verwijder transactie
+IDC_BALANCE=Rekening afsluiten
+IDC_WEBSITE=Web-site bank
+IDC_ACCOUNT=Eigenschappen rekening
+IDC_BANK=Eigenschappen bank
+IDC_MONTHREPORT=Maandrapport
+IDC_REPORT=30 dagen rapport
+IDC_HIDERECONCILED=Verberg gecontroleerde
+IDHELP=Help
+
+COLUMN0=Nummer
+COLUMN1=Datum
+COLUMN2=Crediteur
+COLUMN3=Categorie
+COLUMN4=S
+COLUMN5=Uitgaven
+COLUMN6=Inkomsten
+COLUMN7=Totaal
+COLUMN8=Opmerking
+
+BANKISNOTASSIGNED=Om deze functie te gebruiken moet u de bank selecteren waar u deze rekening heeft.
+PAGEISNOTASSIGNED=Webadres ontbreekt. U kunt het adres vastleggen in de dialoog Bank-Eigenschappen.
+STATUS=In deze maand heeft u %.2f uitgegeven in %s categoriën.
+STATUSINCOME=Deze maand heeft u %.2f ontvangen in categorie %s
+
+ID_TRANSACTION_UNCLEARED=Niet gecontroleerd
+ID_TRANSACTION_CLEARED=Vrijgegeven
+ID_TRANSACTION_RECONCILED=Gecontroleerd
+
+ID_EDIT_OPEN=Bewerken
+ID_EDIT_INSERT=Nieuwe transactie...
+ID_EDIT_INSERTBILL=Bewaar betaling rekening...
+ID_EDIT_DELETE=Verwijderen
+ID_EDIT_COPY=Kopieëren
+ID_EDIT_PASTE=Plakken
+ID_EDIT_CATEGORY=Bewerk categorie...
+ID_EDIT_CATEGORYCHANGE=Verander categorie...
+ID_EDIT_PAYEE=Bewerk crediteur...
+ID_EDIT_PAYEECHANGE=Verander crediteur
+ID_EDIT_ADDTOSCHEDULE=Voeg toe aan planning...
+
+ID_REPORTS_CATEGORY=Categorie rapport...
+ID_REPORTS_PAYEE=Crediteur rapport...
+
+BILLDELETECONFIRMATION=Alle toekomstige transactie die hier uit voortvloeien worden verwijderd!
+TRANSACTIONDELETECONFIRMATION=Weet u het zeker?
+RECONCILEDTRANSACTIONCONFIRMATION=Deze transactie is gecontroleerd. Wijzigen wordt afgeraden.  Doorgaan?
+CLEAREDTRANSACTIONCONFIRMATION=Deze transactie is vrijgegeven. Wijzigen wordt afgeraden.  Doorgaan?
+CANNOTSORTBYTOTAL=U kunt niet sorteren per totaal!
+STATUSSUM=Het totaal van de geselecteerde transacties is
+IDC_APPLY_IMPORT_RULES=Gebruik importregels
+ID_VIEW_DISPLAYSIDEPANEL=Laat zijpaneel zien.
+ID_EDIT_TAG=Markering
+ID_EDIT_TAG_REMOVE_ALL=&0 Verwijder alle markeringen
+ID_EDIT_TAG_IMPORTANT=&1 Belangrijk
+ID_EDIT_TAG_WORK=&2 Werk
+ID_EDIT_TAG_PERSONAL=&3 Persoonlijk
+ID_EDIT_TAG_TODO=&4 Nog te doen
+ID_EDIT_ATTACHMENTS=Bijlagen
+ID_EDIT_ATTACHMENT_ADD=Bijlage...
+ID_EDIT_ATTACHMENT_DELETE=Verwijder
+COLUMN9=Rekening
+IDC_ADD_INVESTMENT_TRANSACTION=Transacties
+IDC_DOWNLOAD=Ophalen transacties
+ID_EDIT_SKIPBILL=Sla betaling over
+IDC_CREATE_IMPORT_RULE=Maak import regel...
+ID_EDIT_GOTO_TRANSACTION=Ga naar transactie
+ID_EDIT_MOVE_TO_ACCOUNT=Verplaats naar rekening
+MOVE_PARTIALLY_FAILED=Somige transacties kunnen niet verplaatst worden naar de geselecteerde rekening!
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=Nieuwe bank...
+IDC_EDIT=Eigenschappen bank
+IDC_DELETE=Verwijder bank
+IDC_DELETEUNUSED=Verwijder ongebruikte
+IDC_IMPORT=Importeren...
+IDHELP=Help
+
+COLUMN0=Naam van de bank
+COLUMN1=Adres
+COLUMN2=Website
+COLUMN3=Opmerking
+
+CANTBEDELETED=U heeft een rekening bij deze bank. De bank kan niet worden verwijderd.
+DELETECONFIRMATION=Weet u het zeker?
+DELETEUNUSED=Hiermee verwijderd u alle banken die niet gebruikt zijn in één van uw rekeningen!  Doorgaan?
+
+ID_EDIT_OPEN=Bewerken
+ID_EDIT_INSERT=Nieuwe bank...
+ID_EDIT_DELETE=Verwijderen
+COLUMN4=Telefoon
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=Nieuwe categorie...
+IDC_EDIT=Bewerk categorie
+IDC_DELETE=Verwijder categorie
+IDC_DELETEUNUSED=Verwijder ongebruikte
+IDC_REPORT=Rapport per categorie
+IDC_BUDGETREPORT=Budget rapportage
+IDC_IMPORT=Importeren...
+IDC_MERGE=Samenvoegen...
+IDHELP=Help
+
+COLUMN0=Categorie
+COLUMN0a=Code
+COLUMN1a=Inkomen
+COLUMN2a=Uitgaven
+COLUMN2c=Periode
+COLUMN3=Opmerking
+
+CANTBEDELETED=Deze categorie wordt gebruikt in één van uw transacties en kan niet worden verwijderd.
+PARENTCANTBEDELETED=Deze categorie heeft onderliggende categoriën. U dient deze subcategoriën eerst te verwijderen.
+DELETECONFIRMATION=Weet u het zeker?
+DELETEUNUSED=Hiermee verwijderd u alle categoriën die niet gebruikt zijn in één van uw transacties! Doorgaan?
+ID_EDIT_OPEN=Bewerken
+ID_EDIT_INSERT=Nieuwe...
+ID_EDIT_DELETE=Verwijderen
+
+TOTALINCOME=Inkomen:
+TOTALEXPENSE=Uitgaven:
+MONTHLY_INCOME=Maandinkomen:
+MONTHLY_EXPENSE=Maandelijkse uitgaven:
+ANNUAL_TOTAL=Jaartotaal
+MONTHLY_TOTAL=Maandtotaal
+COLUMN4=Maandelijks Budget
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=Nieuwe crediteur...
+IDC_EDIT=Bewerk crediteur
+IDC_DELETE=Verwijder crediteur
+IDC_DELETEUNUSED=Verwijder ongebruikte
+IDC_REPORT=Rapport per crediteur
+IDC_MERGE=Samenvoegen...
+IDHELP=Help
+
+COLUMN0=Naam
+COLUMN1=Adres
+COLUMN2=Opmerking
+COLUMN3=Telefoon
+
+CANTBEDELETED=In één van de transactie wordt verwezen naar deze crediteur. Crediteur kan dus niet worden verwijderd.
+DELETECONFIRMATION=Weet u het zeker?
+DELETEUNUSED=Hiermee verwijderd u alle crediteuren die niet gebruikt zijn in één van uw transacties! Doorgaan?
+
+ID_EDIT_OPEN=Bewerken
+ID_EDIT_INSERT=Nieuwe...
+ID_EDIT_DELETE=Verwijderen
+IDC_HIDE_INACTIVE=De inactieve begunstigden verbergen
+ID_PAYEE_ACTIVATE=Activeer
+ID_PAYEE_DEACTIVATE=Deactiveer
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=Filteren op datum
+IDC_SETDATES=Selecteer data
+IDC_USECATEGORYFILTER=Filteren op categorie
+IDC_SETCATEGORIES=Selecteer categoriën
+IDC_USEPAYEEFILTER=Filteren op crediteur
+IDC_SETPAYEES=Selecteer crediteuren
+IDC_USEACCOUNTFILTER=Filteren op rekening
+IDC_SETACCOUNTS=Selecteer rekening
+IDC_TRANSACTIONS=Rapportage transacties
+IDC_CATEGORY=Uitgaven per categorie
+IDC_SUBCATEGORY=Uitgaven per subcategorie
+IDC_PAYEE=Uitgaven per crediteur
+IDC_BUDGETCATEGORY=Budget per categorie
+IDC_BUDGETSUBCATEGORY=Budget per subcategorie
+IDC_CASHFLOW=Kasstroom rapport
+IDC_NETWORTH=Rendement rapport
+IDC_LAST30DAYS=Transacties laatste 30 dagen
+IDC_INCLUDETRANSFERS=Overboekingen invoegen
+
+IDHELP=Help
+IDC_TABLE=Als tabel bekijken
+IDC_CHART=Grafiek
+IDC_INCOMECHART=Inkomsten grafiek (taart)
+IDC_EXPENSECHART=Uitgaven grafiek (taart)
+IDC_PERIODCHART=Periode grafiek
+IDC_TOTALCHART=Totaal grafiek
+
+CATEGORYCOLUMN0=Categorie
+CATEGORYCOLUMN1=Bedrag
+CATEGORYCOLUMN2=Gebudgetteerd
+CATEGORYCOLUMN3=Verschil
+CATEGORYCOLUMN4=Code
+CATEGORYCOLUMN5=Inkomen
+CATEGORYCOLUMN6=Uitgaven
+
+CASHFLOWCOLUMN0=Datum
+CASHFLOWCOLUMN1=Periode Totaal
+CASHFLOWCOLUMN2=Totaal
+
+OTHERS=Overige
+
+GENERALREPORTS=Algemeen rapport
+CATEGORYREPORTS=Categorie rapport
+PAYEEREPORTS=Crediteur rapport
+BUDGETREPORTS=Budget rapport
+FAVORITEREPORTS=Favoriet rapport
+
+PAYEECOLUMN0=Crediteur
+PAYEECOLUMN1=Bedrag
+PAYEECOLUMN2=Inkomen
+PAYEECOLUMN3=Uitgaven
+
+NETWORTHCOLUMN0=Rekening
+NETWORTHCOLUMN1=Totaal
+IDC_CATEGORYBYMONTH=Maandelijkse uitgaven per categorie
+IDC_SUBCATEGORYBYMONTH=Maandelijkse uitgaven per subcategorie
+IDC_PAYEEBYMONTH=Maandelijkse uitgaven per crediteur
+IDC_ACCOUNT=Uitgaven per rekening
+ACCOUNTCOLUMN0=Rekening
+ACCOUNTCOLUMN1=Groep
+ACCOUNTCOLUMN3=Balans
+IDC_USEINVESTMENTFILTER=Filteren op investeringen
+IDC_SETINVESTMENTS=Selecteer investeringen...
+IDC_USETAGFILTER=Filteren op markeringen
+IDC_SETTAGS=Selecteer markering...
+IDC_USETEXTFILTER=Filteren op tekst
+IDC_SETTEXT=Vastgestelde tekst…
+IDC_INVESTMENT=Prestaties door investeringen
+INVESTMENTREPORTS=Rapporten van de investering
+INVESTMENTCOLUMN0=Investering
+INVESTMENTCOLUMN1=Ticker
+INVESTMENTCOLUMN2=Aantal
+INVESTMENTCOLUMN3=Kosten
+INVESTMENTCOLUMN4=De Commissie
+INVESTMENTCOLUMN5=Kosten per aandeel
+INVESTMENTCOLUMN7=Waarde
+INVESTMENTCOLUMN8=Aanwinst
+INVESTMENTCOLUMN9=Aanwinst, %
+INVESTMENTCOLUMN6=Dividenden
+INVESTMENTCOLUMN10=Aankoopwaarde
+INVESTMENTCOLUMN11=Aankoopcommissie
+INVESTMENTCOLUMN12=Verkoopwaarde
+INVESTMENTCOLUMN13=Verkoopcommissie
+INVESTMENTCOLUMN14=Inkomen
+INVESTMENTCOLUMN15=Korte term Kapitaal winst
+INVESTMENTCOLUMN16=Lange term Kapitaal winst
+INVESTMENTCOLUMN17=Laatste prijs
+IDC_SHOW_SUBTOTALS=Toon subtotalen
+CATEGORYCOLUMN7=Verschil, %
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Toevoegen aan overzicht
+IDC_ADD=Nieuwe facturen...
+IDC_EDIT=Bewerk de factuur
+IDC_DELETE=Verwijder de factuur
+IDHELP=Help
+
+COLUMN0=Datum
+COLUMN1=Transactie
+COLUMN2=Crediteur
+COLUMN3=Bedrag
+COLUMN4=Opmerking
+COLUMN5=Frekwentie
+
+IDC_TABLE=Tabel
+IDC_CALENDAR=Kalender
+
+DELETECONFIRMATION=Weet u zeker dat u de factuur wilt verwijderen?
+
+ID_EDIT_OPEN=Bewerken
+ID_EDIT_INSERT=Nieuwe toevoegen...
+ID_EDIT_DELETE=Verwijderen
+ID_EDIT_PROPERTIES=Eigenschappen
+ID_EDIT_COPY=Kopieëren
+ID_EDIT_PASTE=Plakken
+
+CHANGE_OF_ACCOUNT=Wilt u vanaf nu een andere rekening gebruiken voor deze factuur?
+CHANGE_OF_AMOUNT=Wilt u vanaf nu een ander bedrag gebruiken voor deze factuur?
+IDC_SKIP=Sla factuur over
+COLUMN6=Categorie
+COLUMN7=Automatisch
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=Over
+IDCANCEL=Annuleer
+
+[IDD_ACCOUNT]
+TITLE=Rekening
+IDC_NAMETEXT=Naam
+IDC_TYPETEXT=Soort
+IDC_BANKTEXT=Naam bank
+IDC_NUMBERTEXT=Nummer
+IDC_BALANCETEXT=Startsaldo
+IDC_CURRENCYTEXT=Valuta
+IDC_CLOSED=Rekening is afgesloten
+IDC_COMMENTTEXT=Opmerking
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+ERR_NOACCOUNTNAME=Een rekening moet een naam hebben!
+ERR_NOACCOUNTTYPE=Een rekening moet een type hebben!
+ERR_NOCURRENCY=Een rekening moet een muntsoort hebben!
+IDC_EDITBANK=Bewerken...
+ERR_EMPTYBANKNAME=Selecteer eerst een bank!
+IDC_ONLINE_SETUP=Online instellingen...
+IDC_LIMIT_TEXT=Saldo limiet
+IDC_APR_TEXT=Jaarlijks kostenpercentage
+ERR_DUPLICATENAME=Er bestaat al een rekening met deze naam, duplicaten zijn niet toegestaan!
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=Rekeningtypes
+IDC_ADD=Toevoegen...
+IDC_DELETE=Verwijderen
+IDC_EDIT=Bijwerken...
+IDOK=OK
+IDCANCEL=Annuleren
+
+ERR_CANTDELETE=Dit type wordt gebruikt in één van uw rekeningen!
+
+[IDD_ACCOUNTTYPE]
+TITLE=Rekeningtype
+IDC_NAMETEXT=Naam
+IDOK=OK
+IDCANCEL=Annuleren
+
+ERR_NOACCTYPENAME=Een rekeningtype moet een naam hebben!
+
+[IDD_BACKUP]
+TITLE=Back-up
+
+IDC_ENABLEBACKUP=Activeer back-up
+
+IDC_LASTBACKUPTEXT=Laatse back-up
+IDC_FREQUENCYTEXT=Frekwentie
+IDC_DIRECTORYTEXT=Doelmap
+IDC_BACKUP=Maak back-up
+IDC_AUTOMATIC=Automatische back-up
+
+IDC_EVERYDAY=Iedere dag
+IDC_EVERYWEEK=Iedere week
+IDC_EVERYOTHERWEEK=Iedere 14 dagen
+
+IDC_BROWSE=Bekijk...
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+ERR_INVALIDDIR=Ongeldige doelmap!
+ERR_COPYFILE=Back-up bestand kon niet worden gemaakt!
+ERR_BACKUPTIME=Er staat een back-up gepland.  Nu uitvoeren?
+ERR_NEWFILE=Het bestand moet opgeslagen zijn, voordat een back-up kan worden gemaakt!
+ERR_COPYFILE_RESTORE=Er is een fout opgetreden tijdens het terugzetten van het bestand! Misschien geen disk of cd in de drive.
+SELECT_FILE_TO_RESTORE=Selecteer het bestand om terug te zetten
+SELECT_RESTORE_DIR=Waar moet het bestand worden opgeslagen?
+OPEN_RESTORED_FILE=Moet het back-up bestand worden geopend?
+IDC_ADD_DATE_TO_BACKUP_FILE=Voeg een datum toe aan het backupbestand
+
+[IDD_BALANCE]
+TITLE=Rekening afsluiten
+
+IDC_CLEAREDDEPOSITS=Vrijgeven inkomsten
+IDC_CLEAREDWITHDRAWALS=Vrijgegeven opnames
+
+IDC_RECONCILEDTEXT=Vorige salderingsstatus
+IDC_CLEAREDTEXT=Huidige salderingsstatus
+IDC_UNCLEAREDTEXT=Openstaand saldo
+
+IDC_NEWTRANSACTION=Nieuw...
+IDC_SELECTALL=Selecteren
+IDC_DESELECTALL=Deselecteren
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+[IDD_BANK]
+TITLE=Bank
+IDC_NAMETEXT=Naam
+IDC_ADDRESSTEXT=Adres
+IDC_WEBSITETEXT=Website
+IDC_COMMENTTEXT=Opmerking
+IDC_BANKNUMBERTEXT=Bankcode
+IDC_SWIFTCODETEXT=BIC-nummer
+IDC_TRANSFERCODETEXT=Boekingscode
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+ERR_NOBANKNAME=Bank moet een naam hebben!
+IDC_PHONETEXT=Telefoon
+
+[IDD_BILL]
+TITLE=Factuur
+
+IDC_FREQUENCYGROUP=Frekwentie
+
+IDC_ONCE=Eénmalig
+IDC_DAILY=Iedere dag
+IDC_WEEKLY=Iedere week
+IDC_EVERYOTHERWEEK=Elke twee weken
+IDC_TWICEAMONTH=Twee keer per maand
+IDC_EVERYFOURWEEKS=Alle vier weken
+IDC_MONTHLY=Maandelijks
+IDC_EVERYOTHERMONTH=Iedere twee maanden
+IDC_QUARTERLY=Per kwartaal
+IDC_EVERYFOURMONTHS=Iedere vier maanden
+IDC_EVERYSIXMONTHS=Ieder half jaar
+IDC_ANNUALLY=Jaarlijks
+
+IDC_STARTDATETEXT=Startdatum
+
+IDC_BILLTYPETEXT=Kostensoort
+BILLTYPE_CONTINUOUS=Continue
+BILLTYPE_NUMBERED=Genummerd
+
+IDC_NUMBERTEXT=Aantal betalingen
+
+IDC_TRANSACTIONGROUP=Transactie
+IDC_TYPETEXT=Soort
+IDC_DEPOSIT=Inkomsten
+IDC_WITHDRAWAL=Uitgaven
+IDC_TRANSFER=Overboeken
+IDC_ACCOUNTTEXT=Rekening
+IDC_PAYEETEXT=Crediteur
+IDC_CATEGORYTEXT=Categorie
+IDC_SPLIT=Splits
+IDC_AMOUNTTEXT=Bedrag
+IDC_COMMENTTEXT=Opmerking
+
+IDC_ENTER=Aan rekening toevoegen
+IDC_AUTOMATIC=Automatische factuuringave
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+ERR_INVALIDACCOUNT=Ongeldige rekening!
+ERR_INVALIDNUMBER=Het aantal betalingen kan niet lager zijn dan 1!
+IDC_CHECK_NUMBER_TEXT=Nummer
+IDC_EVERYTWOYEARS=Iedere twee jaar
+
+[IDD_CALC_LOAN]
+TITLE=Lening calulator
+
+IDC_AMOUNTTEXT=Hoogte van lening
+IDC_RATETEXT=Jaarrente, %
+IDC_PERIODTEXT=Periode, maanden
+IDC_PAYMENTTEXT=Aflossing per maand
+IDC_TOTALINTERESTTEXT=Totaal aan rente
+
+COLUMN0=#
+COLUMN1=Aflossing
+COLUMN2=Hoofd bedrag
+COLUMN3=Rente, %
+COLUMN4=Lening
+IDOK=OK
+
+[IDD_CALC_SAVINGS]
+TITLE=Spaar calculator
+
+IDC_MONTHLYPAYMENTTEXT=Maandelijkse inleg
+IDC_INITIALBALANCETEXT=Oorspronkelijk bedrag
+IDC_RATETEXT=Jaarrente, %
+IDC_PERIODTEXT=Periode, maanden
+IDC_STARTDATETEXT=Startdatum
+IDC_TOTALINTERESTTEXT=Totaal aan rente
+IDC_TOTALTEXT=Eind bedrag
+
+COLUMN0=#
+COLUMN1=Datum
+COLUMN2=Afbetaling
+COLUMN3=Rente, %
+COLUMN4=Totaal
+
+IDOK=OK
+
+[IDD_CALC_MORTGAGE]
+TITLE=Hypotheek berekening
+
+IDC_VALUETEXT=Geschatte waarde
+IDC_AMOUNTTEXT=Hoofdsom
+IDC_TERMTEXT=Duur in jaren
+IDC_DATETEXT=Afsluitingsdatum
+IDC_RATETEXT=Rentepercentage, %
+IDC_TAXTEXT=Eigendoms belasting
+IDC_INSURANCETEXT=Opstalverzekering
+
+IDC_REQUIREDPAYMENTTEXT=Minimale betaling
+IDC_TOTALINTERESTTEXT=Totale rente
+IDC_TOTALPMITEXT=Totaal risicoverzekering
+IDC_TOTALMONTHSTEXT=Aantal maanden
+
+COLUMN0=Datum
+COLUMN1=Aflossing
+COLUMN2=Rente
+COLUMN3=Belasting
+COLUMN4=Opstalverz.
+COLUMN5=Risicoverz.
+COLUMN6=Betalingen
+COLUMN7=Toaal
+
+IDOK=OK
+IDHELP=Help
+
+[IDD_CATEGORY]
+TITLE=Categorie
+
+IDC_NAMETEXT=Categorie
+IDC_SUBNAMETEXT=Subcategorie
+IDC_COMMENTTEXT=Opmerking
+IDC_NUMBERTEXT=Nummer
+
+IDC_BUDGETTEXT=Gebudgetteerd
+IDC_BUDGETPERIODTEXT=Begrotings periode
+
+PERIOD_ONE_WEEK=Eén week
+PERIOD_TWO_WEEKS=Twee weken
+PERIOD_HALF_MONTH=Twee keer in de maand
+PERIOD_ONE_MONTH=Een maand
+PERIOD_TWO_MONTHS=Twee maanden
+PERIOD_THREE_MONTHS=Drie maanden
+PERIOD_FOUR_MONTHS=Vier maanden
+PERIOD_SIX_MONTHS=Zes maanden
+PERIOD_NINE_MONTHS=Negen maanden
+PERIOD_ONE_YEAR=Een jaar
+
+IDC_INCOME=Inkomen
+IDC_EXPENSE=Uitgaven
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+ERR_NOCATNAME=Categorie moet een naam hebben!
+ERR_CATEXIST=Categorie bestaat reeds!
+TAB_GENERAL=Algemeen
+TAB_SIMPLE_BUDGET=Simpel Budget
+TAB_MONTHLY_BUDGET=Maandelijks Budget
+IDC_INCOME_LIMIT_TEXT=Inkomens Limiet
+IDC_EXPENSE_LIMIT_TEXT=Uitgave Limiet
+IDC_DELETE=Verwijder
+MONTH_COLUMN=Maand
+LIMIT_COLUMN=Limiet
+IDC_ADD=Toevoegen...
+IDC_UPDATE=Bijwerken...
+IDC_ADD_MANY=Periode toevoegen...
+
+[IDD_CATEGORYCHANGE]
+TITLE=Verander categorie
+
+IDOK=OK
+IDCANCEL=Annuleren
+
+[IDD_CATEGORYMERGE]
+TITLE=Categorie samenvoegen
+
+IDC_CATEGORYTEXT=Voeg categorie samen
+IDC_CATEGORYTEXT1=met categorie
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+ERR_NOCATEGORIES=Beide bestaande categoriën moeten geselecteerd worden en verschillend zijn !
+ERR_SOURCECATEGORY=Broncategorie mag geen subcategorie hebben!
+ERR_TARGETCATEGORY=De doelcategorie mag geen subcategorie zijn van de bron!
+
+[IDD_COLORS]
+TITLE=Lettertypen en kleuren
+
+IDC_ACCOUNTLISTTEXT=Rekeningen
+IDC_ACCOUNTTEXT=Rekening
+IDC_BANKTEXT=Banken
+IDC_CATEGORYTEXT=Categoriën
+IDC_PAYEETEXT=Crediteuren
+IDC_SCHEDULETEXT=Planning
+IDC_REPORTTEXT=Rapporten
+IDC_PORTFOLIOTEXT=Portofolio
+
+IDC_LISTFONTTEXT=Lettertype
+
+IDC_TABLEFONTCOLORTEXT=Tekstkleur
+IDC_TABLEBILLFONTCOLORTEXT=Kleur toekomstige betalingen
+IDC_TABLEBACKGROUNDTEXT1=Tabel achtergrondkleur 1
+IDC_TABLEBACKGROUNDTEXT2=Tabel achtergrondkleur 2
+
+IDC_RESTORE=Standaard
+IDOK=OK
+IDCANCEL=Annuleren
+
+[IDD_CURRENCY]
+TITLE=Wisselkoersen
+IDC_SHOWALL=Geef alle valuta weer
+IDC_CURRENCYINFO=Standaard valuta: %s
+IDC_DOWNLOAD=Bijwerken...
+IDC_UPDATE=Aanpassen
+
+IDOK=Sluiten
+IDHELP=Help
+
+COLUMN0=Valuta
+COLUMN1=Koers tov.
+COLUMN2=Datum
+
+ERR_WEBUPDATE=Fout tijdens het bijwerken. Eén of meerdere koersen konden niet worden bijgewerkt!
+ERR_INVALIDRATE=Een ongeldige koers ontvangen!
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=Wisselkoers
+IDOK=OK
+IDCANCEL=Annuleren
+
+[IDD_SHEETREPORTFILTER]
+TITLE=Rapportfilter
+
+[IDD_DATESRANGE]
+TITLE=Selecteer periode
+
+CURRENTWEEK=Deze week
+PREVIOUSWEEK=Vorige week
+LAST30DAYS=Laatste 30 dagen
+CURRENTMONTH=Deze maand
+PREVIOUSMONTH=Vorige maand
+CURRENTQUARTER=Huidige kwartaal
+PREVIOUSQUARTER=Vorig kwartaal
+CURRENTYEAR=Dit jaar
+PREVIOUSYEAR=Vorig jaar
+
+IDC_PERIODSTEXT=Vooraf ingestelde perioden
+IDC_CUSTOMDATES=Aangepaste data:
+IDC_FROMTEXT=Van
+IDC_TOTEXT=Tot
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+CURRENT=Huidige
+CUSTOM=Aangepast
+ALL_DATES=Alle data
+MONTH_TO_DATE=Maand tot vandaag
+QUARTER_TO_DATE=Kwartaal tot vandaag
+YEAR_TO_DATE=Jaar tot vandaag
+ALL_TO_DATE=Alles tot vandaag
+LAST12MONTHS=Laatste 10 maanden
+CURRENT_FISCAL_YEAR=Hidig fiscaal jaar
+PREVIOUS_FISCAL_YEAR=Vorig fiscaal jaar
+
+[IDD_FILTERACCOUNT]
+TITLE=Selecteer rekeningen
+
+IDC_SELECTALL=Alles selecteren
+IDC_CLEARALL=Alles wissen
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+IDC_SELECT_OPEN=Selecteer open
+IDC_SHOWCLOSEDACCOUNTS=Bekijk afgesloten rekeningen
+
+[IDD_FILTERCATEGORY]
+TITLE=Selecteer categoriën
+
+IDC_SELECTALL=Alles selecteren
+IDC_CLEARALL=Alles wissen
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+[IDD_FILTERPAYEE]
+TITLE=Selecteer crediteuren
+
+IDC_SELECTALL=Alles selecteren
+IDC_CLEARALL=Alles wissen
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+[IDD_IMPORT]
+TITLE=Importeren
+
+IDC_IMPORTTEXT=Selecteer een rekening voor geïmporteerde transacties
+IDC_DATEFORMATTEXT=Datum formaat
+
+IDC_NEWACCOUNT=Nieuwe rekening...
+
+IDOK=OK
+IDCANCEL=Annuleren
+
+ERR_NOACCOUNT=U moet een rekening selecteren!
+IDC_DETECT_DUPLICATES=Vind duplicaten
+IDC_IMPORT_RULES=Importeer regels...
+ERR_PARSING=Het bestand kan niet geïmporteerd worden, het is geen standaard formaat.
+ERR_NO_TRANSACTIONS=Het bestand heeft geen transacties.
+ERR_TRANSACTIONS_FOR_MANY_ACCOUNTS=Het bestand bevat transacties voor meer dan één account, en kan niet worden geïmporteerd.
+STATUS_READING_FILE=Bestand wordt gelezen...
+STATUS_PARSING_FILE=Ontleed bestand...
+STATUS_IMPORTING_TRANSACTIONS=Transacties importeren...
+STATUS_IMPORTING_BILLS=Importeren rekeningen en deposito’s...
+STATUS_IMPORTING_ACCOUNTS=Importeren rekeningen...
+STATUS_IMPORTING_CATEGORIES=Importeren categorieën...
+STATUS_IMPORTING_INVESTMENTS=Importeren investeringen...
+STATUS_IMPORTING_HISTORICAL_PRICES=Importeren oude aandeel prijzen...
+IDC_APPLY_IMPORT_RULES=Gebruik importregels
+IDC_DECIMALSEPARATORTEXT=Decimaal scheidingsteken
+INFO_AUTOMATICALLY_CREATED_ACCOUNTS=AceMoney kon niet alle rekeningen kopelen via hun nummers en maakte volgende rekening(en) aan:
+
+[IDD_EXPORT]
+TITLE=Exporteren
+
+IDC_EXPORTTEXT=Selecteer een rekening om naar te exporteren
+IDC_STARTDATETEXT=Start datum
+IDC_ENDDATETEXT=Eind datum
+
+ERR_NOACCOUNT=Selecteer een rekening!
+
+IDOK=OK
+IDCANCEL=Annuleren
+
+[IDD_LANGUAGE]
+TITLE=Selecteer taal
+
+IDOK=OK
+IDCANCEL=Annuleren
+
+[IDD_INTERNATIONALSETTINGS]
+TITLE=Internationale instellingen
+
+IDC_DATETEXT=Datum formaat
+IDC_DATESEPARATORTEXT=Datum-scheidingsteken
+IDC_CURRENCYTEXT=Standaard valuta
+IDC_DECIMALSEPARATORTEXT=Decimalen-scheidingsteken
+IDC_THOUSANDSEPARATORTEXT=Duizendtal-scheidingsteken
+IDC_NUMBEROFDECIMALDIGITSTEXT=Aantal decimalen
+
+ERR_THOUSANDDECIMAL=Scheidingstekens voor decimalen en duizendtallen kunnen niet hetzelfde zijn!
+ERR_THOUSAND=Foutief duizendtal-scheidingsteken!
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+IDC_FISCAL_YEAR_TEXT=Eerste dag van het fiscaal jaar
+ERR_FISCAL_YEAR=Ongeldige combinatie van fiscale maand en dag geselecteerd!
+
+[IDD_OPTIONS]
+TITLE=Opties
+
+IDC_GENERALGROUP=Algemeen
+IDC_SHOWCLOSEDACCOUNTS=Geef afgesloten rekeningen weer
+IDC_SHOWACCOUNTNUMBERS=Geef rekeningnummers weer
+IDC_SHOWGRID=Geef raster in tabellen weer
+IDC_LOADLASTFILE=Laad het laatste bestand bij opstarten
+IDC_SHOWCOMMENT=Geef opmerkingen bij transactie weer
+IDC_AUTOSAVE=Document automatisch opslaan
+IDC_SHOWSPLASHSCREEN=Toon "Opstart scherm"
+IDC_SHOWFILENAME=Toon bestandsnaam in de titel
+IDC_SHOWSOLDSTOCKS=Toon verkochte beleggingen
+IDC_ADDINVESTMENTVALUE=Voeg kosten van aandelen toe aan rekeningbalans
+IDC_SHOWDEPOSITSFIRST=Inkomsten, zijn de eerste transacties van een dag
+IDC_TRANSFERSTATUS=Verander status overboeking in beide rekeningen
+IDC_SHOWCATEGORYSTATUS=Toon analyse catagorie in de statusbalk
+
+IDC_STARTPAGEGROUP=Startpagina
+IDC_ACCOUNTLIST=Rekeningen
+IDC_FAVORITEACCOUNT=Favoriete rekening
+
+IDC_PASSWORDGROUP=Wachtwoord
+IDC_OLDPASSTEXT=Huidig wachtwoord
+IDC_NEWPASSTEXT=Nieuw wachtwoord
+IDC_RETYPETEXT=Bevestig nieuw wachtwoord
+
+IDC_TRANSACTIONTYPETEXT=Nieuw transactietype
+LASTUSEDTYPE=Laatst gebruikt type
+
+IDC_TRANSACTIONNUMBERTEXT=Nieuw transactienummer
+NUMBER_EMPTY=Leeg
+NUMBER_DEBIT=Debet
+NUMBER_AUTO=Laatste transactie +1
+
+IDC_NUMBEROFFUTUREBILLSMONTHSTEXT=Toon toekomstige rekeningen
+0_MONTHS_AHEAD=Geen
+1_MONTHS_AHEAD=1 maand vooruit
+2_MONTHS_AHEAD=2 maanden vooruit
+3_MONTHS_AHEAD=3 maanden vooruit
+4_MONTHS_AHEAD=4 maanden vooruit
+5_MONTHS_AHEAD=5 maanden vooruit
+6_MONTHS_AHEAD=6 maanden vooruit
+7_MONTHS_AHEAD=7 maanden vooruit
+8_MONTHS_AHEAD=8 maanden vooruit
+9_MONTHS_AHEAD=9 maanden vooruit
+10_MONTHS_AHEAD=10 maanden vooruit
+11_MONTHS_AHEAD=11 maanden vooruit
+12_MONTHS_AHEAD=12 maanden vooruit
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+ERR_INVALIDOLDPASSWORD=Ongeldig bestaand wachtwoord!
+ERR_INVALIDNEWPASSWORD=Ongeldig nieuw wachtwoord!
+IDC_SHOWDUPLICATECHECKWARNING=Laat duplicaat controle zien
+IDC_NETWORK=Netwerk...
+IDC_CHECKFORUPDATES=Controleer op programma updates
+IDC_AUTOFILLTRANSACTIONCOMMENTS=Automatische transactie opmerkingen
+IDC_SORTSAMEDAYTRANSACTIONSBYNUMBER=Sorteer transacties van dezelfde dag op nummer
+IDC_CONFIRM_EDIT_RECONCILED_TRANSACTION=Bevestig vrijgegeven of gecontroleerde transactie verandering
+IDC_CONFIRM_DELETE_TRANSACTION=Besvestig verwijdering transactie
+IDC_CONFIRM_DELETE_BILL=Bevestig verwijdering rekening
+18_MONTHS_AHEAD=18 maanden vooruit
+24_MONTHS_AHEAD=2 jaar vooruit
+IDC_CONFIRM_BILL_AMOUNT_CHANGE=Bevestig verandering rekening bedrag
+IDC_CONFIRM_BILL_ACCOUNT_CHANGE=Bevestig verandering rekening
+IDC_SHOW_AVAILABLE_BALANCE=Toon beschikbaar saldo
+36_MONTHS_AHEAD=3 jaar vooruit
+48_MONTHS_AHEAD=4 jaar vooruit
+60_MONTHS_AHEAD=5 jaar vooruit
+
+[IDD_PASSWORD]
+TITLE=Voer wachtwoord in
+IDC_PASSTEXT=Wachtwoord
+
+IDOK=OK
+IDCANCEL=Annuleren
+
+ERR_INVALIDPASSWORD=Ongeldig wachtwoord!
+
+[IDD_PAYEE]
+TITLE=Crediteur
+
+IDC_NAMETEXT=Naam
+
+IDC_ADDRESSTEXT=Adres
+IDC_CITYTEXT=Plaats
+IDC_STATETEXT=Provincie
+IDC_ZIPTEXT=Postcode
+IDC_COUNTRYTEXT=Land
+
+IDC_HOMEPHONETEXT=Telefoon thuis
+IDC_WORKPHONETEXT=Telefoon werk
+IDC_MOBILEPHONETEXT=G.S.M.
+IDC_FAXTEXT=Fax
+IDC_PAGERTEXT=Buzzer
+
+IDC_EMAILTEXT=Email
+IDC_WEBSITETEXT=Website
+
+IDC_COMMENTTEXT=Opmerking
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+ERR_NOPAYEENAME=Crediteur moet een naam hebben!
+IDC_ACTIVEPAYEE=Actieve begunstigde
+IDC_GO=Open Site
+
+[IDD_PAYEECHANGE]
+TITLE=Verander crediteur
+
+IDOK=OK
+IDCANCEL=Annuleren
+
+[IDD_PAYEEMERGE]
+TITLE=Crediteuren samenvoegen
+IDC_PAYEETEXT=Voeg crediteur samen
+IDC_PAYEETEXT1=met crediteur
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+ERR_NOPAYEES=Beide crediteuren moeten geselecteerd zijn en verschillend!
+SELECTED_PAYEES=Geselecteerde begunstigden
+
+[IDD_PRINTPREVIEW]
+TITLE=Afdrukvoorbeeld
+IDC_PAGETEXT=Pagina
+IDC_PRINT=Afdrukken
+
+IDOK=OK
+IDHELP=Help
+IDC_CLOSE=Sluiten
+IDC_PAGEPROPERTIES=Pagina setup...
+IDC_PREVIOUSPAGE=&lt;&lt; Vorige
+IDC_NEXTPAGE=Volgende &gt;&gt;
+IDC_ZOOMOUT=Zoom Uit
+IDC_PAGEOFTEXT=van
+
+[IDD_REGISTER]
+TITLE=Registratie
+
+IDC_NAMETEXT=Naam:
+IDC_SERIALNUMBERTEXT=Serienummer:
+
+IDC_ORDER=Koop...
+
+IDOK=OK
+IDCANCEL=Annuleer
+
+[IDD_SEARCH]
+TITLE=Vind transacties
+
+IDC_DATETEXT=Datum
+IDC_FROMTEXT=van
+IDC_TOTEXT=tot
+IDC_AMOUNTTEXT=Bedrag
+IDC_AMOUNTFROMTEXT=van
+IDC_AMOUNTTOTEXT=tot
+IDC_COMMENTTEXT=Tekst
+IDC_SEARCH=Zoeken
+IDC_CLOSE=Sluit
+ALLACCOUNTS=Alle rekeningen
+IDC_ACCOUNTTEXT=Rekening
+
+[IDD_SPLIT]
+TITLE=Splits categoriën
+
+IDC_CATEGORYTEXT=Categorie
+IDC_SUBCATEGORYTEXT=Subcategorie
+IDC_AMOUNTTEXT=Bedrag
+IDC_ADD=Voeg toe
+IDC_EDIT=Bewerken
+IDC_DELETE=Verwijderen
+IDC_TOTALTEXT=Totaal:
+IDC_UNASSIGNEDTEXT=Niet toegewezen:
+IDC_COMMENTTEXT=Opmerking
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+COLUMN0=Categorie
+COLUMN1=Subcategorie
+COLUMN2=Bedrag
+COLUMN3=Opmerking
+
+ERR_BADTOTAL=Som van de bedragen is niet gelijk aan het bedrag van de transactie. Wilt u het totaal van de transactie wijzigen?
+
+[IDD_SPLITITEM]
+TITLE=Deelbedrag
+IDC_CATEGORYTEXT=Categorie
+IDC_SUBCATEGORYTEXT=Subcategorie
+IDC_AMOUNTTEXT=Bedrag
+IDC_COMMENTTEXT=Opmerking
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+[IDD_TRANSACTION]
+TITLE=Transactie
+
+IDC_TYPETEXT=Soort
+IDC_DEPOSIT=Inkomsten
+IDC_WITHDRAWAL=Uitgaven
+IDC_TRANSFER=Overboeken
+IDC_ACCOUNTTEXT=Rekening
+IDC_PAYEETEXT=Crediteur
+IDC_CATEGORYTEXT=Categorie
+IDC_SPLIT=Splits
+IDC_COMMENTTEXT=Opmerking
+IDC_DATETEXT=Datum
+IDC_NUMBERTEXT=Nummer
+IDC_AMOUNTTEXT=Bedrag
+
+FROMTEXT=Van
+TOTEXT=Naar
+SPLIT=Splits
+DEBIT=Debet
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+ERR_SAMETRANFER=Bron en doel kunnen niet gelijk zijn!
+ERR_INVALIDACCOUNT=Ongeldige rekening!
+ERR_SPLITAMOUNT=Het transactietotaal moet gelijk zijn aan de som der delen!
+ERR_SPLIT_HAS_TRANSFERS=Een overboeking kan geen andere overboeking(en) bevatten van een splitsing! Verwijder de overboeking van de splitsing, ...
+ERR_TRANSFER_FROM_SPLIT_NOT_ALLOWED=Verplaatsing van een gesplitste transactie van dit type is niet toegestaan!
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Wisselkoers
+
+IDC_SOURCEAMOUNTTEXT=Bron
+IDC_TARGETAMOUNTTEXT=Doel
+
+IDOK=OK
+IDCANCEL=Annuleren
+
+[IDD_TRANSACTIONCATEGORYLIST]
+TITLE=Transactie categoriën
+IDC_ADD=Toevoegen...
+IDC_DELETE=Verwijder
+IDC_EDIT=Bijwerken...
+IDOK=Sluiten
+IDHELP=Help
+UPDATE_TRANSACTIONS=Wilt u de bestaande transacties bijwerken met de nieuwe naam?
+DELETE_TRANSACTIONS=Wilt u de verwijderde categorie leegmaken in bestaande transacties?
+
+[IDD_TRANSACTIONCATEGORY]
+TITLE=Transactie categorie
+IDC_NAMETEXT=Naam
+IDOK=OK
+IDCANCEL=Annuleren
+
+ERR_NONAME=Een transactie categorie moet een naam hebben!
+
+[IDD_DAYBILLS]
+TITLE=Uitgaven/Inkomsten
+
+COLUMN0=Datum
+COLUMN1=Transactie
+COLUMN2=Crediteur
+COLUMN3=Bedrag
+COLUMN4=Opmerking
+COLUMN5=Frekwentie
+
+IDC_ENTER=Toevoegen...
+IDC_EDIT=Wijzigen...
+
+IDOK=OK
+IDHELP=Help
+IDC_DELETE=Verwijder...
+
+[IDD_LITEVERSION]
+TITLE=AceMoney Lite
+
+IDC_TEXT=AceMoney Lite werkt alleen met 1 rekening. De 2de rekening kan niet gecreëerd worden en bestanden met meerdere rekeningen niet geopend. Indien je meerdere rekeningen wilt moet je opwaarderen naar AceMoney.
+IDC_WEBSITE=Opwaarderen...
+IDOK=Sluiten
+IDC_TWO_ACCOUNTS_LIMIT=AceMoney Lite werkt maar met twee rekeningen. Een derde rekening kunt u niet maken, en bestanden met meer dan twee rekeningen kunt u niet openen. Wilt u meer rekeningen beheren dan dient u te upgraden naar de reguliere versie van AceMoney.
+IDCANCEL=Annuleer
+
+[IDD_STOCK]
+TITLE=Investering
+
+IDC_SYMBOLTEXT=Ticker
+IDC_LOOKUP=Ticker opzoeken...
+IDC_NAMETEXT=Naam
+IDC_CURRENCYTEXT=Valuta
+IDC_COMMENTTEXT=Opmerking
+IDC_UPDATE=Bijwerken...
+IDC_WEBUPDATE=Ophalen...
+IDC_PRICETEXT=Prijshistorie
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+COLUMN0=Datum
+COLUMN1=Prijs
+IDC_DATASOURCETEXT=Data bron
+IDC_DIVIDEBY100TEXT=Deel gedownloade koers door 100
+ERR_EMPTYSYMBOL=Aandeel ticker mag niet leeg zijn!  
+ERR_EMPTYNAME=Investeringsnaam mag niet leeg zijn!
+ERR_INVALIDDATASOURCE=U moet een geldige databron selecteren!
+ERR_CONNECTIONORSYMBOL=Verbindingsfout of een ongeldige aandeel ticker!
+IDC_AUTO_DOWNLOAD_ENABLED=Koersen automatisch opvragen
+STOCK=Aandeel
+MUTUALFUND=Beleggingsfonds
+BOND=Obligatie
+COMMODITY=Goederen
+OTHER=Andere
+CURRENCY=Valuta
+REALESTATE=Vastgoed
+OPTIONS=Opties
+TRUST=Trustfonds
+INDEX=Index-tracker
+INTERNATIONAL_STOCK=Internationaal Aandeel
+INTERNATIONAL_BOND=Internationale Obligatie
+
+[IDD_STOCKPRICE]
+TITLE=Investeringsbedrag
+
+IDC_DATETEXT=Datum
+IDC_PRICETEXT=Prijs
+
+IDOK=OK
+IDCANCEL=Annuleren
+
+[IDD_STOCKTRANSACTION]
+TITLE=Investeringstransactie
+
+IDC_DATETEXT=Datum
+IDC_ACCOUNTTEXT=Rekening
+IDC_ACTIONTEXT=Actie
+IDC_INVESTMENTTEXT=Investering
+
+IDC_DIVIDENDTEXT=Dividend
+IDC_NUMBERTEXT=Aantal deelbewijzen
+IDC_PRICETEXT=Prijs
+IDC_COMMISSIONTEXT=Commissie
+IDC_TOTALTEXT=Totaal
+
+BUY=Koop
+SELL=Verkoop
+DIVIDEND=Dividend
+REINVEST=Herinvesteer dividend
+ADD=Voeg deelbewijzen toe
+REMOVE=Verwijder deelbewijzen
+
+IDOK=OK
+IDCANCEL=Annuleren
+IDHELP=Help
+
+ERR_NEGATIVEVALUES=Aantal aandelen, prijs per aandeel, dividend, commissie en totaal moet positief zijn!
+ERR_INVALIDACTIONTYPE=Ongeldige transactiesoort
+ERR_INVALIDACCOUNT=Ongeldige rekening!
+ERR_INVALIDINVESTMENT=Ongeldige investering!
+IDC_COMMENTTEXT=Commentaar
+ERR_INCONSISTENTCURRENCY=De munteenheid van het geselecteerde account moet overeenkomen met die van de investering.
+REINVEST_SHORT_TERM_CAPITAL_GAIN=Herinvesteer K-Term CG Distr.
+REINVEST_LONG_TERM_CAPITAL_GAIN=Herinvesteer L-Term CG Distr.
+LONG_TERM_CAPITAL_GAIN=L-Term Kap Winst Distr.
+SHORT_TERM_CAPITAL_GAIN=K-Term Kap Winst Distr.
+
+[IDD_REPORTADD]
+TITLE=Voeg toe aan favorieten
+IDC_NAMETEXT=Rapportnaam
+IDOK=OK
+IDCANCEL=Annuleren
+
+[IDD_REPORTORGANIZE]
+TITLE=Organiseer de rapporten
+IDC_DELETE=Verwijderen
+IDOK=Maak
+IDCANCEL=Sluiten
+IDC_EDIT=Bewerk
+
+[IDD_STARTUP_CURRENCY]
+TITLE=Valuta instelling
+IDC_CURRENCYTEXT=Voorkeurs valuta
+IDC_NUMBEROFDECIMALSTEXT=Aantal decimale cijfers
+IDC_DECIMALSEPARATORTEXT=Decimaal teken
+IDC_THOUSANDSEPARATORTEXT=Duizental teken
+IDC_EXAMPLETEXT=Voorbeeld
+
+IDC_BACK=<< Terug
+IDC_NEXT=Volgende >>
+
+SEPARATOR_SPACE=Spatie
+SEPARATOR_NONE=Geen teken
+
+ERR_THOUSANDDECIMAL=Decimale en duizendtal tekens kunnen niet gelijk zijn!
+IDCANCEL=Annuleren
+
+[IDD_STARTUP_DATE]
+TITLE=Datum instelling
+IDC_FORMATTEXT=Datum formaat
+IDC_SEPARATORTEXT=Scheidingsteken
+IDC_EXAMPLETEXT=Voorbeeld
+
+IDC_BACK=<< Terug
+IDC_FINISH=Einde
+IDCANCEL=Annuleren
+
+[IDD_ACEMONEYREMINDER]
+TITLE=AceMoney rekening herinnering
+
+STARTACEMONEY=Start AceMoney...
+OPTIONS=Opties...
+VIEWBILLS=Toon rekening...
+EXIT=Afsluiten
+CLOSE=Sluiten
+
+COLUMN0=Datum
+COLUMN1=Transactie
+COLUMN2=Crediteur
+COLUMN3=Hoeveelheid
+OPTIONSTITLE=Opties
+DATAFILE=AceMoney data-bestand
+BROWSE=Bladeren...
+SELECTFILE=Selecteer data file
+AUTOSTART=Start automatisch met Windows
+STARTMINIMIZED=Start geminimaliseerd
+OK=OK
+CANCEL=Annuleren
+
+MSG_DUEBILLS=Openstaande rekening!
+MSG_NODUEBILLS=Geen openstaande rekeningen
+[IDD_PAGESETUP]
+TITLE=Pagina Setup
+IDCANCEL=Annuleren
+IDC_PAPERBOX=Papier
+IDC_ORIENTATIONBOX=Oriëntatie
+IDC_MARGINBOX_MM=Pagina Marge (mm)
+IDC_MARGINBOX_INCH=Pagina Marge (inch)
+IDC_TITLETEXT=Titel:
+IDC_PAPERSIZETEXT=Afmeting:
+IDC_BMTEXT=Onder:
+IDC_LMTEXT=Links:
+IDC_RMTEXT=Rechts:
+IDC_TMTEXT=Boven:
+IDC_PORTRAIT=Portret
+IDC_LANDSCAPE=Landschap
+IDC_UNITTEXT=Eenheden:
+UNIT0=Millimeter
+[IDD_ARCHIVE]
+TITLE=Maak een archief
+IDC_DATE_TEXT=Archiveer alle transacties tot
+IDC_DELETE=Verwijder gearchiveerde transacties van het actieve document
+IDCANCEL=Annuleren
+ERR_CREATE_ARCHIVE=Fout bij het maken van een archief
+ERR_WRITE_ARCHIVE=Fout bij het opslaan van het archief
+[IDD_DUPLICATECHECKWARNING]
+TITLE=Duplicaat controle waarschuwing
+IDC_WARNING=Controleer nummer ### is al gebruik in één van transacties in dit account. Wilt u het toch weer gebruiken?
+IDC_DONOTSHOW=Laat deze waarschuwing niet meer zien
+IDYES=Ja
+IDNO=Nee
+[IDD_IMPORTRULES]
+TITLE=Importeer regels
+COLUMN1=Zoek string
+COLUMN2=Begunstigde
+COLUMN3=Categorie
+IDC_ADD=Toevoegen...
+IDC_EDIT=Bewerk...
+IDC_DELETE=Verwijder...
+IDCANCEL=Annuleren
+IDC_IMPORT=Importeer
+IDC_EXPORT=Exporteer
+IDOK=Sluit
+ERROR_IMPORT=Importeren importregels van %s mislukt!
+ERROR_EXPORT=Exporteren importregels naar %s mislukt!
+IDC_CLEAR=Vrijgeven
+[IDD_IMPORTRULE]
+TITLE=Importeer regels
+IDC_SEARCHSTRINGTEXT=Als de omschrijving van de geïmporteerde transacties bevat
+IDC_PAYEETEXT=Vervang met deze begunstigde
+IDC_CATEGORYTEXT=En gebruik deze categorie
+IDCANCEL=Annuleren
+[IDD_NETWORK]
+TITLE=Netwerk instellingen
+IDC_DIRECTCONNECTION=Directe verbinding met het internet
+IDC_MANUALPROXYCONFIG=Handmatige proxy instellingen
+IDC_PROXYSERVERPORTTEXT=Poort
+IDCANCEL=Annuleren
+ERR_INVALID_PORT_NUMBER=Het poortnummer moet groter zijn dan 0 en lager dan 65535!
+[IDD_FILTERINVESTMENT]
+TITLE=Selecteer investeringen
+IDC_SELECTALL=Selecteer alles
+IDC_CLEARALL=Verwijder alles
+IDCANCEL=Annuleer
+[IDD_FILTERTAG]
+TITLE=Selecteer markeringen
+IDC_SELECTALL=Selecteer alles
+IDC_CLEARALL=Verwijder alles
+IDCANCEL=Annuleer
+[IDD_FILTERTEXT]
+TITLE=Noteer tekst
+IDCANCEL=Annuleer
+[DIRECTCONNECT]
+CONNECTING=Verbinden
+REQUESTING=Informatie opvragen
+RECEIVING=Ontvang data
+IMPORTING=Transacties importeren
+DOWNLOADED=Transacties %d ontvangen
+[IDD_DOWNLOADPROGRESS]
+TITLE=Download Voortgang
+IDOK=Sluit
+PROGRESS_TEXT=%1 of %2 taken uitgevoerd
+TASK_TRANSACTIONS=Transacties voor
+STATUS_CONNECTING=Verbinden
+STATUS_RECEIVING=Ontvangen
+STATUS_IMPORTING=Importeren
+STATUS_REQUESTING=Aanvragen
+STATUS_SUCCESS=%d transacties
+STATUS_FAILED=Mislukt
+TASK_EXCHANGERATE=Wisselkoers voor
+TASK_INVESTMENT=Koers voor
+IDC_AUTO_CLOSE=Sluit dit venster automatisch als alle taken zijn uitgevoerd.
+[IDD_DOWNLOADTRANSACTIONS]
+IDCANCEL=Annuleren
+ERROR_UNKNOWN=Onbekende fout!
+ERROR_AUTHENTICATION=Ongeldige Gebuiker/Paswoord!
+IDC_DETECT_DUPLICATES=Dedecteer dubbels
+TITLE=Ophalen transacties
+ERROR_INVALID_ACCOUNT=Ongeldig rekeningnummer!
+ERROR_ACCOUNTINFO=Fout bij het ophalen van rekening informatie!
+ERROR_IMPORT=Fout bij het importeren van de opgehaalde transacties voor deze rekening!
+ERROR_STATEMENT=Fout bij het ophalen van de rekeninguitreksels!
+ERROR_CONNECT=Verbinding met de serven van de bank mislukt. De server is misschien onbereikbaar, probeer later opnieuw.
+ERROR_SEND=Kan het verzoek tot ophalen niet verzenden!
+ERROR_INVALID_RESPONSE=Ongeldige reactie van de bank server!
+ERROR_INVALID_CONFIG=Ongeldige provider instellingen, verander!
+ERROR_MISSING_CONFIG=Verbindingsinstellingen oncompleet: provider ontbreekt, Gebruikersnaam, Paswoord of rekeningnummer! Deze instellingen kan U invoeren in de Rekeningen-Eigenschappen dialoog.
+IDC_ENABLE_LOGGING=Autoriseer aanloggen
+ERROR_INVESTMENT_DOWNLOAD=Fout bij het ophalen van de koers: ongeldig tickersymbool, geselecteerde bron heeft geen data voor dit aandeel, of intern verbindingsprobleem!
+[IDD_ERROR]
+TITLE=Fout
+ERROR=Fout
+CLOSE=Sluit
+DESCRIPTION=Omschrijving
+[IDD_ONLINESERVICE]
+IDC_USERIDTEXT=Gebruikersnaam
+IDC_PASSWORDTEXT=Paswoord
+IDCANCEL=Annuleer
+IDC_ENABLE=Haal transacties voor deze rekening op
+IDC_CONNECTASTEXT=Log in als
+PROVIDER_TYPE_CREDITCARD=Kredietkaart
+PROVIDER_TYPE_BROKERAGE=Makelaar
+[IDD_QUESTION]
+DO_NOT_ASK_AGAIN=Vraag dit niet opnieuw
+OK=Ja
+CANCEL=Nee
+TITLE=Bevestiging
+[IDD_BUDGET_LIMIT]
+TITLE=Budget Limiet
+IDC_CATEGORY_TEXT=Categorie
+IDC_MONTH_TEXT=Maand
+IDC_INCOME_LIMIT_TEXT=Inkomens limiet
+IDC_EXPENSE_LIMIT_TEXT=Uitgave limiet
+IDCANCEL=Annuleren
+IDC_FROM=Van maand
+IDC_TO=Tot maand
+[TAGS]
+IMPORTANT=Belangrijk
+WORK=Werk
+PERSONAL=Persoonlijk
+TODO=Nog te doen
+[IDD_TAGLIST]
+TITLE=Transactie markeringen
+DELETE_WARNING=De geselecteerde markering(en) zullen worden verwijderd van alle hiermee gemarkeerde transacties. Doorgaan?
+IDC_ADD=Toevoegen...
+IDC_DELETE=Verwijder
+IDC_EDIT=Bijwerken...
+IDOK=Sluiten
+[IDD_TAG]
+TITLE=Transactie markeringen
+IDC_NAMETEXT=Naam
+IDC_COLORTEXT=Kleur
+IDCANCEL=Annuleren
+ERR_NONAME=De transactiemarkering mag niet leeg zijn!
+ERR_EXISTS=Er bestaat reeds een transactiemarkering met dezelfde naam. Voer a.u.b. een andere naam in.
+[IDD_REPORTNAME]
+TITLE=Rapport naam
+IDC_NAMETEXT=Rapport naam
+IDCANCEL=Annuleren
+ERROR_EMPTY=De rapportnaam kan niet leeg zijn!
+ERROR_EXIST=Er bestaat al een rapport met deze naam. Overschrijven?

@@ -1,0 +1,925 @@
+ProgramID=AceMoney
+Language=English (UK)
+
+///////////////////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories_uk.dat
+BANKS=banks_uk.dat
+ACCOUNTTYPES=accounttypes_uk.dat
+IMPORTRULES=importrules.dat
+
+CURRENCY=GBP
+DECIMALS=2
+DECIMALSEPARATOR=.
+THOUSANDSEPARATOR=
+DATEFORMAT=DDMMYY
+DATESEPARATOR=.
+SAMPLEFILE=sample_uk.amj
+
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+
+STATUS=Ready
+TRANSFER=Transfer
+DEPOSIT=Deposit
+WITHDRAWAL=Withdrawal
+TO=to
+FROM=from
+TOTAL=Total
+CLEAREDTOTAL=Cleared total
+RECONCILEDTOTAL=Reconciled total
+UNCLEAREDTOTAL=Uncleared total
+TODAYTEXT=Today
+PAGE=Page
+UNASSIGNED=(Unassigned)
+SAVEMODIFIED=Save changes?
+REPLACEMENTS=replacements were made
+INVALIDNUMBER=Invalid number format!
+
+[MENU]
+ID_FILE=File
+ID_FILE_NEW=New
+ID_FILE_OPEN=Open...
+ID_FILE_SAVE=Save
+ID_FILE_SAVE_AS=Save As...
+ID_FILE_IMPORT=Import...
+ID_FILE_EXPORT=Export...
+ID_FILE_PRINT=Print...
+ID_FILE_PRINT_PREVIEW=Print Preview...
+ID_APP_EXIT=Exit
+
+ID_EDIT=Edit
+ID_EDIT_DELETE=Delete
+ID_EDIT_INSERT=Insert
+ID_EDIT_SELECTALL=Select all
+ID_EDIT_PROPERTIES=Properties...
+
+ID_VIEW=View
+ID_VIEW_ACCOUNTS=Accounts
+ID_VIEW_BANKS=Banks
+ID_VIEW_PAYEES=Payees
+ID_VIEW_CATEGORIES=Categories and Budget
+ID_VIEW_SCHEDULE=Schedule
+ID_VIEW_PORTFOLIO=Portfolio
+ID_VIEW_REPORTS=Reports
+
+ID_ACCOUNTS=Accounts
+ID_ACCOUNTS_ADD=Add account...
+ID_ACCOUNTS_TYPE=Account groups...
+
+ID_REPORTS=Reports
+ID_REPORTS_ADD=Add to favorites...
+ID_REPORTS_ORGANIZE=Organize...
+
+ID_ACECLOUD=AceCloud
+ID_ACECLOUD_CLOUDSETUP=Cloud Settings...
+ID_ACECLOUD_GETACERECEIPTS=Get AceReceipts...
+
+ID_TOOLS=Tools
+ID_TOOLS_CURRENCY=Exchange rates...
+ID_TOOLS_INTERNATIONAL=International Settings...
+ID_TOOLS_OPTIONS=Options...
+ID_TOOLS_COLORS=Fonts and Colors...
+ID_TOOLS_LANGUAGE=Language...
+ID_TOOLS_BACKUP=Backup...
+ID_TOOLS_BUDGET=Budget...
+
+ID_HELP=Help
+ID_HELP_TOPICS=Topics
+ID_HELP_HOMEPAGE=AceMoney web-site...
+ID_HELP_WHATSNEW=What's new...
+ID_HELP_SUPPORT=Technical support...
+ID_HELP_FORUM=Web forum...
+ID_HELP_TUTORIAL=Online tutorial...
+ID_HELP_REGISTER=Register AceMoney...
+ID_HELP_ORDER=Order AceMoney...
+ID_HELP_ABOUT=About...
+
+[TOOLBAR]
+ID_FILE_NEW=New
+ID_FILE_OPEN=Open
+ID_FILE_SAVE=Save
+ID_VIEW_BACK=Back
+ID_VIEW_FORWARD=Forward
+ID_VIEW_HOME=Home
+ID_VIEW_ACCOUNTS=Accounts
+ID_VIEW_BANKS=Banks
+ID_VIEW_PAYEES=Payees
+ID_VIEW_CATEGORIES=Categories
+ID_VIEW_SCHEDULE=Schedule
+ID_VIEW_REPORTS=Reports
+ID_VIEW_PORTFOLIO=Portfolio
+ID_HELP_HOMEPAGE=Homepage
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=Accounts
+IDC_ADD=New account...
+IDC_BILLS=Pay the bills
+IDC_REPORTS=Reports
+IDC_CURRENCY=Currency Exchange
+IDC_WEBUPDATE=Update Now
+IDHELP=Help
+
+ID_ACCOUNT_OPEN=Open
+ID_ACCOUNT_ADD=New account...
+ID_ACCOUNT_DELETE=Delete
+ID_ACCOUNT_EDIT=Properties
+
+TOTAL=Total
+LASTUPDATE=Last update
+
+DELETE_CONFIRMATION=Account %s will be deleted with all its transactions! Proceed anyway?
+
+UPDATE_SUCCESS=Exchange rates were successfully updated!
+UPDATE_FAILURE=Web update error! Internet connection is not detected or some currencies were not updated!
+UPDATE_NOTREQUIRED=Web update is not required!
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPORTFOLIO]
+TITLE=Portfolio
+
+IDC_BUY=Buy...
+IDC_SELL=Sell...
+IDC_DIVIDEND=Dividend...
+IDC_REINVEST=Reinvest dividend...
+IDC_ADDSHARES=Add shares...
+IDC_REMOVESHARES=Remove shares...
+
+IDC_ADD=Add investment...
+IDC_EDIT=Edit investment...
+IDC_DELETE=Delete investment...
+
+IDC_WEBUPDATE=Download prices
+
+IDHELP=Help
+
+STOCKLIST=Stocks
+STOCKTRANSACTIONLIST=Transactions
+
+COLUMN0=Symbol
+COLUMN1=Name
+COLUMN2=Last Price
+COLUMN3=Quantity
+COLUMN4=Total
+COLUMN5=Gain
+
+TRANSACTIONSCOLUMN0=Date
+TRANSACTIONSCOLUMN1=Action
+TRANSACTIONSCOLUMN2=Symbol
+TRANSACTIONSCOLUMN3=Account
+TRANSACTIONSCOLUMN4=Dividend
+TRANSACTIONSCOLUMN5=Price
+TRANSACTIONSCOLUMN6=Quantity
+TRANSACTIONSCOLUMN7=Commission
+TRANSACTIONSCOLUMN8=Total
+
+CANTBEDELETED=This stock is used in one or more transactions. It can not be deleted!
+DELETECONFIRMATION=This stock will be deleted. Are you sure?
+UPDATEISNOTREQUIRED=Update is not required!
+UPDATEISNOTCOMPLETE=Some investments were not updated!
+INVESTMENTNOTCREATED=An investment must be created first!
+
+ID_EDIT_OPEN=Edit investment
+ID_EDIT_INSERT=Add new investment
+ID_EDIT_DELETE=Delete
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=Account
+IDC_ADD=New transaction
+IDC_EDIT=Edit transaction
+IDC_DELETE=Delete transaction
+IDC_BALANCE=Balance account
+IDC_WEBSITE=Account web-site
+IDC_ACCOUNT=Edit account info
+IDC_BANK=Edit bank info
+IDC_MONTHREPORT=Monthly report
+IDC_REPORT=30 days report
+IDC_HIDERECONCILED=Hide reconciled
+IDHELP=Help
+
+COLUMN0=Number
+COLUMN1=Date
+COLUMN2=Payee
+COLUMN3=Category
+COLUMN4=S
+COLUMN5=Withdrawal
+COLUMN6=Deposit
+COLUMN7=Total
+COLUMN8=Comment
+
+BANKISNOTASSIGNED=To use this feature, select a bank that holds this account
+PAGEISNOTASSIGNED=Web address is missing. You can add it in the Bank Properties dialog.
+STATUS=This month you have spent %.2f on category %s
+STATUSINCOME=This month you have received %.2f on category %s
+
+ID_EDIT_OPEN=Edit
+ID_TRANSACTION_UNCLEARED=Uncleared
+ID_TRANSACTION_CLEARED=Cleared
+ID_TRANSACTION_RECONCILED=Reconciled
+ID_EDIT_INSERT=New transaction...
+ID_EDIT_INSERTBILL=Record bill payment...
+ID_EDIT_DELETE=Delete
+
+BILLDELETECONFIRMATION=This will delete all future transactions associated with bill/deposit!
+TRANSACTIONDELETECONFIRMATION=Are you sure?
+RECONCILEDTRANSACTIONCONFIRMATION=This transaction is marked as Reconciled, modifications are not recommended! Proceed anyway?
+CLEAREDTRANSACTIONCONFIRMATION=This transaction is marked as Cleared, modifications are not recommended! Proceed anyway?
+CANNOTSORTBYTOTAL=You can not sort by total!
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=New bank...
+IDC_EDIT=Edit bank info
+IDC_DELETE=Delete bank
+IDC_DELETEUNUSED=Delete unused
+IDHELP=Help
+
+COLUMN0=Bank name
+COLUMN1=Address
+COLUMN2=Web site
+COLUMN3=Comment
+
+CANTBEDELETED=One of your accounts links to this bank. This bank can not be deleted.
+DELETECONFIRMATION=Are you sure?
+DELETEUNUSED=This command will delete all banks that are not linked by your accounts! Proceed anyway?
+
+ID_EDIT_OPEN=Edit
+ID_EDIT_INSERT=New bank...
+ID_EDIT_DELETE=Delete
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=New category...
+IDC_EDIT=Edit category
+IDC_DELETE=Delete category
+IDC_DELETEUNUSED=Delete unused...
+IDC_REPORT=Category report
+IDC_BUDGETREPORT=Budget Report
+IDC_BUDGET=Budget Settings...
+IDC_IMPORT=Import...
+IDC_MERGE=Merge...
+IDHELP=Help
+
+COLUMN0=Category
+COLUMN0a=Code
+COLUMN1=Budgeted
+COLUMN1a=Income
+COLUMN2a=Expense
+COLUMN2=Comment
+COLUMN3=Comment
+
+CANTBEDELETED=One of transactions uses this category. Category can not be deleted.
+PARENTCANTBEDELETED=This is a parent category for one or more other categories. If you want to delete it, you should delete its subcategories first.
+DELETECONFIRMATION=Are you sure?
+DELETEUNUSED=This command will delete all categories that are not referenced by transactions. Proceed anyway?
+ID_EDIT_OPEN=Edit
+ID_EDIT_INSERT=New...
+ID_EDIT_DELETE=Delete
+
+TOTALINCOME=Annual Income:
+TOTALEXPENSE=Annual Expense:
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=New payee...
+IDC_EDIT=Edit payee
+IDC_DELETE=Delete payee
+IDC_DELETEUNUSED=Delete unused
+IDC_REPORT=Report by payee
+IDC_MERGE=Merge...
+IDHELP=Help
+
+COLUMN0=Name
+COLUMN1=Address
+COLUMN2=Comment
+
+CANTBEDELETED=One of transactions uses this payee. Payee can not be deleted.
+DELETECONFIRMATION=Are you sure?
+DELETEUNUSED=This command will delete all payees that are not referenced by transactions. Proceed anyway?
+
+ID_EDIT_OPEN=Edit
+ID_EDIT_INSERT=New...
+ID_EDIT_DELETE=Delete
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=Filter by date
+IDC_SETDATES=Select dates range...
+IDC_USECATEGORYFILTER=Filter by categories
+IDC_SETCATEGORIES=Select categories
+IDC_USEPAYEEFILTER=Filter by payees
+IDC_SETPAYEES=Select payees
+IDC_USEACCOUNTFILTER=Filter by accounts
+IDC_SETACCOUNTS=Select account
+IDC_TRANSACTIONS=Transactions report
+IDC_CATEGORY=Spending by categories
+IDC_SUBCATEGORY=Spending by subcategories
+IDC_PAYEE=Spending by payees
+IDC_BUDGET=Current budget period
+IDC_CASHFLOW=Cash Flow Report
+IDC_LAST30DAYS=Last 30 days transactions
+
+IDHELP=Help
+IDC_TABLE=View as table
+IDC_CHART=Chart
+IDC_INCOMECHART=Income pie diagram
+IDC_EXPENSECHART=Spending pie diagram
+IDC_PERIODCHART=Period chart
+IDC_TOTALCHART=Total chart
+
+CATEGORYCOLUMN0=Category
+CATEGORYCOLUMN1=Amount
+CATEGORYCOLUMN2=Budgeted
+CATEGORYCOLUMN3=Difference
+CATEGORYCOLUMN4=Code
+CATEGORYCOLUMN5=Income
+CATEGORYCOLUMN6=Expense
+
+CASHFLOWCOLUMN0=Date
+CASHFLOWCOLUMN1=Period Total
+CASHFLOWCOLUMN2=Total
+
+OTHERS=Others
+
+GENERALREPORTS=General reports
+CATEGORYREPORTS=Category reports
+PAYEEREPORTS=Payee reports
+BUDGETREPORTS=Budget reports
+FAVORITEREPORTS=Favourite reports
+
+PAYEECOLUMN0=Payee
+PAYEECOLUMN1=Amount
+PAYEECOLUMN2=Income
+PAYEECOLUMN3=Expense
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Enter to registry
+IDC_ADD=New Bill...
+IDC_EDIT=Edit Bill
+IDC_DELETE=Delete Bill
+IDHELP=Help
+
+COLUMN0=Date
+COLUMN1=Transaction
+COLUMN2=Payee
+COLUMN3=Amount
+COLUMN4=Comment
+
+IDC_TABLE=Table
+IDC_CALENDAR=Calendar
+
+DELETECONFIRMATION=Are you sure?
+
+ID_EDIT_OPEN=Enter
+ID_EDIT_INSERT=Add new...
+ID_EDIT_DELETE=Delete
+ID_EDIT_PROPERTIES=Properties
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=About
+
+[IDD_ACCOUNT]
+TITLE=Account
+IDC_NAMETEXT=Name
+IDC_TYPETEXT=Type
+IDC_BANKTEXT=Bank Name
+IDC_NUMBERTEXT=Number
+IDC_BALANCETEXT=Initial balance
+IDC_CURRENCYTEXT=Currency
+IDC_CLOSED=This account is closed
+IDC_COMMENTTEXT=Comment
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+ERR_NOACCOUNTNAME=An account must have a name!
+ERR_NOACCOUNTTYPE=An account must have a type!
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=Groups of accounts
+IDC_ADD=Add...
+IDC_DELETE=Delete
+IDC_EDIT=Update...
+IDOK=OK
+IDCANCEL=Cancel
+
+ERR_CANTDELETE=This group is used by one of accounts!
+
+[IDD_ACCOUNTTYPE]
+TITLE=Group of accounts
+IDC_NAMETEXT=Name
+IDOK=OK
+IDCANCEL=Cancel
+
+ERR_NOACCTYPENAME=A group must have a name!
+
+[IDD_BACKUP]
+TITLE=Backup
+IDC_LASTBACKUPTEXT=Last backup
+IDC_FREQUENCYTEXT=Frequency
+IDC_DIRECTORYTEXT=Directory
+IDC_BACKUP=Backup now!
+IDC_AUTOMATIC=Backup automatically
+
+IDC_EVERYDAY=Every day
+IDC_EVERYWEEK=Every week
+IDC_EVERYOTHERWEEK=Every other week
+
+IDC_BROWSE=Browse...
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+ERR_INVALIDDIR=A valid path must be entered!
+ERR_COPYFILE=An error occured during backup! May be the disc is not in the drive.
+ERR_BACKUPTIME=According to your settings now it's time to perform backup. Proceed?
+ERR_NEWFILE=The file has to be saved before doing backup!
+
+[IDD_BALANCE]
+TITLE=Balance Account
+IDC_CLEAREDDEPOSITS=Cleared deposits
+IDC_CLEAREDWITHDRAWALS=Cleared withdrawals
+IDC_RECONCILEDTEXT=Previous statement balance
+IDC_CLEAREDTEXT=Current statement balance
+IDC_UNCLEAREDTEXT=Outstanding balance
+IDC_SELECTALL=Select all
+IDC_DESELECTALL=Deselect all
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+[IDD_BANK]
+TITLE=Bank
+IDC_NAMETEXT=Name
+IDC_ADDRESSTEXT=Address
+IDC_WEBSITETEXT=Web-site
+IDC_COMMENTTEXT=Comment
+IDC_BANKNUMBERTEXT=Bank number
+IDC_SWIFTCODETEXT=Routing code
+IDC_TRANSFERCODETEXT=Transfer code
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+ERR_NOBANKNAME=Bank must have a name!
+
+[IDD_BILL]
+TITLE=Bill/Deposit
+
+IDC_FREQUENCYGROUP=Frequency
+IDC_ONCE=Once
+IDC_DAILY=Daily
+IDC_WEEKLY=Weekly
+IDC_EVERYOTHERWEEK=Every other week
+IDC_TWICEAMONTH=Twice a month
+IDC_EVERYFOURWEEKS=Every 4 weeks
+IDC_MONTHLY=Monthly
+IDC_EVERYOTHERMONTH=Every other month
+IDC_QUARTERLY=Quarterly
+IDC_EVERYSIXMONTHS=Every six months
+IDC_ANNUALLY=Annually
+IDC_STARTDATETEXT=Start date
+
+IDC_TRANSACTIONGROUP=Transaction
+IDC_TYPETEXT=Type
+IDC_DEPOSIT=Deposit
+IDC_WITHDRAWAL=Withdrawal
+IDC_TRANSFER=Transfer
+IDC_ACCOUNTTEXT=Account
+IDC_PAYEETEXT=Payee
+IDC_CATEGORYTEXT=Category
+IDC_SPLIT=Split
+IDC_AMOUNTTEXT=Amount
+IDC_COMMENTTEXT=Comment
+
+IDC_ENTER=Add to account
+IDC_AUTOMATIC=Enter bill automatically 
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+ERR_INVALIDACCOUNT=Invalid account name!
+
+[IDD_BUDGET]
+TITLE=Budget
+
+IDC_STARTDATETEXT=Start of the first period:
+IDC_FREQUENCYTEXT=Budget period:
+
+IDC_WEEKLY=One week
+IDC_EVERYOTHERWEEK=Two weeks
+IDC_TWICEAMONTH=Half a month
+IDC_EVERYFOURWEEKS=Every 4 weeks
+IDC_MONTHLY=One month
+IDC_EVERYOTHERMONTH=Two months
+IDC_QUARTERLY=Quarter (three months)
+IDC_ANNUALLY=One year
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+[IDD_CATEGORY]
+TITLE=Category
+
+IDC_NAMETEXT=Category
+IDC_SUBNAMETEXT=SubCategory
+IDC_COMMENTTEXT=Comment
+IDC_BUDGETTEXT=Budgeted
+IDC_NUMBERTEXT=Number
+
+IDC_INCOME=Income
+IDC_EXPENSE=Expense
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+ERR_NOCATNAME=Category must have a name!
+ERR_CATEXIST=Category with the same name already exists!
+
+[IDD_CATEGORYMERGE]
+TITLE=Category Merge
+
+IDC_CATEGORYTEXT=Merge category
+IDC_CATEGORYTEXT1=with category
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+ERR_NOCATEGORIES=Both existing categories should be selected and be different!
+ERR_SOURCECATEGORY=Source category must not have subcategories!
+ERR_TARGETCATEGORY=The target category can not be a subcategory of the source category!
+
+[IDD_COLORS]
+TITLE=Fonts and Colors
+
+IDC_ACCOUNTLISTTEXT=List of accounts
+IDC_ACCOUNTTEXT=Account registry
+IDC_BANKTEXT=Banks
+IDC_CATEGORYTEXT=Categories
+IDC_PAYEETEXT=Payees
+IDC_SCHEDULETEXT=Schedule
+IDC_REPORTTEXT=Reports
+IDC_PORTFOLIOTEXT=Portfolio
+
+IDC_LISTFONTTEXT=List Font
+
+IDC_RESTORE=Defaults
+IDOK=OK
+IDCANCEL=Cancel
+
+[IDD_CURRENCY]
+TITLE=Currency exchange rates
+IDC_SHOWALL=Display all currencies
+IDC_CURRENCYINFO=Default currency: %s
+IDC_DOWNLOAD=Download...
+IDC_UPDATE=Update rate
+
+IDOK=Close
+IDHELP=Help
+
+COLUMN0=Currency
+COLUMN1=Rate to
+COLUMN2=Date
+
+ERR_WEBUPDATE=Exchange rate web update error! Check your Internet connection!
+ERR_INVALIDRATE=Invalid rate was received!
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=Exchange rate
+IDOK=OK
+IDCANCEL=Cancel
+
+[IDD_SHEETREPORTFILTER]
+TITLE=Report filter
+
+[IDD_DATESRANGE]
+TITLE=Select period
+
+IDC_BUDGETDATES=Budget periods:
+IDC_CUSTOMDATES=Custom dates:
+IDC_FROMTEXT=From
+IDC_TOTEXT=To
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+CURRENT=Current
+CUSTOM=Custom
+
+[IDD_FILTERACCOUNT]
+TITLE=Select accounts
+
+IDC_SELECTALL=Select all
+IDC_CLEARALL=Clear all
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+[IDD_FILTERCATEGORY]
+TITLE=Select categories
+
+IDC_SELECTALL=Select all
+IDC_CLEARALL=Clear all
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+[IDD_FILTERPAYEE]
+TITLE=Select payees
+
+IDC_SELECTALL=Select all
+IDC_CLEARALL=Clear all
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+[IDD_IMPORT]
+TITLE=Import
+EXPORTTITLE=Export
+
+IMPORTTEXT=%d transactions imported
+EXPORTTEXT=Select an account to export
+
+ERR_NOACCOUNT=You must select an account!
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+[IDD_LANGUAGE]
+TITLE=Select language
+
+IDOK=OK
+IDCANCEL=Cancel
+
+[IDD_INTERNATIONALSETTINGS]
+TITLE=International Settings
+
+IDC_DATETEXT=Date format
+IDC_DATESEPARATORTEXT=Date separator
+IDC_CURRENCYTEXT=Default currency
+IDC_DECIMALSEPARATORTEXT=Decimal point
+IDC_THOUSANDSEPARATORTEXT=Thousands separator
+IDC_NUMBEROFDECIMALDIGITSTEXT=Number of decimal digits
+
+ERR_THOUSANDDECIMAL=Decimal point and thousands separator can not be the same!
+ERR_THOUSAND=Invalid thousands separator!
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+[IDD_OPTIONS]
+TITLE=Options
+
+IDC_GENERALGROUP=General
+IDC_SHOWCLOSEDACCOUNTS=Show closed accounts
+IDC_SHOWGRID=Show grid in tables
+IDC_LOADLASTFILE=Load last file during a startup
+IDC_SHOWCOMMENT=Show transaction comments
+IDC_AUTOSAVE=Auto save document
+IDC_SHOWFUTUREBILLS=Show future bills
+IDC_SHOWSPLASHSCREEN=Show splash screen
+IDC_SHOWFILENAME=Show file name in the title
+IDC_SHOWSOLDSTOCKS=Show sold stocks
+
+IDC_STARTPAGEGROUP=Start page
+IDC_ACCOUNTLIST=List of accounts
+IDC_FAVORITEACCOUNT=Favorite account
+
+IDC_PASSWORDGROUP=Password
+IDC_OLDPASSTEXT=Current password
+IDC_NEWPASSTEXT=New password
+IDC_RETYPETEXT=Retype new password
+
+IDC_TRANSACTIONTYPETEXT=New transaction type
+LASTUSEDTYPE=Last used type
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+ERR_INVALIDOLDPASSWORD=Invalid old password!
+ERR_INVALIDNEWPASSWORD=Invalid new password!
+
+[IDD_PASSWORD]
+TITLE=Enter password
+IDC_PASSTEXT=Password
+
+IDOK=OK
+IDCANCEL=Cancel
+
+ERR_INVALIDPASSWORD=Invalid password!
+
+[IDD_PAYEE]
+TITLE=Payee
+IDC_NAMETEXT=Name
+IDC_ADDRESSTEXT=Address
+IDC_COMMENTTEXT=Comment
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+ERR_NOPAYEENAME=Payee must have a name!
+
+[IDD_PAYEEMERGE]
+TITLE=Merge Payees
+IDC_PAYEETEXT=Merge payee
+IDC_PAYEETEXT1=with payee
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+ERR_NOPAYEES=Both payees should be selected and be different!
+
+[IDD_PRINTPREVIEW]
+TITLE=Print Preview
+IDC_PAGETEXT=Page
+IDC_PRINT=Print
+
+IDOK=OK
+IDHELP=Help
+
+[IDD_REGISTER]
+TITLE=Registration
+
+IDC_NAMETEXT=Name:
+IDC_SERIALNUMBERTEXT=Serial Number:
+
+IDC_ORDER=Purchase...
+
+IDOK=OK
+
+[IDD_SPLIT]
+TITLE=Split by categories
+
+IDC_CATEGORYTEXT=Category
+IDC_SUBCATEGORYTEXT=SubCategory
+IDC_AMOUNTTEXT=Amount
+IDC_ADD=Add
+IDC_EDIT=Edit
+IDC_DELETE=Delete
+IDC_TOTALTEXT=Total:
+IDC_UNASSIGNEDTEXT=Unassigned:
+IDC_COMMENTTEXT=Comment
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+COLUMN0=Category
+COLUMN1=SubCategory
+COLUMN2=Amount
+COLUMN3=Comment
+
+ERR_BADTOTAL=Sum of splitted amounts is not equal to transaction amount. Do you want to change transaction amount?
+
+[IDD_SPLITITEM]
+TITLE=Split item
+IDC_CATEGORYTEXT=Category
+IDC_SUBCATEGORYTEXT=SubCategory
+IDC_AMOUNTTEXT=Amount
+IDC_COMMENTTEXT=Comment
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+[IDD_TRANSACTION]
+TITLE=Transaction
+
+IDC_TYPETEXT=Type
+IDC_DEPOSIT=Deposit
+IDC_WITHDRAWAL=Withdrawal
+IDC_TRANSFER=Transfer
+IDC_ACCOUNTTEXT=Account
+IDC_PAYEETEXT=Payee
+IDC_CATEGORYTEXT=Category
+IDC_SPLIT=Split
+IDC_COMMENTTEXT=Comment
+IDC_DATETEXT=Date
+IDC_NUMBERTEXT=Number
+IDC_AMOUNTTEXT=Amount
+
+FROMTEXT=From
+TOTEXT=To
+SPLIT=Split
+DEBIT=Debit
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+ERR_SAMETRANFER=You can not transfer to the same account!
+ERR_INVALIDACCOUNT=Invalid account name!
+ERR_SPLITAMOUNT=The transaction amount should be equal to sum of splits!
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Exchange rate
+
+IDC_SOURCEAMOUNTTEXT=Source amount
+IDC_TARGETAMOUNTTEXT=Target amount
+
+IDOK=OK
+IDCANCEL=Cancel
+
+[IDD_DAYBILLS]
+TITLE=Bills/Deposits
+
+COLUMN0=Date
+COLUMN1=Transaction
+COLUMN2=Payee
+COLUMN3=Amount
+COLUMN4=Comment
+
+IDC_ENTER=Enter...
+IDC_EDIT=Edit...
+
+IDOK=OK
+IDHELP=Help
+
+[IDD_LITEVERSION]
+TITLE=AceMoney Lite
+
+IDC_TWO_ACCOUNTS_LIMIT=AceMoney Lite works with only two user accounts. The third account cannot be created and files with more that two accounts cannot be opened or saved. If you need to manage more than two accounts, you should upgrade to the regular version of AceMoney.
+
+IDC_WEBSITE=Upgrade...
+IDOK=Close
+
+[IDD_STOCK]
+TITLE=Investment
+
+IDC_SYMBOLTEXT=Symbol
+IDC_NAMETEXT=Name
+IDC_COMMENTTEXT=Comment
+IDC_UPDATE=Update...
+IDC_WEBUPDATE=Download...
+IDC_PRICETEXT=Price History
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+COLUMN0=Date
+COLUMN1=Price
+
+[IDD_STOCKPRICE]
+TITLE=Stock Price
+
+IDC_DATETEXT=Date
+IDC_PRICETEXT=Price
+
+IDOK=OK
+IDCANCEL=Cancel
+
+[IDD_STOCKTRANSACTION]
+TITLE=Investment Transaction
+
+IDC_DATETEXT=Date
+IDC_ACCOUNTTEXT=Account
+IDC_ACTIONTEXT=Action
+IDC_INVESTMENTTEXT=Investment
+
+IDC_DIVIDENDTEXT=Dividend
+IDC_NUMBERTEXT=Number of shares
+IDC_PRICETEXT=Price
+IDC_COMMISSIONTEXT=Commission
+IDC_TOTALTEXT=Total
+
+BUY=Buy
+SELL=Sell
+DIVIDEND=Dividend
+REINVEST=Reinvest dividend
+ADD=Add shares
+REMOVE=Remove shares
+
+IDOK=OK
+IDCANCEL=Cancel
+IDHELP=Help
+
+[IDD_REPORTADD]
+TITLE=Add to favorites
+IDC_NAMETEXT=Name of the report
+IDOK=OK
+IDCANCEL=Cancel
+
+[IDD_REPORTORGANIZE]
+TITLE=Organize the reports
+IDC_DELETE=Delete
+IDOK=Generate
+IDCANCEL=Close

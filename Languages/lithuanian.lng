@@ -1,0 +1,1311 @@
+ProgramID=AceMoney
+Language=Lithuanian
+
+///////////////////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories_lt.dat
+BANKS=banks_lt.dat
+ACCOUNTTYPES=accounttypes_lt.dat
+
+CURRENCY=LT
+DECIMALS=2
+DECIMALSEPARATOR=,
+THOUSANDSEPARATOR=
+DATEFORMAT=YYMMDD
+DATESEPARATOR=-
+
+
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+
+STATUS=Pasiruoðæs
+TRANSFER=Pervedimas
+DEPOSIT=Indëliai
+WITHDRAWAL=Iðlaidos
+TO=á
+FROM=ið
+TOTAL=Ið viso
+CLEAREDTOTAL=Patvirtintas balansas
+RECONCILEDTOTAL=Suderintas balansas
+IMPORTEDTOTAL=Importuotas balansas
+UNCLEAREDTOTAL=Nesuderintas balansas
+TODAYTEXT=Ðiandien
+PAGE=Puslapis
+UNASSIGNED=(Tuðti áraðai)
+SAVEMODIFIED=Iðsaugoti pakeitimus?
+REPLACEMENTS=Pakeitimai atlikti
+INVALIDNUMBER=Neteisingas skaièiaus formatas!
+MSG_LOADSAMPLE=Atverti pavyzdþio bylà?
+MSG_SAMPLEFILEWARNING=Pavyzdys negali bûti iðaugotas! Praðome pasinaudoti Byla->Iðsaugoti kaip jei norite iðsaugoti duomenis kitoje byloje
+ONE_COLUMN_MUST_BE_DISPLAYED=Maþiausiai vienas stulpelis turi bûti pateiktas!
+
+[MENU]
+ID_FILE=Byla
+ID_FILE_NEW=Naujas
+ID_FILE_OPEN=Atverti...
+ID_FILE_SAVE=Iðsaugoti
+ID_FILE_SAVE_AS=Iðsaugoti kaip...
+ID_FILE_IMPORT=Importuoti...
+ID_FILE_EXPORT=Eksportuoti...
+ID_FILE_PRINT=Spausdinti...
+ID_FILE_PRINT_PREVIEW=Perþiûrëti prieð spausdinant...
+ID_APP_EXIT=Baigti
+
+ID_EDIT=Taisyti
+ID_EDIT_DELETE=Paðalinti
+ID_EDIT_INSERT=Áterpti
+ID_EDIT_ADDTOSCHEDULE=Átraukti á Tvarkaraðtá...
+ID_EDIT_COPY=Kopijuoti
+ID_EDIT_PASTE=Ákelti
+ID_EDIT_SELECTALL=Paþymëti viskà
+ID_EDIT_FIND=Ieðkoti...
+ID_EDIT_PROPERTIES=Savybës...
+
+ID_VIEW=Rodymas
+ID_VIEW_ACCOUNTS=Sàskaitos
+ID_VIEW_BANKS=Bankai
+ID_VIEW_PAYEES=Korespondentai
+ID_VIEW_CATEGORIES=Kategorijos ir biudþetas
+ID_VIEW_SCHEDULE=Tvarkaraðtis
+ID_VIEW_REPORTS=Ataskaitos
+ID_VIEW_PORTFOLIO=Akcijos
+
+ID_ACCOUNTS=Sàskaitos
+ID_ACCOUNTS_ADD=Sukurti sàskaità...
+ID_ACCOUNTS_TYPE=Sàskaitø tipai...
+
+ID_REPORTS=Ataskaitos
+ID_REPORTS_ADD=Átraukti á iðrinktuosius...
+ID_REPORTS_ORGANIZE=Tvarkyti...
+
+ID_TOOLS=Nustatymai
+ID_TOOLS_CURRENCY=Valiutø keitimo kursai...
+ID_TOOLS_INTERNATIONAL=Regioniniai nustatymai...
+ID_TOOLS_OPTIONS=Nustatymai...
+ID_TOOLS_COLORS=Ðriftas ir spalvos...
+ID_TOOLS_LANGUAGE=Kalba...
+ID_TOOLS_BACKUP=Atsarginë kopija...
+ID_TOOLS_RESTORE=Atkurti ið kopijos...
+ID_TOOLS_CALCULATOR=Skaièiuoklë...
+ID_TOOLS_CALCULATOR_LOAN=Paskolø skaièiuoklë...
+ID_TOOLS_CALCULATOR_SAVINGS=Santaupø skaièiuoklë...
+ID_TOOLS_CALCULATOR_MORTGAGE=Hipotekinë skaièiuoklë...
+ID_TOOLS_TRANSACTION_CATEGORY_LIST=Tranzakcijø kategorijos...
+
+ID_HELP=Pagalba
+ID_HELP_TOPICS=Turinys
+ID_HELP_HOMEPAGE=AceMoney svetainë...
+ID_HELP_WHATSNEW=Kas naujo programoje...
+ID_HELP_SUPPORT=Techninë pagalba...
+ID_HELP_FORUM=Web forumas...
+ID_HELP_TUTORIAL=Online vadovëlis...
+ID_HELP_REGISTER=Uþregistruoti AceMoney...
+ID_HELP_ORDER=Nupirkti AceMoney...
+ID_HELP_ABOUT=Apie programà...
+ID_FILE_ARCHIVE=Archyvas...
+ID_TOOLS_IMPORT_RULES=Importuoti taisykles...
+
+[TOOLBAR]
+ID_FILE_NEW=Naujas
+ID_FILE_OPEN=Atverti
+ID_FILE_SAVE=Iðsaugoti
+ID_VIEW_BACK=Atgal
+ID_VIEW_FORWARD=Pirmyn
+ID_VIEW_HOME=Á pradþià
+ID_VIEW_ACCOUNTS=Sàskaitos
+ID_VIEW_BANKS=Bankai
+ID_VIEW_PAYEES=Koresp.
+ID_VIEW_CATEGORIES=Kategorijos
+ID_VIEW_SCHEDULE=Tvarkaraðtis
+ID_VIEW_REPORTS=Ataskaitos
+ID_VIEW_PORTFOLIO=Akcijos
+ID_HELP_HOMEPAGE=Svetainë
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=Sàskaitos
+IDC_ADD=Sukurti sàskaità
+IDC_BILLS=Tvarkaraðtis
+IDC_REPORTS=Ataskaitos
+IDC_CURRENCY=Valiutø keitimas
+IDC_WEBUPDATE=Atsisiøsti kursus
+IDHELP=Pagalba
+
+LASTUPDATE=Modifikacija
+
+ID_ACCOUNT_OPEN=Atverti
+ID_ACCOUNT_ADD=Pridëti naujà sàskaità
+ID_ACCOUNT_DELETE=Paðalinti
+ID_ACCOUNT_EDIT=Savybës
+ID_ACCOUNT_SHOWNUMBERS=Rodyti sàskaitø numerius
+ID_ACCOUNT_SHOWCLOSED=Rodyti uþdarytas sàskaitas
+
+DELETE_CONFIRMATION=Sàskaita %s bus paðalinta kartu su visomis tranzakcijomis! Tæsti?
+
+UPDATE_SUCCESS=Valiutø kursai sëkmingai atnaujinti!
+UPDATE_FAILURE=Valiutø kursø atnaujinimo klaida! Patikrinkite sujungimà su Internetu.
+UPDATE_NOTREQUIRED=Atnaujinimas nereikalingas!
+NEW_CURRENCY_DETECTED=Ði sàskaita naudoja valiutà, kuri skiriasi nuo numatytosios. Jûs privalote atnaujinti valiutos kursà atsisiøsdami já ið interneto arba pakeisdami rankomis per Nustatymai->Valiutø keitimo kursai. Ar norite, kad AceMoney atsisiøstø kursus?
+
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPORTFOLIO]
+TITLE=Akcijos
+
+IDC_NEWTRANSACTION=Nauja tranzakcija...
+IDC_ADD=Nauja investicija...
+IDC_EDIT=Redaguoti investicijà...
+IDC_DELETE=Paðalinti investicijà...
+
+IDC_WEBUPDATE=Atsisiøsti kainas
+
+STOCKLIST=Akcijos
+STOCKTRANSACTIONLIST=Tranzakcijos
+
+IDHELP=Pagalba
+
+COLUMN0=Simbolis
+COLUMN1=Pavadinimas
+COLUMN2=Dabartinë kaina
+COLUMN3=Kiekis
+COLUMN4=Ið viso
+COLUMN5=Pelnas
+
+TRANSACTIONSCOLUMN0=Data
+TRANSACTIONSCOLUMN1=Veiksmas
+TRANSACTIONSCOLUMN2=Simbolis
+TRANSACTIONSCOLUMN3=Sàskaita
+TRANSACTIONSCOLUMN4=Dividendai
+TRANSACTIONSCOLUMN5=Kaina
+TRANSACTIONSCOLUMN6=Kiekis
+TRANSACTIONSCOLUMN7=Komisiniai
+TRANSACTIONSCOLUMN8=Ið viso
+TRANSACTIONSCOLUMN9=Komentaras
+
+CANTBEDELETED=Ði investicija susijusi su viena ar keliomis tranzakcijomis, todël jos negalima paðalinti!
+DELETECONFIRMATION=Ði investicija bus paðalinta. Ar tikrai?
+UPDATEISNOTREQUIRED=Atnaujinimas nëra bûtinas!
+UPDATEISNOTCOMPLETE=Kai kurios investicijos nebuvo atnaujintos!
+INVESTMENTNOTCREATED=Prieð atliekant ðià operacijà pirmiausiai turi bûti sukurta investicija!
+
+ID_EDIT_OPEN=Redaguoti investicijà
+ID_EDIT_INSERT=Sukurti naujà investicijà
+ID_EDIT_DELETE=Paðalinti
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=Sàskaita
+IDC_ADD=Nauja tranzakcija
+IDC_EDIT=Redaguoti
+IDC_DELETE=Paðalinti tranzakcijà
+IDC_BALANCE=Suderinti sàskaità
+IDC_WEBSITE=Atverti banko svetainæ
+IDC_ACCOUNT=Sàskaitos savybës
+IDC_BANK=Banko savybës
+IDC_MONTHREPORT=Ataskaita uþ mënesá
+IDC_REPORT=Ataskaita uþ 30 dienø
+IDC_HIDERECONCILED=Paslëpti áraðà
+IDHELP=Pagalba
+
+COLUMN0=Numeris
+COLUMN1=Data
+COLUMN2=Korespondentas
+COLUMN3=Kategorija
+COLUMN4=Nuo
+COLUMN5=Iðlaidos
+COLUMN6=Pajamos
+COLUMN7=Viso
+COLUMN8=Komentaras
+
+BANKISNOTASSIGNED=Norëdami pasinaudoti ðia funkcija, nurodykite bankà, kuriame yra ði sàskaita.
+PAGEISNOTASSIGNED=Ðiam bankui nenustatytas e-puslapio adresas. Adresà galima nurodyti dialoge Banko savybës
+STATUS=Ðá mënesá kategorijoje %s iðleista %.2f 
+STATUSINCOME=Ðá mënesá kategorijoje %s gauta %.2f
+STATUSSUM=Paþymëtø tranzakcijø suma:
+
+ID_TRANSACTION_UNCLEARED=Nepatvirtinta
+ID_TRANSACTION_CLEARED=Patvirtinta
+ID_TRANSACTION_RECONCILED=Áraðyta
+
+ID_EDIT_OPEN=Redaguoti
+ID_EDIT_INSERT=Nauja tranzakcija ...
+ID_EDIT_INSERTBILL=Áraðyti mokëjimà...
+ID_EDIT_DELETE=Paðalinti
+ID_EDIT_COPY=Kopijuoti
+ID_EDIT_PASTE=Áterpti
+ID_EDIT_CATEGORY=Kategorija...
+ID_EDIT_CATEGORYCHANGE=Pakeisti kategorijà...
+ID_EDIT_PAYEE=Korespondentas...
+ID_EDIT_PAYEECHANGE=Pakeisti korespondentà...
+ID_EDIT_ADDTOSCHEDULE=Átraukti á tvarkaraðtá...
+
+ID_REPORTS_CATEGORY=Ataskaita pagal kategorijas...
+ID_REPORTS_PAYEE=Ataskaita pagal korespondentà...
+
+BILLDELETECONFIRMATION=Ði komanda paðalins visas bûsimas Tranzakcijas pagal tvarkaraðtá!
+TRANSACTIONDELETECONFIRMATION=Ar tikrai?
+RECONCILEDTRANSACTIONCONFIRMATION=Ði Tranzakcija paþymëta kaip Áraðyta, jà keisti nerekomenduojama. Ar tæsti?
+CLEAREDTRANSACTIONCONFIRMATION=Ði Tranzakcija paþymëta kaip Patvirtinta, jà keisti nerekomenduojama. Ar tæsti?
+CANNOTSORTBYTOTAL=Rûðiavimas pagal Ið viso neturi prasmës!
+ID_EDIT_TAG=Þyma
+ID_EDIT_TAG_REMOVE_ALL=&0 Paðalinti visas þymas
+ID_EDIT_TAG_IMPORTANT=&1 Svarbu
+ID_EDIT_TAG_WORK=&2 Darbas
+ID_EDIT_TAG_PERSONAL=&3 Asmeninis
+ID_EDIT_TAG_LATER=&5 Vëliau
+ID_EDIT_TAG_TODO=&4 Atlikti
+ID_EDIT_ATTACHMENTS=Priedai
+ID_EDIT_ATTACHMENT_ADD=Pridëti...
+ID_EDIT_ATTACHMENT_DELETE=Iðtrinti
+COLUMN9=Sàskaita
+ID_VIEW_DISPLAYSIDEPANEL=Rodyti ðoniná meniu
+IDC_APPLY_IMPORT_RULES=Patvirtinti importavimo taisykles
+/////////////////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=Pridëti bankà
+IDC_EDIT=Redaguoti
+IDC_DELETE=Paðalinti bankà
+IDC_DELETEUNUSED=Paðalinti nenaudojamus
+IDC_IMPORT=Importuoti...
+IDHELP=Pagalba
+
+COLUMN0=Banko pavadinimas
+COLUMN1=Adresas
+COLUMN2=Svetainë
+COLUMN3=Komentaras
+
+CANTBEDELETED=Viena ið Jûsø sàskaitø yra ðiame banke. Banko negalima paðalinti.
+DELETECONFIRMATION=Ar tikrai?
+DELETEUNUSED=Ði komanda paðalins visus bankus, kuriuose nëra Jûsø sàskaitø. Ar tæsti?
+
+ID_EDIT_OPEN=Redaguoti
+ID_EDIT_INSERT=Naujas bankas
+ID_EDIT_DELETE=Paðalinti
+//////////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=Sukurti kategorijà
+IDC_EDIT=Redaguoti
+IDC_DELETE=Paðalinti
+IDC_DELETEUNUSED=Paðalinti nenaudojamas
+IDC_REPORT=Ataskaita pagal kategorijas
+IDC_BUDGETREPORT=Biudþetas uþ periodà
+IDC_IMPORT=Importuoti...
+IDC_MERGE=Sulieti...
+IDHELP=Pagalba
+
+COLUMN0=Kategorija
+COLUMN0a=Kodas
+COLUMN1=Biudþetas
+COLUMN2=Komentaras
+COLUMN1a=Pajamos
+COLUMN2a=Iðlaidos
+COLUMN3=Komentaras
+
+CANTBEDELETED=Viena ið tranzakcijø susijusi su ðia Kategorija. Kategorijos negalima paðalinti.
+PARENTCANTBEDELETED=Ði Kategorija turi kelias pokategorijas. Kad paðalinti  kategorijà, pradþioje iðtrinkite pokategorijas.
+DELETECONFIRMATION=Ar tikrai?
+DELETEUNUSED=Ði komanda paðalins visas Kategorijas, nesusijusias su transakcijomis. Ar tæsti?
+
+ID_EDIT_OPEN=Redaguoti
+ID_EDIT_INSERT=Sukurti kategorijà...
+ID_EDIT_DELETE=Paðalinti
+
+TOTALINCOME=Pajamos:
+TOTALEXPENSE=Iðlaidos:
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=Pridëti
+IDC_EDIT=Redaguoti
+IDC_DELETE=Paðalinti
+IDC_DELETEUNUSED=Paðalinti nenaudojamus
+IDC_REPORT=Ataskaita pagal koresp.
+IDC_MERGE=Sulieti...
+IDHELP=Pagalba
+
+COLUMN0=Pavadinimas
+COLUMN1=Adresas
+COLUMN2=Komentaras
+COLUMN3=Telefonas
+
+CANTBEDELETED=Viena ið tranzakcijø susijusi su ðiuo Korespondentu. Korespondento negalima paðalinti.
+DELETECONFIRMATION=Ar tikrai?
+DELETEUNUSED=Ði komanda paðalins visus Korespondentus, kurie nesusijæ su tranzakcijomis. Ar tæsti?
+
+ID_EDIT_OPEN=Redaguoti
+ID_EDIT_INSERT=Pridëti
+ID_EDIT_DELETE=Paðalinti
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=Filtruoti pagal datà
+IDC_SETDATES=Iðrinkti datas
+IDC_USECATEGORYFILTER=Filtruoti pagal kategorijas
+IDC_SETCATEGORIES=Iðrinkti kategorijas
+IDC_USEPAYEEFILTER=Filtruoti pagal korespondentus
+IDC_SETPAYEES=Iðrinkti korespondentus
+IDC_USEACCOUNTFILTER=Filtruoti pagal sàskaitas
+IDC_SETACCOUNTS=Iðrinkti sàskaitas
+IDC_TRANSACTIONS=Ataskaita pagal tranzakcijas
+IDC_CATEGORY=Iðlaidos pagal kategorijas
+IDC_SUBCATEGORY=Iðlaidos pagal subkategorijas
+IDC_PAYEE=Iðlaidos pagal korespondentus
+IDC_BUDGETCATEGORY=Biudþetas pagal kategorijas
+IDC_BUDGETSUBCATEGORY=Biudþetas pagal subkategorijas
+IDC_NETWORTH=Gerbûvis
+IDC_CASHFLOW=Pinigø judëjimo ataskaita
+IDC_LAST30DAYS=Pastarøjø 30 dienø tranzakcijø atask.
+IDC_INCLUDETRANSFERS=Átraukti tranzakcijas
+
+IDHELP=Pagalba
+IDC_TABLE=Lentelinë ataskaita
+IDC_CHART=Diagrama
+IDC_INCOMECHART=Pajamø diagrama
+IDC_EXPENSECHART=Iðlaidø diagrama
+IDC_PERIODCHART=Periodo diagrama
+IDC_TOTALCHART=Diagrama Ið viso
+
+CATEGORYCOLUMN0=Kategorija
+CATEGORYCOLUMN1=Suma
+CATEGORYCOLUMN2=Biudþetas
+CATEGORYCOLUMN3=Skirtumas
+CATEGORYCOLUMN4=Kodas
+CATEGORYCOLUMN5=Pajamos
+CATEGORYCOLUMN6=Iðlaidos
+
+CASHFLOWCOLUMN0=Data
+CASHFLOWCOLUMN1=Uþ periodà
+CASHFLOWCOLUMN2=Ið viso
+
+OTHERS=Kiti
+
+GENERALREPORTS=Bendros ataskaitos
+CATEGORYREPORTS=Kategorijø ataskaitos
+PAYEEREPORTS=Koresp. ataskaitos
+BUDGETREPORTS=Biudþeto ataskaitos
+FAVORITEREPORTS=Daþnos ataskaitos
+
+PAYEECOLUMN0=Korespondentas
+PAYEECOLUMN1=Suma
+PAYEECOLUMN2=Pajamos
+PAYEECOLUMN3=Iðlaidos
+
+IDC_CATEGORYBYMONTH=Mënesio iðlaidos pagal kategorijas
+IDC_SUBCATEGORYBYMONTH=Mënesio iðlaidos pagal subkategorijas
+///////////////////////////////////////////////////////////////////////////////
+
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Átraukti á sàskaità
+IDC_ADD=Pridëti mokëjimà
+IDC_EDIT=Redaguoti mokëjimà
+IDC_DELETE=Paðalinti
+IDHELP=Pagalba
+
+COLUMN0=Kita data
+COLUMN1=Tranzakcija
+COLUMN2=Korespondentas
+COLUMN3=Suma
+COLUMN4=Komentaras
+COLUMN5=Periodiðkumas
+
+IDC_TABLE=Lentelë
+IDC_CALENDAR=Kalendorius
+
+DELETECONFIRMATION=Ar tikrai?
+
+CHANGE_OF_ACCOUNT=Norite parinkti kità sàskaità visiems bûsimiems mokëjimams?
+CHANGE_OF_AMOUNT=Norite parinkti kità sumà visiems bûsimiems mokëjimams?
+
+ID_EDIT_OPEN=Átraukti á sàskaità
+ID_EDIT_INSERT=Pridëti
+ID_EDIT_DELETE=Paðalinti
+ID_EDIT_PROPERTIES=Redaguoti
+ID_EDIT_COPY=Kopijuoti
+ID_EDIT_PASTE=Ákelti
+///////////////////////////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=Apie programà
+[IDD_ACCOUNT]
+TITLE=Sàskaita
+IDC_NAMETEXT=Pavadinimas
+IDC_TYPETEXT=Sàskaitos tipas
+IDC_BANKTEXT=Banko pavad.
+IDC_NUMBERTEXT=Sàskaitos numeris
+IDC_BALANCETEXT=Pradinis balansas
+IDC_CURRENCYTEXT=Valiuta
+IDC_CLOSED=Ði sàskaita uþdaryta
+IDC_COMMENTTEXT=Komentaras
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+
+ERR_NOACCOUNTNAME=Sàskaita privalo turëti pavadinimà!
+ERR_NOACCOUNTTYPE=Sàskaita privalo turëti tipà!
+ERR_NOCURRENCY=Sàskaitai  bûtina parinkti valiutà!
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=Sàskaitø tipai
+IDC_ADD=Pridëti...
+IDC_DELETE=Paðalinti
+IDC_EDIT=Pakeisti...
+IDOK=Taip
+IDCANCEL=Atðaukti
+
+ERR_CANTDELETE=Ðis tipas jau naudojamas vienos ið esamø sàskaitø!
+
+[IDD_ACCOUNTTYPE]
+TITLE=Sàskaitø tipai
+IDC_NAMETEXT=Tipo pavadinimas
+IDOK=Taip
+IDCANCEL=Atðaukti
+
+ERR_NOACCTYPENAME=Sàskaitos pavadinimas nenustatytas!
+
+[IDD_BACKUP]
+TITLE=Rezervinis kopijavimas
+
+IDC_ENABLEBACKUP=Aktyvuoti rezerviná kopijavimà
+
+IDC_LASTBACKUPTEXT=Pastaroji kopija
+IDC_FREQUENCYTEXT=Daþnumas
+IDC_DIRECTORYTEXT=Katalogas
+IDC_BACKUP=Kopijuoti
+IDC_AUTOMATIC=Kopijuoti automatiðkai
+
+IDC_EVERYDAY=Kasdien
+IDC_EVERYWEEK=Kas savaitæ
+IDC_EVERYOTHERWEEK=Kas dvi savaites
+
+IDC_BROWSE=Pasirinkti...
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+
+ERR_INVALIDDIR=Reikia nurodyti teisingà kelià!
+ERR_COPYFILE=Raðymo klaida! Patikrinkite ar yra diskas ir ar pakanka jame vietos!
+ERR_BACKUPTIME=Pagal Jûsø nustatymus, laikas daryti rezervinæ kopijà. Ar tæsti?
+ERR_NEWFILE=Iðsaugokite failà prieð darydami rezervinæ kopijà!
+ERR_COPYFILE_RESTORE=Ávyko klaida atkuriant bylà! Patikrinkite, ar ádëtas diskas, ar jame pakankamai vietos!
+SELECT_FILE_TO_RESTORE=Pasirinkite atkuriamà bylà
+SELECT_RESTORE_DIR=Parinkite aplankà atkurtai bylai
+OPEN_RESTORED_FILE=Atverti atkurtà bylà?
+[IDD_BALANCE]
+TITLE=Suderinti sàskaità
+
+IDC_CLEAREDDEPOSITS=Patvirtinti indëliai
+IDC_CLEAREDWITHDRAWALS=Patvirtinti iðëmimai
+
+IDC_RECONCILEDTEXT=Ankstesnis tvirtinamas balansas
+IDC_CLEAREDTEXT=Dabartinis tvirtinamas balansas
+IDC_UNCLEAREDTEXT=Nesuderintas balansas
+
+IDC_NEWTRANSACTION=Nauja...
+IDC_SELECTALL=Þymëti viskà
+IDC_DESELECTALL=Atðaukti
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+[IDD_BANK]
+TITLE=Bankas
+IDC_NAMETEXT=Pavadinimas
+IDC_ADDRESSTEXT=Adresas
+IDC_WEBSITETEXT=Svetainë
+IDC_COMMENTTEXT=Komentaras
+IDC_BANKNUMBERTEXT=Banko kodas
+IDC_SWIFTCODETEXT=SWIFT kodas
+IDC_TRANSFERCODETEXT=Perved. kodas
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+
+ERR_NOBANKNAME=Bankas privalo turëti pavadinimà!
+
+[IDD_BILL]
+TITLE=Pasikartojanti tranzakcija
+
+IDC_FREQUENCYGROUP=Periodiðkumas
+IDC_STARTDATETEXT=Pradþios data
+
+IDC_ONCE=Vienà kartà
+IDC_DAILY=Kasdien
+IDC_WEEKLY=Kas savaitæ
+IDC_EVERYOTHERWEEK=Kas antrà savaitæ
+IDC_TWICEAMONTH=Dukart per mënesá
+IDC_EVERYFOURWEEKS=Kas 4 savaites
+IDC_MONTHLY=Kas mënesá
+IDC_EVERYOTHERMONTH=Kas antrà mënesá
+IDC_QUARTERLY=Kartà per ketvirtá
+IDC_EVERYFOURMONTHS=Kas keturis mënesius
+IDC_EVERYSIXMONTHS=Kas pusmetá
+IDC_ANNUALLY=Kasmet
+
+IDC_BILLTYPETEXT=Mokesèio tipas
+BILLTYPE_CONTINUOUS=Pastovus
+BILLTYPE_NUMBERED=Numeruojamas
+
+IDC_NUMBERTEXT=Mokëjimo nr.
+
+IDC_TRANSACTIONGROUP=Tranzakcija
+IDC_TYPETEXT=Tipas
+IDC_DEPOSIT=Pajamos
+IDC_WITHDRAWAL=Iðlaidos
+IDC_TRANSFER=Pervedimas
+IDC_ACCOUNTTEXT=Sàskaita
+IDC_PAYEETEXT=Korespondentas
+IDC_CATEGORYTEXT=Kategorija
+IDC_SPLIT=Iðskaidyti
+IDC_AMOUNTTEXT=Suma
+IDC_COMMENTTEXT=Komentaras
+
+IDC_ENTER=Átraukti
+IDC_AUTOMATIC=Áraðyti sàraðà automatiðkai
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+
+ERR_INVALIDACCOUNT=Neteisingas sàskaitos pavadinimas!
+ERR_INVALIDNUMBER=Maþiausiai turi bûti ávestas bent vienas mokëjimas!
+
+
+[IDD_CATEGORY]
+TITLE=Kategorija
+
+IDC_NAMETEXT=Kategorija
+IDC_SUBNAMETEXT=Subkategorija
+IDC_COMMENTTEXT=Komentaras
+IDC_NUMBERTEXT=Kodas
+
+IDC_BUDGETTEXT=Biudþetas
+IDC_BUDGETPERIODTEXT=Biudþ. periodas
+IDC_INCOME=Pajamos
+IDC_EXPENSE=Iðkaidos
+
+PERIOD_ONE_WEEK=Viena savaitë
+PERIOD_TWO_WEEKS=Dvi savaitës
+PERIOD_HALF_MONTH=Pusë mënesio
+PERIOD_ONE_MONTH=Vienas mënuo
+PERIOD_TWO_MONTHS=Du mënesiai
+PERIOD_THREE_MONTHS=Trys mënesiai
+PERIOD_FOUR_MONTHS=Keturi mënesiai
+PERIOD_SIX_MONTHS=Ðeði mënesia
+PERIOD_NINE_MONTHS=Devyni mënesiai
+PERIOD_ONE_YEAR=Vieneri metai
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+
+ERR_NOCATNAME=Kategorija privalo turëti pavadinimà!
+ERR_CATEXIST=Kategorija ðiuo pavadinimu jau yra!
+[IDD_CATEGORYCHANGE]
+TITLE=Kategorijø keitimas
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+
+[IDD_CATEGORYMERGE]
+TITLE=Sulieti kategorijas
+IDC_CATEGORYTEXT=Sulieti kategorijà
+IDC_CATEGORYTEXT1=su kategorija
+
+IDOK=Taip
+IDCANCEL=Baigti
+IDHELP=Pagalba
+
+ERR_NOCATEGORIES=Abi esanèios kategorijos turi bûti paþymëtos ir skirtingos!
+ERR_SOURCECATEGORY=Pirminë kategorija neturi turëti subkategorijø!
+ERR_TARGETCATEGORY=Antrinë kategorija neturi bûti pirminës kategorijos subkategorija!
+[IDD_CALC_LOAN]
+TITLE=Paskolø skaièiuoklë
+
+IDC_AMOUNTTEXT=Paskolos suma
+IDC_RATETEXT=Metinis procentas, %
+IDC_PERIODTEXT=Trukmë mënesiais
+IDC_PAYMENTTEXT=Mokëjimas
+IDC_TOTALINTERESTTEXT=Ið viso procentø
+
+COLUMN0=#
+COLUMN1=Mokëjimas
+COLUMN2=Kapitalas
+COLUMN3=Procentai
+COLUMN4=Likutis
+
+IDOK=Taip
+
+
+[IDD_CALC_SAVINGS]
+TITLE=Santaupø skaièiuoklë
+
+IDC_MONTHLYPAYMENTTEXT=Mënesinis ánaðas
+IDC_INITIALBALANCETEXT=Pradinis balansas
+IDC_RATETEXT=Metinis procentas, %
+IDC_PERIODTEXT=Trukmë mënesiais
+IDC_STARTDATETEXT=Pradþios data
+IDC_TOTALINTERESTTEXT=Ið viso procentø
+IDC_TOTALTEXT=Ið viso
+
+COLUMN0=Eil. nr.
+COLUMN1=Data
+COLUMN2=Mokëjimas
+COLUMN3=Procentai
+COLUMN4=Ið viso
+
+IDOK=Taip
+
+[IDD_CALC_MORTGAGE]
+TITLE=Bûsto paskolos skaièiuoklë
+
+IDC_VALUETEXT=Bûsto kaina
+IDC_AMOUNTTEXT=Paskolos suma
+IDC_TERMTEXT=Trukmë (metais)
+IDC_DATETEXT=Áforminimo data
+IDC_RATETEXT=Metinis procentas, %
+IDC_TAXTEXT=Turto mokestis
+IDC_INSURANCETEXT=Draudimas
+
+IDC_REQUIREDPAYMENTTEXT=Bûtinos ámokos
+IDC_TOTALINTERESTTEXT=Ið viso procentø
+IDC_TOTALPMITEXT=Ið viso PMI
+IDC_TOTALMONTHSTEXT=Mokëjimø kiekis
+
+COLUMN0=Data
+COLUMN1=Kapitalas
+COLUMN2=Procentai
+COLUMN3=Mokestis
+COLUMN4=Draudimas
+COLUMN5=PMI
+COLUMN6=Mokëjimas
+COLUMN7=Likutis
+
+IDOK=Taip
+IDHELP=Atðaukti
+
+[IDD_COLORS]
+TITLE=Ðriftas ir spalvos
+
+IDC_ACCOUNTLISTTEXT=Sàskaitø sàraðas
+IDC_ACCOUNTTEXT=Sàskaitos registras
+IDC_BANKTEXT=Bankai
+IDC_CATEGORYTEXT=Kategorijos
+IDC_PAYEETEXT=Korespondentai
+IDC_SCHEDULETEXT=Tvarkaraðtis
+IDC_REPORTTEXT=Ataskaitos
+IDC_PORTFOLIOTEXT=Portfolio
+
+IDC_LISTFONTTEXT=Lenteliø ðriftas
+
+IDC_TABLEFONTCOLORTEXT=Lentelø teksto spalva
+IDC_TABLEBILLFONTCOLORTEXT=Bûsimø mokëjimø spalva
+IDC_TABLEBACKGROUNDTEXT1=Lentelës 1 fono spalva
+IDC_TABLEBACKGROUNDTEXT2=Lentelës 2 fono spalva
+
+IDC_RESTORE=Áprastai
+IDOK=Taip
+IDCANCEL=Atðaukti
+[IDD_CURRENCY]
+TITLE=Valiutø keitimo kursai
+IDC_SHOWALL=Parodyti visas valiutas
+IDC_CURRENCYINFO=Valiuta pagal numatymà: %s
+IDC_DOWNLOAD=Atsisiøsti...
+IDC_UPDATE=Naujas kursas
+
+IDOK=Uþdaryti
+IDHELP=Pagalba
+
+COLUMN0=Valiuta
+COLUMN1=Kursas su
+COLUMN2=Data
+ERR_WEBUPDATE=Keitimo kurso atnaujinimo internetu klaida. Patikrinkite sujungimà su internetu!
+ERR_INVALIDRATE=Neteisinga keitimo kurso reikðmë!
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=Keitimo kursas
+IDOK=Taip
+IDCANCEL=Atðaukti
+[IDD_SHEETREPORTFILTER]
+TITLE=Ataskaitø filtras
+[IDD_DATESRANGE]
+TITLE=Iðsirinkite periodà
+
+CURRENTWEEK=Einamoji savaitë
+PREVIOUSWEEK=Praeita savaitë
+LAST30DAYS=Pastarosios 30 dienø
+CURRENTMONTH=Einamasis mënuo
+PREVIOUSMONTH=Praëjæs mënuo
+CURRENTQUARTER=Einamasis ketvirtis
+PREVIOUSQUARTER=Praëjæs ketvirtis
+CURRENTYEAR=Einamieji metai
+PREVIOUSYEAR=Praëjæ metai
+
+IDC_PERIODSTEXT=Pasirinkite periodà
+IDC_CUSTOMDATES=Vartotojiðkas periodas:
+IDC_FROMTEXT=Nuo
+IDC_TOTEXT=Iki
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+
+CURRENT=Ðitas
+CUSTOM=Vartotojo
+
+[IDD_FILTERACCOUNT]
+TITLE=Iðsirinkite sàskaitas
+
+IDC_SELECTALL=Paþymëti viskà
+IDC_CLEARALL=Iðvalyti viskà
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+
+[IDD_FILTERCATEGORY]
+TITLE=Iðsirinkite kategorijas
+
+IDC_SELECTALL=Paþymëti viskà
+IDC_CLEARALL=Iðvalyti  viskà
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+
+[IDD_FILTERPAYEE]
+TITLE=Iðsirinkite korespondentus
+
+IDC_SELECTALL=Paþymëti viskà
+IDC_CLEARALL=Iðvalyti viskà
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+
+[IDD_IMPORT]
+TITLE=Importuoti
+
+IDC_IMPORTTEXT=Pasirinkite importavimui sàskaitas
+IDC_NEWACCOUNT=Nauja sàskaita...
+IDC_DATEFORMATTEXT=Datø formatas
+ERR_NOACCOUNT=Praðome pasirinkti jau esanèià arba sukurkite naujà sàskait!
+
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDC_IMPORT_RULES=Importuoti taisykles...
+IDC_DETECT_DUPLICATES=Ieðkoti pasikartojimø
+STATUS_READING_FILE=Byla skaitoma...
+STATUS_PARSING_FILE=Bla apdorojama...
+ERR_NO_TRANSACTIONS=Byla neturi tranzakcijø.
+STATUS_IMPORTING_TRANSACTIONS=Importuojamos tranzakcijos...
+ERR_PARSING=Bylos negalima inportuoti, kadangi ji yra arba paþeista, arba neatitinka standartø
+ERR_TRANSACTIONS_FOR_MANY_ACCOUNTS=Bylo yra daugiau nei vienos sàskaitos tranzakcijø, todël importuoti negalima
+STATUS_IMPORTING_BILLS=Importuojamos sàskaitos ir depozitai...
+STATUS_IMPORTING_ACCOUNTS=Importuojamos sàskaitos...
+STATUS_IMPORTING_CATEGORIES=Importuojamos kategorijos...
+STATUS_IMPORTING_INVESTMENTS=Importuojamos investicijos...
+STATUS_IMPORTING_HISTORICAL_PRICES=Importuojamos istorinës birþos kainos...
+
+[IDD_EXPORT]
+TITLE=Eksportas
+
+IDC_EXPORTTEXT=Pasirinkite sàskaità eksportui
+IDC_STARTDATETEXT=Pradþios data
+IDC_ENDDATETEXT=Pabaigos data
+
+ERR_NOACCOUNT=Praðome pasirinkti sàskaità!
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+
+
+
+[IDD_LANGUAGE]
+TITLE=Pasirinkite kalbà
+IDOK=Taip
+IDCANCEL=Atðaukti
+
+[IDD_INTERNATIONALSETTINGS]
+TITLE=Regioniniai nustatymai
+
+IDC_DATETEXT=Datos formatas
+IDC_DATESEPARATORTEXT=Datos skyriklis
+IDC_CURRENCYTEXT=Numatytoji valiuta
+IDC_DECIMALSEPARATORTEXT=Deðimtainë þyma
+IDC_THOUSANDSEPARATORTEXT=Tûkstanèiø skirtukas
+IDC_NUMBEROFDECIMALDIGITSTEXT=Deðimtainiø skaièiø kiekis
+
+ERR_THOUSANDDECIMAL=Deðimtainë þyma ir tûkstanèiø skirtukas negali bûti vienodi!
+ERR_THOUSAND=Neteisingas tûkstanèiø skirtukas!
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+
+[IDD_OPTIONS]
+TITLE=Nustaymai
+
+
+
+
+
+
+
+
+
+
+
+IDC_GENERALGROUP=Bendri
+IDC_SHOWCLOSEDACCOUNTS=Rodyti uþdarytas sàskaitas
+IDC_SHOWACCOUNTNUMBERS=Rodyti sàskaitø numerius
+IDC_SHOWGRID=Tinklelis lentelëse
+IDC_LOADLASTFILE=Atverti paskutinæ bylà startuojant
+IDC_SHOWCOMMENT=Rodyti tranzakcijø komentarus
+IDC_AUTOSAVE=Automatinis iðsaugojimas
+IDC_SHOWSPLASHSCREEN=Rodyti uþsklandà startuojant
+IDC_SHOWFILENAME=Rodyti bylos pavadinimà antraðtëje
+IDC_SHOWSOLDSTOCKS=Rodyti parduotas akcijas
+IDC_ADDINVESTMENTVALUE=Pridëti akcijø kainas prie sàskaitos balanso
+IDC_TRANSFERSTATUS=Pakeisti pervedimø bûklæ abiejose sàskaitose
+IDC_SHOWDEPOSITSFIRST=Rodyti dienos pradþios pajamas
+IDC_SHOWCATEGORYSTATUS=Analizuoti kategorijas keièiant tranzakcijà
+
+IDC_STARTPAGEGROUP=Pradþios puslapis
+IDC_ACCOUNTLIST=Sàskaitø sàraðas
+IDC_FAVORITEACCOUNT=Iðrinkta sàskaita
+
+IDC_PASSWORDGROUP=Slaptaþodis
+IDC_OLDPASSTEXT=Dabartinis slaptaþodis
+IDC_NEWPASSTEXT=Naujas slaptaþodis
+IDC_RETYPETEXT=Pakartokite naujà slaptaþodá
+IDC_TRANSACTIONTYPETEXT=Naujas tranzakcijos tipas
+LASTUSEDTYPE=Paskutinis naudotas tipas
+
+
+IDC_TRANSACTIONNUMBERTEXT=Naujos tranzakcijos numeris
+NUMBER_EMPTY=Be numerio
+NUMBER_DEBIT=Debetas
+NUMBER_AUTO=Paskutinis plius vienas
+
+IDC_NUMBEROFFUTUREBILLSMONTHSTEXT=Rodyti bûsimas sàskaitas
+0_MONTHS_AHEAD=Nerodyti
+1_MONTHS_AHEAD=1 mënesiu á prieká
+2_MONTHS_AHEAD=2 mënesiais á prieká
+3_MONTHS_AHEAD=3 mënesiais á prieká
+4_MONTHS_AHEAD=4 mënesiais á prieká
+5_MONTHS_AHEAD=5 mënesiais á prieká
+6_MONTHS_AHEAD=6 mënesiais á prieká
+7_MONTHS_AHEAD=7 mënesiais á prieká
+8_MONTHS_AHEAD=8 mënesiais á prieká
+9_MONTHS_AHEAD=9 mënesiais á prieká
+10_MONTHS_AHEAD=10 mënesiø á prieká
+11_MONTHS_AHEAD=11 mënesiø á prieká
+12_MONTHS_AHEAD=12 mënesiø á prieká
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+ERR_INVALIDOLDPASSWORD=Neteisingas senas slaptaþodis!
+ERR_INVALIDNEWPASSWORD=Neteisingas naujas slaptaþodis
+IDC_SHOWDUPLICATECHECKWARNING=Rodyti pasikartojanèio èekio perpëjimà
+IDC_NETWORK=Tinklas...
+
+[IDD_PASSWORD]
+TITLE=Áraðykite slaptaþodá
+IDC_PASSTEXT=Slaptaþodis
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+ERR_INVALIDPASSWORD=Neteisingas slaptaþodis!
+
+[IDD_PAYEE]
+TITLE=Korespondentas
+
+IDC_NAMETEXT=Pavadinimas
+
+IDC_ADDRESSTEXT=Adresas
+IDC_CITYTEXT=Miestas
+IDC_STATETEXT=Sritis
+IDC_ZIPTEXT=Paðto ind.
+IDC_COUNTRYTEXT=Ðalis
+
+IDC_HOMEPHONETEXT=Namø tel.
+IDC_WORKPHONETEXT=Darbo tel.
+IDC_MOBILEPHONETEXT=Mobilus tel.
+IDC_FAXTEXT=Faksas
+IDC_PAGERTEXT=Pran. gaviklis
+
+IDC_EMAILTEXT=E. paðtas
+IDC_WEBSITETEXT=Svetainë
+
+IDC_COMMENTTEXT=Komentaras
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+ERR_NOPAYEENAME=Korespondentas privalo turëti pavadinimà!
+
+
+
+
+
+
+
+
+
+
+[IDD_PAYEECHANGE]
+TITLE=Korespondento keitimas
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+
+[IDD_PAYEEMERGE]
+TITLE=Sulieti korespondentus
+IDC_PAYEETEXT=Sulieti korrespondentà
+IDC_PAYEETEXT1=Su korespondentu
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+
+ERR_NOPAYEES=Abu korespondentai turi bûti paþymëti ir skirtingi!
+[IDD_PRINTPREVIEW]
+TITLE=Perþiûra
+IDC_PAGETEXT=Puslapis
+IDC_PAGEOFTEXT=ið
+IDC_PRINT=Spausdinti...
+IDC_CLOSE=Uþverti
+IDC_PAGEPROPERTIES=Parametrai...
+IDC_PREVIOUSPAGE=<< Atgal
+IDC_NEXTPAGE=Toliau >>
+IDC_ZOOMIN=Padidinti
+IDC_ZOOMOUT=Pamaþinti
+
+IDOK=Taip
+IDHELP=Pagalba
+
+[IDD_PAGESETUP]
+TITLE=Puslapio parametrai
+IDC_PAPERBOX=Popierius
+IDC_ORIENTATIONBOX=Padëtis
+IDC_MARGINBOX_MM=Paraðtës (mm)
+IDC_MARGINBOX_INCH=Paraðtës (coliai)
+IDC_TITLETEXT=Antraðtë:
+IDC_PAPERSIZETEXT=Dydis:
+IDC_PORTRAIT=Staèias
+IDC_LANDSCAPE=Gulsèias
+IDC_TMTEXT=Virðuje:
+IDC_BMTEXT=Apaèioje:
+IDC_LMTEXT=Kairëje:
+IDC_RMTEXT=Deðinëje:
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+
+
+
+[IDD_REGISTER]
+TITLE=Registracija
+
+IDC_NAMETEXT=Vardas:
+IDC_SERIALNUMBERTEXT=Raktas:
+
+IDC_ORDER=Pirkti...
+
+IDOK=Taip
+
+[IDD_SEARCH]
+TITLE=Paieðka
+
+IDC_DATETEXT=Datos
+IDC_FROMTEXT=nuo
+IDC_TOTEXT=iki
+IDC_AMOUNTTEXT=Suma
+IDC_AMOUNTFROMTEXT=nuo
+IDC_AMOUNTTOTEXT=iki
+IDC_COMMENTTEXT=Tekstas
+IDC_SEARCH=Ieðkoti
+IDC_CLOSE=Uþverti
+IDC_ACCOUNTTEXT=Sàskaita
+ALLACCOUNTS=Visos sàskaitos
+
+
+[IDD_SPLIT]
+TITLE=Iðskirstyti á kategorijas
+IDC_CATEGORYTEXT=Kategorija
+IDC_SUBCATEGORYTEXT=Subkategorija
+IDC_AMOUNTTEXT=Suma
+IDC_ADD=Pridëti
+IDC_EDIT=Redaguoti
+IDC_DELETE=Paðalinti
+IDC_TOTALTEXT=Ið viso:
+IDC_UNASSIGNEDTEXT=Likutis:
+IDC_COMMENTTEXT=Komentaras
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+
+COLUMN0=Kategorija
+COLUMN1=Subkategorija
+COLUMN2=Suma
+COLUMN3=Komentaras
+
+ERR_BADTOTAL=Sudedamøjø daliø suma nelygi tranzakcijos sumai. Pakeisti tranzakcijos sumà?
+
+[IDD_SPLITITEM]
+TITLE=Iðlaidos pagal kategorijas
+IDC_CATEGORYTEXT=Kategorija
+IDC_SUBCATEGORYTEXT=Subkategorija
+IDC_AMOUNTTEXT=Suma
+IDC_COMMENTTEXT=Komentaras
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+[IDD_TRANSACTION]
+TITLE=Tranzakcija
+IDC_TYPETEXT=Tipas
+IDC_DEPOSIT=Pajamos
+IDC_WITHDRAWAL=Iðlaidos
+IDC_TRANSFER=Pervedimas
+IDC_ACCOUNTTEXT=Sàskaita
+IDC_PAYEETEXT=Korespondentas
+IDC_CATEGORYTEXT=Kategorija
+IDC_SPLIT=Iðskaidyti
+IDC_COMMENTTEXT=Komentaras
+IDC_DATETEXT=Data
+IDC_NUMBERTEXT=Numeris
+IDC_AMOUNTTEXT=Suma
+
+FROMTEXT=Ið kur
+TOTEXT=Á kur
+SPLIT=Miðri
+DEBIT=Debetas
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+
+ERR_SAMETRANFER=Vienodos sàskaitos pervedimui!
+ERR_INVALIDACCOUNT=Neteisingas sàskaitos pavadinimas!
+ERR_SPLITAMOUNT=Tranzakcijos suma turi bûti lygi skaidinio sumai!
+ERR_SPLIT_HAS_TRANSFERS=Pervedimo tipo tranzakcija negali turëti vidiniø pervedimø! Paðalinkite pervedimus ir tik tada keiskite tranzakcijos tipà>
+
+[IDD_TRANSACTIONCATEGORYLIST]
+TITLE=Tranzakcijø kategorijos
+IDC_ADD=Pridëti...
+IDC_DELETE=Paðalinti
+IDC_EDIT=Paleisti...
+IDOK=Uþverti
+IDHELP=Pagalba
+UPDATE_TRANSACTIONS=Ar norite pakeisti esmao tranzakcijos pavadinimà nauju?
+DELETE_TRANSACTIONS=Ar norite paðalinti iðtrintà kategorijà eanèioje tranzakcijoje
+
+[IDD_TRANSACTIONCATEGORY]
+TITLE=Tranzakcijos kategorija
+IDC_NAMETEXT=Pavadinimas
+IDOK=Taip
+IDCANCEL=Atðaukti
+
+ERR_NONAME=Tranzakcijos kategorija negali bûti tuðèias laukas!
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Keitimo kursas
+
+IDC_SOURCEAMOUNTTEXT=Ðaltinio suma
+IDC_TARGETAMOUNTTEXT=Suma
+IDOK=Taip
+IDCANCEL=Atðaukti
+
+[IDD_DAYBILLS]
+TITLE=Sàskaitos/Indëliai
+
+COLUMN0=Data
+COLUMN1=Apraðymas
+COLUMN2=Korespondentas
+COLUMN3=Suma
+COLUMN4=Komentaras
+COLUMN5=Periodiðkumas
+
+IDC_ENTER=Ávesti
+IDC_EDIT=Redaguoti...
+
+IDOK=Taip
+IDHELP=Pagalba
+IDC_DELETE=Trinti...
+
+
+
+[IDD_LITEVERSION]
+TITLE=AceMoney Lite
+
+IDC_TEXT=AceMoney Lite dirba tik su viena vartotojo sàskaita. Negalima sukurti antros sàskaitos ir atverti failo su keliom sàskaitom. Jei jums reikia tvarkyti kelias sàskaitas, atnaujinkite programà iki pilnos AceMoney versijos.
+IDC_WEBSITE=Atnaujinti...
+IDOK=Uþverti
+[IDD_STOCK]
+TITLE=Investicija
+
+IDC_SYMBOLTEXT=Simbolis
+IDC_LOOKUP=Simbolio paieðka...
+IDC_NAMETEXT=Pavadinimas
+IDC_CURRENCYTEXT=Valiuta
+IDC_COMMENTTEXT=Komentaras
+IDC_UPDATE=Atnaujinti...
+IDC_WEBUPDATE=Atsisiøsti...
+IDC_PRICETEXT=Kainø istorija
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+
+COLUMN0=Data
+COLUMN1=Kaina
+ERR_EMPTYSYMBOL=Bûtina áraðyti birþos simbolá!
+IDC_DIVIDEBY100TEXT=Pdlinti atsisiøsta kvotà ið 100
+ERR_INVALIDDATASOURCE=Bûtina pasirinkti galiojantá ðaltiná!
+ERR_CONNECTIONORSYMBOL=Jungimosi prie interneto klaida arba neteisingas birþos simbolis
+ERR_EMPTYNAME=Bûtina áraðyti akcijos pavadiimà!
+
+[IDD_STOCKPRICE]
+TITLE=Akcijos kaina
+
+IDC_DATETEXT=Data
+IDC_PRICETEXT=Kaina
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+
+[IDD_STOCKTRANSACTION]
+TITLE=Investicinë tranzakcija
+
+IDC_DATETEXT=Data
+IDC_ACCOUNTTEXT=Sàskaita
+IDC_ACTIONTEXT=Veiksmas
+IDC_INVESTMENTTEXT=Investicija
+
+IDC_DIVIDENDTEXT=Dividendai
+IDC_NUMBERTEXT=Akcijø kiekis
+IDC_PRICETEXT=Kaina
+IDC_COMMISSIONTEXT=Komisiniai
+IDC_TOTALTEXT=Ið viso
+
+BUY=Pirkti
+SELL=Parduoti
+DIVIDEND=Dividendai
+REINVEST=Reinvestuoti dividendus
+ADD=Pridëti akcijø
+REMOVE=Paðalinti akcijas
+
+IDOK=Taip
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+
+ERR_NEGATIVEVALUES=Akcijø kiekis, akcijos kaina, dividendai, komisiniai arba Ið viso privalo bûti sveikas skaièius!
+ERR_INVALIDACTIONTYPE=Neteisingas tranzakcijos tipas!
+ERR_INVALIDACCOUNT=Neteisinga sàskaita!
+ERR_INVALIDINVESTMENT=Neteisinga investicija!
+IDC_COMMENTTEXT=Komentaras
+ERR_INCONSISTENTCURRENCY=Pasirinktos sàskaitos valiuta privalo atitikti akcijos valiutà!
+
+[IDD_REPORTADD]
+TITLE=Átraukti á iðrinktus
+IDC_NAMETEXT=Ataskaitos pavadinimas
+IDOK=Taip
+IDCANCEL=Atðaukti
+
+[IDD_REPORTORGANIZE]
+TITLE=Tvarkyti ataskaitas
+IDC_DELETE=Ðalinti
+IDOK=Generuoti
+IDCANCEL=Uþverti
+[IDD_STARTUP_CURRENCY]
+TITLE=Valiutos nustatymai
+IDC_CURRENCYTEXT=Valiuta pagal numatymà
+IDC_NUMBEROFDECIMALSTEXT=Þenklø po kablelio
+IDC_DECIMALSEPARATORTEXT=Deðimtainë þyma
+IDC_THOUSANDSEPARATORTEXT=Tûkstanèiø skirtukas
+IDC_EXAMPLETEXT=Pavyzdys
+
+IDC_BACK=<< Atgal
+IDC_NEXT=Toliau >>
+
+SEPARATOR_SPACE=Tarpas
+SEPARATOR_NONE=Tuðèias skyriklis
+
+ERR_THOUSANDDECIMAL=Deðimtainë þyma ir tûkstanèiø skirtukas negali bûti vienodi!
+
+[IDD_STARTUP_DATE]
+TITLE=Datos nustatymai
+IDC_FORMATTEXT=Datos formatas
+IDC_SEPARATORTEXT=Skyriklis
+IDC_EXAMPLETEXT=Pavyzdys
+
+IDC_BACK=<< Atgal
+IDC_FINISH=Baigti
+
+[IDD_ACEMONEYREMINDER]
+TITLE=Mokëjimø priminimas
+
+STARTACEMONEY=AceMoney...
+OPTIONS=Nuostatos...
+VIEWBILLS=Tvarkaraðtis...
+EXIT=Iðeiti
+CLOSE=Uþverti
+
+COLUMN0=Data
+COLUMN1=Tranzakcija
+COLUMN2=Korespondentas
+COLUMN3=Suma
+
+OPTIONSTITLE=Nuostatos
+DATAFILE=Duomenø byla
+BROWSE=Atverti...
+SELECTFILE=Pasirinkite bylà
+AUTOSTART=Startuoti automatiðkai startuojant Windows
+STARTMINIMIZED=Startuoti minimizuotà
+OK=Taip
+CANCEL=Atðaukti
+
+MSG_DUEBILLS=Turite skubiø mokëjimø!
+MSG_NODUEBILLS=Skubiø mokëjimø neturite.
+
+[IDD_ARCHIVE]
+TITLE=Sukurti archyvà
+IDOK=Taip
+IDCANCEL=Atðaukti
+ERR_CREATE_ARCHIVE=Nepavyko sukurti archyvo!
+ERR_WRITE_ARCHIVE=Nepavyko uðsaugoti archyvo failo!
+IDHELP=Pagalba
+IDC_DATE_TEXT=Suarchyvuoti visas tranzakcijas iki
+IDC_DELETE=Iðtrinti suarchyvuotas tranzakcijas ið aktyvaus dokumento
+[IDD_DUPLICATECHECKWARNING]
+IDYES=Taip
+IDNO=Ne
+TITLE=Perspëjimas apie pasikartojantá èeká
+IDC_WARNING=Èekis numeriu ### jau panaudotas ðios sàskaitos vienoje ið ataskaitø. Ar tikrai jûs vël norite já áraðyti?
+IDC_DONOTSHOW=Daugiau nerodyti ðio perspëjimo
+[IDD_IMPORTRULES]
+IDOK=Taip
+IDC_DELETE=Iðtrinti...
+IDC_EDIT=Redaguoti...
+COLUMN2=Korespondentas
+TITLE=Importuoti taisykles
+COLUMN1=Ieðkoti eilutës
+COLUMN3=Kategorija
+IDC_ADD=Pridëti...
+IDCANCEL=Atðaukti
+IDHELP=Pagalba
+[IDD_IMPORTRULE]
+IDOK=Taip
+IDCANCEL=Atðaukti
+TITLE=Importuoti taisyklæ
+IDC_SEARCHSTRINGTEXT=Jei importuojamos tranzakcijos apraðyme yra
+IDC_PAYEETEXT=Pakeisti ðiuo korespondentu
+IDC_CATEGORYTEXT=Ir pritaikyti ðià kategorijà
+[IDD_NETWORK]
+TITLE=Tinklo sàranka
+IDC_DIRECTCONNECTION=Tiesioginis prisijungimas prie interneto
+IDC_MANUALPROXYCONFIG=Rankinis tarpinio serverio konfigûravimas
+IDC_PROXYSERVERTEXT=HTTP tarpinis serveris
+IDC_PROXYSERVERPORTTEXT=Portas
+IDOK=Taip
+IDCANCEL=Atðaukti
+ERR_INVALID_PORT_NUMBER=Porto numeris turëtø bûti didesnis uþ 0, bet maþesnis uþ 65535!

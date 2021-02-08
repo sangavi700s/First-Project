@@ -1,0 +1,148 @@
+Autó
+Autó:Autó vásárlás
+Autó:Kocsimosás
+Autó:Benzin
+Autó:Gázolaj
+Autó:Kenõanyag
+Autó:Alkatrész
+Autó:Felelõsségbiztosítás
+Autó:Casco biztosítás
+Autó:Szervíz
+Autó:Parkolás
+Autó:Autópályadíj
+
+Bankköltség
+Bankköltség:ATM díj
+Bankköltség:Fizetett kamat
+Bankköltség:Kiszolgálási díj
+
+Számla
+Számla:Kábeltelevízió
+Számla:Mûholdas televízió
+Számla:Villanyáram
+Számla:Szemétdíj
+Számla:Lakbér
+Számla:Tagsági díj
+Számla:Bankkölcsön kifizetés
+Számla:Földgáz
+Számla:Újság
+Számla:Internet
+Számla:Lakásfenntartás
+Számla:Diákhitel kifizetés
+Számla:Telefon
+Számla:Víz és szennyvíz
+
+Adományozás
+
+Öltözködés
+
+Patyolat
+
+Iskola
+Iskola:Tankönyv
+Iskola:Tandíj
+Iskola:Írószer
+Iskola:Tanszer
+Iskola:Különóra díja
+
+Elektronika
+
+Élelmiszer
+Élelmiszer:Alkohol
+Élelmiszer:Étterem
+Élelmiszer:Húsok
+Élelmiszer:Zöldségfélék
+Élelmiszer:Tejtermékek
+
+Adományok
+Egészség gondozás
+Egészség gondozás:Fogászat
+Egészség gondozás:Szemvizsgálat
+Egészség gondozás:Kórház
+Egészség gondozás:Orvos
+Egészség gondozás:Gyógyszer
+
+Háztartás
+Háztartás:Bútorzat
+Háztartás:Felszerelések
+Háztartás:Takarítószerek
+Háztartás:Kertápolás
+
+Befektetési jövedelem
+Befektetési jövedelem:Tõkegyarapodás
+Befektetési jövedelem:Osztalék
+Befektetési jövedelem:Kamat
+Befektetési jövedelem:Adó visszaigénylés
+
+Biztosítás
+Biztosítás:Autó
+Biztosítás:Fogászati
+Biztosítás:Egészség
+Biztosítás:Családi ház
+Biztosítás:Élet
+Biztosítás:Rokkantság
+Biztosítás:Vegyes
+Biztosítás:Balesetbiztosítás
+Biztosítás:Táppénz
+
+Munka kiadás
+Munka kiadás:Nem visszafizetett
+Munka kiadás:Visszafizetett
+
+Szabadidõ
+Szabadidõ:Könyvek és magazinok
+Szabadidõ:Kulturális események
+Szabadidõ:Szórakozás
+Szabadidõ:Mozi és videokölcsönzés
+Szabadidõ:Fényképezés
+Szabadidõ:Sportesemények
+Szabadidõ:Sport cikkek
+Szabadidõ:Kazetták és CD-k
+Szabadidõ:Játékok
+
+Kölcsönadás
+
+Posta és papírmunka
+
+Vegyes
+
+Egyéb bevétel
+Egyéb bevétel:Családi pótlék
+Egyéb bevétel:Gyermeknevelési támogatás
+Egyéb bevétel:Alkalmazotti kötvény ügylet
+Egyéb bevétel:Elfogadott adomány
+Egyéb bevétel:Kölcsönzött pénz megkapása
+Egyéb bevétel:Lottó
+Egyéb bevétel:Adóvisszatérítés
+Egyéb bevétel:Munkanélküli járadék
+
+Személyrõl való gondoskodás
+
+Háziállatról való gondoskodás
+
+Nyugdíj bevétel
+Nyugdíj bevétel:Nyugdíj és életjáradék
+Nyugdíj bevétel:Állami nyugdíj
+Nyugdíj bevétel:Magánnyugdíj
+
+Adó
+Adó:Jövedelemadó
+Adó:Elõzõ évi jövedelemadó
+Adó:Helyi adó
+Adó:Egészségbiztosítási járulék
+Adó:Egyéb adó
+Adó:Ingatlan adó
+Adó:Munkavállalói járulék
+
+Vakáció
+Vakáció:Szállás
+Vakáció:Utazás
+
+Munkabér és illetmény
+Munkabér és illetmény:Jutalom
+Munkabér és illetmény:Jutalék
+Munkabér és illetmény:Vállalati járulék
+Munkabér és illetmény:Bruttó fizetés
+Munkabér és illetmény:Nettó fizetés
+Munkabér és illetmény:Túlóra
+Munkabér és illetmény:Alkalmi jövedelem

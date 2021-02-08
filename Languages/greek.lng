@@ -1,0 +1,1657 @@
+ProgramID=AceMoney
+Language=Greek
+////////////////////////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories_gr.dat
+BANKS=banks_gr.dat
+ACCOUNTTYPES=accounttypes_gr.dat
+
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+
+CURRENCY=EYRO
+DECIMALS=2
+DECIMALSEPARATOR=,
+THOUSANDSEPARATOR=.
+DATEFORMAT=ΗΗΜΜΕΕ
+DATESEPARATOR=/
+
+STATUS=Κατάσταση
+TRANSFER=Μεταφορά
+DEPOSIT=Κατάθεση
+WITHDRAWAL=Ανάληψη
+TO=Πρός
+FROM=Από
+TOTAL=Σύνολο
+RECONCILEDTOTAL=Τακτοποιημένο συνολικά
+CLEAREDTOTAL=Συνολικό φίλτρο
+IMPORTEDTOTAL=Βάλε το σύνολο
+UNCLEAREDTOTAL=Μη συνολικά τακτοποιημένο
+TODAYTEXT=Σήμερα
+PAGE=Σελίδα
+UNASSIGNED=(χωρίς υπογραφή)
+SAVEMODIFIED=Θέλετε να σώσετε;
+REPLACEMENTS=Αντικαταστάσεις
+INVALIDNUMBER=Λανθασμένη μορφή αριθμού
+MSG_LOADSAMPLE=Θέλετε να φορτώσετε ένα αρχείο δειγμάτων;
+MSG_SAMPLEFILEWARNING=Το αρχείο δειγμάτων δεν μπορεί να σωθεί Παρακαλώ χρησιμοποιήστε αρχείο- >Save ως επιλογές για να σώσετε τα στοιχεία σας σε ένα άλλο αρχείο.
+ONE_COLUMN_MUST_BE_DISPLAYED=Τουλάχιστον μία στήλη πρέπει να εμφανίζεται!
+NEW_VERSION_DETECTED=Μια νέα έκδοση του AceMoney έχει κυκλοφορήσει και είναι διαθέσιμο για λήψη. Θέλετε να αναβαθμίσετε;
+NO_NEW_VERSION_IS_AVAILABLE=Δεν είναι διαθέσιμη νέα έκδοση
+NEW_VERSION_CHECK_FAILED=AceMoney παρέλειψε να ελέγξετε αν η νέα έκδοση είναι διαθέσιμη, επειδή σύνδεση με την υπηρεσία δεν μπορεί να καθοριστεί. Παρακαλώ ελέγξτε τις ρυθμίσεις του δικτύου σας ή προσπαθήστε ξανά αργότερα.
+AUTODETECT=Αυτόματη ανίχνευση
+AVERAGE=Μέσος όρος
+YES=Ναί
+NO=Όχι
+SUBTOTAL=Υποσύνολο
+BALANCE=Υπόλοιπο
+AVAILABLE_BALANCE=Διαθέσιμο Υπόλοιπο
+Ακύρωση
+Ακρόαση
+Φωνητική ανάγνωση
+Μετάφραση από Αγγλικά σε Ελληνικά
+Διαθέσιμο Υπόλοιπο
+//////////////////////////////////////////////////////////////////////////
+[MENU]
+ID_FILE=Αρχεία
+ID_FILE_NEW=Νέο
+ID_FILE_OPEN=’νοιξε
+ID_FILE_SAVE=Αποθήκευση
+ID_FILE_SAVE_AS=Αποθήκευση ως...
+ID_FILE_ARCHIVE=Αρχείο...
+ID_FILE_IMPORT=Εισαγωγή
+ID_FILE_EXPORT=Εξαγωγή
+ID_FILE_PRINT=Εκτύπωση...
+ID_FILE_PRINT_PREVIEW=Προεπισκόπηση εκτύπωσης...
+ID_APP_EXIT=Έξοδος
+
+ID_EDIT=Τροποποίηση
+ID_EDIT_DELETE=Διαγραφή
+ID_EDIT_INSERT=Εισαγωγή
+ID_EDIT_SELECTALL=Επιλογή όλων
+ID_EDIT_FIND=Αναζήτηση...
+ID_EDIT_PROPERTIES=Ιδιότητες
+ID_EDIT_COPY=Αντιγραφή
+ID_EDIT_PASTE=Επικόλληση
+ID_EDIT_ADDTOSCHEDULE=Προγραμμάτισε συναλλαγή...
+
+ID_VIEW=Προβολή
+ID_VIEW_ACCOUNTS=Λογαριασμοί F2
+ID_VIEW_BANKS=Τράπεζες F3
+ID_VIEW_PAYEES=Δικαιούχοι F4
+ID_VIEW_CATEGORIES=Κατηγορίες F5
+ID_VIEW_SCHEDULE=Σχεδιασμός F6
+ID_VIEW_PORTFOLIO=Χαρτοφυλάκιο F8
+ID_VIEW_REPORTS=Αναφορές F7
+
+ID_ACCOUNTS=Λογαριασμοί
+ID_ACCOUNTS_ADD=Προσθήκη λογαριασμού
+ID_ACCOUNTS_TYPE=Τύποι λογαριασμών
+
+ID_REPORTS=Αναφορές
+ID_REPORTS_ADD=Προσθήκη στα αγαπημένα...
+ID_REPORTS_ORGANIZE=Οργάνωσε...
+
+ID_TOOLS=Εργαλεία
+ID_TOOLS_CURRENCY=Μετατροπή νομίσματος..
+ID_TOOLS_INTERNATIONAL=Γενικές Ρυθμίσεις...
+ID_TOOLS_OPTIONS=Επιλογές....
+ID_TOOLS_COLORS=Γραμματοσειρά & χρώματα...
+ID_TOOLS_LANGUAGE=Γλώσσα...
+ID_TOOLS_BACKUP=Αντίγραφο ασφαλείας...
+ID_TOOLS_BUDGET=Προυπολογισμός..
+ID_TOOLS_RESTORE=Επαναφορά αρχείων...
+ID_TOOLS_CALCULATOR=Υπολογιστής...
+ID_TOOLS_CALCULATOR_LOAN=Υπολογισμός Δανείου...
+ID_TOOLS_CALCULATOR_SAVINGS=Υπολογισμός Αποταμίευσης...
+ID_TOOLS_CALCULATOR_MORTGAGE=Υπολογισμός Υποθήκης...
+ID_TOOLS_TRANSACTION_CATEGORY_LIST=Είδος συναλλαγών...
+ID_TOOLS_IMPORT_RULES=Εισαγωγή κανόνων...
+
+ID_HELP=Βοήθεια
+ID_HELP_TOPICS=Θέματα βοήθειας
+ID_HELP_HOMEPAGE=Ιστοσελίδα...
+ID_HELP_WHATSNEW=Τι νέο υπάρχει...
+ID_HELP_SUPPORT=Υποστήριξη
+ID_HELP_FORUM=Web φόρουμ ...
+ID_HELP_TUTORIAL=Online Tutorial..
+ID_HELP_REGISTER=Εγγραφή AceMoney...
+ID_HELP_ORDER=Παραγγελία AceMoney...
+ID_HELP_ABOUT=Περί...
+ID_HELP_CHECK_FOR_UPDATES=Έλεγχος για ενημερώσεις ...
+MENU=Μενού
+ADD=Προσθέτω
+ID_TOOLS_TRANSACTION_TAG_LIST="Συναλλαγή λέξεις-κλειδιά ..."
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+[TOOLBAR]
+ID_FILE_NEW=Νέο αρχείο
+ID_FILE_OPEN='Ανοιγμα αρχείου
+ID_FILE_SAVE=Αποθήκευση
+ID_VIEW_ACCOUNTS=Λογαριασμοί F2
+ID_VIEW_BANKS=Τράπεζες F3
+ID_VIEW_PAYEES=Δικαιούχοι F4
+ID_VIEW_CATEGORIES=Κατηγηγορίες F5
+ID_VIEW_SCHEDULE=Σχεδιασμοί F6
+ID_VIEW_REPORTS=Αναφορές F7
+ID_HELP_HOMEPAGE=Ιστ. AceMoney
+ID_VIEW_BACK=Πίσω
+ID_VIEW_PORTFOLIO=Χαρτοφυλάκιο F8
+ID_VIEW_FORWARD=Μπροστά
+ID_VIEW_HOME=Αρχική σελίδα
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=Πληροφορίες Προγράμματος
+ID_THIS_VERSION_IS_LICENSED_TO=Αυτή η έκδοση ανοίκει στον:
+IDCANCEL=’κυρο
+IDOK=ΟΚ
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_ACCOUNT]
+TITLE=Λογαριασμός
+IDC_NAMETEXT=Όνομα
+IDC_TYPETEXT=Τύπος
+IDC_BANKTEXT=Όνομα Τράπεζας
+IDC_NUMBERTEXT=Νούμερο
+IDC_BALANCETEXT=Αρχικό υπόλοιπο
+IDC_CURRENCYTEXT=Αξία
+IDC_CLOSED=Εξοφλημένος λογαριασμός
+IDC_COMMENTTEXT=Σημείωση
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+IDHELP=Βοήθεια
+
+ERR_NOACCOUNTNAME=Ο λογαριασμός πρέπει να έχει ένα όνομα!
+ERR_NOACCOUNTTYPE=Είναι απαραίτητο να χαρακτηρίσετε τον τύπο του λογαριασμού!
+ERR_NOCURRENCY=Είναι απαραίτητο να χαρακτηρίσετε τον τύπο του λογαριασμού!
+IDC_EDITBANK=Επεξεργασία ...
+IDC_ONLINE_SETUP=Με σύνδεση εγκατάσταση...
+ERR_EMPTYBANKNAME=Παρακαλώ εισάγετε ή να επιλέξετε το όνομα της τράπεζας πρώτος!
+IDC_LIMIT_TEXT=Υπόλοιπο όριο
+IDC_APR_TEXT=Συνολικό ετήσιο ποσοστό
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_ACCOUNTTYPE]
+TITLE=Τύποι λογαριασμών
+IDC_NAMETEXT=Όνομα
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+
+ERR_NOACCTYPENAME=Είναι απαραίτητο να δώσετε ένα όνομα για τον τύπο του λογαριασμού!
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_ACCOUNTTYPELIST]
+TITLE=Τύποι λογαριασμών
+IDC_ADD=Προσθήκη
+IDC_DELETE=Διαγραφή
+IDC_EDIT=Επεξεργασία
+IDOK=ΟΚ
+IDCANCEL=Ακύρωση
+
+ERR_CANTDELETE=Αυτός ο τύπος χρησιμοποιείται το λιγότερο από έναν ή δύο λογαριασμούς!
+/////////////////////////////////////////////////////////////////////////////////////////
+[IDD_ACEMONEYREMINDER]
+TITLE=AceMoney Υπενθύμιση
+
+STARTACEMONEY=Έναρξη AceMoney...
+OPTIONS=Επιλογές...
+VIEWBILLS=Δείξε σχεδιασμούς...
+EXIT=Έξοδος
+CLOSE=Κλείσε
+
+COLUMN0=Ημερομηνία
+COLUMN1=Συναλλαγή
+COLUMN2=Δικαιούχος
+COLUMN3=Ποσό
+
+OPTIONSTITLE=Επιλογές
+DATAFILE=Αρχείο AceMoney
+BROWSE=Διαδρομή...
+SELECTFILE=Επέλεξε το αρχείο σου
+AUTOSTART=’νοιγμα με την έναρξη
+STARTMINIMIZED=Εικονίδιο στην μπάρα δεξιά
+OK=ΟΚ
+CANCEL=’κυρο
+
+MSG_DUEBILLS=Υπάρχει εκρεμότητα!
+MSG_NODUEBILLS=Δεν έχεις εκρεμότητα
+////////////////////////////////////////////////////////////////////////////////////////
+[IDD_ARCHIVE]
+TITLE=Αρχείο
+
+IDC_DATE_TEXT=Αρχείο συναλλαγών μέχρι:
+IDC_DELETE=Διαγράψτε τις αρχειοθετημένες συναλλαγές από το ενεργό έγγραφο.
+IDOK=ΟΚ
+IDCANCEL=’κυρο
+IDHELP=Βοήθεια
+#ERR_CREATE_ARCHIVE=Λανθασμένη δημιουργία αρχείου
+#ERR_WRITE_ARCHIVE=Λανθασμένη εγγραφή αρχείου
+ERR_CREATE_ARCHIVE=Απέτυχε να δημιουργήσει ένα αρχείο!
+ERR_WRITE_ARCHIVE=Απέτυχε να σώσει το αρχείο αρχείων!
+///////////////////////////////////////////////////////////////////////////////////////
+[IDD_BACKUP]
+TITLE=Αντίγραφο
+
+IDC_ENABLEBACKUP=Ενεργοποίηση backup
+IDC_LASTBACKUPTEX=Προηγούμενο backup
+IDC_FREQUENCYTEXT=Συχνότητα
+IDC_DIRECTORYTEXT=Διαδρομή
+IDC_BACKUP=Αντίγραφο τώρα!
+IDC_AUTOMATIC=Αυτόματο αντίγραφο ασφαλείας
+
+IDC_EVERYDAY=Ημερήσιο
+IDC_EVERYWEEK=Εβδομαδιαίο
+IDC_EVERYOTHERWEEK=Δεκαπενθήμερο
+
+IDC_BROWSE=Διαδρομή...
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωση
+IDHELP=Βοήθεια
+
+ERR_INVALIDDIR=Εισάγετε μια έγκυρη διεύθυνση!
+ERR_COPYFILE=Πρόβλημα κατά τη διάρκεια του αντιγράφου ασφαλείας! Μπορεί το CD να μην είναι στο drive!
+ERR_BACKUPTIME=Σύμφωνα με τις ρυθμίσεις είναι ώρα να κάνετε αντίγραφο ασφαλείας.Συνέχεια;
+ERR_NEWFILE=Το αρχείο πρέπει να σωθεί πρίν το αντίγραφο ασφαλείας
+ERR_COPYFILE_RESTORE=Ένα λάθος κατά τη διάρκεια αποκατάστασης! Μπορεί να μην υπάρχει ο δίσκος στην θέση αυτή.
+SELECT_FILE_TO_RESTORE=Επιλέξτε ένα αρχείο για να αποκαταστήσετε.
+SELECT_RESTORE_DIR=Πού θέλετε να σώσετε ένα αρχείο;
+OPEN_RESTORED_FILE=Θέλετε να ανοίξετε το αποκατεστημένο αρχείο;
+IDC_LASTBACKUPTEXT=Τελευταίο backup
+IDC_ADD_DATE_TO_BACKUP_FILE=Προσθήκη ημερομηνία για backup όνομα αρχείου
+/////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_BALANCE]
+TITLE=Τακτοποίηση λογαριασμού-Έλεγχος-Κλείδωμα συναλλαγών
+
+IDC_CLEAREDDEPOSITS=Καθαρές καταθέσεις
+IDC_CLEAREDWITHDRAWALS=Καθαρές αναλήψεις
+
+IDC_RECONCILEDTEXT=Προηγούμενο υπόλοιπο
+IDC_CLEAREDTEXT=Τσεκαρισμένο ποσό
+IDC_UNCLEAREDTEXT=Μη τσεκαρισμένο
+
+IDC_NEWTRANSACTION=Νέα συναλλ...
+IDC_SELECTALL=Επιλογή όλων
+IDC_DESELECTALL=Απενεργ..όλων
+
+IDOK=ΟΚ
+IDHELP=Βοήθεια
+IDCANCEL=Ακύρωσε
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_BANK]
+TITLE=Τράπεζα
+IDC_NAMETEXT=Όνομα
+IDC_ADDRESSTEXT=Διεύθυνση
+IDC_WEBSITETEXT=Ιστοσελίδα
+IDC_COMMENTTEXT=Σημείωση
+IDC_BANKNUMBERTEXT=Νούμερο τράπεζας
+IDC_SWIFTCODETEXT=Κυλιόμενος κωδικός (Routing code)
+IDC_TRANSFERCODETEXT=Μεταφερόμενος κωδικός (Transfer code)
+IDOK=ΟΚ
+IDCANCEL=Ακύρωση
+IDHELP=Βοήθεια
+
+ERR_NOBANKNAME=Η τράπεζα πρέπει να έχει ένα όνομα!
+IDC_PHONETEXT=Τηλέφωνο
+IDC_OPEN=’νοιξε
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_BILL]
+TITLE=Προγραμματισμένες συναλλαγές
+
+IDC_FREQUENCYGROUP=Συχνότητα
+
+IDC_ONCE=Μιά φορά
+IDC_DAILY=Ημερησίως
+IDC_WEEKLY=Εβδομαδιαίως
+IDC_EVERYOTHERWEEK=Κάθε δύο εβδομάδες
+IDC_TWICEAMONTH=Δύο φορές τον μήνα
+IDC_EVERYFOURWEEKS=Κάθε τέσσερες εβδομάδες
+IDC_MONTHLY=Μηνιαίως
+IDC_EVERYOTHERMONTH=Διμηνιαίως
+IDC_QUARTERLY=Τριμηνιαίως
+IDC_EVERYFOURMONTHS=Κάθε τέσσερες μήνες
+IDC_EVERYSIXMONTHS=Κάθε έξι μήνες
+IDC_ANNUALLY=Ετησίως
+
+IDC_STARTDATETEXT=Ημερομηνία έναρξης
+
+IDC_BILLTYPETEXT=Τρόπος συναλλαγών
+BILLTYPE_CONTINUOUS=Συνεχόμενα
+BILLTYPE_NUMBERED=Αριθμητικά
+
+IDC_NUMBERTEXT=Επαναλήψεις:
+
+IDC_TRANSACTIONGROUP=Εφαρμογή
+IDC_TYPETEXT=Τύπος
+IDC_DEPOSIT=Κατάθεση
+IDC_WITHDRAWAL=Ανάληψη
+IDC_TRANSFER=Μεταφορά
+IDC_ACCOUNTTEXT=Λογαριασμός
+IDC_PAYEETEXT=Δικαιούχος
+IDC_CATEGORYTEXT=Κατηγορία
+IDC_SPLIT=Υποδιαίρεση
+IDC_AMOUNTTEXT=Ποσό
+IDC_COMMENTTEXT=Σημείωση
+
+IDC_ENTER=Πρόσθεσε στο λογαριασμό
+IDC_AUTOMATIC=Αυτόματη καταχώρηση
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωση
+IDHELP=Βοήθεια
+
+ERR_INVALIDACCOUNT=Ο λογαριασμός δεν είναι σωστός
+ERR_INVALIDNUMBER=Ο αριθμός πληρωμών δεν μπορεί να είναι λιγότερο από 1!
+IDC_CHECK_NUMBER_TEXT=Νούμερο
+IDC_EVERYTWOYEARS=Κάθε δύο έτη
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_BUDGET]
+TITLE=Προϋπολογισμός
+
+IDC_STARTDATETEXT=Ημερομηνία έναρξης:
+IDC_FREQUENCYTEXT=Περίοδος προϋπολογισμού:
+
+IDC_WEEKLY=Εβδομαδιαίος
+IDC_EVERYOTHERWEEK=Δύο φορές την εβδομάδα
+IDC_TWICEAMONTH=Δεκαπενθήμερος
+IDC_EVERYFOURWEEKS=Κάθε τέσσερεις εβδομάδες
+IDC_MONTHLY=Μηνιαίος
+IDC_EVERYOTHERMONTH=Διμηνιαίος
+IDC_QUATERLY=Τριμηνιαίος
+IDC_ANNUALLY=Ετήσιος
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωση
+IDHELP=Βοήθεια
+IDC_QUARTERLY=Τρίμηνο (τρεις μήνες)
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_CALC_LOAN]
+TITLE=Υπολογισμός δανείου
+IDC_AMOUNTTEXT=Ποσό
+IDC_RATETEXT=Ετήσιο επιτόκιο, %
+IDC_PERIODTEXT=Περίοδος, μήνες
+IDC_PAYMENTTEXT=Πληρωμή
+IDC_TOTALINTERESTTEXT=Συνολικοί τόκοι
+
+COLUMN0=#
+COLUMN1=Πληρωμή
+COLUMN2=Κεφάλαιο
+COLUMN3=Τόκοι
+COLUMN4=Δάνειο
+
+IDOK=ΟΚ
+//////////////////////////////////////////////////////////////////////////////////////////
+[IDD_CALC_MORTGAGE]
+TITLE=Υπολογισμός υποθήκης
+
+IDC_VALUETEXT=Αξιολογημένη αξία
+IDC_AMOUNTTEXT=Ποσό δανείου
+IDC_TERMTEXT=Έτη, όρου
+IDC_DATETEXT=Κλείσιμο ημερομηνίας
+IDC_RATETEXT=Επιτόκιο, %
+IDC_TAXTEXT=Ετήσιος φόρος ιδιοκτησίας
+IDC_INSURANCETEXT=Ετήσια ασφάλεια ιδιοκτησίας
+
+IDC_REQUIREDPAYMENTTEXT=Απαραίτητη πληρωμή
+IDC_TOTALINTERESTTEXT=Συνολικοί τόκοι
+IDC_TOTALPMITEXT=Συνολικό PMI
+IDC_TOTALMONTHSTEXT=Σύνολο μηνών πληρωμής
+
+COLUMN0=Ημερομηνία
+COLUMN1=Κεφάλαιο
+COLUMN2=Τόκοι
+COLUMN3=Φόρος
+COLUMN4=Ασφάλιση
+COLUMN5=PMI
+COLUMN6=Πληρωμή
+COLUMN7=Δάνειο
+
+IDOK=ΟΚ
+IDHELP=Βοήθεια
+/////////////////////////////////////////////////////////////////////////////////////
+[IDD_CALC_SAVINGS]
+TITLE=Υπολογισμός αποταμίευσης
+
+IDC_MONTHLYPAYMENTTEXT=Μηνιαία αποταμίευση
+IDC_INITIALBALANCETEXT=Από μεταφορά
+IDC_RATETEXT=Ετήσιο επιτόκιο, %
+IDC_PERIODTEXT=Περίοδος, μήνες
+IDC_STARTDATETEXT=Ημερομηνία έναρξης
+IDC_TOTALINTERESTTEXT=Συνολικοί τόκοι
+IDC_TOTALTEXT=Σύνολον
+
+COLUMN0=#
+COLUMN1=Ημερομηνία
+COLUMN2=Πληρωμή
+COLUMN3=Τόκοι
+COLUMN4=Σύνολο
+
+IDOK=ΟΚ
+////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_CATEGORY]
+TITLE=Κατηγορία
+
+IDC_NAMETEXT=Κατηγορία
+IDC_SUBNAMETEXT=Υποκατηγορία
+IDC_COMMENTTEXT=Σημείωση
+IDC_BUDGETTEXT=Προϋπολογισμός
+IDC_NUMBERTEXT=Κωδικός
+IDC_BUDGETPERIODTEXT=Περίοδος κατά
+IDC_INCOME=Κατ. εσόδων
+IDC_EXPENSE=Κατ. εξόδων
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωση
+IDHELP=Βοήθεια
+
+
+PERIOD_ONE_WEEK=Μία εβδομάδα
+PERIOD_TWO_WEEKS=Δύο βδομάδες
+PERIOD_HALF_MONTH=Δεκαπενθήμερο
+PERIOD_ONE_MONTH=Ένας μήνας
+PERIOD_TWO_MONTHS=Δίμηνο
+PERIOD_THREE_MONTHS=Τρίμηνο
+PERIOD_FOUR_MONTHS=Τετράμηνο
+PERIOD_SIX_MONTHS=Εξάμηνο
+PERIOD_NINE_MONTHS=Ενιάμηνο
+PERIOD_ONE_YEAR=Ένας χρόνος
+ERR_NOCATNAME=Η κατηγορία πρέπει να έχει ένα όνομα!
+ERR_CATEXIST=Υπάρχει ήδη μιά κατηγορία με το ίδιο όνομα!
+TAB_GENERAL=Γενικά
+TAB_SIMPLE_BUDGET=Απλός Προϋπολογισμός
+TAB_MONTHLY_BUDGET=Μηνιαίος Προϋπολογισμός
+IDC_INCOME_LIMIT_TEXT=Όριο Εσόδων
+IDC_EXPENSE_LIMIT_TEXT=Όριο Εξόδων
+IDC_ADD=Προσθήκη ...
+IDC_UPDATE=Ενημέρωση ...
+IDC_DELETE=Διαγραφή
+MONTH_COLUMN=Μήνας
+LIMIT_COLUMN=Όριο
+IDC_ADD_MANY=Πρόσθεσε περίοδο ...
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[IDD_CATEGORYCHANGE]
+TITLE=Αλλαγή Κατηγορίας
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωση
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[IDD_CATEGORYMERGE]
+TITLE=Ενιαία κατηγορία
+
+IDC_CATEGORYTEXT=Ένωσε κατηγορία
+IDC_CATEGORYTEXT1=Με την κατηγορία
+
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+IDHELP=Βοήθεια
+
+ERR_NOCATEGORIES=Και οι δύο κατηγορίες πρέπει να είναι επιλεγμένες και διαφορετικές.
+ERR_SOURCECATEGORY=Η κατηγορία δεν μπορεί να έχει υποκατηγορία!
+ERR_TARGETCATEGORY=Η τελική κατηγορία δεν μπορεί να είναι υποκατηγορία της αρχικής!
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_COLORS]
+TITLE=Γραμματοσειρές & χρώματα
+
+IDC_ACCOUNTLISTTEXT=Λίστα λογαριασμών
+IDC_ACCOUNTTEXT=Εγγραφή λογαριασμού
+IDC_BANKTEXT=Τράπεζες
+IDC_CATEGORYTEXT=Κατηγορίες
+IDC_PAYEETEXT=Δικαιούχοι
+IDC_SCHEDULETEXT=Σχεδιασμός
+IDC_REPORTTEXT=Αναφορές
+IDC_PORTFOLIOTEXT=Το χαρτοφυλάκιό μου
+
+IDC_LISTFONTTEXT=Λίστα γραμματοσειρών
+
+IDC_TABLEFONTCOLORTEXT=Χρώμα εγγραφών
+IDC_TABLEBILLFONTCOLORTEXT=Μελλοντικών συναλλαγών
+IDC_TABLEBACKGROUNDTEXT1=Χρώμα 1ης γραμμής
+IDC_TABLEBACKGROUNDTEXT2=Χρώμα 2ης γραμμής
+
+IDC_RESTORE=Προεπιλογή
+IDOK=ΟΚ
+IDCANCEL=Ακύρωση
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_CURRENCY]
+TITLE=Ισοτιμίες συναλλάγματος
+
+IDC_SHOWALL=Δείξε όλες τις ισοτιμίες
+IDC_CURRENCYINFO=Προηγούμενη αξία: %s
+IDC_DOWNLOAD=Κατέβασε...
+IDC_UPDATE=Ρυθμός ενημέρωσης
+
+IDOK=Κλείσε
+IDHELP=Βοήθεια
+
+COLUMN0=Αξία
+COLUMN1=Ποσοστό από
+COLUMN2=Ημερομηνία από
+COLUMN3=Σε
+
+ERR_WEBUPDATE=Λάθος ενημέρωσης ισοτιμίας συναλλάγματος από το διαδίκτυο! Ελέγξτε την σύνδεσή σας!
+ERR_INVALIDRATE=Λανθασμένη ισοτιμία!
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_CURRENCYEXCHANGE]
+TITLE=Ισοτιμία συναλλάγματος
+IDOK=ΟΚ
+IDCANCEL=Ακύρωση
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_DATESRANGE]
+TITLE=Επιλογή περιόδου
+
+IDC_PERIODSTEXT=Επιλογή Περιόδου
+IDC_BUDGETDATES=Περίοδος προυπολογισμού:
+IDC_CUSTOMDATES=Διαμορφωμένες ημερομηνίες:
+IDC_FROMTEXT=Από
+IDC_TOTEXT=Προς
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωση
+IDHELP=Βοήθεια
+
+CURRENT=Τρέχων
+CUSTOM=Διαμόρφωσε
+CURRENTWEEK=Τρέχουσα εβδομάδα
+PREVIOUSWEEK=Προηγούμενη Εβδομάδα
+LAST30DAYS=Τελευταίες 30 μέρες
+CURRENTMONTH=Τρέχον Μήνας
+PREVIOUSMONTH=Προηγούμενος Μήνας
+CURRENTQUARTER=Τρέχον τρίμηνο
+PREVIOUSQUARTER=Προηγούμενο Τρίμηνο
+CURRENTYEAR=Τρέχον Έτος
+PREVIOUSYEAR=Προηγούμενο Έτος
+MONTH_TO_DATE=Μήνα έως σήμερα
+QUARTER_TO_DATE=Τρίμηνο έως σήμερα
+YEAR_TO_DATE=Έτους έως σήμερα
+ALL_TO_DATE=Όλες οι μέχρι σήμερα
+ALL_DATES=Όλες οι ημερομηνίες
+LAST12MONTHS=Τελευταίοι 12 μήνες
+CURRENT_FISCAL_YEAR=Τρέχον οικονομικό έτος
+PREVIOUS_FISCAL_YEAR=Προηγούμενο οικονομικό έτος
+////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_DAYBILLS]
+TITLE=Σχεδιασμός
+
+COLUMN0=Ημερομηνία
+COLUMN1=Συναλλαγή
+COLUMN2=Δικαιούχος
+COLUMN3=Ποσό
+COLUMN4=Σχόλιο
+COLUMN5=Συχνότητα
+
+IDC_ENTER=Εκτέλεση..
+IDC_EDIT=Τροποποίηση..
+
+IDOK=ΟΚ
+IDHELP=Βοήθεια
+IDC_DELETE=Διαγραφή..
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_EXPORT]
+TITLE=Εξαγωγή
+
+IDC_EXPORTTEXT=Επέλεξε έναν λογαριασμό
+IDC_STARTDATETEXT=Ημερομηνία έναρξης
+IDC_ENDDATETEXT=Ημερομηνία λήξης
+
+ERR_NOACCOUNT=Παρακαλώ, επέλεξε έναν λογαριασμό!
+
+IDOK=ΟΚ
+IDCANCEL=’κυρο
+////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_FILTERACCOUNT]
+TITLE=Διάλεξε λογαριασμούς
+
+IDC_SELECTALL=Επιλογή όλων
+IDC_CLEARALL=Απενεργοποίηση όλων
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+IDHELP=Βοήθεια
+IDC_SELECT_OPEN=Επιλέξτε ανοικτή
+IDC_SHOWCLOSEDACCOUNTS=Εμφάνιση κλειστών λογαριασμών
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_FILTERCATEGORY]
+TITLE=Διάλεξε Κατηγορίες
+
+IDC_SELECTALL=Επιλογή όλων
+IDC_CLEARALL=Απενεργοποίηση όλων
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+IDHELP=Βοήθεια
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_FILTERPAYEE]
+TITLE=Επιλογή δικαιούχου
+
+IDC_SELECTALL=Επιλογή όλων
+IDC_CLEARALL=Απενεργοποίηση όλων
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+IDHELP=Βοήθεια
+////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=Λογαριασμός
+IDC_ADD=Προσθήκη συναλλαγής
+IDC_EDIT=Τροποποίηση συναλλαγής
+IDC_DELETE=Διαγραφή συναλλαγής
+IDC_BALANCE=Κλείδωμα συναλλαγών
+IDC_WEBSITE=Ιστοσελίδα Λογαριασμού
+IDC_ACCOUNT=Αριθμός Λογαριασμού
+IDC_BANK=Αριθμός Τράπεζας
+IDC_MONTHREPORT=Μηνιαία αναφορά
+IDC_REPORT=Αναφορά για 30 μέρες
+IDC_HIDERECONCILED=Απόκρυψη (R) συναλλαγών
+IDHELP=Βοήθεια
+
+COLUMN0=Νούμερο
+COLUMN1=Ημερομηνία
+COLUMN2=Δικαιούχος
+COLUMN3=Κατηγορία
+COLUMN4=Έλεγχος
+COLUMN5=Ανάληψη
+COLUMN6=Κατάθεση
+COLUMN7=Σύνολο
+COLUMN8=Σημείωση
+
+BANKISNOTASSIGNED=Για να χρησιμοποιήσετε αυτή την δυνατότητα, επιλέξτε μια Τράπεζα για να διαχειριστείτε αυτό τον λογαριασμό. 
+PAGEISNOTASSIGNED=Η Ιστοσελίδα δεν ήταν ακριβής. Μπορείς να προσθέσεις στον διάλογο ιδιοτήτων τραπέζης.
+STATUS=Αυτό το μήνα έχετε ξοδέψει %.2f  στη κατηγορία %s
+STATUSINCOME=Αυτό το μήνα έχετε εισπράξει %.2f  στη κατηγορία %s
+STATUSSUM=Το ποσό των επιλεγμένων συναλλαγών είναι
+
+ID_TRANSACTION_UNCLEARED=Συναλλαγή ατακτοποίητη
+ID_TRANSACTION_CLEARED=Διαγραφή συναλλαγής
+ID_TRANSACTION_RECONCILED=Συναλλαγή τακτοποιημένη
+
+ID_EDIT_OPEN=Τροποποίηση
+ID_EDIT_INSERT=Εισαγωγές
+ID_EDIT_INSERTBILL=Εγγραφή ληγμένη...
+ID_EDIT_DELETE=Διαγραφή
+ID_EDIT_COPY=Αντιγραφή
+ID_EDIT_PASTE=Επικόλληση
+ID_EDIT_CATEGORY=Πρόσθεσε κατηγορία..
+ID_EDIT_CATEGORYCHANGE=Τροποποίηση κατηγορίας...
+ID_EDIT_PAYEE=Πρόσθεσε δικαιούχο..
+ID_EDIT_PAYEECHANGE=Τροποποίηση δικαιούχου...
+ID_EDIT_ADDTOSCHEDULE=Πρόσθεσε προγραμματισμό...
+ID_VIEW_DISPLAYSIDEPANEL=Εμφάνιση πλαινού καταλόγου
+
+IDC_APPLY_IMPORT_RULES=Εφαρμόστε κανόνες εισαγωγής
+
+ID_REPORTS_CATEGORY=Αναφορά κατηγορίας..
+ID_REPORTS_PAYEE=Αναφορά δικαιούχου..
+
+BILLDELETECONFIRMATION=Θα διαγραφούν και οι μελλοντικές συναλλαγές (Προγραμματισμένες συναλλαγές). Συνέχεια;
+TRANSACTIONDELETECONFIRMATION=Είσαι σίγουρος;
+RECONCILEDTRANSACTIONCONFIRMATION=Αυτή η συναλλαγή είναι καταχωρημένη σαν τακτοποιημένη, δεν συνιστάται η επεξεργασία της. Να προχωρήσω;
+CLEAREDTRANSACTIONCONFIRMATION=Αυτή η συναλλαγή είναι καταχωρημένη σαν διαγραμμένη, δεν συνιστάται η επεξεργασία της. Να προχωρήσω;
+CANNOTSORTBYTOTAL=Αδύνατη η τακτοποίηση κατά σύνολο!
+IDC_APPLY_IMPORT_RULES=Εφαρμογή νέων κανόνων
+ID_VIEW_DISPLAYSIDEPANEL=Πλευρική απεικόνηση
+COLUMN9=Λογαριασμός
+ID_EDIT_TAG_REMOVE_ALL=&0 Διαγραφή Όλων Σημαίων
+ID_EDIT_TAG_IMPORTANT=&1 Σημαντική
+ID_EDIT_TAG_WORK=&2 Εργασία
+ID_EDIT_TAG_PERSONAL=&3 Προσωπικά
+ID_EDIT_TAG_TODO=&4 Να κάνω
+ID_EDIT_TAG_LATER=&5 Αργότερα
+ID_EDIT_ATTACHMENTS=Συνημμένα
+ID_EDIT_ATTACHMENT_ADD=Συνδέστε ...
+ID_EDIT_ATTACHMENT_DELETE=Διαγραφή
+ID_EDIT_TAG=Σημαία
+IDC_ADD_INVESTMENT_TRANSACTION=Επενδύσεων συναλλαγή
+IDC_DOWNLOAD=Κατέβασμα συναλλαγών
+IDC_CREATE_IMPORT_RULE=Δημιουργήστε το κανόνα Εισαγωγής ...
+ID_EDIT_SKIPBILL=Παράληψη πληρωμής λογαριασμών
+ID_EDIT_GOTO_TRANSACTION=Μετάβαση στην συναλλαγή
+ID_EDIT_MOVE_TO_ACCOUNT=Μετακίνηση στο λογαριασμό
+MOVE_PARTIALLY_FAILED=Ορισμένες συναλλαγές δεν μπορεί να μετακινηθεί στον επιλεγμένο λογαριασμό!
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=Λογαριασμοί
+IDC_ADD=Πρόσθεσε λογαριασμό
+IDC_BILLS=Σχεδιασμός
+IDC_REPORTS=Αναφορές & Γραφικά
+IDC_CURRENCY=Μετατροπή νομίσματος
+IDC_WEBUPDATE=Αναβάθμιση
+IDHELP=Βοήθεια
+
+ID_ACCOUNT_OPEN=’νοιγμα
+ID_ACCOUNT_ADD=Προσθήκη
+ID_ACCOUNT_DELETE=Διαγραφή
+ID_ACCOUNT_EDIT=Τροποποίηση
+ID_ACCOUNT_SHOWNUMBERS=Παρουσιάστε αριθμούς λογαριασμών
+ID_ACCOUNT_SHOWCLOSED=Παρουσιάστε κλειστούς λογαριασμούς
+
+TOTAL=Σύνολο
+LASTUPDATE=Τελευταία αναβάθμιση
+
+DELETE_CONFIRMATION=Ο λογαριασμός %s θα διαγραφεί μαζί με όλες τις συναλλαγές! Να συνεχίσω;
+
+UPDATE_SUCCESS=Η αναβάθμιση έγινε με επιτυχία!
+UPDATE_FAILURE=Λάθος αναβάθμισης Web! Η σύνδεση στο Internet δεν πραγματοποιήθηκε ή κάποια σημεία δεν αναβαθμίστηκαν!
+UPDATE_NOTREQUIRED=Δεν χρειάζεται αναβάθμιση!
+NEW_CURRENCY_DETECTED=Αυτός ο απολογισμός χρησιμοποιεί ένα νόμισμα διαφορετικό από την προεπιλογή μια. Πρέπει να ενημερώσετε τις συναλλαγματικές ισοτιμίες νομίσματος με τη μεταφόρτωση τους από το Διαδίκτυο ή με να εισαγάγετε τους με το χέρι στα ποσοστά εργαλείο- >Exchange.  Θέλετε AceMoney για να μεταφορτώσετε τις συναλλαγματικές ισοτιμίες τώρα
+ID_ACCOUNT_CLOSE=Κλείσιμο λογαριασμού
+ID_ACCOUNT_REOPEN=Κίνηση εκ νέου λογαριασμού
+ID_ACCOUNT_ACCEPT_IMPORTED=Αποδοχή εισαγωγής συναλλαγών
+ID_ACCOUNT_SHOW_AVAILABLE_BALANCE=Εμφάνιση διαθέσιμο υπόλοιπο
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=Προσθήκη Τράπεζας
+IDC_EDIT=Επεξεργασία Τράπεζας
+IDC_DELETE=Διαγραφή Τράπεζας
+IDC_DELETEUNUSED=Διαγραφή ανενεργών
+IDC_IMPORT=Εισαγωγή...
+IDHELP=Βοήθεια
+
+COLUMN0=Όνομα Τράπεζας
+COLUMN1=Διεύθυνση
+COLUMN2=Ιστοσελίδα
+COLUMN3=Σημείωση
+
+CANTBEDELETED=Η τράπεζα δεν μπορεί να διαγραφεί γιατί υπάρχουν λογαριασμοί
+DELETECONFIRMATION=Είσαι σίγουρος;
+DELETEUNUSED=Αυτή η ενέργεια θα διαγράψει όλες τις τράπεζες (μαζί με τους λογαριασμούς)! Συνέχεια;
+
+ID_EDIT_OPEN=Επεξεργασία
+ID_EDIT_INSERT=Εισαγωγές
+ID_EDIT_DELETE=Διαγραφή
+COLUMN4=Τηλέφωνο
+///////////////////////////////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=Πρόσθεσε κατηγορία
+IDC_EDIT=Επεξεργασία κατηγορίας
+IDC_DELETE=Διαγραφή κατηγορίας
+IDC_DELETEUNUSED=Διαγραφή ανενεργής
+IDC_REPORT=Σύνοψη & Γραφήματα
+IDC_BUDGETREPORT=Σύγκριση με προϋπολογισμό
+IDC_BUDGET=Ρυθμίσεις προϋπολογισμού...
+IDC_IMPORT=Εισαγωγή κατηγορίας...
+IDC_MERGE=Συγχώνευση...
+IDHELP=Βοήθεια
+
+COLUMN0=Όνομα κατηγορίας
+COLUMN0a=Κωδικός
+COLUMN1=Υπόλοιπο
+COLUMN1a=Αναμενόμενο εισόδημα
+COLUMN2a=Αναμενόμενα έξοδα
+COLUMN2c=Περίοδος
+COLUMN2=Σημείωση
+COLUMN3=Σημείωση
+CANTBEDELETED=Αυτή η κατηγορία χρησιμοποιείται απο υπάρχουσα συναλλαγή και δεν μπορεί να διαγραφεί. 
+PARENTCANTBEDELETED=Αυτή η κατηγορία συνδέεται με υποκατηγορίες. Για να διαγραφεί πρέπει να διαγράψετε πρώτα όλες τις υποκατηγορίες.
+DELETECONFIRMATION=Σίγουρα θέλεις να διαγράψεις την κατηγορία;
+DELETEUNUSED=θα διαγραφούν όλες οι κατηγορίες που δεν χρησιμοποιούνται απο συναλλαγές. Συνέχεια;
+ID_EDIT_OPEN=Επεξεργασία
+ID_EDIT_INSERT=Νέο
+ID_EDIT_DELETE=Διαγραφή
+TOTALINCOME=Απόδοση:
+TOTALEXPENSE=Δαπάνη:
+MONTHLY_INCOME=Μηνιαία έσοδα:
+MONTHLY_EXPENSE=Μηνιαία έξοδα:
+MONTHLY_TOTAL=Μηνιαίο Σύνολο 
+ANNUAL_TOTAL=Ετήσιο Σύνολο
+COLUMN4=Μηνιαίος Προϋπολογισμός
+/////////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=Πρόσθεσε δικαιούχο
+IDC_EDIT=Επεξεργασία δικαιούχου
+IDC_DELETE=Διαγραφή δικαιούχου
+IDC_DELETEUNUSED=Διαγραφή ανενεργών
+IDC_REPORT=Σύνοψη κατά δικαιούχο
+IDC_MERGE=Συγχώνευση...
+IDHELP=Βοήθεια
+
+IDC_HIDE_INACTIVE=Απόκρυψη ανενεργών δικαιούχων
+
+
+COLUMN0=Όνομα δικαιούχου
+COLUMN1=Διεύθυνση
+COLUMN2=Σημείωση
+COLUMN3=Τηλέφωνο
+
+CANTBEDELETED=Αυτός ο δικαιούχος χρησιμοποιεί τον λογαριασμό. Δεν μπορεί να διαγραφεί!
+DELETECONFIRMATION=Σίγουρα να διαγραφεί ο δικαιούχος;
+DELETEUNUSED=Θα διαγραφούν όλοι οι δικαιούχοι που δεν χρησιμοποιούνται στις συναλλαγές.Συνέχεια;
+
+ID_EDIT_OPEN=Επεξεργασία
+ID_EDIT_INSERT=Νέο..
+ID_EDIT_DELETE=Διαγραφή
+
+ID_PAYEE_ACTIVATE=Ενεργοποίηση
+ID_PAYEE_DEACTIVATE=Απενεργοποίηση
+
+/////////////////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPORTFOLIO]
+TITLE=Χαρτοφυλάκιο
+
+IDC_BUY=...Αγορά
+IDC_SELL=Πώληση...
+IDC_DIVIDEND=Μέρισμα...
+IDC_REINVEST=Επανεπένδυση μερισμάτων...
+IDC_ADDSHARES=Πρόσθεσε μετοχές...
+IDC_REMOVESHARES=Διώξε μετοχών...
+IDC_NEWTRANSACTION=Νέα Συναλλαγή...
+IDC_ADD=Προσθήκη επένδυσης...
+IDC_EDIT=Επεξεργασία επένδυσης...
+IDC_DELETE=Διαγραφή επένδυσης...
+
+IDC_WEBUPDATE=Κατέβασε τιμές (Web)
+
+IDHELP=Βοήθεια
+
+STOCKLIST=Αποθέματα
+STOCKTRANSACTIONLIST=Πρακτικά
+
+COLUMN0=Σύμβολο
+COLUMN1=Όνομα
+COLUMN2=Τελευταία τιμή
+COLUMN3=Ποσότητα
+COLUMN4=Σύνολο
+COLUMN5=Αύξηση
+
+TRANSACTIONSCOLUMN0=Ημερομηνία
+TRANSACTIONSCOLUMN1=Ενέργεια
+TRANSACTIONSCOLUMN2=Σύμβολο
+TRANSACTIONSCOLUMN3=Λογαριασμός
+TRANSACTIONSCOLUMN4=Μέρισμα
+TRANSACTIONSCOLUMN5=Τιμή
+TRANSACTIONSCOLUMN6=Ποσότητα
+TRANSACTIONSCOLUMN7=Προμήθεια
+TRANSACTIONSCOLUMN8=Σύνολο
+
+CANTBEDELETED=Το απόθεμα χρησιμοποιείται. Δεν μπορεί να διαγραφεί!
+DELETECONFIRMATION=Το απόθεμα θα διαγραφεί! Είσαι σίγουρος; 
+UPDATEISNOTREQUIRED=Δεν χρειάζεται αναβάθμιση !
+UPDATEISNOTCOMPLETE=Κάποιες συναλλαγές δεν αναβαθμίστηκαν!
+INVESTMENTNOTCREATED=Πρέπει να δημιουργηθεί πρώτα μία συναλλαγή!
+
+ID_EDIT_OPEN=Επεξεργασία συναλλαγής
+ID_EDIT_INSERT=Πρόσθεσε νέα συναλλαγή
+ID_EDIT_DELETE=Διαγραφή
+TRANSACTIONSCOLUMN9=Σχόλιο
+ALLACCOUNTS=Όλοι οι λογαριασμοί
+ALLOCATION_BY_INVESTMENTS=Κατανομή από Επενδύσεις
+ALLOCATION_BY_ACCOUNTS=Κατανομή κατά Λογαριασμοί
+ALLOCATION_BY_TYPES=Κατανομή ανά είδος
+IDC_IMPORT=Εισαγωγή ...
+COLUMN6=Αλλαγή
+COLUMN7=’νοιγμα
+COLUMN8=Μέγεθος
+COLUMN12=52 εβδομάδων χαμηλά
+COLUMN13=52 εβδομάδων υψηλό
+COLUMN14=Κέρδος, %
+COLUMN15=Τύπος
+COLUMN11=Div Απόδοση
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=Φίλτρα για ημερομηνία
+IDC_SETDATES=Από... έως
+IDC_USECATEGORYFILTER=Φίλτρα για κατηγορία
+IDC_SETCATEGORIES=Διάλεξε κατηγορία...
+IDC_USEPAYEEFILTER=Φίλτρα για δικαιούχο
+IDC_SETPAYEES=Διάλεξε δικαιούχο...
+IDC_USEACCOUNTFILTER=Φίλτρα για λογαριασμό
+IDC_SETACCOUNTS=Διάλεξε λογαριασμό...
+IDC_TRANSACTIONS=Δείξε λίστα συναλλαγών
+IDC_CATEGORY=Σύνοψη εξόδων κατά κατηγορία
+IDC_SUBCATEGORY=Σύνοψη εξόδων κατά υποκατηγορία
+IDC_CATEGORYBYMONTH=Μηνιαίες δαπάνες ανά κατηγορίες
+IDC_SUBCATEGORYBYMONTH=Μηνιαίες δαπάνες ανά υποκατηγορίες
+IDC_PAYEE=Σύνοψη κατά δικαιούχο
+IDC_BUDGETCATEGORY=Προϋπολογισμός ανά κατηγορία
+IDC_BUDGETSUBCATEGORY=Προϋπολογισμός ανά υποκατηγορία
+IDC_CASHFLOW=Μηνιαίες Αναφορές
+IDC_NETWORTH=Καθαρή άξια έκθεση
+IDC_LAST30DAYS=Τελευταίες 30 μέρες πρακτικών
+IDC_INCLUDETRANSFERS=Περιλάμβανε μεταφορές
+
+IDHELP=Βοήθεια
+IDC_TABLE=Πίνακας
+IDC_CHART=Γράφημα
+IDC_INCOMECHART=Γράφημα εσόδων
+IDC_EXPENSECHART=Γράφημα εξόδων
+IDC_PERIODCHART=Περίοδος γραφήματος
+IDC_TOTALCHART=Σύνολο γραφήματος
+
+CATEGORYCOLUMN0=Κατηγορία
+CATEGORYCOLUMN1=Εισαγωγή
+CATEGORYCOLUMN2=Εκτίμηση
+CATEGORYCOLUMN3=Διαφορά
+CATEGORYCOLUMN4=Κωδικός
+CATEGORYCOLUMN5=Έσοδα
+CATEGORYCOLUMN6=Έξοδα
+
+CASHFLOWCOLUMN0=Ημερομηνία
+CASHFLOWCOLUMN1=Συνολική περίοδος
+CASHFLOWCOLUMN2=Σύνολο
+
+OTHERS=’λλα
+
+GENERALREPORTS=Γενικές αναφορές
+CATEGORYREPORTS=Κατηγορίες αναφορών
+PAYEEREPORTS=Αναφορές δικαιούχων
+BUDGETREPORTS=Αναφορά προϋπολογισμού
+FAVORITEREPORTS=Αγαπημένες αναφορές
+
+PAYEECOLUMN0=Δικαιούχος
+PAYEECOLUMN1=Εισαγωγή
+PAYEECOLUMN2=Έσοδα
+PAYEECOLUMN3=Έξοδα
+IDC_BUDGET=Τρέχον περίοδος προυπολογισμού
+IDC_PAYEEBYMONTH=Μηνιαίες δαπάνες δικαιούχων	
+IDC_ACCOUNT=Δαπάνες ανά λογαριασμό
+ACCOUNTCOLUMN0=Λογαριασμός
+ACCOUNTCOLUMN1=Ομάδα
+ACCOUNTCOLUMN2=Τράπεζα
+ACCOUNTCOLUMN3=Ισολογισμός
+IDC_USEINVESTMENTFILTER=Φίλτρο από επενδύσεις
+IDC_SETINVESTMENTS=Επιλέξτε επενδύσεις ...
+IDC_USETAGFILTER=Φιλτράρισμα με ετικέτες
+IDC_SETTAGS=Επιλέξτε ετικέτα ...
+IDC_USETEXTFILTER=Φίλτρο από κείμενο
+IDC_SETTEXT=Set κείμενο ...
+IDC_INVESTMENT=Απόδοση από επενδύσεις
+INVESTMENTREPORTS=Επενδύσεων εκθέσεις
+INVESTMENTCOLUMN0=Επενδύσεων
+INVESTMENTCOLUMN1=Σύμβολο
+INVESTMENTCOLUMN3=Κόστος
+INVESTMENTCOLUMN4=Επιτροπή
+INVESTMENTCOLUMN5=Κόστος ανά μετοχή
+INVESTMENTCOLUMN6=Μέρισμα
+INVESTMENTCOLUMN7=Αξία
+INVESTMENTCOLUMN8=κέρδος
+INVESTMENTCOLUMN9=κέρδος, %
+INVESTMENTCOLUMN2=υπολογίζω
+INVESTMENTCOLUMN10=Αγορά αξία
+INVESTMENTCOLUMN11=Αγορά προμηθειών
+INVESTMENTCOLUMN12=Αξία Πώλησης
+INVESTMENTCOLUMN13=Προμήθειες Πώληση
+INVESTMENTCOLUMN14=Εισόδημα
+INVESTMENTCOLUMN16=Μακράς διάρκειας υπεραξία
+INVESTMENTCOLUMN15=Μικρής διάρκειας υπεραξία
+INVESTMENTCOLUMN17=Τρέχουσα τιμή
+IDC_SHOW_SUBTOTALS=Εμφάνιση Υποσυνόλων
+Μηνιαίες δαπάνες από δικαιούχους
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Εκτέλεση Συναλλαγής
+IDC_ADD=Σχεδίασε Νέα Συναλλαγή
+IDC_EDIT=Τροποποίηση Συναλλαγής
+IDC_DELETE=Διαγραφή Συναλλαγής
+IDHELP=Βοήθεια
+
+COLUMN0=Ημερομηνία
+COLUMN1=Συναλλαγή
+COLUMN2=Δικαιούχος
+COLUMN3=Εισαγωγή
+COLUMN4=Σημείωση
+COLUMN5=Συχνότητα
+
+IDC_TABLE=Πίνακας
+IDC_CALENDAR=Ημερολόγιο
+
+DELETECONFIRMATION=Θέλετε πραγματικά να διαγράψετε εκείνο τον λογαριασμό;
+
+ID_EDIT_OPEN=Εγγραφή
+ID_EDIT_INSERT=Εισαγωγές
+ID_EDIT_DELETE=Διαγραφή
+ID_EDIT_PROPERTIES=Τροποποίηση
+ID_EDIT_COPY=Αντιγραφή
+ID_EDIT_PASTE=Επικόλληση
+
+CHANGE_OF_ACCOUNT=Θέλετε να χρησιμοποιήσετε έναν άλλο λογαριασμό για όλα τα μελλοντικά περιστατικά αυτής της συναλλαγής;
+CHANGE_OF_AMOUNT=Θέλετε να χρησιμοποιήσετε αυτό το νέο ποσό για όλα τα μελλοντικά περιστατικά αυτής της συναλλαγής;
+IDC_SKIP=Προσπέραση Συναλλαγής
+COLUMN6=Κατηγορία
+COLUMN7=Αυτόματα
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_IMPORT]
+TITLE=Εισαγωγές
+
+IDC_IMPORTTEXT=Επέλεξε ένα λογαριασμό για εισαγωγή συναλαγών
+IDC_DATEFORMATTEXT=Επιλογή ημερ..
+IDC_DETECT_DUPLICATES=Παρακολούθησε διπλοεγγραφές
+IDC_IMPORT_RULES=Βάλε κανόνες...
+
+IDC_NEWACCOUNT=Νέος λογαριασμός..
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+IDHELP=Βοήθεια
+
+ERR_NOACCOUNT=Είναι απαραίτητο να επιλέξεις ένα λογαριασμό!
+EXPORTTEXT=Επέλεξε έναν λογαριασμό γιά εξαγωγή
+IMPORTTEXT=%d συναλλαγές που εισάγονται
+EXPORTTITLE=Εξαγωγές
+STATUS_IMPORTING_HISTORICAL_PRICES=Εισαγωγή ιστορικές τιμές μετοχών ...
+STATUS_IMPORTING_INVESTMENTS=Εισαγωγή επενδύσεις ...
+STATUS_IMPORTING_CATEGORIES=Εισαγωγή κατηγορίες ...
+STATUS_IMPORTING_ACCOUNTS=Εισαγωγή λογαριασμούς ...
+STATUS_IMPORTING_BILLS=Εισαγωγή αξιόγραφα και καταθέσεις ...
+STATUS_IMPORTING_TRANSACTIONS=Εισαγωγή συναλλαγές ...
+STATUS_PARSING_FILE=Ανάλυση αρχείο ...
+STATUS_READING_FILE=Ανάγνωση αρχείου ...
+ERR_TRANSACTIONS_FOR_MANY_ACCOUNTS=Το αρχείο περιέχει συναλλαγές για περισσότερους από έναν λογαριασμό και δεν μπορούν να εισαχθούν.
+ERR_NO_TRANSACTIONS=Το αρχείο δεν έχει συναλλαγές.
+ERR_PARSING=Το αρχείο δεν μπορούν να εισαχθούν, είναι ακατάλληλα ή δεν ανταποκρίνεται στο πρότυπο.
+IDC_APPLY_IMPORT_RULES=Εφαρμόζουν κανόνες εισαγωγής
+IDC_DECIMALSEPARATORTEXT=Υποδιαστολή δεκαδικών ψηφίων
+INFO_AUTOMATICALLY_CREATED_ACCOUNTS=AceMoney δεν μπορούσαν να καλύψουν όλους τους λογαριασμούς από τους αριθμούς τους και δημιούργησαν το ακόλουθο λογαριασμό (-ους):
+/////////////////////////////////////////////////////////////////////////////////////////
+[IDD_IMPORTRULE]
+TITLE=Εισαγωγή Κανόνα
+
+IDC_SEARCHSTRINGTEXT=Εάν η κρυπτογράφηση περιέχει
+IDC_PAYEETEXT=Αντικατέστησε με τον δικαιούχο
+IDC_CATEGORYTEXT=Και βάλε την κατηγορία
+
+IDOK=ΟΚ
+IDCANCEL=’κυρο
+/////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_IMPORTRULES]
+TITLE=Εισαγωγή Κανόνων
+
+COLUMN1=Αναζήτησε
+COLUMN2=Δικαιούχος
+COLUMN3=Κατηγορία
+
+IDC_ADD=Νέος...
+IDC_EDIT=Τροποποίηση..
+IDC_DELETE=Διαγραφή
+
+IDOK=ΟΚ
+IDCANCEL=’κυρο
+IDHELP=Βοήθεια
+ERROR_EXPORT=Η εισαγωγή κανόνων για την εξαγωγή %s απέτυχε!
+ERROR_IMPORT=Η εισαγωγή κανόνων για την εισαγωγή %s απέτυχε!
+IDC_IMPORT=Εισαγωγή
+IDC_EXPORT=Εξαγωγή
+IDC_FILTER_TEXT=Φίλτρο
+IDC_CLEAR=Καθάρισε
+/////////////////////////////////////////////////////////////////////////////////////////
+[IDD_INTERNATIONALSETTINGS]
+TITLE=Παγκόσμιες Ρυθμίσεις
+
+IDC_DATETEXT=Ημερομηνία
+IDC_DATESEPARATORTEXT=Ξεχωριστή ημερομηνία
+IDC_CURRENCYTEXT=Προηγούμενη αξία
+IDC_DECIMALSEPARATORTEXT=Δεκαδικά 
+IDC_THOUSANDSEPARATORTEXT=Χιλιάδες 
+IDC_NUMBEROFDECIMALDIGITSTEXT=Αριθμός δεκαδικών ψηφίων.
+
+ERR_THOUSANDDECIMAL=Δεκαδικά και χιλιοστά δεν μπορούν να είναι τα ίδια!
+ERR_THOUSAND=Λανθασμένο χιλιοστό!
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+IDHELP=Βοήθεια
+IDC_FISCAL_YEAR_TEXT=Πρώτη ημέρα του οικονομικού έτους
+ERR_FISCAL_YEAR=Αποτυχία συνδυασμου του οικονομικού μήνα και της επιλεγμένης ημέρας!
+//////////////////////////////////////////////////////////////////////////////////////////
+[IDD_LANGUAGE]
+TITLE=Επιλογή Γλώσσας
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+IDHELP=Βοήθεια
+////////////////////////////////////////////////////////////////////////////////////////
+[IDD_LITEVERSION]
+TITLE=AceMoney Lite
+
+IDC_TEXT=Το AceMoney Lite δουλεύει με έναν μόνο λογαριασμό. ’λλοι λογαριασμοί δεν μπορούν να ανοίξουν. Αν θέλεις περισότερους λογαριασμούς αναβάθμησε το πρόγραμμα σε AceMoney.
+IDC_WEBSITE=Ενημέρωσε...
+IDOK=Κλείσε
+IDC_TWO_ACCOUNTS_LIMIT=AceMoney Lite λειτουργεί με μόνο δύο λογαριασμούς χρήστη. Ο τρίτος λογαριασμός δεν μπορεί να δημιουργηθεί και αρχεία με περισσότερα από δύο λογαριασμούς δεν μπορούν να ανοίξουν. Αν χρειαστεί να διαχειριστεί πάνω από δύο λογαριασμούς, θα πρέπει να αναβαθμίσετε την τακτική έκδοση του AceMoney.
+IDCANCEL=’κυρο
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_OPTIONS]
+TITLE=Επιλογές
+
+IDC_GENERALGROUP=Γενικά
+IDC_SHOWCLOSEDACCOUNTS=Δείξε κλεισμένους λογαριασμούς
+IDC_SHOWACCOUNTNUMBERS=Παρουσιάστε αριθμούς λογαριασμών
+IDC_SHOWGRID=Δείξε γρίλιες στον πίνακα
+IDC_LOADLASTFILE=Φόρτωσε το τελευταίο αρχείο στην εκκίνηση
+IDC_SHOWCOMMENT=Δείξε σχόλια
+IDC_AUTOSAVE=Αυτόματη αποθήκευση
+IDC_SHOWSPLASHSCREEN=Δείξε splash εικόνα
+IDC_SHOWFILENAME=Δείξε όνομα αρχείου 
+IDC_SHOWSOLDSTOCKS=Δείξε πωλήσεις μετοχών
+IDC_ADDINVESTMENTVALUE=Πρόσθεσε την αξία της επένδυσης στην ισοροπία του λογαριασμού
+IDC_SHOWDEPOSITSFIRST=Οι καταθέσεις είναι οι πρώτες συναλλαγές μιάς ημέρας
+IDC_TRANSFERSTATUS=Θέση μεταφοράς αλλαγής και στους δύο λογαριασμούς
+IDC_SHOWCATEGORYSTATUS=Παρουσιάστε ανάλυση κατηγορίας στην μπάρα
+
+IDC_STARTPAGEGROUP=Αρχική σελίδα (Home)
+IDC_ACCOUNTLIST=Λίστα λογαριασμών
+IDC_FAVORITEACCOUNT=Αγαπημένοι λογαριασμοί
+
+IDC_PASSWORDGROUP=Κωδικός
+IDC_OLDPASSTEXT=Παλιός Κωδικός
+IDC_NEWPASSTEXT=Νέος Κωδικός
+IDC_RETYPETEXT=Νέος Κωδικός (Ξαναβάλε)
+
+IDC_TRANSACTIONTYPETEXT=Νέος τύπος συναλλαγής
+LASTUSEDTYPE=Τελευταίος τύπος που χρησιμοποιήθηκε
+
+IDC_TRANSACTIONNUMBERTEXT=Νέος αριθμός συναλλαγής
+NUMBER_EMPTY=Κενός
+NUMBER_DEBIT=Χρέωση
+NUMBER_AUTO=Τελευταίος αριθμός συν ένα
+
+IDC_NUMBEROFFUTUREBILLSMONTHSTEXT=Δείξε μελλοντικούς λογαριασμούς για
+0_MONTHS_AHEAD=Κανένας
+1_MONTHS_AHEAD=1 μήνας μπροστά
+2_MONTHS_AHEAD=2 μήνες μπροστά
+3_MONTHS_AHEAD=3 μήνες μπροστά
+4_MONTHS_AHEAD=4 μήνες μπροστά
+5_MONTHS_AHEAD=5 μήνες μπροστά
+6_MONTHS_AHEAD=6 μήνες μπροστά
+7_MONTHS_AHEAD=7 μήνες μπροστά
+8_MONTHS_AHEAD=8 μήνες μπροστά
+9_MONTHS_AHEAD=9 μήνες μπροστά
+10_MONTHS_AHEAD=10 μήνες μπροστά
+11_MONTHS_AHEAD=11 μήνες μπροστά
+12_MONTHS_AHEAD=12 μήνες μπροστά
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+IDHELP=Βοήθεια
+
+ERR_INVALIDOLDPASSWORD=Ο παλιός κωδικός δεν είναι σωστός!
+ERR_INVALIDNEWPASSWORD=Ο νέος Κωδικός δεν είναι δεκτός!
+IDC_NETWORK=Δίκτυο...
+IDC_SHOWDUPLICATECHECKWARNING=Δείξε διπλή προειδοποίηση
+IDC_SHOWFUTUREBILLS=Δείξε μελλοντικούς λογαριασμούς
+IDC_CHECKFORUPDATES=Έλεγχος για ενημερωμένες εκδόσεις προγραμμάτων
+IDC_AUTOFILLTRANSACTIONCOMMENTS=Αυτόματη τοποθέτηση συναλλαγής και σχόλιο
+IDC_SORTSAMEDAYTRANSACTIONSBYNUMBER=Ανά την ίδια ημέρα με συναλλαγές αριθμό
+IDC_CONFIRM_DELETE_BILL=Επιβεβαιώστε την διαγραφή λογαριασμού
+IDC_CONFIRM_DELETE_TRANSACTION=Επιβεβαιώστε την διαγραφή των συναλλαγών
+IDC_CONFIRM_EDIT_RECONCILED_TRANSACTION=Επιβεβαιώστε εκκαθάριση ή αλλαγή εγγραφής συναλλαγής
+18_MONTHS_AHEAD=18 μήνες μπροστά
+24_MONTHS_AHEAD=2 χρόνια μπροστά
+IDC_CONFIRM_BILL_AMOUNT_CHANGE=Επιβεβαίωση αλλαγής ποσό νομοσχέδιο
+IDC_CONFIRM_BILL_ACCOUNT_CHANGE=Επιβεβαιώση αλλαγής λογαριασμού νομοσχέδιο
+IDC_SHOW_AVAILABLE_BALANCE=Εμφάνιση διαθέσιμο υπόλοιπο
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_PAGESETUP]
+TITLE=Ρυθμίσεις Εκτύπωσης
+IDOK=ΟΚ
+IDCANCEL=’κυρο
+IDC_PAPERBOX=Χαρτί
+IDC_ORIENTATIONBOX=Στοίχιση
+IDC_MARGINBOX_MM=Περιμετρικές Διαστάσεις (mm)
+IDC_MARGINBOX_INCH=Περιμετρικές Διαστάσεις (inch)
+IDC_TITLETEXT=Τίτλος:
+IDC_PAPERSIZETEXT=Διαστάσεις:
+IDC_PORTRAIT=Κάθετα
+IDC_LANDSCAPE=Οριζόντια
+IDC_TMTEXT=Επάνω:
+IDC_BMTEXT=Κάτω:
+IDC_LMTEXT=Αριστερά:
+IDC_RMTEXT=Δεξιά:
+IDC_UNITTEXT=Μονάδες:
+UNIT0=Χιλιοστά
+UNIT1=Ίντσες
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_PASSWORD]
+TITLE=Βάλε Κωδικό
+IDC_PASSTEXT=Κωδικός
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+
+ERR_INVALIDPASSWORD=Κωδικός λανθασμένος!
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_PAYEE]
+TITLE=Δικαιούχος
+
+IDC_NAMETEXT=Όνομα
+
+IDC_ADDRESSTEXT=Διεύθυνση
+IDC_CITYTEXT=Πόλη
+IDC_STATETEXT=Νομός
+IDC_ZIPTEXT=Τ.Κ.
+IDC_COUNTRYTEXT=Χώρα
+
+IDC_HOMEPHONETEXT=Τηλ. Σπιτιού
+IDC_WORKPHONETEXT=Τηλ. Εργασίας
+IDC_MOBILEPHONETEXT=Κινητό
+IDC_FAXTEXT=Φάξ
+IDC_PAGERTEXT=Συναγερμού
+
+IDC_EMAILTEXT=E-mail
+IDC_WEBSITETEXT=Ιστοσελίδα
+
+IDC_COMMENTTEXT=Σχόλιο
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+IDHELP=Βοήθεια
+
+ERR_NOPAYEENAME=Απαραίτητο το όνομα του δικαιούχου!
+IDC_ACTIVEPAYEE=Ενεργός δικαιούχος
+IDC_GO=Πήγαινε
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_PAYEECHANGE]
+TITLE=Αλλαγή δικαιούχου
+
+IDOK=ΟΚ
+IDCANCEL=’κυρο
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_PAYEEMERGE]
+TITLE=Ένωσε δικαιούχους
+IDC_PAYEETEXT=Ένωσε δικαιούχο
+IDC_PAYEETEXT1=με τον δικαιούχο
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+IDHELP=Βοήθεια
+
+ERR_NOPAYEES=Και οι δύο οι δικαιούχοι πρέπει να επιλεγούν και να είναι διαφορετικοί
+SELECTED_PAYEES=Επιλεγμένοι δικαιούχοι
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_PRINTPREVIEW]
+TITLE=Προεπισκόπηση εκτύπωσης
+IDC_PAGETEXT=Σελίδα
+IDC_PAGEOFTEXT=Σελίδα από
+IDC_PRINT=Εκτύπωση...
+IDC_CLOSE=Κλείσε
+IDC_PAGEPROPERTIES=Ρυθμίσεις
+IDC_PREVIOUSPAGE=<< Προηγούμενη
+IDC_NEXTPAGE=Επόμενη >>
+IDC_ZOOMIN=Zoom Ζουμ συν
+IDC_ZOOMOUT=Ζουμ πλην
+
+IDOK=ΟΚ
+IDHELP=Βοήθεια
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_REGISTER]
+TITLE=Εγγραφή
+
+IDC_NAMETEXT=Όνομα:
+IDC_SERIALNUMBERTEXT=Κωδικός Αριθμός:
+
+IDC_ORDER=Αγορά...
+
+IDOK=ΟΚ
+IDCANCEL=’κυρο
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_REPORTADD]
+TITLE=Πρόσθεσέ το στα αγαπημένα
+IDC_NAMETEXT=Όνομα αναφοράς
+IDOK=ΟΚ
+IDCANCEL=Ακύρωση
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_REPORTORGANIZE]
+TITLE=Οργάνωσε τις αναφορές
+IDC_DELETE=Διαγραφή
+IDOK=Δημιουργία
+IDCANCEL=Κλείσιμο
+IDC_EDIT=Επεξεργασία
+//////////////////////////////////////////////////////////////////////////
+[IDD_SEARCH]
+TITLE=Αναζήτηση κειμένου
+
+IDC_DATETEXT=Ημερομηνία
+IDC_FROMTEXT=από
+IDC_TOTEXT=έως
+IDC_AMOUNTTEXT=Ποσόν
+IDC_AMOUNTFROMTEXT=ελάχιστο
+IDC_AMOUNTTOTEXT=μέγιστο
+IDC_COMMENTTEXT=Κείμενο
+IDC_SEARCH=Αναζήτηση
+IDC_CLOSE=Κλείσε
+IDC_ACCOUNTTEXT=Λογαριασμός
+ALLACCOUNTS=Όλοι οι Λογαριασμοί
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_SHEETREPORTFILTER]
+TITLE=Φίλτρο αναφορών
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_SPLIT]
+TITLE=Χώρισε κατά κατηγορίες
+
+IDC_CATEGORYTEXT=Κατηγορία
+IDC_SUBCATEGORYTEXT=Υποκατηγορία
+IDC_AMOUNTTEXT=Ποσό
+IDC_ADD=Εισαγωγές
+IDC_EDIT=Τροποποίηση
+IDC_DELETE=Διαγραφή
+IDC_TOTALTEXT=Σύνολο:
+IDC_UNASSIGNEDTEXT=Χωρίς υπογραφή:
+IDC_COMMENTTEXT=Σχόλιο
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+IDHELP=Βοήθεια
+
+COLUMN0=Κατηγορία
+COLUMN1=Υποκατηγορία
+COLUMN2=Ποσό
+COLUMN3=Σχόλιο
+
+ERR_BADTOTAL=Μερικές από τις χωρισμένες ποσότητες δεν συμφωνούν με τον λογαριασμό! Θέλεις να τις αλλάξεις;
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_SPLITITEM]
+TITLE=Χωρισμός
+IDC_CATEGORYTEXT=Κατηγορία
+IDC_SUBCATEGORYTEXT=Υποκατηγορία
+IDC_AMOUNTTEXT=Ποσό
+IDC_COMMENTTEXT=Σχόλιο
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+IDHELP=Βοήθεια
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_STARTUP_CURRENCY]
+TITLE=Ιδιότητες νομίσματος
+IDC_CURRENCYTEXT=Αρχικό νόμισμα
+IDC_NUMBEROFDECIMALSTEXT=Νούμερο δεκαδικών
+IDC_DECIMALSEPARATORTEXT=Διαχωριστής δεκαδικών
+IDC_THOUSANDSEPARATORTEXT=Διαχωριστής χιλιάδων
+IDC_EXAMPLETEXT=Παράδειγμα
+
+IDC_BACK=<< Προηγούμενο
+IDC_NEXT=Επόμενο >>
+
+SEPARATOR_SPACE=Διάστημα
+SEPARATOR_NONE=Χωρίς διάστημα
+
+ERR_THOUSANDDECIMAL=Το δεκαδικό σημείο και ο διαχωριστής χιλιάδων δεν μπορούν να είναι οι ίδιοι!
+IDOK=ΟΚ
+IDCANCEL=’κυρο
+////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_STARTUP_DATE]
+TITLE=Τοποθετήσεις ημερομηνίας
+IDC_FORMATTEXT=Επιλογή ημερομηνίας
+IDC_SEPARATORTEXT=Διαχωριστής
+IDC_EXAMPLETEXT=Παράδειγμα
+
+IDC_BACK=<< Προηγούμενο
+IDC_FINISH=Τέλος
+IDOK=ΟΚ
+IDCANCEL=’κυρο
+////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_STOCK]
+TITLE=Επένδυση
+
+IDC_SYMBOLTEXT=Σύμβολο
+IDC_LOOKUP=Βρες συμβόλο..
+IDC_NAMETEXT=Όνομα
+IDC_CURRENCYTEXT=Νόμισμα
+IDC_COMMENTTEXT=Σχόλιο
+IDC_UPDATE=Ενημέρωσε...
+IDC_WEBUPDATE=Κατέβασε..
+IDC_PRICETEXT=Ιστορικό τιμής
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωση
+IDHELP=Βοήθεια
+
+COLUMN0=Ημερομηνία
+COLUMN1=Τιμή
+IDC_DATASOURCETEXT=Πηγή δεδομένων
+ERR_CONNECTIONORSYMBOL=Σφάλματος σύνδεσης στο Internet ή άκυρο stock σύμβολο!
+ERR_INVALIDDATASOURCE=Έγκυρη πηγή δεδομένων θα πρέπει να επιλεγεί!
+ERR_EMPTYNAME=Επενδύσεων όνομα δεν μπορεί να είναι άδειο!
+ERR_EMPTYSYMBOL=Σύμβολο μετοχής δεν μπορεί να είναι άδειο!
+IDC_DIVIDEBY100TEXT=Διαίρεσε αυτά που κατεβαίνουν με το 100
+IDC_AUTO_DOWNLOAD_ENABLED=Αυτόματη λήψη εισαγωγικά	 	
+STOCK=Χρηματιστήριο
+MUTUALFUND=Αμοιβαίο Κεφάλαιο
+BOND=υποθηκεύω
+INDEX=Δείκτης
+COMMODITY=Εμπόρευμα
+OTHER=’λλος
+IDC_TYPETEXT=Τύπος
+CURRENCY=Νόμισμα
+REALESTATE=Κτηματική περιουσία
+TRUST=Παρακαταθήκη
+OPTIONS=Επιλογές
+FUTURES=Μέλλον
+INTERNATIONAL_STOCK=Διεθνές Χρηματιστήριο
+INTERNATIONAL_BOND=Διεθνή Ομόλογα
+Αυτόματη λήψη εισαγωγικά
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_STOCKPRICE]
+TITLE=Τιμή επένδυσης
+
+IDC_DATETEXT=Ημερομηνία
+IDC_PRICETEXT=Τιμή
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_STOCKTRANSACTION]
+TITLE=Επενδυτικές συναλλαγές
+
+IDC_DATETEXT=Ημερομηνία
+IDC_ACCOUNTTEXT=Λογαριασμός
+IDC_ACTIONTEXT=Ενέργεια
+IDC_INVESTMENTTEXT=Επένδυση
+
+IDC_DIVIDENDTEXT=Μέρισμα
+IDC_NUMBERTEXT=Αριθμός μερισμάτων
+IDC_PRICETEXT=Τιμή
+IDC_COMMISSIONTEXT=Προμήθεια
+IDC_TOTALTEXT=Σύνολο
+
+BUY=Αγόρασε
+SELL=Πούλα
+DIVIDEND=Μέρισμα
+REINVEST=Επανεπένδυση μερίσματος
+ADD=Πρόσθεσε μερίσματα
+REMOVE=Αφαίρεση μερίσματος
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωση
+IDHELP=Βοήθεια
+
+ERR_NEGATIVEVALUES=Ο αριθμός μετοχών, τιμής ανά μερίδιο, μερίσματος, επιτροπής και συνόλου πρέπει να είναι θετικός!
+ERR_INVALIDACTIONTYPE=’κυρος τύπος δράσης!
+ERR_INVALIDACCOUNT=’κυρος λογαριασμός!
+ERR_INVALIDINVESTMENT=’κυρη επένδυση!
+IDC_COMMENTTEXT=Σχόλιο
+ERR_INCONSISTENTCURRENCY=Νόμισμα του επιλεγμένου λογαριασμού θα πρέπει να ταιριάζει με το νόμισμα της επένδυσης!
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_TRANSACTION]
+TITLE=Συναλλαγη
+
+IDC_TYPETEXT=Τύπος
+IDC_DEPOSIT=Κατάθεση
+IDC_WITHDRAWAL=Ανάληψη
+IDC_TRANSFER=Μεταφορά
+IDC_ACCOUNTTEXT=Λογαριασμός
+IDC_PAYEETEXT=Δικαιούχος
+IDC_CATEGORYTEXT=Κατηγορία
+IDC_SPLIT=Υποδιαίρεση
+IDC_COMMENTTEXT=Σημείωση
+IDC_DATETEXT=Ημερομηνία
+IDC_NUMBERTEXT=Νούμερο
+IDC_AMOUNTTEXT=Ποσό
+
+FROMTEXT=Από
+TOTEXT=Προς
+SPLIT=Χώρισε
+DEBIT=Ποσό
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωση
+IDHELP=Βοήθεια
+
+ERR_SAMETRANFER=Δεν μπορείς να μεταφέρεις στον ίδιο λογαριασμό!
+ERR_INVALIDACCOUNT=Λανθασμένος λογαριασμός!
+ERR_SPLITAMOUNT=Το ποσό της συναλλαγής πρέπει να ισούται με το άθροισμα των επιμέρους!
+ERR_SPLIT_HAS_TRANSFERS=Μια μεταφορά δεν μπορεί να έχει τοποθετηθεί από τη διάσπαση! Αφαιρέστε τις μεταφορές από τη διάσπαση, κατόπιν αλλαγή ο τύπος συναλλαγής.
+ERR_TRANSFER_FROM_SPLIT_NOT_ALLOWED=Μεταφορά από διαχωρισμένη συναλλαγή του επιλεγμένου τύπου δεν επιτρέπεται.	 	
+Μεταφορά από διαχωρισμένη συναλλαγή του επιλεγμένου τύπου δεν επιτρέπεται!
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_TRANSACTIONCATEGORY]
+TITLE=Κατηγορία συναλλαγής
+IDC_NAMETEXT=Όνομα
+IDOK=ΟΚ
+IDCANCEL=’κυρο
+
+ERR_NONAME=Μια κατηγορία συναλλαγής πρέπει να έχει ένα όνομα!
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_TRANSACTIONCATEGORYLIST]
+TITLE=Κατηγορίες από συναλαγές
+IDC_ADD=Νέα...
+IDC_DELETE=Διαγραφή
+IDC_EDIT=Τροποποίηση..
+IDOK=OK
+IDHELP=Βοήθεια
+UPDATE_TRANSACTIONS=Θέλετε να επικαιροποιηθούν οι υφιστάμενες συναλλαγές με το νέο όνομα;
+DELETE_TRANSACTIONS=Θέλετε να καταργήσετε την κατηγορία διαγράφεται στο υφιστάμενο συναλλαγές;  
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Ισοτιμία συναλλάγματος
+
+IDC_SOURCEAMOUNTTEXT=Ισοδυναμία από
+IDC_TARGETAMOUNTTEXT=Ισοδυναμία προς
+
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+[IDD_NETWORK]
+IDCANCEL=’κυρο
+IDC_DIRECTCONNECTION=’μεση σύνδεση στο Διαδίκτυο
+ERR_INVALID_PORT_NUMBER=Ο αριθμός λιμένων πρέπει να είναι μεγαλύτερος από 0 και λιγότερο από 65535!
+IDC_MANUALPROXYCONFIG=Χειρωνακτική διαμόρφωση πληρεξούσιου
+TITLE=Ρύθμιση υπερσύνδεσης
+IDC_PROXYSERVERTEXT=HTTP πληρεξούσιο
+IDOK=ΟΚ
+IDC_PROXYSERVERPORTTEXT=Λιμάνι
+[IDD_DUPLICATECHECKWARNING]
+IDYES=Ναι
+IDNO=Όχι
+TITLE=Διπλή προειδοποίηση
+IDC_WARNING=Ο αριθμός ελέγχου ### έχει ήδη χρησιμοποιηθεί σε μία από τις συναλλαγές αυτού του λογαριασμού. θέλεις πραγματικά να τον χρησιμοποιήσεις ξανά?
+IDC_DONOTSHOW=Μην ξαναδείξεις αυτή την προειδοποίηση
+[IDD_FILTERINVESTMENT]
+TITLE=Επιλέξτε επενδύσεις
+IDC_SELECTALL=Επιλογή όλων
+IDC_CLEARALL=Καθάρισμα όλων
+IDOK=ΟΚ
+IDCANCEL=’κυρο
+IDHELP=Βοήθεια
+[IDD_FILTERTAG]
+TITLE=Επιλέξτε ετικέτες
+IDC_SELECTALL=Επιλογή όλων
+IDC_CLEARALL=Καθάρισμα όλων
+IDOK=ΟΚ
+IDCANCEL=’κυρο
+IDHELP=Βοήθεια
+[IDD_FILTERTEXT]
+TITLE=Εισάγετε κείμενο
+IDOK=ΟΚ
+IDCANCEL=’κυρο
+IDHELP=Βοήθεια
+[IDD_QUESTION]
+CANCEL=Οχι
+OK=Ναι
+DO_NOT_ASK_AGAIN=Μη με ρωτήσεις ξανά
+TITLE=Επιβεβαίωση
+[IDD_ONLINESERVICE]
+IDHELP=Βοήθεια
+IDCANCEL=’κυρο
+IDOK=ΟΚ
+PROVIDER_TYPE_BROKERAGE=Μεσιτεία
+PROVIDER_TYPE_BANK=Τράπεζα
+PROVIDER_TYPE_CREDITCARD=Πιστωτική Κάρτα
+IDC_PASSWORDTEXT=Κωδικός πρόσβασης
+IDC_USERIDTEXT=Όνομα χρήστη
+IDC_PROVIDERTEXT=Σε σύνδεση φορέα παροχής υπηρεσιών
+IDC_PROVIDERTYPETEXT=Σε σύνδεση είδος υπηρεσίας
+IDC_ENABLE=Κατέβασμα συναλλαγών για αυτόν τον λογαριασμό
+TITLE=Σε σύνδεση υπηρεσίες
+IDC_CONNECTASTEXT=Συνδέστε το
+[IDD_ERROR]
+TITLE=Σφάλμα
+ERROR=Σφάλμα
+CLOSE=Κλείσε
+DESCRIPTION=Περιγραφή
+[IDD_DOWNLOADPROGRESS]
+IDOK=Κλείσε
+STATUS_FAILED=Αποτυχία
+TITLE=Εξέλιξη κατεβάσματος
+PROGRESS_TEXT=Ολοκλήρωση %1 of %2 εργασιών
+TASK_TRANSACTIONS=Συναλλαγές για τις..
+TASK_INVESTMENT=Εισαγωγικά για
+TASK_EXCHANGERATE=Συναλλαγματική ισοτιμία για τα
+STATUS_SUCCESS=%d των συναλλαγών
+STATUS_CONNECTING=Συνδέοντας
+STATUS_REQUESTING=Αιτούντος
+STATUS_RECEIVING=Υποδοχής
+STATUS_IMPORTING=Εισαγωγής
+IDC_AUTO_CLOSE=Αυτόματα κλείστε αυτό το παράθυρο διαλόγου, όταν ολοκληρωθεί η λήψη
+[DIRECTCONNECT]
+CONNECTING=Συνδέοντας
+REQUESTING=Που ζητούν πληροφορίες
+RECEIVING=Λαμβάνει δεδομένα
+IMPORTING=Εισαγωγής των συναλλαγών
+DOWNLOADED=Κατέβηκε %d συναλλαγές
+[IDD_DOWNLOADTRANSACTIONS]
+TITLE=Κατέβασμα Συναλλαγών
+IDC_DETECT_DUPLICATES=Διέγραψε διπλότυπα
+IDOK=ΟΚ
+IDCANCEL=’κυρο
+IDHELP=Βοήθεια
+ERROR_INVALID_ACCOUNT=’κυρος λογαριασμός!
+ERROR_MISSING_CONFIG=Απευθείας σύνδεση ρύθμιση είναι ατελής: λείπει παρόχου, Όνομα χρήστη, τον κωδικό ή τον αριθμό του λογαριασμού! Αυτές οι πληροφορίες μπορούν να εισαχθούν στο παράθυρο διαλόγου Λογαριασμός ιδιότητες.
+ERROR_INVALID_CONFIG=’κυρα ρυθμίσεις του παρόχου, παρακαλούμε να αλλάξετε το λογαριασμό και τις ιδιότητες τράπεζας.
+ERROR_CONNECT=Αποτυχία να συνδεθεί με το διακομιστή τράπεζα. Ο διακομιστής μπορεί να είναι εκτός, δοκιμάστε ξανά αργότερα.
+ERROR_SEND=Δεν είναι δυνατή η αποστολή δήλωση κατεβάσετε αίτηση στην τράπεζα!
+ERROR_INVALID_RESPONSE=’κυρη την απόκριση του διακομιστή τράπεζα!
+ERROR_AUTHENTICATION=’κυρο Όναμα χρήστη/Κωδικό πρόσβασης!
+ERROR_STATEMENT=Σφάλμα κατέβασμα λογαριασμού!
+ERROR_ACCOUNTINFO=Σφάλμα απόκτηση πληροφοριών λογαριασμού!
+ERROR_IMPORT=Σφάλμα κατά την εισαγωγή εξαγωγή των συναλλαγών με το λογαριασμό!
+ERROR_UNKNOWN=’γνωστο σφάλμα!
+IDC_ENABLE_LOGGING=Ενεργοποίηση καταγραφής
+ERROR_INVESTMENT_DOWNLOAD="Αδύνατο να κατεβάσετε ένα απόσπασμα: άκυρη σύμβολο της μετοχής, επιλεγμένο αρχείο προέλευσης δεδομένων δεν διαθέτει στοιχεία για την επένδυση, ή πρόβλημα με τη σύνδεση στο internet!"
+[IDD_BUDGET_LIMIT]
+TITLE=Όριο Προϋπολογισμού
+IDC_CATEGORY_TEXT=Κατηγορία
+IDC_MONTH_TEXT=Μήνας
+IDC_INCOME_LIMIT_TEXT=Όριο Εσόδων
+IDC_EXPENSE_LIMIT_TEXT=Όριο Εξόδων
+IDOK=ΟΚ
+IDCANCEL=Ακύρωση
+IDC_FROM=Από το μήνα
+IDC_TO=Σε μήνα
+[TAGS]
+IMPORTANT=Σημαντικές
+WORK=Εργασία
+PERSONAL=Προσωπικά
+TODO=Να κάνω
+LATER=Αργότερα
+[IDD_TAGLIST]
+TITLE="Συναλλαγή Ετικέτες"
+IDC_ADD=Προσθήκη ...
+IDC_DELETE=Διαγραφή
+IDC_EDIT=Ενημέρωση ...
+IDOK=Κλείσε
+IDHELP=Βοήθεια
+DELETE_WARNING="Η επιλεγμένη ετικέτα (ες) θα αφαιρεθεί από το σύνολο των πράξεων που είναι σημειωμένα με αυτές. Συνέχεια;"
+[IDD_TAG]
+TITLE="Συναλλαγή Ετικέτα"
+IDC_NAMETEXT=Όνομα
+IDC_COLORTEXT=Χρώμα
+IDOK=ΟΚ
+IDCANCEL=Ακύρωσε
+ERR_NONAME="Συναλλαγή ετικέτα ονόματος δεν μπορεί να είναι άδειο!"
+ERR_EXISTS="Συναλλαγή ετικέτα με το ίδιο όνομα υπάρχει ήδη. Παρακαλώ εισάγετε ένα διαφορετικό όνομα."
+[IDD_REPORTNAME]
+TITLE=Όνομα Αναφοράς
+IDC_NAMETEXT=Όνομα Αναφοράς
+IDOK=ΟΚ
+IDCANCEL=’κυρο
+ERROR_EMPTY=Έκθεση όνομα δεν μπορεί να είναι άδειο!
+ERROR_EXIST=Υπάρχει ήδη μια υπάρχουσα έκθεση με το ίδιο όνομα. Να αντικατασταθεί;

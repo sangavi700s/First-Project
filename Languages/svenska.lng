@@ -1,0 +1,1747 @@
+ProgramID=AceMoney
+Language=Swedish
+
+///////////////////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories_sve.dat
+BANKS=banks_sve.dat
+ACCOUNTTYPES=accounttypes_sve.dat
+IMPORTRULES=importrules.dat
+
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+
+CURRENCY=SEK
+DECIMALS=2
+DECIMALSEPARATOR=.
+THOUSANDSEPARATOR=,
+DATEFORMAT=YYMMDD
+DATESEPARATOR=-
+
+STATUS=Status
+TRANSFER=Överför
+DEPOSIT=Insättning
+WITHDRAWAL=Uttag
+TO=till
+FROM=från
+TOTAL=Totalt
+SUBTOTAL=Delsumma 
+RECONCILEDTOTAL=Verifierade totalt
+CLEAREDTOTAL=Genomförda totalt
+IMPORTEDTOTAL=Totalt importerade
+UNCLEAREDTOTAL=Nya totalt
+TODAYTEXT=Idag
+PAGE=Sida
+UNASSIGNED=(Osignerad)
+SAVEMODIFIED=Spara ändringar?
+REPLACEMENTS=Ersättningar gjordes
+INVALIDNUMBER=Ogiltigt nummerformat!
+AVERAGE=Medeltal
+AUTODETECT=Auto upptäck
+BALANCE=Saldo
+AVAILABLE_BALANCE=Tillgängligt Saldo
+
+YES=Ja
+NO=Nej
+
+MSG_LOADSAMPLE=Vill du öppna en demo-fil?
+MSG_SAMPLEFILEWARNING=Demo-fil kunde inte sparas! Välj Arkiv->Spara som för att spara data till en annan fil.
+
+ONE_COLUMN_MUST_BE_DISPLAYED=Åtminstone en kolumn måste visas!
+
+NEW_VERSION_DETECTED=En ny version av AceMoney har släppts och är tillgänglig för nedladdning. Vill du uppgradera?
+NO_NEW_VERSION_IS_AVAILABLE=Ingen ny version är tillgänglig.
+NEW_VERSION_CHECK_FAILED=AceMoney misslyckades med att kontrollera om en ny version finns tillgänglig, därför att anslutningen till servern inte kan etableras. Vänligen kontrollera dina nätverksinställningar eller prova igen senare.
+MSG_CONVERTFILEWARNING=AceMoney kommer nu göra om filen i .AMJ format. Originalfilen finns bevarad som .BAK tillägg
+MSG_CONVERTNOTEHOSTNAME=Notera namnet på datorn, den kan användas i framtiden för att återställa dina data. Namnet på datorn är:
+MSG_LICENSEMISMATCH=Den här filen skapades på en annan dator med en hög grad av säkerhet. Att dela den här filen med en annan användare, det måste sparas på den ursprungliga datorn med \ "tillåta åtkomst för flera användare\" alternativet aktiverat i inställningar för lösenord.
+MSG_CORRUPTAMJFILE=Detta AMJ filen är skadad och kan inte läsas
+MSG_FILEVERSIONERROR=Denna version av AceMoney kan inte läsa filen du försökte öppna. Installera den senaste versionen av AceMoney
+MSG_CLOUDNEEDSLICENSE=Denna funktion är tillgänglig med licensierad version av AceMoney.
+
+[DIRECTCONNECT]
+CONNECTING=Anslutning
+REQUESTING=Begär information
+RECEIVING=Tar emot data
+IMPORTING=Importera transaktioner
+DOWNLOADED=Nedladdade %d transaktioner
+
+[MENU]
+MENU=Meny
+ADD=Lägg till
+
+ID_FILE=Arkiv
+ID_FILE_NEW=Ny
+ID_FILE_OPEN=Öppna...
+ID_FILE_SAVE=Spara
+ID_FILE_SAVE_AS=Spara som...
+ID_FILE_ARCHIVE=Arkivera...
+ID_FILE_IMPORT=Importera...
+ID_FILE_EXPORT=Exportera...
+ID_FILE_PRINT=Skriv ut...
+ID_FILE_PRINT_PREVIEW=Förhandsgranska...
+ID_APP_EXIT=Avsluta
+
+ID_EDIT=Redigera
+ID_EDIT_DELETE=Radera
+ID_EDIT_INSERT=Klistra in
+ID_EDIT_SELECTALL=Markera allt
+ID_EDIT_FIND=Sök...
+ID_EDIT_PROPERTIES=Alternativ...
+ID_EDIT_COPY=Kopiera
+ID_EDIT_PASTE=Klistra in
+ID_EDIT_ADDTOSCHEDULE=Lägg till räkningar...
+
+ID_VIEW=Visa
+ID_VIEW_ACCOUNTS=Konton
+ID_VIEW_BANKS=Banker
+ID_VIEW_PAYEES=Mottagare
+ID_VIEW_CATEGORIES=Kategorier
+ID_VIEW_SCHEDULE=Räkningar
+ID_VIEW_PORTFOLIO=Portfölj
+ID_VIEW_REPORTS=Rapporter
+
+ID_ACCOUNTS=Konton
+ID_ACCOUNTS_ADD=Lägg till konto...
+ID_ACCOUNTS_TYPE=Kontotyp...
+
+ID_REPORTS=Rapporter
+ID_REPORTS_ADD=Lägg till favoriter...
+ID_REPORTS_ORGANIZE=Organisera...
+
+ID_ACECLOUD=AceCloud
+ID_ACECLOUD_CLOUDSETUP=Cloud inställningar ...
+ID_ACECLOUD_GETACERECEIPTS=Få AceKvitto ...
+
+ID_TOOLS=Verktyg
+ID_TOOLS_CURRENCY=Växelkurs...
+ID_TOOLS_TRANSACTION_CATEGORY_LIST=Transaktionskategorier...
+ID_TOOLS_TRANSACTION_TAG_LIST=Transaktionsetiketter...
+ID_TOOLS_BACKUP=Säkerhetskopiera...
+ID_TOOLS_RESTORE=Återställ...
+ID_TOOLS_CALCULATOR=Kalkylator...
+ID_TOOLS_CALCULATOR_LOAN=Lånekalkylator...
+ID_TOOLS_CALCULATOR_SAVINGS=Sparkalkylator...
+ID_TOOLS_CALCULATOR_MORTGAGE=Amorteringskalkylator...
+ID_TOOLS_IMPORT_RULES=Importregler...
+ID_TOOLS_LANGUAGE=Språk...
+ID_TOOLS_COLORS=Teckensnitt och färger...
+ID_TOOLS_INTERNATIONAL=Internationella inställningar...
+ID_TOOLS_OPTIONS=Inställningar...
+
+ID_HELP=Hjälp
+ID_HELP_TOPICS=Översikt
+ID_HELP_HOMEPAGE=AceMoney's hemsida...
+ID_HELP_WHATSNEW=Vad är nytt...
+ID_HELP_SUPPORT=Teknisk support...
+ID_HELP_FORUM=Web-forum...
+ID_HELP_TUTORIAL=Online-hjälp...
+ID_HELP_REGISTER=Registera AceMoney...
+ID_HELP_ORDER=Beställ AceMoney...
+ID_HELP_CHECK_FOR_UPDATES=Kontrollera uppdateringar...
+ID_HELP_ABOUT=Om...
+
+[TOOLBAR]
+ID_FILE_NEW=Ny
+ID_FILE_OPEN=Öppna
+ID_FILE_SAVE=Spara
+ID_VIEW_BACK=Tillbaka
+ID_VIEW_FORWARD=Framåt
+ID_VIEW_HOME=Hem
+ID_VIEW_ACCOUNTS=Konton
+ID_VIEW_BANKS=Banker
+ID_VIEW_PAYEES=Mottagare
+ID_VIEW_CATEGORIES=Kategorier
+ID_VIEW_SCHEDULE=Räkningar
+ID_VIEW_REPORTS=Rapporter
+ID_VIEW_PORTFOLIO=Portfölj
+ID_HELP_HOMEPAGE=Hemsida
+
+[TAGS]
+IMPORTANT=Viktigt
+WORK=Arbete
+PERSONAL=Personlig
+TODO=Att göra
+LATER=Senare
+
+////////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=Konton
+IDC_ADD=Lägg till konto...
+IDC_BILLS=Räkningar
+IDC_REPORTS=Rapporter
+IDC_CURRENCY=Senaste växelkurs
+IDC_WEBUPDATE=Hämta växelkurs
+IDHELP=Hjälp
+
+ID_ACCOUNT_OPEN=Öppna
+ID_ACCOUNT_ADD=Lägg till konto...
+ID_ACCOUNT_DELETE=Radera konto
+ID_ACCOUNT_EDIT=Redigera
+ID_ACCOUNT_SHOWNUMBERS=Visa kontonummer
+ID_ACCOUNT_SHOWCLOSED=Visa avslutade konton
+ID_ACCOUNT_SHOW_AVAILABLE_BALANCE=Visa tillgängligt saldo
+ID_ACCOUNT_CLOSE=Stäng konto
+ID_ACCOUNT_REOPEN=Öppna konto
+ID_ACCOUNT_ACCEPT_IMPORTED=Acceptera importerade transaktioner
+
+TOTAL=Totalt
+LASTUPDATE=Senaste uppdateringen
+
+DELETE_CONFIRMATION=Konto %s kommer att tas bort med alla transaktioner! Fortsätt?
+
+UPDATE_SUCCESS=Växelkursen är uppdaterad!
+UPDATE_FAILURE=Fel i uppdateringen! Du är inte ansluten eller så blev inte vissa valutor uppdaterade!
+UPDATE_NOTREQUIRED=Webbuppdatering är inte nödvändig!
+
+NEW_CURRENCY_DETECTED=Denna beräkning använder en annan valuta än den huvudsakliga. Du behöver uppdatera valutakursen, du kan hämta dem från Internet eller göra det manuellt i Verktyg>Växelkurs. Vill du vill att AceMoney ska hämta växelkursen nu?
+
+////////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPORTFOLIO]
+TITLE=Portfölj
+
+ALLACCOUNTS=Alla konton
+
+IDC_NEWTRANSACTION=Ny transaktion...
+
+IDC_ADD=Lägg till investering...
+IDC_EDIT=Ändra investering...
+IDC_DELETE=Radera investering...
+
+IDC_IMPORT=Importera...
+
+IDC_WEBUPDATE=Hämta kurs
+
+IDHELP=Hjälp
+
+STOCKLIST=Aktier
+STOCKTRANSACTIONLIST=Transaktioner
+ALLOCATION_BY_INVESTMENTS=Allokering av Aktier
+ALLOCATION_BY_ACCOUNTS=Allocation av Konton
+ALLOCATION_BY_TYPES=Allokering av Typer
+
+COLUMN0=Tecken
+COLUMN1=Namn
+COLUMN2=Senaste kurs
+COLUMN3=Kvantitet
+COLUMN4=Totalt
+COLUMN5=Vinst
+COLUMN6=Ändra
+COLUMN7=Öppna
+COLUMN8=Volym
+COLUMN9=P/E
+COLUMN10=EPS
+COLUMN11=Div Avkastning
+COLUMN12=52 veckor låg
+COLUMN13=52 veckor hög
+COLUMN14=Vinst, %
+COLUMN15=Typ
+
+TRANSACTIONSCOLUMN0=Datum
+TRANSACTIONSCOLUMN1=Händelse
+TRANSACTIONSCOLUMN2=Tecken 
+TRANSACTIONSCOLUMN3=Konto
+TRANSACTIONSCOLUMN4=Utdelning
+TRANSACTIONSCOLUMN5=Kurs
+TRANSACTIONSCOLUMN6=Kvantitet
+TRANSACTIONSCOLUMN7=Kommision
+TRANSACTIONSCOLUMN8=Totalt
+TRANSACTIONSCOLUMN9=Kommentar
+
+CANTBEDELETED=Denna aktie finns i en eller flera transaktioner. Den kan inte raderas!
+DELETECONFIRMATION=Denna aktie kommer att raderas. Är du säker?
+UPDATEISNOTREQUIRED=Uppdatering är inte nödvändig!
+UPDATEISNOTCOMPLETE=Några investeringar uppdaterades inte!
+INVESTMENTNOTCREATED=Det måste skapas en investering först!
+
+ID_EDIT_OPEN=Ändra investering
+ID_EDIT_INSERT=Lägg till ny investering
+ID_EDIT_DELETE=Radera
+
+////////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=Konto
+IDC_ADD=Lägg till transaktion
+IDC_ADD_INVESTMENT_TRANSACTION=Kapitalplacering
+IDC_EDIT=Redigera transaktion
+IDC_DELETE=Radera transaktion
+IDC_BALANCE=Balansera konto
+IDC_DOWNLOAD=Ladda ner transaktioner
+IDC_WEBSITE=Bankens hemsida
+IDC_ACCOUNT=Redigera konto
+IDC_BANK=Redigera bank
+IDC_MONTHREPORT=Månadsrapport
+IDC_REPORT=30-dagarsrapport
+IDC_HIDERECONCILED=Göm verifierade
+IDHELP=Hjälp
+
+COLUMN0=Nummer
+COLUMN1=Datum
+COLUMN2=Mottagare
+COLUMN3=Kategori
+COLUMN4=S
+COLUMN5=Uttag
+COLUMN6=Insättning
+COLUMN7=Totalt
+COLUMN8=Kommentar
+COLUMN9=Konto
+
+BANKISNOTASSIGNED=För att utnyttja denna möjlighet, välj den bank där du har detta konto!
+PAGEISNOTASSIGNED=Internetadressen fattas. Du kan lägga till den under Banker/Redigera bank.
+STATUS=Denna månad har du spenderat %.2f i kategori %s
+STATUSINCOME=Denna månad har du mottagit %.2f i kategori %s
+STATUSSUM=Summan av de valda transaktionerna är
+
+ID_TRANSACTION_UNCLEARED=Nya
+ID_TRANSACTION_CLEARED=Genomförda
+ID_TRANSACTION_RECONCILED=Verifierade
+
+ID_EDIT_OPEN=Redigera
+ID_EDIT_INSERT=Ny transaktion...
+ID_EDIT_INSERTBILL=Registrera räkning...
+ID_EDIT_DELETE=Radera
+ID_EDIT_COPY=Kopiera
+ID_EDIT_PASTE=Klistra in
+ID_EDIT_CATEGORY=Redigera kategori...
+ID_EDIT_CATEGORYCHANGE=Ändra kategori...
+ID_EDIT_PAYEE=Redigera mottagare...
+ID_EDIT_PAYEECHANGE=Ändra mottagare...
+ID_EDIT_ADDTOSCHEDULE=Lägg till räkningar...
+ID_EDIT_GOTO_TRANSACTION=Gå till transaktion
+ID_EDIT_GOTO_ACCOUNT=Gå till konto
+
+ID_VIEW_DISPLAYSIDEPANEL=Visa sidpanelen
+
+ID_EDIT_INSERTBILL=Registrera betalda räkningar ...
+ID_EDIT_SKIPBILL=Hoppa över betalning
+
+IDC_CREATE_IMPORT_RULE=Skapa Importregel...
+IDC_APPLY_IMPORT_RULES=Tillämpa Importregler
+
+ID_REPORTS_CATEGORY=Kategorirapport...
+ID_REPORTS_PAYEE=Mottagarrapport...
+
+ID_EDIT_TAG=Tagg
+ID_EDIT_TAG_REMOVE_ALL=&0 Ta bort alla taggar
+ID_EDIT_TAG_IMPORTANT=&1 Viktigt
+ID_EDIT_TAG_WORK=&2 Arbete
+ID_EDIT_TAG_PERSONAL=&3 Personligt
+ID_EDIT_TAG_TODO=&4 Att göra
+ID_EDIT_TAG_LATER=&5 Senare
+
+ID_EDIT_ATTACHMENTS=Bilagor
+ID_EDIT_ATTACHMENT_ADD=Bifoga...
+ID_EDIT_ATTACHMENT_DELETE=Radera
+
+BILLDELETECONFIRMATION=Detta tar bort alla framtida transaktioner kopplade till räkning/insättning!
+TRANSACTIONDELETECONFIRMATION=En eller flera transaktioner tas bort permanent. Är du säker?
+RECONCILEDTRANSACTIONCONFIRMATION=Denna transaktion är markerad som verifierad, ändringar rekommenderas inte! Fortsätt?
+CLEAREDTRANSACTIONCONFIRMATION=Denna transaktion är markerad som genomförd, ändringar är inte att rekommendera! Fortsätt?
+CANNOTSORTBYTOTAL=Du kan inte sortera på totalen!
+MOVE_PARTIALLY_FAILED=Vissa transaktioner kan inte flyttas till det valda kontot!
+
+////////////////////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=Ny bank...
+IDC_EDIT=Redigera bank
+IDC_DELETE=Radera bank
+IDC_DELETEUNUSED=Ta bort oanvända
+IDC_IMPORT=Importera...
+IDHELP=Hjälp
+
+COLUMN0=Bankens namn
+COLUMN1=Adress
+COLUMN2=Hemsida
+COLUMN3=Kommentar
+COLUMN4=Telefon
+
+CANTBEDELETED=Ett av dina konton är länkade till den här banken. Den går inte att radera.
+DELETECONFIRMATION=Är du säker?
+DELETEUNUSED=Detta tar bort alla banker som inte är länkade till dina konto! Fortsätt?
+
+ID_EDIT_OPEN=Redigera
+ID_EDIT_INSERT=Ny bank...
+ID_EDIT_DELETE=Radera
+
+////////////////////////////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=Ny kategori...
+IDC_EDIT=Redigera
+IDC_DELETE=Ta bort
+IDC_DELETEUNUSED=Ta bort oanvända...
+IDC_REPORT=Kategorirapport
+IDC_BUDGETREPORT=Budgetrapport
+IDC_IMPORT=Importera...
+IDC_MERGE=Sammanfoga...
+IDHELP=Hjälp
+
+COLUMN0=Kategori
+COLUMN0a=Kod
+COLUMN1a=Inkomst
+COLUMN2a=Utgift
+COLUMN2c=Period
+COLUMN3=Kommentar
+COLUMN4=Månadsbudget
+
+CANTBEDELETED=En transaktion använder den här kategorin. Den går inte att radera.
+PARENTCANTBEDELETED=Detta är en huvudkategori för en eller flera underkategorier. Om du vill radera den så måste du radera underkategorierna först.
+DELETECONFIRMATION=Är du säker?
+DELETEUNUSED=Detta tar bort alla kategorier som inte används i några transaktioner. Fortsätt?
+ID_EDIT_OPEN=Redigera
+ID_EDIT_INSERT=Ny...
+ID_EDIT_DELETE=Radera
+
+TOTALINCOME=Årsinkomst:
+TOTALEXPENSE=Årliga utgifter:
+
+MONTHLY_INCOME=Månadsinkomst:
+MONTHLY_EXPENSE=Månadsutgifter:
+
+MONTHLY_TOTAL=Månatlig totalsumma
+ANNUAL_TOTAL=Årlig totalsumma
+
+////////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=Ny mottagare...
+IDC_EDIT=Redigera
+IDC_DELETE=Radera
+IDC_DELETEUNUSED=Ta bort oanvända
+IDC_REPORT=Mottagarrapport
+IDC_MERGE=Sammanfoga...
+IDHELP=Hjälp
+
+IDC_HIDE_INACTIVE=Göm inaktiva mottagare
+
+COLUMN0=Namn
+COLUMN1=Adress
+COLUMN2=Kommentar
+COLUMN3=Telefon
+
+CANTBEDELETED=En transaktion använder den här mottagaren. Den går inte att radera.
+DELETECONFIRMATION=Är du säker?
+DELETEUNUSED=Det här tar bort alla mottagare som inte används i denna transaktion. Fortsätt?
+
+ID_EDIT_OPEN=Redigera
+ID_EDIT_INSERT=Ny...
+ID_EDIT_DELETE=Radera
+
+ID_PAYEE_ACTIVATE=Aktivera
+ID_PAYEE_DEACTIVATE=Avaktivera
+
+////////////////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=Filtrera på datum
+IDC_SETDATES=Välj datum
+
+IDC_USECATEGORYFILTER=Filtrera på kategorier
+IDC_SETCATEGORIES=Välj kategori
+
+IDC_USEPAYEEFILTER=Filtrera på mottagare
+IDC_SETPAYEES=Välj mottagare
+
+IDC_USEACCOUNTFILTER=Filtrera med konton
+IDC_SETACCOUNTS=Välj konto
+
+IDC_USEINVESTMENTFILTER=Filtrera efter investeringar
+IDC_SETINVESTMENTS=Välj investeringar ...
+
+IDC_USETAGFILTER=Filtrera efter etiketter
+IDC_SETTAGS=Välj etiketter ...
+
+IDC_USETEXTFILTER=Filtrera efter text
+IDC_SETTEXT=Ställ in text ...
+
+IDC_INCLUDETRANSFERS=Inkludera överföringar
+IDC_SHOW_SUBTOTALS=Visa delsummor
+IDC_HIDE_ZERO_ROWS=Göm noll rader
+
+IDHELP=Hjälp
+
+IDC_TRANSACTIONS=Transaktionsrapport
+IDC_CATEGORY=Utgifter per kategorier
+IDC_SUBCATEGORY=Utgifter per underkategorier
+IDC_CATEGORYBYMONTH=Månadsutgifter per kategorier
+IDC_SUBCATEGORYBYMONTH=Månadsutgifter per underkategorier
+IDC_PAYEE=Utgifter per mottagare
+IDC_PAYEEBYMONTH=Månadsvisa betalningsmottagare
+IDC_BUDGETCATEGORY=Budget per kategori
+IDC_BUDGETSUBCATEGORY=Budget per underkategori
+IDC_CASHFLOW=Kassaflöde
+IDC_LAST30DAYS=Senaste 30 dagarna
+IDC_ACCOUNT=Utgifter av konton
+IDC_INVESTMENT=Prestanda genom investeringar
+
+IDC_TABLE=Tabell
+IDC_CHART=Diagram
+IDC_INCOMECHART=Inkomstdiagram
+IDC_EXPENSECHART=Utgiftsdiagram
+IDC_PERIODCHART=Perioddiagram
+IDC_TOTALCHART=Totaldiagram
+
+CATEGORYCOLUMN0=Kategori
+CATEGORYCOLUMN1=Summa
+CATEGORYCOLUMN2=Budgeterat
+CATEGORYCOLUMN3=Skillnad
+CATEGORYCOLUMN4=Kod
+CATEGORYCOLUMN5=Inkomst
+CATEGORYCOLUMN6=Utgift
+CATEGORYCOLUMN7=Budget, %
+
+CASHFLOWCOLUMN0=Datum
+CASHFLOWCOLUMN1=Totalt perioden
+CASHFLOWCOLUMN2=Totalt
+
+OTHERS=Andra
+
+GENERALREPORTS=Generella rapporter
+CATEGORYREPORTS=Kategorirapporter
+PAYEEREPORTS=Mottagarrapporter
+BUDGETREPORTS=Budgetrapporter
+INVESTMENTREPORTS=Investment rapporter
+FAVORITEREPORTS=Favoritrapporter
+
+PAYEECOLUMN0=Mottagare
+PAYEECOLUMN1=Summa
+PAYEECOLUMN2=Inkomst
+PAYEECOLUMN3=Utgift
+
+ACCOUNTCOLUMN0=Konto
+ACCOUNTCOLUMN1=Grupp
+ACCOUNTCOLUMN2=Bank
+ACCOUNTCOLUMN3=Balans
+
+INVESTMENTCOLUMN0=Placering
+INVESTMENTCOLUMN1=Tecken
+INVESTMENTCOLUMN2=Summa
+INVESTMENTCOLUMN3=Kostnad
+INVESTMENTCOLUMN4=Beställa
+INVESTMENTCOLUMN5=Kostnad per aktie
+INVESTMENTCOLUMN6=Utdelning
+INVESTMENTCOLUMN7=Värdera
+INVESTMENTCOLUMN8=Ökning
+INVESTMENTCOLUMN9=Ökning, %
+INVESTMENTCOLUMN10=Köp valuta
+INVESTMENTCOLUMN11=Köp kommission
+INVESTMENTCOLUMN12=Sälj valuta
+INVESTMENTCOLUMN13=Sälj kommission
+INVESTMENTCOLUMN14=Inkomst
+INVESTMENTCOLUMN15=Kort-realisationsvinst
+INVESTMENTCOLUMN16=Lång-realisationsvinst
+INVESTMENTCOLUMN17=Löpande priser
+
+/////////////////////////////////////////////////////////////////////////////// 
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Registrera Transaktion
+IDC_ADD=Ny Transaktion...
+IDC_EDIT=Redigera Transaktion
+IDC_DELETE=Radera Transaktion
+IDC_SKIP=Hoppa över Transaktion
+IDHELP=Hjälp
+
+COLUMN0=Datum
+COLUMN1=Transaktion
+COLUMN2=Mottagare
+COLUMN3=Summa
+COLUMN4=Kommentar
+COLUMN5=Frekvens
+COLUMN6=Kategori
+COLUMN7=Automatisk
+
+IDC_TABLE=Tabel
+IDC_CALENDAR=Kalender
+
+DELETECONFIRMATION=Vill du radera?
+
+ID_EDIT_OPEN=Öppna
+ID_EDIT_INSERT=Lägg till ny...
+ID_EDIT_DELETE=Radera
+ID_EDIT_PROPERTIES=Redigera
+ID_EDIT_COPY=Kopiera
+ID_EDIT_PASTE=Klistra in
+
+CHANGE_OF_ACCOUNT=Vill du använda samma konto för framtida förekomster av denna räkning?
+CHANGE_OF_AMOUNT=Vill du använda samma summa för framtida förekomster av denna räkning?
+
+////////////////////////////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=Om
+IDOK=OK
+IDCANCEL=Avbryt
+
+[IDD_ACCOUNT]
+TITLE=Konto
+IDC_NAMETEXT=Namn
+IDC_TYPETEXT=Typ
+
+IDC_BANKTEXT=Banknamn
+IDC_EDITBANK=Redigera...
+
+IDC_NUMBERTEXT=Nummer
+IDC_BALANCETEXT=Ingående saldo
+IDC_CURRENCYTEXT=Valuta
+IDC_LIMIT_TEXT=Saldogräns
+IDC_APR_TEXT=Årlig procentsats
+IDC_CLOSED=Kontot är avslutat
+IDC_COMMENTTEXT=Kommentar
+
+IDC_ONLINE_SETUP=Online Konfigurationen...
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+ERR_NOACCOUNTNAME=Ett konto måste ha ett namn!
+ERR_NOACCOUNTTYPE=Du måste välja vilken sorts konto!
+ERR_NOCURRENCY=Ett konto måste ha en valuta!
+ERR_EMPTYBANKNAME=Ange eller välj namnet på banken först!
+ERR_DUPLICATENAME=Det finns ett konto med samma namn, duplikat namn är inte tillåtet!
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=Kontotyper
+IDC_ADD=Lägg till...
+IDC_DELETE=Radera
+IDC_EDIT=Uppdatera...
+IDOK=OK
+IDCANCEL=Avbryt
+
+ERR_CANTDELETE=Den här kontotypen används av ett konto!
+
+[IDD_ACCOUNTTYPE]
+TITLE=Kontotyp
+IDC_NAMETEXT=Namn
+IDOK=OK
+IDCANCEL=Avbryt
+
+ERR_NOACCTYPENAME=En kontotyp måste ha ett namn!
+
+[IDD_ARCHIVE]
+TITLE=Skapa arkiv
+IDC_DATE_TEXT=Arkivera alla transaktioner t.o.m.
+IDC_DELETE=Ta bort arkiverade transaktioner från det aktiva dokumentet
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+ERR_CREATE_ARCHIVE=Misslyckades med att skapa ett arkiv!
+ERR_WRITE_ARCHIVE=Misslyckades med att spara arkivfil!
+
+[IDD_BACKUP]
+TITLE=Säkerhetskopiering
+
+IDC_ENABLEBACKUP=Möjliggör säkerhetskopiering
+
+IDC_LASTBACKUPTEXT=Senaste kopia
+IDC_FREQUENCYTEXT=Frekvens
+IDC_DIRECTORYTEXT=Spara i mapp
+IDC_BACKUP=Kör!
+IDC_AUTOMATIC=Automatisk säkerhetskopiering
+IDC_ADD_DATE_TO_BACKUP_FILE=Lägg till datum på filnamn
+
+IDC_EVERYDAY=Varje dag
+IDC_EVERYWEEK=Varje vecka
+IDC_EVERYOTHERWEEK=Varannan vecka
+
+IDC_BROWSE=Bläddra...
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+ERR_INVALIDDIR=En giltig sökväg måste användas!
+ERR_COPYFILE=Ett fel uppstod under säkerhetskopieringen! Sitter en skiva i?
+ERR_BACKUPTIME=Det är dags för säkerhetskopiering. Genomför?
+ERR_NEWFILE=Du måste spara filen innnan säkerhetskopiering kan göras!
+ERR_COPYFILE_RESTORE=Ett fel inträffade under återställning! Kanske sitter ingen skiva i enheten.
+SELECT_FILE_TO_RESTORE=Välj en fil att återställa
+SELECT_RESTORE_DIR=Var vill du spara filen?
+OPEN_RESTORED_FILE=Vill du öppna den återställda filen?
+
+[IDD_BALANCE]
+TITLE=Balansera konto
+
+IDC_CLEAREDDEPOSITS=Genomförda insättningar
+IDC_CLEAREDWITHDRAWALS=Genomförda uttag
+
+IDC_RECONCILEDTEXT=Ingående balans
+IDC_CLEAREDTEXT=Nuvarande balans
+IDC_UNCLEAREDTEXT=Utgående balans
+
+IDC_NEWTRANSACTION=Ny...
+IDC_SELECTALL=Markera alla
+IDC_DESELECTALL=Avmarkera alla
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+[IDD_BANK]
+TITLE=Bank
+
+IDC_NAMETEXT=Namn
+IDC_ADDRESSTEXT=Adress
+IDC_PHONETEXT=Telefon
+IDC_WEBSITETEXT=Hemsida
+IDC_OPEN=Öppna
+IDC_COMMENTTEXT=Kommentar
+IDC_BANKNUMBERTEXT=Clearingnummer
+IDC_SWIFTCODETEXT=SWIFT-nr
+IDC_TRANSFERCODETEXT=Överföringskod
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+ERR_NOBANKNAME=Banken måste ha ett namn!
+
+[IDD_BILL]
+TITLE=Transaktion
+
+IDC_FREQUENCYGROUP=Frekvens
+
+IDC_ONCE=En gång
+IDC_DAILY=Dagligen
+IDC_WEEKLY=Veckovis
+IDC_EVERYOTHERWEEK=Varannan vecka
+IDC_TWICEAMONTH=2 ggr/mån
+IDC_EVERYFOURWEEKS=Var fjärde vecka
+IDC_MONTHLY=Varje månad
+IDC_EVERYOTHERMONTH=Varannan månad
+IDC_QUARTERLY=Varje kvartal
+IDC_EVERYFOURMONTHS=Var fjärde månad
+IDC_EVERYSIXMONTHS=Var sjätte månad
+IDC_ANNUALLY=Varje år
+IDC_EVERYTWOYEARS=Vartannat år
+
+IDC_STARTDATETEXT=Startdatum
+
+IDC_BILLTYPETEXT=Typ av transaktion
+BILLTYPE_CONTINUOUS=Fortlöpande
+BILLTYPE_NUMBERED=Fast antal
+
+IDC_NUMBERTEXT=Antal betalningar
+
+IDC_TRANSACTIONGROUP=Transaktion
+IDC_TYPETEXT=Typ
+IDC_DEPOSIT=Insättning
+IDC_WITHDRAWAL=Uttag
+IDC_TRANSFER=Överför
+IDC_CHECK_NUMBER_TEXT=Nummer
+IDC_ACCOUNTTEXT=Konto
+IDC_PAYEETEXT=Mottagare
+IDC_CATEGORYTEXT=Kategori
+IDC_SPLIT=Dela
+IDC_AMOUNTTEXT=Summa
+IDC_COMMENTTEXT=Kommentar
+
+IDC_ENTER=Lägg till i konto
+IDC_AUTOMATIC=Lägg till räkning automatiskt
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+ERR_INVALIDACCOUNT=Fel kontonamn!
+ERR_INVALIDNUMBER=Antalet betalningar kan inte vara mindre än 1!
+
+[IDD_BUDGET_LIMIT]
+TITLE=Budgetgräns
+
+IDC_CATEGORY_TEXT=Kategori
+IDC_MONTH_TEXT=Månad
+IDC_INCOME_LIMIT_TEXT=Inkomstgräns
+IDC_EXPENSE_LIMIT_TEXT=Kostnadgräns
+
+IDC_FROM=Från månad
+IDC_TO=Till månad
+
+IDOK=OK
+IDCANCEL=Avbryt
+
+[IDD_CALC_LOAN]
+TITLE=Lånekalkylator
+
+IDC_AMOUNTTEXT=Summa
+IDC_RATETEXT=Årlig räntekurs, %
+IDC_PERIODTEXT=Period, månad
+IDC_PAYMENTTEXT=Betalning
+IDC_TOTALINTERESTTEXT=Total ränta
+
+COLUMN0=#
+COLUMN1=Betalning
+COLUMN2=Amortering
+COLUMN3=Ränta
+COLUMN4=Lån
+
+IDOK=OK
+
+[IDD_CALC_SAVINGS]
+TITLE=Sparkalkylator
+
+IDC_MONTHLYPAYMENTTEXT=Månadsinbetalning
+IDC_INITIALBALANCETEXT=Ursprunglig balans
+IDC_RATETEXT=Årlig ränta, %
+IDC_PERIODTEXT=Period, månad
+IDC_STARTDATETEXT=Startdatum
+IDC_TOTALINTERESTTEXT=Total ränta
+IDC_TOTALTEXT=Totalt
+
+COLUMN0=#
+COLUMN1=Datum
+COLUMN2=Inbetalning
+COLUMN3=Ränta
+COLUMN4=Totalt
+
+IDOK=OK
+
+[IDD_CALC_MORTGAGE]
+TITLE=Avbetalningskalkylator
+
+IDC_VALUETEXT=Uppskattat värde
+IDC_AMOUNTTEXT=Lånesumma
+IDC_TERMTEXT=Period (år)
+IDC_DATETEXT=Lånedatum
+IDC_RATETEXT=Räntekurs, %
+IDC_TAXTEXT=Årlig förmögenhetsskatt
+IDC_INSURANCETEXT=Årlig förmögenhetsförsäkring
+
+IDC_REQUIREDPAYMENTTEXT=Nödvändig betalning
+IDC_TOTALINTERESTTEXT=Total ränta
+IDC_TOTALPMITEXT=Total PMI
+IDC_TOTALMONTHSTEXT=Antal månader
+
+COLUMN0=Datum
+COLUMN1=Amortering
+COLUMN2=Ränta
+COLUMN3=Skatt
+COLUMN4=Försäkring
+COLUMN5=PMI
+COLUMN6=Betalning
+COLUMN7=Totalt
+
+IDOK=OK
+IDHELP=Hjälp
+
+[IDD_CATEGORY]
+TITLE=Kategorier
+
+TAB_GENERAL=Allmän
+TAB_SIMPLE_BUDGET=Enkel Budget
+TAB_MONTHLY_BUDGET=Månadsbudget
+
+IDC_NAMETEXT=Kategori
+IDC_SUBNAMETEXT=Underkategori
+IDC_COMMENTTEXT=Kommentar
+IDC_NUMBERTEXT=Kod
+
+PERIOD_ONE_WEEK=En vecka
+PERIOD_TWO_WEEKS=Två veckor
+PERIOD_HALF_MONTH=Halv månad
+PERIOD_ONE_MONTH=En månad
+PERIOD_TWO_MONTHS=Två månader
+PERIOD_THREE_MONTHS=Tre månader
+PERIOD_FOUR_MONTHS=Fyra månader
+PERIOD_SIX_MONTHS=Sex månader
+PERIOD_NINE_MONTHS=Nio månader
+PERIOD_ONE_YEAR=Ett år
+
+IDC_BUDGETPERIODTEXT=Budget period
+IDC_INCOME_LIMIT_TEXT=Inkomstgräns
+IDC_EXPENSE_LIMIT_TEXT=Utgiftsgräns
+
+IDC_ADD=Lägg till...
+IDC_ADD_MANY=Lägg till period...
+IDC_UPDATE=Uppdatera...
+IDC_DELETE=Stryk
+
+MONTH_COLUMN=Månad
+LIMIT_COLUMN=Gräns
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+ERR_NOCATNAME=Kategorin måste ha ett namn!
+ERR_CATEXIST=En kategori med detta namn finns redan!
+
+[IDD_CATEGORYCHANGE]
+TITLE=Ändra kategori
+
+IDOK=OK
+IDCANCEL=Avbryt
+
+[IDD_CATEGORYMERGE]
+TITLE=Sammanfoga kategorier
+
+IDC_CATEGORYTEXT=Sammanfoga kategori
+IDC_CATEGORYTEXT1=med kategori
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+ERR_NOCATEGORIES=Båda existerande kategorier skall vara valda och olika!
+ERR_SOURCECATEGORY=Källkategorin kan inte ha underkatergorier!
+ERR_TARGETCATEGORY=Målkategorin kan inte vara en underkategori till källkategorin!
+
+[IDD_COLORS]
+TITLE=Teckensnitt och färger
+
+IDC_ACCOUNTLISTTEXT=Lista med konton
+IDC_ACCOUNTTEXT=Kontoöversikt
+IDC_BANKTEXT=Banker
+IDC_CATEGORYTEXT=Kategorier
+IDC_PAYEETEXT=Mottagare
+IDC_SCHEDULETEXT=Räkningar
+IDC_REPORTTEXT=Rapporter
+IDC_PORTFOLIOTEXT=Portfölj
+
+IDC_LISTFONTTEXT=Teckensnitt
+
+IDC_TABLEFONTCOLORTEXT=Teckenfärg
+IDC_TABLEBILLFONTCOLORTEXT=Färg på framtida räkningar
+IDC_TABLEBACKGROUNDTEXT1=Bakgrundsfärg 1
+IDC_TABLEBACKGROUNDTEXT2=Bakgrundsfärg 2
+
+IDC_RESTORE=Återställ
+IDOK=OK
+IDCANCEL=Avbryt
+
+[IDD_CURRENCY]
+TITLE=Senaste kurs
+IDC_SHOWALL=Visa alla valutor
+IDC_CURRENCYINFO=Vald valuta: %s
+IDC_DOWNLOAD=Hämta...
+IDC_UPDATE=Uppdatera
+
+IDOK=Stäng
+IDHELP=Hjälp
+
+COLUMN0=Valuta
+COLUMN1=Värderad till
+COLUMN2=Datum
+COLUMN3=in
+
+ERR_WEBUPDATE=Fel i växelkursuppdateringen! Kontrollera din internetanslutning!
+ERR_INVALIDRATE=Ogiltig kurs mottagen!
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=Växelkurs
+IDOK=OK
+IDCANCEL=Avbryt
+
+[IDD_SHEETREPORTFILTER]
+TITLE=Rapportfilter
+
+[IDD_DATESRANGE]
+TITLE=Välj period
+
+CURRENTWEEK=Nuvarande vecka
+PREVIOUSWEEK=Föregående vecka
+LAST30DAYS=Senaste 30 dagarna
+LAST12MONTHS=Senaste 12 månaderna
+CURRENTMONTH=Nuvarande månad
+PREVIOUSMONTH=Föregående månad
+CURRENTQUARTER=Nuvarande kvartal
+PREVIOUSQUARTER=Föregående kvartal
+CURRENTYEAR=Nuvarande år
+PREVIOUSYEAR=Föregående år
+CURRENT_FISCAL_YEAR=Nuvarande räkenskapsår
+PREVIOUS_FISCAL_YEAR=Föregående räkenskapsår
+MONTH_TO_DATE=Månad hittills
+QUARTER_TO_DATE=Kvartal hittills
+YEAR_TO_DATE=Året hittills
+ALL_TO_DATE=Alla hittills
+ALL_DATES=Alla datum
+
+IDC_PERIODSTEXT=Förbestämd period
+IDC_CUSTOMDATES=Eget datum:
+IDC_FROMTEXT=Från
+IDC_TOTEXT=Till
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+CURRENT=Gällande
+CUSTOM=Special
+
+[IDD_DOWNLOADPROGRESS]
+TITLE=Ladda ner utveckling
+
+IDOK=Stäng
+
+PROGRESS_TEXT=Avsluta %1 of %2 uppdrag
+
+IDC_AUTO_CLOSE=Automatiskt stäng denna dialog när nedladdningen är slutförd
+
+TASK_TRANSACTIONS=Transaktion för
+TASK_INVESTMENT=citationstecken för
+TASK_EXCHANGERATE=Växelkurs för
+
+STATUS_FAILED=Misslyckad
+STATUS_SUCCESS=%d transaktion
+
+STATUS_CONNECTING=Ansluta
+STATUS_REQUESTING=Begära
+STATUS_RECEIVING=Mottagning
+STATUS_IMPORTING=Importering
+
+[IDD_DOWNLOADTRANSACTIONS
+TITLE=Ladda ner Transaktion
+
+IDC_DETECT_DUPLICATES=Upptäck dubletter
+IDC_ENABLE_LOGGING=Tillåt logging
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+ERROR_INVALID_ACCOUNT=Ogiltigt kontot!
+ERROR_UNKNOWN=Okänt fel!
+ERROR_MISSING_CONFIG=Direktanslutna konfigurationen är ofullständig: saknade leverantör, användarID, lösenord eller kontonummer! Denna information kan föras in på kontot egenskaper.
+ERROR_INVALID_CONFIG=Ogiltig leverantörsinställningar, vänligen ändra dem i konto och bank egenskaper.
+ERROR_CONNECT=Underlåtit att koppla samman med bankens server. Denna server kan vara nere, försök igen senare.
+ERROR_SEND=Kan inte sända meddelandet nedladdning begäran till banken!
+ERROR_INVALID_RESPONSE=Ogiltig svar från bankserver!
+ERROR_AUTHENTICATION=Ogiltigt användarID/lösenord!
+ERROR_STATEMENT=Fel hämta kontoutdrag!
+ERROR_ACCOUNTINFO=Fel få kontoinformation!
+ERROR_IMPORT=Fel importerande hämta transaktioner till kontot!
+
+ERROR_INVESTMENT_DOWNLOAD=inte möjlig att ladda ner ett citat: Ogiltig aktietecken , som för närvarande utvalda datakälla inte har några uppgifter om investeringar, eller internetuppkoppling problem!
+
+[IDD_DUPLICATECHECKWARNING]
+TITLE=Dublettchecksvarning
+
+IDC_WARNING=Check nummer ### har redan använts i en transaktion på detta konto. Vill du verkligen använda den igen?
+IDC_DONOTSHOW=Visa inte denna varning igen
+
+IDYES=Ja
+IDNO=Nej
+
+[IDD_ERROR]
+TITLE=Fel
+ERROR=Fel
+DESCRIPTION=Beskrivning
+CLOSE=Stäng
+
+[IDD_FILTERACCOUNT]
+TITLE=Välj konton
+
+IDC_SELECTALL=Markera alla
+IDC_SELECT_OPEN=Välj öppna
+IDC_CLEARALL=Rensa alla
+IDC_SHOWCLOSEDACCOUNTS=Visa Avslutade Konton
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+[IDD_FILTERCATEGORY]
+TITLE=Välj kategorier
+
+IDC_SELECTALL=Markera alla
+IDC_CLEARALL=Rensa alla
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+[IDD_FILTERPAYEE]
+TITLE=Välj mottagare
+
+IDC_SELECTALL=Markera alla
+IDC_CLEARALL=Rensa alla
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+[IDD_FILTERINVESTMENT]
+TITLE=Välj investering
+
+IDC_SELECTALL=Markera alla
+IDC_CLEARALL=Rensa alla
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+[IDD_FILTERTAG]
+TITLE=Välj tags
+
+IDC_CLEARALL=Rensa alla
+IDC_SELECTALL=Markera alla
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+[IDD_FILTERTEXT]
+TITLE=Lägg till text
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+[IDD_IMPORT]
+TITLE=Importera
+
+IDC_IMPORTTEXT=Välj konto för de importerade transaktionerna
+IDC_DATEFORMATTEXT=Datumformat
+IDC_DECIMALSEPARATORTEXT=Decimaltecken
+IDC_DETECT_DUPLICATES=Upptäck kopior
+IDC_APPLY_IMPORT_RULES=Tillämpa importbestämmelser
+IDC_IMPORT_RULES=Importera regler...
+
+IDC_NEWACCOUNT=Nytt konto...
+
+IDOK=OK
+IDCANCEL=Avbryt
+
+ERR_NOACCOUNT=Du måste välja ett konto!
+ERR_PARSING=Filen kan inte importeras, den är skadad eller följer inte standard.
+ERR_NO_TRANSACTIONS=Filen har inga transaktioner.
+ERR_TRANSACTIONS_FOR_MANY_ACCOUNTS=Filen innehåller transaktioner för mer än ett konto och kan inte  importeras.
+
+INFO_AUTOMATICALLY_CREATED_ACCOUNTS=AceMoney inte kunde matcha alla konton genom sitt nummer och skapat följande konto (n):
+
+STATUS_READING_FILE=Läser fil...
+STATUS_PARSING_FILE=Analyserar fil...
+STATUS_IMPORTING_TRANSACTIONS=Importerar transaktioner...
+STATUS_IMPORTING_BILLS=Importerar räkningar and placeringar...
+STATUS_IMPORTING_ACCOUNTS=Importerar konton...
+STATUS_IMPORTING_CATEGORIES=Importerar kategorier...
+STATUS_IMPORTING_INVESTMENTS=Importerar investeringar..
+STATUS_IMPORTING_HISTORICAL_PRICES=Importerar historiska aktiekurser...
+
+[IDD_IMPORTRULE]
+TITLE=Importregel
+
+IDC_SEARCHSTRINGTEXT=Om beskrivning av importerad transaktion innehåller
+IDC_PAYEETEXT=ersätt med denna betalningsmottagare
+IDC_CATEGORYTEXT=och använd denna kategori
+
+IDOK=OK
+IDCANCEL=Avbryt
+
+[IDD_IMPORTRULES]
+TITLE=Importregler
+
+COLUMN1=Söksträng
+COLUMN2=Betalningsmottagare
+COLUMN3=Kategori
+
+IDC_FILTER_TEXT=Filtrera
+IDC_CLEAR=Klar
+
+IDC_ADD=Lägg till...
+IDC_EDIT=Redigera...
+IDC_DELETE=Radera...
+IDC_IMPORT=Importera
+IDC_EXPORT=Exportera
+
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+ERROR_IMPORT=Importregler import från %s misslyckats!
+ERROR_EXPORT=Importregler export till %s misslyckats!
+
+[IDD_EXPORT]
+TITLE=Exportera
+
+IDC_EXPORTTEXT=Välj konto att exportera
+IDC_STARTDATETEXT=Startdatum
+IDC_ENDDATETEXT=Slutdatum
+
+ERR_NOACCOUNT=Välj ett konto!
+
+IDOK=OK
+IDCANCEL=Avbryt
+
+[IDD_HOSTNAME]
+TITLE=Ange namn på datorn
+IDC_HOSTINFO=Denna fil är på en dator med ett annat namn. För att låsa upp filen data måste du ange namnet på den datorn.
+IDC_HOSTTEXT=Ange den ursprungliga datorn &Namn (skiftlägeskänsligt)
+
+IDOK=OK
+IDCANCEL=Avbryt
+
+ERR_INVALIDHOSTNAME=Datorns namn stämmer inte!
+
+[IDD_LANGUAGE]
+TITLE=Välj språk
+
+IDOK=OK
+IDCANCEL=Avbryt
+
+[IDD_INTERNATIONALSETTINGS]
+TITLE=Internationella inställningar
+
+IDC_DATETEXT=Datumformat
+IDC_DATESEPARATORTEXT=Datumavskiljare
+IDC_CURRENCYTEXT=Gällande valuta
+IDC_DECIMALSEPARATORTEXT=Decimalkomma
+IDC_THOUSANDSEPARATORTEXT=Tusenavskiljare
+IDC_NUMBEROFDECIMALDIGITSTEXT=Antal decimaler
+IDC_FISCAL_YEAR_TEXT=Första dagen i räkenskapsåret
+
+ERR_THOUSANDDECIMAL=Decimalkomma och tusenavskiljare kan inte vara samma!
+ERR_THOUSAND=Ogiltig tusenavskiljare!
+ERR_FISCAL_YEAR=Ogiltig kombination av skattemässig månad och dag!
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+[IDD_NETWORK]
+TITLE=Nätverksinställningar
+
+IDC_DIRECTCONNECTION=Direktanslutning till internet
+IDC_MANUALPROXYCONFIG=Manuell proxyinställning
+
+IDC_PROXYSERVERTEXT=HTTP Proxy
+IDC_PROXYSERVERPORTTEXT=Port
+
+IDOK=OK
+IDCANCEL=Avbryt
+
+ERR_INVALID_PORT_NUMBER=Portnummer bör vara större än 0 och mindre än 65535!
+
+[IDD_ONLINESERVICE]
+TITLE=Online-tjänst
+
+IDC_ENABLE=Ladda ner transaktioner för detta konto
+IDC_PROVIDERTYPETEXT=Online-tjänsten typ
+IDC_PROVIDERTEXT=Online service leverantör
+IDC_USERIDTEXT=Användar-ID
+IDC_PASSWORDTEXT=Lösenord
+IDC_CONNECTASTEXT=Anslut som
+
+PROVIDER_TYPE_CREDITCARD=Kreditkort
+PROVIDER_TYPE_BANK=Bank
+PROVIDER_TYPE_BROKERAGE=Mäklare
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+[IDD_OPTIONS]
+TITLE=Inställningar
+
+IDC_GENERALGROUP=Allmänt
+IDC_SHOWCLOSEDACCOUNTS=Visa avslutade konton
+IDC_SHOWACCOUNTNUMBERS=Visa kontonummer
+IDC_SHOW_AVAILABLE_BALANCE=Visa tillgänglig balans
+IDC_SHOWGRID=Visa rutmönster i tabell
+IDC_LOADLASTFILE=Öppna sist använda fil vid uppstart
+IDC_SHOWCOMMENT=Visa transaktionskommentarer
+IDC_AUTOSAVE=Autospara dokument
+IDC_SHOWSPLASHSCREEN=Visa uppstartsbild
+IDC_SHOWFILENAME=Visa filnamn i programlisten
+IDC_SHOWSOLDSTOCKS=Visa sålda aktier
+IDC_ADDINVESTMENTVALUE=Lägg till kostnad för aktier till kontot
+IDC_SHOWDEPOSITSFIRST=Insättningar är första transaktioner
+IDC_TRANSFERSTATUS=Ändra överföringsstatus på båda kontona
+IDC_SHOWCATEGORYSTATUS=Visa kategorianalys i statusfält
+IDC_SHOWDUPLICATECHECKWARNING=Visa dublettchecksvarning
+IDC_CHECKFORUPDATES=Kontrollera programuppdateringar
+IDC_AUTOFILLTRANSACTIONCOMMENTS=Autofyll transaktionskommentarer
+IDC_SORTSAMEDAYTRANSACTIONSBYNUMBER=Sortera samma dag transaktioner med nummer
+IDC_CONFIRM_EDIT_RECONCILED_TRANSACTION=Bekräfta friklassas eller förenas transaktion förändring
+IDC_CONFIRM_DELETE_TRANSACTION=Bekräfta strykning transaktion 
+IDC_CONFIRM_DELETE_BILL=Bekräfta strykning räkning 
+IDC_CONFIRM_BILL_AMOUNT_CHANGE=Bekräfta ändring belopp
+IDC_CONFIRM_BILL_ACCOUNT_CHANGE=Bekräfta ändring konto
+
+IDC_STARTPAGEGROUP=Startsida
+IDC_ACCOUNTLIST=Kontolista
+IDC_FAVORITEACCOUNT=Favoritkonto
+
+IDC_DUPDETECTRANGE=Dupliceringsdetektion sortiment
+IDC_DUPDETECTCHECKLABEL=Dagar för kontroller
+IDC_DUPDETECTOTHERLABEL=Dagar för annat
+
+IDC_PASSWORDGROUP=Lösenord
+IDC_OLDPASSTEXT=Nuvarande lösenord
+IDC_NEWPASSTEXT=Nytt lösenord
+IDC_RETYPETEXT=Skriv nytt lösenord igen
+IDC_PERMITMULTIUSER=Tillåta tillgång av flera användare
+
+IDC_NETWORK=Nätverk...
+
+IDC_TRANSACTIONTYPETEXT=Börja ny transaktion med...
+LASTUSEDTYPE=Sist använda
+
+IDC_TRANSACTIONNUMBERTEXT=Numrera transaktioner
+NUMBER_EMPTY=Tom
+NUMBER_DEBIT=Debitera
+NUMBER_AUTO=Sista check plus ett
+
+IDC_NUMBEROFFUTUREBILLSMONTHSTEXT=Visa framtida räkningar på
+0_MONTHS_AHEAD=Ingen
+1_MONTHS_AHEAD=1 månad framåt
+2_MONTHS_AHEAD=2 månader framåt
+3_MONTHS_AHEAD=3 månader framåt
+4_MONTHS_AHEAD=4 månader framåt
+5_MONTHS_AHEAD=5 månader framåt
+6_MONTHS_AHEAD=6 månader framåt
+7_MONTHS_AHEAD=7 månader framåt
+8_MONTHS_AHEAD=8 månader framåt
+9_MONTHS_AHEAD=9 månader framåt
+10_MONTHS_AHEAD=10 månader framåt
+11_MONTHS_AHEAD=11 månader framåt
+12_MONTHS_AHEAD=1 år framåt
+18_MONTHS_AHEAD=18 månader framåt
+24_MONTHS_AHEAD=2 år framåt
+36_MONTHS_AHEAD=3 år framåt
+48_MONTHS_AHEAD=4 år framåt
+60_MONTHS_AHEAD=5 år framåt
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+ERR_INVALIDOLDPASSWORD=Felaktigt gammalt lösenord!
+ERR_INVALIDNEWPASSWORD=Felaktigt nytt lösenord!
+
+[IDD_PASSWORD]
+TITLE=Skriv in lösenord
+IDC_PASSTEXT=Lösenord
+
+IDOK=OK
+IDCANCEL=Avbryt
+
+ERR_INVALIDPASSWORD=Fel lösenord!
+
+[IDD_PAYEE]
+TITLE=Mottagare
+
+IDC_NAMETEXT=Namn
+IDC_ACTIVEPAYEE=Aktiv mottagare
+
+IDC_ADDRESSTEXT=Adress
+IDC_CITYTEXT=Stad
+IDC_STATETEXT=Region
+IDC_ZIPTEXT=Postnr
+IDC_COUNTRYTEXT=Land
+
+IDC_HOMEPHONETEXT=Telefon hem
+IDC_WORKPHONETEXT=Telefon arbete
+IDC_MOBILEPHONETEXT=Telefon mobil
+IDC_FAXTEXT=Fax
+IDC_PAGERTEXT=Sökare
+
+IDC_EMAILTEXT=E-post
+IDC_WEBSITETEXT=Hemsida
+IDC_GO=Gå
+
+IDC_COMMENTTEXT=Kommentar
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+ERR_NOPAYEENAME=Mottagaren måste ha ett namn!
+
+[IDD_PAYEECHANGE]
+TITLE=Ändra mottagare
+
+IDOK=OK
+IDCANCEL=Avbryt
+
+[IDD_PAYEEMERGE]
+TITLE=Sammanfoga mottagare
+IDC_PAYEETEXT=Sammanfoga mottagare
+IDC_PAYEETEXT1=Med mottagare
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+SELECTED_PAYEES=Valda mottagare
+
+ERR_NOPAYEES=Båda mottagare skall vara valda och olika!
+
+[IDD_PRINTPREVIEW]
+TITLE=Förhandsgranska
+IDC_PAGETEXT=Sida
+IDC_PAGEOFTEXT=Av
+IDC_PRINT=Skriv ut
+IDC_CLOSE=Stäng
+IDC_PAGEPROPERTIES=Inställningar...
+IDC_PREVIOUSPAGE=<< Föregående
+IDC_NEXTPAGE=Nästa >>
+IDC_ZOOMIN=Zooma in
+IDC_ZOOMOUT=Zooma ut
+
+IDOK=OK
+IDHELP=Hjälp
+
+[IDD_PAGESETUP]
+TITLE=Inställningar
+IDC_ORIENTATIONBOX=Layout
+IDC_TITLETEXT=Titel:
+IDC_PAPERSIZETEXT=Storlek:
+IDC_PORTRAIT=Stående
+IDC_LANDSCAPE=Liggande
+IDC_TMTEXT=Topp:
+IDC_BMTEXT=Botten:
+IDC_LMTEXT=Vänster:
+IDC_RMTEXT=Höger:
+IDC_UNITTEXT=Enheter:
+
+UNIT0=Millimeter
+UNIT1=Tum
+
+IDOK=OK
+IDCANCEL=Avbryt
+
+[IDD_QUESTION]
+TITLE=Bekräfta
+DO_NOT_ASK_AGAIN=Fråga mig inte igen
+OK=Ja
+CANCEL=Nej
+
+[IDD_REGISTER]
+TITLE=Registrera
+
+IDC_NAMETEXT=Namn:
+IDC_SERIALNUMBERTEXT=Serienummer:
+
+IDC_ORDER=Köp...
+ 
+IDOK=OK
+IDCANCEL=Avbryt
+
+[IDD_SEARCH]
+TITLE=Sök transaktion
+
+IDC_ACCOUNTTEXT=Konto
+IDC_DATETEXT=Datum
+IDC_FROMTEXT=Från
+IDC_TOTEXT=Till
+IDC_AMOUNTTEXT=Summa
+IDC_AMOUNTFROMTEXT=Från
+IDC_AMOUNTTOTEXT=Till
+IDC_COMMENTTEXT=Text
+IDC_SEARCH=Sök
+IDC_CLOSE=Stäng
+
+ALLACCOUNTS=Alla konton
+
+[IDD_SPLIT]
+TITLE=Dela per kategori
+
+IDC_CATEGORYTEXT=Kategori
+IDC_SUBCATEGORYTEXT=Underkategori
+IDC_AMOUNTTEXT=Summa
+IDC_ADD=Lägg till
+IDC_EDIT=Redigera
+IDC_DELETE=Radera
+IDC_TOTALTEXT=Totalt:
+IDC_UNASSIGNEDTEXT=Osignerade:
+IDC_COMMENTTEXT=Kommentar
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+COLUMN0=Kategori
+COLUMN1=Underkategori
+COLUMN2=Summa
+COLUMN3=Kommentar
+
+ERR_BADTOTAL=Summan av de delade beloppen är inte lika med totalsumman. Vill du ändra totalsumman?
+
+[IDD_SPLITITEM]
+TITLE=Dela poster
+IDC_CATEGORYTEXT=Kategori
+IDC_SUBCATEGORYTEXT=Underkategori
+IDC_AMOUNTTEXT=Summa
+IDC_COMMENTTEXT=Kommentar
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+[IDD_TRANSACTION]
+TITLE=Transaktion
+
+IDC_TYPETEXT=Typ
+IDC_DEPOSIT=Insättning
+IDC_WITHDRAWAL=Uttag
+IDC_TRANSFER=Överför
+IDC_ACCOUNTTEXT=Konto
+IDC_PAYEETEXT=Mottagare
+IDC_CATEGORYTEXT=Kategori
+IDC_SPLIT=Dela
+IDC_COMMENTTEXT=Kommentar
+IDC_DATETEXT=Datum
+IDC_NUMBERTEXT=Nummer
+IDC_AMOUNTTEXT=Summa
+IDC_RECEIPTS=Kvitton
+
+FROMTEXT=Från
+TOTEXT=Till
+SPLIT=Dela
+DEBIT=Skuld
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+ERR_SAMETRANFER=Du kan inte överföra till samma konto!
+ERR_INVALIDACCOUNT=Fel kontonamn!
+ERR_SPLITAMOUNT=Summan av transaktionerna måste vara lika med totalsumman!
+ERR_SPLIT_HAS_TRANSFERS=En fast överföring kan inte vara delad! Ta bort delad överföring, och ändra typ av transaktion.
+ERR_TRANSFER_FROM_SPLIT_NOT_ALLOWED=Överföring från delade transaktioner av vald typ är inte tillåten!
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Växelkurs
+
+IDC_SOURCEAMOUNTTEXT=Källsumma
+IDC_TARGETAMOUNTTEXT=Målsumma
+
+IDOK=OK
+IDCANCEL=Avbryt
+
+[IDD_TRANSACTIONCATEGORYLIST]
+TITLE=Transaktionskategorier
+IDC_ADD=Lägg till...
+IDC_DELETE=Radera
+IDC_EDIT=Uppdatera...
+IDOK=Stäng
+IDHELP=Hjälp
+
+UPDATE_TRANSACTIONS=Vill du uppdatera existerande transaktioner med nytt namn?
+DELETE_TRANSACTIONS=Vill du rensa raderad kategori i existerande transaktioner?
+
+[IDD_TRANSACTIONCATEGORY]
+TITLE=Transaktionskategori
+IDC_NAMETEXT=Namn
+IDOK=OK
+IDCANCEL=Avbryt
+
+ERR_NONAME=En transaktionskategori måste ha ett namn!
+
+[IDD_TAGLIST]
+TITLE=Transaktionsetiketter
+IDC_ADD=Lägg till...
+IDC_DELETE=Radera
+IDC_EDIT=Uppdatera...
+IDOK=Stäng
+IDHELP=Hjälp
+
+DELETE_WARNING=De valda etiketterna kommer att tas bort från alla de transaktioner som är märkta med dem. Fortsätta?
+
+[IDD_TAG]
+TITLE=Transaktionsetikett
+IDC_NAMETEXT=Namn
+IDC_COLORTEXT=Färg
+IDOK=OK
+IDCANCEL=Avbryt
+
+ERR_NONAME=Transaktionsetiketten kan inte vara tomma!
+ERR_EXISTS=Transaktionsetiketten med samma namn finns redan. Ange ett annat namn.
+
+[IDD_DAYBILLS]
+TITLE=Räkning/insättning
+
+COLUMN0=Datum
+COLUMN1=Transaktion
+COLUMN2=Mottagare
+COLUMN3=Summa
+COLUMN4=Kommentarer
+COLUMN5=Frekvens...
+
+IDC_ENTER=Lägg till...
+IDC_EDIT=Redigera...
+IDC_DELETE=Radera...
+
+IDOK=OK
+IDHELP=Hjälp
+
+[IDD_LITEVERSION]
+TITLE=AceMoney Lite
+
+IDC_TWO_ACCOUNTS_LIMIT=AceMoney Lite fungerar bara med två användarkonton. Ett tredje konto kan inte skapas och filer med fler än två konton kan inte öppnas. Om du behöver använda mer än två konton behöver du uppgradera till den vanliga versionen av AceMoney.
+
+IDC_WEBSITE=Uppgradera...
+IDOK=Stäng
+IDCANCEL=Avbryt
+
+[IDD_STOCK]
+TITLE=Investering
+
+STOCK=Aktie
+MUTUALFUND=Aktiefond
+BOND=Obligation
+INDEX=Index
+COMMODITY=Vara
+CURRENCY=Valuta
+REALESTATE=Nuvarande ställning
+TRUST=Förvaltning
+OPTIONS=Inställningar
+FUTURES=Framtida
+INTERNATIONAL_STOCK=Internationella Aktier
+INTERNATIONAL_BOND=Internationella Obligationer
+OTHER=Andra
+
+IDC_SYMBOLTEXT=Tecken 
+IDC_LOOKUP=Sök tecken ...
+IDC_NAMETEXT=Namn
+IDC_TYPETEXT=Typ
+IDC_CURRENCYTEXT=Valuta
+IDC_DATASOURCETEXT=Datakälla
+IDC_COMMENTTEXT=Kommentar
+IDC_DIVIDEBY100TEXT=Dela hämtad kurs med 100
+IDC_AUTO_DOWNLOAD_ENABLED=Hämta kurser automatiskt
+
+IDC_PRICETEXT=Kurshistoria
+IDC_UPDATE=Uppdatera...
+IDC_WEBUPDATE=Hämta...
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+COLUMN0=Datum
+COLUMN1=Kurs
+
+ERR_EMPTYSYMBOL=Aktietecken  kan inte vara tom!
+ERR_EMPTYNAME=Investeringsnamn kan inte vara tom!
+ERR_INVALIDDATASOURCE=Välj giltig datakälla!
+ERR_CONNECTIONORSYMBOL=Internet anslutningsfel eller ogiltig aktietecken !
+
+[IDD_STOCKPRICE]
+TITLE=Aktiepris
+
+IDC_DATETEXT=Datum
+IDC_PRICETEXT=Kurs
+
+IDOK=OK
+IDCANCEL=Avbryt
+
+[IDD_STOCKTRANSACTION]
+TITLE=Investeringstransaktion
+
+IDC_DATETEXT=Datum
+IDC_ACCOUNTTEXT=Konto
+IDC_ACTIONTEXT=Händelse
+IDC_INVESTMENTTEXT=Investering
+
+IDC_DIVIDENDTEXT=Utdelning
+IDC_NUMBERTEXT=Antal andelar
+IDC_PRICETEXT=Kurs
+IDC_COMMISSIONTEXT=Kommision
+IDC_TOTALTEXT=Totalt
+
+IDC_COMMENTTEXT=Kommentar
+
+BUY=Köp
+SELL=Sälj
+DIVIDEND=Utdelning
+REINVEST=Investera utdelning
+ADD=Lägg till andel
+REMOVE=Ta bort andel
+LONG_TERM_CAPITAL_GAIN=L-Benämnig Cap Vinst Dist
+SHORT_TERM_CAPITAL_GAIN=S-Benämnig Cap Vinst Dist
+REINVEST_SHORT_TERM_CAPITAL_GAIN=Återinvestera S-benämning CG Dist
+REINVEST_LONG_TERM_CAPITAL_GAIN=Återinvestera L-benämning  CG Dist
+
+IDOK=OK
+IDCANCEL=Avbryt
+IDHELP=Hjälp
+
+ERR_NEGATIVEVALUES=Antal aktier, pris per st, utdelning, kommission och totalen måste vara positiva!
+ERR_INVALIDACTIONTYPE=Felaktig hantering!
+ERR_INVALIDACCOUNT=Ogiltigt konto!
+ERR_INVALIDINVESTMENT=Ogiltig investering!
+ERR_INCONSISTENTCURRENCY=Valt kontos valuta måste vara samma som investeringens valuta!
+
+[IDD_REPORTADD]
+TITLE=Lägg till favoriter
+IDC_NAMETEXT=Namn på rapporten
+IDOK=OK
+IDCANCEL=Avbryt
+
+[IDD_REPORTNAME]
+TITLE=Raportnamn
+IDC_NAMETEXT=Raportnamn
+IDOK=OK
+IDCANCEL=Avbryt
+
+ERROR_EMPTY=Raportnamn kan inte vara tom!
+ERROR_EXIST=Det finns redan en befintlig rapport med samma namn. Ersätta?
+
+[IDD_REPORTORGANIZE]
+TITLE=Organisera rapporterna
+IDC_EDIT=Redigera
+IDC_DELETE=Radera
+IDOK=OK
+IDCANCEL=Stäng
+
+[IDD_STARTUP_CURRENCY]
+TITLE=Valutainställningar
+IDC_CURRENCYTEXT=Förvald valuta
+IDC_NUMBEROFDECIMALSTEXT=Antal decimaler
+IDC_DECIMALSEPARATORTEXT=Decimalkomma
+IDC_THOUSANDSEPARATORTEXT=Tusentalsavgränsare
+IDC_EXAMPLETEXT=Exempel
+
+IDC_BACK=<< Bakåt
+IDC_NEXT=Framåt >>
+
+SEPARATOR_SPACE=Mellanslag
+SEPARATOR_NONE=Ingen avgränsare
+
+ERR_THOUSANDDECIMAL=Decimalkomma och tusentalsavgränsare kan inte vara samma!
+
+IDOK=OK
+IDCANCEL=Avbryt
+
+[IDD_STARTUP_DATE]
+TITLE=Datuminställning
+IDC_FORMATTEXT=Datumformat
+IDC_SEPARATORTEXT=Avgränsare
+IDC_EXAMPLETEXT=Exempel
+
+IDC_BACK=<< Bakåt
+IDC_FINISH=Slut
+
+IDOK=OK
+IDCANCEL=Avbryt
+
+[IDD_ACEMONEYREMINDER]
+TITLE=AceMoney påminnare
+
+STARTACEMONEY=Starta AceMoney...
+OPTIONS=Inställningar...
+VIEWBILLS=Visa räkningar...
+EXIT=Avsluta
+CLOSE=Stäng
+
+COLUMN0=Datum
+COLUMN1=Transaktion
+COLUMN2=Mottagare
+COLUMN3=Summa
+
+OPTIONSTITLE=Inställningar
+DATAFILE=AceMoney datafil
+BROWSE=Bläddra...
+SELECTFILE=Välj din datafil
+AUTOSTART=Starta automatiskt med Windows
+STARTMINIMIZED=Starta minimerad
+OK=OK
+CANCEL=Avbryt
+
+MSG_DUEBILLS=Försenad räkning!
+MSG_NODUEBILLS=Inga försenade räkningar
+
+
+
+
+
+
+

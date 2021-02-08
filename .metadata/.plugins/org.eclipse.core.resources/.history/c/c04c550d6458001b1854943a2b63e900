@@ -1,0 +1,164 @@
+package Seleniumhq;
+
+import java.util.List;
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class QaClick {
+	
+	WebDriver driver;
+	   
+	   @BeforeTest
+	   public void Setup()
+	   {
+			ChromeOptions opt =new ChromeOptions();
+			opt.addArguments("--disable-notifications");
+		    System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sangavi\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		    driver = new ChromeDriver(opt);
+			driver.get("http://www.qaclickacademy.com/");
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+		   
+	   }
+	   
+	   @Test()
+	   public void VerifyLink()
+	   {
+		  //driver.findElement(By.xpath("//button[text()='NO THANKS']")).click();
+		   driver.findElement(By.xpath("//a[text()='Practice']")).click();
+
+	   }
+	   
+	
+	   @Test(enabled=false)
+	   public void VerifyRadisoButton()
+	   {
+		WebElement d =driver.findElement(By.xpath("//input[starts-with(@value,'radio1')]"));
+        d.click();		
+        boolean m =driver.findElement(By.xpath("//input[starts-with(@value,'radio1')]")).isDisplayed();
+	    Assert.assertTrue(m);
+		boolean r =driver.findElement(By.xpath("//input[starts-with(@value,'radio2')]")).isEnabled();
+		Assert.assertEquals(r, true);
+		boolean s =driver.findElement(By.xpath("//input[starts-with(@value,'radio3')]")).isSelected();
+		Assert.assertEquals(s, false);
+	
+	   }
+	   
+	   @Test(enabled=false)
+	   public void VerifyCountry()
+	   {		   		   
+			driver.findElement(By.xpath("//input[starts-with(@id,'auto')]")).sendKeys("India");		   
+	   }
+	
+	   @Test(enabled=false)
+	   public void VerifyDropDown() 
+	   {
+		  driver.findElement(By.xpath("//select[starts-with(@name,'dropdown')]")).sendKeys("Option1");;
+//		   Select s=new Select(d);
+//		   s.selectByValue("Select");
+//		   List<WebElement> e= s.getOptions();
+//		   int r=e.size();
+//		   for(int i=0;i<=r-1;i++)
+//		   {
+//			   String n=e.get(i).getText();
+//			   Assert.assertEquals(n, "Option1");
+//		   }
+		   		   		   
+	   }
+	   
+	   @Test(enabled=false)
+	   public void VerifyCheckBox()
+	   {
+		   driver.findElement(By.xpath("//input[starts-with(@id,'checkBox')]")).click();
+		   
+	   }
+	   
+	   
+	   @Test
+	   public void VerifySwitchWindow()
+	   {
+		   String parent = driver.getWindowHandle();
+
+		   driver.findElement(By.xpath("//button[starts-with(@id,'openwindow')]")).click();
+		   Set<String> child = driver.getWindowHandles();
+			for(String window :child)
+			{
+				driver.switchTo().window(window);
+				
+				if(!parent.equalsIgnoreCase(window))
+				{
+				    driver.findElement(By.xpath("//button[text()='NO THANKS']")).click();
+				    driver.close();
+				}
+				
+				
+				driver.switchTo().window(parent);
+			}
+		   
+	   }
+	   
+	   @Test
+	   public void VerifySwitchTab()
+	   {
+		   String parent = driver.getWindowHandle();
+
+		   driver.findElement(By.xpath("//a[starts-with(@id,'opentab')]")).click();
+		   Set<String> child = driver.getWindowHandles();
+			for(String window :child)
+			{
+				driver.switchTo().window(window);
+				
+				if(!parent.equalsIgnoreCase(window))
+				{
+				   // driver.findElement(By.xpath("//button[text()='NO THANKS']")).click();
+				    driver.close();
+				}
+				
+				
+				driver.switchTo().window(parent);
+			}
+			
+
+		   
+	   }
+	   @Test
+	   public void VerifySwitchAlert()
+	   {
+		    driver.findElement(By.xpath("//input[starts-with(@id,'name')]")).sendKeys("sangavi");
+		    driver.findElement(By.xpath("//input[starts-with(@id,'alertbtn')]")).click();
+
+			Alert alt = driver.switchTo().alert();
+			String s = alt.getText();
+			Assert.assertEquals(s, "hello");
+			alt.accept();
+
+
+	   }
+	   @Test
+	   public void VerfyHideandShow()
+	   {
+		   driver.findElement(By.xpath("//input[@id='hide-textbox']")).click();
+		   driver.findElement(By.xpath("//input[@id='show-textbox']")).click();
+	   }
+
+	 
+	   @AfterTest(enabled=false)
+	   public void Teardown()
+	   {
+		driver.close();
+	   }
+}

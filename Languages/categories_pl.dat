@@ -1,0 +1,163 @@
+Allegro
+Allegro:Zap³ata
+Allegro:Zarobek
+Allegro:Prowizja
+
+Samochód
+Samochód:Op³aty
+Samochód:Mycie
+Samochód:Paliwo
+Samochód:Ubezpieczenie
+Samochód:Utrzymanie
+Samochód:Parking
+Samochód:Op³ata drogowa
+
+Op³aty bankowe
+Op³aty bankowe:Odsetki
+Op³aty bankowe:Wyp³ata z Bankomatu
+Op³aty bankowe:Prowizja
+Op³aty bankowe:Op³ata
+Op³aty bankowe:Sp³ata kredytu
+
+Op³aty
+Op³aty:Telewizja kablowa
+Op³aty:Telewizja Satelitarna/Cyfrowa
+Op³aty:Telefon komórkowy
+Op³aty:Eneria elektryczna
+Op³aty:Wywóz œmieci
+Op³aty:Inne Op³aty
+Op³aty:Op³aty cz³onkowskie
+Op³aty:Hipoteka
+Op³aty:Gaz
+Op³aty:Olej opa³owy
+Op³aty:Prasa
+Op³aty:Internet
+Op³aty:Czynsz
+Op³aty:Student loan payment
+Op³aty:Telefon
+Op³aty:Woda i œcieki
+
+Darowizny
+
+Osobiste
+Osobiste:Odzie¿
+Osobiste:Kosmetyki
+Osobiste:Akcesoria
+
+Edukacja
+Edukacja:Ksi¹¿ki
+Edukacja:Korepetycje
+Edukacja:Op³aty
+
+Elektronika
+
+Jedzenie
+Jedzenie:Alkohol
+Jedzenie:Inne u¿ywki
+Jedzenie:Bar/Restauracja
+Jedzenie:Artyku³y spo¿ywcze
+
+Podarunki
+
+Zdrowie
+Zdrowie:Dentysta
+Zdrowie:Okulista
+Zdrowie:Szpital
+Zdrowie:Lekarz
+Zdrowie:Leki
+
+Mieszkanie
+Mieszkanie:Meble
+Mieszkanie:Sprz¹tanie
+Mieszkanie:Ogród/podwórko
+Mieszkanie:Chemia
+Mieszkanie:Wyposa¿enie
+
+Inwestycje
+Inwestycje:Zyski
+Inwestycje:Dywidenda
+Inwestycje:Oprocentowanie
+Inwestycje:Przychód zwolniony z podatku
+
+Ubezpieczenie
+Ubezpieczenie:Samochód
+Ubezpieczenie:Dentystyczne
+Ubezpieczenie:Zdrowie
+Ubezpieczenie:Mieszkanie
+Ubezpieczenie:¯ycie
+Ubezpieczenie:Od d³ugotrwa³ej niezdolnoœci 
+Ubezpieczenie:Ró¿ne
+Ubezpieczenie:Od wypadków
+Ubezpieczenie:Od krótkotrwa³ej niezdolnoœci 
+
+Koszty pracy
+Koszty pracy:Nie zwracane
+Koszty pracy:Zwracane
+
+Czas wolny
+Czas wolny:Ksi¹¿ki i czasopisma
+Czas wolny:Kino/Opera/Teatr
+Czas wolny:Imprezy rozrywkowe
+Czas wolny:Wypo¿yczalnia DVD/Video
+Czas wolny:Fotografia
+Czas wolny:Imprezy sportowe
+Czas wolny:Akcesoria sportowe
+Czas wolny:P³yty i Kasety
+Czas wolny:Gry i Zabawki
+
+Po¿yczka
+Po¿yczka:Rata
+Po¿yczka:Sp³ata
+Po¿yczka:Wydanie
+
+Poczta
+
+Ró¿ne
+
+Pozosta³e dochody
+Pozosta³e dochody:Dodatek na dziecko
+Pozosta³e dochody:Podarunki
+Pozosta³e dochody:Otrzymanie po¿yczki
+Pozosta³e dochody:Wygrane
+Pozosta³e dochody:Zwrot podatku
+Pozosta³e dochody:Zasi³ek dla bezrobotnych
+
+Zwierzêta
+Zwierzêta:Wy¿ywienie
+Zwierzêta:Weterynarz
+Zwierzêta:Utrzymanie
+
+Emerytura
+Emerytura:Fundusz emerytalny
+Emerytura:Œwiadczenia emerytalne
+Emerytura:Pozosta³e korzyœci
+
+Podatki
+Podatki:Podatek od dochodu
+Podatki:Podatek od dochodu - rok ubieg³y
+Podatki:Podatek lokalny
+Podatki:Zdrowotny
+Podatki:Pozosta³e podatki
+Podatki:Podatek od nieruchomoœci
+Podatki:Podatek na opiekê spo³eczn¹
+Podatki:State Income Tax
+Podatki:State/Provincial
+
+Wyposa¿enie
+Wyposa¿enie:Narzêdzia
+Wyposa¿enie:Akcesoria
+Wyposa¿enie:Urz¹dzenia
+
+Wakacje
+Wakacje:Zakwaterowanie
+Wakacje:Podró¿
+
+Wynagrodzenia
+Wynagrodzenia:Premia
+Wynagrodzenia:Zlecenia
+Wynagrodzenia:Dodatek zak³adowy
+Wynagrodzenia:Wyrównanie
+Wynagrodzenia:P³aca brutto
+Wynagrodzenia:P³aca netto
+Wynagrodzenia:Premia za nadgodziny
+Wynagrodzenia:Dodatek specjalny

@@ -1,0 +1,1559 @@
+ProgramID=AceMoney
+Language=Hebrew
+
+///////////////////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories_heb.dat
+BANKS=banks_heb.dat
+ACCOUNTTYPES=accounttypes_heb.dat
+
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+
+CURRENCY=ש"ח
+DECIMALS=2
+DECIMALSEPARATOR=.
+THOUSANDSEPARATOR=,
+DATEFORMAT=MMDDYY
+DATESEPARATOR=/
+
+STATUS=מוכן
+TRANSFER=העברה
+DEPOSIT=הפקדה
+WITHDRAWAL=משיכה
+TO=ל
+FROM=מ
+TOTAL=סה"כ
+CLEAREDTOTAL=סה"כ נפרע
+RECONCILEDTOTAL=סה"כ הוסדר
+UNCLEAREDTOTAL=סה"כ לא נפרע
+TODAYTEXT=היום
+PAGE=דף
+UNASSIGNED=לא משוייך
+SAVEMODIFIED=?שמור שינויים
+REPLACEMENTS=נעשו שינויים
+INVALIDNUMBER=!פורמט התאריך שגויי
+
+MSG_LOADSAMPLE=?האם אתה רוצה להעלות קובץ הדגמה
+MSG_SAMPLEFILEWARNING=קובץ ההדגמה לא יכול להישמר! בחר קובץ>שמור כ.. ושמור בשם אחר.
+IMPORTEDTOTAL=סה"כ מיובא
+ONE_COLUMN_MUST_BE_DISPLAYED=!לפחות טור אחד צריך להיות מוצג
+NEW_VERSION_DETECTED=?גירסה חדשה של תוכנת אייסמאני שוחררה להורדה. האם ברצונך לשדרג
+NO_NEW_VERSION_IS_AVAILABLE=.הגירסה שברשותך מעודכנת
+NEW_VERSION_CHECK_FAILED=.לא ניתן לבדוק האם יש גירסה חדשה מכיוון שאין קשר לשרתים. אנא בדוק את הגדרות הרשת שלך ונסה שוב מאוחר יותר 
+SAMPLEFILE=sample_he.amj
+AVERAGE=ממוצע
+AUTODETECT=זיהוי אוטומטי
+YES=כן
+NO=לא
+
+[MENU]
+ID_FILE=קובץ
+ID_FILE_NEW=חדש
+ID_FILE_OPEN=...פתיחה
+ID_FILE_SAVE=שמירה
+ID_FILE_SAVE_AS=...שמירה כ
+ID_FILE_IMPORT=...יבוא
+ID_FILE_EXPORT=...יצוא
+ID_FILE_PRINT=...הדפסה
+ID_FILE_PRINT_PREVIEW=...הדפסה למסך
+ID_APP_EXIT=יציאה
+
+ID_EDIT=עריכה
+ID_EDIT_DELETE=מחיקה
+ID_EDIT_INSERT=הוספה
+ID_EDIT_SELECTALL=בחירת הכל
+ID_EDIT_FIND=...חפש
+ID_EDIT_PROPERTIES=...מאפיינים
+ID_EDIT_COPY=העתק
+ID_EDIT_PASTE=הדבק
+ID_EDIT_ADDTOSCHEDULE=...הוסף ללוח זמנים
+
+ID_VIEW=צפייה
+ID_VIEW_ACCOUNTS=חשבונות
+ID_VIEW_BANKS=בנקים
+ID_VIEW_PAYEES=מקבלי תשלום
+ID_VIEW_CATEGORIES=קטגוריה ותקציב
+ID_VIEW_SCHEDULE=לוח זמנים
+ID_VIEW_PORTFOLIO=תיק ניירות ערך
+ID_VIEW_REPORTS=דוחות
+
+ID_ACCOUNTS=חשבונות
+ID_ACCOUNTS_ADD=...הוסף חשבון
+ID_ACCOUNTS_TYPE=...קבוצת חשבונות
+
+ID_REPORTS=דוחות
+ID_REPORTS_ADD=...הוסף למועדפים
+ID_REPORTS_ORGANIZE=...אירגון
+
+ID_TOOLS=כלים
+ID_TOOLS_CURRENCY=...שער חליפין
+ID_TOOLS_OPTIONS=...אפשרויות
+ID_TOOLS_COLORS=...גופנים וצבעים
+ID_TOOLS_LANGUAGE=...שפה
+ID_TOOLS_BACKUP=...גיבוי
+ID_TOOLS_RESTORE=...שיחזור
+ID_TOOLS_BUDGET=...תקציב
+ID_TOOLS_CALCULATOR=...מחשבון
+ID_TOOLS_CALCULATOR_LOAN=...מחשבון הלוואות
+ID_TOOLS_CALCULATOR_SAVINGS=...שמור מחשבון
+ID_TOOLS_CALCULATOR_MORTGAGE=...מחשבון משכנתא
+ID_TOOLS_TRANSACTION_CATEGORY_LIST=...קטגוריות של שורה בדף חשבון
+
+ID_HELP=עזרה
+ID_HELP_TOPICS=נושאים
+ID_HELP_HOMEPAGE=...אתר התוכנה
+ID_HELP_WHATSNEW=...מה חדש
+ID_HELP_SUPPORT=...תמיכה טכנית
+ID_HELP_FORUM=...פורום באינטרנט
+ID_HELP_TUTORIAL=...הדרכה און ליין
+ID_HELP_REGISTER=...הרשמה לתוכנה
+ID_HELP_ORDER=...הזמנת התוכנה
+ID_HELP_ABOUT= תירגום: מוריס בלחסן ויניב הירש
+ID_FILE_ARCHIVE=...ארכיון
+ID_TOOLS_INTERNATIONAL=...הגדרות בינלאומיות
+ID_TOOLS_IMPORT_RULES=...כללי יבוא
+ID_HELP_CHECK_FOR_UPDATES=...בדיקת עדכונים לתוכנה
+MENU=תפריט
+ADD=הוספה
+
+[TOOLBAR]
+ID_FILE_NEW=חדש
+ID_FILE_OPEN=פתיחה
+ID_FILE_SAVE=שמירה
+ID_VIEW_BACK=אחורה
+ID_VIEW_FORWARD=קדימה
+ID_VIEW_HOME=בית
+ID_VIEW_ACCOUNTS=חשבונות
+ID_VIEW_BANKS=בנקים
+ID_VIEW_PAYEES=מקבלי התשלום
+ID_VIEW_CATEGORIES=קטגוריות
+ID_VIEW_SCHEDULE=לוח זמנים
+ID_VIEW_REPORTS=דוחות
+ID_VIEW_PORTFOLIO=תיק ניירות ערך
+ID_HELP_HOMEPAGE=דף הבית
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=חשבונות
+IDC_ADD=...חשבון חדש
+IDC_BILLS=תשלום חשבונות
+IDC_REPORTS=דוחות
+IDC_CURRENCY=שער המרה
+IDC_WEBUPDATE=הורדת שערי חליפין
+IDHELP=עזרה
+
+ID_ACCOUNT_OPEN=פתח
+ID_ACCOUNT_ADD=...חשבון חדש
+ID_ACCOUNT_DELETE=מחק
+ID_ACCOUNT_EDIT=מאפיינים
+
+TOTAL=סה"כ
+LASTUPDATE=עידכון אחרון
+
+DELETE_CONFIRMATION=?ימחק עם כל הטרנזקציות שלו! האם ברצונך להמשיך %s חשבון   
+
+UPDATE_SUCCESS=שערי החליפין עודכנו בהצלחה
+UPDATE_FAILURE=עידכון מהווב נכשל , לא זוהה חיבור אינטרנט או שמספר מטבעות לא עודכנו 
+UPDATE_NOTREQUIRED=!אין צורך בעידכון מהווב
+ID_ACCOUNT_SHOWNUMBERS=הראה מספרי חשבון
+ID_ACCOUNT_SHOWCLOSED=הראה חשבונות סגורים
+NEW_CURRENCY_DETECTED=?חשבון זה משתמש במטבע ששונה ממטבע ברירת המחדל! נדרש לעדכן לאת שערי המטבעות ע"י הורדה מהאינטרנט או ע"י עידכון ידני בכלים ---> שערי חליפין. האם ברצונך לעדכן שערי חליפין דרך האינטרנט
+ID_ACCOUNT_CLOSE=סגירת חשבון
+ID_ACCOUNT_REOPEN=פתיחת חשבון מחדש
+ID_ACCOUNT_ACCEPT_IMPORTED=אשר טרנזקציות מיובאות
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPORTFOLIO]
+TITLE=תיק ניירות ערך
+
+IDC_NEWTRANSACTION=...טרנזקציה חדשה
+
+IDC_ADD=...הוספת השקעה
+IDC_EDIT=...עריכת השקעה
+IDC_DELETE=...מחיקת השקעה
+
+IDC_WEBUPDATE=הורדת מחירי מניות
+
+IDHELP=עזרה
+
+STOCKLIST=מניות
+STOCKTRANSACTIONLIST=טרנזקציות
+
+COLUMN0=סימנים
+COLUMN1=שם
+COLUMN2=מחיר אחרון
+COLUMN3=כמות
+COLUMN4=סה"כ
+COLUMN5=רווח
+
+TRANSACTIONSCOLUMN0=תאריך
+TRANSACTIONSCOLUMN1=פעולה
+TRANSACTIONSCOLUMN2=סימן
+TRANSACTIONSCOLUMN3=חשבון
+TRANSACTIONSCOLUMN4=דיבידנד
+TRANSACTIONSCOLUMN5=מחיר
+TRANSACTIONSCOLUMN6=כמות
+TRANSACTIONSCOLUMN7=עמלה
+TRANSACTIONSCOLUMN8=סה"כ
+TRANSACTIONSCOLUMN9=הערה
+
+CANTBEDELETED=!מניה זו בשימוש של יותר מטרנזקציה או חשבון אחד ולא יכולה להמחק
+DELETECONFIRMATION=?המניה תמחק, האם אתה בטוח
+UPDATEISNOTREQUIRED=!לא נדרש לעדכן
+UPDATEISNOTCOMPLETE=!השקעות מסויימות לא עודכנו
+INVESTMENTNOTCREATED=!חובה ליצור את ההשקעה קודם
+
+ID_EDIT_OPEN=עריכת השקעה
+ID_EDIT_INSERT=הוספת השקעה חדשה
+ID_EDIT_DELETE=מחיקת השקעה
+IDC_BUY=...קניה
+IDC_SELL=...מכירה
+IDC_DIVIDEND=...דיבידנד
+IDC_REINVEST=...השקעת דיבידנד מחדש
+IDC_ADDSHARES=...הוספת מניות
+IDC_REMOVESHARES=...הסרת מניות
+ALLACCOUNTS=כל החשבונות
+ALLOCATION_BY_INVESTMENTS=הקצאה לפי השקעות
+ALLOCATION_BY_ACCOUNTS=הקצאה לפי חשבונות
+ALLOCATION_BY_TYPES=הקצאה לפי סוגים
+IDC_IMPORT=...יבוא
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=חשבון
+IDC_ADD=שורה חדשה בדף חשבון
+IDC_EDIT=עריכת שורה בדף חשבון
+IDC_DELETE=מחיקת שורה בדף חשבון
+IDC_BALANCE=מאזן חשבון
+IDC_WEBSITE=חשבון באתר האינטרנט
+IDC_ACCOUNT=עריכת פרטי חשבון
+IDC_BANK=עריכת פרטי בנק
+IDC_MONTHREPORT=דוח חודשי
+IDC_REPORT=דוח של 30 יום
+IDC_HIDERECONCILED=הסתר טרנזקציות מוסדרות
+IDHELP=עזרה
+
+COLUMN0=מספר
+COLUMN1=תאריך
+COLUMN2=מקבל תשלום
+COLUMN3=קטגוריה
+COLUMN4=S
+COLUMN5=משיכה
+COLUMN6=הפקדה
+COLUMN7=סה"כ
+COLUMN8=הערה
+
+BANKISNOTASSIGNED=כדי להשתמש באפשרות זאת , בחר בבנק שאחראי לחשבון
+PAGEISNOTASSIGNED=.חסרה כתובת אתר האינטרנט. ניתן להוסיף אותה בתיבת מאפייני הבנק
+STATUS=%.2f הייתה %s  ההוצאה החודש בקטגוריית
+STATUSINCOME=%.2f הייתה %s  ההכנסה החודש בקטגוריית
+
+ID_TRANSACTION_UNCLEARED=לא נפרע
+ID_TRANSACTION_CLEARED=נפרע
+ID_TRANSACTION_RECONCILED=הוסדר
+
+ID_EDIT_OPEN=עריכה
+ID_EDIT_INSERT=...שורה חדשה בדף חשבון
+ID_EDIT_INSERTBILL=...שמור תשלום
+ID_EDIT_DELETE=מחיקה
+ID_EDIT_COPY=העתקה
+ID_EDIT_PASTE=הדבקה
+ID_EDIT_CATEGORY=...עריכת קטגוריה
+ID_EDIT_PAYEE=..ערוך מקבל תשלום
+ID_EDIT_ADDTOSCHEDULE=...הוסף ללוח זמנים
+
+ID_REPORTS_CATEGORY=...דוח קטגוריה
+ID_REPORTS_PAYEE=...דוח מקבל התשלום
+
+BILLDELETECONFIRMATION=!פעולה זו תמחוק את כל הטרנזקציות העתידיות שמשוייכים לחשבון/הפקדה
+TRANSACTIONDELETECONFIRMATION=?האם אתה בטוח
+RECONCILEDTRANSACTIONCONFIRMATION=?טרנזקציה זו מסומנת כמוסדרת, שינויים לא מומלצים! האם להמשיך
+CLEAREDTRANSACTIONCONFIRMATION=?טרנזקציה זו מסומנת כנפרעה, שינויים לא מומלצים! האם להמשיך
+CANNOTSORTBYTOTAL=!!לא ניתן לסכם לפי עמודת סך הכל
+ID_EDIT_CATEGORYCHANGE=...שינוי קטגוריה
+ID_EDIT_PAYEECHANGE=...שנה מקבל תשלום
+IDC_APPLY_IMPORT_RULES=החל כללי ייבוא
+COLUMN9=חשבון
+STATUSSUM=הסכום של הטרנזקציות הנבחרות הם
+ID_VIEW_DISPLAYSIDEPANEL=הצג פנל צדדי
+ID_EDIT_TAG=תווית
+ID_EDIT_TAG_REMOVE_ALL=&0 הסר את כל התגים
+ID_EDIT_TAG_IMPORTANT=&1 חשוב
+ID_EDIT_TAG_WORK=&2 עבודה
+ID_EDIT_TAG_PERSONAL=&3 פרטי
+ID_EDIT_TAG_TODO=&4 לעשות
+ID_EDIT_TAG_LATER=&5 מאוחר יותר
+ID_EDIT_ATTACHMENTS=קבצים מצורפים
+ID_EDIT_ATTACHMENT_ADD=...צרף
+ID_EDIT_ATTACHMENT_DELETE=מחיקה
+IDC_ADD_INVESTMENT_TRANSACTION=טרנזקציתת השקעה
+IDC_DOWNLOAD=הורדת טרנזקציות
+ID_EDIT_MOVE_TO_ACCOUNT=העבר לחשבון
+ID_EDIT_GOTO_TRANSACTION=גש לטרנזקציה
+ID_EDIT_SKIPBILL=דלג על תשלום חשבון
+IDC_CREATE_IMPORT_RULE=...צור כלל ייבוא
+MOVE_PARTIALLY_FAILED=!לא ניתן להעביר חלק מהטרנזקציות לחשבון הנבחר
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=...בנק חדש
+IDC_EDIT=ערוך נתוני בנק
+IDC_DELETE=מחק בנק
+IDC_DELETEUNUSED=מחק לא שימושיים
+IDC_IMPORT=...יבוא
+IDHELP=עזרה
+
+COLUMN0=שם הבנק
+COLUMN1=כתובת
+COLUMN2=אתר אינטרנט
+COLUMN3=הערה
+
+CANTBEDELETED=אחד מהחשבונות שלך משוייך לבנק זה. בנק זה לא ניתן למחיקה
+DELETECONFIRMATION=?האם אתה בטוח
+DELETEUNUSED=?פעולה זו תמחק את כל הבנקים שלא משוייכים לחשבונות, האם להמשיך
+
+ID_EDIT_OPEN=עריכה
+ID_EDIT_INSERT=...בנק חדש
+ID_EDIT_DELETE=מחיקה
+COLUMN4=טלפון
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=...קטגוריה חדשה
+IDC_EDIT=ערוך קטגוריה
+IDC_DELETE=מחק קטגוריה
+IDC_DELETEUNUSED=...מחק לא שימושיים
+IDC_REPORT=דוח קטגוריה
+IDC_BUDGETREPORT=דוח תקציב
+IDC_BUDGET=...הגדרות תקציב
+IDC_IMPORT=...יבוא
+IDC_MERGE=...מיזוג
+IDHELP=עזרה
+
+COLUMN0=קטגוריה
+COLUMN0a=קוד
+COLUMN1=מתוקצב
+COLUMN1a=הכנסה
+COLUMN2a=הוצאה
+COLUMN2=הערה
+COLUMN3=הערה
+
+CANTBEDELETED=קטגוריה זאת נמצאת בשימוש של טרנזקציה קיימת,חשבון או כלל יבוא. הקטגוריה לא יכולה להמחק
+PARENTCANTBEDELETED=זוהי קטגוריה ראשית לאחד או יותר מהקטגוריות הבאות. אם אתה רוצה למחוק אותה, עליך למחוק את תתי הקטגוריות שלה
+DELETECONFIRMATION=?האם אתה בטוח
+DELETEUNUSED=?פקודה זו תמחק את כל הקטגוריות שלא משוייכות להם טרנזקציות. להמשיך
+ID_EDIT_OPEN=עריכה
+ID_EDIT_INSERT=...חדש
+ID_EDIT_DELETE=מחיקה
+
+TOTALINCOME=:הכנסה
+TOTALEXPENSE=:הוצאה
+COLUMN2c=תקופה
+MONTHLY_INCOME=:הכנסה חודשית
+MONTHLY_EXPENSE=:הוצאה חודשית
+MONTHLY_TOTAL=סה"כ חודשי
+ANNUAL_TOTAL=סה"כ שנתי
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=...מקבל תשלום חדש
+IDC_EDIT=ערוך מקבל תשלום
+IDC_DELETE=מחק מקבלי תשלום
+IDC_DELETEUNUSED=מחיקת לא שימושייים
+IDC_REPORT=דוח לפי מקבלי תשלום
+IDC_MERGE=..מיזוג
+IDHELP=עזרה
+
+COLUMN0=שם
+COLUMN1=כתובת
+COLUMN2=הערה
+COLUMN3=טלפון
+
+CANTBEDELETED=.אחד מהטרנזקציות משתמשות במקבל התשלום הנ"ל. לא ניתן למחוק מקבל תשלום
+DELETECONFIRMATION=?האם אתה בטוח
+DELETEUNUSED=?פקודה זו תמחק את כל מקבלי התשלום שלא משוייכים אליהם טרנזקציות. להמשיך
+
+ID_EDIT_OPEN=עריכה
+ID_EDIT_INSERT=...חדש
+ID_EDIT_DELETE=מחיקה
+IDC_HIDE_INACTIVE=הסר מקבלי תשלום לא פעילים
+ID_PAYEE_ACTIVATE=הפעל
+ID_PAYEE_DEACTIVATE=ביטול פעילות
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=סינון לפי תאריך
+IDC_SETDATES=...בחר טווח תאריכים
+IDC_USECATEGORYFILTER=סינון לפי קטגוריות
+IDC_SETCATEGORIES=בחירת קטגוריות
+IDC_USEPAYEEFILTER=סינון לפי מקבלי תשלום
+IDC_SETPAYEES=בחר מקבלי תשלום
+IDC_USEACCOUNTFILTER=סינון לפי חשבונות
+IDC_SETACCOUNTS=בחר חשבון
+IDC_TRANSACTIONS=דוח טרנזקציות
+IDC_CATEGORY=הוצאות לפי קטגוריות
+IDC_SUBCATEGORY=הוצאות לפי תת-קטגוריות
+IDC_PAYEE=הוצאות לפי מקבלי תשלום
+IDC_BUDGETCATEGORY=תקציב לפי קטגוריות
+IDC_BUDGETSUBCATEGORY=תקציב לפי תת-קטגוריות
+IDC_CASHFLOW=דוח תזרים מזומנים
+IDC_NETWORTH=Net Worth Report
+IDC_LAST30DAYS=שלושים ימים אחרונים של השורות בדף חשבון
+IDC_INCLUDETRANSFERS=כולל העברות
+
+IDHELP=עזרה
+IDC_TABLE=הצג כטבלה
+IDC_CHART=תרשים
+IDC_INCOMECHART=הכנסות תצוגת פיי
+IDC_EXPENSECHART=הוצאות תצוגת פיי
+IDC_PERIODCHART=טבלת תקופה
+IDC_TOTALCHART=טבלת סך הכל
+
+CATEGORYCOLUMN0=קטגוריה
+CATEGORYCOLUMN1=סכום
+CATEGORYCOLUMN2=מתוקצב
+CATEGORYCOLUMN3=הפרש
+CATEGORYCOLUMN4=קוד
+CATEGORYCOLUMN5=הכנסה
+CATEGORYCOLUMN6=הוצאה
+
+CASHFLOWCOLUMN0=תאריך
+CASHFLOWCOLUMN1=סך הכל תקופה
+CASHFLOWCOLUMN2=סה"כ
+
+OTHERS=אחרים
+
+GENERALREPORTS=דוחות כלליים
+CATEGORYREPORTS=דוחות קטגוריה
+PAYEEREPORTS=דוחות מקבל התשלום
+BUDGETREPORTS=דוחות תקציב
+
+PAYEECOLUMN0=מקבל תשלום
+PAYEECOLUMN1=סכום
+PAYEECOLUMN2=הכנסה
+PAYEECOLUMN3=הוצאה
+
+IDC_CATEGORYBYMONTH=הוצאות חודשיות לפי קטגוריות
+IDC_SUBCATEGORYBYMONTH=הוצאות חודשיות לפי תת-קטגוריות
+IDC_BUDGET=תקופת תקציב נוכחית
+FAVORITEREPORTS=דוחות מועדפים
+IDC_USEINVESTMENTFILTER=סינון לפי השקעות
+IDC_SETINVESTMENTS=...בחירת השקעות
+IDC_USETAGFILTER=סינון לפי תגיות
+IDC_SETTAGS=...בחירת תגית
+IDC_USETEXTFILTER=סינון לפי טקסט
+IDC_SETTEXT=...קבע טקסט
+IDC_PAYEEBYMONTH=הוצאות חודשיות לפי מקבלי תשלום
+IDC_ACCOUNT=הוצאות לפי חשבונות
+IDC_INVESTMENT=ביצועים לפי השקעות
+INVESTMENTREPORTS=דוחות השקעה
+ACCOUNTCOLUMN0=חשבון
+ACCOUNTCOLUMN1=קבוצה
+ACCOUNTCOLUMN2=בנק
+ACCOUNTCOLUMN3=מאזן
+INVESTMENTCOLUMN0=השקעה
+INVESTMENTCOLUMN1=סימול
+INVESTMENTCOLUMN2=ספירה
+INVESTMENTCOLUMN3=עלות
+INVESTMENTCOLUMN4=עמלה
+INVESTMENTCOLUMN5=עלות למניה
+INVESTMENTCOLUMN6=דיבידנד
+INVESTMENTCOLUMN7=ערך
+INVESTMENTCOLUMN8=רווח
+INVESTMENTCOLUMN9=רווח באחוזים
+INVESTMENTCOLUMN10=ערך קנייה
+INVESTMENTCOLUMN11=עמלות קנייה
+INVESTMENTCOLUMN12=ערך מכירה
+INVESTMENTCOLUMN13=עמלות מכירה
+INVESTMENTCOLUMN14=הכנסה
+INVESTMENTCOLUMN15=רווח הון טווח קצר
+INVESTMENTCOLUMN16=רווח הון טווח ארוך
+INVESTMENTCOLUMN17=מחיר נוכחי
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMSCHEDULE]
+IDC_ENTER=הפעל הגדרות הרישום
+IDC_ADD=...תשלום חדש
+IDC_EDIT=עריכת תשלום
+IDC_DELETE=מחיקת תשלום
+IDHELP=עזרה
+
+COLUMN0=תאריך
+COLUMN1=טרנזקציה
+COLUMN2=מקבל תשלום
+COLUMN3=סכום
+COLUMN4=הערה
+COLUMN5=תדירות
+
+IDC_TABLE=טבלה
+IDC_CALENDAR=לוח שנה
+
+DELETECONFIRMATION=?האם אתה בטוח שברצונך למחוק את החשבון
+
+ID_EDIT_OPEN=הפעל
+ID_EDIT_INSERT=...הוסף חדש
+ID_EDIT_DELETE=מחיקה
+ID_EDIT_PROPERTIES=מאפיינים
+ID_EDIT_COPY=העתקה
+ID_EDIT_PASTE=הדבקה
+CHANGE_OF_ACCOUNT=?האם ברצונך להשתמש בחשבון אחר לכל המופעים העתידיים של חשבון זה
+CHANGE_OF_AMOUNT=?האם ברצונך להשתמש בחשבון אחר לכל המופעים העתידיים של חשבון זה
+IDC_SKIP=דלג תשלום/הפקדה
+COLUMN6=קטגוריה
+COLUMN7=אוטומטי
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=אודות
+IDOK=אישור
+IDCANCEL=ביטול
+
+[IDD_ACCOUNT]
+TITLE=חשבון
+IDC_NAMETEXT=שם
+IDC_TYPETEXT=קבוצה
+IDC_BANKTEXT=שם בנק
+IDC_NUMBERTEXT=מספר
+IDC_BALANCETEXT=מאזן ראשוני
+IDC_CURRENCYTEXT=מטבע
+IDC_CLOSED=החשבון סגור
+IDC_COMMENTTEXT=הערה
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+ERR_NOACCOUNTNAME=!לחשבון חייב להיות שם
+ERR_NOACCOUNTTYPE=!לחשבון חייבת להיות קבוצה
+ERR_NOCURRENCY=!לחשבון חייב להיות מטבע
+IDC_EDITBANK=...עריכה
+IDC_ONLINE_SETUP=...הגדרות מקוונות
+ERR_EMPTYBANKNAME=!ראשית הקלד או בחר בבקשה את שם הבנק 
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=קבוצת חשבונות
+IDC_ADD=...הוסף
+IDC_DELETE=מחיקה
+IDC_EDIT=...עדכן
+IDOK=אישור
+IDCANCEL=ביטול
+
+ERR_CANTDELETE=!קבוצה זו בשימוש של אחד החשבונות
+
+[IDD_ACCOUNTTYPE]
+TITLE=קבוצת חשבונות
+IDC_NAMETEXT=שם
+IDOK=אישור
+IDCANCEL=ביטול
+
+ERR_NOACCTYPENAME=!לקבוצה חייב להיות שם
+
+[IDD_BACKUP]
+TITLE=גיבוי
+
+IDC_ENABLEBACKUP=אפשר גיבוי
+
+IDC_LASTBACKUPTEXT=הגיבוי האחרון
+IDC_FREQUENCYTEXT=תדירות
+IDC_DIRECTORYTEXT=ספרייה
+IDC_BACKUP=!גבה עכשיו
+IDC_AUTOMATIC=גיבוי אוטומטי
+
+IDC_EVERYDAY=כל יום
+IDC_EVERYWEEK=כל שבוע
+IDC_EVERYOTHERWEEK=כל שבוע חלופי
+
+IDC_BROWSE=...עיון
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+ERR_INVALIDDIR=!חובה להכניס נתיב חוקי
+ERR_COPYFILE=.קרתה תקלה בגיבוי! יתכן שהדיסק לא בכונן
+ERR_BACKUPTIME=?לפי ההגדרות שלך זה הזמן לגיבוי. האם לבצע גיבוי
+ERR_NEWFILE=!חובה לשמור את הקובץ לפני ביצוע גיבוי
+ERR_COPYFILE_RESTORE=.קרתה תקלה בשיחזור! יתכן שהדיסק לא בכונן
+SELECT_FILE_TO_RESTORE=בחר קובץ לשיחזור
+SELECT_RESTORE_DIR=?היכן ברצונך לשמור את הקובץ
+OPEN_RESTORED_FILE=?האם ברצונך לפתוח את הקובץ המשוחזר
+IDC_ADD_DATE_TO_BACKUP_FILE=הוסף תאריך לשם קובץ הגיבוי
+
+[IDD_BALANCE]
+TITLE=מאזן
+
+IDC_CLEAREDDEPOSITS=הפקדות מתואמות
+IDC_CLEAREDWITHDRAWALS=משיכות מתואמות
+
+IDC_RECONCILEDTEXT=מאזן קודם
+IDC_CLEAREDTEXT=מאזן נוכחי
+IDC_UNCLEAREDTEXT=יתרת חוב
+
+IDC_NEWTRANSACTION=...חדש
+IDC_SELECTALL=בחירת הכל
+IDC_DESELECTALL=ניקוי הכל
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+[IDD_BANK]
+TITLE=בנק
+IDC_NAMETEXT=שם
+IDC_ADDRESSTEXT=כתובת
+IDC_WEBSITETEXT=אתר אינטרנט
+IDC_COMMENTTEXT=הערה
+IDC_BANKNUMBERTEXT=מספר בנק
+IDC_SWIFTCODETEXT=קוד ניתוב
+IDC_TRANSFERCODETEXT=קוד העברה
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+ERR_NOBANKNAME=!לבנק חייב להיות שם
+IDC_PHONETEXT=טלפון
+IDC_OPEN=פתיחה
+
+[IDD_BILL]
+TITLE=תשלום/הפקדה
+
+IDC_FREQUENCYGROUP=תדירות
+
+IDC_ONCE=חד פעמי
+IDC_DAILY=כל יום
+IDC_WEEKLY=כל שבוע
+IDC_EVERYOTHERWEEK=כל שבועיים
+IDC_TWICEAMONTH=פעמיים בחודש
+IDC_EVERYFOURWEEKS=כל 4 שבועות
+IDC_MONTHLY=כל חודש
+IDC_EVERYOTHERMONTH=כל חודשיים
+IDC_QUARTERLY=כל רבעון
+IDC_EVERYFOURMONTHS=כל 4 חודשים
+IDC_EVERYSIXMONTHS=כל 6 חודשים
+IDC_ANNUALLY=כל שנה
+
+IDC_STARTDATETEXT=תאריך התחלה
+
+IDC_BILLTYPETEXT=סוג תשלום
+BILLTYPE_CONTINUOUS=רצוף
+BILLTYPE_NUMBERED=ממוספר
+
+IDC_NUMBERTEXT=כמות התשלומים
+
+IDC_TRANSACTIONGROUP=טרנזקציה
+IDC_TYPETEXT=סוג
+IDC_DEPOSIT=הפקדה
+IDC_WITHDRAWAL=משיכה
+IDC_TRANSFER=העברה
+IDC_ACCOUNTTEXT=חשבון
+IDC_PAYEETEXT=מקבל תשלום
+IDC_CATEGORYTEXT=קטגוריה
+IDC_SPLIT=פיצול
+IDC_AMOUNTTEXT=סכום
+IDC_COMMENTTEXT=הערה
+
+IDC_ENTER=הוסף לחשבון
+IDC_AUTOMATIC=כנס לחשבון אוטומטי 
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+ERR_INVALIDACCOUNT=!שגיאה בשם החשבון
+ERR_INVALIDNUMBER=מספר התשלומים לא יכול להיות קטן מאחד
+IDC_CHECK_NUMBER_TEXT=מספר
+
+[IDD_BUDGET]
+TITLE=תקציב
+
+IDC_STARTDATETEXT=:תחילת התקופה הראשונה
+IDC_FREQUENCYTEXT=:תקופת התקציב
+
+IDC_WEEKLY=שבוע
+IDC_EVERYOTHERWEEK=שבועיים
+IDC_TWICEAMONTH=חצי חודש
+IDC_EVERYFOURWEEKS=כל 4 שבועות
+IDC_MONTHLY=חודש
+IDC_EVERYOTHERMONTH=חודשיים
+IDC_QUARTERLY=רבעון
+IDC_ANNUALLY=שנה
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+[IDD_CALC_LOAN]
+TITLE=מחשבון הלוואה
+
+IDC_AMOUNTTEXT=סכום
+IDC_RATETEXT=% ,שיעור הריבית התקופתית
+IDC_PERIODTEXT=תקופה, חודשים
+IDC_PAYMENTTEXT=תשלום
+IDC_TOTALINTERESTTEXT=סה"כ השקעה
+
+COLUMN0=#
+COLUMN1=תשלום
+COLUMN2=קרן
+COLUMN3=ריבית
+COLUMN4=הלוואה
+
+IDOK=אישור
+
+[IDD_CALC_SAVINGS]
+TITLE=מחשבון חיסכון
+
+IDC_MONTHLYPAYMENTTEXT=תשלום חודשי
+IDC_RATETEXT=אחוז ריבית שנתית
+IDC_PERIODTEXT=תקופה, חודשים
+IDC_STARTDATETEXT=תאריך התחלה
+IDC_TOTALINTERESTTEXT=סה"כ השקעה
+IDC_TOTALTEXT=סה"כ
+
+COLUMN0=#
+COLUMN1=תאריך
+COLUMN2=תשלום
+COLUMN3=ריבית
+COLUMN4=סה"כ
+
+IDOK=אישור
+IDC_INITIALBALANCETEXT=מאזן התחלתי
+
+[IDD_CALC_MORTGAGE]
+TITLE=מחשבון משכנתא
+
+IDC_VALUETEXT=ערך אומדן
+IDC_AMOUNTTEXT=סכום הלוואה
+IDC_TERMTEXT=תקופת זמן לפי שנים
+IDC_DATETEXT=סגירת תאריך
+IDC_RATETEXT=שער ריבית, %
+IDC_TAXTEXT=מס רכוש (ארנונה) שנתית
+IDC_INSURANCETEXT=ביטוח שנתי
+
+IDC_REQUIREDPAYMENTTEXT=בקשת שכר
+IDC_TOTALINTERESTTEXT=סה"כ השקעה
+IDC_TOTALPMITEXT=סה"כ ביטוח משכנתא פרטי
+IDC_TOTALMONTHSTEXT=מספר החודשים
+
+COLUMN0=תאריך
+COLUMN1=קרן
+COLUMN2=ריבית
+COLUMN3=מס
+COLUMN4=ביטוח
+COLUMN5=ביטוח משכנתא פרטי
+COLUMN6=תשלום
+COLUMN7=סה"כ
+
+IDOK=אישור
+IDHELP=עזרה
+
+[IDD_CATEGORY]
+TITLE=קטגוריה
+
+IDC_NAMETEXT=קטגוריה
+IDC_SUBNAMETEXT=תת-קטגוריה
+IDC_COMMENTTEXT=הערה
+IDC_BUDGETTEXT=מתוקצב
+IDC_NUMBERTEXT=מספר
+
+IDC_INCOME=הכנסה
+IDC_EXPENSE=הוצאה
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+ERR_NOCATNAME=!לקטגוריה חייבת להיות שם
+ERR_CATEXIST=!קיימת קטגוריה בשם זה
+PERIOD_ONE_WEEK=שבוע
+PERIOD_TWO_WEEKS=שבועיים
+PERIOD_HALF_MONTH=חצי חודש
+IDC_BUDGETPERIODTEXT=תקופת תקציב
+PERIOD_ONE_MONTH=חודש
+PERIOD_TWO_MONTHS=חודשיים
+PERIOD_THREE_MONTHS=שלושה חודשים
+PERIOD_FOUR_MONTHS=ארבעה חודשים
+PERIOD_SIX_MONTHS=שישה חודשים
+PERIOD_NINE_MONTHS=תשעה חודשים
+PERIOD_ONE_YEAR=שנה אחת
+
+[IDD_CATEGORYMERGE]
+TITLE=מיזוג קטגוריות
+
+IDC_CATEGORYTEXT=מיזוג קטגוריה
+IDC_CATEGORYTEXT1=עם קטגוריה
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+ERR_NOCATEGORIES=!חובה לבחור את שתי הקטגוריות והן צריכות להיות שונות
+ERR_SOURCECATEGORY=!לקטגוריית המקור לא יתכנו תתי-קטגוריות
+ERR_TARGETCATEGORY=!קטגוריית המטרה לא יכולה להיות תת-קטגורייה של קטגוריית המקור
+
+[IDD_COLORS]
+TITLE=פונטים וצבעים
+
+IDC_ACCOUNTLISTTEXT=רשימת חשבונות
+IDC_ACCOUNTTEXT=רישום חשבון
+IDC_BANKTEXT=בנקים
+IDC_CATEGORYTEXT=קטגוריות
+IDC_PAYEETEXT=מקבלי התשלום
+IDC_SCHEDULETEXT=לוח זמנים
+IDC_REPORTTEXT=דוחות
+IDC_PORTFOLIOTEXT=פורטפוליו
+
+IDC_LISTFONTTEXT=פונט טבלה
+
+IDC_TABLEFONTCOLORTEXT=צבע טקסט בטבלה
+IDC_TABLEBILLFONTCOLORTEXT=צבע של חשבונות עתידיים
+IDC_TABLEBACKGROUNDTEXT1=צבע רקע טבלה 1
+IDC_TABLEBACKGROUNDTEXT2=צבע רקע טבלה 2
+
+IDC_RESTORE=ברירות מחדל
+IDOK=אישור
+IDCANCEL=ביטול
+
+[IDD_CURRENCY]
+TITLE=שערי חליפין של מטבע
+IDC_SHOWALL=הצג את כל שערי המטבע
+IDC_CURRENCYINFO=%s :מטבע ברירת המחדל
+IDC_DOWNLOAD=...הורדה
+IDC_UPDATE=עידכון שער
+
+IDOK=סגור
+IDHELP=עזרה
+
+COLUMN0=מטבע
+COLUMN1=שער-מטבע ל
+COLUMN2=תאריך
+
+ERR_WEBUPDATE=!תקלה בעידכון שערי החליפין! בדוק חיבור לאינטרנט
+ERR_INVALIDRATE=!התקבל שער מטבע לא חוקי
+COLUMN3=ב
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=שער חליפין
+IDOK=אישור
+IDCANCEL=ביטול
+
+[IDD_SHEETREPORTFILTER]
+TITLE=מסנן דוחות
+
+[IDD_DATESRANGE]
+TITLE=בחר תקופה
+
+CURRENTWEEK=שבוע נוכחי
+PREVIOUSWEEK=שבוע קודם
+LAST30DAYS=שלושים ימים אחרונים
+CURRENTMONTH=חודש נוכחי
+PREVIOUSMONTH=חודש קודם
+CURRENTQUARTER=רבע נוכחי
+PREVIOUSQUARTER=רבע קודם
+CURRENTYEAR=שנה נוכחית
+PREVIOUSYEAR=שנה קודמת
+
+IDC_PERIODSTEXT=תקופות מוגדרות מראש
+IDC_CUSTOMDATES=תאריכים מותאמים אישית
+IDC_FROMTEXT=..מ
+IDC_TOTEXT=..ל
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+CURRENT=נוכחי
+CUSTOM=מותאם אישית
+IDC_BUDGETDATES=:תקופות תקציב
+LAST12MONTHS=12 חודשים אחרונים
+MONTH_TO_DATE=חודש עד לתאריך
+QUARTER_TO_DATE=רבעון עד לתאריך
+YEAR_TO_DATE=שנה עד לתאריך
+ALL_TO_DATE=הכל עד לתאריך
+ALL_DATES=כל התאריכים
+
+[IDD_FILTERACCOUNT]
+TITLE=בחירת חשבונות
+
+IDC_SELECTALL=בחירת הכל
+IDC_CLEARALL=נקה הכל
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+IDC_SELECT_OPEN=בחירת פתוחים
+
+[IDD_FILTERCATEGORY]
+TITLE=בחירת קטגוריות
+
+IDC_SELECTALL=בחירת הכל
+IDC_CLEARALL=נקה הכל
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+[IDD_FILTERPAYEE]
+TITLE=בחירת מקבל תשלום
+
+IDC_SELECTALL=בחירת הכל
+IDC_CLEARALL=נקה הכל
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+[IDD_IMPORT]
+TITLE=יבוא
+
+IDC_IMPORTTEXT=בחר חשבון עבור הטרנזקציות המיובאות
+IDC_DATEFORMATTEXT=פורמט תאריך
+
+IDC_NEWACCOUNT=...חשבון חדש
+
+IDOK=אישור
+IDCANCEL=ביטול
+
+ERR_NOACCOUNT=!חובה לבחור חשבון
+EXPORTTITLE=יצוא
+IMPORTTEXT=%d :טרנזקציות שיובאו
+EXPORTTEXT=בחר חשבון ליצוא
+IDHELP=עזרה
+IDC_DETECT_DUPLICATES=זיהוי כפולים
+IDC_IMPORT_RULES=...יבא כללים
+ERR_PARSING=לא ניתן לייבא את הקובץ, הוא שגוי או אינו עונה על הכללים הסטנדרטיים
+ERR_NO_TRANSACTIONS=.אין טרזקציות בקובץ
+ERR_TRANSACTIONS_FOR_MANY_ACCOUNTS=הקובץ מכיל טרנזקציות ליותר מחשבון אחד ולכן לא ניתן לייבא אותו
+STATUS_READING_FILE=...הקובץ בקריאה
+STATUS_PARSING_FILE=...בקובץ בניתוח
+STATUS_IMPORTING_TRANSACTIONS=...מייבא טרנזקציות
+STATUS_IMPORTING_BILLS=...מייבא הוצאות והפקדות
+STATUS_IMPORTING_ACCOUNTS=...מייבא חשבונות
+STATUS_IMPORTING_CATEGORIES=...מייבא קטגוריות
+STATUS_IMPORTING_INVESTMENTS=...מייבא השקעות
+STATUS_IMPORTING_HISTORICAL_PRICES=...מייבא נתוני מנייות היסטוריים
+IDC_DECIMALSEPARATORTEXT=מפריד מספר עשרוני
+IDC_APPLY_IMPORT_RULES=החל כללי ייבוא
+
+[IDD_EXPORT]
+TITLE=יצוא
+
+IDC_EXPORTTEXT=בחר חשבון לייצוא
+IDC_STARTDATETEXT=תאריך התחלה
+IDC_ENDDATETEXT=תאריך סיום
+
+ERR_NOACCOUNT=!בבקשה, בחר חשבון
+
+IDOK=אישור
+IDCANCEL=ביטול
+
+[IDD_LANGUAGE]
+TITLE=בחר שפה
+
+IDOK=אישור
+IDCANCEL=ביטול
+
+[IDD_OPTIONS]
+TITLE=אפשרויות
+
+IDC_GENERALGROUP=כללי
+IDC_DATETEXT=פורמט תאריך
+IDC_DATESEPARATORTEXT=מפריד תאריך
+IDC_SHOWCLOSEDACCOUNTS=הצג חשבונות סגורים
+IDC_SHOWGRID=הצג רשת בטבלאות
+IDC_LOADLASTFILE=טען קובץ אחרון בזמן התחלת התוכנה
+IDC_SHOWCOMMENT=הערות לשורות בדף חשבון
+IDC_CURRENCYTEXT=Default currency
+IDC_AUTOSAVE=שמור מסמך באופן אוטומטי
+IDC_SHOWFUTUREBILLS=הצג חשבונות עתידיים
+IDC_SHOWSPLASHSCREEN=הצג מסך פתיחה
+IDC_SHOWFILENAME=הצג שם קובץ בכותרת
+IDC_SHOWSOLDSTOCKS=הצג מניות ישנות
+IDC_ADDINVESTMENTVALUE=הוסף עלות של המניות למאזן החשבון
+IDC_SHOWDEPOSITSFIRST=הפקדות הם הטרזקציות הראשונות ביום
+
+IDC_STARTPAGEGROUP=התחלת הדף
+IDC_ACCOUNTLIST=רשימת חשבונות
+IDC_FAVORITEACCOUNT=חשבונות מועדפים
+
+IDC_PASSWORDGROUP=סיסמא
+IDC_OLDPASSTEXT=סיסמא נוכחית
+IDC_NEWPASSTEXT=סיסמא חדשה
+IDC_RETYPETEXT=חזור על הסיסמא החדשה
+
+IDC_DECIMALSEPARATORTEXT=נקודה עשרונית
+IDC_THOUSANDSEPARATORTEXT=מפריד אלפים
+IDC_NUMBEROFDECIMALDIGITSTEXT=מספר ספרות עשרוניות
+
+IDC_TRANSACTIONTYPETEXT=הקש שורה חדשה בדף חשבון
+LASTUSEDTYPE=האחרונים שהיו בשימוש
+
+IDC_TRANSACTIONNUMBERTEXT=מספר טרנזקציה חדש
+NUMBER_EMPTY=ריק
+NUMBER_DEBIT=חוב
+NUMBER_AUTO=הצ'יק האחרון ועוד אחד
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+ERR_THOUSANDDECIMAL=נקודה עשרונית ומפריד אלפים לא יכולים להיות דומים
+ERR_THOUSAND=!מפריד אלפים לא תקני
+ERR_INVALIDOLDPASSWORD=!סיסמה ישנה שגויה
+ERR_INVALIDNEWPASSWORD=!סיסמה חדשה שגויה
+1_MONTHS_AHEAD=חודש אחד קדימה
+2_MONTHS_AHEAD=חודשיים קדימה
+3_MONTHS_AHEAD=שלושה חודשים קדימה
+4_MONTHS_AHEAD=ארבעה חודשים קדימה
+5_MONTHS_AHEAD=חמישה חודשים קדימה
+6_MONTHS_AHEAD=שישה חודשים קדימה
+7_MONTHS_AHEAD=שבעה חודשים קדימה
+8_MONTHS_AHEAD=שמונה חודשים קדימה
+9_MONTHS_AHEAD=תשעה חודשים קדימה
+10_MONTHS_AHEAD=עשרה חודשים קדימה
+11_MONTHS_AHEAD=אחד-עשרה חודשים קדימה
+12_MONTHS_AHEAD=שניים-עשרה חודשים קדימה
+IDC_NETWORK=...רשת
+IDC_SHOWACCOUNTNUMBERS=הצג מספרי חשבון
+IDC_TRANSFERSTATUS=שנה את סטטוס העברה של שני החשבונות
+IDC_SHOWCATEGORYSTATUS=הצג ניתוח קטגוריה בשורת הסטטוס
+IDC_SHOWDUPLICATECHECKWARNING=הצג אזהרת שיקים כפוליפ
+IDC_CHECKFORUPDATES=בדיקת התוכנה לעדכונים
+IDC_AUTOFILLTRANSACTIONCOMMENTS=מלא אוטומטית הערות טרנזקציה
+IDC_SORTSAMEDAYTRANSACTIONSBYNUMBER=מיין את טרנזקציות אותו יום לפי מספר
+IDC_NUMBEROFFUTUREBILLSMONTHSTEXT=הצג חשבונות עתידיים עבור
+0_MONTHS_AHEAD=כלל לא
+IDC_CONFIRM_EDIT_RECONCILED_TRANSACTION=נא אשר שינוי טרנזקציות שנפרעו או שהוסדרו
+IDC_CONFIRM_DELETE_TRANSACTION=אשר מחיקת טרזקציה
+IDC_CONFIRM_DELETE_BILL=אשר מחיקת חשבונית
+18_MONTHS_AHEAD=שמונה-עשרה חודשים קדימה
+24_MONTHS_AHEAD=שנתיים קדימה
+
+[IDD_PASSWORD]
+TITLE=הכנס סיסמא
+IDC_PASSTEXT=סיסמא
+
+IDOK=אישור
+IDCANCEL=ביטול
+
+ERR_INVALIDPASSWORD=!סיסמה שגויה
+
+[IDD_PAYEE]
+TITLE=מקבל תשלום
+
+IDC_NAMETEXT=שם
+
+IDC_ADDRESSTEXT=כתובת
+IDC_CITYTEXT=עיר
+IDC_STATETEXT=(מדינה (לתושבי ארה"ב
+IDC_ZIPTEXT=מיקוד
+IDC_COUNTRYTEXT=מדינה
+
+IDC_HOMEPHONETEXT=טלפון בבית
+IDC_WORKPHONETEXT=טלפון בעבודה
+IDC_MOBILEPHONETEXT=טלפון נייד
+IDC_FAXTEXT=פקס
+IDC_PAGERTEXT=איתורית
+
+IDC_EMAILTEXT=דואר אלקטרוני
+IDC_WEBSITETEXT=אתר אינטרנט
+
+IDC_COMMENTTEXT=הערה
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+ERR_NOPAYEENAME=!למקבל התשלום חייב להיות שם
+IDC_ACTIVEPAYEE=מקבל תשלום פעיל
+IDC_GO=עבור
+
+[IDD_PAYEEMERGE]
+TITLE=מיזוג מקבלי התשלום
+IDC_PAYEETEXT=מזג מקבל תשלום
+IDC_PAYEETEXT1=עם מקבל תשלום
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+ERR_NOPAYEES=שני מקבלי התשלום צריכים להבחר וחייבים להיות שונים
+SELECTED_PAYEES=מקבלי תשלום נבחרים
+
+[IDD_PRINTPREVIEW]
+TITLE=הדפס דוגמא
+IDC_PAGETEXT=דף
+IDC_PRINT=הדפס
+
+IDOK=אישור
+IDHELP=עזרה
+IDC_PAGEOFTEXT=של
+IDC_CLOSE=סגור
+IDC_PAGEPROPERTIES=...הגדרות עמוד
+IDC_PREVIOUSPAGE=אחורה >>
+IDC_NEXTPAGE=<< קדימה
+IDC_ZOOMIN=זום אין
+IDC_ZOOMOUT=זום אווט
+
+[IDD_REGISTER]
+TITLE=הרשמה
+
+IDC_NAMETEXT=:שם
+IDC_SERIALNUMBERTEXT=:מספר סיריאלי
+
+IDC_ORDER=...קניה 
+
+IDOK=אישור
+IDCANCEL=ביטול
+
+[IDD_SEARCH]
+TITLE=מצא טרנזקציות
+
+IDC_DATETEXT=תאריך
+IDC_FROMTEXT=מ
+IDC_TOTEXT=ל
+IDC_AMOUNTTEXT=סכום
+IDC_AMOUNTFROMTEXT=מ
+IDC_AMOUNTTOTEXT=ל
+IDC_COMMENTTEXT=טקסט
+IDC_SEARCH=חיפוש
+IDC_CLOSE=סגור
+IDC_ACCOUNTTEXT=חשבון
+ALLACCOUNTS=כל החשבונות
+
+[IDD_SPLIT]
+TITLE=פיצול לפי קטגוריות
+
+IDC_CATEGORYTEXT=קטגוריה
+IDC_SUBCATEGORYTEXT=תת-קטגוריה
+IDC_AMOUNTTEXT=סכום
+IDC_ADD=הוסף
+IDC_EDIT=עריכה
+IDC_DELETE=מחיקה
+IDC_TOTALTEXT=סה"כ:
+IDC_UNASSIGNEDTEXT=לא משוייך:
+IDC_COMMENTTEXT=הערה
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+COLUMN0=קטגוריה
+COLUMN1=תת-קטגוריה
+COLUMN2=סכום
+COLUMN3=הערה
+
+ERR_BADTOTAL=?הסכום של הסכומים המפוצלים אינו שווה לסכום הטרנזקציה. האם ברצונך לשנות את סכום הטרנזקציה
+
+[IDD_SPLITITEM]
+TITLE=חלק פריט
+IDC_CATEGORYTEXT=קטגוריה
+IDC_SUBCATEGORYTEXT=תת-קטגוריה
+IDC_AMOUNTTEXT=סכום
+IDC_COMMENTTEXT=הערה
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+[IDD_TRANSACTION]
+TITLE=טרנזקציה
+
+IDC_TYPETEXT=סוג
+IDC_DEPOSIT=הפקדה
+IDC_WITHDRAWAL=משיכה
+IDC_TRANSFER=העברה
+IDC_ACCOUNTTEXT=חשבון
+IDC_PAYEETEXT=מקבל תשלום
+IDC_CATEGORYTEXT=קטגוריה
+IDC_SPLIT=פיצול
+IDC_COMMENTTEXT=הערה
+IDC_DATETEXT=תאריך
+IDC_NUMBERTEXT=מספר
+IDC_AMOUNTTEXT=סכום
+
+FROMTEXT=..מ
+TOTEXT=..ל
+SPLIT=פיצול
+DEBIT=חיוב
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+ERR_SAMETRANFER=!לא ניתן להעביר לאותו חשבון
+ERR_INVALIDACCOUNT=!שגיאה בשם החשבון
+ERR_SPLITAMOUNT=!סכום הטרנזקציה צריך להיות שווה לסכום הפיצולים
+ERR_SPLIT_HAS_TRANSFERS=העברה לא יכולה להכיל העברות מקוננות בפיצול! הסר את ההעברה מהפיצול ושנה את סוג הטרנזקציה
+ERR_TRANSFER_FROM_SPLIT_NOT_ALLOWED=!העברה מטרנזקציית פיצול של הסוג הנבחר אסורה
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=שער חליפין
+
+IDC_SOURCEAMOUNTTEXT=מקור הסכום
+IDC_TARGETAMOUNTTEXT=מטרת הסכום
+
+IDOK=אישור
+IDCANCEL=ביטול
+
+[IDD_TRANSACTIONCATEGORYLIST]
+TITLE=קטגוריית טרנזקציה
+IDC_ADD=...הוסף
+IDC_DELETE=מחיקה
+IDC_EDIT=...עדכן
+IDOK=סגור
+IDHELP=עזרה
+UPDATE_TRANSACTIONS=?האם ברצונך לעדכן את הטרנזקציה הקיימת בשם חדש
+DELETE_TRANSACTIONS=?האם ברצונך לנקות את הקטגוריה המחוקה מטרנזקציה הקיימת
+
+[IDD_TRANSACTIONCATEGORY]
+TITLE=קטגוריית טרנזקציה
+IDC_NAMETEXT=שם
+IDOK=אישור
+IDCANCEL=ביטול
+
+ERR_NONAME=!לקטגוריה של טרנזקציה חייבת להיות שם
+
+[IDD_DAYBILLS]
+TITLE=תשלום/הפקדות
+
+COLUMN0=תאריך
+COLUMN1=טרנזקציה
+COLUMN2=מקבל תשלום
+COLUMN3=סכום
+COLUMN4=הערה
+COLUMN5=תדירות
+
+IDC_ENTER=...הפעל
+IDC_EDIT=...עריכה
+
+IDOK=אישור
+IDHELP=עזרה
+IDC_DELETE=..מחיקה
+
+[IDD_LITEVERSION]
+TITLE=אייסמאני לייט
+
+IDC_TEXT= גירסת לייט של התוכנה עובדת עם חשבון אחד בלבד. החשבון השני לא יכול להווצר ולא ניתן לפתוח קבצים עם מספר חשבונות . אם ברצונך לנהל מספר חשבון, אתה צריך לשדרג לגירסה הרגילה של התוכנה
+IDC_WEBSITE=...שדרג
+IDOK=סגור
+IDC_TWO_ACCOUNTS_LIMIT=גירסה אייסמאני לייט עובדת עם שני חשבונות בלבד. לא ניתן ליצור את החשבון השלישי ולא ניתן לפתוח יותר משני חשבונות. אם ברצונך לנהל יותר משני חשבונות. אתה צריך לשדרג לגירסה המלאה של אייסמאני
+IDCANCEL=ביטול
+
+[IDD_STOCK]
+TITLE=השקעה
+
+IDC_SYMBOLTEXT=סימן
+IDC_LOOKUP=...חיפוש סימן
+IDC_NAMETEXT=שם
+IDC_CURRENCYTEXT=מטבע
+IDC_COMMENTTEXT=הערה
+IDC_UPDATE=...עידכון
+IDC_WEBUPDATE=...הורדה
+IDC_PRICETEXT=מחיר היסטורי
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+COLUMN0=תאריך
+COLUMN1=מחיר
+IDC_DATASOURCETEXT=מקור הנתונים
+STOCK=מניה
+MUTUALFUND=קרן נאמנות
+BOND=אגרת חוב
+INDEX=מדד
+COMMODITY=סחורות
+OTHER=אחרים
+IDC_TYPETEXT=סוג
+IDC_DIVIDEBY100TEXT=חילוק הציטוט שהורד ב 100
+IDC_AUTO_DOWNLOAD_ENABLED=הורד ציטוטים באופן אוטומטי
+ERR_EMPTYSYMBOL=!סימול המניה לא יכול להיות ריק
+ERR_EMPTYNAME=!שם ההשקעה לא יכול להיות ריק
+ERR_INVALIDDATASOURCE=!חובה לבחור מקור נתונים תקני
+ERR_CONNECTIONORSYMBOL=!שגיאת חיבור לאינטרנט או סימול מניה לא תקין
+CURRENCY=מטבע
+REALESTATE=נדל"ן
+TRUST=פקדון
+OPTIONS=אופציות
+FUTURES=חוזים עתידיים
+
+[IDD_STOCKPRICE]
+TITLE=מחיר מנייה
+
+IDC_DATETEXT=תאריך
+IDC_PRICETEXT=מחיר
+
+IDOK=אישור
+IDCANCEL=ביטול
+
+[IDD_STOCKTRANSACTION]
+TITLE=טרנזקציית השקעה
+
+IDC_DATETEXT=תאריך
+IDC_ACCOUNTTEXT=חשבון
+IDC_ACTIONTEXT=פעולה
+IDC_INVESTMENTTEXT=השקעה
+
+IDC_DIVIDENDTEXT=דיבידנד
+IDC_NUMBERTEXT=כמות מניות
+IDC_PRICETEXT=מחיר
+IDC_COMMISSIONTEXT=עמלה
+IDC_TOTALTEXT=סה"כ
+
+BUY=קנייה
+SELL=מכירה
+DIVIDEND=דיבידנד
+REINVEST=השקעה מחדש בדיבידנד
+ADD=הוסף מניות
+REMOVE=הסר מניות
+
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+
+ERR_NEGATIVEVALUES=מספר מניות, מחיר ליחידה, דיבידנד, עמלה וסך סכום חייבים להיות חיוביים
+ERR_INVALIDACTIONTYPE=!סוג פעולה לא תקינה
+ERR_INVALIDACCOUNT=!חשבון לא תקין
+ERR_INVALIDINVESTMENT=!השקעה לא תקינה
+IDC_COMMENTTEXT=הערה
+ERR_INCONSISTENTCURRENCY=!מטבע של החשבון הבחר חייב להתאים למטבע של ההשקעה 
+LONG_TERM_CAPITAL_GAIN=חלוקת רווחי הון של טווח ארוך
+SHORT_TERM_CAPITAL_GAIN=חלוקת רווח הון של טווח קצר
+REINVEST_SHORT_TERM_CAPITAL_GAIN=השקעה מחדש של רווחי הון טווח קצר
+REINVEST_LONG_TERM_CAPITAL_GAIN=השקעה מחדש של רווחי הון טווח ארוך
+
+[IDD_REPORTADD]
+TITLE=הוסף למועדפים
+IDC_NAMETEXT=שם דוח
+IDOK=אישור
+IDCANCEL=ביטול
+
+[IDD_REPORTORGANIZE]
+TITLE=אירגון דוחות
+IDC_DELETE=מחיקה
+IDOK=יצור
+IDCANCEL=סגור
+
+[IDD_STARTUP_CURRENCY]
+TITLE=הגדרת שערי מטבע
+IDC_CURRENCYTEXT=מטבע ברירת המחדל
+IDC_NUMBEROFDECIMALSTEXT=מספר ספרות עשרוניות
+IDC_DECIMALSEPARATORTEXT=מפריד נקודה עשרונית
+IDC_THOUSANDSEPARATORTEXT=מפריד אלפים
+IDC_EXAMPLETEXT=דוגמא
+
+IDC_BACK=חזור >>
+IDC_NEXT=<< קדימה
+
+SEPARATOR_SPACE=רווח
+SEPARATOR_NONE=אין מפריד
+
+ERR_THOUSANDDECIMAL=נקודה עשרונית ומפריד אלפים לא יכולים להיות אותו דבר
+IDOK=אישור
+IDCANCEL=ביטול
+
+[IDD_STARTUP_DATE]
+TITLE=נתוני תאריך
+IDC_FORMATTEXT=פורמט תאריך
+IDC_SEPARATORTEXT=מפרד
+IDC_EXAMPLETEXT=דוגמא
+
+IDC_BACK=<< חזור
+IDC_FINISH=סיים
+IDOK=אישור
+IDCANCEL=ביטול
+
+[IDD_ACEMONEYREMINDER]
+TITLE=הזכרת תשלום לתוכנה
+
+STARTACEMONEY=...הפעל את התוכנה
+OPTIONS=...אפשרויות
+VIEWBILLS=...הראה חשבונות
+EXIT=יציאה
+CLOSE=סגור
+
+COLUMN0=תאריך
+COLUMN1=טרנזקציה
+COLUMN2=מקבל תשלום
+COLUMN3=סכום
+
+OPTIONSTITLE=אפשרויות
+DATAFILE=קובץ נתונים של התוכנה
+BROWSE=...עיון
+SELECTFILE=בחר את קובץ הנתונים
+AUTOSTART=הפעל אוטומטי עם חלונות
+STARTMINIMIZED=התחל מוקטן
+OK=אישור
+CANCEL=ביטול
+
+
+MSG_DUEBILLS=!צריך לפרוע את שטר החשבון
+MSG_NODUEBILLS=אין שטרות חשבון לפריעה
+
+[IDD_PAGESETUP]
+TITLE=הגדרות דף
+IDCANCEL=ביטול
+IDOK=אישור
+IDC_PAPERBOX=נייר
+IDC_ORIENTATIONBOX=כיוונון
+IDC_MARGINBOX_MM=שולי עמוד (mm)
+IDC_MARGINBOX_INCH=שולי עמוד (Inch)
+IDC_TITLETEXT=:כותרת
+IDC_PAPERSIZETEXT=:גודל
+IDC_TMTEXT=:עליון
+IDC_BMTEXT=:תחתון
+IDC_LMTEXT=:שמאל
+IDC_RMTEXT=:ימין
+IDC_PORTRAIT=הדפסה לאורך הדף
+IDC_LANDSCAPE=הדפסה לרוחב הדף
+IDC_UNITTEXT=:יחידות
+UNIT0=מילימטרים
+UNIT1=אינצ'ים
+[IDD_ARCHIVE]
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+TITLE=צור ארכיון
+IDC_DATE_TEXT=אכסן בארכיון כל הטרנזקציות עד ל
+IDC_DELETE=מחק טרנקציות המאוכסנים בארכיון מהמסמך הפעיל
+ERR_CREATE_ARCHIVE=!כישלון ביצירת ארכיון
+ERR_WRITE_ARCHIVE=!כישלון בשמירת קובץ ארכיון
+[IDD_CATEGORYCHANGE]
+IDOK=אישור
+IDCANCEL=ביטול
+TITLE=שינוי קטגוריה
+[IDD_IMPORTRULE]
+IDOK=אישור
+IDCANCEL=ביטול
+TITLE=כלל ייבוא
+IDC_SEARCHSTRINGTEXT=אם תיאור של הטרזקצייה המיובאת כולל
+IDC_PAYEETEXT=החלף אותה עם מקבל תשלום
+IDC_CATEGORYTEXT=והשתמש בקטגורייה זו
+[IDD_IMPORTRULES]
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+IDC_DELETE=..מחיקה
+IDC_EDIT=...עריכה
+IDC_ADD=...הוספה
+COLUMN3=קטגוריה
+COLUMN2=מקבל תשלום
+TITLE=כללי ייבוא
+COLUMN1=מחרוזת חיפוש
+IDC_IMPORT=ייבוא
+IDC_EXPORT=ייצוא
+ERROR_IMPORT=ייבוא כללי ייבוא מ %s נכשל!
+ERROR_EXPORT=ייבוא כללי ייצוא מ %s נכשל!
+[IDD_INTERNATIONALSETTINGS]
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+TITLE=הגדרות בינלאומיות
+IDC_DATETEXT=פורמט תאריך
+IDC_DATESEPARATORTEXT=מפריד תאריך
+IDC_CURRENCYTEXT=מטבע ברירת המחדל
+IDC_DECIMALSEPARATORTEXT=נקודה עשרונית
+IDC_THOUSANDSEPARATORTEXT=מפריד אלפים
+IDC_NUMBEROFDECIMALDIGITSTEXT=מספר ספרות אחרי הנקודה העשרונית
+ERR_THOUSANDDECIMAL=נקודה עשרונית ומפריד אלפים לא יכולים להיות אותו דבר
+ERR_THOUSAND=!מפריד אלפים לא חוקי
+[IDD_NETWORK]
+IDOK=אישור
+IDCANCEL=ביטול
+TITLE=הגדרות רשת
+IDC_DIRECTCONNECTION=חיבור ישיר לאינטרנט
+IDC_MANUALPROXYCONFIG=הגדרות פרוקסי ידניות
+IDC_PROXYSERVERTEXT=HTTP Proxy
+IDC_PROXYSERVERPORTTEXT=יציאה
+ERR_INVALID_PORT_NUMBER=!מספר יציאה חייבת להיות בין 0 ל 65535
+[IDD_PAYEECHANGE]
+IDOK=אישור
+IDCANCEL=ביטול
+TITLE=שנה מקבל תשלום
+[IDD_DUPLICATECHECKWARNING]
+IDYES=כן
+IDNO=לא
+IDC_DONOTSHOW=לא להציג אזהרה זו שנית
+TITLE=אזהרת ציק כפול
+IDC_WARNING=ציק מספר ### נמצא כבר בשימוש באחת הטרנזקציות. האם ברצונך להשתמש בו שוב?
+[IDD_FILTERINVESTMENT]
+TITLE=בחירת השקעות
+IDC_SELECTALL=בחר הכל
+IDC_CLEARALL=נקה הכל
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+[IDD_FILTERTAG]
+TITLE=בחירת תגים
+IDC_SELECTALL=בחירת הכל
+IDC_CLEARALL=נקה הכל
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+[IDD_FILTERTEXT]
+TITLE=הכנס טקסט
+IDOK=אישור
+IDCANCEL=ביטול
+IDHELP=עזרה
+[DIRECTCONNECT]
+CONNECTING=מתחבר
+REQUESTING=מבקש נתונים
+RECEIVING=מקבל נתונים
+IMPORTING=מייבא טרנזקציות
+DOWNLOADED=טרנזקציות %D הורדו
+[IDD_DOWNLOADPROGRESS]
+TITLE=תהליך הורדה
+IDOK=סגירה
+PROGRESS_TEXT=בוצעו %1 מתוך %2 משימות
+IDC_AUTO_CLOSE=סגור באופן אוטומטי תיבה זו שההורדה מסתיימת
+TASK_TRANSACTIONS=טרנזקציות עבור
+TASK_INVESTMENT=ציטוטים עבור
+TASK_EXCHANGERATE=שערי חליפין עבור
+STATUS_FAILED=נכשל
+STATUS_SUCCESS=%d טרנזקציות
+STATUS_CONNECTING=מתחבר
+STATUS_REQUESTING=מבקש
+STATUS_RECEIVING=מקבל
+STATUS_IMPORTING=מייבא
+[IDD_DOWNLOADTRANSACTIONS]
+TITLE=הורדת טרנזקציות
+IDC_DETECT_DUPLICATES=זהה כפולים
+IDC_ENABLE_LOGGING=אפשר קובץ לוג
+IDOK=אישור
+IDCANCEL=ביטוח
+IDHELP=עזרה
+ERROR_INVALID_ACCOUNT=!חשבון לא תקין
+ERROR_MISSING_CONFIG=הגדרות התחברות ישירה אינן תקינות. חסר:  שם ספק, שם משתמש או מספר חשבון! ניתן להקליד מידע זה בתיבת הגדרות החשבון.
+ERROR_INVALID_CONFIG=מידע ספק לא תקין, שנה בבקשה אותו בהגדרות החשבון והבנק.
+ERROR_CONNECT=לא ניתן להתחבר לשרת הבנק. יתכן שהשרת לא מקוון. נסה שנית מאוחר יותר
+ERROR_SEND=לא ניתן לשלוח בקשת מצב חשבון לבנק!
+ERROR_INVALID_RESPONSE=תגובת שרת הבנק לא תקינה!
+ERROR_AUTHENTICATION=שם משתמש או סיסמה שגויים!
+ERROR_STATEMENT=לא ניתן להוריד מצב חשבון! 
+ERROR_ACCOUNTINFO=לא ניתן לקבל מידע חשבון! 
+ERROR_IMPORT=לא ניתן לייבא טרנזקציות שהורדו לחשבון!
+ERROR_UNKNOWN=שגיאה לא ידועה!
+[IDD_ERROR]
+TITLE=שגיאה
+ERROR=שגיאה
+DESCRIPTION=תיאור
+CLOSE=סגירה
+[IDD_ONLINESERVICE]
+TITLE=שירות מקוון
+IDC_ENABLE=הורדת טרנזקציות לחשבון זה
+IDC_PROVIDERTYPETEXT=סוג שירות מקוון
+IDC_PROVIDERTEXT=ספק שירות מקוון
+IDC_USERIDTEXT=שם משתמש
+IDC_PASSWORDTEXT=סיסמה
+IDC_CONNECTASTEXT=התחבר כ
+PROVIDER_TYPE_CREDITCARD=כרטיס אשראי
+PROVIDER_TYPE_BANK=בנק
+PROVIDER_TYPE_BROKERAGE=ברוקר
+IDOK=אישור
+IDCANCEL=ביטוח
+IDHELP=עזרה
+[IDD_QUESTION]
+TITLE=אישור
+DO_NOT_ASK_AGAIN=אל תבקש שנית
+OK=כן
+CANCEL=לא

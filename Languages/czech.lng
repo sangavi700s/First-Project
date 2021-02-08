@@ -1,0 +1,1324 @@
+ProgramID=AceMoney
+Language=Czech
+
+///////////////////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories_cz.dat
+BANKS=banks_cz.dat
+ACCOUNTTYPES=accounttypes_cz.dat
+CURRENCY=CZK
+THOUSANDSEPARATOR= 
+DATEFORMAT=DDMMYY
+TRANSFER=Pøevod
+DEPOSIT=Pøíjem
+WITHDRAWAL=Výdej
+TO=na
+FROM=z
+TOTAL=Celkem
+CLEAREDTOTAL=Celkem transakce zúètované
+RECONCILEDTOTAL=Celkem transakce odsouhlasené
+UNCLEAREDTOTAL=Celkem transakce nezúètované
+TODAYTEXT=Dnes
+PAGE=Strana
+UNASSIGNED=(Neurèené)
+SAVEMODIFIED=Uložit zmìny?
+REPLACEMENTS=uložení bylo provedeno
+INVALIDNUMBER=Chybný formát èísla!
+
+MSG_LOADSAMPLE=Chcete nahrát ukázkový soubor?
+MSG_SAMPLEFILEWARNING=Ukázkový soubor nemùže být uložen! prosím použijte v menu Soubor->Uložit jako - pro uložení do jiného souboru.
+STATUS=Pøipraven
+IMPORTEDTOTAL=Celkem transakce importované
+ONE_COLUMN_MUST_BE_DISPLAYED=Alespoò jeden sloupec musí být zobrazen!
+NO_NEW_VERSION_IS_AVAILABLE=Nebyla vydána žádná nová verze.
+NEW_VERSION_CHECK_FAILED=AceMoney nemùže zkontrolovat dostupnost nové verze, protože se nelze pøipojit k serveru. Zkontrolujte prosím nastavení sítì nebo se zkuste pøipojit pozdìji.
+NEW_VERSION_DETECTED=Nová verze AceMoney je k dispozici ke stažení. Chcete provést aktualizaci?
+
+[MENU]
+ID_FILE=Soubor
+ID_FILE_NEW=Nový
+ID_FILE_OPEN=Otevøít...
+ID_FILE_SAVE=Uložit
+ID_FILE_SAVE_AS=Uložit jako...
+ID_FILE_IMPORT=Importovat...
+ID_FILE_EXPORT=Exportovat...
+ID_FILE_PRINT=Tisk...
+ID_FILE_PRINT_PREVIEW=Náhled pøed tiskem...
+ID_APP_EXIT=Konec
+
+ID_EDIT=Upravit
+ID_EDIT_DELETE=Vymazat
+ID_EDIT_INSERT=Nová transakce
+ID_EDIT_SELECTALL=Vybrat vše
+ID_EDIT_FIND=Najít...
+ID_EDIT_PROPERTIES=Vlastnosti...
+ID_EDIT_COPY=Kopírovat
+ID_EDIT_PASTE=Vložit
+ID_EDIT_ADDTOSCHEDULE=Pøidat do plánování...
+
+ID_VIEW=Zobrazit
+ID_VIEW_ACCOUNTS=Úèty
+ID_VIEW_BANKS=Banky
+ID_VIEW_PAYEES=Pøíjemci
+ID_VIEW_CATEGORIES=Kategorie a Rozpoèet
+ID_VIEW_SCHEDULE=Plánování
+ID_VIEW_PORTFOLIO=Portfolio
+ID_VIEW_REPORTS=Pøehledy
+
+ID_ACCOUNTS=Úèty
+ID_ACCOUNTS_ADD=Pøidat úèet...
+ID_ACCOUNTS_TYPE=Typy úètù...
+
+ID_REPORTS=Pøehledy
+ID_REPORTS_ADD=Pøidat k oblíbeným...
+ID_REPORTS_ORGANIZE=Organizovat...
+
+ID_TOOLS=Nástroje
+ID_TOOLS_CURRENCY=Výmìnné kurzy...
+ID_TOOLS_OPTIONS=Možnosti...
+ID_TOOLS_COLORS=Fonty a barvy...
+ID_TOOLS_LANGUAGE=Jazyk...
+ID_TOOLS_BACKUP=Záloha...
+ID_TOOLS_RESTORE=Obnova...
+ID_TOOLS_BUDGET=Rozpoèet...
+ID_TOOLS_CALCULATOR=Kalkulaèka...
+ID_TOOLS_CALCULATOR_LOAN=Úvìrová kalkulaèka...
+ID_TOOLS_CALCULATOR_MORTGAGE=Hypotéèní kalkulaèka...
+ID_TOOLS_TRANSACTION_CATEGORY_LIST=Kategorie transakce...
+
+ID_HELP=Pomoc
+ID_HELP_TOPICS=Témata (Angl.)
+ID_HELP_HOMEPAGE=Web stránka AceMoney...
+ID_HELP_WHATSNEW=Co je nového...
+ID_HELP_SUPPORT=Technická podpora (Angl.)...
+ID_HELP_FORUM=Web fórum...
+ID_HELP_TUTORIAL=Online návod(Angl.)...
+ID_HELP_REGISTER=Registrace AceMoney...
+ID_HELP_ORDER=Objednat AceMoney...
+ID_HELP_ABOUT=O produktu...
+ID_TOOLS_CALCULATOR_SAVINGS=Spoøící kalkulaèka...
+ID_TOOLS_INTERNATIONAL=Mezinárodní nastavení...
+ID_FILE_ARCHIVE=Archivovat...
+ID_TOOLS_IMPORT_RULES=Pravidla importu...
+ID_HELP_CHECK_FOR_UPDATES=Zkontrolovat aktualizace...
+
+[TOOLBAR]
+ID_FILE_NEW=Nový
+ID_FILE_OPEN=Otevøít
+ID_FILE_SAVE=Uložit
+ID_VIEW_BACK=Zpìt
+ID_VIEW_FORWARD=Dopøedu
+ID_VIEW_HOME=Domù
+ID_VIEW_ACCOUNTS=Úèty
+ID_VIEW_BANKS=Banky
+ID_VIEW_PAYEES=Pøíjemci
+ID_VIEW_CATEGORIES=Kategorie
+ID_VIEW_SCHEDULE=Plánování
+ID_VIEW_REPORTS=Pøehledy
+ID_VIEW_PORTFOLIO=Portfolio
+ID_HELP_HOMEPAGE=AceMoney
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=Úèty
+IDC_ADD=Nový úèet...
+IDC_BILLS=Platit úèty
+IDC_REPORTS=Pøehledy
+IDC_CURRENCY=Výmìna mìny
+IDC_WEBUPDATE=Stáhnout kurzy
+IDHELP=Pomoc
+
+ID_ACCOUNT_OPEN=Otevøít
+ID_ACCOUNT_ADD=Nový úèet...
+ID_ACCOUNT_DELETE=Vymazat
+ID_ACCOUNT_EDIT=Vlastnosti
+
+TOTAL=Celkem
+LASTUPDATE=Poslední aktualizace
+
+DELETE_CONFIRMATION=Úèet %s bude odstranìn se všemi jeho transakcemi! Provést?
+
+UPDATE_SUCCESS=Výmìnné kurzy byli úspìšne aktualizované!
+UPDATE_FAILURE=Chyba Web aktualizace! Internetové pøipojení není detekované, nebo nìkteré mìny nebyli aktualizované!
+UPDATE_NOTREQUIRED=Web aktualizace není potøebná!
+ID_ACCOUNT_SHOWNUMBERS=Zobraz èísla úètù
+ID_ACCOUNT_SHOWCLOSED=Zobraz uzavøené úèty
+NEW_CURRENCY_DETECTED=Tento úèet používá rozdílnou mìnu od implicitnì nastavené. Je potøeba aktualizovat kurzy mìn stažením z Internetu nebo ruèním zadáním v Tools->Exchange Rates. Chcete stáhnout aktuální kurzy z Internetu nyní?
+
+////////////////////////////////////////////////////////////
+[IDD_FORMPORTFOLIO]
+TITLE=Portfolio
+
+IDC_NEWTRANSACTION=Nová Transakce...
+
+IDC_ADD=Pøidat investici...
+IDC_EDIT=Upravit investici...
+IDC_DELETE=Odstranit investici...
+
+IDC_WEBUPDATE=Stáhnout ceny
+
+IDHELP=Pomoc
+
+STOCKLIST=Akcie
+STOCKTRANSACTIONLIST=Transakce
+
+COLUMN0=Symbol
+COLUMN1=Název
+COLUMN2=Poslední cena
+COLUMN3=Množství
+COLUMN4=Celkem
+COLUMN5=Výnos
+
+TRANSACTIONSCOLUMN0=Datum
+TRANSACTIONSCOLUMN1=Typ transakce
+TRANSACTIONSCOLUMN2=Symbol
+TRANSACTIONSCOLUMN3=Úèet
+TRANSACTIONSCOLUMN4=Dividenda
+TRANSACTIONSCOLUMN5=Cena
+TRANSACTIONSCOLUMN6=Množství
+TRANSACTIONSCOLUMN7=Poplatky
+TRANSACTIONSCOLUMN8=Celkem
+
+CANTBEDELETED=Tato akcie je použitá jednou, nebo více transakcemi. Není možné ji vymazat!
+DELETECONFIRMATION=Tato akcie bude vymazaná. Jste si jistý?
+UPDATEISNOTREQUIRED=Aktualizace není potøebná!
+UPDATEISNOTCOMPLETE=Nìkteré investice nebyli aktualizované!
+INVESTMENTNOTCREATED=Nejdøív musí být vytvoøena investice!
+
+ID_EDIT_OPEN=Upravit investici
+ID_EDIT_INSERT=Pøidat novou investici
+ID_EDIT_DELETE=Vymazat
+TRANSACTIONSCOLUMN9=Komentáø
+
+///////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=Úèet
+IDC_ADD=Nová transakce
+IDC_EDIT=Upravit transakci
+IDC_DELETE=Odstranit transakci
+IDC_BALANCE=Zúètování
+IDC_WEBSITE=Web-stránka Úètu
+IDC_ACCOUNT=Upravit informace o úètu
+IDC_BANK=Upravit informace o bance
+IDC_MONTHREPORT=Mìsíèní pøehled
+IDC_REPORT=30 denní pøehled
+IDC_HIDERECONCILED=Skrýt odsouhlasené
+IDHELP=Pomoc
+
+COLUMN0=Èíslo
+COLUMN1=Datum
+COLUMN2=Pøíjemce
+COLUMN3=Kategorie
+COLUMN4=S
+COLUMN5=Výdej
+COLUMN6=Pøíjem
+COLUMN7=Celkem
+COLUMN8=Poznámka
+
+BANKISNOTASSIGNED=Pro použití funkce vyberte banku ve které je veden úèet
+PAGEISNOTASSIGNED=Chybí Web adresa. Mùžete ji pøidat v dialogu Vlastnosti banky.
+STATUS=Tento mìsíc jste vydali %.2f v kategorii %s
+STATUSINCOME=Tento mìsíc jste pøijali %.2f v kategorii %s
+
+ID_TRANSACTION_UNCLEARED=Nezúètované
+ID_TRANSACTION_CLEARED=Zúètované
+ID_TRANSACTION_RECONCILED=Odsouhlasené
+
+ID_EDIT_OPEN=Upravit
+ID_EDIT_INSERT=Nová transakce...
+ID_EDIT_INSERTBILL=Nahrát úèet platby...
+ID_EDIT_DELETE=Vymazat
+ID_EDIT_COPY=Kopírovat
+ID_EDIT_PASTE=Vložit
+ID_EDIT_CATEGORY=Upravit kategorii...
+ID_EDIT_PAYEE=Upravit pøíjemce...
+ID_EDIT_ADDTOSCHEDULE=Pøidat do plánování...
+
+ID_REPORTS_CATEGORY=Pøehled kategorií...
+ID_REPORTS_PAYEE=Pøehled pøíjemcù...
+
+BILLDELETECONFIRMATION=Toto odstraní všechny budoucí transakce spojené s pøíjmem/výdajem!
+TRANSACTIONDELETECONFIRMATION=Jste si jistý?
+RECONCILEDTRANSACTIONCONFIRMATION=Tato transakce je oznaèená jako Odsouhlasená, úpravy nejsou doporuèené! Provést?
+CLEAREDTRANSACTIONCONFIRMATION=Tato transakce je oznaèená ako Zúètovaná, úpravy nejsou doporuèené! Provést?
+CANNOTSORTBYTOTAL=Nemùžete tøídit podle "celkem"!
+ID_EDIT_CATEGORYCHANGE=Zmìnit kategorii...
+ID_EDIT_PAYEECHANGE=Zmìnit pøíjemce...
+STATUSSUM=Souèet vybraných transakcí je
+COLUMN9=Úèet
+ID_VIEW_DISPLAYSIDEPANEL=Zobrazit postranní panel
+IDC_APPLY_IMPORT_RULES=Aplikovat pravidla importu
+ID_EDIT_TAG=Štítek
+ID_EDIT_TAG_REMOVE_ALL=&0 Odstranit všechny štítky
+ID_EDIT_TAG_IMPORTANT=&1 Dùležité
+ID_EDIT_TAG_WORK=&2 Pracovní
+ID_EDIT_TAG_PERSONAL=&3 Osobní
+ID_EDIT_TAG_TODO=&4 Ke splnìní
+ID_EDIT_TAG_LATER=&5 Pozdìji
+ID_EDIT_ATTACHMENTS=Pøílohy
+ID_EDIT_ATTACHMENT_ADD=Pøipojit...
+ID_EDIT_ATTACHMENT_DELETE=Smazat
+
+///////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=Nová banka...
+IDC_EDIT=Upravit info o bance
+IDC_DELETE=Odstranit banku
+IDC_DELETEUNUSED=Odstranit nepoužívané
+IDC_IMPORT=Importovat...
+IDHELP=Pomoc
+
+COLUMN0=Název banky
+COLUMN1=Adresa
+COLUMN2=Web stránka
+COLUMN3=Poznámka
+
+CANTBEDELETED=Jeden z vašich úètù je vázán na tuto banku. Banka nemùže být odstranìna.
+DELETECONFIRMATION=Jste si jistý?
+DELETEUNUSED=Tento pøíkaz vymaže všechny banky, které nejsou provázané s vašimi úèty! Provést?
+
+ID_EDIT_OPEN=Upravit
+ID_EDIT_INSERT=Nová banka...
+ID_EDIT_DELETE=Vymazat
+
+///////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=Nová kategorie...
+IDC_EDIT=Upravit kategorii
+IDC_DELETE=Odstranit kategorii
+IDC_DELETEUNUSED=Odstranit nepoužívané...
+IDC_REPORT=Pøehled kategorií
+IDC_BUDGETREPORT=Rozpoètový pøehled
+IDC_BUDGET=Nastavení Rozpoètu...
+IDC_IMPORT=Importovat...
+IDC_MERGE=Slouèit...
+IDHELP=Pomoc
+
+COLUMN0=Kategorie
+COLUMN0a=Kód
+COLUMN1=Rozpoètová
+COLUMN1a=Pøíjem
+COLUMN2a=Výdej
+COLUMN2=Poznámka
+COLUMN3=Poznámka
+
+CANTBEDELETED=Jedna z transakcí používá tuto kategorii. Kategorie nemùže být odstranìna!
+PARENTCANTBEDELETED=Toto je hlavní (rodièovská) kategorie pro jednu, anebo víc jiných kategorií. Pokud ji chcete odstranit, mìli byste odstranit její podkategorie.
+DELETECONFIRMATION=Jste si jistý?
+DELETEUNUSED=Tento pøíkaz odstraní všechny kategorie, které nejsou vázané na transakce. Provést?
+ID_EDIT_OPEN=Upravit
+ID_EDIT_INSERT=Nový...
+ID_EDIT_DELETE=Vymazat
+
+TOTALINCOME=Pravidelný pøíjem:
+TOTALEXPENSE=Pravidelný výdej:
+COLUMN2c=Perioda
+MONTHLY_INCOME=Mìsíèní pøíjem:
+MONTHLY_EXPENSE=Mìsíèní výdej:
+MONTHLY_TOTAL=Mìsíènì celkem
+ANNUAL_TOTAL=Pravidelnì celkem
+
+////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=Nový pøíjemce...
+IDC_EDIT=Upravit pøíjemce
+IDC_DELETE=Odstranit pøíjemce
+IDC_DELETEUNUSED=Vymazat nepoužívané
+IDC_REPORT=Pøehled podle pøíjemce
+IDC_MERGE=Slouèit...
+IDHELP=Pomoc
+
+COLUMN0=Název
+COLUMN1=Adresa
+COLUMN2=Poznámka
+COLUMN3=Telefon
+
+CANTBEDELETED=Jedna z transakcí používá tohoto pøíjemce. Pøíjemce nemùže být odstrnìn.
+DELETECONFIRMATION=Jste si jistý?
+DELETEUNUSED=Tento pøíkaz odstraní všechny pøíjemce, kteøí nejsou vázaní na transakce. Provést?
+
+ID_EDIT_OPEN=Upravit
+ID_EDIT_INSERT=Nový...
+ID_EDIT_DELETE=Vymazat
+IDC_HIDE_INACTIVE=Skrýt neaktivní pøíjemce
+ID_PAYEE_ACTIVATE=Aktivovat
+ID_PAYEE_DEACTIVATE=Zneaktivovat
+
+//////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=Filtr podle data
+IDC_SETDATES=Výbìr data
+IDC_USECATEGORYFILTER=Filtr podle kategorií
+IDC_SETCATEGORIES=Vybrat kategorie
+IDC_USEPAYEEFILTER=Filtr podle pøíjemcù
+IDC_SETPAYEES=Vybrat pøíjemce
+IDC_USEACCOUNTFILTER=Filtr podle úètù
+IDC_SETACCOUNTS=Vybrat úèty
+IDC_TRANSACTIONS=Pøehled transakcí podle kritérií
+IDC_CATEGORY=Pøehled podle kategorií
+IDC_SUBCATEGORY=Pøehled podle podkategorií
+IDC_PAYEE=Pøehled podle pøíjemcù
+IDC_BUDGETCATEGORY=Rozpoèet podle kategorií
+IDC_BUDGETSUBCATEGORY=Rozpoèet podle podkategorií
+IDC_CASHFLOW=Pøehled pohotových prostøedkù
+IDC_LAST30DAYS=Transakce za posledních 30 dnù
+IDC_INCLUDETRANSFERS=Vèetnì pøevodù
+
+IDHELP=Pomoc
+IDC_TABLE=Pohled jako tabulka
+IDC_CHART=Graf
+IDC_INCOMECHART=Pøíjmový kruhový graf
+IDC_EXPENSECHART=Výdajový kruhový graf
+IDC_PERIODCHART=Graf podle období
+IDC_TOTALCHART=Celkový kumulovaný graf
+
+CATEGORYCOLUMN0=Kategorie
+CATEGORYCOLUMN1=Èástka
+CATEGORYCOLUMN2=Rozpoèet
+CATEGORYCOLUMN3=Rozdíl
+CATEGORYCOLUMN4=Kód
+CATEGORYCOLUMN5=Pøíjem
+CATEGORYCOLUMN6=Výdej
+
+CASHFLOWCOLUMN0=Datum
+CASHFLOWCOLUMN1=Období celkem
+CASHFLOWCOLUMN2=Celkem
+
+OTHERS=Ostatní
+
+GENERALREPORTS=Hlavní pøehledy
+CATEGORYREPORTS=Pøehledy kategorií
+PAYEEREPORTS=Pøehledy pøíjemcù
+BUDGETREPORTS=Pøehledy rozpoètù
+
+PAYEECOLUMN0=Pøíjemce
+PAYEECOLUMN1=Èástka
+PAYEECOLUMN2=Pøíjem
+PAYEECOLUMN3=Výdej
+IDC_NETWORTH=Pøehled èistých zùstatkù
+FAVORITEREPORTS=Oblíbené pøehledy
+IDC_CATEGORYBYMONTH=Mìsíèní pøehled podle kategorií
+IDC_SUBCATEGORYBYMONTH=Mìsíèní pøehled podle podkategorií
+
+///////////////////////////////////////////////////////
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Vložit do deníku
+IDC_ADD=Nová platba/pøíjem
+IDC_EDIT=Upravit platbu/pøíjem
+IDC_DELETE=Odstranit platbu/pøíjem
+IDHELP=Pomoc
+
+COLUMN0=Datum
+COLUMN1=Transakce
+COLUMN2=Pøíjemce
+COLUMN3=Èástka
+COLUMN4=Poznámka
+COLUMN5=Frekvence
+
+IDC_TABLE=Tabulka
+IDC_CALENDAR=Kalendáø
+
+DELETECONFIRMATION=Jste si jistý?
+
+ID_EDIT_OPEN=Potvrdit
+ID_EDIT_INSERT=Pøidat novou...
+ID_EDIT_DELETE=Vymazat
+ID_EDIT_PROPERTIES=Vlastnosti
+ID_EDIT_COPY=Kopírovat
+ID_EDIT_PASTE=Vložit
+CHANGE_OF_ACCOUNT=Chcete použít jiný úèet pro všechny budoucí výskyty této platby?
+CHANGE_OF_AMOUNT=Chcete použít jinou èástku pro všechny budoucí výskyty této platby?
+
+//////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=Info
+
+[IDD_ACCOUNT]
+TITLE=Úèet
+IDC_NAMETEXT=Název
+IDC_TYPETEXT=Typ
+IDC_BANKTEXT=Jmeno banky
+IDC_NUMBERTEXT=Èíslo
+IDC_BALANCETEXT=Poèát. stav
+IDC_CURRENCYTEXT=Mìna
+IDC_CLOSED=Tento úèet je uzavøený
+IDC_COMMENTTEXT=Poznámka
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+ERR_NOACCOUNTNAME=Úèet musí mít název!
+ERR_NOACCOUNTTYPE=Úèet musí mít typ úètu!
+ERR_NOCURRENCY=Úèet musí mít mìnu!
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=Typy úètù
+IDC_ADD=Pøidat...
+IDC_DELETE=Vymazat
+IDC_EDIT=Aktualizovat...
+IDOK=OK
+IDCANCEL=Zrušit
+
+ERR_CANTDELETE=Tento typ je použitý jedním z úètù!
+
+[IDD_ACCOUNTTYPE]
+TITLE=Typ úètu
+IDC_NAMETEXT=Název
+IDOK=OK
+IDCANCEL=Zrušit
+
+ERR_NOACCTYPENAME=Typ úètu musí mít název!
+
+[IDD_BACKUP]
+TITLE=Záloha
+
+IDC_ENABLEBACKUP=Zapnout zálohování
+
+IDC_LASTBACKUPTEXT=Poslední záloha
+IDC_FREQUENCYTEXT=Frekvence
+IDC_DIRECTORYTEXT=Adresáø
+IDC_BACKUP=Zálohovat ihned!
+IDC_AUTOMATIC=Zálohovat automaticky
+
+IDC_EVERYDAY=Každý den
+IDC_EVERYWEEK=Každý týden
+IDC_EVERYOTHERWEEK=Každé dva týdny
+
+IDC_BROWSE=Prohledej...
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+ERR_INVALIDDIR=Musí být zadaná správna cesta!
+ERR_COPYFILE=Vyskytla se chyba v prùbìhu zálohování! Možná není disk v mechanice.
+ERR_BACKUPTIME=Podle vašeho nastavení je èas na zálohování. Provést?
+ERR_NEWFILE=Soubor musí být uložen pøed zálohováním!
+ERR_COPYFILE_RESTORE=Objevila se chyba bìhem obnovování! Možná není disk v mechanice.
+SELECT_FILE_TO_RESTORE=Vyberte soubor pro obnovení.
+SELECT_RESTORE_DIR=Kam chcete uložit soubor?
+OPEN_RESTORED_FILE=Chcete otevøít obnovený soubor?
+
+[IDD_BALANCE]
+TITLE=Zúètování
+
+IDC_CLEAREDDEPOSITS=Zúètované pøíjmy
+IDC_CLEAREDWITHDRAWALS=Zúètované výdaje
+
+IDC_RECONCILEDTEXT=Pøedcházející zùstatek
+IDC_CLEAREDTEXT=Souèasný zùstatek
+IDC_UNCLEAREDTEXT=Zùstatek nezúètovaných transakcí 
+
+IDC_NEWTRANSACTION=Nová...
+IDC_SELECTALL=Vybrat vše
+IDC_DESELECTALL=Odznaèit vše
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+[IDD_BANK]
+TITLE=Banka
+IDC_NAMETEXT=Název
+IDC_ADDRESSTEXT=Adresa
+IDC_WEBSITETEXT=Web-stránka
+IDC_COMMENTTEXT=Poznámka
+IDC_BANKNUMBERTEXT=Èíslo banky
+IDC_SWIFTCODETEXT=Smìrový kód
+IDC_TRANSFERCODETEXT=Kód pøevodu
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+ERR_NOBANKNAME=Banka musí mít název.
+
+[IDD_BILL]
+TITLE=Platby/Pøíjem
+
+IDC_FREQUENCYGROUP=Frekvence
+
+IDC_ONCE=Jednou
+IDC_DAILY=Dennì
+IDC_WEEKLY=Týdnì
+IDC_EVERYOTHERWEEK=Každé dva týdny
+IDC_TWICEAMONTH=Dvakrát mìsíènì
+IDC_EVERYFOURWEEKS=Každé 4 týdny
+IDC_MONTHLY=Mìsíènì
+IDC_EVERYOTHERMONTH=Každý druhý mìsíc
+IDC_QUARTERLY=Ètvrtletnì
+IDC_EVERYFOURMONTHS=Každé 4 mìsíce
+IDC_EVERYSIXMONTHS=Každých 6 mìsícù
+IDC_ANNUALLY=Roènì
+
+IDC_STARTDATETEXT=Poèáteèní datum
+
+IDC_BILLTYPETEXT=Typ platby
+BILLTYPE_CONTINUOUS=Prùbìžný
+BILLTYPE_NUMBERED=Èíslovaný
+
+IDC_NUMBERTEXT=Poèet plateb
+
+IDC_TRANSACTIONGROUP=transakce
+IDC_TYPETEXT=Typ
+IDC_DEPOSIT=Pøíjem
+IDC_WITHDRAWAL=Výdej
+IDC_TRANSFER=Pøevod
+IDC_ACCOUNTTEXT=Úèet
+IDC_PAYEETEXT=Pøíjemce
+IDC_CATEGORYTEXT=Kategorie
+IDC_SPLIT=Rozdìlit
+IDC_AMOUNTTEXT=Èástka
+IDC_COMMENTTEXT=Poznámka
+
+IDC_ENTER=Pøidat na úèet
+IDC_AUTOMATIC=Vložit platbu automaticky
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+ERR_INVALIDACCOUNT=Chybný název úètu!
+ERR_INVALIDNUMBER=Poèet plateb nemùže být menší jak 1!
+
+[IDD_BUDGET]
+TITLE=Rozpoèet
+
+IDC_STARTDATETEXT=Zaèátek prvého období:
+IDC_FREQUENCYTEXT=Období Rozpoètu:
+
+IDC_WEEKLY=Jeden týden
+IDC_EVERYOTHERWEEK=Dva týdny
+IDC_TWICEAMONTH=Pùl mìsíce
+IDC_EVERYFOURWEEKS=Každé 4 týdny
+IDC_MONTHLY=Jeden mìsíc
+IDC_EVERYOTHERMONTH=Dva mìsíce
+IDC_QUARTERLY=Ètvrtletí (tøi mìsíce)
+IDC_ANNUALLY=Jeden rok
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+[IDD_CALC_LOAN]
+TITLE=Úvìrová kalkulaèka
+
+IDC_AMOUNTTEXT=Èástka
+IDC_RATETEXT=Roèní úroková sazba, %
+IDC_PERIODTEXT=Období, mìsíce
+IDC_PAYMENTTEXT=Splátka
+IDC_TOTALINTERESTTEXT=Celkový úrok
+
+COLUMN0=#
+COLUMN1=Splátka
+COLUMN2=Základ
+COLUMN3=Úrok
+COLUMN4=Úvìr
+
+IDOK=OK
+
+[IDD_CALC_MORTGAGE]
+TITLE=Hypotéèní kalkulaèka
+
+IDC_VALUETEXT=Hodnota nemovitosti
+IDC_AMOUNTTEXT=Výška úvìru
+IDC_TERMTEXT=Doba úvìru (roky)
+IDC_DATETEXT=Datum uzavøení sml.
+IDC_RATETEXT=Úroková sazba, %
+IDC_TAXTEXT=Roèní daò z nemovitosti
+IDC_INSURANCETEXT=Roèní pojistka nemovit.
+
+IDC_REQUIREDPAYMENTTEXT=Požadovaná splátka
+IDC_TOTALINTERESTTEXT=Úroky celkem
+IDC_TOTALPMITEXT=Celkem pojist. úvìru
+IDC_TOTALMONTHSTEXT=Poèet mìsícù
+
+COLUMN0=Datum
+COLUMN1=Základ
+COLUMN2=Úrok
+COLUMN3=Daò
+COLUMN4=Pojištìní
+COLUMN5=Pojist. úvìru
+COLUMN6=Splátka
+COLUMN7=Celkem
+
+IDOK=OK
+IDHELP=Pomoc
+
+[IDD_CATEGORY]
+TITLE=Kategorie
+
+IDC_NAMETEXT=Kategorie
+IDC_SUBNAMETEXT=Podkategorie
+IDC_COMMENTTEXT=Poznámka
+IDC_BUDGETTEXT=Rozpoètový limit
+IDC_NUMBERTEXT=Poèet
+
+IDC_INCOME=Pøíjem
+IDC_EXPENSE=Výdej
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+ERR_NOCATNAME=Kategorie musí mít název!
+ERR_CATEXIST=Kategorie s takovým názvem již existuje!
+IDC_BUDGETPERIODTEXT=Rozpoètová perioda
+PERIOD_ONE_WEEK=Jeden týden
+PERIOD_TWO_WEEKS=Dva týdny
+PERIOD_HALF_MONTH=Pùl mìsíce
+PERIOD_ONE_MONTH=Jeden mìsíc
+PERIOD_TWO_MONTHS=Dva mìsíce
+PERIOD_THREE_MONTHS=Tøi mìsíce
+PERIOD_FOUR_MONTHS=Ètyøi mìsíce
+PERIOD_SIX_MONTHS=Šest mìsícù
+PERIOD_NINE_MONTHS=Devìt mìsícù
+PERIOD_ONE_YEAR=Jeden rok
+
+[IDD_CATEGORYMERGE]
+TITLE=Slouèení kategorii
+
+IDC_CATEGORYTEXT=Slouèit kategorii
+IDC_CATEGORYTEXT1=s kategorií
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+ERR_NOCATEGORIES=Obì existující kategorie musí být oznaèené a rozdílné!
+ERR_SOURCECATEGORY=Zdrojová kategorie nesmi mít podkategorie!
+ERR_TARGETCATEGORY=Cílová kategorie nemùže být podkategorií zdrojové kategorie.
+
+[IDD_COLORS]
+TITLE=Fonty a Barvy
+
+IDC_ACCOUNTLISTTEXT=Úèty
+IDC_ACCOUNTTEXT=Úètový deník
+IDC_BANKTEXT=Banky
+IDC_CATEGORYTEXT=Kategorie
+IDC_PAYEETEXT=Pøíjemci
+IDC_SCHEDULETEXT=Plánovaní
+IDC_REPORTTEXT=Pøehledy
+IDC_PORTFOLIOTEXT=Portfolio
+
+IDC_LISTFONTTEXT=Font tabulky
+
+IDC_TABLEFONTCOLORTEXT=Barva textu v tabulce
+IDC_TABLEBILLFONTCOLORTEXT=Barva budoucích plateb
+IDC_TABLEBACKGROUNDTEXT1=Barva 1 pozadí tabulky
+IDC_TABLEBACKGROUNDTEXT2=Barva 2 pozadí tabulky
+
+IDC_RESTORE=Standardní
+IDOK=OK
+IDCANCEL=Zrušit
+
+[IDD_CURRENCY]
+TITLE=Výmìnné kurzy mìn
+IDC_SHOWALL=Zobrazit všechny mìny
+IDC_CURRENCYINFO=Standardní mìna: %s
+IDC_DOWNLOAD=Stáhnout.
+IDC_UPDATE=Aktualizovat kurzy
+
+IDOK=Zavøít
+IDHELP=Pomoc
+
+COLUMN0=Mìna
+COLUMN1=Pøevést na
+COLUMN2=Datum
+
+ERR_WEBUPDATE=Chyba Web aktualizace kurzù! Zkontrolujte pøipojení k Internetu!
+ERR_INVALIDRATE=Byl pøijat chybný kurz!
+COLUMN3=V
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=Výmìnný kurz
+IDOK=OK
+IDCANCEL=Zrušit
+
+[IDD_SHEETREPORTFILTER]
+TITLE=Filtr pøehledu
+
+[IDD_DATESRANGE]
+TITLE=Vybrat období
+
+CURRENTWEEK=Aktuální týden
+PREVIOUSWEEK=Pøedcházející týden
+LAST30DAYS=Posledních 30 dní
+CURRENTMONTH=Aktuální mìsíc
+PREVIOUSMONTH=Pøedcházející mìsíc
+CURRENTQUARTER=Aktuální ètvrtletí
+PREVIOUSQUARTER=Pøedcházející ètvrtletí
+CURRENTYEAR=Aktuální rok
+PREVIOUSYEAR=Pøedcházející rok
+
+IDC_PERIODSTEXT=Pøeddefinované období
+IDC_CUSTOMDATES=Vlastni datum:
+IDC_FROMTEXT=Od
+IDC_TOTEXT=Do
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+CURRENT=Souèasný
+CUSTOM=Vlastni
+
+[IDD_FILTERACCOUNT]
+TITLE=Vybrat úèty
+
+IDC_SELECTALL=Vybrat vše
+IDC_CLEARALL=Odznaèit vše
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+[IDD_FILTERCATEGORY]
+TITLE=Vybrat kategorie
+
+IDC_SELECTALL=Vybrat vše
+IDC_CLEARALL=Odznaèit vše
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+[IDD_FILTERPAYEE]
+TITLE=Vybrat pøíjemce
+
+IDC_SELECTALL=Vybrat vše
+IDC_CLEARALL=Odznaèit vše
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+[IDD_IMPORT]
+TITLE=Importovat
+
+IDC_IMPORTTEXT=Vybrat úèet pro importované transakce
+IDC_DATEFORMATTEXT=Formát data
+
+IDC_NEWACCOUNT=Nový úèet...
+
+IDOK=OK
+IDCANCEL=Zrušit
+
+ERR_NOACCOUNT=Musíte vybrat úèet!
+IDC_DETECT_DUPLICATES=Detekovat duplicity
+IDC_IMPORT_RULES=Pravidla importu...
+ERR_PARSING=Soubor nelze importovat, protože je poškozen nebo nemá standardní formát.
+ERR_NO_TRANSACTIONS=Soubor neobsahuje žádné transakce.
+ERR_TRANSACTIONS_FOR_MANY_ACCOUNTS=Soubor obsahuje transakce pro více úètù a nemùže být importován.
+STATUS_READING_FILE=Ètení souboru...
+STATUS_PARSING_FILE=Pársování souboru...
+STATUS_IMPORTING_TRANSACTIONS=Importování transakcí...
+STATUS_IMPORTING_BILLS=Importování pøíjmù a výdajù...
+STATUS_IMPORTING_ACCOUNTS=Importování úètù...
+STATUS_IMPORTING_CATEGORIES=Importování kategorií...
+STATUS_IMPORTING_INVESTMENTS=Importování investic...
+STATUS_IMPORTING_HISTORICAL_PRICES=Importování historie kurzù akcií...
+
+[IDD_EXPORT]
+TITLE=Export
+
+IDC_EXPORTTEXT=Vybrat úèet na export
+IDC_STARTDATETEXT=Poèáteèní datum
+IDC_ENDDATETEXT=Koneèné datum
+
+ERR_NOACCOUNT=Prosím, vyberte úèet!
+
+IDOK=OK
+IDCANCEL=Zrušit
+
+[IDD_LANGUAGE]
+TITLE=Vybrat jazyk
+
+IDOK=OK
+IDCANCEL=Zrušit
+
+[IDD_OPTIONS]
+TITLE=Možnosti
+
+IDC_GENERALGROUP=Hlavni
+IDC_DATETEXT=Formát data
+IDC_DATESEPARATORTEXT=Oddìlovaè data
+IDC_SHOWCLOSEDACCOUNTS=Zobrazit zavøené úèty
+IDC_SHOWGRID=Zobrazit møížky v tabulkách
+IDC_LOADLASTFILE=Nahrát poslední soubor pøi startu
+IDC_SHOWCOMMENT=Zobrazit poznámky transakcí
+IDC_CURRENCYTEXT=Standardní mìna
+IDC_AUTOSAVE=Automatické uložení dokumentu
+IDC_SHOWFUTUREBILLS=Zobrazit budoucí platby
+IDC_SHOWSPLASHSCREEN=Ukázat úvodní obrazovku
+IDC_SHOWFILENAME=Zobrazit název souboru na lištì
+IDC_SHOWSOLDSTOCKS=Zobrazit prodané akcie
+IDC_SHOWDEPOSITSFIRST=Pøíjmy jsou prvé transakce dne
+
+IDC_STARTPAGEGROUP=Startovní strana
+IDC_ACCOUNTLIST=Seznam úètù
+IDC_FAVORITEACCOUNT=Oblíbený úèet
+
+IDC_PASSWORDGROUP=Heslo
+IDC_OLDPASSTEXT=Souèasné heslo
+IDC_NEWPASSTEXT=Nové heslo
+IDC_RETYPETEXT=Zopakovat zadání nového hesla
+
+IDC_DECIMALSEPARATORTEXT=Desetinná èárka
+IDC_THOUSANDSEPARATORTEXT=Oddìlovaè tisícù
+IDC_NUMBEROFDECIMALDIGITSTEXT=Poèet desetinných míst
+
+IDC_TRANSACTIONTYPETEXT=Druh nové transakce
+LASTUSEDTYPE=Naposledy použité
+
+IDC_TRANSACTIONNUMBERTEXT=Èíslo nové transakce
+NUMBER_EMPTY=Prázdné
+NUMBER_DEBIT=Debet
+NUMBER_AUTO=Poslední plus 1
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+ERR_THOUSANDDECIMAL=Desetiná èárka a odde¾ovaè tisícù nemùžou být stejné.
+ERR_THOUSAND=Chybný oddìlovaè tisícù.
+ERR_INVALIDOLDPASSWORD=Nesprávné staré heslo!
+ERR_INVALIDNEWPASSWORD=Nesprávné nové heslo!
+IDC_ADDINVESTMENTVALUE=Pøidej hodnotu podílu k hodnotì úètu
+IDC_TRANSFERSTATUS=Zmìnit stav pøevodu na obou úètech
+IDC_SHOWACCOUNTNUMBERS=Zobrazit èísla úètù
+IDC_SHOWCATEGORYSTATUS=Zobrazit analyzovanou kategorii ve status baru
+IDC_NUMBEROFFUTUREBILLSMONTHSTEXT=Zobraz budoucí smìnky pro
+0_MONTHS_AHEAD=Nic
+1_MONTHS_AHEAD=1 mìsíc pøedem
+2_MONTHS_AHEAD=2 mìcíce pøedem
+3_MONTHS_AHEAD=3 mìsíce pøedem
+4_MONTHS_AHEAD=4 mìsíce pøedem
+5_MONTHS_AHEAD=5 mìsícù pøedem
+6_MONTHS_AHEAD=6 mìsícù pøedem
+7_MONTHS_AHEAD=7 mìsícù pøedem
+8_MONTHS_AHEAD=8 mìsícù pøedem
+9_MONTHS_AHEAD=9 mìsícù pøedem
+10_MONTHS_AHEAD=10 mìsícù pøedem
+11_MONTHS_AHEAD=11 mìsícù pøedem
+12_MONTHS_AHEAD=12 mìsícù pøedem
+IDC_SHOWDUPLICATECHECKWARNING=Zobrazit upozornìní na duplicitu šekù
+IDC_NETWORK=Pøipojení...
+IDC_CHECKFORUPDATES=Kontrolovat aktualizace programu
+IDC_AUTOFILLTRANSACTIONCOMMENTS=Pøedvyplòovat komentáø u transakcí
+
+[IDD_PASSWORD]
+TITLE=Vložit heslo
+IDC_PASSTEXT=Heslo
+
+IDOK=OK
+IDCANCEL=Zrušit
+
+ERR_INVALIDPASSWORD=Nesprávné heslo!
+
+[IDD_PAYEE]
+TITLE=Pøíjemce
+
+IDC_NAMETEXT=Název
+
+IDC_ADDRESSTEXT=Adresa
+IDC_CITYTEXT=Mìsto
+IDC_STATETEXT=Stát
+IDC_ZIPTEXT=PSÈ
+IDC_COUNTRYTEXT=Zemì
+
+IDC_HOMEPHONETEXT=Telefon domù
+IDC_WORKPHONETEXT=Telefon do práce
+IDC_MOBILEPHONETEXT=Mobil
+IDC_FAXTEXT=Fax
+IDC_PAGERTEXT=Pager
+
+IDC_EMAILTEXT=E-mail
+IDC_WEBSITETEXT=Web stránka
+
+IDC_COMMENTTEXT=Poznámka
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+ERR_NOPAYEENAME=Pøíjemce musí mít název!
+IDC_ACTIVEPAYEE=Aktivní pøíjemce
+
+[IDD_PAYEEMERGE]
+TITLE=Slouèení pøíjemcù
+IDC_PAYEETEXT=Slouèit pøíjemce
+IDC_PAYEETEXT1=s pøíjemcem
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+ERR_NOPAYEES=Oba pøíjemci musí být oznaèení a rozdílní!
+SELECTED_PAYEES=Vybraný pøíjemce
+
+[IDD_PRINTPREVIEW]
+TITLE=Náhled pøed tiskem
+IDC_PAGETEXT=Strana
+IDC_PRINT=Tisk
+
+IDOK=OK
+IDHELP=Pomoc
+IDC_PAGEOFTEXT=z
+IDC_CLOSE=Zavøít
+IDC_PAGEPROPERTIES=Nastavení stránky...
+IDC_PREVIOUSPAGE=<< Pøedchozí
+IDC_NEXTPAGE=Další >>
+IDC_ZOOMIN=Zvìtšit
+IDC_ZOOMOUT=Zmenšit
+
+[IDD_REGISTER]
+TITLE=Registrace
+
+IDC_NAMETEXT=Jméno:
+IDC_SERIALNUMBERTEXT=Sériové èíslo:
+
+IDC_ORDER=Nákup...
+
+IDOK=OK
+
+[IDD_SEARCH]
+TITLE=Vyhledat transakce
+
+IDC_DATETEXT=Datum
+IDC_FROMTEXT=od
+IDC_TOTEXT=do
+IDC_AMOUNTTEXT=Èástka
+IDC_AMOUNTFROMTEXT=od
+IDC_AMOUNTTOTEXT=do
+IDC_COMMENTTEXT=Text
+IDC_SEARCH=Hledat
+IDC_CLOSE=Zavøít
+IDC_ACCOUNTTEXT=Úèet
+ALLACCOUNTS=Všechny úèty
+
+[IDD_SPLIT]
+TITLE=Rozdìlit do kategorií
+
+IDC_CATEGORYTEXT=Kategorie
+IDC_SUBCATEGORYTEXT=Podkategorie
+IDC_AMOUNTTEXT=Èástka
+IDC_ADD=Pøidat
+IDC_EDIT=Upravit
+IDC_DELETE=Vymazat
+IDC_TOTALTEXT=Celkem:
+IDC_UNASSIGNEDTEXT=Nezaúètované:
+IDC_COMMENTTEXT=Poznámka
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+COLUMN0=Kategorie
+COLUMN1=Podkategorie
+COLUMN2=Èástka
+COLUMN3=Poznámka
+
+ERR_BADTOTAL=Suma rozdìlených èástek se nerovná èástce transakce. Chcete zmìnit èástku transakce?
+
+[IDD_SPLITITEM]
+TITLE=Rozdìlení položek
+IDC_CATEGORYTEXT=Kategorie
+IDC_SUBCATEGORYTEXT=Podkategorie
+IDC_AMOUNTTEXT=Èástka
+IDC_COMMENTTEXT=Poznámka
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+[IDD_TRANSACTION]
+TITLE=transakce
+
+IDC_TYPETEXT=Typ
+IDC_DEPOSIT=Pøíjem
+IDC_WITHDRAWAL=Výdej
+IDC_TRANSFER=Pøevod
+IDC_ACCOUNTTEXT=Úèet
+IDC_PAYEETEXT=Pøíjemce
+IDC_CATEGORYTEXT=Kategorie
+IDC_SPLIT=Rozdìlit
+IDC_COMMENTTEXT=Poznámka
+IDC_DATETEXT=Datum
+IDC_NUMBERTEXT=Èíslo
+IDC_AMOUNTTEXT=Èástka
+
+FROMTEXT=Z
+TOTEXT=Na
+SPLIT=Rozdìlit
+DEBIT=Debet
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+ERR_SAMETRANFER=Nemùžete provést pøevod na stejný úèet!
+ERR_INVALIDACCOUNT=Nesprávný název úètu!
+ERR_SPLITAMOUNT=Èástka transakce by se mìla rovnat sumì rozdìlení!
+ERR_SPLIT_HAS_TRANSFERS=Pøenos nemùže mít vložené pøevody pro rozdìlení!  Pokud mìníte typ pøevodu, vyjmìte pøevody z rozdìlení 
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Výmìnný kurz
+
+IDC_SOURCEAMOUNTTEXT=Zdrojová èástka
+IDC_TARGETAMOUNTTEXT=Cílová èástka
+
+IDOK=OK
+IDCANCEL=Zrušit
+
+[IDD_TRANSACTIONCATEGORYLIST]
+TITLE=Kategorie transakce
+IDC_ADD=Pøidat...
+IDC_DELETE=Odstranit
+IDC_EDIT=Upravit...
+IDOK=Zavøít
+IDHELP=Pomoc
+UPDATE_TRANSACTIONS=Chcete aktualizovat název kategorie u stávajících transakcí?
+DELETE_TRANSACTIONS=Chcete odstranit smazanou kategorii u stávajících transakcí?
+
+[IDD_TRANSACTIONCATEGORY]
+TITLE=Kategorie transakce
+IDC_NAMETEXT=Název
+IDOK=OK
+IDCANCEL=Zrušit
+
+ERR_NONAME=Kategorie transakce musí mít název!
+
+[IDD_DAYBILLS]
+TITLE=Platby/Pøíjmy
+
+COLUMN0=Datum
+COLUMN1=transakce
+COLUMN2=Pøíjemce
+COLUMN3=Èástka
+COLUMN4=Poznámka
+COLUMN5=Frekvence
+
+IDC_ENTER=Vložit..
+IDC_EDIT=Upravit..
+
+IDOK=OK
+IDHELP=Pomoc
+IDC_DELETE=Smazat...
+
+[IDD_LITEVERSION]
+TITLE=AceMoney Lite
+
+IDC_TEXT=AceMoney Lite pracuje jen s jedním úètem. Další úèty nemohou být vytvoøené. Pokud potøebujete další úèty, proveïte si aktualizaci na plnou verzi.
+IDC_WEBSITE=Aktualizovat ...
+IDOK=Zavøít
+
+[IDD_STOCK]
+TITLE=Investice
+
+IDC_SYMBOLTEXT=Symbol
+IDC_NAMETEXT=Název
+IDC_CURRENCYTEXT=Mìna
+IDC_COMMENTTEXT=Poznámka
+IDC_UPDATE=Aktualizovat..
+IDC_WEBUPDATE=Stáhnout...
+IDC_PRICETEXT=Historie cen
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+COLUMN0=Datum
+COLUMN1=Cena
+IDC_LOOKUP=Symbol-Hledání...
+IDC_DATASOURCETEXT=Zdroj dat
+ERR_EMPTYSYMBOL=Symbol akcie nemùže být prázdný!
+ERR_EMPTYNAME=Název investice nemùže být prázdný!
+ERR_INVALIDDATASOURCE=Musí být zadán správný zdroj dat!
+ERR_CONNECTIONORSYMBOL=Chyba pøipojení k internetu nebo neznámý symbol!
+
+[IDD_STOCKPRICE]
+TITLE=Cena akcie
+
+IDC_DATETEXT=Datum
+IDC_PRICETEXT=Cena
+
+IDOK=OK
+IDCANCEL=Zrušit
+
+[IDD_STOCKTRANSACTION]
+TITLE=Investièní transakce
+
+IDC_DATETEXT=Datum
+IDC_ACCOUNTTEXT=Úèet
+IDC_ACTIONTEXT=Typ transakce
+IDC_INVESTMENTTEXT=Investice
+
+IDC_DIVIDENDTEXT=Dividenda
+IDC_NUMBERTEXT=Poèet akcií
+IDC_PRICETEXT=Cena
+IDC_COMMISSIONTEXT=Poplatky
+IDC_TOTALTEXT=Celkem
+
+BUY=Nákup
+SELL=Prodej
+DIVIDEND=Dividenda
+REINVEST=Proinvestované dividendy
+ADD=Pøidat akcie
+REMOVE=Odstranit akcie
+
+IDOK=OK
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+
+ERR_NEGATIVEVALUES=Poèet akcií, cena za akcii, dividenda, poplatky a suma musí být kladné!
+ERR_INVALIDACTIONTYPE=Chybný typ transakce!
+ERR_INVALIDACCOUNT=Chybný úèet!
+ERR_INVALIDINVESTMENT=Chybná investice!
+IDC_COMMENTTEXT=Poznámka
+ERR_INCONSISTENTCURRENCY=Mìna vybraného úètu by mìla souhlasit s mìnou investice!
+
+[IDD_REPORTADD]
+TITLE=Pøidat k oblíbeným
+IDC_NAMETEXT=Název pøehledu
+IDOK=OK
+IDCANCEL=Zrušit
+
+[IDD_REPORTORGANIZE]
+TITLE=Organizovat pøehledy
+IDC_DELETE=Vymazat
+IDOK=Generovat
+IDCANCEL=Zavøít
+
+[IDD_STARTUP_CURRENCY]
+TITLE=Nastavení mìny
+IDC_CURRENCYTEXT=Standardní mìna
+IDC_NUMBEROFDECIMALSTEXT=Poèet desetinných míst
+IDC_DECIMALSEPARATORTEXT=Desetinná èárka
+IDC_THOUSANDSEPARATORTEXT=Oddìlovaè tisícù
+IDC_EXAMPLETEXT=Pøíklad
+
+IDC_BACK=<< Zpìt
+IDC_NEXT=Dopredu >>
+
+SEPARATOR_SPACE=Mezera
+SEPARATOR_NONE=Bez oddìlovaèe
+
+ERR_THOUSANDDECIMAL=Desetinná èárka a oddìlovaè tisícù nemohou být stejné!
+
+[IDD_STARTUP_DATE]
+TITLE=Nastavení data
+IDC_FORMATTEXT=Formát data
+IDC_SEPARATORTEXT=Oddìlovaè
+IDC_EXAMPLETEXT=Pøíklad
+
+IDC_BACK=<< Zpìt
+IDC_FINISH=Konec
+
+[IDD_ACEMONEYREMINDER]
+TITLE=AceMoney Pøipomínaè plateb/pøíjmù
+
+STARTACEMONEY=Spustit AceMoney...
+OPTIONS=Možnosti...
+VIEWBILLS=Zobrazit platby/pøíjmy...
+EXIT=Konec
+CLOSE=Zavøít
+
+COLUMN0=Datum
+COLUMN1=transakce
+COLUMN2=Pøíjemce
+COLUMN3=Èástka
+
+OPTIONSTITLE=Možnosti
+DATAFILE=Soubor s údaji AceMoney
+BROWSE=Prohledat...
+SELECTFILE=Vyberte váš soubor s údaji
+AUTOSTART=Spouštìt automaticky s Windows
+STARTMINIMIZED=Spustit minimalizované
+OK=OK
+CANCEL=Zrušit
+
+MSG_DUEBILLS=Je splatnost platby/pøijmu!
+MSG_NODUEBILLS=Žádné splatné platby/pøíjmy.
+
+[IDD_CALC_SAVINGS]
+IDC_MONTHLYPAYMENTTEXT=Mìsíèní platba
+IDC_RATETEXT=Roèní úroková sazba, %
+IDC_PERIODTEXT=Perioda, mìsíc
+IDC_STARTDATETEXT=Poèáteèní datum
+IDC_TOTALINTERESTTEXT=Celkový zisk
+IDC_TOTALTEXT=Celkem
+COLUMN1=Datum
+COLUMN2=Platba
+COLUMN3=Zisk
+COLUMN4=Celkem
+TITLE=Spoøící kalkulaèka
+IDC_INITIALBALANCETEXT=Poèáteèní bilance
+[IDD_CATEGORYCHANGE]
+TITLE=Zmìnit kategorii
+IDCANCEL=Zrušit
+[IDD_PAYEECHANGE]
+TITLE=Zmìna pøíjemce
+IDCANCEL=Zrušit
+[IDD_INTERNATIONALSETTINGS]
+TITLE=Mezinárodní nastavení
+IDC_DATETEXT=Formát datumu
+IDC_DATESEPARATORTEXT=Oddìlovaè datumu
+IDC_CURRENCYTEXT=Implicitní mìna
+IDC_DECIMALSEPARATORTEXT=Desetinný oddìlovaè
+IDC_THOUSANDSEPARATORTEXT=Tisícovkový oddìlovaè
+IDC_NUMBEROFDECIMALDIGITSTEXT=Poèet desetinných míst
+ERR_THOUSANDDECIMAL=Desetinný oddìlovaè a tisícovkový oddìlovaè nemohou být stejné!
+ERR_THOUSAND=Neplatný tisísovkový oddìlovaè
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+[IDD_ARCHIVE]
+TITLE=Vytvoøit archív
+IDC_DATE_TEXT=Archivovat všechny transakce až do
+IDC_DELETE=Smazat archivované transakce z aktuálního dokumentu
+IDCANCEL=Zrušit
+ERR_CREATE_ARCHIVE=Chyba pøi vytváøení archívu!
+ERR_WRITE_ARCHIVE=Chyba pøi ukládání souboru archívu!
+IDHELP=Pomoc
+[IDD_DUPLICATECHECKWARNING]
+TITLE=Upozornìní na duplicitu šekù
+IDC_WARNING=Èíslo šeku ### bylo již použito v jedné z transakcí na tomto úètu. Chcete ho opravdu zadat znovu?
+IDC_DONOTSHOW=Nezobrazovat toto upozornìní znovu
+IDYES=Ano
+IDNO=Ne
+[IDD_IMPORTRULE]
+TITLE=Pravidlo importu
+IDC_SEARCHSTRINGTEXT=Jestliže popis importované transakce obsahuje
+IDC_PAYEETEXT=Nahraï ho tímto pøíjemcem
+IDC_CATEGORYTEXT=A použij tuto kategorii
+IDCANCEL=Zrušit
+[IDD_IMPORTRULES]
+TITLE=Pravidla importu
+COLUMN1=Hledat text
+COLUMN2=Pøíjemce
+COLUMN3=Kategorie
+IDC_ADD=Pøidat...
+IDC_EDIT=Upravit...
+IDC_DELETE=Smazat...
+IDCANCEL=Zrušit
+IDHELP=Pomoc
+[IDD_NETWORK]
+TITLE=Nastavení pøipojení
+IDC_DIRECTCONNECTION=Pøímé pøipojení k Internetu
+IDC_MANUALPROXYCONFIG=Manuální konfigurace proxy serveru
+IDCANCEL=Zrušit
+ERR_INVALID_PORT_NUMBER=Èíslo portu musí být vìtší než 0 a menší než 65535!
+[IDD_PAGESETUP]
+TITLE=Nastavení stránky
+IDCANCEL=Zrušit
+IDC_PAPERBOX=Formát
+IDC_ORIENTATIONBOX=Orientace
+IDC_MARGINBOX_MM=Okraje stránky (mm)
+IDC_MARGINBOX_INCH=Okraje stránky (inch)
+IDC_TITLETEXT=Nadpis:
+IDC_PAPERSIZETEXT=Velikost:
+IDC_TMTEXT=Nahoøe:
+IDC_PORTRAIT=Na výšku
+IDC_LANDSCAPE=Na šíøku
+IDC_BMTEXT=Dole:
+IDC_LMTEXT=Vlevo:
+IDC_RMTEXT=Vpravo:

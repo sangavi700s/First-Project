@@ -1,0 +1,133 @@
+Ajoneuvo
+Ajoneuvo:Autolaina
+Ajoneuvo:Auton pesu
+Ajoneuvo:Polttoaine
+Ajoneuvo:Vakuutus
+Ajoneuvo:Huolto
+Ajoneuvo:Pysäköinti
+Ajoneuvo:Tiemaksut
+
+Pankkimaksut
+Pankkimaksut:Muut kulut
+Pankkimaksut:Korttimaksu
+Pankkimaksut:Palvelumaksu
+
+Laskut
+Laskut:Kaapelit-TV
+Laskut:Satelliitti-TV
+Laskut:Kännykkä
+Laskut:Sähkö
+Laskut:Jäte ja kierrätys
+Laskut:Kiinteistön omistajan kulut
+Laskut:Jäsenmaksut
+Laskut:Kiinnitysmaksut
+Laskut:Maakaasu
+Laskut:Öljy
+Laskut:Sanomalehti
+Laskut:Internet
+Laskut:Vuokra
+Laskut:Opintolaina
+Laskut:Puhelin
+Laskut:Vesi
+
+Lahjoitukset
+
+Vaatteet
+
+Pesula
+
+Koulutus
+Koulutus:Kirjat
+Koulutus:koulumaksu
+Koulutus:Muut maksut
+
+Viihde-elektroniikka
+
+Ruoka
+Ruoka:Alkoholi
+Ruoka:Syönti ulkona
+Ruoka:Elintarvikkeet
+Ruoka:Herkuttelu
+
+Lahjat
+
+Terveydenhuolto
+Terveydenhuolto:Hammaslääkäri
+Terveydenhuolto:Silmälääkäri
+Terveydenhuolto:Sairaala
+Terveydenhuolto:Kuntoutus
+Terveydenhuolto:Lääkkeet
+
+Koti
+Koti:Huonekalut
+Koti:Siivous
+Koti:Piha
+
+Sijoitustulo
+Sijoitustulo:Pääomatulot
+Sijoitustulo:Osinko
+Sijoitustulo:Korkotulot
+
+Vakuutus
+Vakuutus:Ajoneuvo-
+Vakuutus:Hammas-
+Vakuutus:Terveys-
+Vakuutus:koti-
+Vakuutus:Henki-
+Vakuutus:Sekalainen
+Vakuutus:Tapaturma-
+
+Työkulut
+
+Vapaa-aika
+Vapaa-aika:Kirjat ja lehdet
+Vapaa-aika:Kulttuuritapahtumat
+Vapaa-aika:Viihde
+Vapaa-aika:Videovuokraus
+Vapaa-aika:Valokuvaus
+Vapaa-aika:Urheilutapahtumat
+Vapaa-aika:Urheiluvälineet
+Vapaa-aika:CD:t
+Vapaa-aika:Pelit ja lelut
+
+Laina
+
+Posti ja paperityö
+
+Sekalaiset
+
+Muut tulot
+Muut tulot:Elatusmaksu
+Muut tulot:Lahjat
+Muut tulot:Lainan takaisinmaksu
+Muut tulot:Uhkapelit
+Muut tulot:Veronpalautus
+Muut tulot:Työttömyyskorvaus
+
+Henkilökohtainen hyvinvointi
+
+Kotieläimet
+
+Eläketulot
+Eläketulot:Eläke
+Eläketulot:KELA-korvaus
+
+Verot
+Verot:Tulovero
+Verot:Tulovero - edellinen vuosi
+Verot:Kunnallisvero
+Verot:Muut verot
+Verot:Kunnallisvero
+
+Työkalut
+
+Loma
+Loma:Majoittuminen
+Loma:Matkustaminen
+
+Palkka
+Palkka:Bonus
+Palkka:Erityismaksu
+Palkka:Provisio
+Palkka:Työpalkka
+Palkka:Ylityöt

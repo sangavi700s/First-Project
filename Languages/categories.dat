@@ -1,0 +1,145 @@
+Automobile
+Automobile:Car payment
+Automobile:Car wash
+Automobile:Gasoline
+Automobile:Insurance
+Automobile:Maintenance
+Automobile:Parking
+Automobile:Toll roads
+
+Bank Charges
+Bank Charges:ATM charge
+Bank Charges:Interest paid
+Bank Charges:Service charge
+
+Bills
+Bills:Cable Television
+Bills:Satellite Television
+Bills:Cellular
+Bills:Electricity
+Bills:Garbage and Recycle
+Bills:Homeowner's Dues
+Bills:Membership fees
+Bills:Mortgage Payment
+Bills:Natural Gas
+Bills:Natural Oil
+Bills:Newspaper
+Bills:Online/Internet Service
+Bills:Rent
+Bills:Student loan payment
+Bills:Telephone
+Bills:Water and Sewer
+
+Donations
+
+Clothing
+
+Laundry
+
+Education
+Education:Books
+Education:Tuition
+Education:Fees
+
+Electronics
+
+Food
+Food:Alcohol
+Food:Dining out
+Food:Groceries
+
+Gifts
+Healthcare
+Healthcare:Dental
+Healthcare:Eyecare
+Healthcare:Hospital
+Healthcare:Physician
+Healthcare:Prescriptions
+
+Household
+Household:Furniture
+Household:House Cleaning
+Household:Yard Service
+
+Investment Income
+Investment Income:Capital Gains
+Investment Income:Dividends
+Investment Income:Interest
+Investment Income:Tax-Exempt Interest
+
+Insurance
+Insurance:Automobile
+Insurance:Dental
+Insurance:Health
+Insurance:Homeowners
+Insurance:Life
+Insurance:Long Term Disability
+Insurance:Misc
+Insurance:Personal Accident Insurance
+Insurance:Short Term Disability
+
+Job Expenses
+Job Expenses:Non-Reimbursed
+Job Expenses:Reimbursed
+
+Leisure
+Leisure:Books and Magazines
+Leisure:Cultural Events
+Leisure:Entertaining
+Leisure:Movies and Video Rentals
+Leisure:Photography
+Leisure:Sporting Events
+Leisure:Sporting Goods
+Leisure:Tapes and CDs
+Leisure:Toys and Games
+
+Loan
+
+Mail and Paper Work
+
+Miscellaneous
+
+Other Income
+Other Income:Child Support Received
+Other Income:Employee Stock Option
+Other Income:Gifts Received
+Other Income:Loan Principal Received
+Other Income:Lotteries
+Other Income:State and Local Tax Refund
+Other Income:Unemployment Compensation
+
+Personal Care
+
+Pet Care
+
+Retirement Income
+Retirement Income:IRA Distributions
+Retirement Income:Pensions and Annuities
+Retirement Income:Social Security Benefits
+
+Taxes
+Taxes:Federal Income Tax
+Taxes:Federal Income Tax - Previous Year
+Taxes:Local Income Tax
+Taxes:Medicare Tax
+Taxes:Other Taxes
+Taxes:Real Estate Taxes
+Taxes:Social Security Tax
+Taxes:State Income Tax
+Taxes:State/Provincial
+
+Utilities
+
+Vacation
+Vacation:Lodging
+Vacation:Travel
+
+Wages and Salary
+Wages and Salary:Bonus
+Wages and Salary:Commission
+Wages and Salary:Company Contributions
+Wages and Salary:Employer Matching
+Wages and Salary:Gross Pay
+Wages and Salary:Net Pay
+Wages and Salary:Overtime
+Wages and Salary:Special Payment

@@ -1,0 +1,1619 @@
+ProgramID=AceMoney
+Language=Albanian
+
+///////////////////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories_al.dat
+BANKS=banks_al.dat
+ACCOUNTTYPES=accounttypes_al.dat
+SAMPLEFILE=sample_al.amj
+
+HOMEPAGE=http://www.mechcad.net/products/acemoney/
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial.html
+
+CURRENCY=ALL
+DECIMALS=2
+DECIMALSEPARATOR=.
+THOUSANDSEPARATOR=,
+DATEFORMAT=DDMMVV
+DATESEPARATOR=/
+
+STATUS=Gati
+TRANSFER=Transfertë
+DEPOSIT=Depozitim
+WITHDRAWAL=Tërheqje
+TO=në
+FROM=nga
+TOTAL=Totali
+CLEAREDTOTAL=Totali i pastër
+RECONCILEDTOTAL=Përputhje totali
+IMPORTEDTOTAL=Totali i importuar
+UNCLEAREDTOTAL=Total i papërfunduar
+TODAYTEXT=Sot
+PAGE=Faqe
+UNASSIGNED=(i papërcaktuar)
+SAVEMODIFIED=T'i ruaj ndryshimet?
+REPLACEMENTS=zëvëndësimet u kryen
+INVALIDNUMBER=Format i pavlefshëm numri!
+
+MSG_LOADSAMPLE=A doni të ngarkoni një skedari ekzemplar?
+MSG_SAMPLEFILEWARNING=Skedari ekzemplar nuk mund të ruhet. Lutemi përdorni menunë Skedar->Ruaje me emrin për t'i ruajtur të dhënat në një skedar tjetër.
+IMPORTRULES=importrules_al.dat
+ONE_COLUMN_MUST_BE_DISPLAYED=Duhet të shfaqet të paktën një kolonë.
+NEW_VERSION_DETECTED=Ka dalë dhe mund të shkarkohet versioni i ri i AceMoney. A doni ta përdësoni programin?
+NO_NEW_VERSION_IS_AVAILABLE=Nuk ka version të ri.
+NEW_VERSION_CHECK_FAILED=AceMoney nuk kontrolloi dot nëse ka version të ri, sepse nuk u vendos lidhja me serverin. Lutemi kontrolloni lidhjen me internetin dhe provojeni përsëri.
+AVERAGE=Mesatare
+AUTODETECT=Zbulo automatikisht
+YES=Po
+NO=Jo
+
+[MENU]
+ID_FILE=Skedari
+ID_FILE_NEW=I ri
+ID_FILE_OPEN=Hape...
+ID_FILE_SAVE=Ruaje
+ID_FILE_SAVE_AS=Ruaje me emrin...
+ID_FILE_IMPORT=Importoje...
+ID_FILE_EXPORT=Exportoje...
+ID_FILE_PRINT=Printoje...
+ID_FILE_PRINT_PREVIEW=Parapamje printimi
+ID_APP_EXIT=Dalje
+
+ID_EDIT=Ndryshime
+ID_EDIT_DELETE=Fshije
+ID_EDIT_INSERT=Fute
+ID_EDIT_SELECTALL=Zgjidhi të tëra
+ID_EDIT_FIND=Gjeje...
+ID_EDIT_PROPERTIES=Tiparet...
+ID_EDIT_COPY=Kopjoje
+ID_EDIT_PASTE=Vendose
+ID_EDIT_ADDTOSCHEDULE=Shtoje tek afati...
+
+ID_VIEW=Pamje
+ID_VIEW_ACCOUNTS=Llogaritë
+ID_VIEW_BANKS=Bankat
+ID_VIEW_PAYEES=Të paguarit
+ID_VIEW_CATEGORIES=Kategoritë dhe Buxheti
+ID_VIEW_SCHEDULE=Afati
+ID_VIEW_PORTFOLIO=Portofoli
+ID_VIEW_REPORTS=Raportet
+
+ID_ACCOUNTS=Llogaritë
+ID_ACCOUNTS_ADD=Shto llogari...
+ID_ACCOUNTS_TYPE=Grupe llogarish...
+
+ID_REPORTS=Raportet
+ID_REPORTS_ADD=Shtoje te preferencat
+ID_REPORTS_ORGANIZE=Organizoje...
+
+ID_TOOLS=Mjetet
+ID_TOOLS_CURRENCY=Kursi i këmbimit...
+ID_TOOLS_INTERNATIONAL=Konfigurim ndërkombëtar...
+ID_TOOLS_OPTIONS=Mundësitë...
+ID_TOOLS_COLORS=Fontet dhe Ngjyrat...
+ID_TOOLS_LANGUAGE=Gjuha...
+ID_TOOLS_BACKUP=Kopje rezervë...
+ID_TOOLS_RESTORE=Rivendose...
+ID_TOOLS_CALCULATOR=Makinë llogaritëse...
+ID_TOOLS_CALCULATOR_LOAN=Llogaritje huaje...
+ID_TOOLS_CALCULATOR_SAVINGS=Llogaritje kursimesh...
+ID_TOOLS_CALCULATOR_MORTGAGE=Llogaritje hipoteke (këste)...
+ID_TOOLS_TRANSACTION_CATEGORY_LIST=Emërtime transaksioni...
+
+ID_HELP=Ndihma
+ID_HELP_TOPICS=Tematika
+ID_HELP_HOMEPAGE=AceMoney në internet...
+ID_HELP_WHATSNEW=Të rejat e programit...
+ID_HELP_SUPPORT=Mbështetje teknike...
+ID_HELP_FORUM=Forumi në Web...
+ID_HELP_TUTORIAL=Mësim nga interneti...
+ID_HELP_REGISTER=Regjistrimi i AceMoney...
+ID_HELP_ORDER=Porositje e AceMoney...
+ID_HELP_ABOUT=Informacion...
+ID_TOOLS_BUDGET=Buxheti...
+ID_FILE_ARCHIVE=Arkiva...
+ID_TOOLS_IMPORT_RULES=Importo rregullat
+ADD=Shto
+MENU=Menuja
+ID_HELP_CHECK_FOR_UPDATES=Kontrollo për përditime...
+ID_TOOLS_TRANSACTION_TAG_LIST=Etiketa transaksioni...
+
+[TOOLBAR]
+ID_FILE_NEW=I ri
+ID_FILE_OPEN=Hape
+ID_FILE_SAVE=Ruaje
+ID_VIEW_BACK=Kthehu
+ID_VIEW_FORWARD=Ec para
+ID_VIEW_HOME=Fillimi
+ID_VIEW_ACCOUNTS=Llogaritë
+ID_VIEW_BANKS=Bankat
+ID_VIEW_PAYEES=Të paguarit
+ID_VIEW_CATEGORIES=Kategoritë
+ID_VIEW_SCHEDULE=Afati
+ID_VIEW_REPORTS=Raportet
+ID_VIEW_PORTFOLIO=Portofoli
+ID_HELP_HOMEPAGE=Faqe internenti
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=Llogaritë
+IDC_ADD=Llogari e re...
+IDC_BILLS=Paguaj faturat
+IDC_REPORTS=Raportet
+IDC_CURRENCY=Këmbim valute
+IDC_WEBUPDATE=Shkarko kursin
+IDHELP=Ndihma
+
+ID_ACCOUNT_OPEN=Hape
+ID_ACCOUNT_ADD=Llogari e re...
+ID_ACCOUNT_DELETE=Fshije
+ID_ACCOUNT_EDIT=Tiparet
+ID_ACCOUNT_SHOWNUMBERS=Trego numra llogarish
+ID_ACCOUNT_SHOWCLOSED=Trego llogaritë e mbyllura
+
+TOTAL=Totali
+LASTUPDATE=Përditimi i fundit
+
+DELETE_CONFIRMATION=Llogaria %s do të fshihet me të gjitha transaksionet e saj. Të vazhdoj gjithsesi?
+
+UPDATE_SUCCESS=Kurset e këmbimit u përdituan me sukses!
+UPDATE_FAILURE=Gabim në përditimin me internet! Nuk u gjet lidhja me internetin ose disa kurse nuk u përdituan!
+UPDATE_NOTREQUIRED=Përditimi me internet nuk kërkohet!
+NEW_CURRENCY_DETECTED=Kjo llogari përdor një valutë ndryshe nga e paracaktuara. Duhet të përditoni kursin e këmbimit duke e shkarkuar atë nga interneti ose duke e caktuar me dorë tek Mjetet->Kursi i Këmbimit. A doni AceMoney të shkarkojë kursin e këmbimit tani? 
+ID_ACCOUNT_CLOSE=Mbyll llogarinë
+ID_ACCOUNT_REOPEN=Rihap llogarinë
+ID_ACCOUNT_ACCEPT_IMPORTED=Prano transaksionet e importuara
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPORTFOLIO]
+TITLE=Portofoli
+
+IDC_NEWTRANSACTION=Transaksion i ri...
+
+IDC_ADD=Shto investim...
+IDC_EDIT=Ndrysho investim...
+IDC_DELETE=Fshi investimin...
+
+IDC_WEBUPDATE=Shkarko çmimet
+
+IDHELP=Ndihma
+
+STOCKLIST=Investime
+STOCKTRANSACTIONLIST=Transaksione investimesh
+
+COLUMN0=Simboli
+COLUMN1=Emri
+COLUMN2=Çmimi i fundit
+COLUMN3=Sasia
+COLUMN4=Totali
+COLUMN5=Fitimi
+
+TRANSACTIONSCOLUMN0=Data
+TRANSACTIONSCOLUMN1=Veprimi
+TRANSACTIONSCOLUMN2=Simboli
+TRANSACTIONSCOLUMN3=Llogaria
+TRANSACTIONSCOLUMN4=Dividenti
+TRANSACTIONSCOLUMN5=Çmimi
+TRANSACTIONSCOLUMN6=Sasia
+TRANSACTIONSCOLUMN7=Komision
+TRANSACTIONSCOLUMN8=Totali
+
+CANTBEDELETED=Ky stok përdoret në më shumë se një transaksion, ndaj nuk mund të fshihet!
+DELETECONFIRMATION=Ky stok do të fshihet. A jeni i sigurt?
+UPDATEISNOTREQUIRED=Nuk kërkohet përditim!
+UPDATEISNOTCOMPLETE=Disa investime nuk u përdituan!
+INVESTMENTNOTCREATED=Së pari duhet krijuar një investim.
+
+ID_EDIT_OPEN=Ndrysho investimin
+ID_EDIT_INSERT=Shto investim të ri
+ID_EDIT_DELETE=Fshije
+IDC_BUY=Bli...
+IDC_SELL=Shit...
+IDC_DIVIDEND=Dividendi...
+IDC_REINVEST=Ri-investo dividentin...
+IDC_ADDSHARES=Shto aksione...
+IDC_REMOVESHARES=Hiq aksione...
+ALLACCOUNTS=Të gjitha llogaritë
+ALLOCATION_BY_INVESTMENTS=Ndarja sipas Investimeve
+ALLOCATION_BY_ACCOUNTS=Ndarja sipas Llogarive
+ALLOCATION_BY_TYPES=Ndarja sipas Tipeve
+TRANSACTIONSCOLUMN9=Koment
+IDC_IMPORT=Importo...
+
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=Llogaria
+IDC_ADD=Transaksion i ri
+IDC_EDIT=Ndrysho transaksionin
+IDC_DELETE=Fshi transaksionin
+IDC_BALANCE=Pasqyra e llogarisë
+IDC_WEBSITE=Adresa web e llogarisë
+IDC_ACCOUNT=Ndrysho infon e llogarisë
+IDC_BANK=Ndrysho infon e bankës
+IDC_MONTHREPORT=Raport mujor
+IDC_REPORT=Raport 30-ditor
+IDC_HIDERECONCILED=Fshihi përputhjet
+IDHELP=Ndihma
+
+COLUMN0=Numri
+COLUMN1=Datë
+COLUMN2=I paguari
+COLUMN3=Kategoria
+COLUMN4=S
+COLUMN5=Tërheqje
+COLUMN6=Depozitim
+COLUMN7=Totali
+COLUMN8=Koment
+
+BANKISNOTASSIGNED=Për të përdorur këtë tipar, zgjidhni një bankë që mban këtë llogari
+PAGEISNOTASSIGNED=Mungon adresa Web. Mund ta shtoni në dritaren informative të Tipareve.
+STATUS=Këtë muaj keni shpenzuar %.2f nga katergoria %s
+STATUSINCOME=Këtë muaj keni marrë %.2f nga kategoria %s
+STATUSSUM=Shuma e transaksionit që zgjodhët është
+
+ID_TRANSACTION_UNCLEARED=I parregulluar
+ID_TRANSACTION_CLEARED=I rregulluar
+ID_TRANSACTION_RECONCILED=I përputhur
+
+ID_EDIT_OPEN=Ndryshoje
+ID_EDIT_INSERT=Transaksion i ri...
+ID_EDIT_INSERTBILL=Regjistro pagesa faturash
+ID_EDIT_DELETE=Fshije
+ID_EDIT_COPY=Kopjoje
+ID_EDIT_PASTE=Vendose
+ID_EDIT_CATEGORY=Ndrysho kategori
+ID_EDIT_CATEGORYCHANGE=Ndërro kategori...
+ID_EDIT_PAYEE=Ndrysho të Paguarin...
+ID_EDIT_PAYEECHANGE=Ndërro të paguarin...
+ID_EDIT_ADDTOSCHEDULE=Shtoje tek afati...
+
+ID_REPORTS_CATEGORY=Raport kategorie...
+ID_REPORTS_PAYEE=Raport i Paguari...
+
+BILLDELETECONFIRMATION=Kjo do të fshijë të gjitha transaksionet e ardhshme që shoqërohen me faturat/depozitat!
+TRANSACTIONDELETECONFIRMATION=A jeni i sigurt?
+RECONCILEDTRANSACTIONCONFIRMATION=Ky transaksion është shenjuar si i Përputhur, ndaj nuk rekomandohen ndryshimet! Të vazhdoj?
+CLEAREDTRANSACTIONCONFIRMATION=Ky transaksion është shenjuar si i Rregulluar, ndaj nuk rekomandohen ndryshimet! Të vazhdoj?
+CANNOTSORTBYTOTAL=Nuk mund t'i rendisni sipas totalit!
+IDC_ADD_INVESTMENT_TRANSACTION=Transaksion investimi
+IDC_DOWNLOAD=Shkarko transaksionet
+COLUMN9=Llogaria
+ID_VIEW_DISPLAYSIDEPANEL=Shfaq panelin anësor
+IDC_CREATE_IMPORT_RULE=Krijo Rregullin e Importit
+IDC_APPLY_IMPORT_RULES=Zbato Rregullat e Importit
+ID_EDIT_TAG=Etiketa
+ID_EDIT_TAG_REMOVE_ALL=&0 Hiq tërë etiketat
+ID_EDIT_TAG_IMPORTANT=&1 E rëndësishme
+ID_EDIT_TAG_WORK=&2 Pune
+ID_EDIT_TAG_PERSONAL=&3 Personale
+ID_EDIT_TAG_TODO=&4 Detyra
+ID_EDIT_TAG_LATER=&5 Më vonë
+ID_EDIT_ATTACHMENTS=Bashkangjitjet
+ID_EDIT_ATTACHMENT_ADD=Bashkangjite
+ID_EDIT_ATTACHMENT_DELETE=Fshije
+ID_EDIT_MOVE_TO_ACCOUNT=Dërgo tek llogaria
+ID_EDIT_GOTO_TRANSACTION=Kalo tek transaksioni
+ID_EDIT_SKIPBILL=Anashkalo pagesën e faturës
+MOVE_PARTIALLY_FAILED=Disa transaksione nuk mund të dërgohen tek llogaria që zgjodhe!
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=Bankë e re...
+IDC_EDIT=Ndrysho infon e bankës
+IDC_DELETE=Fshije bankën
+IDC_DELETEUNUSED=Fshiji të papërdorurat
+IDC_IMPORT=Importoje...
+IDHELP=Ndihma
+
+COLUMN0=Emër Banke
+COLUMN1=Adresa
+COLUMN2=Internet
+COLUMN3=Koment
+
+CANTBEDELETED=Një nga llogaritë e tua lidhet me këtë bankë. Kjo bankë nuk mund të fshihet.
+DELETECONFIRMATION=A jeni i sigurt?
+DELETEUNUSED=Kjo komandë do të fshijë të gjitha bankat që nuk lidhen me llogaritë e tua. A të vazhdoj?
+
+ID_EDIT_OPEN=Ndryshoje
+ID_EDIT_INSERT=Bankë e re
+ID_EDIT_DELETE=Fshije
+COLUMN4=Telefon
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=Kategori e re...
+IDC_EDIT=Ndrysho kategorinë
+IDC_DELETE=Fshiji kategoritë
+IDC_DELETEUNUSED=Fshiji të papërdorurat
+IDC_REPORT=Raport kategorie
+IDC_BUDGETREPORT=Raport buxheti
+IDC_IMPORT=Importoje...
+IDC_MERGE=Shkrije...
+IDHELP=Ndihma
+
+COLUMN0=Kategoria
+COLUMN0a=Kodi
+COLUMN1a=Të ardhura
+COLUMN2a=Shpenzime
+COLUMN2c=Periudha
+COLUMN3=Koment
+
+CANTBEDELETED=Kjo kategori përdoret nga një transaksion, ndaj kategoria nuk mund të fshihet.
+PARENTCANTBEDELETED=Kjo është kategori prind për një a më shumë kategori të tjera. Nëse doni ta fshini, duhet së pari të fshini nënkategoritë e saj.
+DELETECONFIRMATION=A jeni i sigurt?
+DELETEUNUSED=Kjo komanë do të fshijë të gjitha kategoritë që nuk referohen nga transaksionet. A të vazhdoj?
+ID_EDIT_OPEN=Ndryshoje
+ID_EDIT_INSERT=I ri...
+ID_EDIT_DELETE=Fshije
+
+TOTALINCOME=Të ardhura:
+TOTALEXPENSE=Shpenzime:
+IDC_BUDGET=Konfigurim buxheti...
+COLUMN1=Buxhetuar
+COLUMN2=Komente
+MONTHLY_INCOME=Të ardhura mujore:
+MONTHLY_EXPENSE=Shpenzime mujore:
+MONTHLY_TOTAL=Totali mujor
+ANNUAL_TOTAL=Totali vjetor
+COLUMN4=Buxheti mujor
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=I paguar i ri
+IDC_EDIT=Ndrysho të pagurain
+IDC_DELETE=Fshije të paguarin
+IDC_DELETEUNUSED=Fshi të papërdorurat
+IDC_REPORT=Raport sipas të paguarit
+IDC_MERGE=Shkrije...
+IDHELP=Ndihma
+
+COLUMN0=Emri
+COLUMN1=Adresa
+COLUMN2=Koment
+COLUMN3=Telefon
+
+CANTBEDELETED=Ky i paguar përdoret në një nga transaksionet. Ai nuk mund të fshihet.
+DELETECONFIRMATION=A jeni i sigurt?
+DELETEUNUSED=Kjo komanë do të fshijë të gjithë të paguarit që nuk referohen nga transaksionet. A të vazhdoj?
+
+ID_EDIT_OPEN=Ndryshoje
+ID_EDIT_INSERT=I ri...
+ID_EDIT_DELETE=Fshije
+IDC_HIDE_INACTIVE=Fshih të pagurit pasiv
+ID_PAYEE_ACTIVATE=Aktivizoje
+ID_PAYEE_DEACTIVATE=Çaktivizoje
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=Filtër sipas datës
+IDC_SETDATES=Zgjidh hapësirë date...
+IDC_USECATEGORYFILTER=Filtër sipas kategorive
+IDC_SETCATEGORIES=Zgjidh kategoritë
+IDC_USEPAYEEFILTER=Filtër sipas të paguarve
+IDC_SETPAYEES=Zgjidh të paguarit
+IDC_USEACCOUNTFILTER=Filtër sipas llogarive
+IDC_SETACCOUNTS=Zgjidh llogarin
+IDC_TRANSACTIONS=Raport transaksionesh
+IDC_CATEGORY=Shpenzimet sipas kategorive
+IDC_SUBCATEGORY=Shpenzimet sipas nënkategorive
+IDC_PAYEE=Shpenzime sipas të paguarve
+IDC_BUDGETCATEGORY=Buxheti sipas kategorite
+IDC_BUDGETSUBCATEGORY=Buxheti sipas nënkategorive
+IDC_CASHFLOW=Raport i llogarisë rrjedhëse
+IDC_NETWORTH=Raport i Vlerës Neto
+IDC_LAST30DAYS=Transaksione 30 ditët e fundit
+IDC_INCLUDETRANSFERS=Përfshi transfertat
+
+IDHELP=Ndihma
+IDC_TABLE=Shihe si tabelë
+IDC_CHART=Grafik
+IDC_INCOMECHART=Diagram byreku të ardhurash
+IDC_EXPENSECHART=Diagram byreku shpenzimesh
+IDC_PERIODCHART=Grafiku i periudhës
+IDC_TOTALCHART=Grafiku i totalit
+
+CATEGORYCOLUMN0=Kategoria
+CATEGORYCOLUMN1=Shuma
+CATEGORYCOLUMN2=Buxhetuar
+CATEGORYCOLUMN3=Diferenca
+CATEGORYCOLUMN4=Kodi
+CATEGORYCOLUMN5=Të ardhura
+CATEGORYCOLUMN6=Shpenzime
+
+CASHFLOWCOLUMN0=Të dhëna
+CASHFLOWCOLUMN1=Totali i periudhës
+CASHFLOWCOLUMN2=Totali
+
+OTHERS=Të tjera
+
+GENERALREPORTS=Raporte të përgjithshme
+CATEGORYREPORTS=Raporte kategorie
+PAYEEREPORTS=Raporte të paguarish
+BUDGETREPORTS=Raporte buxheti
+FAVORITEREPORTS=Raporte të preferuara
+
+PAYEECOLUMN0=I paguari
+PAYEECOLUMN1=Shuma
+PAYEECOLUMN2=Të ardhura
+PAYEECOLUMN3=Shpenzime
+
+NETWORTHCOLUMN0=Llogaria
+NETWORTHCOLUMN1=Totali
+IDC_BUDGET=Periudha aktuale e buxhetit
+IDC_CATEGORYBYMONTH=Shpenzimet mujore sipas kategorive
+IDC_SUBCATEGORYBYMONTH=Shpenzimet mujore sipas nënkategorive
+ACCOUNTCOLUMN0=Llogaria
+IDC_USEINVESTMENTFILTER=Filtrim sipas investimit
+IDC_SETINVESTMENTS=Zgjidh investimet...
+IDC_USETAGFILTER=Filtrim sipas etiketave
+IDC_SETTAGS=Zgjidh etiketat...
+IDC_USETEXTFILTER=Filtrim sipas tekstit
+IDC_SETTEXT=Cakto tekstin...
+IDC_PAYEEBYMONTH=Shpenzime mujore sipas të paguarve
+IDC_ACCOUNT=Shpenzime sipas llogarive
+IDC_INVESTMENT=Performanca sipas investimeve
+INVESTMENTREPORTS=Raporte investimi
+ACCOUNTCOLUMN1=Grupi
+ACCOUNTCOLUMN2=Banka
+ACCOUNTCOLUMN3=Bilanci
+INVESTMENTCOLUMN0=Investimi
+INVESTMENTCOLUMN1=Simboli
+INVESTMENTCOLUMN2=Numëro
+INVESTMENTCOLUMN3=Kosto
+INVESTMENTCOLUMN4=Komision
+INVESTMENTCOLUMN5=Kosto për aksion
+INVESTMENTCOLUMN6=Dividende
+INVESTMENTCOLUMN7=Vlera
+INVESTMENTCOLUMN8=Fitimi
+INVESTMENTCOLUMN9=Fitimi, %
+INVESTMENTCOLUMN10=Vlera e blerjes
+INVESTMENTCOLUMN11=Komisionet e blerjes
+INVESTMENTCOLUMN12=Vlera e shitjes
+INVESTMENTCOLUMN13=Komisionet e shitjes
+INVESTMENTCOLUMN14=Të ardhura
+INVESTMENTCOLUMN15=Fitimi afatshkurtër i kapitalit
+INVESTMENTCOLUMN16=Fitimi afatgjatë i kapitalit
+INVESTMENTCOLUMN17=Çmimi aktual
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Fute në regjistër
+IDC_ADD=Faturë e re...
+IDC_EDIT=Ndrysho faturën
+IDC_DELETE=Fshi faturën
+IDHELP=Ndihma
+
+COLUMN0=Data
+COLUMN1=Transaksioni
+COLUMN2=I paguari
+COLUMN3=Shuma
+COLUMN4=Koment
+COLUMN5=Shpeshtësia
+
+IDC_TABLE=Tabela
+IDC_CALENDAR=Kalendari
+
+DELETECONFIRMATION=A jeni i sigurt se doni ta fshini këtë faturë?
+
+ID_EDIT_OPEN=Fute
+ID_EDIT_INSERT=Shto të re..
+ID_EDIT_DELETE=Fshije
+ID_EDIT_PROPERTIES=Tiparet
+ID_EDIT_COPY=Kopjoje
+ID_EDIT_PASTE=Vendose
+
+CHANGE_OF_ACCOUNT=A doni të përdorni një llogari tjetër për të gjitha veprimet me këtë faturë? 
+CHANGE_OF_AMOUNT=A doni të përdorni një shumë tjetër për të gjitha veprimet me këtë faturë?
+IDC_SKIP=Anashkalo faturën/depozitën
+COLUMN6=Kategoria
+COLUMN7=Automatike
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=Informacion
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+[IDD_ACCOUNT]
+TITLE=Llogaria
+IDC_NAMETEXT=Emri
+IDC_TYPETEXT=Grupi
+IDC_BANKTEXT=Banka
+IDC_NUMBERTEXT=Numri
+IDC_BALANCETEXT=Pasqyra fillestare
+IDC_CURRENCYTEXT=Monedha
+IDC_CLOSED=Kjo llogari është mbyllur
+IDC_COMMENTTEXT=Koment
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+ERR_NOACCOUNTNAME=Llogaria duhet të ketë emër!
+ERR_NOACCOUNTTYPE=Llogaria duhet të ketë grup!
+ERR_NOCURRENCY=Llogaria duhet të ketë një monedhë!
+IDC_EDITBANK=Përpunoje...
+IDC_ONLINE_SETUP=Konfigurim online...
+ERR_EMPTYBANKNAME=Lutemi fusni ose zgjidhni emrin e bankës së parë!
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=Grupe llogarish
+IDC_ADD=Shtoje...
+IDC_DELETE=Fshije
+IDC_EDIT=Përditoje...
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+ERR_CANTDELETE=Ky grup përdoret nga një prej llogarive.
+
+[IDD_ACCOUNTTYPE]
+TITLE=Grupe llogarish
+IDC_NAMETEXT=Emri
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+ERR_NOACCTYPENAME=Grupi duhet të ketë emër
+
+[IDD_BACKUP]
+TITLE=Kopje rezervë
+
+IDC_ENABLEBACKUP=Aktivizo kopje rezervë
+
+IDC_LASTBACKUPTEXT=Kopja e fundit
+IDC_FREQUENCYTEXT=Shpeshtësia
+IDC_DIRECTORYTEXT=Dosja
+IDC_BACKUP=Ruaje tani!
+IDC_AUTOMATIC=Ruaje automatikisht
+
+IDC_EVERYDAY=Çdo ditë
+IDC_EVERYWEEK=Çdo javë
+IDC_EVERYOTHERWEEK=Pas një jave
+
+IDC_BROWSE=Shfletoje...
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+ERR_INVALIDDIR=Duhet futur një rrugë e vlefshme!
+ERR_COPYFILE=Gjatë krijimit të kopjes rezervë ndodhi një gabim! Ndofta disku nuk është në fole.
+ERR_BACKUPTIME=Sipas konfigurimit tuaj është koha për kopjen rezervë. A të vazhdoj?
+ERR_NEWFILE=Skedari duhet ruajtur para krijimit të kopjes rezervë!
+ERR_COPYFILE_RESTORE=Gjatë rivendosjes së kopjes rezervë ndodhi një gabim! Ndofta disku nuk është në fole.
+SELECT_FILE_TO_RESTORE=Zgjidh një skedar për ta rikuperuar
+SELECT_RESTORE_DIR=Ku doni ta ruani skedarin?
+OPEN_RESTORED_FILE=A doni ta hapni skedarin e rikukperuar?
+IDC_ADD_DATE_TO_BACKUP_FILE=Shto datën tek emri i skedarit kopje
+
+[IDD_BALANCE]
+TITLE=Pasqyrë llogarie
+
+IDC_CLEAREDDEPOSITS=Depozita të rregulluara
+IDC_CLEAREDWITHDRAWALS=Tërheqje të rregulluara
+
+IDC_RECONCILEDTEXT=Pasqyra e mëparshme
+IDC_CLEAREDTEXT=Pasqyra aktuale
+IDC_UNCLEAREDTEXT=Të prapambetura
+
+IDC_NEWTRANSACTION=E re...
+IDC_SELECTALL=Zgjidhi të tëra
+IDC_DESELECTALL=Mos zgjidh asnjë
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+[IDD_BANK]
+TITLE=Banka
+IDC_NAMETEXT=Emri
+IDC_ADDRESSTEXT=Adresa
+IDC_WEBSITETEXT=Interneti
+IDC_COMMENTTEXT=Koment
+IDC_BANKNUMBERTEXT=Numri i bankës
+IDC_SWIFTCODETEXT=SWIFT
+IDC_TRANSFERCODETEXT=Kodi i transfertës
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+ERR_NOBANKNAME=Banka duhet të ketë emër!
+IDC_PHONETEXT=Telefon
+IDC_OPEN=Hape
+
+[IDD_BILL]
+TITLE=Faturë/Depozitë
+
+IDC_FREQUENCYGROUP=Shpeshtësia
+
+IDC_ONCE=Një herë
+IDC_DAILY=Ditore
+IDC_WEEKLY=Javore
+IDC_EVERYOTHERWEEK=Pas një jave
+IDC_TWICEAMONTH=Dy herë në muaj
+IDC_EVERYFOURWEEKS=Çdo 4 javë
+IDC_MONTHLY=Çdo muaj
+IDC_EVERYOTHERMONTH=Çdo dy muaj
+IDC_QUARTERLY=Tremujore
+IDC_EVERYFOURMONTHS=Çdo katër muaj
+IDC_EVERYSIXMONTHS=6-mujore
+IDC_ANNUALLY=Vjetore
+
+IDC_STARTDATETEXT=Datë fillimi
+
+IDC_BILLTYPETEXT=Tipi i faturës
+BILLTYPE_CONTINUOUS=Në vazhdimësi
+BILLTYPE_NUMBERED=me numër
+
+IDC_NUMBERTEXT=Numri i pagesave
+
+IDC_TRANSACTIONGROUP=Transaksioni
+IDC_TYPETEXT=Tipi
+IDC_DEPOSIT=Depozita
+IDC_WITHDRAWAL=Tërheqja
+IDC_TRANSFER=Transferta
+IDC_ACCOUNTTEXT=Llogaria
+IDC_PAYEETEXT=I paguari
+IDC_CATEGORYTEXT=Kategoria
+IDC_SPLIT=Ndarje
+IDC_AMOUNTTEXT=Shuma
+IDC_COMMENTTEXT=Koment
+
+IDC_ENTER=Shtoje në llogari
+IDC_AUTOMATIC=Fute faturën automatikisht
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+ERR_INVALIDACCOUNT=Emër i pavlefshëm llogarie!
+ERR_INVALIDNUMBER=Numri i pagesave nuk mund të jetë më i vogël se 1!
+IDC_CHECK_NUMBER_TEXT=Numri
+IDC_EVERYTWOYEARS=Çdo dy vjet
+
+[IDD_CALC_LOAN]
+TITLE=LLogaritje huaje
+
+IDC_AMOUNTTEXT=Shuma
+IDC_RATETEXT=Përdindja vjetore e interesit, %
+IDC_PERIODTEXT=Periudha, muaj
+IDC_PAYMENTTEXT=Pagesa
+IDC_TOTALINTERESTTEXT=Interesi total
+
+COLUMN0=Nr.
+COLUMN1=Pagesa
+COLUMN2=Principali
+COLUMN3=Interesi
+COLUMN4=Huaja
+
+IDOK=Në rregull
+
+[IDD_CALC_SAVINGS]
+TITLE=Llogaritje kursimesh
+
+IDC_MONTHLYPAYMENTTEXT=Pagesa mujore
+IDC_INITIALBALANCETEXT=Bilanci fillestar
+IDC_RATETEXT=Përdindja vjetore e interesit, %
+IDC_PERIODTEXT=Periudha, muaj
+IDC_STARTDATETEXT=Data e fillimit
+IDC_TOTALINTERESTTEXT=Interesi total
+IDC_TOTALTEXT=Totali
+
+COLUMN0=Nr.
+COLUMN1=Data
+COLUMN2=Pagesa
+COLUMN3=Interesi
+COLUMN4=Totali
+
+IDOK=Në rregull
+
+[IDD_CALC_MORTGAGE]
+TITLE=Llogari këstesh
+
+IDC_VALUETEXT=Vlera e çmuar
+IDC_AMOUNTTEXT=Shuma e huasë
+IDC_TERMTEXT=Afati (vitet)
+IDC_DATETEXT=Data e mbylljes
+IDC_RATETEXT=Përqindja e interesit, %
+IDC_TAXTEXT=Taksë vjetore pasurie
+IDC_INSURANCETEXT=Siguracioni vjetor i pasurisë
+
+IDC_REQUIREDPAYMENTTEXT=Pagesa e kërkuar
+IDC_TOTALINTERESTTEXT=Interesi total
+IDC_TOTALPMITEXT=Totali PMI
+IDC_TOTALMONTHSTEXT=Numri i muajve
+
+COLUMN0=Data
+COLUMN1=Principali
+COLUMN2=Interesi
+COLUMN3=Taksa
+COLUMN4=Siguracioni
+COLUMN5=PMI
+COLUMN6=Pagesa
+COLUMN7=Totali
+
+IDOK=Në rregull
+IDHELP=Ndihma
+
+[IDD_CATEGORY]
+TITLE=Kategoria
+
+IDC_NAMETEXT=Kategoria
+IDC_SUBNAMETEXT=Nënkategoria
+IDC_COMMENTTEXT=Koment
+IDC_NUMBERTEXT=Numri
+
+IDC_BUDGETTEXT=Kufiri i buxhetuar
+IDC_BUDGETPERIODTEXT=Periudha e buxhetit
+
+PERIOD_ONE_WEEK=Një javë
+PERIOD_TWO_WEEKS=Dy javë
+PERIOD_HALF_MONTH=Gjysëm muaji
+PERIOD_ONE_MONTH=Një muaj
+PERIOD_TWO_MONTHS=Dy muaj
+PERIOD_THREE_MONTHS=Tre muaj
+PERIOD_FOUR_MONTHS=Katër muaj
+PERIOD_SIX_MONTHS=Gjashtë muaj
+PERIOD_NINE_MONTHS=Nëntë muaj
+PERIOD_ONE_YEAR=Një vit
+
+IDC_INCOME=Të ardhura
+IDC_EXPENSE=Shpenzime
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+ERR_NOCATNAME=Kategoria duhet të ketë emër!
+ERR_CATEXIST=Ekziston një kategori me këtë emër!
+TAB_GENERAL=Të përgjithshme
+TAB_SIMPLE_BUDGET=Buxheti i thjeshtë
+TAB_MONTHLY_BUDGET=Buxheti mujor
+IDC_INCOME_LIMIT_TEXT=Kufiri i të ardhurave
+IDC_EXPENSE_LIMIT_TEXT=Kufiri i shpenzimeve
+IDC_ADD=Shto...
+IDC_UPDATE=Përditëso...
+IDC_DELETE=Fshij
+MONTH_COLUMN=Muaji
+LIMIT_COLUMN=Kufiri
+
+[IDD_CATEGORYCHANGE]
+TITLE=Ndrysho kategorinë
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+[IDD_CATEGORYMERGE]
+TITLE=Shkrirje kategorie
+
+IDC_CATEGORYTEXT=Shkrije category
+IDC_CATEGORYTEXT1=me kategorinë
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+ERR_NOCATEGORIES=Të dy kategoritë ekzistuese duhet të zgjidhen dhe të jenë të ndryshme!
+ERR_SOURCECATEGORY=Kategoria burimore nuk duhet të ketë nënkategori!
+ERR_TARGETCATEGORY=Kategoria e synuar nuk duhet të jetë nënkategori e kategorisë burimore!
+
+[IDD_COLORS]
+TITLE=Fontet dhe Ngjyrat
+
+IDC_ACCOUNTLISTTEXT=Listë llogarish
+IDC_ACCOUNTTEXT=Regjistër llogarish
+IDC_BANKTEXT=Bankat
+IDC_CATEGORYTEXT=Kategoritë
+IDC_PAYEETEXT=Të paguarit
+IDC_SCHEDULETEXT=Afatet
+IDC_REPORTTEXT=Raportet
+IDC_PORTFOLIOTEXT=Portofoli
+
+IDC_LISTFONTTEXT=Tabelë fontesh
+
+IDC_TABLEFONTCOLORTEXT=Ngjyrë teksti tabele
+IDC_TABLEBILLFONTCOLORTEXT=Ngjyrë faturash të ardhshme
+IDC_TABLEBACKGROUNDTEXT1=Ngjyra 1 e sfondit të tabelës
+IDC_TABLEBACKGROUNDTEXT2=Ngjyra 2 e sfondit të tabelës
+
+IDC_RESTORE=Origjinalet
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+[IDD_CURRENCY]
+TITLE=Kurset e këmbimit valutor
+IDC_SHOWALL=Tregoji të tëra valutat
+IDC_CURRENCYINFO=Valuta e paracktuar: %s
+IDC_DOWNLOAD=Shkarkoje...
+IDC_UPDATE=Përdito kurse
+
+IDOK=Mbyll
+IDHELP=Ndihma
+
+COLUMN0=Valuta
+COLUMN1=1
+COLUMN2=Data
+COLUMN3=Në
+
+ERR_WEBUPDATE=Gabim në përditimin e kursit të këmbimit me internet. Kontrollo lidhjen me internetin!
+ERR_INVALIDRATE=U morën kurse të pavlefshme.
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=Kursi i këmbimit
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+[IDD_SHEETREPORTFILTER]
+TITLE=Filtër raporti
+
+[IDD_DATESRANGE]
+TITLE=Zgjidh periudhën
+
+CURRENTWEEK=Java aktuale
+PREVIOUSWEEK=Java e kaluar
+LAST30DAYS=30 ditët e fundit
+CURRENTMONTH=Muaji aktual
+PREVIOUSMONTH=Muaji i kaluar
+CURRENTQUARTER=Tremujori aktual
+PREVIOUSQUARTER=Tremujori i kaluar
+CURRENTYEAR=Viti aktual
+PREVIOUSYEAR=Viti i kaluar
+
+IDC_PERIODSTEXT=Periudhat e paracaktuara
+IDC_CUSTOMDATES=Data të përcaktuara
+IDC_FROMTEXT=Nga
+IDC_TOTEXT=Deri
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+CURRENT=Aktual
+CUSTOM=Personale
+IDC_BUDGETDATES=Periudha buxheti:
+LAST12MONTHS=12 muajt e fundit
+MONTH_TO_DATE=Muaji deri tani
+QUARTER_TO_DATE=Tremujori deri tani
+YEAR_TO_DATE=Viti deri tani
+ALL_TO_DATE=Të gjitha deri tani
+ALL_DATES=Të gjitha datat
+
+[IDD_FILTERACCOUNT]
+TITLE=Zgjidh llogaritë
+
+IDC_SELECTALL=Zgjidhi të tëra
+IDC_CLEARALL=Pastroji të tëra
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+IDC_SELECT_OPEN=Zgjidh të hapurën
+
+[IDD_FILTERCATEGORY]
+TITLE=Zgjidh kategoritë
+
+IDC_SELECTALL=Zgjidhi të tëra
+IDC_CLEARALL=Pastroji të tëra
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+[IDD_FILTERPAYEE]
+TITLE=Zgjidh të paguarit
+
+IDC_SELECTALL=Zgjidhi të tëra
+IDC_CLEARALL=Pastroji të tëra
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+[IDD_IMPORT]
+TITLE=Importoje
+
+IDC_IMPORTTEXT=Zgjidh një llogari për transaksionet e importuara
+IDC_DATEFORMATTEXT=Formati i datës
+
+IDC_NEWACCOUNT=Llogari e re...
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+ERR_NOACCOUNT=Duhet të zgjedhësh një llogari!
+EXPORTTITLE=Eksportoje
+IMPORTTEXT=%d transaksione u importuan
+EXPORTTEXT=Zgjidh një llogari për të eksportuar
+IDHELP=Ndihma
+IDC_DETECT_DUPLICATES=Gjej duplikatat
+IDC_IMPORT_RULES=Importo rregullat
+IDC_APPLY_IMPORT_RULES=Zbato rregullat e importimit
+ERR_PARSING=Ky skedar nuk mund të importohet. Ai është dëmtuar ose nuk përmbush standardin.
+ERR_NO_TRANSACTIONS=Skedari nuk ka transaksione.
+ERR_TRANSACTIONS_FOR_MANY_ACCOUNTS=Skedari ka transaksione për më shumë se një llogari dhe nuk mund të importohet.
+STATUS_READING_FILE=Po lexohet skedari...
+STATUS_PARSING_FILE=Po analizohet skedari...
+STATUS_IMPORTING_TRANSACTIONS=Po importohen transaksionet...
+STATUS_IMPORTING_BILLS=Po importohen faturat dhe depozitat...
+STATUS_IMPORTING_ACCOUNTS=Po importohen llogaritë...
+STATUS_IMPORTING_CATEGORIES=Po importohen kategoritë...
+STATUS_IMPORTING_INVESTMENTS=Po importohen investimet...
+STATUS_IMPORTING_HISTORICAL_PRICES=Po importohet çmimet historike të stokut...
+IDC_DECIMALSEPARATORTEXT=Ndarës dhjetor
+INFO_AUTOMATICALLY_CREATED_ACCOUNTS=AceMoney nuk mundi t'i përputhte të gjitha llogaritë sipas numrit të tyre dhe krijoi llogari(të) e mëposhtme:
+
+
+[IDD_EXPORT]
+TITLE=Eksportoje
+
+IDC_EXPORTTEXT=Zgjidh një llogari për ta eksportuar
+IDC_STARTDATETEXT=Data e fillimit
+IDC_ENDDATETEXT=Data e mbarimit
+
+ERR_NOACCOUNT=Lutemi, zgjidhni një llogari
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+[IDD_LANGUAGE]
+TITLE=Zgjidh gjuhën
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+[IDD_INTERNATIONALSETTINGS]
+TITLE=Konfigurimi ndërkombëtar
+
+IDC_DATETEXT=Forma e datës
+IDC_DATESEPARATORTEXT=Ndarja e datës
+IDC_CURRENCYTEXT=Valute paracaktuar
+IDC_DECIMALSEPARATORTEXT=Pika decimale
+IDC_THOUSANDSEPARATORTEXT=Ndarës mijëshe
+IDC_NUMBEROFDECIMALDIGITSTEXT=Numri i shifrave decimale
+
+ERR_THOUSANDDECIMAL=Pika decimale dhe ndarësi i mijëshes nuk mund të jenë të njëjtë.
+ERR_THOUSAND=Ndarës i pasaktë mijëshesh!
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+[IDD_OPTIONS]
+TITLE=Mundësitë
+
+IDC_GENERALGROUP=Të përgjithshme
+IDC_SHOWCLOSEDACCOUNTS=Trego llogaritë e mbyllura
+IDC_SHOWACCOUNTNUMBERS=Trego numrat e llogarive
+IDC_SHOWGRID=Trego vijat në tabelë
+IDC_SHOWFUTUREBILLS=Trego faturat e ardhshme
+IDC_LOADLASTFILE=Ngarko skedarin e fundit në hapje
+IDC_SHOWCOMMENT=Trego komentet e transaksioneve
+IDC_AUTOSAVE=Ruajtje automatike e dokumenteve
+IDC_SHOWSPLASHSCREEN=Trego ekranin informues
+IDC_SHOWFILENAME=Trego emrin e skedarit në titull
+IDC_SHOWSOLDSTOCKS=Trego stoqet solide
+IDC_ADDINVESTMENTVALUE=Shto kostot e aksioneve në pasqyrat e llogarive
+IDC_SHOWDEPOSITSFIRST=Depozitat janë transaksionet e para të ditës
+IDC_TRANSFERSTATUS=Ndrysho gjendjen e transfertave tek të dy llogaritë
+IDC_SHOWCATEGORYSTATUS=Trego analizën e kategorisë në rrjeshtin e informacionit
+
+IDC_STARTPAGEGROUP=Faqja nisëse
+IDC_ACCOUNTLIST=Listë llogarish
+IDC_FAVORITEACCOUNT=Llogari e preferuar
+
+IDC_PASSWORDGROUP=Fjalëkalimi
+IDC_OLDPASSTEXT=Fjalëkalimi aktual
+IDC_NEWPASSTEXT=Fjalëkalimi i ri
+IDC_RETYPETEXT=Rifut fjalëkalimin e ri
+
+IDC_TRANSACTIONTYPETEXT=Tip i ri transaksionesh
+LASTUSEDTYPE=Tipi i fundit i përdorur
+
+IDC_TRANSACTIONNUMBERTEXT=Numër i ri transaksioni
+NUMBER_EMPTY=Bosh
+NUMBER_DEBIT=Debi
+NUMBER_AUTO=Kontrolli i fundit plus një
+
+IDC_NUMBEROFFUTUREBILLSMONTHSTEXT=Trego faturat e ardhshme për
+0_MONTHS_AHEAD=Asnjë
+1_MONTHS_AHEAD=1 muaj para
+2_MONTHS_AHEAD=2 muaj para
+3_MONTHS_AHEAD=3 muaj para
+4_MONTHS_AHEAD=4 muaj para
+5_MONTHS_AHEAD=5 muaj para
+6_MONTHS_AHEAD=6 muaj para
+7_MONTHS_AHEAD=7 muaj para
+8_MONTHS_AHEAD=8 muaj para
+9_MONTHS_AHEAD=9 muaj para
+10_MONTHS_AHEAD=10 muaj para
+11_MONTHS_AHEAD=11 muaj para
+12_MONTHS_AHEAD=12 muaj para
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+ERR_INVALIDOLDPASSWORD=Fjalëkalimi i vjetër i pasaktë
+ERR_INVALIDNEWPASSWORD=Fjalëkalimi i ri i pasaktë
+IDC_SHOWDUPLICATECHECKWARNING=Trego njoftimin e çekut të duplikuar
+IDC_NETWORK=Rrjeti...
+IDC_CHECKFORUPDATES=Kontrollo për përditim programi
+IDC_AUTOFILLTRANSACTIONCOMMENTS=Vetëmbush komentet e transaksionit
+IDC_SORTSAMEDAYTRANSACTIONSBYNUMBER=Rendit transaksionet e së njëjtës ditë sipas numrit
+IDC_CONFIRM_EDIT_RECONCILED_TRANSACTION=Konfirmo ndryshimet në transaksionet e pastruara apo të përputhura
+IDC_CONFIRM_DELETE_TRANSACTION=Konfirmo fshirjen e transaksionit
+IDC_CONFIRM_DELETE_BILL=Konfirmo fshirjen e faturës
+IDC_CONFIRM_BILL_AMOUNT_CHANGE=Konfirmo ndryshimin e shumës së faturës
+IDC_CONFIRM_BILL_ACCOUNT_CHANGE=Konfirmo ndryshimin e llogarisë së faturës
+18_MONTHS_AHEAD=18 muaj para
+24_MONTHS_AHEAD=Dy vjet para
+
+[IDD_PASSWORD]
+TITLE=Fut fjalëkalimin
+IDC_PASSTEXT=Fjalëkalimi
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+ERR_INVALIDPASSWORD=Fjalëkalim i pasaktë
+
+[IDD_PAYEE]
+TITLE=I paguari
+
+IDC_NAMETEXT=Emri
+
+IDC_ADDRESSTEXT=Adresa
+IDC_CITYTEXT=Qyteti
+IDC_STATETEXT=Provinca
+IDC_ZIPTEXT=Kodi Postar
+IDC_COUNTRYTEXT=Vendi
+
+IDC_HOMEPHONETEXT=Tel. shtëpi
+IDC_WORKPHONETEXT=Tel. Zyrë
+IDC_MOBILEPHONETEXT=Celular
+IDC_FAXTEXT=Faks
+IDC_PAGERTEXT=Biper
+
+IDC_EMAILTEXT=E-mail
+IDC_WEBSITETEXT=Web-site
+
+IDC_COMMENTTEXT=Koment
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+ERR_NOPAYEENAME=I paguari duhet të ketë emër!
+IDC_ACTIVEPAYEE=I paguari aktiv
+IDC_GO=Vazhdo
+
+[IDD_PAYEECHANGE]
+TITLE=Ndrysho të paguarin
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+[IDD_PAYEEMERGE]
+TITLE=Bashkoji të paguarit
+IDC_PAYEETEXT=Bashkoje të paguarin
+IDC_PAYEETEXT1=me të paguarin
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+ERR_NOPAYEES=Duhet të zgjidhen të dy të paguarit dhe të jenë të ndryshëm!
+SELECTED_PAYEES=Të paguarit e zgjedhur
+
+[IDD_PRINTPREVIEW]
+TITLE=Parapamje në printer
+IDC_PAGETEXT=Faqe
+IDC_PAGEOFTEXT=nga
+IDC_PRINT=Printoje
+IDC_CLOSE=Mbyll
+IDC_PAGEPROPERTIES=Konfigurim faqeje...
+IDC_PREVIOUSPAGE=<< Mëparshme
+IDC_NEXTPAGE=Tjetra >>
+IDC_ZOOMIN=Zmadhoje
+IDC_ZOOMOUT=Zvogëloje
+
+IDOK=Në rregull
+IDHELP=Ndihma
+
+[IDD_PAGESETUP]
+TITLE=Konfigurim faqeje
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDC_PAPERBOX=Fleta
+IDC_ORIENTATIONBOX=Orintimi
+IDC_MARGINBOX_MM=Hapësirë anësore (mm)
+IDC_MARGINBOX_INCH=Hapësirë anësore (inçe)
+IDC_TITLETEXT=Titulli:
+IDC_PAPERSIZETEXT=Përmasa:
+IDC_PORTRAIT=Për së gjati
+IDC_LANDSCAPE=Për së gjeri
+IDC_TMTEXT=Krye:
+IDC_BMTEXT=Fund:
+IDC_LMTEXT=Majtas:
+IDC_RMTEXT=Djathtas:
+IDC_UNITTEXT=Njësitë:
+UNIT0=Milimetra
+UNIT1=Inçe
+
+[IDD_REGISTER]
+TITLE=Regjistrimi
+
+IDC_NAMETEXT=Emri:
+IDC_SERIALNUMBERTEXT=Numri serial:
+
+IDC_ORDER=Bli...
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+[IDD_SEARCH]
+TITLE=Gjej transaksione
+
+IDC_DATETEXT=Data
+IDC_FROMTEXT=nga
+IDC_TOTEXT=deri
+IDC_AMOUNTTEXT=Shuma
+IDC_AMOUNTFROMTEXT=nga
+IDC_AMOUNTTOTEXT=deri
+IDC_COMMENTTEXT=Teksti
+IDC_SEARCH=Kërkoje
+IDC_CLOSE=Mbyll
+IDC_ACCOUNTTEXT=Llogaria
+ALLACCOUNTS=Të gjitha llogaritë
+
+[IDD_SPLIT]
+TITLE=Ndarje sipas kategorive
+
+IDC_CATEGORYTEXT=Kategoria
+IDC_SUBCATEGORYTEXT=Nënkategoria
+IDC_AMOUNTTEXT=Shuma
+IDC_ADD=Shtoje
+IDC_EDIT=Ndryshoje
+IDC_DELETE=Fshije
+IDC_TOTALTEXT=Totali:
+IDC_UNASSIGNEDTEXT=Të papërcaktuar:
+IDC_COMMENTTEXT=Koment
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+COLUMN0=Kategoria
+COLUMN1=Nënkategoria
+COLUMN2=Shuma
+COLUMN3=Koment
+
+ERR_BADTOTAL=Sasia e shumave të ndara nuk është e barabartë me shumën e transaksionit. A doni ta ndryshoni shumën e transaksionit?
+
+[IDD_SPLITITEM]
+TITLE=Ndaji njësitë
+IDC_CATEGORYTEXT=Kategoria
+IDC_SUBCATEGORYTEXT=Nënkategoria
+IDC_AMOUNTTEXT=Shuma
+IDC_COMMENTTEXT=Koment
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+[IDD_TRANSACTION]
+TITLE=Transaksioni
+
+IDC_TYPETEXT=Tipi
+IDC_DEPOSIT=Depozita
+IDC_WITHDRAWAL=Tërheqja
+IDC_TRANSFER=Transferta
+IDC_ACCOUNTTEXT=Llogaria
+IDC_PAYEETEXT=I paguari
+IDC_CATEGORYTEXT=Kategoria
+IDC_SPLIT=Ndaji
+IDC_COMMENTTEXT=Koment
+IDC_DATETEXT=Të dhëna
+IDC_NUMBERTEXT=Numri
+IDC_AMOUNTTEXT=Shuma
+
+FROMTEXT=Nga
+TOTEXT=Në
+SPLIT=Ndaji
+DEBIT=Debi
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+ERR_SAMETRANFER=Nuk mund t'i kaloni tek e njëjta llogari!
+ERR_INVALIDACCOUNT=Emër i pavlefshëm llogarie!
+ERR_SPLITAMOUNT=Shuma e transaksionit duhet të jetë e njëjtë me shumën e ndarjeve.
+ERR_SPLIT_HAS_TRANSFERS=Transferta nuk mund të ketë transferta të birësuara pas ndarjes! Hiqi transfertat nga ndarja, pastaj ndrysho tipin e transaksionit.
+ERR_TRANSFER_FROM_SPLIT_NOT_ALLOWED=Transferta nga transaksioni i ndarë i tipit të zgjedhur nuk lejohet!
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Kursi i këmbimit
+
+IDC_SOURCEAMOUNTTEXT=Shuma burimore
+IDC_TARGETAMOUNTTEXT=Shuma e synuar
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+[IDD_TRANSACTIONCATEGORYLIST]
+TITLE=Kategori transaksionesh
+IDC_ADD=Shtoje...
+IDC_DELETE=Fshije
+IDC_EDIT=Përditoje...
+IDOK=Mbyll
+IDHELP=Ndihma
+UPDATE_TRANSACTIONS=A doni të ndryshoni transaksionet ekzistuese me emrin e ri?
+DELETE_TRANSACTIONS=A doni të pastroni kategorinë e fshirë në transaksionin ekzistues?
+
+[IDD_TRANSACTIONCATEGORY]
+TITLE=Kategori transaksionesh
+IDC_NAMETEXT=Emri
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+ERR_NONAME=Kategoria e transaksionit duhet të ketë emër!
+
+[IDD_DAYBILLS]
+TITLE=Faturat/Depozitat
+
+COLUMN0=Data
+COLUMN1=Transaksione
+COLUMN2=I paguari
+COLUMN3=Shuma
+COLUMN4=Koment
+COLUMN5=Shpeshtësia
+
+IDC_ENTER=Fute...
+IDC_EDIT=Përpunoje...
+
+IDOK=Në rregull
+IDHELP=Ndihma
+IDC_DELETE=Fshije...
+
+[IDD_LITEVERSION]
+TITLE=Versioni i Shkurtuar AceMoney
+
+IDC_TEXT=AceMoney Lite punon vetëm me një llogari përdoruesi. Llogaria e dytë nuk mund të hapet dhe skedarët me llogari të shumëfishta nuk mund të hapen. Nëse doni të menaxhoni më shumë se një llogari duhet ta përditoni programin në versionin e tij të plotë.
+IDC_WEBSITE=Përditoje...
+IDOK=Mbyll
+IDCANCEL=Anulloje
+IDC_TWO_ACCOUNTS_LIMIT=AceMoney Lite (i shkurtuar) funksionon vetëm me dy llogari. Nuk mund të krijohet llogaria e tretë dhe skedarët me më shumë se dy llogari nuk mund të hapen. Nëse dëshironi të administroni më shumë se dy llogari, duhet të përdotoni programin AceMoney në versionin e tij të rregullt.
+
+[IDD_STOCK]
+TITLE=Investimi
+
+IDC_SYMBOLTEXT=Simboli
+IDC_LOOKUP=Kontroll simboli...
+IDC_NAMETEXT=Emri
+IDC_CURRENCYTEXT=Valuta
+IDC_COMMENTTEXT=Koment
+IDC_UPDATE=Përditoje...
+IDC_WEBUPDATE=Shkarkoje...
+IDC_PRICETEXT=Histori çmimesh
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+COLUMN0=Data
+COLUMN1=Çmimi
+IDC_DATASOURCETEXT=Burim të dhënash
+IDC_TYPETEXT=Tipi
+IDC_DIVIDEBY100TEXT=Pjesëtoji kuotimet e shkarkuara me 100
+IDC_AUTO_DOWNLOAD_ENABLED=Shkarko kuotimet automatikisht
+ERR_EMPTYSYMBOL=Simboli i stokut nuk mund të jetë bosh!
+ERR_EMPTYNAME=Emri i investimit nuk duhet të jetë bosh!
+ERR_INVALIDDATASOURCE=Duhet të zgjidhni burim të vlefshëm të dhënash!
+ERR_CONNECTIONORSYMBOL=Gabim në lidhjen me internetin ose simbol i pavlefshëm stoku!
+STOCK=Stoku
+MUTUALFUND=Fondi i përbashkët
+BOND=Bono
+INDEX=Indeksi
+COMMODITY=Malli
+CURRENCY=Valuta
+REALESTATE=Prona e paluajtshme
+TRUST=Trusti
+OPTIONS=Mundësitë
+FUTURES=Të ardhshmet
+OTHER=Të tjera
+
+[IDD_STOCKPRICE]
+TITLE=Çmim stoku
+
+IDC_DATETEXT=Data
+IDC_PRICETEXT=Çmimi
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+[IDD_STOCKTRANSACTION]
+TITLE=Transaksion Investimi
+
+IDC_DATETEXT=Data
+IDC_ACCOUNTTEXT=Llogaria
+IDC_ACTIONTEXT=Veprimi
+IDC_INVESTMENTTEXT=Investimi
+
+IDC_DIVIDENDTEXT=Dividenti
+IDC_NUMBERTEXT=Numri i aksioneve
+IDC_PRICETEXT=Çmimi
+IDC_COMMISSIONTEXT=Komision
+IDC_TOTALTEXT=Totali
+
+BUY=Bli
+SELL=Shit
+DIVIDEND=Dividenti
+REINVEST=Ri-investim dividenti
+ADD=Shto aksionet
+REMOVE=Hiq aksionet
+
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+
+ERR_NEGATIVEVALUES=Numri i aksioneve, çmimeve, dividentëve, komisioneve dhe totali duhet të jenë pozitivë!
+ERR_INVALIDACTIONTYPE=Lloj i pavlefshëm veprimi!
+ERR_INVALIDACCOUNT=Llogari e pavlefshme!
+ERR_INVALIDINVESTMENT=Investim i pavlefshëm!
+IDC_COMMENTTEXT=Koment
+ERR_INCONSISTENTCURRENCY=Monedha e llogarisë së zgjedhur duhet të përkojë me monedhën e investimit!
+REINVEST_SHORT_TERM_CAPITAL_GAIN=Ri-investo Fit.Kap. Af.Shk.
+REINVEST_LONG_TERM_CAPITAL_GAIN=Ri-investo Fit.Kap. Af.Gjat.
+LONG_TERM_CAPITAL_GAIN=Dall. Fitimet Afat-Gj.
+SHORT_TERM_CAPITAL_GAIN=Dall. Fitimet Afat-Shk.
+
+[IDD_REPORTADD]
+TITLE=Shtoje te preferencat
+IDC_NAMETEXT=Emri i raportit
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+[IDD_REPORTORGANIZE]
+TITLE=Organizo raportet
+IDC_DELETE=Fshije
+IDOK=Gjeneroje
+IDCANCEL=Mbyll
+IDC_EDIT=Përpunoje
+
+[IDD_STARTUP_CURRENCY]
+TITLE=Konfigurim valute
+IDC_CURRENCYTEXT=Valuta aktuale
+IDC_NUMBEROFDECIMALSTEXT=Numri i shifrave decimalë
+IDC_DECIMALSEPARATORTEXT=Ndarësi decimal
+IDC_THOUSANDSEPARATORTEXT=Ndarësi mijësh
+IDC_EXAMPLETEXT=Shembull
+
+IDC_BACK=<< Kthehu
+IDC_NEXT=Vazhdo >>
+
+SEPARATOR_SPACE=Hapësirë
+SEPARATOR_NONE=Nuk ka ndarës
+
+ERR_THOUSANDDECIMAL=Pika decimale dhe ndarësi mijësh nuk mund të jenë të njëjtë!
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+[IDD_STARTUP_DATE]
+TITLE=Konfigurim date
+IDC_FORMATTEXT=Formati i datës
+IDC_SEPARATORTEXT=Ndarësi
+IDC_EXAMPLETEXT=Shembull
+
+IDC_BACK=<< Kthehu
+IDC_FINISH=Mbarova
+IDOK=Në rregull
+IDCANCEL=Anulloje
+
+[IDD_ACEMONEYREMINDER]
+TITLE=Kujtesë fature nga AceMoney
+
+STARTACEMONEY=Hap programin AceMoney...
+OPTIONS=Mundësitë...
+VIEWBILLS=Shih faturat...
+EXIT=Dalje
+CLOSE=Mbyll
+
+COLUMN0=Data
+COLUMN1=Transaksioni
+COLUMN2=I paguari
+COLUMN3=Shuma
+
+OPTIONSTITLE=Mundësitë
+DATAFILE=Skedar të dhënash AceMoney
+BROWSE=Shfletoje...
+SELECTFILE=Zgjidh skedarin e të dhënave
+AUTOSTART=Nisje automatike me Windows
+STARTMINIMIZED=Hape të minimizuar
+OK=Në rregull
+CANCEL=Anulloje
+
+MSG_DUEBILLS=Ka ardhur koha e faturës!
+MSG_NODUEBILLS=Nuk ka fatura për t'u paguar
+[IDD_BUDGET]
+TITLE=Buxheti
+IDC_STARTDATETEXT=Fillimi i periudhës së parë:
+IDC_FREQUENCYTEXT=Periudhë buxheti
+IDC_WEEKLY=Një javë
+IDC_EVERYOTHERWEEK=Dy javë
+IDC_TWICEAMONTH=Gjysëm muaji
+IDC_EVERYFOURWEEKS=Çdo 4 javë
+IDC_MONTHLY=Një muaj
+IDC_EVERYOTHERMONTH=Dy muaj
+IDC_QUARTERLY=Tremujor
+IDC_ANNUALLY=Një vit
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+[IDD_ARCHIVE]
+TITLE=Krijo arkivë
+IDC_DATE_TEXT=Arkivo të tëra transaksionet deri në
+IDC_DELETE=Fshiji transaksionet e arkivuara nga ky dokument
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+ERR_CREATE_ARCHIVE=Arkiva nuk i krijua dot!
+ERR_WRITE_ARCHIVE=Skedari i arkivës nuk u ruajt dot!
+[IDD_DUPLICATECHECKWARNING]
+TITLE=Njoftim për çek të duplikuar
+IDC_WARNING=Çeku numër ### është përdorur tashmë në një transaksion në këtë llogari. A doni ta përdorni përsëri?
+IDC_DONOTSHOW=Mos e trego më këtë njoftim.
+IDYES=Po
+IDNO=Jo
+[IDD_IMPORTRULE]
+TITLE=Importo rregullat
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDC_SEARCHSTRINGTEXT=Nëse përshkrimi i transaksionit të importuar ka
+IDC_PAYEETEXT=Zëvendësoje me këtë të paguar
+IDC_CATEGORYTEXT=Dhe përdor këtë kategori
+[IDD_IMPORTRULES]
+IDOK=Mbyll
+IDCANCEL=Anulloje
+TITLE=Importo rregullat
+COLUMN1=Stringu i kërkimit
+COLUMN2=I paguari
+COLUMN3=Kategoria
+IDC_ADD=Shto...
+IDC_EDIT=Përpunoje...
+IDC_DELETE=Fshije
+IDHELP=Ndihma
+IDC_IMPORT=Importo
+IDC_EXPORT=Eksporto
+ERROR_IMPORT=Nuk u krye importimi i i rregullave të importit nga %s.
+ERROR_EXPORT=Nuk u krye eksportimi i rregullave të importit drejt %s.
+IDC_FILTER_TEXT=Filtri
+IDC_CLEAR=Pastro
+[IDD_NETWORK]
+IDOK=Në rregull
+IDCANCEL=Anulloje
+TITLE=Konfigurim rrjeti
+IDC_DIRECTCONNECTION=Lidhje direkte me internetin
+IDC_MANUALPROXYCONFIG=Konfigurim manual i proksit
+IDC_PROXYSERVERPORTTEXT=Porta
+ERR_INVALID_PORT_NUMBER=Numri i portës duhet të jetë më i madh se 0 dhe më i vogël se 65535!
+IDC_PROXYSERVERTEXT=Proksi HTTP
+[DIRECTCONNECT]
+CONNECTING=Po vendoset lidhja
+REQUESTING=Po kërkohet informacioni
+RECEIVING=Po merren të dhënat
+IMPORTING=Po importohen transaksionet
+DOWNLOADED=U shkarkua(n) %d transaksion(e)
+[IDD_ONLINESERVICE]
+PROVIDER_TYPE_BANK=Banka
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+TITLE=Shërbimi online (në linjë)
+IDC_ENABLE=Shkarko transaksionet për këtë llogari
+IDC_PROVIDERTYPETEXT=Tipi i shërbimit online
+IDC_PROVIDERTEXT=Ofruesi i shërbimit online
+IDC_USERIDTEXT=Emri
+IDC_PASSWORDTEXT=Fjalëkalimi
+PROVIDER_TYPE_CREDITCARD=Karta e kreditit
+PROVIDER_TYPE_BROKERAGE=Komisioni
+IDC_CONNECTASTEXT=Lidhu si
+[IDD_DOWNLOADTRANSACTIONS]
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+TITLE=Shkarko transaksionet
+IDC_DETECT_DUPLICATES=Gjej duplikimet
+ERROR_INVALID_ACCOUNT=Llogari e pavlefshme!
+ERROR_UNKNOWN=Gabim i panjohur!
+ERROR_IMPORT=Gabim në importimin e transaksioneve të shkarkuara të kësaj llogarie!
+ERROR_ACCOUNTINFO=Gabim në marrjen e informacionit të llogarisë!
+ERROR_MISSING_CONFIG=Konfigurimi i lidhjes së drejtpërdrejtë është i mangët: mungon ofruesi, emri, fjalëkalimi ose numri i llgarisë. Ky informacion mund të vendoset në dritaren e të dhënave të llogarisë.
+ERROR_INVALID_CONFIG=Konfigurim i pasaktë i ofruesit. Lutemi ndryshojeni atë tek të dhënat e bankës dhe llogarisë.
+ERROR_CONNECT=Lidhja me serverin e bankës nuk u krye. Ndofta serveri nuk punon. Provojeni më vonë.
+ERROR_SEND=Nuk mund të dërgohet tek banka kërkesa për shkarkimin e bilancit.
+ERROR_INVALID_RESPONSE=Serveri i bankës dërgoi një përgjigje të pavlefshme.
+ERROR_AUTHENTICATION=Emër/fjalëkalim i pasaktë.
+ERROR_STATEMENT=Gabim në shkarkimin e bilancit të llogarisë!
+IDC_ENABLE_LOGGING=Aktivizo ditarin
+ERROR_INVESTMENT_DOWNLOAD=Nuk mund të shkarkohet kuota: simbol i pasaktë i stokut, burimi aktual i zgjedhur i të dhënave nuk ka të dhëna për invetime, ose keni probleme me lidhjen e internetit.
+[IDD_FILTERINVESTMENT]
+IDOK=Në rregull
+IDCANCEL=Anulloje
+TITLE=Zgjidh investime
+IDC_SELECTALL=Zgjidhi të tëra
+IDC_CLEARALL=Pastroji të tëra
+IDHELP=Ndihma
+[IDD_FILTERTAG]
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDC_SELECTALL=Zgjidhi të tëra
+IDC_CLEARALL=Pastroji të tëra
+IDHELP=Ndihma
+TITLE=Zgjidh etiketat
+[IDD_FILTERTEXT]
+IDOK=Në rregull
+IDCANCEL=Anulloje
+IDHELP=Ndihma
+TITLE=Fusni tekstin
+[IDD_ERROR]
+TITLE=Gabim
+ERROR=Gabim
+DESCRIPTION=Përshkrimi
+CLOSE=Mbyll
+[IDD_DOWNLOADPROGRESS]
+IDOK=Mbyll
+TITLE=Përparimi i shkarkimit
+PROGRESS_TEXT=Përfunduar %1 nga %2 detyrat
+IDC_AUTO_CLOSE=Mbylle automatikisht këtë dritare pas përfundimit të shkarkimit
+TASK_TRANSACTIONS=Transaksione për
+TASK_INVESTMENT=Kuotime për
+TASK_EXCHANGERATE=Kursi i këmbimit për
+STATUS_FAILED=Dështoi
+STATUS_SUCCESS=%d transaksione
+STATUS_CONNECTING=Po vendoset lidhja
+STATUS_REQUESTING=Po kërkohet
+STATUS_RECEIVING=Po merret
+STATUS_IMPORTING=Po importohet
+[IDD_QUESTION]
+OK=Po
+CANCEL=Jo
+TITLE=Konfirmim
+DO_NOT_ASK_AGAIN=Mos më pyet përsëri
+[TAGS]
+IMPORTANT=E rëndësishme
+WORK=Pune
+PERSONAL=Personale
+TODO=Detyra
+LATER=Më vonë
+[IDD_BUDGET_LIMIT]
+TITLE=Kufiri i buxhetit
+IDC_CATEGORY_TEXT=Kategoria
+IDC_MONTH_TEXT=Muaji
+IDC_INCOME_LIMIT_TEXT=Kufiri i të ardhurave
+IDC_EXPENSE_LIMIT_TEXT=Kufiri i shpenzimeve
+IDOK=Në rregull
+IDCANCEL=Anulloje
+[IDD_TAGLIST]
+TITLE=Etiketa transaksioni
+IDC_ADD=Shto...
+IDC_DELETE=Fshije
+IDC_EDIT=Përditëso...
+IDOK=Mbylle
+IDHELP=Ndihma
+DELETE_WARNING=Etiketa(t) e zgjedhur(a) do të hiqen nga të gjitha transaksionet që janë shënuar me to. Të vazhdoj?
+[IDD_TAG]
+TITLE=Etiketë transaksioni
+IDC_NAMETEXT=Emri
+IDC_COLORTEXT=Ngjyra
+IDOK=Në rregull
+IDCANCEL=Anulloje
+ERR_NONAME=Emri i etiketës së transaksionit nuk mund të jetë bosh!
+ERR_EXISTS=Ekziston një etiketë transaksioni me këtë emër. Lutemi zgjidhni një emër tjetër.
+[IDD_REPORTNAME]
+TITLE=Emri i raportit
+IDC_NAMETEXT=Emri i raportit
+IDOK=Në rregull
+IDCANCEL=Anulloje
+ERROR_EMPTY=Emri i raportit nuk mund të jetë bosh!
+ERROR_EXIST=Ekziston në raport me këtë emër aktualisht. A t'i mbivihem?

@@ -1,0 +1,912 @@
+ProgramID=AceMoney
+Language=Bulgarian
+
+///////////////////////////////////////////////////////////////////////////////
+[MAIN]
+CATEGORIES=categories_bg.dat
+BANKS=banks_bg.dat
+ACCOUNTTYPES=accounttypes_bg.dat
+
+HOMEPAGE=http://www.mechcad.net/products/acemoney/index_r.html
+TUTORIAL=http://www.mechcad.net/products/acemoney/tutorial_r.html
+
+STATUS=Готов
+TRANSFER=Превод
+DEPOSIT=Приход
+WITHDRAWAL=Разход
+TO=на
+FROM=от
+TOTAL=Общо
+CLEAREDTOTAL=Подтвержденный баланс
+RECONCILEDTOTAL=Занесенный баланс
+UNCLEAREDTOTAL=Неподтвержденный баланс
+TODAYTEXT=Днес
+PAGE=Страница
+UNASSIGNED=(няма запис)
+SAVEMODIFIED=Да запазя ли промените?
+REPLACEMENTS=замени са направени
+INVALIDNUMBER=Неправилно въведено число!
+
+[MENU]
+ID_FILE=Файл
+ID_FILE_NEW=Нов
+ID_FILE_OPEN=Отвори...
+ID_FILE_SAVE=Запази
+ID_FILE_SAVE_AS=Запази като...
+ID_FILE_IMPORT=Импорт...
+ID_FILE_EXPORT=Експорт...
+ID_FILE_PRINT=Печат...
+ID_FILE_PRINT_PREVIEW=Преглед...
+ID_APP_EXIT=Край
+
+ID_EDIT=Редактиране
+ID_EDIT_DELETE=Изтрий
+ID_EDIT_INSERT=Вмъкни
+ID_EDIT_SELECTALL=Избери всичко
+ID_EDIT_PROPERTIES=Свойства...
+
+ID_VIEW=Покажи
+ID_VIEW_ACCOUNTS=Сметки
+ID_VIEW_BANKS=Банки
+ID_VIEW_PAYEES=Контрагенти
+ID_VIEW_CATEGORIES=Категории
+ID_VIEW_SCHEDULE=Разписание
+ID_VIEW_REPORTS=Отчети
+ID_VIEW_PORTFOLIO=Акции
+
+ID_ACCOUNTS=Сметки
+ID_ACCOUNTS_ADD=Добави...
+ID_ACCOUNTS_TYPE=Видове...
+
+ID_REPORTS=Отчети
+ID_REPORTS_ADD=Добави в отчети...
+ID_REPORTS_ORGANIZE=Организация...
+
+ID_TOOLS=Настройки
+ID_TOOLS_CURRENCY=Курсове на валути...
+ID_TOOLS_OPTIONS=Настройки...
+ID_TOOLS_LANGUAGE=Език...
+ID_TOOLS_BACKUP=Архивни копия...
+ID_TOOLS_BUDGET=Бюджет...
+ID_TOOLS_COLORS=Шрифтове и цветове...
+
+ID_HELP=Помощ
+ID_HELP_TOPICS=Съдержание
+ID_HELP_HOMEPAGE=AceMoney Web Сайт...
+ID_HELP_SUPPORT=Техническа поддръжка...
+ID_HELP_FORUM=Форум...
+ID_HELP_WHATSNEW=Какво ново...
+ID_HELP_TUTORIAL=Онлайн учебник...
+ID_HELP_REGISTER=Регистрация на AceMoney...
+ID_HELP_ORDER=Закупи AceMoney...
+ID_HELP_ABOUT=За продукта...
+
+[TOOLBAR]
+ID_FILE_NEW=Нов
+ID_FILE_OPEN=Отвори
+ID_FILE_SAVE=Запази
+ID_VIEW_BACK=Назад
+ID_VIEW_FORWARD=Напред
+ID_VIEW_HOME=Главно
+ID_VIEW_ACCOUNTS=Сметки
+ID_VIEW_BANKS=Банки
+ID_VIEW_PAYEES=Контр.
+ID_VIEW_CATEGORIES=Категории
+ID_VIEW_SCHEDULE=Разписание
+ID_VIEW_REPORTS=Отчети
+ID_VIEW_PORTFOLIO=Акции
+ID_HELP_HOMEPAGE=Интернет
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNTLIST]
+Title=Сметки
+IDC_ADD=Добави
+IDC_BILLS=Разписание
+IDC_REPORTS=Отчети
+IDC_CURRENCY=Валути
+IDC_WEBUPDATE=Даунлоад курсове
+IDHELP=Помощ
+
+LASTUPDATE=Промяна
+
+ID_ACCOUNT_OPEN=Открий
+ID_ACCOUNT_ADD=Добави нова Сметка
+ID_ACCOUNT_DELETE=Изтрий
+ID_ACCOUNT_EDIT=Свойства
+
+DELETE_CONFIRMATION=Сметката %s ще бъде изтрита заедно със всички транзакции! Потвърдете?
+
+UPDATE_SUCCESS=Курсовете са обновени!
+UPDATE_FAILURE=Грешка при обновяването на курсовете.
+UPDATE_NOTREQUIRED=Няма нужда от обновяване!
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPORTFOLIO]
+TITLE=Акции
+
+IDC_NEWTRANSACTION=Нова транзакция...
+
+IDC_ADD=Добави инвестиция...
+IDC_EDIT=Редактирай...
+IDC_DELETE=Изтрий...
+
+IDC_WEBUPDATE=Даунлоад цени
+
+STOCKLIST=Акции
+STOCKTRANSACTIONLIST=Транзакции
+
+IDHELP=Помощ
+
+COLUMN0=Символ
+COLUMN1=Наименование
+COLUMN2=Текуща цена
+COLUMN3=Брой
+COLUMN4=Общо
+COLUMN5=Печалба
+
+TRANSACTIONSCOLUMN0=Дата
+TRANSACTIONSCOLUMN1=Действие
+TRANSACTIONSCOLUMN2=Символ
+TRANSACTIONSCOLUMN3=Сметка
+TRANSACTIONSCOLUMN4=Дивидент
+TRANSACTIONSCOLUMN5=Цена
+TRANSACTIONSCOLUMN6=Брой
+TRANSACTIONSCOLUMN7=Комисион
+TRANSACTIONSCOLUMN8=Общо
+
+CANTBEDELETED=Тази инвестиция се среща в транзакции, не може да се изтрие!
+DELETECONFIRMATION=Тази инвестиция ще бъде изтрита. Потвърдете?
+UPDATEISNOTREQUIRED=Няма нужда от обновяване!
+UPDATEISNOTCOMPLETE=Някои инвестиции така и не се обновиха!
+INVESTMENTNOTCREATED=Създайте поне една инвестиция!
+
+ID_EDIT_OPEN=Редактирай
+ID_EDIT_INSERT=Създай
+ID_EDIT_DELETE=Изтрий
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMACCOUNT]
+Title=Сметка
+IDC_ADD=Нова транзакция
+IDC_EDIT=Редактиране
+IDC_DELETE=Изтрий транзакция
+IDC_BALANCE=Баланс
+IDC_WEBSITE=Интернет сайт на банката
+IDC_ACCOUNT=Свойства на сметката
+IDC_BANK=Свойства на банката
+IDC_MONTHREPORT=Отчет за месец
+IDC_REPORT=Отчет за 30 дни
+IDC_HIDERECONCILED=Скрий разнесените
+IDHELP=Помощ
+
+COLUMN0=Номер
+COLUMN1=Дата
+COLUMN2=Контрагент
+COLUMN3=Категория
+COLUMN4=С
+COLUMN5=Разход
+COLUMN6=Приход
+COLUMN7=Общо
+COLUMN8=Забележка
+
+BANKISNOTASSIGNED=Изберете банка!
+PAGEISNOTASSIGNED=Тази банка няма зададен уеб сайт
+STATUS=За текущия месец изхарчено %.2f по категория %s
+STATUSINCOME=За текущия месец получено %.2f по категория %s
+
+ID_EDIT_OPEN=Редактирай
+ID_TRANSACTION_UNCLEARED=Не подтвърдена
+ID_TRANSACTION_CLEARED=Подтвърдена
+ID_TRANSACTION_RECONCILED=Разнесена
+ID_EDIT_INSERT=Нова транзакция...
+ID_EDIT_INSERTBILL=Запиши плащане...
+ID_EDIT_DELETE=Изтрий
+ID_EDIT_CATEGORY=Категория...
+ID_EDIT_PAYEE=Контрагент...
+
+BILLDELETECONFIRMATION=Эта команда удалит все будущие транзакции согласно расписанию. Продолжить?
+TRANSACTIONDELETECONFIRMATION=Потвърдете?
+RECONCILEDTRANSACTIONCONFIRMATION=Эта транзакция помечена как Занесенная, ее изменения не рекомендуются. Продолжить?
+CLEAREDTRANSACTIONCONFIRMATION=Эта транзакция помечена как Подтвержденная, ее изменения не рекомендуются. Продолжить?
+CANNOTSORTBYTOTAL=Сортировка по Общо не имеет смысла!
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMBANKLIST]
+IDC_ADD=Добавить банк
+IDC_EDIT=Редактировать
+IDC_DELETE=Изтрий банк
+IDC_DELETEUNUSED=Изтрий неиспользуемые
+IDC_IMPORT=Импорт...
+IDHELP=Помощ
+
+COLUMN0=Название банка
+COLUMN1=Адрес
+COLUMN2=Сайт в интернете
+COLUMN3=Забележка
+
+CANTBEDELETED=Има сметки в тази банка. Не може да се изтрие.
+DELETECONFIRMATION=Потвърдете?
+DELETEUNUSED=Потвърдете изтриване на всички банки в които няма сметки
+
+ID_EDIT_OPEN=Редактирай
+ID_EDIT_INSERT=Нова банка
+ID_EDIT_DELETE=Изтрий
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMCATEGORYLIST]
+IDC_ADD=Нова категория
+IDC_EDIT=Редактирай
+IDC_DELETE=Изтрий
+IDC_DELETEUNUSED=Изтрий неизползваните
+IDC_REPORT=Отчет по категории
+IDC_BUDGETREPORT=Бюджет за период
+IDC_BUDGET=Настройки на бюджета...
+IDC_IMPORT=Импортирай...
+IDC_MERGE=Обедини
+IDHELP=Помощ
+
+COLUMN0=Категория
+COLUMN0a=Номер
+COLUMN1=Бюджет
+COLUMN2=Забележка
+COLUMN1a=Приход
+COLUMN2a=Разход
+COLUMN3=Забележка
+
+CANTBEDELETED=Не може да се изтрие категория със записани транзакции.
+PARENTCANTBEDELETED=Първом изтрийте всички подкатегории.
+DELETECONFIRMATION=Потвърдете
+DELETEUNUSED=Потвърдете изтриване на всички категории по които няма транзакции.
+
+ID_EDIT_OPEN=Редактирай
+ID_EDIT_INSERT=Създай...
+ID_EDIT_DELETE=Изтрий
+
+TOTALINCOME=Приходи:
+TOTALEXPENSE=Разходи:
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMPAYEELIST]
+IDC_ADD=Добави
+IDC_EDIT=Редактирай
+IDC_DELETE=Изтрий
+IDC_DELETEUNUSED=Изтрий неизползваните
+IDC_REPORT=Отчет по Контрагент
+IDC_MERGE=Обедини
+IDHELP=Помощ
+
+COLUMN0=Име
+COLUMN1=Адрес
+COLUMN2=Забележка
+
+CANTBEDELETED=Не може да се изтрие контрагент със записани транзакции.
+DELETECONFIRMATION=Потвърдете
+DELETEUNUSED=Потвърдете изтриване на всички контрагенти без записани транзакции?
+
+ID_EDIT_OPEN=Редактирай
+ID_EDIT_INSERT=Добави
+ID_EDIT_DELETE=Изтрий
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMREPORT]
+IDC_USEDATEFILTER=Филтър по дати
+IDC_SETDATES=Изберете дати
+IDC_USECATEGORYFILTER=Филтър по категории
+IDC_SETCATEGORIES=Изберете категории
+IDC_USEPAYEEFILTER=Филтър по контрагенти
+IDC_SETPAYEES=Изберете Контрагенти
+IDC_USEACCOUNTFILTER=Филтър по сметки
+IDC_SETACCOUNTS=Изберете сметки
+IDC_TRANSACTIONS=Отчет по транзакции
+IDC_CATEGORY=Разходи по категории
+IDC_SUBCATEGORY=Разходи по подкатегории
+IDC_PAYEE=Разходи по Контрагенти
+IDC_BUDGET=Бюджет за текущия период
+IDC_CASHFLOW=Богатство
+IDC_LAST30DAYS=Транзакции за последните 30 дни
+
+IDHELP=Помощ
+IDC_TABLE=Таблица
+IDC_CHART=Графика
+IDC_INCOMECHART=Графика на Приходите
+IDC_EXPENSECHART=Графика на Разходите
+IDC_PERIODCHART=Графика за период
+IDC_TOTALCHART=Обща графика
+
+CATEGORYCOLUMN0=Категория
+CATEGORYCOLUMN1=Сума
+CATEGORYCOLUMN2=Бюджет
+CATEGORYCOLUMN3=Разлика
+CATEGORYCOLUMN4=Код
+CATEGORYCOLUMN5=Приход
+CATEGORYCOLUMN6=Разход
+
+CASHFLOWCOLUMN0=Дата
+CASHFLOWCOLUMN1=За период
+CASHFLOWCOLUMN2=Общо
+
+OTHERS=Други
+
+GENERALREPORTS=Общи отчети
+CATEGORYREPORTS=Отчети по категории
+PAYEEREPORTS=Отчети по Контрагенти
+BUDGETREPORTS=Бюджетни отчети
+
+PAYEECOLUMN0=Контрагент
+PAYEECOLUMN1=Сума
+PAYEECOLUMN2=Приход
+PAYEECOLUMN3=Разход
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_FORMSCHEDULE]
+IDC_ENTER=Запиши
+IDC_ADD=Добави плащане
+IDC_EDIT=Редактирай плащане
+IDC_DELETE=Изтрий
+IDHELP=Помощ
+
+COLUMN0=След. дата
+COLUMN1=Транзакция
+COLUMN2=Контрагент
+COLUMN3=Сума
+COLUMN4=Забележка
+COLUMN5=Периодичност
+
+IDC_TABLE=Таблица
+IDC_CALENDAR=Календар
+
+DELETECONFIRMATION=Потвърдете?
+
+ID_EDIT_OPEN=Запиши
+ID_EDIT_INSERT=Добави
+ID_EDIT_DELETE=Изтрий
+ID_EDIT_PROPERTIES=Редактирай
+
+///////////////////////////////////////////////////////////////////////////////
+[IDD_ABOUT]
+TITLE=О программе
+
+[IDD_ACCOUNT]
+TITLE=Сметка
+IDC_NAMETEXT=Име
+IDC_TYPETEXT=Тип
+IDC_BANKTEXT=Име на банка
+IDC_NUMBERTEXT=Номер на сметката
+IDC_BALANCETEXT=Нач. баланс
+IDC_CURRENCYTEXT=Валута
+IDC_CLOSED=Сметката е закрита
+IDC_COMMENTTEXT=Забележка
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+ERR_NOACCOUNTNAME=Името на сметката е задължително!
+ERR_NOACCOUNTTYPE=Типът на сметката е задължителен!
+
+[IDD_ACCOUNTTYPELIST]
+TITLE=Типове сметки
+IDC_ADD=Добави...
+IDC_DELETE=Изтрий
+IDC_EDIT=Промени...
+IDOK=OK
+IDCANCEL=Отказ
+
+ERR_CANTDELETE=Този тип се използва в съществуваща сметка!
+
+[IDD_ACCOUNTTYPE]
+TITLE=Типове сметки
+IDC_NAMETEXT=Име
+IDOK=OK
+IDCANCEL=Отказ
+
+ERR_NOACCTYPENAME=Името на сметката е задължително!
+
+[IDD_BACKUP]
+TITLE=Архивни копия
+IDC_LASTBACKUPTEXT=Последно копие
+IDC_FREQUENCYTEXT=Честота
+IDC_DIRECTORYTEXT=Папка
+IDC_BACKUP=Направи копие
+IDC_AUTOMATIC=Копирай автоматично
+
+IDC_EVERYDAY=Всеки ден
+IDC_EVERYWEEK=Веднъж седмично
+IDC_EVERYOTHERWEEK=Веднъж на две седмици
+
+IDC_BROWSE=Избери...
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+ERR_INVALIDDIR=Неправилна пътека!
+ERR_COPYFILE=Грешка при запис!
+ERR_BACKUPTIME=Време е за архив. Потвърдете?
+ERR_NEWFILE=Запишете файла преди да създадете архивно копие!
+
+[IDD_BALANCE]
+TITLE=Баланс
+IDC_CLEAREDDEPOSITS=Приходи
+IDC_CLEAREDWITHDRAWALS=Разходи
+IDC_RECONCILEDTEXT=Предишен баланс
+IDC_CLEAREDTEXT=Текущ баланс
+IDC_UNCLEAREDTEXT=Непотвърден баланс
+IDC_SELECTALL=Всички
+IDC_DESELECTALL=Никой
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+[IDD_BANK]
+TITLE=Банк
+IDC_NAMETEXT=Име
+IDC_ADDRESSTEXT=Адрес
+IDC_WEBSITETEXT=Интернет
+IDC_COMMENTTEXT=Забележка
+IDC_BANKNUMBERTEXT=Номер 
+IDC_SWIFTCODETEXT=Код
+IDC_TRANSFERCODETEXT=Код на превода
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+ERR_NOBANKNAME=Банката трябва да има име!
+
+[IDD_BILL]
+TITLE=Повтаряща се транзакция
+
+IDC_FREQUENCYGROUP=Периодичност
+IDC_STARTDATETEXT=Следваща дата
+
+IDC_ONCE=Еднократно
+IDC_DAILY=Веднъж на ден
+IDC_WEEKLY=Веднъж седмично
+IDC_EVERYOTHERWEEK=Веднъж на две седмици
+IDC_TWICEAMONTH=Два пъти месечно
+IDC_EVERYFOURWEEKS=Веднъж на четири седмици
+IDC_MONTHLY=Веднъж месечно
+IDC_EVERYOTHERMONTH=Веднъж на два месеца
+IDC_QUARTERLY=Веднъж на тримесечие
+IDC_EVERYSIXMONTHS=Веднъж на половин година
+IDC_ANNUALLY=Веднъж годишно
+
+IDC_BILLTYPETEXT=Тип
+BILLTYPE_CONTINUOUS=Постоянен
+BILLTYPE_NUMBERED=Временен
+
+IDC_NUMBERTEXT=Количество
+
+IDC_TRANSACTIONGROUP=Транзакция
+IDC_TYPETEXT=Тип
+IDC_DEPOSIT=Приход
+IDC_WITHDRAWAL=Разход
+IDC_TRANSFER=Превод
+IDC_ACCOUNTTEXT=Сметка
+IDC_PAYEETEXT=Контрагент
+IDC_CATEGORYTEXT=Категория
+IDC_SPLIT=Разбий
+IDC_AMOUNTTEXT=Сума
+IDC_COMMENTTEXT=Забележка
+
+IDC_ENTER=Запиши
+IDC_AUTOMATIC=Автоматично
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+ERR_INVALIDACCOUNT=Грешно име на сметка!
+
+[IDD_BUDGET]
+TITLE=Бюджет
+
+IDC_STARTDATETEXT=Начало на първия период:
+IDC_FREQUENCYTEXT=Бюджетен период:
+
+IDC_WEEKLY=Една седмица
+IDC_EVERYOTHERWEEK=Две седмици
+IDC_TWICEAMONTH=Половин месец
+IDC_EVERYFOURWEEKS=Четири седмици
+IDC_MONTHLY=Един месец
+IDC_EVERYOTHERMONTH=Два месеца
+IDC_QUARTERLY=Тримесечие
+IDC_ANNUALLY=Година
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+[IDD_CATEGORY]
+TITLE=Категория
+
+IDC_NAMETEXT=Категория
+IDC_SUBNAMETEXT=Подкатегория
+IDC_BUDGETTEXT=Бюджет
+IDC_COMMENTTEXT=Забележка
+IDC_NUMBERTEXT=Код
+
+IDC_INCOME=Приход
+IDC_EXPENSE=Разход
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+ERR_NOCATNAME=Категорията трябва да има име!
+ERR_CATEXIST=Категория с това име вече съществува!
+
+[IDD_CATEGORYMERGE]
+TITLE=Обединение на категории
+
+IDC_CATEGORYTEXT=Объедини категория
+IDC_CATEGORYTEXT1=с категория
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+ERR_NOCATEGORIES=Изберете две различни категории!
+ERR_SOURCECATEGORY=Заменяемата категория не трябва да има подкатегории!
+ERR_TARGETCATEGORY=Новата категория не может да бъде подкатегория на заменяемата!
+
+[IDD_COLORS]
+TITLE=Шрифтове и цветове
+
+IDC_ACCOUNTLISTTEXT=Списък на сметките
+IDC_ACCOUNTTEXT=Сметки
+IDC_BANKTEXT=Банки
+IDC_CATEGORYTEXT=Категории
+IDC_PAYEETEXT=Контрагенти
+IDC_SCHEDULETEXT=Разписание
+IDC_REPORTTEXT=Отчети
+IDC_PORTFOLIOTEXT=Акции
+
+IDC_LISTFONTTEXT=Шрифт в таблиците
+
+IDC_RESTORE=Стандартни
+IDOK=OK
+IDCANCEL=Отказ
+
+[IDD_CURRENCY]
+TITLE=Курсы обмена валют
+IDC_SHOWALL=Показывать все валюты
+IDC_CURRENCYINFO=Валюта по умолчанию: %s
+IDC_UPDATE=Новый курс
+IDC_DOWNLOAD=Даунлоад...
+
+IDOK=ОК
+IDHELP=Помощ
+
+COLUMN0=Валута
+COLUMN1=Курс към
+COLUMN2=Дата
+
+ERR_WEBUPDATE=Грешка при даунлоад на курсовете. 
+ERR_INVALIDRATE=Невалидна стойност на курса!
+
+[IDD_CURRENCYEXCHANGE]
+TITLE=Курс
+IDOK=OK
+IDCANCEL=Отказ
+
+[IDD_SHEETREPORTFILTER]
+TITLE=Филтър
+
+[IDD_DATESRANGE]
+TITLE=Изберете период
+
+IDC_BUDGETDATES=Бюджетен период:
+IDC_CUSTOMDATES=Потребителски период:
+IDC_FROMTEXT=От
+IDC_TOTEXT=До
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+CURRENT=Текущ
+CUSTOM=Потребителски
+
+[IDD_FILTERACCOUNT]
+TITLE=Изберете сметки
+
+IDC_SELECTALL=Всички
+IDC_CLEARALL=Никоя
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+[IDD_FILTERCATEGORY]
+TITLE=Изберете категории
+
+IDC_SELECTALL=Всички
+IDC_CLEARALL=Никоя
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+[IDD_FILTERPAYEE]
+TITLE=Изберете Контрагенти
+
+IDC_SELECTALL=Всички
+IDC_CLEARALL=Никой
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+[IDD_IMPORT]
+TITLE=Импорт
+EXPORTTITLE=Експорт
+
+IMPORTTEXT=Импортирани са %d транзакции
+EXPORTTEXT=Сметка за експорт
+
+ERR_NOACCOUNT=Изберете сметка!
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+[IDD_LANGUAGE]
+TITLE=Изберете език
+
+IDOK=OK
+IDCANCEL=Отказ
+
+[IDD_OPTIONS]
+TITLE=Настройки
+
+IDC_GENERALGROUP=Общи
+IDC_DATETEXT=Формат на датата
+IDC_DATESEPARATORTEXT=Разделител
+IDC_SHOWCLOSEDACCOUNTS=Показвай затворените сметки
+IDC_SHOWGRID=Мрежа в таблиците
+IDC_LOADLASTFILE=Отваряй последният файл при стартиране
+IDC_SHOWCOMMENT=Показвай забележки
+IDC_CURRENCYTEXT=Дифолт Валута
+IDC_AUTOSAVE=Автосейв
+IDC_SHOWFUTUREBILLS=Показвай бъдещите транзакции
+IDC_SHOWSPLASHSCREEN=Показвай сплещскрийна
+IDC_SHOWFILENAME=Показвай името на файла
+IDC_SHOWSOLDSTOCKS=Показвай продадените акции
+
+IDC_STARTPAGEGROUP=Домашняя страница
+IDC_ACCOUNTLIST=Список счетов
+IDC_FAVORITEACCOUNT=Избранный счет
+
+IDC_PASSWORDGROUP=Пароль
+IDC_OLDPASSTEXT=Текущий пароль
+IDC_NEWPASSTEXT=Новый пароль
+IDC_RETYPETEXT=Повторите новый пароль
+
+IDC_DECIMALSEPARATORTEXT=Десетичен разделител
+IDC_THOUSANDSEPARATORTEXT=Разделител на хилядите
+
+IDC_TRANSACTIONTYPETEXT=Тип на нова транзакция
+LASTUSEDTYPE=Последният въведен
+
+IDC_TRANSACTIONNUMBERTEXT=Номер на нова транзакция
+NUMBER_EMPTY=Празен
+NUMBER_DEBIT=Дебит
+NUMBER_AUTO=Последният плюс едно
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+ERR_THOUSANDDECIMAL=Десетичният разделител трябва да се различава от разделителя на хилядите!
+ERR_THOUSAND=Недопустим разделител на хиляди!
+ERR_INVALIDOLDPASSWORD=Грешна стара парола!
+ERR_INVALIDNEWPASSWORD=Грешна нова парола!
+
+[IDD_PASSWORD]
+TITLE=Въведете парола
+IDC_PASSTEXT=Парола
+
+IDOK=OK
+IDCANCEL=Отказ
+
+ERR_INVALIDPASSWORD=Неправилна парола!
+
+[IDD_PAYEE]
+TITLE=Контрагент
+IDC_NAMETEXT=Име
+IDC_ADDRESSTEXT=Адрес
+IDC_COMMENTTEXT=Забележка
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+ERR_NOPAYEENAME=Контрагента трябва да има име!
+
+[IDD_PAYEEMERGE]
+TITLE=Обедини Контрагенти
+IDC_PAYEETEXT=Да се обедини Контрагент
+IDC_PAYEETEXT1=с Контрагент
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+ERR_NOPAYEES=Изберете и двата контрагента!
+
+[IDD_PRINTPREVIEW]
+TITLE=Предварителен преглед
+IDC_PAGETEXT=Страница
+IDC_PRINT=Печат...
+
+IDOK=OK
+IDHELP=Помощ
+
+[IDD_REGISTER]
+TITLE=Регистрация
+
+IDC_NAMETEXT=Име:
+IDC_SERIALNUMBERTEXT=Ключ:
+
+IDC_ORDER=Покупка...
+
+IDOK=OK
+
+[IDD_SPLIT]
+TITLE=Разбий по категории
+
+IDC_CATEGORYTEXT=Категория
+IDC_SUBCATEGORYTEXT=Подкатегория
+IDC_AMOUNTTEXT=Сума
+IDC_ADD=Добави
+IDC_EDIT=Редактирай
+IDC_DELETE=Изтрий
+IDC_TOTALTEXT=Общо:
+IDC_UNASSIGNEDTEXT=Остатък:
+IDC_COMMENTTEXT=Забележка
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+COLUMN0=Категория
+COLUMN1=Подкатегория
+COLUMN2=Сума
+COLUMN3=Забележка
+
+ERR_BADTOTAL=Сбора на частите не съвпада със сумата на транзакцията. Да се промени ли сумата на транзакцията?
+
+[IDD_SPLITITEM]
+TITLE=Разход по категории
+IDC_CATEGORYTEXT=Категория
+IDC_SUBCATEGORYTEXT=Подкатегория
+IDC_AMOUNTTEXT=Сума
+IDC_COMMENTTEXT=Забележка
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+[IDD_TRANSACTION]
+TITLE=Транзакция
+
+IDC_TYPETEXT=Тип
+IDC_DEPOSIT=Приход
+IDC_WITHDRAWAL=Разход
+IDC_TRANSFER=Превод
+IDC_ACCOUNTTEXT=Сметка
+IDC_PAYEETEXT=Контрагент
+IDC_CATEGORYTEXT=Категория
+IDC_SPLIT=Разбий
+IDC_COMMENTTEXT=Забележка
+IDC_DATETEXT=Дата
+IDC_NUMBERTEXT=Номер
+IDC_AMOUNTTEXT=Сума
+
+FROMTEXT=От
+TOTEXT=Към
+SPLIT=Смесена
+DEBIT=Дебит
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+ERR_SAMETRANFER=От и Към сметки трябва да са различни!
+ERR_INVALIDACCOUNT=Неправилна сметка!
+ERR_SPLITAMOUNT=Сумата на транзакцията не съвпада със сумата по категории!
+
+[IDD_TRANSACTIONCURRENCY]
+TITLE=Курс
+
+IDC_SOURCEAMOUNTTEXT=Начална сума
+IDC_TARGETAMOUNTTEXT=Крайна сума
+
+IDOK=OK
+IDCANCEL=Отказ
+
+[IDD_DAYBILLS]
+TITLE=Платежи
+
+COLUMN0=Дата
+COLUMN1=Описание
+COLUMN2=Контрагент
+COLUMN3=Сумма
+COLUMN4=Забележка
+
+IDC_ENTER=Зачислить...
+IDC_EDIT=Редактировать...
+
+IDOK=OK
+IDHELP=Помощ
+
+[IDD_LITEVERSION]
+TITLE=AceMoney Lite
+
+IDC_TEXT=AceMoney Lite може да работи само с една потребителска сметка.
+IDC_WEBSITE=Ъпгрейд...
+IDOK=Край
+
+[IDD_STOCK]
+TITLE=Инвестиция
+
+IDC_SYMBOLTEXT=Код
+IDC_NAMETEXT=Име
+IDC_CURRENCYTEXT=Валута
+IDC_COMMENTTEXT=Забележка
+IDC_UPDATE=Актуализирай...
+IDC_WEBUPDATE=Даунлоад...
+IDC_PRICETEXT=История на цените
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+COLUMN0=Дата
+COLUMN1=Цена
+
+[IDD_STOCKPRICE]
+TITLE=Цена акции
+
+IDC_DATETEXT=Дата
+IDC_PRICETEXT=Цена
+
+IDOK=OK
+IDCANCEL=Отказ
+
+[IDD_STOCKTRANSACTION]
+TITLE=Инвестиционна транзакция
+
+IDC_DATETEXT=Дата
+IDC_ACCOUNTTEXT=Сметка
+IDC_ACTIONTEXT=Действие
+IDC_INVESTMENTTEXT=Инвестиция
+
+IDC_DIVIDENDTEXT=Дивидент
+IDC_NUMBERTEXT=Брой акции
+IDC_PRICETEXT=Цена
+IDC_COMMISSIONTEXT=Комисион
+IDC_TOTALTEXT=Общо
+
+BUY=Покупка
+SELL=Продажба
+DIVIDEND=Дивидент
+REINVEST=Реинвестирай дивидента
+ADD=Добави акции
+REMOVE=Премахни акции
+
+IDOK=OK
+IDCANCEL=Отказ
+IDHELP=Помощ
+
+[IDD_REPORTADD]
+TITLE=Добави
+IDC_NAMETEXT=Име на отчета
+IDOK=OK
+IDCANCEL=Отказ
+
+[IDD_REPORTORGANIZE]
+TITLE=Организирай
+IDC_DELETE=Изтрий
+IDOK=Покажи
+IDCANCEL=Отказ
